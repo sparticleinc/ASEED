@@ -1,0 +1,676 @@
+{
+    "evaluate_ai": {
+        "name": "Perplexity",
+        "url": "https://perplexity.ai"
+    },
+    "evaluate_llm": "gpt-4-1106-preview",
+    "evaluate_type": "ragas",
+    "evaluate_data": {
+        "total": 38,
+        "passed": 22,
+        "failed": 16,
+        "pass_rate": "57.89%",
+        "answer_relevancy": 0.0,
+        "context_relevancy": 0.0,
+        "faithfulness": 0.0,
+        "context_recall": 0.0,
+        "answer_correctness": 0.6370613136311862,
+        "reference_relevancy": 0.0
+    },
+    "datas": [
+        {
+            "question": "2024年MBA国家线？",
+            "answer": "根据搜索结果,2024年MBA国家线如下:\n\nA类考生国家线为162/39/78\nB类考生国家线为152/34/68\n\n也就是说,A类考生需要达到总分162分,其中管综39分,英语78分才能进入复试。B类考生需要达到总分152分,其中管综34分,英语68分才能进入复试。\n此外,一些预测分析表明,2024年MBA国家线可能在160-165分之间,略有下降。\n总的来说,2024年MBA国家线相比往年有所下降,A类考生需要162分,B类考生需要152分才能进入复试。考生需要在各科目中都取得较高的成绩才能达到国家线。",
+            "ground_truths": [
+                "A区分数线为162分，B区分数线为152分。"
+            ],
+            "keywords": [
+                "162",
+                "152"
+            ],
+            "answer_relevancy": "-",
+            "context_relevancy": "-",
+            "faithfulness": "-",
+            "context_recall": "-",
+            "answer_correctness": 0.6886011431358854,
+            "reference_relevancy": "-",
+            "passed": true
+        },
+        {
+            "question": "2024珠海居民医保每年缴费多少钱？",
+            "answer": "根据搜索结果,2024年珠海城乡居民医疗保险的个人缴费标准如下:\n\n学生和未成年人个人缴费标准为每人每年380元。\n城乡居民个人缴费标准为每人每年530元。\n\n此外,根据的信息,珠海市政府还提供财政补贴,补贴标准为每人每年750元。\n综上所述,2024年珠海城乡居民医疗保险的个人缴费标准为:\n\n学生和未成年人每人每年380元\n其他城乡居民每人每年530元\n\n同时政府还提供每人每年750元的财政补贴。",
+            "ground_truths": [
+                "2024年珠海市居民医保的个人缴费标准为城乡居民每人每年530元。学生和未成年人的个人缴费标准为每人每年380元。"
+            ],
+            "keywords": [
+                "530",
+                "380"
+            ],
+            "answer_relevancy": "-",
+            "context_relevancy": "-",
+            "faithfulness": "-",
+            "context_recall": "-",
+            "answer_correctness": 0.8521171523554842,
+            "reference_relevancy": "-",
+            "passed": true
+        },
+        {
+            "question": "2024珠海草莓音乐节来了哪些明星？",
+            "answer": "根据搜索结果,2024珠海草莓音乐节的主要表演阵容包括:\n\n朴树\n凤凰传奇\n陈楚生\n张蔷\n陈粒\n痛仰\n梅卡德尔\nSummerVapour夏至梦\n莉莉周\n\n这些都是知名的音乐人和乐队,将为2024珠海草莓音乐节带来精彩的表演。",
+            "ground_truths": [
+                "2024珠海草莓音乐节来阿弗娄、阿肆、草东没有派对、陈楚生、陈粒等明星。"
+            ],
+            "keywords": [
+                "阿弗娄||阿肆||草东没有派对||陈楚生||陈粒"
+            ],
+            "answer_relevancy": "-",
+            "context_relevancy": "-",
+            "faithfulness": "-",
+            "context_recall": "-",
+            "answer_correctness": 0.655876109413862,
+            "reference_relevancy": "-",
+            "passed": true
+        },
+        {
+            "question": "珠海华融时代广场多少米？",
+            "answer": "根据搜索结果:\n珠海华融时代广场原计划建设高度为196米，被称为\"珠海第一高楼\"。但由于多年来的停工和资金问题,该项目一直未能完工。\n目前,华融时代广场的主体建筑已经封顶,但内部装修和基础设施等工程仍未完成。根据司法评估报告,该项目的结构构件存在较多耐久性损伤,部分构件已经提前达到了耐久性极限。\n所以,虽然华融时代广场原计划建设高度为196米,但由于长期停工和建设质量问题,其最终实际高度仍存在不确定性。",
+            "ground_truths": [
+                "珠海华融时代广场的建筑高度为196米。"
+            ],
+            "keywords": [
+                "196"
+            ],
+            "answer_relevancy": "-",
+            "context_relevancy": "-",
+            "faithfulness": "-",
+            "context_recall": "-",
+            "answer_correctness": 0.6169451697091343,
+            "reference_relevancy": "-",
+            "passed": true
+        },
+        {
+            "question": "2024年武汉女子裸体现身商场发生在哪一天？",
+            "answer": "根据搜索结果，2024年武汉一女子在商场内裸奔的事件发生在2024年3月8日。搜索结果显示,这名女子全身无一遮挡物,双手捂着脸在人群中行走,引来众人围观。警方介入并正在按流程处置此事。",
+            "ground_truths": [
+                "2024年武汉女子裸体现身商场的事件发生在3月25日。"
+            ],
+            "keywords": [
+                "45376"
+            ],
+            "answer_relevancy": "-",
+            "context_relevancy": "-",
+            "faithfulness": "-",
+            "context_recall": "-",
+            "answer_correctness": 0.5605202222105998,
+            "reference_relevancy": "-",
+            "passed": false
+        },
+        {
+            "question": "福建晋江灵水中学一初中女生遭霸凌跳楼去世是什么时候？",
+            "answer": "根据搜狐新闻的报道，福建晋江灵水中学一初中女生遭霸凌跳楼去世的时间是2024年3月24日晚上9时24分。\n具体情况如下:\n\n2024年3月24日晚上9时24分，该名初中女生给母亲留下遗言称\"妈妈，我的生命要终止了，我没有办法在灵水待下去......\"\n该女生随后从租住的公寓八楼跳下身亡\n事发当天晚上,该女生的母亲刚下班回家时,就收到了女儿的遗言,并得知女儿已经跳楼\n\n综上所述,福建晋江灵水中学一初中女生遭霸凌跳楼去世的时间是2024年3月24日晚上9时24分。",
+            "ground_truths": [
+                "2024福建晋江灵水中学一初中女生遭霸凌跳楼去世的事件发生在2024年3月24日22时。"
+            ],
+            "keywords": [
+                "45375"
+            ],
+            "answer_relevancy": "-",
+            "context_relevancy": "-",
+            "faithfulness": "-",
+            "context_recall": "-",
+            "answer_correctness": 0.6900657870035005,
+            "reference_relevancy": "-",
+            "passed": false
+        },
+        {
+            "question": "黄花大闺女黄花是指什么花？",
+            "answer": "根据搜索结果,黄花大闺女中的\"黄花\"指的是菊花。\n原因如下:\n\n\n在古代,人们普遍认为菊花有贞节的品格,所以又称之为\"节花\"。未婚女子保持童贞,和菊花的品性类似,因此人们常用菊花来比喻处女。\n\n\n菊花最常见的颜色就是黄色。\"黄花\"这个词可以更直接地表现花季少女的美艳动人,经过文人的加工,便有了\"黄花闺女\"这个词。\n\n\n在中国民间流传的一个小故事中,宋武帝的女儿寿阳公主喜欢在额头贴梅花,后来人们把这种妆容称为\"梅花妆\"。但梅花是有季节性的,于是有人用其他黄色的花粉制成粉料,称之为\"花黄\"或\"额花\"。由于这种粉料是黄色的,而且用的都是未出嫁的女孩子,所以\"黄花闺女\"一词便专指未婚少女了。\n\n\n综上所述,黄花大闺女中的\"黄花\"指的就是菊花。这种说法源于古人对菊花的崇敬,以及对未婚女性的美好寄托。",
+            "ground_truths": [
+                "\"黄花大闺女\"中的\"黄花\"通常指的是菊花。古代中国认为菊花能傲霜耐寒，是高洁雅致的象征，因此用\"黄花\"来代表未出嫁的少女。"
+            ],
+            "keywords": [
+                "菊花"
+            ],
+            "answer_relevancy": "-",
+            "context_relevancy": "-",
+            "faithfulness": "-",
+            "context_recall": "-",
+            "answer_correctness": 0.6479413716738742,
+            "reference_relevancy": "-",
+            "passed": true
+        },
+        {
+            "question": "卧薪尝胆的主人公是谁？",
+            "answer": "根据搜索结果,卧薪尝胆的主人公是越王勾践。\n具体来说:\n\n\n春秋末期,越国被吴国大败,越王勾践被俘虏到吴国。\n\n\n为了报仇雪耻,勾践刻苦自励,据说他睡觉睡在柴草上,吃饭睡觉前都要尝一尝苦胆,以此策励自己不要忘记耻辱。\n\n\n经过长期的准备,勾践最终打败了吴国,实现了复国的目标。\n\n\n因此,卧薪尝胆这个成语的主人公就是越王勾践。这个故事来源于《史记》,描述了勾践刻苦自励,最终成就大事的事迹。",
+            "ground_truths": [
+                "卧薪尝胆的主人公是越王勾践。"
+            ],
+            "keywords": [
+                "勾践"
+            ],
+            "answer_relevancy": "-",
+            "context_relevancy": "-",
+            "faithfulness": "-",
+            "context_recall": "-",
+            "answer_correctness": 0.6384125609312012,
+            "reference_relevancy": "-",
+            "passed": true
+        },
+        {
+            "question": "四面楚歌的主人公是谁？",
+            "answer": "根据搜索结果,四面楚歌的主人公是项羽。\n项羽是秦朝末年的政治家和军事家,楚国名将项燕的孙子。在楚汉战争中,项羽的军队被刘邦的汉军围困在垓下(今安徽省灵璧县)。当时项羽的士兵缺乏粮食,军心涣散。夜里,项羽听到四周的汉军都在唱楚地的民歌,以为楚地已被刘邦占领,心中绝望,遂边饮酒边唱歌,最后在乌江畔自刎而死。\n所以,四面楚歌这个成语就是源自于项羽在垓下被围困的这个历史故事,形容一个人遭受四面楚歌,孤立无援的窘迫境地。",
+            "ground_truths": [
+                "四面楚歌的主人公是西楚霸王项羽。"
+            ],
+            "keywords": [
+                "项羽"
+            ],
+            "answer_relevancy": "-",
+            "context_relevancy": "-",
+            "faithfulness": "-",
+            "context_recall": "-",
+            "answer_correctness": 0.6007321542630445,
+            "reference_relevancy": "-",
+            "passed": true
+        },
+        {
+            "question": "2024年4月15日是黄道吉日吗？",
+            "answer": "根据搜索结果,2024年4月15日是黄道吉日。\n具体来说:\n\n2024年4月15日是农历三月初七,属于十二建星中的\"执日\"。\n这一天宜祭祀、祈福、求嗣、开光、解除、出火、拆卸、入宅、安床、修造、安门、纳畜、启钻、安葬等。\n但忌动土、破土、纳财、掘井、挂匾、开市、伐木、交易等。\n根据五行和生肖冲煞分析,这一天对属兔人来说需要注意财运。\n时辰吉凶也有具体分析,总体来说是黄道吉日。\n\n因此,2024年4月15日可以被视为黄道吉日,适合进行一些吉利的活动。",
+            "ground_truths": [
+                "2024年4月15日是黄道吉日。"
+            ],
+            "keywords": [
+                "是"
+            ],
+            "answer_relevancy": "-",
+            "context_relevancy": "-",
+            "faithfulness": "-",
+            "context_recall": "-",
+            "answer_correctness": 0.6288141891848031,
+            "reference_relevancy": "-",
+            "passed": true
+        },
+        {
+            "question": "风水轮流转同义词有哪些？",
+            "answer": "根据搜索结果,以下是一些与\"风水轮流转\"意思相近的同义词或短语:\n\n三十年河东，三十年河西\n今年到我家\n轮流转\n三十年河东\n风水轮回\n\n这些词语都表达了事物不断变化、轮替的意思,与\"风水轮流转\"的含义非常相近。\"风水轮流转\"是指事物的发展是循环往复的,今年发展到某人或某地,明年可能就轮到另一个人或地方了。这种变化是自然规律,没有人能预知。",
+            "ground_truths": [
+                "风水轮流转的同义词包括“否极泰来”、“物极必反”、“柳暗花明”、“绝处逢生”、“苦尽甘来”和“绝地反击”。其他类似的词还有“三十年河东三十年河西”、“风水轮流”和“十年河东十年河西”。"
+            ],
+            "keywords": [
+                "河东",
+                "河西"
+            ],
+            "answer_relevancy": "-",
+            "context_relevancy": "-",
+            "faithfulness": "-",
+            "context_recall": "-",
+            "answer_correctness": 0.6639644083641162,
+            "reference_relevancy": "-",
+            "passed": true
+        },
+        {
+            "question": "那歌鱼是海鱼吗？",
+            "answer": "根据搜索结果,那哥鱼确实是一种海鱼:\n\n\n那哥鱼是一种肉质极为鲜美的海鱼,学名为长尾多齿蛇鲻。\n\n\n它是潮汕地区特有的海鱼品种,当地人也称它为\"鹦哥鱼\"。\n\n\n那哥鱼是制作潮汕鱼丸的主要食材之一,因其肉质细嫩而受当地人欢迎。\n\n\n在潮汕地区,那哥鱼是一种常见且价格便宜的海鱼品种。\n\n\n因此,根据搜索结果,那哥鱼是一种产自潮汕地区的海鱼,具有独特的口感和用途。",
+            "ground_truths": [
+                "是的，那歌鱼是海鱼。"
+            ],
+            "keywords": [
+                "是"
+            ],
+            "answer_relevancy": "-",
+            "context_relevancy": "-",
+            "faithfulness": "-",
+            "context_recall": "-",
+            "answer_correctness": 0.5778899822330082,
+            "reference_relevancy": "-",
+            "passed": false
+        },
+        {
+            "question": "为什么工地开工要祭拜？",
+            "answer": "根据搜索结果,工地开工时进行祭拜仪式主要有以下几个原因:\n\n\n祈求保佑工程顺利进行,避免意外发生。\n工地开工时,会祭拜土地神、地基主等神灵,祈求他们保佑施工过程平安顺利,不会发生意外事故。这是一种传统的祈福习俗。\n\n\n表达对神灵的尊敬和感谢。\n在开工前进行祭拜仪式,是为了表达对掌管土地和建筑的神灵的尊敬和感谢。认为只有通过这种仪式,才能获得神灵的庇护和祝福。\n\n\n缓解工人的心理压力。\n工地环境比较特殊,充满未知和危险因素,进行祭拜仪式能给工人一种心理安慰和保护,缓解他们的紧张情绪。\n\n\n总之,工地开工祭拜是一种传统的民间信仰习俗,目的是祈求工程顺利,表达对神灵的敬意,以及给工人心理上的慰藉。",
+            "ground_truths": [
+                "工地开工要祭拜的原因主要是为了向土地神灵、过往鬼魂以及凶神恶煞告知即将在此地兴工建宅，避免冒犯这些神灵和鬼魂，同时请求他们的协助，希望工程能够顺利开展，并驱逐可能存在的煞气和秽气。此外，烧香祭拜是一种与神明连接的桥梁，通过这种方式表达对神明的敬意和祈求保佑"
+            ],
+            "keywords": [
+                "神||鬼"
+            ],
+            "answer_relevancy": "-",
+            "context_relevancy": "-",
+            "faithfulness": "-",
+            "context_recall": "-",
+            "answer_correctness": 0.71473830986058,
+            "reference_relevancy": "-",
+            "passed": true
+        },
+        {
+            "question": "跟领导吃饭座位安排图",
+            "answer": "根据搜索结果,以下是关于与领导吃饭时座位安排的要点:\n宴席座次安排\n\n主陪(请客人的人)坐在面对房门的位置,这是最尊贵的位置。\n副主陪(主陪的对面)是次要位置。\n1号客人坐在主陪的右手边,2号客人坐在主陪的左手边。\n3号客人坐在副主陪的右手边,4号客人坐在副主陪的左手边。\n\n具体安排\n\n如果是圆桌,正对大门的位置为主客位置,两边依次为次要位置,遵循\"左尊于右\"的原则。\n如果是八仙桌,正对大门一侧的右位为主客位置。\n如果饭桌没有正对大门,则朝东的一侧右席为首席位置。\n\n总之,主要原则是\"尚左尊东\",即主客位置在正对大门的右手边,其他位置依次往左递减。这样既体现了尊卑有序,又方便主人照应客人。",
+            "ground_truths": [
+                "中餐宴请座次安排_x000D_\n主陪(通常是领导)坐在面对大门的位置_x000D_\n副主陪(通常是主陪的助手)坐在主陪的对面_x000D_\n1号客人坐在主陪的右手边_x000D_\n2号客人坐在主陪的左手边_x000D_\n3号客人坐在副主陪的右手边_x000D_\n4号客人坐在副主陪的左手边_x000D_\n其他客人可以随意安排"
+            ],
+            "keywords": [
+                "右"
+            ],
+            "answer_relevancy": "-",
+            "context_relevancy": "-",
+            "faithfulness": "-",
+            "context_recall": "-",
+            "answer_correctness": 0.8468509206816346,
+            "reference_relevancy": "-",
+            "passed": true
+        },
+        {
+            "question": "跟领导吃饭，转盘是顺时针转，还是逆时针转？",
+            "answer": "根据搜索结果,在与领导吃饭时,转盘应该顺时针转动。\n具体来说:\n\n\n在饭局上有长幼之别时,一道菜刚上来应先顺时针转到主人、主宾、尊者面前,待他们享用后,其他人再慢慢转动。\n\n\n正常情况下,顺时针转动的比较多,但逆时针转动也并不忌讳。\n\n\n重要的是要有规矩,如果没有规定就顺我逆,盘就不转了。\n\n\n总的来说,在与领导吃饭时,顺时针转动转盘是更加恰当和有教养的做法。\n\n",
+            "ground_truths": [
+                "跟领导吃饭时，转盘应该顺时针转。"
+            ],
+            "keywords": [
+                "顺时针"
+            ],
+            "answer_relevancy": "-",
+            "context_relevancy": "-",
+            "faithfulness": "-",
+            "context_recall": "-",
+            "answer_correctness": 0.670580807257571,
+            "reference_relevancy": "-",
+            "passed": true
+        },
+        {
+            "question": "相亲时媒婆说女方长得有福气，这是什么意思？",
+            "answer": "根据搜索结果,媒婆说女方长得有福气,主要有以下几个含义:\n\n\n女儿长得像爸爸,这是一种遗传偏爱。女儿随爸爸的基因,父亲会对女儿有天然的偏爱,认为女儿更有福气。\n\n\n在过去的相亲传统中,人们认为男人身上毛发较多是健康的表现,代表肾气足、阳刚之气强。所以媒婆会说女儿长得像爸爸,意味着这个女儿会嫁给一个健康的男人,更有福气。\n\n\n同时,人们也认为女人身材丰满一些更有利于生育,所以说\"好女无福毛一身膘\"。这意味着女方身材丰腴,也是一种福气。\n\n\n总之,媒婆这样说是基于传统观念,认为女儿长得像爸爸,或者身材丰腴,都是一种福气,有利于找到合适的丈夫,过上幸福的生活。",
+            "ground_truths": [
+                "相亲时媒婆说女方长得有福气，通常指女方看起来健康、体态丰满、体型偏胖。"
+            ],
+            "keywords": [
+                "胖||吃||丰满"
+            ],
+            "answer_relevancy": "-",
+            "context_relevancy": "-",
+            "faithfulness": "-",
+            "context_recall": "-",
+            "answer_correctness": 0.6036488548818586,
+            "reference_relevancy": "-",
+            "passed": true
+        },
+        {
+            "question": "相亲时媒婆说男方会疼人，这是什么意思？",
+            "answer": "根据搜索结果，当媒婆说相亲对象\"很会疼人\"时，这实际上是一种\"黑话\"或\"潜台词\"，意味着\"离异警告\"。\n也就是说，当媒婆这样形容男方时，暗示着他可能之前有过离婚或感情经历。这种情况下,女方需要格外注意,因为这样的男性可能会把过去的感情问题带入新的婚姻关系中,给女方带来不必要的麻烦。\n所以,当媒婆用这种词语来形容相亲对象时,女方最好谨慎对待,仔细了解对方的情感历史,以免日后遇到不必要的婚姻问题。",
+            "ground_truths": [
+                "当媒婆说男方\"很会疼人\"时，这通常意味着一个警告信号，表示该男性可能是离异人士。"
+            ],
+            "keywords": [
+                "年纪大||离过婚||离婚||离异"
+            ],
+            "answer_relevancy": "-",
+            "context_relevancy": "-",
+            "faithfulness": "-",
+            "context_recall": "-",
+            "answer_correctness": 0.6986055624033044,
+            "reference_relevancy": "-",
+            "passed": true
+        },
+        {
+            "question": "本来无一物何处惹尘埃的完整诗句是什么？",
+            "answer": "根据搜索结果,本来无一物何处惹尘埃的完整诗句出自唐代禅师惠能的《菩提偈》:\n\"菩提本无树，明镜亦非台。\n佛性常清净，何处有尘埃！\n身是菩提树，心如明镜台。\n明镜本清净，何处染尘埃！\n菩提本无树，明镜亦非台。\n本来无一物，何处惹尘埃！\"\n这首诗的意思是:\n原本就没有菩提树和明镜台,因为佛性本来就是清净的,哪里会有尘埃?众生的身心就是菩提树和明镜台,本来就是清净的,哪里会染上尘埃?既然本来就是空无一物,哪里会惹起尘埃?这说明只要内心清净,就不会被世俗的尘埃所染污。",
+            "ground_truths": [
+                "这句诗句出自唐代禅宗六祖慧能的《菩提偈》。完整的诗句是:\"菩提本无树，明镜亦非台。_x000D_\n本来无一物，何处惹尘埃!\""
+            ],
+            "keywords": [
+                "菩提本无树",
+                "明镜亦非台"
+            ],
+            "answer_relevancy": "-",
+            "context_relevancy": "-",
+            "faithfulness": "-",
+            "context_recall": "-",
+            "answer_correctness": 0.7230121654948382,
+            "reference_relevancy": "-",
+            "passed": true
+        },
+        {
+            "question": "巴浪鱼是哪里的方言？",
+            "answer": "根据搜索结果,巴浪鱼是潮汕地区的方言名称。具体如下:\n\n\n巴浪鱼是蓝圆鲹的别名,在潮汕地区也被称为刺巴鱼、棍子鱼、池鱼、黄占、池仔等。\n\n\n潮汕地区盛产海鲜,潮汕人以擅长烹制海鲜而闻名。在潮汕地区,巴浪鱼可烹制出多种美味佳肴,如巴浪鱼饭和巴浪鱼干。\n\n\n最早烹制出巴浪鱼饭和巴浪鱼干的地区就是饶平县汫洲镇,这里是一个以海洋捕捞、养殖、加工、贸易为主要产业的渔业镇。\n\n\n因此,巴浪鱼是潮汕地区的方言名称,指的是蓝圆鲹这种海洋鱼类。这种鱼在潮汕地区很常见,当地人擅长烹饪,形成了独特的饮食文化。",
+            "ground_truths": [
+                "巴浪鱼是福建和潮汕地区的方言。"
+            ],
+            "keywords": [
+                "潮汕||福建||福州"
+            ],
+            "answer_relevancy": "-",
+            "context_relevancy": "-",
+            "faithfulness": "-",
+            "context_recall": "-",
+            "answer_correctness": 0.6264791037498776,
+            "reference_relevancy": "-",
+            "passed": true
+        },
+        {
+            "question": "Happeo 2023收入是多少？",
+            "answer": "根据搜索结果,Happeo在2023年的收入为$5.5M。\nHappeo是一家总部位于芬兰的企业软件公司,专注于为Google Workspace用户提供协作和内部沟通平台。搜索结果显示,Happeo在过去8年中实现了收入增长,2023年达到了$5.5M的收入水平。该公司已经获得了$20M的融资。\n总的来说,Happeo在2023年实现了$5.5M的收入,这是一个不错的成绩,反映了该公司在企业协作软件市场的持续增长。",
+            "ground_truths": [
+                "Happeo 在2023年的收入达到了550万美元"
+            ],
+            "keywords": [
+                "550||5.5"
+            ],
+            "answer_relevancy": "-",
+            "context_relevancy": "-",
+            "faithfulness": "-",
+            "context_recall": "-",
+            "answer_correctness": 0.6445342269421684,
+            "reference_relevancy": "-",
+            "passed": true
+        },
+        {
+            "question": "Guru 2022年的收入是多少？",
+            "answer": "根据搜索结果,这个问题无法直接回答。搜索结果中没有提到任何人名为\"Guru\"的收入信息。这些结果主要涉及美国的税收政策和报税相关的内容,没有提到任何具体个人的收入情况。如果您能提供更多关于\"Guru\"这个人的信息,我可以尝试根据相关的背景信息来回答这个问题。但目前搜索结果无法直接回答您提出的这个具体问题。",
+            "ground_truths": [
+                "2022 年总收入增长 35%，达到 1.36 亿新元，各细分市场同比增长超过 20%"
+            ],
+            "keywords": [
+                "136||1.36"
+            ],
+            "answer_relevancy": "-",
+            "context_relevancy": "-",
+            "faithfulness": "-",
+            "context_recall": "-",
+            "answer_correctness": 0.4643758536909248,
+            "reference_relevancy": "-",
+            "passed": false
+        },
+        {
+            "question": "Algolia 总部在哪里？",
+            "answer": "Algolia 总部位于美国加利福尼亚州旧金山。\nAlgolia 是一家总部位于美国加州旧金山的搜索即服务(Search-as-a-Service)平台公司。该公司由两位法国工程师Nicolas Dessaigne和Julien Lemoine于2012年创立。",
+            "ground_truths": [
+                "Algolia 总部位于加利福尼亚州旧金山"
+            ],
+            "keywords": [
+                "旧金山||帕洛阿尔托"
+            ],
+            "answer_relevancy": "-",
+            "context_relevancy": "-",
+            "faithfulness": "-",
+            "context_recall": "-",
+            "answer_correctness": 0.7749014006074453,
+            "reference_relevancy": "-",
+            "passed": true
+        },
+        {
+            "question": "福特汽车第十任ceo是谁？",
+            "answer": "根据搜索结果,福特汽车第十任CEO是吉姆·法利(Jim Farley)。\n主要依据如下:\n 福特汽车公司的现任CEO兼总裁是吉姆·法利(Jim Farley)。\n 比尔·福特曾担任福特汽车公司的CEO,后来由艾伦·穆拉利接任。\n因此,福特汽车第十任CEO是吉姆·法利。",
+            "ground_truths": [
+                "福特汽车第十任CEO是艾伦·穆拉利"
+            ],
+            "keywords": [
+                "艾伦·穆拉利"
+            ],
+            "answer_relevancy": "-",
+            "context_relevancy": "-",
+            "faithfulness": "-",
+            "context_recall": "-",
+            "answer_correctness": 0.5511284215085481,
+            "reference_relevancy": "-",
+            "passed": false
+        },
+        {
+            "question": "Wisio是什么程序？",
+            "answer": "根据搜索结果,Wisio是一款由人工智能驱动的科学写作助手,主要具有以下功能:\n\n\n帮助科学工作者更快地创作高质量的科学论文。它可以提供个性化的写作建议和参考文献查找,提高文章质量和降低错误率。\n\n\n支持多种语言,可以将用户输入的文本自动转换成科学英语,便于论文的传播和交流。\n\n\n具有英语语法检查功能,可以帮助用户避免语言障碍影响科学写作质量。\n\n\n平台会不断更新最新的科学研究成果,确保用户能够及时了解行业动态。\n\n\n总之,Wisio是一款针对科学工作者的AI驱动写作助手,能够帮助他们更高效地撰写优质的科学论文,提高科学研究成果的传播和应用。",
+            "ground_truths": [
+                "Wisio是一个AI驱动的写作助手，旨在帮助科学家、研究人员和学生创建和发布科学论文。它提供了一系列功能，包括基于输入和目标关键词的人工智能建议、在Pubmed中搜索引证、将文本翻译为科学英语以及英文纠错工具等"
+            ],
+            "keywords": [
+                "科学",
+                "研究"
+            ],
+            "answer_relevancy": "-",
+            "context_relevancy": "-",
+            "faithfulness": "-",
+            "context_recall": "-",
+            "answer_correctness": 0.8371344385533981,
+            "reference_relevancy": "-",
+            "passed": true
+        },
+        {
+            "question": "CodenQuest有什么用？",
+            "answer": "CodenQuest是一款专为编程学习和面试准备设计的应用程序。它主要有以下几个功能:\n\n\n每天提供200多道独家编程练习题,帮助用户保持编程技能的锻炼和提升。\n\n\n支持多种编程语言,如Java、Python、JavaScript等,并提供代码自动补全等智能编辑器功能。\n\n\n采用游戏化的设计,用户可以通过完成挑战、保持每日练习等方式获得积分和排名,增加学习的趣味性。\n\n\n针对面试准备,提供了模拟真实面试场景的编程挑战,帮助用户掌握技术面试所需的技能。\n\n\n提供了专业版订阅,可以解锁更多练习题、去广告等增值功能。\n\n\n总的来说,CodenQuest是一款专注于编程学习和面试准备的应用程序,通过每日练习、游戏化设计等方式,帮助用户养成编程学习的习惯,提高编程技能和面试表现。",
+            "ground_truths": [
+                "CodenQuest是一款专注于编程练习和学习的应用程序,通过游戏化设计和智能编辑器功能,为用户提供了一个便捷、有趣且高效的编程学习平台"
+            ],
+            "keywords": [
+                "编程",
+                "游戏"
+            ],
+            "answer_relevancy": "-",
+            "context_relevancy": "-",
+            "faithfulness": "-",
+            "context_recall": "-",
+            "answer_correctness": 0.8052396253610216,
+            "reference_relevancy": "-",
+            "passed": true
+        },
+        {
+            "question": "Dub.co有什么功能？",
+            "answer": "Dub.co是一个开源的短链接服务,提供以下主要功能:\n\n\n内置分析仪表板: Dub为您的链接提供了一个强大的分析仪表板,包括地理位置、设备和浏览器信息。\n\n\n自定义域名: 您可以很容易地在Dub上配置自定义域名,只需要添加一个A/CNAME记录到您的DNS提供商即可。这是建立在Vercel Domains API之上的。\n\n\n开源和可部署: Dub是开源的,您可以在自己的服务器上部署。这提供了更多的灵活性和控制权,而不是使用第三方的专有服务。\n\n\n支持QR码生成: Dub提供了生成短链接对应的二维码的功能,方便在印刷品、演示文稿等场景中使用。\n\n\n技术栈包括Next.js、Typescript、Tailwind、Upstash、NextAuth.js、Vercel和Stripe等。\n\n\n总的来说,Dub.co是一个功能丰富、可定制的开源短链接服务,为用户提供了更多的控制和灵活性,是Bitly等专有服务的一个很好的替代选择。",
+            "ground_truths": [
+                "Dub.co是一个提供链接缩短服务的平台，它不仅限于基础的短链接创建，还内建了一系列强大的功能，专门为现代营销团队设计。其中包括但不限于实时数据分析、定制品牌链接、以及市场营销活动的管理工具"
+            ],
+            "keywords": [
+                "链接"
+            ],
+            "answer_relevancy": "-",
+            "context_relevancy": "-",
+            "faithfulness": "-",
+            "context_recall": "-",
+            "answer_correctness": 0.6317871413628209,
+            "reference_relevancy": "-",
+            "passed": true
+        },
+        {
+            "question": "多层建模和仿真的设计模式 出版社是哪家？",
+            "answer": "根据搜索结果，多层建模和仿真的设计模式相关内容来自于华章出版社出版的《信息物理融合系统（CPS）设计、建模与仿真——基于Ptolemy II 平台》一书。",
+            "ground_truths": [
+                "多层建模和仿真的设计模式 出版社是IEEE"
+            ],
+            "keywords": [
+                "IEEE"
+            ],
+            "answer_relevancy": "-",
+            "context_relevancy": "-",
+            "faithfulness": "-",
+            "context_recall": "-",
+            "answer_correctness": 0.5395921696940477,
+            "reference_relevancy": "-",
+            "passed": false
+        },
+        {
+            "question": "一维空间中经典三体系统的热化模拟论文的作者是谁？",
+            "answer": "根据搜索结果,我没有找到关于一维空间中经典三体系统的热化模拟论文的作者信息。这些搜索结果主要讨论了三体问题的一般性质,以及三体问题在数学和物理学上的复杂性。但没有提到具体的一维三体热化模拟论文。如果您有更多关于这篇论文的信息,我可以尝试进一步查找作者。否则,我无法直接回答您的问题。",
+            "ground_truths": [
+                "一维空间中经典三体系统的热化模拟论文的作者是M.Eltohfa"
+            ],
+            "keywords": [
+                "M. Eltohfa||M Eltohfa"
+            ],
+            "answer_relevancy": "-",
+            "context_relevancy": "-",
+            "faithfulness": "-",
+            "context_recall": "-",
+            "answer_correctness": 0.5463973815058055,
+            "reference_relevancy": "-",
+            "passed": false
+        },
+        {
+            "question": "使用动态模式分解进行波和湍流分离论文的作者是谁？",
+            "answer": "根据搜索结果,使用动态模态分解(Dynamic Mode Decomposition, DMD)进行波和湍流分离的论文作者主要有以下几位:\n\n\n叶坤等对雷诺数Re=100下的圆柱绕流非定常流场进行了数值模拟,分别采用DMD方法和POD方法对圆柱绕流卡门涡发展过程中的不稳定平衡阶段、过渡阶段以及稳定极限环阶段进行了稳定性分析。\n\n\n谢海润等将POD方法和DMD方法相结合,对工程外形复杂的非定常流动进行分析,提取相干结构并进行分析。\n\n\n肖姚利用PIV技术研究NACA 64418翼型叶片在不同工况下绕流流场的变化,并利用POD方法对流场进行降阶分解,得到了流场的低阶模态。\n\n\n刘强采用PIV流场显示技术对静止环境中合成双射流进行了实验研究,并对实验数据进行了POD模态分析,分析了各阶模态所表征的流动结构、时间系数及其频谱特征。\n\n\n综上所述,使用动态模态分解进行波和湍流分离的主要作者包括叶坤、谢海润、肖姚、刘强等。",
+            "ground_truths": [
+                "使用动态模式分解进行波和湍流分离 的作者是胡里奥·查韦斯·多拉多"
+            ],
+            "keywords": [
+                "Julio||胡里奥"
+            ],
+            "answer_relevancy": "-",
+            "context_relevancy": "-",
+            "faithfulness": "-",
+            "context_recall": "-",
+            "answer_correctness": 0.5386288080517212,
+            "reference_relevancy": "-",
+            "passed": false
+        },
+        {
+            "question": "韦仕敦大学第十任校长是谁？",
+            "answer": "根据搜索结果和，韦仕敦大学的第十一任校长是艾伦·谢泼德(Alan Shepard)。他自2023年4月1日起任职。",
+            "ground_truths": [
+                "Chakma 在滑铁卢大学担任副校长、学术兼教务长八年后，他于 2009 年 7 月成为西安大略大学第十任校长兼副校长。"
+            ],
+            "keywords": [
+                "Chakma"
+            ],
+            "answer_relevancy": "-",
+            "context_relevancy": "-",
+            "faithfulness": "-",
+            "context_recall": "-",
+            "answer_correctness": 0.5026502549661026,
+            "reference_relevancy": "-",
+            "passed": false
+        },
+        {
+            "question": "乔治敦大学第十任校长是谁？",
+            "answer": "根据搜索结果,乔治敦大学第十任校长是里奥·J·奥多诺万。\n在乔治敦大学两百年校庆时,学校选举里奥·J·奥多诺万担任校长。为了为学校募集更多资金,他发起了\"第三世纪运动\"。",
+            "ground_truths": [
+                "乔治敦大学第十任校长是Most Rev. Benedict J. Fenwick S.J.*"
+            ],
+            "keywords": [
+                "Most Rev"
+            ],
+            "answer_relevancy": "-",
+            "context_relevancy": "-",
+            "faithfulness": "-",
+            "context_recall": "-",
+            "answer_correctness": 0.5296449156166975,
+            "reference_relevancy": "-",
+            "passed": false
+        },
+        {
+            "question": "dashworks的销售收入是多少?",
+            "answer": "根据搜索结果,我无法找到Dashworks的具体销售收入数据。搜索结果主要介绍了Dashworks是一款企业知识管理AI助手,提供了定价信息,但没有提供Dashworks的销售收入数据。由于缺乏相关的财务数据,我无法回答您关于Dashworks销售收入的具体问题。",
+            "ground_truths": [
+                "Dashworks 2023年的营收是$289.3K"
+            ],
+            "keywords": [
+                "289.3K||289.3"
+            ],
+            "answer_relevancy": "-",
+            "context_relevancy": "-",
+            "faithfulness": "-",
+            "context_recall": "-",
+            "answer_correctness": 0.4990982529762918,
+            "reference_relevancy": "-",
+            "passed": false
+        },
+        {
+            "question": "一种模块化和强健的基于物理的方法用于无透镜图像重建 这篇论文的测量方法采用了哪三个组件组成？",
+            "answer": "根据搜索结果,这篇论文没有涉及无透镜图像重建的方法。搜索结果中没有提到这样一篇论文的具体内容。因此,我无法回答这个问题中提到的测量方法采用了哪三个组件。这个问题的前提似乎不正确,我无法给出一个有意义的答复。",
+            "ground_truths": [
+                "它由三个组件组成：一个新提出的预处理器、一个基于物理的相机逆变器（用于取消无镜头成像的多路复用）以及一个后处理器。"
+            ],
+            "keywords": [
+                "预处理器",
+                "相机逆变器",
+                "后处理器"
+            ],
+            "answer_relevancy": "-",
+            "context_relevancy": "-",
+            "faithfulness": "-",
+            "context_recall": "-",
+            "answer_correctness": 0.4957727708034995,
+            "reference_relevancy": "-",
+            "passed": false
+        },
+        {
+            "question": "ycloud是什么？",
+            "answer": "根据搜索结果,ycloud是一家提供全球云通信服务的CPaaS公司,主要提供以下服务:\n\n全球短信、邮件、语音验证码和WhatsApp等商业消息服务\nVerify验证服务、Campaign多渠道消息营销服务、Contact CDP服务\nInbox WhatsApp客服坐席服务\n\nycloud还开发了一款名为\"YCloud Inbox\"的实时聊天工具。通过YCloud Inbox,企业可以:\n\n与目标客户进行实时聊天\n邀请和管理客服和销售团队\n使用自动生成的报告分析关键绩效指标\n提高客户参与度和支持团队工作效率\n\n此外,ycloud还提供了一套基于knockoutjs的开源UI组件库\"ycloud\",主要服务于PC端的企业级Web应用。\n总之,ycloud是一家提供全球云通信服务和相关工具的CPaaS公司,帮助企业实现高效的客户沟通和服务。",
+            "ground_truths": [
+                "YCloud是友云采FED自研的一套基于knockoutjs的开源UI组件库，主要服务于PC端的企业级Web应用. YCloud同时也是一家领先的WhatsApp业务服务提供商，致力于帮助企业通过WhatsApp这一全球最流行的社交应用来发展业务."
+            ],
+            "keywords": [
+                "WhatsApp",
+                "knockoutjs"
+            ],
+            "answer_relevancy": "-",
+            "context_relevancy": "-",
+            "faithfulness": "-",
+            "context_recall": "-",
+            "answer_correctness": 0.6881960304192263,
+            "reference_relevancy": "-",
+            "passed": true
+        },
+        {
+            "question": "CaiT-S224模型",
+            "answer": "CaiT-S224是一种由Transformer架构构建的图像分类模型。它是由Carion等人在2021年提出的,主要用于图像分类任务。CaiT-S224模型的主要特点如下:\n\n采用Transformer架构,由多个Transformer编码器层组成。\n输入图像被划分为多个patches,每个patch被编码为一个token。\n模型使用了类别token和位置编码,以捕获图像中的空间信息。\n相比于传统的卷积神经网络,CaiT-S224在图像分类任务上取得了更好的性能。\n该模型在ImageNet数据集上的top-1准确率可达到87.4%。\n\n总的来说,CaiT-S224是一种基于Transformer的高性能图像分类模型,在图像分类任务上表现出色。它展示了Transformer架构在计算机视觉领域的潜力。\nCarion, N., Massa, F., Synnaeve, G., Usunier, N., Kirillov, A., & Zagoruyko, S. (2020). End-to-end object detection with transformers. In European Conference on Computer Vision (pp. 213-229). Springer, Cham.",
+            "ground_truths": [
+                "CaiT-S224是一种由Carion等人开发的视觉变换器模型。它是基于Vision Transformer (ViT)架构的一种改进版本,主要针对图像分类任务进行了优化。CaiT 提出了 LayerScale 和 Class-Attention 两种改进方法，以解决深度增加导致的训练困难和计算量增加问题。"
+            ],
+            "keywords": [
+                "LayerScale",
+                "Class-Attention"
+            ],
+            "answer_relevancy": "-",
+            "context_relevancy": "-",
+            "faithfulness": "-",
+            "context_recall": "-",
+            "answer_correctness": 0.7480527301219567,
+            "reference_relevancy": "-",
+            "passed": false
+        },
+        {
+            "question": "火山云",
+            "answer": "火山云是指火山爆发时形成的云层。\n当火山爆发时,会释放出大量的能量和热量,激起强烈的对流活动,从而形成\"火山云\"。 这种云层通常在夜间出现时会呈现闪电飞舞的壮观景象。\n火山云的形成是由于火山爆发时释放的热量和能量引起的强烈对流活动。 这种对流活动会带动大量水汽上升,形成雪雨云。 因此,火山云通常被认为是一种特殊的雪雨云。\n总之,火山云是火山爆发时形成的一种特殊的云层,其形成是由于火山活动引起的强烈对流活动所致。",
+            "ground_truths": [
+                "火山引擎是字节跳动旗下的云服务平台。它成立于2020年6月22日,目标是成为中国云计算市场的\"第四朵云\"。"
+            ],
+            "keywords": [
+                "火山引擎"
+            ],
+            "answer_relevancy": "-",
+            "context_relevancy": "-",
+            "faithfulness": "-",
+            "context_recall": "-",
+            "answer_correctness": 0.5048101974689572,
+            "reference_relevancy": "-",
+            "passed": false
+        },
+        {
+            "question": "紫金的销售收入",
+            "answer": "根据搜索结果,紫金矿业2023年的销售收入情况如下:\n\n2023年营业总收入为2,934.03亿元,同比增长8.54%。\n其中,主要包括冶炼银31.08亿元、铜管8.83亿元、铜板带14.67亿元、铅精矿5.40亿元、钼精矿23.89亿元、黄金等其他销售收入。\n2022年度,公司实现营业收入约2,700亿元,资产总额升至约3,000亿元。\n\n总的来说,紫金矿业2023年的销售收入保持了良好的增长态势,主要来自于铜、金、银等金属产品的销售。公司的整体经营规模和盈利能力也在不断提升。",
+            "ground_truths": [
+                "紫金矿业2023年的营业收入约为2934.03亿元,同比增长8.54%。"
+            ],
+            "keywords": [
+                "2934"
+            ],
+            "answer_relevancy": "-",
+            "context_relevancy": "-",
+            "faithfulness": "-",
+            "context_recall": "-",
+            "answer_correctness": 0.6740215298240163,
+            "reference_relevancy": "-",
+            "passed": false
+        },
+        {
+            "question": "谷歌屏蔽外围",
+            "answer": "根据搜索结果,谷歌确实提供了多种方式让用户屏蔽他人的账号和内容:\n\n\n在谷歌聊天(Google Chat)、相册(Google Photos)、地图(Google Maps)等产品中,用户可以屏蔽特定账号,从而避免与对方进行不必要的互动。\n\n\n在YouTube中,用户可以从实时聊天界面或通知收件箱中屏蔽某人。\n\n\n在谷歌支付(Google Pay)印度版、云端硬盘(Google Drive)、录音机应用等产品中,用户也可以屏蔽特定账号。\n\n\n在谷歌地图上,用户可以屏蔽他人的位置信息请求,从而阻止对方找到自己的个人资料。\n\n\n总的来说,谷歌提供了多种屏蔽他人账号和内容的方式,让用户可以更好地控制自己在谷歌产品上的隐私和互动。",
+            "ground_truths": [
+                "谷歌屏蔽外围主要是通过其广告政策和工具来实现的。"
+            ],
+            "keywords": [],
+            "answer_relevancy": "-",
+            "context_relevancy": "-",
+            "faithfulness": "-",
+            "context_recall": "-",
+            "answer_correctness": 0.5265677937022596,
+            "reference_relevancy": "-",
+            "passed": false
+        }
+    ]
+}

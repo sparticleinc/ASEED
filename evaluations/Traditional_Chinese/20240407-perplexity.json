@@ -1,0 +1,52 @@
+{
+    "evaluate_ai": {
+        "name": "Perplexity",
+        "url": "https://perplexity.ai"
+    },
+    "evaluate_llm": "gpt-4-1106-preview",
+    "evaluate_type": "ragas",
+    "evaluate_data": {
+        "total": 2,
+        "passed": 1,
+        "failed": 1,
+        "pass_rate": "50.00%",
+        "answer_relevancy": 0.0,
+        "context_relevancy": 0.0,
+        "faithfulness": 0.0,
+        "context_recall": 0.0,
+        "answer_correctness": 0.609229147415053,
+        "reference_relevancy": 0.0
+    },
+    "datas": [
+        {
+            "question": "エンジェルフライト 国際霊柩送還士 中文書",
+            "answer": "根据提供的搜索结果,《エンジェルフライト 国際霊柩送還士》是一本日文书籍,讲述了在异国他乡去世的人如何被送回故乡的故事。\n这本书于2015年出版,获得了第10回开高健非小说奖。它描述了一个专门负责跨国遗体送还的工作,讲述了这个行业的内幕和细节。\n该书在日本亚马逊和紀伊國屋书店等渠道有售,价格约为682日元。目前还没有中文版本出版,但这个主题可能会引起中文读者的兴趣。",
+            "ground_truths": [
+                "空中送行者：我們運送的不只是遺體，我們的使命是帶領「靈魂」回家。https://www.books.com.tw/products/0010618281"
+            ],
+            "keywords": [],
+            "answer_relevancy": "-",
+            "context_relevancy": "-",
+            "faithfulness": "-",
+            "context_recall": "-",
+            "answer_correctness": 0.5675716559524406,
+            "reference_relevancy": "-",
+            "passed": false
+        },
+        {
+            "question": "科學素養",
+            "answer": "根據搜索结果,科学素养可以理解为个人运用科学知识和方法探索事物的能力。它包括观察事物、提出问题、判断和验证、分析与构建、解决问题等能力,这些能力有助于学生独立思考和处理困难。\n科学素养不仅是学术考试科目,更是日常生活中不可或缺的能力。它可以帮助我们更好地理解世界,解决复杂的问题。培养学生的科学素养需要从基础科学知识入手,了解基本概念和实验方法,并将科学与现实生活结合,通过实践活动加深对科学原理的理解和应用。\n此外,将科学素养融入不同学科的跨学科学习,可以帮助学生建立学科与生活的联系,提高整体学习效果。良好的课堂互动,如采用探究式、问题导向式等学习方法,也有助于培养学生的批判思维和创造力。\n总之,科学素养是现代社会必备的重要能力,不仅对学生的学习和成长有益,也有助于技术创新和社会的持续发展。",
+            "ground_truths": [
+                "科學素養是一個人運用科學知識和方法探索事物的能力。它包括以下幾個重要方面：\n觀察事物、提出問題的能力。科學素養讓我們能夠更好地觀察周遭的事物,並提出有意義的問題。\n判斷和驗證的能力。科學素養幫助我們能夠客觀地評估信息的真偽,並設計實驗來驗證假設。\n分析與構建的能力。科學素養使我們能夠分析問題的本質,並運用創造性思維來尋找解決方案。\n解決問題的能力。科學素養讓我們能夠運用科學方法來解決生活中遇到的各種困難和挑戰。"
+            ],
+            "keywords": [],
+            "answer_relevancy": "-",
+            "context_relevancy": "-",
+            "faithfulness": "-",
+            "context_recall": "-",
+            "answer_correctness": 0.6508866388776653,
+            "reference_relevancy": "-",
+            "passed": true
+        }
+    ]
+}

@@ -1,0 +1,2 @@
+﻿id,query,"	ground_truth",expect_key_words,description
+0,Anthoropic Claude のデータ保持期間は？,Anthoropic Claude のデータ保持期間は、通常は受信または生成後90日以内にバックエンドでプロンプトと出力を自動的に削除しますが、信頼性およびセキュリティの分類子によってフラグが立てられたプロンプトの場合は最大2年間保持されます。,90,

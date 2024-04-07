@@ -1,0 +1,69 @@
+{
+    "evaluate_ai": {
+        "name": "Metaso",
+        "url": "https://metaso.cn"
+    },
+    "evaluate_llm": "gpt-4-1106-preview",
+    "evaluate_type": "ragas",
+    "evaluate_data": {
+        "total": 3,
+        "passed": 0,
+        "failed": 3,
+        "pass_rate": "0.00%",
+        "answer_relevancy": 0.0,
+        "context_relevancy": 0.0,
+        "faithfulness": 0.0,
+        "context_recall": 0.0,
+        "answer_correctness": 0.4567575988193067,
+        "reference_relevancy": 0.0
+    },
+    "datas": [
+        {
+            "question": "Anthoropic Claude のデータ保持期間は？",
+            "answer": "未找到有关的结果",
+            "ground_truths": [
+                "Anthoropic Claude のデータ保持期間は、通常は受信または生成後90日以内にバックエンドでプロンプトと出力を自動的に削除しますが、信頼性およびセキュリティの分類子によってフラグが立てられたプロンプトの場合は最大2年間保持されます。"
+            ],
+            "keywords": [
+                "90"
+            ],
+            "answer_relevancy": "-",
+            "context_relevancy": "-",
+            "faithfulness": "-",
+            "context_recall": "-",
+            "answer_correctness": 0.4357707182317059,
+            "reference_relevancy": "-",
+            "passed": false
+        },
+        {
+            "question": "成長投資枠の知識不足で起こる最大のデメリットを教えて",
+            "answer": "未找到有关的结果",
+            "ground_truths": [
+                "成長投資枠の知識不足で起こる最大のデメリットは、過度な期待と高估值に伴う高风险です。成長株式投资では、投资者が企業の成長性を高評価しすぎることがあります。"
+            ],
+            "keywords": [],
+            "answer_relevancy": "-",
+            "context_relevancy": "-",
+            "faithfulness": "-",
+            "context_recall": "-",
+            "answer_correctness": 0.43159875363213945,
+            "reference_relevancy": "-",
+            "passed": false
+        },
+        {
+            "question": "OPENAI APIを通じて入れたデータは学習される？",
+            "answer": "OPENAI APIを通じて入ったデータは学習される。特别是，通过追加的数据来进一步训练模型的方法被称为Fine-tuning 。此外，使用微调API功能可以帮助开发人员更好地使用微调，完成微调作业后模型可以投入使用 。这表明通过OPENAI API输入的数据确实会被用于学习和微调过程。\n",
+            "ground_truths": [
+                "公式の方針では、APIを通じて渡されるデータは、プライベートなプロジェクトモデルのトレーニングに使用され、共有モデルのトレーニングや改善には使用されない。"
+            ],
+            "keywords": [],
+            "answer_relevancy": "-",
+            "context_relevancy": "-",
+            "faithfulness": "-",
+            "context_recall": "-",
+            "answer_correctness": 0.5029033245940748,
+            "reference_relevancy": "-",
+            "passed": false
+        }
+    ]
+}

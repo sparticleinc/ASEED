@@ -1,0 +1,5 @@
+﻿id,query,"	ground_truth",expect_key_words,description
+0,ycloud是什么？,YCloud是友云采FED自研的一套基于knockoutjs的开源UI组件库，主要服务于PC端的企业级Web应用. YCloud同时也是一家领先的WhatsApp业务服务提供商，致力于帮助企业通过WhatsApp这一全球最流行的社交应用来发展业务.,"WhatsApp,knockoutjs",
+1,CaiT-S224模型,"CaiT-S224是一种由Carion等人开发的视觉变换器模型。它是基于Vision Transformer (ViT)架构的一种改进版本,主要针对图像分类任务进行了优化。CaiT 提出了 LayerScale 和 Class-Attention 两种改进方法，以解决深度增加导致的训练困难和计算量增加问题。","LayerScale,Class-Attention",
+2,火山云,"火山引擎是字节跳动旗下的云服务平台。它成立于2020年6月22日,目标是成为中国云计算市场的""第四朵云""。",火山引擎,
+3,紫金的销售收入,"紫金矿业2023年的营业收入约为2934.03亿元,同比增长8.54%。",2934,

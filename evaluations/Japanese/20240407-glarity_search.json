@@ -1,0 +1,69 @@
+{
+    "evaluate_ai": {
+        "name": "Glarity Search",
+        "url": "https://search.glarity.ai"
+    },
+    "evaluate_llm": "gpt-4-1106-preview",
+    "evaluate_type": "ragas",
+    "evaluate_data": {
+        "total": 3,
+        "passed": 1,
+        "failed": 2,
+        "pass_rate": "33.33%",
+        "answer_relevancy": 0.0,
+        "context_relevancy": 0.0,
+        "faithfulness": 0.0,
+        "context_recall": 0.0,
+        "answer_correctness": 0.6216569494104002,
+        "reference_relevancy": 0.0
+    },
+    "datas": [
+        {
+            "question": "Anthoropic Claude のデータ保持期間は？",
+            "answer": "AnthoropicのClaudeに関するデータ保持期間は、複数の情報源からの情報を組み合わせると以下のようになります：\n\n- Anthropicsは顧客データの保存期間に関して、通常は会話履歴を保持する設定です。\n- すべての製品において、Anthropicは信頼度や安全性に関するスコアを7年間保持する。\n- ユーザーが信頼度に関わるプロンプトを提出した場合、プロンプトおよび出力結果は最大で2年間保持される。\n\nこの情報から、AnthoropicのClaudeのデータ保持期間は、通常は会話データは保持される設定であり、信頼度や安全性スコアは7年間、信頼度に関するプロンプトや出力結果は2年間保持されることがわかります。ただし、これらの期間は一般的な基準であり、特定のケースでは異なる可能性もあるため、個別の状況に応じてAnthoropicのポリシーをご確認いただくことが重要です。",
+            "ground_truths": [
+                "Anthoropic Claude のデータ保持期間は、通常は受信または生成後90日以内にバックエンドでプロンプトと出力を自動的に削除しますが、信頼性およびセキュリティの分類子によってフラグが立てられたプロンプトの場合は最大2年間保持されます。"
+            ],
+            "keywords": [
+                "90"
+            ],
+            "answer_relevancy": "-",
+            "context_relevancy": "-",
+            "faithfulness": "-",
+            "context_recall": "-",
+            "answer_correctness": 0.6917227010156847,
+            "reference_relevancy": "-",
+            "passed": false
+        },
+        {
+            "question": "成長投資枠の知識不足で起こる最大のデメリットを教えて",
+            "answer": "成長投資枠の知識不足で起こる最大のデメリットは、非課税制度であるNISAにおいて損失の取り扱いに関する理解不足からくる税金計算の失敗です。成長投資枠では、NISA口座内の取引で発生した損失を他の利益と相殺することができないため、損失を計上せずに報告すると誤った課税額が算出され、結果的に税金を余分に支払うことになります. 通常の特定口座であれば、損失と利益を相殺して課税額を最適化できるため、成長投資枠の仕組みを理解せずに運用していると、節税効果を逃し、不必要な負担を被る可能性が高まります。この知識不足によるデメリットを回避するためには、NISA制度や成長投資枠の特性を十分理解し、損益通算や税金の計算方法を把握して運用することが重要です。",
+            "ground_truths": [
+                "成長投資枠の知識不足で起こる最大のデメリットは、過度な期待と高估值に伴う高风险です。成長株式投资では、投资者が企業の成長性を高評価しすぎることがあります。"
+            ],
+            "keywords": [],
+            "answer_relevancy": "-",
+            "context_relevancy": "-",
+            "faithfulness": "-",
+            "context_recall": "-",
+            "answer_correctness": 0.5376397193874047,
+            "reference_relevancy": "-",
+            "passed": false
+        },
+        {
+            "question": "OPENAI APIを通じて入れたデータは学習される？",
+            "answer": "OpenAIのAPIを通じて送信されたデータは、一般的には学習に利用されません。OpenAIは、APIを介して顧客から提出されたデータを学習に使用しないことを明確に述べています. このため、OpenAIのAPIを使用する際に、個人データや企業データが学習に利用される心配は少ないです。ただし、このポリシーはAPIを介した顧客のデータに関してであり、他のOpenAIサービスやAIモデルとは異なる場合があります。\n\nしたがって、OpenAIのAPIを通じて送信されたデータは通常学習に使用されませんが、個々のサービスやサイトによって異なる可能性があるため、具体的なサービスごとのポリシーを確認することが重要です。",
+            "ground_truths": [
+                "公式の方針では、APIを通じて渡されるデータは、プライベートなプロジェクトモデルのトレーニングに使用され、共有モデルのトレーニングや改善には使用されない。"
+            ],
+            "keywords": [],
+            "answer_relevancy": "-",
+            "context_relevancy": "-",
+            "faithfulness": "-",
+            "context_recall": "-",
+            "answer_correctness": 0.6356084278281112,
+            "reference_relevancy": "-",
+            "passed": true
+        }
+    ]
+}

@@ -1,0 +1,2 @@
+﻿id,query,"	ground_truth",expect_key_words,description
+0,OPENAI APIを通じて入れたデータは学習される？,公式の方針では、APIを通じて渡されるデータは、プライベートなプロジェクトモデルのトレーニングに使用され、共有モデルのトレーニングや改善には使用されない。,,
