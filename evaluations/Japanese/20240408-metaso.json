@@ -1,0 +1,49 @@
+{
+    "evaluate_ai": {
+        "name": "Metaso",
+        "url": "https://metaso.cn"
+    },
+    "evaluate_llm": "gpt-4-1106-preview",
+    "evaluate_type": "ragas",
+    "evaluate_data": {
+        "total": 3,
+        "passed": 1,
+        "failed": 2,
+        "pass_rate": "33.33%",
+        "answer_correctness": 0.5924799913114355
+    },
+    "datas": [
+        {
+            "question": "Anthoropic Claude のデータ保持期間は？",
+            "answer": "个人信息的存储期限应当遵循《个人信息保护法》确立的必要原则和目的原则，即处理个人信息不应当超过实现处理目的的最低限度，并且所处理的个人信息应当与处理目的直接相关。因此，Anthoropic Claudeのデータ保持期间应根据其处理个人信息的具体目的来确定，不能无限期地保存。\n",
+            "ground_truths": [
+                "Anthoropic Claude のデータ保持期間は、通常は受信または生成後90日以内にバックエンドでプロンプトと出力を自動的に削除しますが、信頼性およびセキュリティの分類子によってフラグが立てられたプロンプトの場合は最大2年間保持されます。"
+            ],
+            "keywords": [
+                "90"
+            ],
+            "answer_correctness": 0.5315932225302028,
+            "passed": false
+        },
+        {
+            "question": "成長投資枠の知識不足で起こる最大のデメリットを教えて",
+            "answer": "成長投資枠の知識不足で起こる最大のデメリットは、商品選びや運用方法を误り、損失を生むことです。\n",
+            "ground_truths": [
+                "成長投資枠の知識不足で起こる最大のデメリットは、過度な期待と高估值に伴う高风险です。成長株式投资では、投资者が企業の成長性を高評価しすぎることがあります。"
+            ],
+            "keywords": [],
+            "answer_correctness": 0.7284395898002456,
+            "passed": true
+        },
+        {
+            "question": "OPENAI APIを通じて入れたデータは学習される？",
+            "answer": "OPENAI APIを通じて入ったデータは、特定条件下学習される。OpenAI提供了API，允许开发者使用自己的数据集进行模型的微调（Fine-tuning），这意味着可以通过OpenAI API将数据用于学习和改进模型。",
+            "ground_truths": [
+                "公式の方針では、APIを通じて渡されるデータは、プライベートなプロジェクトモデルのトレーニングに使用され、共有モデルのトレーニングや改善には使用されない。"
+            ],
+            "keywords": [],
+            "answer_correctness": 0.5174071616038579,
+            "passed": false
+        }
+    ]
+}

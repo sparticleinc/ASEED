@@ -1,0 +1,70 @@
+{
+    "evaluate_ai": {
+        "name": "Glarity Search",
+        "url": "https://search.glarity.ai"
+    },
+    "evaluate_llm": "gpt-4-1106-preview",
+    "evaluate_type": "ragas",
+    "evaluate_data": {
+        "total": 5,
+        "passed": 2,
+        "failed": 3,
+        "pass_rate": "40.00%",
+        "answer_correctness": 0.49556979534271983
+    },
+    "datas": [
+        {
+            "question": "tools that ikea use in manufacturing goods",
+            "answer": "IKEA utilizes a variety of tools in its manufacturing processes to produce goods efficiently. Some of the tools used by IKEA include:\n\n1. **Online Product Assessment Tool**: IKEA shares an online product assessment tool that accelerates the circular movement. This tool aids in assessing the circularity of products and helps in innovations that reduce the materials used in products .\n\n2. **Forecasting Tools**: IKEA employs tools that calculate forecasts and predict future demand effectively. These tools use several influencing factors to make smarter decisions in production and planning .\n\n3. **Design Tools**: In IKEA's manufacturing processes, designers create products using a limited selection of raw materials. These design tools help in creating products that uphold IKEA's standards while using a restricted set of materials efficiently .\n\nBesides specific tools, IKEA also focuses on sustainable production practices. For instance, a significant portion of IKEA's production is non-industrial, showcasing a commitment to sustainable manufacturing .",
+            "ground_truths": [
+                "The tools and technologies IKEA uses to manufacture its goods include:\nIKEA has also made advances in warehouse automation, driving growth rates and entering the Industry 4.0 era by integrating manufacturing and logistics through technology. The IKEA Furniture Group relies on ultra-modern automated systems to produce furniture components.\nElectronic Wheel (e-Wheel): IKEA analyzes the four phases of a product's life cycle, including resource extraction, production, use and recycling/disposal.\nGenerative AI (Generative AI): IKEA has partnered with ADP to launch a generative AI tool for production, demonstrating that IKEA also employs advanced technologies to optimize operations in its manufacturing processes.\nLarge-scale mechanical mass production model: In the production process of IKEA's home furnishing products, a large-scale mechanical mass production model is used, which can effectively reduce labor requirements.\nAutomated storage system: IKEA has introduced a new warehouse automation system at its Covina store that significantly improves the speed of order fulfillment and ensures that customers receive their products faster, whether they order in-store or online.\nArtificial Intelligence (AI) for smarter demand forecasting: IKEA has developed an advanced tool that uses artificial intelligence to significantly improve the accuracy of its demand forecasts.\nHand tools and power tools: IKEA also offers a range of hand tools and power tools for consumers to assemble IKEA furniture or realize their own projects."
+            ],
+            "keywords": [
+                "e-Wheel",
+                "Generative AI"
+            ],
+            "answer_correctness": 0.6623355389082469,
+            "passed": false
+        },
+        {
+            "question": "903-419-8722",
+            "answer": "The phone number 903-419-8722 is located in Pottsboro, Texas. Unfortunately, specific details beyond its location cannot be provided without further context or additional information. If you have a specific inquiry or need more details about this number, please provide additional context for a more comprehensive response.",
+            "ground_truths": [
+                "The phone number \"903-419-8722\" is associated with an entry in Pottsboro, TX. The exact details linked to this number may vary based on the source of information and user reports. If you are receiving calls from this number and are concerned about spam or scams, you can utilize services like Robokiller to block such calls. Robokiller is aimed at preventing unwanted calls and text scams, offering protection to users who may be targeted by such activities. The user reports associated with this number are currently at zero, indicating that there haven't been any spam or scam reports related to it. If you have specific concerns about this number or if you have experienced any issues with calls from it, you can check further details or report it to services like Robokiller for analysis and potential blocking."
+            ],
+            "keywords": [
+                "Pottsboro||Robokiller"
+            ],
+            "answer_correctness": 0.6500953211219179,
+            "passed": true
+        },
+        {
+            "question": "casino sin deposit",
+            "answer": "Un casino sin depósito es un tipo de casino en línea que ofrece a los jugadores la oportunidad de jugar sin tener que hacer un depósito inicial de dinero. En estos casinos, los jugadores pueden recibir bonos de bienvenida, giros gratis u otras promociones sin la necesidad de realizar un depósito previo. Es importante tener en cuenta que al jugar en un casino sin depósito, generalmente existen ciertas limitaciones en cuanto a la cantidad máxima que se puede ganar. Además, algunas ofertas de bonos sin depósito pueden requerir códigos especiales o ciertas condiciones de apuesta antes de poder retirar las ganancias .",
+            "ground_truths": [
+                "op US casinos offering no deposit bonuses include BetMGM, Borgata, and 888Casino"
+            ],
+            "keywords": [],
+            "answer_correctness": 0.49237602093974836,
+            "passed": false
+        },
+        {
+            "question": "Busca como hacer un chatGPT con js, css y html",
+            "answer": "Para crear un chatGPT con JavaScript, CSS y HTML, puedes seguir los siguientes pasos generales:\n\n### Pasos para Crear un ChatGPT con JavaScript, CSS y HTML:\n\n1. **Diseño Inicial**:\n   - Crea la estructura HTML básica que incluya áreas para mensajes del usuario y respuestas del chatbot.\n   - Utiliza CSS para diseñar la apariencia del chatbot, como los colores, fuentes y disposición de los mensajes.\n\n2. **Integración de GPT**:\n   - Integra el modelo GPT (Generative Pre-trained Transformer) en tu proyecto. Puedes hacerlo utilizando la API de OpenAI, que permite acceder a los modelos lingüísticos de OpenAI, como GPT-3, a través de una API .\n   \n3. **Interacción y Procesamiento**:\n   - Utiliza JavaScript para manejar la interacción del usuario con el chatbot.\n   - Procesa las consultas del usuario y envíalas al modelo GPT para generar respuestas apropiadas.\n   \n4. **Mostrar Respuestas**:\n   - Una vez que recibas las respuestas del modelo GPT, muéstralas en la interfaz de usuario para que el usuario pueda verlas.\n   \n5. **Personalización**:\n   - Personaliza tu chatbot añadiendo funcionalidades extras como respuestas personalizadas, opciones interactivas, etc.\n   \n### Recursos y Ejemplos:\n- Puedes consultar tutoriales en línea que te guíen paso a paso en la creación de un chatbot con GPT utilizando HTML, CSS y JavaScript .\n- Explora los ejemplos y proyectos disponibles en GitHub que se centran en el desarrollo de chatbots con estas tecnologías .\n\nAl seguir estos pasos y recursos, podrás comenzar a desarrollar tu propio chatbot utilizando JavaScript, CSS y HTML, integrando la potencia del modelo GPT para generar respuestas más avanzadas y naturales.",
+            "ground_truths": [
+                ""
+            ],
+            "keywords": [],
+            "passed": false
+        },
+        {
+            "question": "what is agnostics",
+            "answer": "Agnostics are individuals who hold a view that the ultimate truth or reality, especially concerning the existence of a supreme being or deity, is unknown or unknowable . They may doubt or deny the possibility of having absolute knowledge in this area . Agnosticism, in the context of information technology, refers to something that is generalized to be interoperable among various systems .\n\nAgnostics, in essence, question the ability to definitively prove or disprove the existence of a higher power, often asserting that such a determination is beyond human understanding . This stance implies an uncertainty or skepticism regarding claims to knowledge about the existence of a higher being .",
+            "ground_truths": [
+                "Agnostics are people who hold the view that the existence or non-existence of any ultimate reality, such as God, is unknown and probably unknowable"
+            ],
+            "keywords": [],
+            "passed": true
+        }
+    ]
+}

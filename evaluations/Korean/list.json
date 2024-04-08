@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "date": "2024-04-08",
+    "list": [
+      "20240408-glarity_search.json",
+      "20240408-perplexity.json",
+      "20240408-metaso.json"
+    ]
+  }
+]
