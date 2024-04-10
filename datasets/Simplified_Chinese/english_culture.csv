@@ -1,4 +1,4 @@
-﻿id,query,"	ground_truth",expect_key_words,description
+﻿id,query,ground_truth,expect_key_words,description
 0,Happeo 2023收入是多少？,Happeo 在2023年的收入达到了550万美元,550||5.5,
 1,Guru 2022年的收入是多少？,2022 年总收入增长 35%，达到 1.36 亿新元，各细分市场同比增长超过 20%,136||1.36,
 2,Algolia 总部在哪里？,Algolia 总部位于加利福尼亚州旧金山,旧金山||帕洛阿尔托,

@@ -1,4 +1,4 @@
-id,query,"	ground_truth",expect_key_words,description
+id,query,ground_truth,expect_key_words,description
 0,tools that ikea use in manufacturing goods,"The tools and technologies IKEA uses to manufacture its goods include:
 IKEA has also made advances in warehouse automation, driving growth rates and entering the Industry 4.0 era by integrating manufacturing and logistics through technology. The IKEA Furniture Group relies on ultra-modern automated systems to produce furniture components.
 Electronic Wheel (e-Wheel): IKEA analyzes the four phases of a product's life cycle, including resource extraction, production, use and recycling/disposal.
