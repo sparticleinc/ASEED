@@ -1,2 +1,2 @@
-﻿id,query,ground_truth,expect_key_words,description
-0,OPENAI APIを通じて入れたデータは学習される？,公式の方針では、APIを通じて渡されるデータは、プライベートなプロジェクトモデルのトレーニングに使用され、共有モデルのトレーニングや改善には使用されない。,,
+id,query,ground_truth,expect_key_words,description
+0,Azure OpenAI Service Abuse Monitoringについての記載を教えて？,Azure OpenAI ServiceのAbuse Monitoringに関する記載によると、Azure OpenAI Serviceは、悪用や不適切な使用を防止するために堅牢なコンテンツフィルタリングシステムや監視システムを備えています4。また、Microsoftは悪用や誤用の可能性を特定し、顧客がサービスを適切に利用できるようにサポートするための安全監視と分析を提供しています3。Azure OpenAI ServiceのAbuse Monitoringシステムでは、入力データやモデルの生成物を最大30日間保存する場合があります1。これにより、ユーザーにとって適切であり、利用規約に違反せず、有害でないように確認されます。,,
