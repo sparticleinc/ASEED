@@ -1,0 +1,29 @@
+{
+    "evaluate_ai": {
+        "name": "Perplexity",
+        "url": "https://perplexity.ai"
+    },
+    "evaluate_llm": "gpt-4-1106-preview",
+    "evaluate_type": "ragas",
+    "evaluate_data": {
+        "total": 1,
+        "passed": 1,
+        "failed": 0,
+        "pass_rate": "100.00%",
+        "answer_correctness": 0.731354811102954
+    },
+    "created_at": "2024-04-11 13:15:41",
+    "datas": [
+        {
+            "metadata": {},
+            "question": "배우 이주빈에 대해서 정보를 알려줘",
+            "answer": "배우 이주빈은 다음과 같은 정보를 가지고 있습니다:\n\n\n이주빈은 1989년 9월 18일 강원도 강릉에서 태어난 남한 배우이자 모델입니다.1\n\n\n그녀는 동덕여자대학교를 졸업했으며, 2010년부터 연기 활동을 시작했습니다.1\n\n\n주요 출연작으로는 Be Melodramatic(2019), Hello Dracula(2020), Find Me in Your Memory(2020), She Would Never Know(2021), Doctor Lawyer(2022), Money Heist: Korea – Joint Economic Area(2022) 등이 있습니다.1\n\n\n2020년 Find Me in Your Memory로 MBC 드라마 어워즈 신인상 후보에 올랐으며, 2022년 Doctor Lawyer로 우수연기상 후보에 올랐습니다.\n\n\n최근에는 tvN 드라마 눈물의 여왕(2024)에 출연하며 열연을 펼치고 있습니다.23\n\n\n그 외에도 다수의 영화와 웹드라마, 뮤직비디오 출연 경력이 있습니다.1\n\n",
+            "ground_truths": [
+                "이주빈은 한국의 여배우이자 모델로 안드마크 스튜디오 소속이며, 동덕여자대학교에서 공부했습니다. 1989년 9월 18일에 태어났으며, 현재 나이는 34세입니다. 대표작으로는 2019년 드라마인 '멜로가 체질'과 2020년 '드라큘라 안녕' 등이 있습니다. 이주빈은 레인보우의 멤버로서 데뷔할 뻔했던 DSP 연습생 출신인데, 현재는 배우로 활동하고 있습니다. 이주빈은 고혹적이면서 수수한 외모로 유명하며, 김수현이 2위, 김지원이 9위, 이주빈이 22위를 차지한 배우 브랜드 평판에서 상위권에 속한 인기 배우 중 한 명입니다. 최근 드라마 '눈물의 여왕'에서 뛰어난 눈빛 연기로 관심을 모았으며, 높은 연기력으로 몰입도를 극대화하며 시청자들에게 감동을 전하고 있습니다."
+            ],
+            "keywords": [],
+            "answer_correctness": 0.731354811102954,
+            "passed": true
+        }
+    ]
+}
