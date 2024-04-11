@@ -1,3 +1,6 @@
 id,query,ground_truth,expect_key_words,description
-0,what is agnostics,"Agnostics are people who hold the view that the existence or non-existence of any ultimate reality, such as God, is unknown and probably unknowable",,
-1,"Busca como hacer un chatGPT con js, css y html",,https://www.codingnepalweb.com/create-chatgpt-clone-html-css-javascript/&&https://medium.com/@codezone/how-to-create-your-own-chatgpt-in-html-css-and-javascript-13c6f8169a63,
+0,what are the applications of lidar in aerospace industry?,"Terrain and Obstacle Mapping: LiDAR can be used to create highly accurate 3D maps of terrain, landscapes, and obstacles. This is useful for mission planning, navigation, and situational awareness in aerospace applications.
+Aircraft and Satellite Detection and Tracking: LiDAR can be used to detect and track aircraft, satellites, and space debris with high precision. This aids in airspace management and collision avoidance.
+Airport Operations: LiDAR can provide precise measurements of runway conditions, including detecting foreign object debris (FOD) and runway surface damage. This improves airport safety and efficiency.
+Autonomous Navigation: LiDAR is a key sensor used in the navigation systems of autonomous aerial vehicles like drones, allowing them to detect and avoid obstacles.
+Bathymetric Mapping: Military applications of LiDAR include bathymetric mapping, which can precisely image terrain features both on land and in the water, useful for naval operations",,
