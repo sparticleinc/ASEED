@@ -1,0 +1,14 @@
+id,query,ground_truth,expect_key_words,description
+0,is it good or bad for a compound to have a low melting point for recrystalization,"Advantages of a Compound with a Low Melting Point for Recrystallization:
+Ease of Purification: Compounds with low melting points tend to melt at lower temperatures, making them easier to work with during recrystallization processes.
+Efficiency: Lower melting points can lead to faster recrystallization processes, saving time and resources.
+Disadvantages of a Compound with a Low Melting Point for Recrystallization:
+Reduced Selectivity: Compounds with very low melting points may not provide a clear distinction in solubility with solvents during recrystallization, which could affect purification efficiency.
+Potential for Oiling Out: A compound with a very low melting point may oil out before complete crystallization if the cooling process is slow, impacting the purity of the final product.",,
+1,Role of pyroptosis in diabetic cardiomyopathy: an updated review,"Pyroptosis is a form of programmed cell death that is accompanied by an inflammatory response. It is triggered by inflammasomes and executed by the Gasdermin and Caspase families. Prolonged hyperglycemia in diabetes can induce pyroptosis in various cell types, including cardiomyocytes, which exacerbates the progression of DCM.
+
+The NLRP3 inflammasome is a key driver of pyroptosis in DCM. Activation of the NLRP3 inflammasome leads to the cleavage of Gasdermin D, which forms pores in the cell membrane and induces pyroptotic cell death.
+
+Pyroptosis in different cell types, such as cardiomyocytes, endothelial cells, and inflammatory cells, all contribute to the pathogenesis of DCM. This includes increased collagen deposition, cardiac dysfunction, and inflammation.
+
+Several therapeutic strategies targeting pyroptosis have shown promise in animal models of DCM, including NLRP3 inhibitors, Gasdermin D inhibitors, and certain herbal medicines that can suppress pyroptosis-related pathways",,
