@@ -1,0 +1,165 @@
+{
+    "evaluate_ai": {
+        "name": "Glarity Search",
+        "url": "https://search.glarity.ai"
+    },
+    "evaluate_llm": "gpt-4-1106-preview",
+    "evaluate_type": "ragas",
+    "evaluate_data": {
+        "total": 11,
+        "passed": 6,
+        "failed": 5,
+        "pass_rate": "54.55%",
+        "answer_correctness": 0.6389897688262267
+    },
+    "created_at": "2024-04-11 09:53:04",
+    "datas": [
+        {
+            "metadata": {},
+            "question": "tools that ikea use in manufacturing goods",
+            "answer": "To manufacture goods, IKEA utilizes various tools and resources to enhance its production processes and efficiency. These tools include online product assessment tools shared by IKEA to promote circularity in their products , forecasting tools that help calculate forecasts and predict future demand more effectively , and engaging with manufacturers to obtain competitive prices on materials and resources for their products . Additionally, IKEA may utilize both general and special-purpose tools in batch production to create consumer goods . These tools play a crucial role in optimizing IKEA's manufacturing operations and ensuring the quality and sustainability of their products.",
+            "ground_truths": [
+                "The tools and technologies IKEA uses to manufacture its goods include:\nIKEA has also made advances in warehouse automation, driving growth rates and entering the Industry 4.0 era by integrating manufacturing and logistics through technology. The IKEA Furniture Group relies on ultra-modern automated systems to produce furniture components.\nElectronic Wheel (e-Wheel): IKEA analyzes the four phases of a product's life cycle, including resource extraction, production, use and recycling/disposal.\nGenerative AI (Generative AI): IKEA has partnered with ADP to launch a generative AI tool for production, demonstrating that IKEA also employs advanced technologies to optimize operations in its manufacturing processes.\nLarge-scale mechanical mass production model: In the production process of IKEA's home furnishing products, a large-scale mechanical mass production model is used, which can effectively reduce labor requirements.\nAutomated storage system: IKEA has introduced a new warehouse automation system at its Covina store that significantly improves the speed of order fulfillment and ensures that customers receive their products faster, whether they order in-store or online.\nArtificial Intelligence (AI) for smarter demand forecasting: IKEA has developed an advanced tool that uses artificial intelligence to significantly improve the accuracy of its demand forecasts.\nHand tools and power tools: IKEA also offers a range of hand tools and power tools for consumers to assemble IKEA furniture or realize their own projects."
+            ],
+            "keywords": [
+                "e-Wheel",
+                "Generative AI"
+            ],
+            "answer_correctness": 0.5523457078390418,
+            "passed": false
+        },
+        {
+            "metadata": {},
+            "question": "903-419-8722",
+            "answer": "The phone number 903-419-8722 is located in Pottsboro, Texas. It is a landline number with the carrier Peerless Network Of Texas, Llc - Tx. You can find more information about the owner of this number by entering the final four digits on certain platforms. This number is associated with the 75207 Zip Code in Dallas, Dallas County .",
+            "ground_truths": [
+                "The phone number \"903-419-8722\" is associated with an entry in Pottsboro, TX. The exact details linked to this number may vary based on the source of information and user reports. If you are receiving calls from this number and are concerned about spam or scams, you can utilize services like Robokiller to block such calls. Robokiller is aimed at preventing unwanted calls and text scams, offering protection to users who may be targeted by such activities. The user reports associated with this number are currently at zero, indicating that there haven't been any spam or scam reports related to it. If you have specific concerns about this number or if you have experienced any issues with calls from it, you can check further details or report it to services like Robokiller for analysis and potential blocking."
+            ],
+            "keywords": [
+                "Pottsboro||Robokiller"
+            ],
+            "answer_correctness": 0.6331035947599335,
+            "passed": true
+        },
+        {
+            "metadata": {},
+            "question": "casino sin deposit",
+            "answer": "Un casino sin depósito es un tipo de casino en línea que ofrece a los jugadores la posibilidad de jugar sin tener que realizar un depósito inicial de dinero en sus cuentas. Esto significa que los jugadores pueden disfrutar de juegos de casino sin tener que invertir fondos propios. Los bonos sin depósito pueden variar en forma, como giros gratis o crédito de bonificación, y a menudo vienen con requisitos de apuesta que los jugadores deben cumplir antes de poder retirar las ganancias obtenidas con el bono sin depósito . Estos casinos son atractivos para quienes desean probar un casino en línea sin arriesgar su propio dinero y tienen la oportunidad de ganar premios reales. Es importante revisar detenidamente los términos y condiciones asociados con los bonos sin depósito para comprender completamente cómo funcionan y qué se requiere para poder retirar las ganancias .",
+            "ground_truths": [
+                "op US casinos offering no deposit bonuses include BetMGM, Borgata, and 888Casino"
+            ],
+            "keywords": [],
+            "answer_correctness": 0.48314359881892854,
+            "passed": false
+        },
+        {
+            "metadata": {},
+            "question": "what is agnostics",
+            "answer": "**Agnostics** are individuals who do not claim to know whether any gods exist or not. They hold the view that any ultimate reality, such as God, is unknown and likely unknowable. Agnosticism is primarily about the acceptance of the unknown and considers the possibility of a higher meaning to human life that may be inaccessible to humans. It is distinct from atheism and theism, as it focuses on the limits of human knowledge rather than outright denial or affirmation of the existence of deities . In the context of information technology, **agnostic** refers to something generalized to ensure interoperability among different systems .",
+            "ground_truths": [
+                "Agnostics are people who hold the view that the existence or non-existence of any ultimate reality, such as God, is unknown and probably unknowable"
+            ],
+            "keywords": [],
+            "answer_correctness": 0.7325250811069884,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "type": "factual_knowledge",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/Simplified_Chinese/factual_knowledge.csv"
+            },
+            "question": "what does CEC mean for solar panels?",
+            "answer": "The acronym CEC stands for Clean Energy Council when it comes to solar panels. The Clean Energy Council is a regulatory body that approves certain solar panels to help consumers navigate the solar energy market. They aim to promote quality solar products, installers, and retailers and protect the interests of consumers in the solar industry .",
+            "ground_truths": [
+                "CEC Rating: The CEC (California Energy Commission) adopted the PTC (PVUSA Test Conditions) rating to measure the nominal output power of photovoltaic cells or modules. The CEC rating is typically 10-15% lower than the STC (Standard Test Conditions) rating provided by the manufacturer, as it represents a more realistic real-world performance under specific environmental conditions."
+            ],
+            "keywords": [],
+            "answer_correctness": 0.5161108232351694,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "type": "education_and_learning",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/Simplified_Chinese/education_and_learning.csv"
+            },
+            "question": "is it good or bad for a compound to have a low melting point for recrystalization",
+            "answer": "For recrystallization, it is generally **bad** for a compound to have a **low** melting point. This is because a compound with a low melting point can tend to **melt** **too easily** at **low temperatures**, which can lead to **partial redissolving** of the compound. Ideally, the compound should have a **high** melting point to facilitate the recrystallization process effectively, ensuring a good purification outcome . Additionally, a higher melting point after recrystallization indicates a purer compound, highlighting the importance of selecting a compound with a higher melting point for this purification method .",
+            "ground_truths": [
+                "Advantages of a Compound with a Low Melting Point for Recrystallization:\nEase of Purification: Compounds with low melting points tend to melt at lower temperatures, making them easier to work with during recrystallization processes.\nEfficiency: Lower melting points can lead to faster recrystallization processes, saving time and resources.\nDisadvantages of a Compound with a Low Melting Point for Recrystallization:\nReduced Selectivity: Compounds with very low melting points may not provide a clear distinction in solubility with solvents during recrystallization, which could affect purification efficiency.\nPotential for Oiling Out: A compound with a very low melting point may oil out before complete crystallization if the cooling process is slow, impacting the purity of the final product."
+            ],
+            "keywords": [],
+            "answer_correctness": 0.56330379674626,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "type": "factual_knowledge",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/Simplified_Chinese/factual_knowledge.csv"
+            },
+            "question": "John Dutton",
+            "answer": "John Dutton is a character from the television series Yellowstone. He is portrayed as a Montana rancher and the patriarch of the Dutton family, who owns one of the largest cattle ranches in the United States . The show follows the Dutton family's conflicts and challenges, including those with land developers, an Indian reservation, and a national park . John Dutton is depicted as a complex character, often perceived as a villain, with a dark and morally ambiguous personality . He had a wife named Evelyn, with whom he had four children, three sons, and a daughter, and they ran the ranch together before her passing .",
+            "ground_truths": [
+                "John Dutton III - Architect and Urban Designer: John Dutton is an Adjunct Professor at the USC School of Architecture. He is the principal of Dutton Architects, Los Angeles, specializing in designing individual buildings and urban frameworks. His educational background includes a B.A. from Brown University and an M.Arch from Princeton University.\nJohn Dutton III - Montana Rancher from Yellowstone: John Dutton III is a main character on the TV show \"Yellowstone.\" He is portrayed as a Montana rancher and the patriarch of the Dutton family, owning one of the largest cattle ranches in the United States.\nJohn Dutton III - Negative Portrayal in Media: In some discussions, John Dutton is depicted as a villainous character, specifically described as a serial killer with twisted ethics."
+            ],
+            "keywords": [],
+            "answer_correctness": 0.7376703906400531,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "type": "technical_advice_and_assistance",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/Simplified_Chinese/technical_advice_and_assistance.csv"
+            },
+            "question": "what are the applications of lidar in aerospace industry?",
+            "answer": "**Applications of LiDAR in the Aerospace Industry:**\n\n1. **Large-scale basic terrain mapping:** LiDAR technology is utilized for large-scale terrain mapping in the aerospace industry. It offers a more efficient way to capture 3D coordinates, providing precise data on ground elevation and detailed 3D imaging of the terrain. This aids in research, planning, and analysis in aerospace applications .\n\n2. **Aerospace and defense engagements:** LiDAR is increasingly being used in aerospace and defense applications to support various operations. It plays a crucial role in enhancing engagements related to aerospace and defense by providing accurate data for mapping, navigation, and other critical tasks .\n\n3. **Coherent Light Detection and Ranging (LiDAR) Imaging:** Coherent LiDAR imaging technology, employing laser-based techniques, is a significant advancement in the aerospace and defense industry. It enables precise imaging and mapping capabilities critical for various aerospace applications .\n\nThese applications demonstrate how LiDAR technology contributes significantly to the aerospace industry, offering advanced mapping, navigation, and imaging capabilities essential for various aerospace and defense operations.",
+            "ground_truths": [
+                "Terrain and Obstacle Mapping: LiDAR can be used to create highly accurate 3D maps of terrain, landscapes, and obstacles. This is useful for mission planning, navigation, and situational awareness in aerospace applications.\nAircraft and Satellite Detection and Tracking: LiDAR can be used to detect and track aircraft, satellites, and space debris with high precision. This aids in airspace management and collision avoidance.\nAirport Operations: LiDAR can provide precise measurements of runway conditions, including detecting foreign object debris (FOD) and runway surface damage. This improves airport safety and efficiency.\nAutonomous Navigation: LiDAR is a key sensor used in the navigation systems of autonomous aerial vehicles like drones, allowing them to detect and avoid obstacles.\nBathymetric Mapping: Military applications of LiDAR include bathymetric mapping, which can precisely image terrain features both on land and in the water, useful for naval operations"
+            ],
+            "keywords": [],
+            "answer_correctness": 0.5564235904948057,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "type": "education_and_learning",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/Simplified_Chinese/education_and_learning.csv"
+            },
+            "question": "Role of pyroptosis in diabetic cardiomyopathy: an updated review",
+            "answer": "**Pyroptosis in Diabetic Cardiomyopathy: An Updated Review**\n\nPyroptosis, a form of programmed cell death, has been recognized as a significant player in the pathogenesis of Diabetic Cardiomyopathy (DCM) . DCM, a common complication of diabetes, is characterized by structural and functional abnormalities in the heart . Recent studies have shed light on the molecular mechanisms underlying pyroptosis-mediated damage in DCM. Specifically, the focus has been on the role of the NLRP3 inflammasome in promoting pyroptosis in the context of DCM . \n\nStudies have highlighted that mature Caspase-1 can cleave Gasdermin D (GSDMD) to form N-GSDMD, which subsequently leads to the formation of N-terminal pore-forming domain of GSDMD . This process is crucial in the induction of pyroptosis in DCM. Additionally, interventions targeting pyroptosis pathways, especially those involved in the NLRP3 inflammasome, have been considered as potential strategies for treating DCM .\n\nWhile the exact therapeutic interventions and detailed mechanisms warrant further investigation, the recognition of pyroptosis as a key mechanism in DCM pathogenesis opens up avenues for novel therapeutic approaches that could potentially mitigate the impact of this disease.\n\nPlease note that further details beyond what is covered here may be available in the comprehensive updated reviews on the specific topic of pyroptosis in diabetic cardiomyopathy .",
+            "ground_truths": [
+                "Pyroptosis is a form of programmed cell death that is accompanied by an inflammatory response. It is triggered by inflammasomes and executed by the Gasdermin and Caspase families. Prolonged hyperglycemia in diabetes can induce pyroptosis in various cell types, including cardiomyocytes, which exacerbates the progression of DCM.\n\nThe NLRP3 inflammasome is a key driver of pyroptosis in DCM. Activation of the NLRP3 inflammasome leads to the cleavage of Gasdermin D, which forms pores in the cell membrane and induces pyroptotic cell death.\n\nPyroptosis in different cell types, such as cardiomyocytes, endothelial cells, and inflammatory cells, all contribute to the pathogenesis of DCM. This includes increased collagen deposition, cardiac dysfunction, and inflammation.\n\nSeveral therapeutic strategies targeting pyroptosis have shown promise in animal models of DCM, including NLRP3 inhibitors, Gasdermin D inhibitors, and certain herbal medicines that can suppress pyroptosis-related pathways"
+            ],
+            "keywords": [],
+            "answer_correctness": 0.7859203580147844,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "type": "entertainment_and_leisure",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/Simplified_Chinese/entertainment_and_leisure.csv"
+            },
+            "question": "plantas contra zombis",
+            "answer": "**Plantas contra Zombis**\n\n\"Plantas contra Zombis\" es una serie de juegos de video desarrollada por PopCap Games, una subsidiaria de Electronic Arts (EA) . En estos juegos de acción populares, utilizas plantas para defender tu hogar de una invasión de zombis . Puedes disfrutar de 50 niveles, 49 tipos de plantas, 26 tipos de zombis, logros y mucho más en este juego de defensa única . El objetivo principal es utilizar una amplia variedad de plantas para combatir los zombis y proteger tu cerebro . El juego ofrece una experiencia entretenida donde debes planificar estratégicamente para sobrevivir a las hordas de zombis . Incluye un total de 49 plantas que puedes usar a lo largo de los diferentes niveles de aventura y modo de supervivencia .\n\nEn \"Plantas contra Zombis\", el jugador debe defender su hogar de 26 tipos de zombis utilizando plantas antizombi como lanzaguisantes, nueces escuderas, y bombas-cereza, entre otras . La serie también presenta personajes como \"Crazy Dave\", quien ayuda a los jugadores en su lucha contra los zombis liderados por el Dr. Edgar George Zomboss .\n\nEn resumen, \"Plantas contra Zombis\" es un juego adictivo y divertido donde debes usar plantas estratégicamente para detener a los zombis y proteger tu casa.",
+            "ground_truths": [
+                "Plants vs. Zombies es una franquicia de videojuegos de acción y estrategia desarrollada por PopCap Games y publicada por Electronic Arts. \n\nEn estos juegos, el objetivo es defender el hogar del jugador de una invasión de zombis utilizando una variedad de plantas con diferentes habilidades y poderes. \n\nLa franquicia ha recibido numerosos premios y es conocida por su estética colorida, personajes divertidos y mecánicas de juego adictivas. \n\nLos juegos de la serie incluyen títulos para consolas, PC y dispositivos móviles, como Plants vs. Zombies, Plants vs. Zombies 2, Plants vs. Zombies: Garden Warfare y Plants vs. Zombies: Battle for Neighborville. "
+            ],
+            "keywords": [],
+            "answer_correctness": 0.73614746417736,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "type": "entertainment_and_leisure",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/Simplified_Chinese/entertainment_and_leisure.csv"
+            },
+            "question": "Mario bros",
+            "answer": "**Mario Bros**\n\nMario Bros is a platform game developed by Nintendo and first released as an arcade video game in 1983 . It was designed by Shigeru Miyamoto and Gunpei Yokoi and features Italian twin brother plumbers, Mario and Luigi, exterminating creatures like turtles (Koopas) and crabs by knocking them upside-down and kicking them away. This game marked the introduction of Luigi and some key gameplay elements that became iconic in the Mario series, such as spinning bonus coins and the ability to flip turtles onto their backs . \n\nThe game received positive reviews and was a precursor to the highly successful Super Mario Bros released in 1985 . Mario Bros laid the foundation for the Super Mario series, shifting away from single-screen gameplay to side-scrolling platform levels. Elements introduced in Mario Bros were carried over to Super Mario Bros and became staples of the series, contributing to its success .\n\nAdditionally, Mario Bros was an important title for the Nintendo Entertainment System (NES), being the best-selling game for the NES in 1999 and playing a significant role in the revival of the American video game industry after the crash in 1983 .",
+            "ground_truths": [
+                "Mario Bros. is a platform game developed and published by Nintendo as an arcade video game in 1983.\n\n It was designed by Shigeru Miyamoto and Gunpei Yokoi, and features Italian twin brother plumbers Mario and Luigi exterminating creatures emerging from the sewers."
+            ],
+            "keywords": [],
+            "answer_correctness": 0.7321930512551685,
+            "passed": true
+        }
+    ]
+}
