@@ -1,2 +1,6 @@
-id,query,ground_truth,expect_key_words,description
-0,traction の意味とコンテキストを教えて,tractionの意味は、物体が動くときの表面との间的の摩擦（特に車のタイヤと道路の間）、骨折している骨や手足を引っぱり、特别な方法で圧迫を軽減する医療治療、或者是る物体を道路や他の表面上引き曳す行动、特に商談やプロジェクトが進行する速度を示すビジネス用语の1つです。コンテキストによっては、汽车の牵引力制御控制系统（TCS）、或者是る物体を地面や他の表面上引き曳す力、またビジネスにおいてプロジェクトが進展する速度を示す含义があります,,
+id,query,ground_truth,expect_key_words,expect_sources,description
+0,traction の意味とコンテキストを教えて,tractionの意味は、物体が動くときの表面との间的の摩擦（特に車のタイヤと道路の間）、骨折している骨や手足を引っぱり、特别な方法で圧迫を軽減する医療治療、或者是る物体を道路や他の表面上引き曳す行动、特に商談やプロジェクトが進行する速度を示すビジネス用语の1つです。コンテキストによっては、汽车の牵引力制御控制系统（TCS）、或者是る物体を地面や他の表面上引き曳す力、またビジネスにおいてプロジェクトが進展する速度を示す含义があります,,,
+1,ゴーストオートノミーについて教えて？,"Ghost Autonomy is a start-up backed by OpenAI that focuses on self-driving software. The term ""autonomy"" refers to the concept of self-determination and the ability of individuals or groups to make decisions independently. 
+In the context of technology and start-ups, autonomy can be extended to the development and implementation of autonomous systems, including systems related to artificial intelligence and robotics.",start-up,https://www.ghostautonomy.com/blog/introducing-talking-autonomy-ai-inspired-by-biology,
+2,sparticleの競合相手は誰ですか？,,,,
+3,東京メトロ史上最高の座席？,はい、東京メトロにおいて、有楽町線・副都心線向けに導入された17000系電車は、その座席が史上最高と称されています. この新型車両は、それまでの車両と比較して、座席幅の拡大や冷房能力の向上が図られており、座り心地や使い勝手が大幅に向上しています. 特に、背もたれが前かがみでないことから自然な着座姿勢を取りやすく、座面も深くゆとりを感じられる設計となっており、乗客にとって大変快適な空間を提供しています. さらに、消臭・抗ウィルス加工も行われているので、衛生面でも配慮されています,17000,,
