@@ -1,7 +1,44 @@
-id,query,ground_truth,expect_key_words,description
-0,火山云,"火山引擎是字节跳动旗下的云服务平台。它成立于2020年6月22日,目标是成为中国云计算市场的""第四朵云""。",火山引擎,
-1,紫金的销售收入,"紫金矿业2023年的营业收入约为2934.03亿元,同比增长8.54%。",2934,
-2,百度,百度是一家中国跨国科技公司，总部位于北京海淀区，成立于2000年。它是全球最大的中文搜索引擎之一，致力于提供互联网相关服务、产品和人工智能技术。,baidu.com,
-3,CaiT-S224模型,"CaiT-S224是一种由Carion等人开发的视觉变换器模型。它是基于Vision Transformer (ViT)架构的一种改进版本,主要针对图像分类任务进行了优化。CaiT 提出了 LayerScale 和 Class-Attention 两种改进方法，以解决深度增加导致的训练困难和计算量增加问题。",LayerScale&&Class-Attention,
-4,ycloud是什么？,YCloud是友云采FED自研的一套基于knockoutjs的开源UI组件库，主要服务于PC端的企业级Web应用. YCloud同时也是一家领先的WhatsApp业务服务提供商，致力于帮助企业通过WhatsApp这一全球最流行的社交应用来发展业务.,WhatsApp&&knockoutjs,
-5,什么是提灯定损?,提灯定损是指“提着灯，照着墙，查看出租房被损坏的情况”，含有吹毛求疵、故意找岔、鸡蛋里挑骨头等意思，偏向贬义。这一网络词语源于江西上饶一起“恶房东事件”,,
+id,query,ground_truth,expect_key_words,expect_sources,description
+0,火山云,"火山引擎是字节跳动旗下的云服务平台。它成立于2020年6月22日,目标是成为中国云计算市场的""第四朵云""。",火山引擎,,
+1,什么是提灯定损?,提灯定损是指“提着灯，照着墙，查看出租房被损坏的情况”，含有吹毛求疵、故意找岔、鸡蛋里挑骨头等意思，偏向贬义。这一网络词语源于江西上饶一起“恶房东事件”,,,
+2,ycloud是什么？,YCloud是友云采FED自研的一套基于knockoutjs的开源UI组件库，主要服务于PC端的企业级Web应用. YCloud同时也是一家领先的WhatsApp业务服务提供商，致力于帮助企业通过WhatsApp这一全球最流行的社交应用来发展业务.,WhatsApp&&knockoutjs,,
+3,百度,百度是一家中国跨国科技公司，总部位于北京海淀区，成立于2000年。它是全球最大的中文搜索引擎之一，致力于提供互联网相关服务、产品和人工智能技术。,baidu.com,,
+4,紫金的销售收入,"紫金矿业2023年的营业收入约为2934.03亿元,同比增长8.54%。",2934,,
+5,CaiT-S224模型,"CaiT-S224是一种由Carion等人开发的视觉变换器模型。它是基于Vision Transformer (ViT)架构的一种改进版本,主要针对图像分类任务进行了优化。CaiT 提出了 LayerScale 和 Class-Attention 两种改进方法，以解决深度增加导致的训练困难和计算量增加问题。",LayerScale&&Class-Attention,,
+6,Vyro AI是什么公司,"Vyro AI 是一家专注于开发基于人工智能和机器学习的内容创作工具的公司。根据其官网信息:
+Vyro 已经开发了 15 多款产品，拥有超过 1.5 亿次下载量和 80 万日活用户。
+该公司的主要产品包括 AI 图像生成器 Imagine、AI 照片编辑器 PhotoShot 等。
+Vyro 的团队擅长应用前沿的生成式 AI 技术，并致力于为用户提供创新的内容创作工具。
+该公司成立于巴基斯坦，是当地一家具有多元化和创新实力的科技公司。
+总之, Vyro AI 是一家专注于开发基于生成式 AI 的创意工具的科技公司，在内容创作领域有较强的技术实力和产品线。",人工智能&&图片,https://vyro.ai/,
+7,"列出以下公司“OpenAI, perplexity, anthropic, mistral”的“创始人，成立时间，产品，投资人”，用表格展示","公司名称
+创始人
+成立时间
+产品
+投资人
+OpenAI
+Sam Altman
+2015年
+GPT语言模型
+包括Elon Musk、Peter Thiel等在内的投资者
+Perplexity AI
+Aravind Srinivas
+2018年
+基于OpenAI模型的问答助手
+IVP、NVIDIA、Jeff Bezos、NEA、Elad Gil、Nat Friedman等
+Anthropic
+Dario Amodei
+2021年
+生成式AI模型
+包括主权财富基金在内的投资者
+Mistral
+未提及
+未提及
+未提及
+未提及",Sam Altman&&Aravind&&Srinivas,,
+8,如何在Kraken交易所进行出金操作,"在Kraken交易所进行出金操作的步骤如下：
+首先，需要登录您的Kraken账户。这可以通过访问Kraken官方网站并使用您的账户名和密码完成。
+登录后，选择“提现”选项。这一步骤是进入提现页面的前提条件。
+在提现页面，您需要选择提现币种和提现方式。Kraken提供了快速提现和标准提现两种方式。快速提现通常指的是即时转账，如Instant SEPA即时转账，这种方式可以提高转账速度，几分钟到十几分钟就能到账。而标准提现则可能需要更长的时间。
+对于希望通过N26/Vivid Money及Wise进行人民币提现的用户，需要注意的是，N26支持Clear Junction(SEPA)，而Vivid Money暂不支持Fidor（SPEA）转账。因此，如果选择Vivid Money作为提现方式，应避免选择Fidor（SPEA）。
+输入提现金额，并确认提现信息无误后，点击“确认提款”。6. 最后，根据您的提现方式，完成相关的验证或填写必要信息，以确保提现操作顺利进行。",,,
