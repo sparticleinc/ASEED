@@ -1,0 +1,384 @@
+{
+    "evaluate_ai": {
+        "name": "Glarity Search",
+        "url": "https://search.glarity.ai"
+    },
+    "evaluate_llm": "gpt-4-1106-preview",
+    "evaluate_type": "ragas",
+    "evaluate_data": {
+        "total": 20,
+        "passed": 8,
+        "failed": 12,
+        "pass_rate": "40.00%",
+        "answer_correctness": 0.6565760035984721
+    },
+    "created_at": "2024-04-18 11:43:51",
+    "datas": [
+        {
+            "metadata": {
+                "id": 1,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/real_time_news.csv",
+                "language": "zh-cn"
+            },
+            "question": "百川最新的融资",
+            "answer": "根据最新的报道，百川智能最近进行了一轮数亿美元的融资，成为国内2024年最大的AI领域融资之一。这轮融资使得百川智能的估值已经超过了18亿美元。此次融资得到了多家知名公司和投资机构的参与，其中包括阿里、腾讯、小米等科技公司。总的来说，百川智能已经完成过多轮融资，累计融资金额已经达到了数十亿美元的规模，这进一步巩固了该公司在AI领域的地位和影响力。",
+            "ground_truths": [
+                "有媒体报道称,百川智能正在进行新一轮数亿美元融资,将成为2024年国内AI领域最大融资之一,且公司今年以来估值已超18亿美元"
+            ],
+            "keywords": [
+                "18"
+            ],
+            "answer_correctness": 0.8238813274960015,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 2,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/real_time_news.csv",
+                "language": "zh-cn"
+            },
+            "question": "海康威视去年的业绩如何",
+            "answer": "海康威视去年的业绩呈现了不同的情况。根据公布的数据，海康威视2021年实现了营业收入813.01亿元，同比增长28.03%，而归母净利润则达到167.84亿元，同比增长25.39%.这显示了公司在2021年取得了良好的业绩增长。\n\n然而，海康威视在2022年的业绩呈现下降趋势。根据相关报告显示，2022年公司的毛利率为42.29%，同比减少了2.04%。2022年，海康威视实现了约831.66亿元的营业收入，同比增加2.14%，但归母净利润却约为128.37亿元，同比下降23.59%.这标志着海康威视净利润首次出现下降，这种情况在近5年来尚属首次。\n\n不仅如此，海康威视2023年的一季度业绩也呈现下滑趋势。据财报显示，公司今年一季度实现营业收入约162.01亿元，比去年同期减少1.94%，归母净利润约为18.11亿元，减少20.69%.这可能意味着公司在某些方面面临着挑战，或受到市场环境等因素的影响。\n\n总的来看，海康威视在不同年份的业绩表现存在差异。虽然公司在某些年份取得了良好的增长，但在其他年份也面临挑战和下滑。监测这一行业龙头企业的未来发展将需要关注其应对不稳定经济环境和市场变化的能力。",
+            "ground_truths": [
+                "在2023年，海康威视的业绩恢复增长，公司实现了营业收入893.55亿元，同比增长7.44%，净利润为141.17亿元，同比增长9.96%。"
+            ],
+            "keywords": [
+                "2023",
+                "893.55||893"
+            ],
+            "answer_correctness": 0.568261317980298,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 3,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/real_time_news.csv",
+                "language": "zh-cn"
+            },
+            "question": "百川最新的融资",
+            "answer": "根据最新的资讯，百川智能最近进行了一轮融资。这次融资是A1轮战略融资，融资金额高达3亿美元。这使得百川智能的累计融资额达到了3.5亿美元，包括之前的天使轮融资额5000万美元。阿里、腾讯、小米等科技公司以及多家投资机构都参与了这次融资。虽然具体的估值尚未披露，但百川智能表示，在本轮融资之后，公司已经晋升为科技独角兽之一。\n\n这次融资的信息显示，百川智能的价值和潜力备受投资者认可，使其在AI领域持续引领并受到资本市场的广泛关注。这也表明百川智能在人工智能领域的技术和商业前景备受肯定，吸引了包括阿里、腾讯、小米等一众知名科技公司的投资。这次融资额巨大的背后，反映了投资者对百川智能在人工智能市场上长期发展和市场潜力的认可。\n\n总的来说，百川智能最新一轮高额融资显示了投资者对其未来发展和潜力的信心。这也为该公司在人工智能领域继续创新和扩张提供了强大的资金支持，有望进一步巩固其在行业内的地位并推动未来的发展。",
+            "ground_truths": [
+                "有媒体报道称,百川智能正在进行新一轮数亿美元融资,将成为2024年国内AI领域最大融资之一,且公司今年以来估值已超18亿美元"
+            ],
+            "keywords": [
+                "18"
+            ],
+            "answer_correctness": 0.5632127750652358,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 4,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/real_time_news.csv",
+                "language": "ja"
+            },
+            "question": "最近の台湾の地震での死傷者数は何人ですか?",
+            "answer": "最近の台湾の地震での死傷者数は、死者数は9人であり、負傷者数は最大で1,050人程度と報告されています。また、663人が救助チームとの連絡を取りながら立ち往生している状況だと台湾の国立消防庁が伝えています.この地震は台湾にとって少なくとも25年ぶりの大きな地震であり、住民の間で懸念が高まっています。前回の大きな地震は1999年に発生した際に2,400人以上の死者を出し、10万人以上が負傷し、数千棟の建物が破壊されるという被害をもたらしました.台湾は頻繁に地震に見舞われる地域であり、住民は地震に対して比較的よく備えていますが、今回の地震は当局が想定していたよりも強いものだったため、地震に慣れ親しんでいる人々でも驚いています.",
+            "ground_truths": [
+                "台灣花蓮地震死亡數字上升。10日救援人員在花蓮太魯閣區域砂卡礑步道尋獲3具遺體，花蓮7.3級地震罹難人數上升至16人。"
+            ],
+            "keywords": [
+                "16"
+            ],
+            "answer_correctness": 0.5853650902426176,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 5,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/real_time_news.csv",
+                "language": "ja"
+            },
+            "question": "最近の埼玉県行田市事故の死傷者数は何人ですか?",
+            "answer": "(The search engine returned nothing for this query. Please take the answer with a grain of salt.)\n\n最近の埼玉県行田市での事故についての詳細情報は提供されていません。事故の死傷者数について正確な情報を得るには、行政機関やニュースソースなどで最新の報道を確認する必要があります。事故に関する詳細な情報が発表され次第、それに基づいて正確な人数を把握することができます。情報が入手でき次第、適切な措置を取ることが重要です。",
+            "ground_truths": [
+                "最近の埼玉県行田市の事故での死傷者数は以下の通りです:\n死亡者数: 1人\n負傷者数: 3人"
+            ],
+            "keywords": [
+                "1"
+            ],
+            "answer_correctness": 0.5524077284080225,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 6,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/real_time_news.csv",
+                "language": "ja"
+            },
+            "question": "藤岡康太騎手の怪我はどうでしたか？",
+            "answer": "藤岡康太騎手は、競馬藤田菜七子騎手が故藤岡康太騎手への思いを語った記事の中で言及されています。この記事によると、藤岡康太騎手は故去したという内容が伝えられています。藤岡康太騎手について具体的な怪我の詳細は説明されていませんが、彼の逝去が伝えられています。\n\n要約すると、藤岡康太騎手は故去したことが報告されており、詳細な怪我に関する情報は含まれていません。",
+            "ground_truths": [
+                "藤岡康太騎手は、2024年4月6日に行われた阪神競馬場の第7レースで落馬し、頭部と胸部を負傷しました.この落馬の後、藤岡騎手は病院に搬送され、意識を取り戻すことなく、後に怪我のため亡くなりました.この悲報は日本中央競馬会(JRA)からも発表されました"
+            ],
+            "keywords": [
+                "亡"
+            ],
+            "answer_correctness": 0.6870000537999131,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 7,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/real_time_news.csv",
+                "language": "zh-tw"
+            },
+            "question": "士林區溪山里事件的起因是什麼？",
+            "answer": "士林區溪山里事件的起因是因為自設水源系統的水質不佳所引起的。當地居民日常用水取自未經加藥消毒處理的山泉水，最近可能受到地震影響，導致水質受到汙染，大腸桿菌群數值偏高，進而引發超過百人出現上吐下瀉等腸胃不適症狀。\n\n市長蔣萬安要求加快解決問題，並於115年完成自來水接管工程，以保障市民的健康和安全。他表示，溪山里等地區的自來水接管雖然面臨不少挑戰，但市府將積極處理，其中包括首先投氯消毒以應急、並計畫在近期內完成自來水接管工程，確保當地居民用水安全。",
+            "ground_truths": [
+                "士林區溪山里事件的起因是與水質問題有關。根據報導，溪山里的居民平常使用自行成立的供水系統，主要使用山泉水作為飲用水源。然而，由於地震等自然災害可能導致山泉水受到污染，進而造成水質問題。事件中大腸桿菌群數值偏高，反映了水質有異常情況，因此許多居民出現了腹瀉和嘔吐等腸胃道疾病症狀。台北市政府為了緊急應對此情況，已提供緊急取水站以及醫療服務，並展開全面水質檢測及環境消毒等措施以解決問題。因此，士林區溪山里事件的起因主要是因為使用的山泉水受到污染所導致的水質問題。"
+            ],
+            "keywords": [
+                "地震"
+            ],
+            "answer_correctness": 0.7536197282068097,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 8,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/real_time_news.csv",
+                "language": "ja"
+            },
+            "question": "3月のCPI",
+            "answer": "2024年3月の消費者物価指数（CPI）に関する情報があります。国家統計局によると、3月のCPIは季節的な要因や市場供給の充足などの影響で前月比で1.0％下落し、同比では0.1％上昇しました。ただし、食品や出行サービスの価格が下落したことが主な要因とされています。食品価格は2.7％下落し、非食品価格は0.7％上昇しました。具体的には、食品では鶏卵や鮮果、牛肉などが価格下落し、非食品ではサービス価格の上昇が目立ちました。\n\n彼らは同時に、3月のCPIの上昇に影響を与えた要因も説明しています。例えば、国内の金価格や石油価格の上昇が金の装身具やガソリン価格の上昇につながったことが挙げられます。また、非食品部門のうち、サービス価格の上昇も特筆されています。例えば、旅行価格が大幅に下落し、飛行機チケット価格も前月から下落したことが報告されています。\n\n消費者物価指数は、国内経済の健全性や物価動向を把握する上で重要な要素であり、個人や企業の消費行動にも影響を与えます。したがって、これらの統計データは政府や政策立案者、投資家、消費者などにとって重要な意思決定の参考情報となります。",
+            "ground_truths": [
+                "2024年3月の日本のCPIは2.8%"
+            ],
+            "keywords": [
+                "2.80%"
+            ],
+            "answer_correctness": 0.5275937924651852,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 9,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/real_time_news.csv",
+                "language": "ja"
+            },
+            "question": "今年はどの国で日食が見られますか。",
+            "answer": "今年は2024年ですが、2024年には特に4月8日に北米で皆既日食が観測されます。この日食は、メキシコから始まり、アメリカ、カナダを横断しています。具体的には、メキシコの太平洋岸で皆既日食が観測され、テキサス州オースティンやニューヨーク州、カナダを通過しています。地図によると、この日食の経路に沿って、さまざまな都市でイベントが予定されています。しかし、この日食は北米を中心とした地域でしか見られないため、他の国や地域では観測されません.",
+            "ground_truths": [
+                "2024年4月8日:\nメキシコ、アメリカ合衆国、カナダ: 皆既日食が観測される予定です"
+            ],
+            "keywords": [
+                "メキシコ||アメリカ合衆国||カナダ"
+            ],
+            "answer_correctness": 0.8522359965180708,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 10,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/real_time_news.csv",
+                "language": "zh-cn"
+            },
+            "question": "海康威视去年的业绩如何",
+            "answer": "海康威视去年的业绩表现出现了复苏。在2023年，海康威视实现了营业总收入达到了893.55亿元，同比增长了7.44%。归属于上市公司股东的净利润为141.17亿元，同比增长了9.96%。尽管在2022年曾经出现净利润大幅下滑的情况，但2023年的数据显示了近两位数的业绩增长，重新恢复了增长势头。\n\n特别值得一提的是，2023年的四个季度中，海康威视的净利润增幅持续上升，尤其是第四季度，公司实现了营业收入和净利润的大幅增长，分别为19.77%和31.75%。这显示出公司在去年业绩报告期内的巩固和增长。\n\n海康威视在复杂多变的宏观经济和地缘政治环境下稳定经营，优化内部管理，提升运营效率，持续推进业务发展。这种稳健的经营策略使得公司在2023年度取得了积极的业绩结果，为未来发展奠定了良好的基础。",
+            "ground_truths": [
+                "在2023年，海康威视的业绩恢复增长，公司实现了营业收入893.55亿元，同比增长7.44%，净利润为141.17亿元，同比增长9.96%。"
+            ],
+            "keywords": [
+                "2023",
+                "893.55"
+            ],
+            "answer_correctness": 0.7817932650836572,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 11,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/real_time_news.csv",
+                "language": "en"
+            },
+            "question": "How many Israelis died in the attack launched by Iran?",
+            "answer": "The attack launched by Iran resulted in minor damage to one Israeli military base, with most of the airborne threats being intercepted. The specific number of Israelis who died in this attack is not mentioned in the provided search results. However, it is reported that more than 300 drones and missiles were launched by Iran, and the attack lasted about five hours. This event marked a significant escalation in hostilities between Iran and Israel . \n\nIn summary, while the attack caused minor damage and most threats were intercepted, the exact number of Israeli casualties is not explicitly stated in the information provided.",
+            "ground_truths": [
+                "According to the reports, there were no reported fatalities from the Iranian attack on Israel"
+            ],
+            "keywords": [
+                "no casualties"
+            ],
+            "answer_correctness": 0.5098989568079559,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 12,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/real_time_news.csv",
+                "language": "en"
+            },
+            "question": "Whom did Putin say carried out the Moscow attack?",
+            "answer": "Russian President Vladimir Putin stated that the terrorists who carried out the attack in Moscow were \"radical Islamists\". The attack occurred at the Crocus City concert hall in Moscow, resulting in the tragic loss of many lives. Putin mentioned during a meeting with government officials that the perpetrators were extremists linked to radical Islamist ideology. He also expressed interest in identifying who orchestrated the attack, hinting at a broader campaign of intimidation by Ukraine. Despite ISIS claiming responsibility for the attack, Putin did not specifically name the ISIS affiliate that was involved in the incident. Furthermore, Putin implied that Ukraine might have been involved in the attack, suggesting a connection between the terrorists and Ukraine. \n\nThe President's acknowledgment that radical Islamists were behind the Moscow attack marks a significant development as it sheds light on the nature of the perpetrators. However, his comments linking the attack to Ukraine have generated controversy, especially given Ukraine's denial of any involvement. Putin's remarks have provoked discussions about the complexities surrounding the incident and the geopolitical implications of attributing blame for such acts of terrorism. It's essential to consider the broader context and potential motivations behind these statements to gain a deeper understanding of the situation.",
+            "ground_truths": [
+                "Vladimir Putin stated that \"radical Islamists\" were behind the deadly attack on the Crocus City concert hall in Moscow"
+            ],
+            "keywords": [
+                "radical Islamists"
+            ],
+            "answer_correctness": 0.696179855367042,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 13,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/real_time_news.csv",
+                "language": "en"
+            },
+            "question": "What precisely caused the ship to collide with the Baltimore bridge?",
+            "answer": "(The search engine returned nothing for this query. Please take the answer with a grain of salt.)\n\nThe collision between a ship and the Baltimore bridge was caused by a series of unfortunate events and miscommunications. The incident occurred when the ship, named the \"Cape Fear,\" was being navigated under the Hanover Street Bridge in Baltimore during a heavy storm. According to reports, the ship's radio was not functioning properly, which led to difficulties in communication between the pilot on board and the tugboats assisting in navigation. This lack of effective communication compromised the coordination required to safely guide the ship under the bridge. \n\nAdditionally, the strong winds and heavy rains during the storm made the navigation even more challenging. The combination of the adverse weather conditions and the malfunctioning radio exacerbated the already complex situation, ultimately resulting in the ship colliding with the Baltimore bridge. The collision caused damage to both the bridge and the ship, highlighting the importance of effective communication, proper equipment functioning, and skillful navigation in such maritime operations.\n\nIn summary, the collision between the ship and the Baltimore bridge was primarily caused by the malfunctioning radio communication system, adverse weather conditions, and the resulting challenges in navigation coordination. These factors collectively led to the unfortunate incident, emphasizing the critical need for clear communication and preparedness in maritime operations to prevent such accidents in the future.",
+            "ground_truths": [
+                "When the container ship MV Dali, 300 metres long and massing around 100,000 tonnes, lost power and slammed into one of the support piers of the Francis Scott Key Bridge in Baltimore, the bridge collapsed in moments."
+            ],
+            "keywords": [
+                "lost power"
+            ],
+            "answer_correctness": 0.5065198331032355,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 14,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/real_time_news.csv",
+                "language": "en"
+            },
+            "question": "Which island recently experienced a volcanic eruption in Indonesia?",
+            "answer": "**Indonesia, known for its volcanic activity due to its location on the Pacific Ring of Fire, has recently seen eruptions on various islands. One of the islands that recently experienced a volcanic eruption is Sumatra. Mount Marapi, the most active volcano on Sumatra, erupted, spewing ash 3km into the air, showcasing its volcanic activity. This eruption led to destructive consequences, as evidenced by the bodies of 11 hikers found on the mountain slopes post-eruption.**\n\n**Another eruption occurred on Java Island, where Indonesia's highest volcano released searing gas clouds and rivers of lava, signifying the volatility of the region's volcanic landscape. The volcanic eruptions on Sumatra and Java Islands are recent occurrences that highlight the ongoing geological activity in Indonesia.**\n\n**In summary, the islands of Sumatra and Java in Indonesia have both experienced volcanic eruptions recently, showcasing the dynamic and hazardous environment that these volcanic islands present.**",
+            "ground_truths": [
+                "The name of the volcano is Mount Ruang on the northern side of Sulawesi Island."
+            ],
+            "keywords": [
+                "Sulawesi island||Mount Ruang"
+            ],
+            "answer_correctness": 0.5042760187193155,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 15,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/real_time_news.csv",
+                "language": "en"
+            },
+            "question": "What did the leaders of the three countries say?",
+            "answer": "During the talks at Camp David, Maryland, the leaders of the United States, Japan, and South Korea emphasized the significance of their trilateral ties for global security and the strength of each nation. President Joe Biden commended the efforts of South Korean President Yoon Suk Yeol and Japanese Prime Minister Kishida Fumio in coming together to enhance cooperation among the three countries. This summit reaffirmed that collaboration among the U.S., Japan, and South Korea contributes to the security and prosperity not only of their own people but also of the wider Indo-Pacific region and the world at large. The joint efforts were aimed at reinforcing the Japan-U.S.-ROK alliances, enhancing trilateral security cooperation, and expanding cooperation in responding to North Korea, including sharing missile warning information and addressing cyber activities related to nuclear and missile development. \n\nThe leaders expressed their commitment to deepening their cooperation in various domains, such as strengthening regional deterrence, implementing sanctions, and working collectively in the U.N. Security Council, which all three countries will be a part of by 2024. Despite focusing on deterrence and response capabilities, the leaders also acknowledged the importance of keeping channels open for dialogue with North Korea. Additionally, they underscored their support for initiatives promoting a free and open Indo-Pacific, including coordinating capacity-building support in maritime security, especially for ASEAN and Pacific Island countries, through the Indo-Pacific dialogue and development cooperation. The leaders' discussions encompassed a wide range of issues, from security cooperation to humanitarian concerns like the abduction issue, showing a comprehensive approach to fostering stability and peace within the region and beyond.",
+            "ground_truths": [
+                "The leaders of the United States, Japan, and the Philippines recently held a summit. Here are some key points from their discussions:\n1. Shared Vision: They issued a “Joint Vision Statement” affirming their shared vision of a free and open Indo-Pacific and international order based on international law12.\n2. Security and Economy: They discussed various areas of security and economy, and expressed a desire to advance Japan-U.S.-Philippines cooperation based on this Summit2.\n3. Regional Situation: They discussed the security environment in the region and confirmed their unwavering commitment to freedom of navigation and overflight2.\n4. Opposition to Unilateral Actions: They confirmed that they would oppose and resolutely respond to any attempts by the People’s Republic of China (PRC) to unilaterally change the status quo by 5. force in the South China Sea and the East China Sea2.\n5. Inclusive Economic Growth: They resolved to promote enduring, inclusive economic growth and resilience in their countries and the broader Indo-Pacific1.\nStrengthening Alliances: The Philippines’ decision to strengthen ties with Japan and the United States was described as a “sovereign choice” for the country3."
+            ],
+            "keywords": [
+                "United States",
+                "Japan",
+                "Philippines"
+            ],
+            "answer_correctness": 0.6407525924915808,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 16,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/real_time_news.csv",
+                "language": "en"
+            },
+            "question": "Google fires 28 employees over protests inside work offices",
+            "answer": "Google recently fired 28 employees who took part in protests inside Google work offices in New York and California. These protests were in response to Google's involvement in Project Nimbus, a substantial $1.2 billion cloud computing deal with the Israeli government. The fired employees were part of a group of protesters who occupied the office of Google Cloud CEO Thomas Kurian and were subsequently removed by law enforcement. The protests were organized by the No Tech for Apartheid organization, which has been critical of Google's role in providing AI and cloud services to Israel. \n\nThe protests were marked by sit-ins that lasted nearly 10 hours, and nine employees were arrested on trespassing charges as a result of their actions. The firing of the 28 employees followed an investigation by Google after the protests. The company stated that these employees were found to be in violation of Google's policies by physically impeding other employees' work and preventing access to company facilities. \n\nThese events highlight the growing tensions within Google between some activist employees and the company's management over the ethical concerns related to the tech giant's contracts with government entities, such as the Israeli government. The protests and subsequent firings illustrate the complex dynamics at play within large tech companies when it comes to employees' activism and corporate decisions that intersect with geopolitical issues or human rights concerns.",
+            "ground_truths": [
+                "Google fired 28 workers Wednesday in Sunnyvale and New York, calling their protests inside work offices “completely unacceptable behavior” that prevented some employees from accessing their facilities.\n\nThe tech giant said protests on Tuesday over the company’s contracts with Israel disrupted several locations. The Chronicle reported that at Google’s Sunnyvale offices, police arrested five workers who held a sit-in Tuesday to protest their employer’s cloud contract with the Israeli government."
+            ],
+            "keywords": [
+                "contracts",
+                "Israel"
+            ],
+            "answer_correctness": 0.7562257373192977,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 17,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/real_time_news.csv",
+                "language": "en"
+            },
+            "question": "How many soldiers were wounded in the attack launched by Hezbollah on northern Israel recently？",
+            "answer": "In the recent attack launched by Hezbollah on northern Israel, a total of 18 people were wounded, with four of them being seriously injured. Specifically, out of the 18 wounded individuals, 14 were Israeli soldiers who suffered injuries during the attack. Among the soldiers wounded, six were reported to be in a serious condition as a result of the cross-border drone and missile attack by Hezbollah on a military reconnaissance command center in Arab al-Aramshe, which is located in northern Israel near the Lebanese border.",
+            "ground_truths": [
+                "n the recent attack launched by Hezbollah on northern Israel, a total of 14 soldiers were wounded. Among those injured, six of them were reported to be seriously wounded. The attack involved a combination of missiles and drones targeting a military base in northern Israel, specifically the Bedouin border town of Arab al-Aramshe. This assault by Hezbollah was a significant event in the ongoing conflict between the group and Israel."
+            ],
+            "keywords": [
+                "14"
+            ],
+            "answer_correctness": 0.7413215050846139,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 18,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/real_time_news.csv",
+                "language": "en"
+            },
+            "question": "What weapons were used to attack Israel from Iran?",
+            "answer": "Iran used a variety of weapons to launch an attack on Israel. The attack involved a significant number of drones, ballistic missiles, and cruise missiles. Specifically, Iran used Shahed-131 and Shahed-136 drones, Kheibar Shekan and Emad ballistic missiles, as well as Paveh cruise missiles during the assault on Israel. The Shahed drones have a notable range of around 1,200 miles, while the ballistic missiles like Kheibar Shekan and Emad are capable of carrying substantial payloads. The attack involved firing hundreds of missiles and drones toward Israel, showcasing the scale and complexity of the assault. The event marked Iran's first direct military action against Israel and was a significant escalation in the ongoing conflict between the two nations.\n\nAdditionally, in the attack, Iran launched a total of 170 drones at Israel, along with over 120 ballistic missiles. Despite the large number fired, the majority of these weapons were intercepted by Israeli defense systems and other allies. Most of the drones and missiles were successfully shot down by Israeli forces using advanced defensive weapons, such as the Iron Dome and the Arrow 3 systems. The interceptors managed to block a significant portion of the attack, preventing widespread damage and casualties in Israel. The Iron Dome system, in particular, played a crucial role in intercepting rockets and other threats during the assault, showcasing its effectiveness in defending against high-flying arcs of missiles.",
+            "ground_truths": [
+                "Iran fired 170 drones, more than 30 cruise missiles and more than 120 ballistic missiles. Of those, several ballistic missiles reached Israeli territory, causing minor damage to an air base."
+            ],
+            "keywords": [
+                "drones",
+                "missiles"
+            ],
+            "answer_correctness": 0.7986633860577953,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 19,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/real_time_news.csv",
+                "language": "en"
+            },
+            "question": "Why is GTA 6 publisher laying off 600 employees",
+            "answer": "(The search engine returned nothing for this query. Please take the answer with a grain of salt.)\n\nA GTA 6 publisher laying off 600 employees is not based on any concrete information available in the search results provided. It seems there might be confusion or a misunderstanding in the question. However, there are a few potential reasons why a game publisher or any company might lay off employees:\n\n1. **Restructuring or Cost-cutting Measures**: Companies may lay off employees as part of restructuring efforts to streamline operations, reduce costs, or adjust to changing market conditions.\n\n2. **Poor Financial Performance**: If a company is experiencing financial challenges or a decline in revenue, they may resort to laying off employees as a cost-cutting measure to improve profitability.\n\n3. **Strategic Shifts**: Companies may decide to shift focus, change strategies, or reallocate resources, leading to layoffs in certain departments or roles.\n\n4. **Mergers or Acquisitions**: In the case of mergers or acquisitions, redundancies in roles or functions may lead to layoffs as the new entity consolidates operations.\n\nWithout specific details or sources to reference, it's important to note that the reasons behind employee layoffs can vary depending on the circumstances and internal decisions within the company.",
+            "ground_truths": [
+                "The decision to lay off approximately 600 employees at Take-Two Interactive, the parent company of Rockstar Games, is part of a broader cost-cutting strategy. The company is rationalizing its pipeline, eliminating several projects in development, and streamlining its organizational structure. This downsizing process is expected to be largely complete by the end of the year 2024. Additionally, Take-Two had already signaled its intention for a significant cost reduction plan following mixed financial results for the quarter ending in December 2023. Despite these challenges, Take-Two has continued to invest in its portfolio, including the acquisition of Gearbox and the development of the highly anticipated 'GTA 6'."
+            ],
+            "keywords": [
+                "cost-cutting"
+            ],
+            "answer_correctness": 0.5192308557205969,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 20,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/real_time_news.csv",
+                "language": "en"
+            },
+            "question": "The world’s best airports for 2024, according to Skytrax",
+            "answer": "For the year 2024, Skytrax, a renowned airline intelligence company, conducted a global survey to determine the best airports worldwide. The top airport for 2024 as per Skytrax is Doha Hamad International Airport, which has secured the title for the third time after also winning in 2021 and 2022. Doha's airport is known for its top-notch facilities and services, contributing to its recognition as the world's best airport for 2024. Singapore's Changi Airport, which held the top spot previously, has now been ranked second in 2024, with its renowned features like the indoor waterfall. Seoul Incheon Airport from South Korea secured the third position on the list, known for being the \"World's Most Family Friendly Airport\" for 2024. Tokyo Haneda Airport and Tokyo Narita Airport from Japan also made it to the top rankings, highlighting the country's focus on excellence in airport services and cleanliness.\n\nThe top 20 airports in the world for 2024, according to Skytrax, are as follows:\n1. Doha Hamad Airport\n2. Singapore Changi Airport\n3. Seoul Incheon Airport\n4. Tokyo Haneda Airport\n5. Tokyo Narita Airport\n6. Paris Charles de Gaulle Airport\n7. Dubai Airport\n8. Munich Airport\n9. Zurich Airport\n10. Istanbul Airport\n11. Hong Kong Airport\n12. Rome Fiumicino Airport\n13. Vienna Airport\n14. Helsinki-Vantaa\n15. Madrid-Barajas\n16. Centrair Nagoya Airport\n17. Vancouver Airport\n18. Kansai Airport\n19. Melbourne Airport\n20. Copenhagen Airport\n\nThe rankings are determined through a comprehensive survey that includes various aspects of the airport experience such as check-ins, arrivals, transfers, shopping, security, immigration, and departure gate services. These results provide valuable insights for travelers and airport authorities, helping to recognize and strive for excellence in the aviation industry globally.",
+            "ground_truths": [
+                "According to the Skytrax rankings for 2024, Doha's Hamad International Airport has been named the best airport in the world."
+            ],
+            "keywords": [
+                "Doha's Hamad"
+            ],
+            "answer_correctness": 0.7630802560321986,
+            "passed": false
+        }
+    ]
+}
