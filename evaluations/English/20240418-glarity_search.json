@@ -1,0 +1,188 @@
+{
+    "evaluate_ai": {
+        "name": "Glarity Search",
+        "url": "https://search.glarity.ai"
+    },
+    "evaluate_llm": "gpt-4-1106-preview",
+    "evaluate_type": "ragas",
+    "evaluate_data": {
+        "total": 12,
+        "passed": 8,
+        "failed": 4,
+        "pass_rate": "66.67%",
+        "answer_correctness": 0.6262118953642112,
+        "reference_relevancy": 0.7866486237459926
+    },
+    "created_at": "2024-04-17 14:20:22",
+    "datas": [
+        {
+            "metadata": {
+                "type": "entertainment_and_leisure",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/English/entertainment_and_leisure.csv"
+            },
+            "question": "tools that ikea use in manufacturing goods",
+            "answer": "Ikea utilizes various tools in the manufacturing of goods to streamline operations, ensure quality, and enhance sustainability. One notable tool is the use of Petri Nets (PNs) as a means to innovate within their manufacturing systems. By leveraging PNs, Ikea can effectively model and analyze the flow of goods within their stores, aiding in the optimization of handling operations and enhancing overall efficiency.\n\nIn addition to PNs, Ikea has developed proprietary tools like the \"e-wheel.\" This tool plays a crucial role in assessing the environmental impact of their products at different stages of the supply chain, including raw materials sourcing, manufacturing, distribution, consumer use, and end-of-life considerations. The e-wheel helps Ikea evaluate the sustainability of their supply chain and make informed decisions to reduce environmental footprints.\n\nMoreover, Ikea collaborates with manufacturers to secure competitive pricing for its products. By partnering with various suppliers, including local furniture suppliers, food suppliers, and others, Ikea can maintain a diverse network of partners to support its manufacturing needs and ensure a steady supply of goods. \n\nFurthermore, Ikea focuses on innovation to reduce material usage in its products. For instance, the company shares online product assessment tools to help accelerate the circular movement and promote sustainable practices. These tools facilitate the development of innovative solutions aimed at reducing materials like foam in their products. This commitment to innovation underscores Ikea's dedication to sustainability and efficiency in its manufacturing processes. \n\nIn summary, Ikea's manufacturing processes are enhanced by a combination of tools such as Petri Nets for optimizing handling operations, the e-wheel for assessing environmental impacts, collaborations with manufacturers, and innovative solutions to reduce material usage in their products.",
+            "ground_truths": [
+                "The tools and technologies IKEA uses to manufacture its goods include:\nIKEA has also made advances in warehouse automation, driving growth rates and entering the Industry 4.0 era by integrating manufacturing and logistics through technology. The IKEA Furniture Group relies on ultra-modern automated systems to produce furniture components.\nElectronic Wheel (e-Wheel): IKEA analyzes the four phases of a product's life cycle, including resource extraction, production, use and recycling/disposal.\nGenerative AI (Generative AI): IKEA has partnered with ADP to launch a generative AI tool for production, demonstrating that IKEA also employs advanced technologies to optimize operations in its manufacturing processes.\nLarge-scale mechanical mass production model: In the production process of IKEA's home furnishing products, a large-scale mechanical mass production model is used, which can effectively reduce labor requirements.\nAutomated storage system: IKEA has introduced a new warehouse automation system at its Covina store that significantly improves the speed of order fulfillment and ensures that customers receive their products faster, whether they order in-store or online.\nArtificial Intelligence (AI) for smarter demand forecasting: IKEA has developed an advanced tool that uses artificial intelligence to significantly improve the accuracy of its demand forecasts.\nHand tools and power tools: IKEA also offers a range of hand tools and power tools for consumers to assemble IKEA furniture or realize their own projects."
+            ],
+            "keywords": [
+                "e-Wheel",
+                "Generative AI"
+            ],
+            "expect_sources": [],
+            "answer_correctness": 0.6230216389748358,
+            "reference_relevancy": 0.8109461013828702,
+            "passed": false
+        },
+        {
+            "metadata": {},
+            "question": "903-419-8722",
+            "answer": "The phone number \"903-419-8722\" is associated with Robokiller, a service specializing in blocking spam calls and protecting users from phone and text scams. This number is part of the directory of GCEC Technologies, located in Pottsboro, Texas, and registered as a regular landline under the ownership of GCEC Technologies. \n\nIf you are receiving calls from this number and want to identify the caller or get more information, you can use online tools like PeepLookup. Simply enter the phone number in the search bar on the website to get details about the number, such as the owner's name. PeepLookup is a reverse phone lookup service that works for both cell phones and landlines without the need for a credit card.\n\nIn summary, the number \"903-419-8722\" belongs to Robokiller and is registered under GCEC Technologies in Pottsboro, Texas. If you want to find out more about the owner of this number, you can use tools like PeepLookup for a reverse phone lookup.",
+            "ground_truths": [
+                "The phone number \"903-419-8722\" is associated with an entry in Pottsboro, TX. The exact details linked to this number may vary based on the source of information and user reports. If you are receiving calls from this number and are concerned about spam or scams, you can utilize services like Robokiller to block such calls. Robokiller is aimed at preventing unwanted calls and text scams, offering protection to users who may be targeted by such activities. The user reports associated with this number are currently at zero, indicating that there haven't been any spam or scam reports related to it. If you have specific concerns about this number or if you have experienced any issues with calls from it, you can check further details or report it to services like Robokiller for analysis and potential blocking."
+            ],
+            "keywords": [
+                "Pottsboro||Robokiller"
+            ],
+            "expect_sources": [],
+            "passed": true
+        },
+        {
+            "metadata": {
+                "type": "entertainment_and_leisure",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/English/entertainment_and_leisure.csv"
+            },
+            "question": "casino sin deposit",
+            "answer": "Cuando se menciona \"casino sin deposit,\" puede interpretarse de dos maneras diferentes en el contexto de los casinos en línea. \n\n1. **Bonos sin depósito:** En algunos casinos en línea, se ofrecen bonos sin depósito como una promoción para atraer nuevos jugadores. Estos bonos permiten a los jugadores jugar sin tener que realizar un depósito inicial de dinero real. Los jugadores pueden recibir giros gratis o una pequeña cantidad de dinero para jugar en el casino sin tener que comprometer sus propios fondos. Sin embargo, es importante tener en cuenta que estos bonos suelen venir con requisitos de apuesta que deben cumplirse antes de poder retirar las ganancias.\n\n2. **Casinos sin depósito:** Por otro lado, \"casinos sin depósito\" podría referirse a casinos en línea que no requieren que los jugadores depositen dinero real para comenzar a jugar. Estos casinos ofrecen la posibilidad de jugar directamente con dinero ficticio o créditos virtuales, lo que puede ser una opción para aquellos que desean experimentar los juegos sin arriesgar su propio dinero. Sin embargo, en la mayoría de los casos, para tener la oportunidad de ganar premios reales, se requerirá hacer un depósito en algún momento.\n\nEn resumen, \"casino sin depósito\" puede referirse tanto a bonos sin depósito ofrecidos por casinos en línea como a la modalidad de casinos que permiten jugar sin depositar dinero real, utilizando créditos virtuales. Cada uno de estos conceptos tiene sus propias implicaciones y beneficios para los jugadores interesados en explorar el mundo de los juegos de casino en línea.",
+            "ground_truths": [
+                "op US casinos offering no deposit bonuses include BetMGM, Borgata, and 888Casino"
+            ],
+            "keywords": [],
+            "expect_sources": [],
+            "passed": false
+        },
+        {
+            "metadata": {},
+            "question": "what is agnostics",
+            "answer": "Agnosticism refers to the view or belief that the existence of God, the divine, or the supernatural is unknown or unknowable. It is a philosophical stance that asserts the uncertainty of claims to knowledge about the existence of a higher power or the divine realm. The term \"agnostic\" can refer to a person who holds this view or to the concept itself, which originated from the Greek word \"agnostos\" meaning \"unknowable\".\n\nAgnosticism emphasizes that human reason is incapable of providing sufficient grounds to justify the belief in either the existence or non-existence of God. This perspective was notably promoted by the English biologist Thomas Henry Huxley in 1869, who coined the term agnostic. Huxley's idea was a response to the limitations of human knowledge in understanding phenomena beyond direct experience. This philosophical position asserts a cautious approach to affirming or denying the existence of a higher power and highlights the limits of human understanding when it comes to metaphysical questions.\n\nAgnosticism can be seen as distinct from atheism, which is the disbelief or lack of belief in the existence of deities. While atheists reject the idea of gods, agnostics maintain that ultimate reality or the nature of a supreme being is unknown and potentially beyond human understanding. Agnostics neither affirm nor deny the existence of God or gods but rather acknowledge the limitations of human knowledge in providing definitive answers to metaphysical questions. This stance allows for a more open, speculative, and questioning approach to matters of faith and spirituality.",
+            "ground_truths": [
+                "Agnostics are people who hold the view that the existence or non-existence of any ultimate reality, such as God, is unknown and probably unknowable"
+            ],
+            "keywords": [],
+            "expect_sources": [],
+            "passed": true
+        },
+        {
+            "metadata": {
+                "type": "factual_knowledge",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/English/factual_knowledge.csv"
+            },
+            "question": "what does CEC mean for solar panels?",
+            "answer": "CEC stands for California Energy Commission in the context of solar panels. When a solar product is labeled as \"CEC listed,\" it signifies that the manufacturer has applied to have their product listed by the California Energy Commission. This listing is crucial for products aiming to be sold in the US market, as it enables them to qualify for local, state, and federal rebates. Lenders supporting solar investments also require products to be CEC listed, ensuring eligibility for federal tax credits, rebates, and loans. Essentially, the CEC listing denotes that the solar panel meets specific quality and performance standards established by the Commission. \n\nMoreover, the California Energy Commission PTC rating plays a significant role in evaluating the performance of solar panels under real-world conditions. Unlike STC ratings, which are determined under ideal laboratory settings, PTC ratings provide a more accurate measure of a solar panel's energy output by considering factors like temperature, wind speed, and solar irradiance. This rating is essential for assessing how solar panels perform in practical environments, making it a valuable metric for consumers looking for reliable and efficient solar energy systems. \n\nIn summary, CEC in the solar panel context signifies the California Energy Commission's approval, ensuring that solar products meet specific criteria for quality and performance to qualify for rebates, tax credits, and loans. Additionally, the PTC rating established by the CEC is crucial for accurately assessing a solar panel's energy output under realistic conditions, providing consumers with valuable information when selecting solar panels for their homes or businesses.",
+            "ground_truths": [
+                "CEC Rating: The CEC (California Energy Commission) adopted the PTC (PVUSA Test Conditions) rating to measure the nominal output power of photovoltaic cells or modules. The CEC rating is typically 10-15% lower than the STC (Standard Test Conditions) rating provided by the manufacturer, as it represents a more realistic real-world performance under specific environmental conditions."
+            ],
+            "keywords": [],
+            "expect_sources": [],
+            "passed": true
+        },
+        {
+            "metadata": {
+                "type": "education_and_learning",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/English/education_and_learning.csv"
+            },
+            "question": "is it good or bad for a compound to have a low melting point for recrystalization",
+            "answer": "When considering recrystallization of a compound, having a low melting point can present challenges. A compound with a low melting point may not be ideal for recrystallization because it can melt at a relatively low temperature. This can lead to issues during the recrystallization process, such as the compound melting and partially redissolving at lower temperatures. As a result, the effectiveness of the recrystallization process may be compromised, potentially affecting the purity of the final product. \n\nOn the other hand, having a low melting point can sometimes be advantageous for recrystallization. If the compound dissolves readily at high temperatures and has a low solubility at low temperatures, it can still be recrystallized effectively. The key factor here is the solubility characteristics of the compound in the chosen recrystallization solvent. The fundamental goal of recrystallization is to purify a compound by dissolving it at an elevated temperature and then allowing it to recrystallize as the solution cools.\n\nTherefore, while a low melting point can pose challenges during recrystallization by causing premature melting, the success of the process ultimately depends on the specific characteristics of the compound and the recrystallization conditions. A careful selection of solvent and temperature control can help overcome some of the difficulties associated with recrystallizing compounds with low melting points.",
+            "ground_truths": [
+                "Advantages of a Compound with a Low Melting Point for Recrystallization:\nEase of Purification: Compounds with low melting points tend to melt at lower temperatures, making them easier to work with during recrystallization processes.\nEfficiency: Lower melting points can lead to faster recrystallization processes, saving time and resources.\nDisadvantages of a Compound with a Low Melting Point for Recrystallization:\nReduced Selectivity: Compounds with very low melting points may not provide a clear distinction in solubility with solvents during recrystallization, which could affect purification efficiency.\nPotential for Oiling Out: A compound with a very low melting point may oil out before complete crystallization if the cooling process is slow, impacting the purity of the final product."
+            ],
+            "keywords": [],
+            "expect_sources": [],
+            "passed": false
+        },
+        {
+            "metadata": {
+                "type": "factual_knowledge",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/English/factual_knowledge.csv"
+            },
+            "question": "John Dutton",
+            "answer": "The name \"John Dutton\" is associated with multiple characters from various contexts. One interpretation of John Dutton is from the epic neo-Western drama series **Yellowstone**, where John Dutton, portrayed by Kevin Costner, is the patriarch of the Dutton family and controls the largest ranch in the US. In this series, he is depicted as a tough rancher facing conflicts from different fronts like land developers, an Indian reservation, and a national park.\n\nAnother interpretation of John Dutton can be found in a context where he is described as a **Montana rancher** who owns one of the biggest cattle ranches in the United States and is the centerpiece of the Dutton family, overcoming challenges to keep the family and ranch going. \n\nIn addition to these fictional characters, there are references to a real-life individual named **John Dutton** who seems to be a **bad person or a villain** in certain contexts, as mentioned in a specific article. It is important to note that this reference is likely to a fictional character or a different individual unrelated to the characters in **Yellowstone**.\n\nTherefore, depending on the context, \"John Dutton\" can refer to either a character from the series **Yellowstone** portrayed by Kevin Costner, a Montana rancher in other contexts, or a negative figure in a different narrative.",
+            "ground_truths": [
+                "John Dutton III - Architect and Urban Designer: John Dutton is an Adjunct Professor at the USC School of Architecture. He is the principal of Dutton Architects, Los Angeles, specializing in designing individual buildings and urban frameworks. His educational background includes a B.A. from Brown University and an M.Arch from Princeton University.\nJohn Dutton III - Montana Rancher from Yellowstone: John Dutton III is a main character on the TV show \"Yellowstone.\" He is portrayed as a Montana rancher and the patriarch of the Dutton family, owning one of the largest cattle ranches in the United States.\nJohn Dutton III - Negative Portrayal in Media: In some discussions, John Dutton is depicted as a villainous character, specifically described as a serial killer with twisted ethics."
+            ],
+            "keywords": [],
+            "expect_sources": [],
+            "passed": true
+        },
+        {
+            "metadata": {
+                "type": "technical_advice_and_assistance",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/English/technical_advice_and_assistance.csv"
+            },
+            "question": "what are the applications of lidar in aerospace industry?",
+            "answer": "LiDAR, which stands for Light Detection and Ranging, has various applications in the aerospace industry due to its ability to provide precise and detailed data. Some of the key applications of LiDAR in the aerospace industry include:\n\n1. **Drone Consulting**: LiDAR is utilized in industries such as agriculture, construction, and energy for tasks like cell tower inspections, emergency and disaster response, and transmission and distribution .\n\n2. **Civil Engineering & Surveying**: LiDAR is extensively used in civil engineering and surveying for tasks like creating accurate terrain models, conducting land surveys, and assisting in infrastructure planning and development .\n\n3. **Defense & Aerospace Technologies**: In the defense and aerospace sectors, LiDAR plays a crucial role in enhancing situational awareness, supporting military operations, and advancing aerospace research. It is applied in tasks such as remote sensing, target acquisition, precision ranging, and illumination .\n\n4. **Lidar for 3D Object Detection**: Lidar technology that was originally developed for the automotive industry is now being repurposed for the aviation sector. Companies like Luminar and Airbus are exploring how adding LiDAR can lead to more autonomous flight vehicles, indicating a significant opportunity in the aviation industry .\n\n5. **Coherent LiDAR Imaging**: Coherent light detection and ranging (LiDAR) is a specific type of LiDAR technology that creates detailed 3D maps using laser light. It has applications in creating accurate maps of the surrounding environments in the aerospace and defense industries, allowing for precise measurements and enhanced mapping capabilities .\n\nIn summary, LiDAR technology finds applications in the aerospace industry across various sectors such as civil engineering, defense, and aviation. Its ability to provide highly accurate and detailed data makes it a valuable tool for tasks ranging from surveying and mapping to enhancing the capabilities of autonomous flight vehicles and aerospace research.",
+            "ground_truths": [
+                "Terrain and Obstacle Mapping: LiDAR can be used to create highly accurate 3D maps of terrain, landscapes, and obstacles. This is useful for mission planning, navigation, and situational awareness in aerospace applications.\nAircraft and Satellite Detection and Tracking: LiDAR can be used to detect and track aircraft, satellites, and space debris with high precision. This aids in airspace management and collision avoidance.\nAirport Operations: LiDAR can provide precise measurements of runway conditions, including detecting foreign object debris (FOD) and runway surface damage. This improves airport safety and efficiency.\nAutonomous Navigation: LiDAR is a key sensor used in the navigation systems of autonomous aerial vehicles like drones, allowing them to detect and avoid obstacles.\nBathymetric Mapping: Military applications of LiDAR include bathymetric mapping, which can precisely image terrain features both on land and in the water, useful for naval operations"
+            ],
+            "keywords": [],
+            "expect_sources": [],
+            "passed": false
+        },
+        {
+            "metadata": {
+                "type": "education_and_learning",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/English/education_and_learning.csv"
+            },
+            "question": "Role of pyroptosis in diabetic cardiomyopathy: an updated review",
+            "answer": "Pyroptosis plays a significant role in diabetic cardiomyopathy (DCM), a common complication of diabetes associated with abnormalities in heart structure and function. Recent studies have highlighted the impact of pyroptosis, a form of programmed cell death coupled with inflammation, in exacerbating the progression of DCM and contributing to its pathogenesis. Pyroptosis is characterized by the activation of inflammatory pathways and the release of proinflammatory cytokines, leading to cell death and tissue damage in the heart.\n\nSeveral mechanisms involving pyroptosis have been identified in the context of DCM. Pyroptosis is known to be mediated by the NLRP3 inflammasome, a key player in the inflammatory response. Activation of NLRP3 inflammasome can lead to the production of reactive oxygen species (ROS) and subsequent activation of NF-κB, which further promotes the formation of NLRP3 inflammasome and pyroptosis. Additionally, the molecular pathways associated with pyroptosis in DCM include the NF-κB/NLRP3 inflammasome pathway, which has been implicated in the pathophysiology of DCM. Furthermore, pyroptosis affects various cell types in the heart, such as cardiomyocytes, macrophages, vascular endothelial cells, and cardiac fibroblasts, leading to adverse cardiac remodeling and accelerating DCM progression.\n\nMoreover, research has shown that pyroptosis is linked to factors like hyperglycemia, hyperinsulinemia, and oxidative stress, which are common in diabetes and contribute to the development of DCM. The activation of pyroptosis-related pathways, involving caspases and gasdermin D (GSDMD), leads to the formation of plasma membrane pores, cell lysis, and the release of proinflammatory cytokines, contributing to the inflammatory response seen in DCM. These findings underscore the importance of understanding pyroptosis mechanisms in addressing DCM and exploring potential therapeutic targets to mitigate its progression.",
+            "ground_truths": [
+                "Pyroptosis is a form of programmed cell death that is accompanied by an inflammatory response. It is triggered by inflammasomes and executed by the Gasdermin and Caspase families. Prolonged hyperglycemia in diabetes can induce pyroptosis in various cell types, including cardiomyocytes, which exacerbates the progression of DCM.\n\nThe NLRP3 inflammasome is a key driver of pyroptosis in DCM. Activation of the NLRP3 inflammasome leads to the cleavage of Gasdermin D, which forms pores in the cell membrane and induces pyroptotic cell death.\n\nPyroptosis in different cell types, such as cardiomyocytes, endothelial cells, and inflammatory cells, all contribute to the pathogenesis of DCM. This includes increased collagen deposition, cardiac dysfunction, and inflammation.\n\nSeveral therapeutic strategies targeting pyroptosis have shown promise in animal models of DCM, including NLRP3 inhibitors, Gasdermin D inhibitors, and certain herbal medicines that can suppress pyroptosis-related pathways"
+            ],
+            "keywords": [],
+            "expect_sources": [],
+            "passed": true
+        },
+        {
+            "metadata": {
+                "type": "entertainment_and_leisure",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/English/entertainment_and_leisure.csv"
+            },
+            "question": "plantas contra zombis",
+            "answer": "\"Plantas contra Zombis\" es un popular juego de acción donde usas plantas para defender tu casa de los zombis. En este juego, debes utilizar un arsenal de 49 plantas diferentes, como lanzaguisantes, nueces y cerezas explosivas, para eliminar 26 tipos de zombis antes de que lleguen a tu puerta. El juego ofrece diversos niveles, logros y la posibilidad de realizar compras dentro de la aplicación para mejorar tu experiencia de juego. \n\nAdemás, la secuela de este juego, \"Plantas contra Zombis 2\", te lleva a una aventura donde debes enfrentarte a legiones de zombis divertidos desde el principio de los tiempos hasta el fin de los días. Aquí, puedes coleccionar cientos de plantas y zombis, potenciar tus plantas con comida especial y competir contra otros jugadores en la Arena.\n\nPor otro lado, también existe \"Plantas vs Zombies 3\", donde la ciudad Neighborville ha sido invadida por zombis y tu misión es reconstruirla, enfrentando desafíos y defendiéndola con un elenco de personajes únicos. Este juego combina estrategia en tiempo real, resolución de acertijos y elementos de defensa de torres en una experiencia divertida y desafiante. \n\nEn resumen, \"Plantas contra Zombis\" es una franquicia de juegos popular que ofrece una combinación única de estrategia, defensa de torres y diversión contra hordas de zombis, con varias entregas que amplían la experiencia de juego con nuevas características y desafíos.",
+            "ground_truths": [
+                "Plants vs. Zombies es una franquicia de videojuegos de acción y estrategia desarrollada por PopCap Games y publicada por Electronic Arts. \n\nEn estos juegos, el objetivo es defender el hogar del jugador de una invasión de zombis utilizando una variedad de plantas con diferentes habilidades y poderes. \n\nLa franquicia ha recibido numerosos premios y es conocida por su estética colorida, personajes divertidos y mecánicas de juego adictivas. \n\nLos juegos de la serie incluyen títulos para consolas, PC y dispositivos móviles, como Plants vs. Zombies, Plants vs. Zombies 2, Plants vs. Zombies: Garden Warfare y Plants vs. Zombies: Battle for Neighborville. "
+            ],
+            "keywords": [],
+            "expect_sources": [],
+            "passed": true
+        },
+        {
+            "metadata": {
+                "type": "entertainment_and_leisure",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/English/entertainment_and_leisure.csv"
+            },
+            "question": "Mario bros",
+            "answer": "\"Mario Bros.\" is a classic platform game developed and published by Nintendo in 1983. The game features Italian twin brother plumbers, Mario and Luigi, who must defeat creatures like turtles and crabs by knocking them upside-down and kicking them away. Initially an arcade game, \"Mario Bros.\" was well-received and introduced elements like spinning bonus coins and Luigi, which became key features of the later iconic game, \"Super Mario Bros.\" \n\nWhen referring to \"Mario Bros.,\" it is crucial to differentiate it from the more famous \"Super Mario Bros.\" series. While \"Mario Bros.\" laid the foundation with its simple yet engaging gameplay, \"Super Mario Bros.\" expanded on this success. Released in 1985, \"Super Mario Bros.\" revolutionized the gaming industry with its side-scrolling platform levels, setting the stage for what would become an iconic franchise that defined Nintendo's success.\n\nIn summary, \"Mario Bros.\" is recognized as the predecessor to the legendary \"Super Mario Bros.\" series. The game's impact on the gaming industry and its role in shaping the Mario franchise cannot be understated.",
+            "ground_truths": [
+                "Mario Bros. is a platform game developed and published by Nintendo as an arcade video game in 1983.\n\n It was designed by Shigeru Miyamoto and Gunpei Yokoi, and features Italian twin brother plumbers Mario and Luigi exterminating creatures emerging from the sewers."
+            ],
+            "keywords": [],
+            "expect_sources": [],
+            "passed": true
+        },
+        {
+            "metadata": {
+                "type": "products_and_services",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/English/products_and_services.csv"
+            },
+            "question": "Can you help conduct a thorough analysis of <We Are Warriors!> ASO strategies for the Play Store?",
+            "answer": "To conduct a thorough analysis of the ASO strategies for the game \"<We Are Warriors!>\" in the Play Store, several key steps can be taken based on the available information:\n\n1. **Competitor Analysis**: Begin by conducting a competitor analysis to understand the landscape in which \"<We Are Warriors!>\" exists. This involves researching other similar games in the Play Store, analyzing their ASO strategies, and identifying areas where improvements can be made. This step is crucial for benchmarking and identifying competitive advantages that can be leveraged.\n\n2. **Review Management**: Reviews play a crucial role in ASO strategies. It is important to focus on accumulating positive reviews as they contribute to higher app rankings in the store. Engaging with user feedback, addressing concerns, and improving the overall app experience based on reviews can significantly impact the app's visibility and ranking.\n\n3. **Keyword Optimization**: Optimizing keywords is essential for improving the app's visibility in the Play Store search results. Conduct keyword research to identify relevant and high-traffic keywords that can be strategically incorporated into the game's title, description, and metadata. This can positively impact the game's discoverability.\n\n4. **User Acquisition Tactics**: Alongside ASO strategies, actively working on user acquisition tactics such as app campaigns and social media promotion is crucial for driving downloads and increasing visibility in the Play Store. Combining ASO with effective user acquisition efforts can lead to a comprehensive strategy for app growth.\n\n5. **A/B Testing**: Implementing A/B testing can help in making data-driven decisions to optimize the app store page for higher conversion rates and increased downloads. Elements such as keywords, app icons, screenshots, titles, descriptions, videos, and subtitles can be tested to identify what resonates best with users and improves the game's performance in the Play Store.\n\nBy incorporating these steps into the analysis of \"<We Are Warriors!>\" ASO strategies for the Play Store, a comprehensive understanding of the current status of the game in the app store can be gained. This holistic approach can help in identifying areas for improvement, optimizing the app's visibility, and ultimately enhancing its performance and success in the competitive mobile gaming market.",
+            "ground_truths": [
+                ""
+            ],
+            "keywords": [],
+            "expect_sources": [],
+            "passed": true
+        }
+    ]
+}
