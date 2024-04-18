@@ -1,23 +1,23 @@
-﻿id,query,ground_truth,expect_key_words,language,description,,,,,,,,,,,,,,,
-1,百川最新的融资,"有媒体报道称,百川智能正在进行新一轮数亿美元融资,将成为2024年国内AI领域最大融资之一,且公司今年以来估值已超18亿美元",18,zh-cn,,,,,,,,,,,,,,,,
-2,海康威视去年的业绩如何,在2023年，海康威视的业绩恢复增长，公司实现了营业收入893.55亿元，同比增长7.44%，净利润为141.17亿元，同比增长9.96%。,2023&&893.55||893,zh-cn,,,,,,,,,,,,,,,,
-3,百川最新的融资,"有媒体报道称,百川智能正在进行新一轮数亿美元融资,将成为2024年国内AI领域最大融资之一,且公司今年以来估值已超18亿美元",18,zh-cn,,,,,,,,,,,,,,,,
-4,最近の台湾の地震での死傷者数は何人ですか?,台灣花蓮地震死亡數字上升。10日救援人員在花蓮太魯閣區域砂卡礑步道尋獲3具遺體，花蓮7.3級地震罹難人數上升至16人。,16,ja,-,,,,,,,,,,,,,,,
+﻿id,query,ground_truth,expect_key_words,language,description
+1,百川最新的融资,"有媒体报道称,百川智能正在进行新一轮数亿美元融资,将成为2024年国内AI领域最大融资之一,且公司今年以来估值已超18亿美元",18,zh-cn,
+2,海康威视去年的业绩如何,在2023年，海康威视的业绩恢复增长，公司实现了营业收入893.55亿元，同比增长7.44%，净利润为141.17亿元，同比增长9.96%。,2023&&893.55||893,zh-cn,
+3,百川最新的融资,"有媒体报道称,百川智能正在进行新一轮数亿美元融资,将成为2024年国内AI领域最大融资之一,且公司今年以来估值已超18亿美元",18,zh-cn,
+4,最近の台湾の地震での死傷者数は何人ですか?,台灣花蓮地震死亡數字上升。10日救援人員在花蓮太魯閣區域砂卡礑步道尋獲3具遺體，花蓮7.3級地震罹難人數上升至16人。,16,ja,-
 5,最近の埼玉県行田市事故の死傷者数は何人ですか?,"最近の埼玉県行田市の事故での死傷者数は以下の通りです:
 死亡者数: 1人
-負傷者数: 3人",1,ja,-,,,,,,,,,,,,,,,
-6,藤岡康太騎手の怪我はどうでしたか？,藤岡康太騎手は、2024年4月6日に行われた阪神競馬場の第7レースで落馬し、頭部と胸部を負傷しました.この落馬の後、藤岡騎手は病院に搬送され、意識を取り戻すことなく、後に怪我のため亡くなりました.この悲報は日本中央競馬会(JRA)からも発表されました,亡,ja,-,,,,,,,,,,,,,,,
-7,士林區溪山里事件的起因是什麼？,士林區溪山里事件的起因是與水質問題有關。根據報導，溪山里的居民平常使用自行成立的供水系統，主要使用山泉水作為飲用水源。然而，由於地震等自然災害可能導致山泉水受到污染，進而造成水質問題。事件中大腸桿菌群數值偏高，反映了水質有異常情況，因此許多居民出現了腹瀉和嘔吐等腸胃道疾病症狀。台北市政府為了緊急應對此情況，已提供緊急取水站以及醫療服務，並展開全面水質檢測及環境消毒等措施以解決問題。因此，士林區溪山里事件的起因主要是因為使用的山泉水受到污染所導致的水質問題。,地震,zh-tw,-,,,,,,,,,,,,,,,
-8,3月のCPI,2024年3月の日本のCPIは2.8%,2.80%,ja,-,,,,,,,,,,,,,,,
+負傷者数: 3人",1,ja,-
+6,藤岡康太騎手の怪我はどうでしたか？,藤岡康太騎手は、2024年4月6日に行われた阪神競馬場の第7レースで落馬し、頭部と胸部を負傷しました.この落馬の後、藤岡騎手は病院に搬送され、意識を取り戻すことなく、後に怪我のため亡くなりました.この悲報は日本中央競馬会(JRA)からも発表されました,亡,ja,-
+7,士林區溪山里事件的起因是什麼？,士林區溪山里事件的起因是與水質問題有關。根據報導，溪山里的居民平常使用自行成立的供水系統，主要使用山泉水作為飲用水源。然而，由於地震等自然災害可能導致山泉水受到污染，進而造成水質問題。事件中大腸桿菌群數值偏高，反映了水質有異常情況，因此許多居民出現了腹瀉和嘔吐等腸胃道疾病症狀。台北市政府為了緊急應對此情況，已提供緊急取水站以及醫療服務，並展開全面水質檢測及環境消毒等措施以解決問題。因此，士林區溪山里事件的起因主要是因為使用的山泉水受到污染所導致的水質問題。,地震,zh-tw,-
+8,3月のCPI,2024年3月の日本のCPIは2.8%,2.80%,ja,-
 9,今年はどの国で日食が見られますか。,"2024年4月8日:
-メキシコ、アメリカ合衆国、カナダ: 皆既日食が観測される予定です",メキシコ||アメリカ合衆国||カナダ,ja,-,,,,,,,,,,,,,,,
+メキシコ、アメリカ合衆国、カナダ: 皆既日食が観測される予定です",メキシコ||アメリカ合衆国||カナダ,ja,-
 10,海康威视去年的业绩如何,在2023年，海康威视的业绩恢复增长，公司实现了营业收入893.55亿元，同比增长7.44%，净利润为141.17亿元，同比增长9.96%。,"2023
-893.55",zh-cn,-,,,,,,,,,,,,,,,
-11,How many Israelis died in the attack launched by Iran?,"According to the reports, there were no reported fatalities from the Iranian attack on Israel",no casualties,en,,,,,,,,,,,,,,,,
-12,Whom did Putin say carried out the Moscow attack?,"Vladimir Putin stated that ""radical Islamists"" were behind the deadly attack on the Crocus City concert hall in Moscow",radical Islamists,en,,,,,,,,,,,,,,,,
+893.55",zh-cn,-
+11,How many Israelis died in the attack launched by Iran?,"According to the reports, there were no reported fatalities from the Iranian attack on Israel",no casualties,en,
+12,Whom did Putin say carried out the Moscow attack?,"Vladimir Putin stated that ""radical Islamists"" were behind the deadly attack on the Crocus City concert hall in Moscow",radical Islamists,en,
 13,"
-What precisely caused the ship to collide with the Baltimore bridge?","When the container ship MV Dali, 300 metres long and massing around 100,000 tonnes, lost power and slammed into one of the support piers of the Francis Scott Key Bridge in Baltimore, the bridge collapsed in moments.",lost power,en,,,,,,,,,,,,,,,,
-14,Which island recently experienced a volcanic eruption in Indonesia?,The name of the volcano is Mount Ruang on the northern side of Sulawesi Island.,Sulawesi island||Mount Ruang,en,,,,,,,,,,,,,,,,
+What precisely caused the ship to collide with the Baltimore bridge?","When the container ship MV Dali, 300 metres long and massing around 100,000 tonnes, lost power and slammed into one of the support piers of the Francis Scott Key Bridge in Baltimore, the bridge collapsed in moments.",lost power,en,
+14,Which island recently experienced a volcanic eruption in Indonesia?,The name of the volcano is Mount Ruang on the northern side of Sulawesi Island.,Sulawesi island||Mount Ruang,en,
 15,What did the leaders of the three countries say?,"The leaders of the United States, Japan, and the Philippines recently held a summit. Here are some key points from their discussions:
 1. Shared Vision: They issued a “Joint Vision Statement” affirming their shared vision of a free and open Indo-Pacific and international order based on international law12.
 2. Security and Economy: They discussed various areas of security and economy, and expressed a desire to advance Japan-U.S.-Philippines cooperation based on this Summit2.
@@ -26,13 +26,13 @@ What precisely caused the ship to collide with the Baltimore bridge?","When the 
 5. Inclusive Economic Growth: They resolved to promote enduring, inclusive economic growth and resilience in their countries and the broader Indo-Pacific1.
 Strengthening Alliances: The Philippines’ decision to strengthen ties with Japan and the United States was described as a “sovereign choice” for the country3.","United States
 Japan
-Philippines",en,,,,,,,,,,,,,,,,
+Philippines",en,
 16,Google fires 28 employees over protests inside work offices,"Google fired 28 workers Wednesday in Sunnyvale and New York, calling their protests inside work offices “completely unacceptable behavior” that prevented some employees from accessing their facilities.
 
 The tech giant said protests on Tuesday over the company’s contracts with Israel disrupted several locations. The Chronicle reported that at Google’s Sunnyvale offices, police arrested five workers who held a sit-in Tuesday to protest their employer’s cloud contract with the Israeli government.","contracts
-Israel",en,,,,,,,,,,,,,,,,
-17,How many soldiers were wounded in the attack launched by Hezbollah on northern Israel recently？,"n the recent attack launched by Hezbollah on northern Israel, a total of 14 soldiers were wounded. Among those injured, six of them were reported to be seriously wounded. The attack involved a combination of missiles and drones targeting a military base in northern Israel, specifically the Bedouin border town of Arab al-Aramshe. This assault by Hezbollah was a significant event in the ongoing conflict between the group and Israel.",14,en,,,,,,,,,,,,,,,,
+Israel",en,
+17,How many soldiers were wounded in the attack launched by Hezbollah on northern Israel recently？,"n the recent attack launched by Hezbollah on northern Israel, a total of 14 soldiers were wounded. Among those injured, six of them were reported to be seriously wounded. The attack involved a combination of missiles and drones targeting a military base in northern Israel, specifically the Bedouin border town of Arab al-Aramshe. This assault by Hezbollah was a significant event in the ongoing conflict between the group and Israel.",14,en,
 18,What weapons were used to attack Israel from Iran?," Iran fired 170 drones, more than 30 cruise missiles and more than 120 ballistic missiles. Of those, several ballistic missiles reached Israeli territory, causing minor damage to an air base.","drones
-missiles",en,,,,,,,,,,,,,,,,
-19,Why is GTA 6 publisher laying off 600 employees,"The decision to lay off approximately 600 employees at Take-Two Interactive, the parent company of Rockstar Games, is part of a broader cost-cutting strategy. The company is rationalizing its pipeline, eliminating several projects in development, and streamlining its organizational structure. This downsizing process is expected to be largely complete by the end of the year 2024. Additionally, Take-Two had already signaled its intention for a significant cost reduction plan following mixed financial results for the quarter ending in December 2023. Despite these challenges, Take-Two has continued to invest in its portfolio, including the acquisition of Gearbox and the development of the highly anticipated 'GTA 6'.",cost-cutting,en,,,,,,,,,,,,,,,,
-20,"The world’s best airports for 2024, according to Skytrax","According to the Skytrax rankings for 2024, Doha's Hamad International Airport has been named the best airport in the world.",Doha's Hamad,en,,,,,,,,,,,,,,,,
+missiles",en,
+19,Why is GTA 6 publisher laying off 600 employees,"The decision to lay off approximately 600 employees at Take-Two Interactive, the parent company of Rockstar Games, is part of a broader cost-cutting strategy. The company is rationalizing its pipeline, eliminating several projects in development, and streamlining its organizational structure. This downsizing process is expected to be largely complete by the end of the year 2024. Additionally, Take-Two had already signaled its intention for a significant cost reduction plan following mixed financial results for the quarter ending in December 2023. Despite these challenges, Take-Two has continued to invest in its portfolio, including the acquisition of Gearbox and the development of the highly anticipated 'GTA 6'.",cost-cutting,en,
+20,"The world’s best airports for 2024, according to Skytrax","According to the Skytrax rankings for 2024, Doha's Hamad International Airport has been named the best airport in the world.",Doha's Hamad,en,
