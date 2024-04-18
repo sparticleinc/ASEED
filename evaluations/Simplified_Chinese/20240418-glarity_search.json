@@ -1,0 +1,1177 @@
+{
+    "evaluate_ai": {
+        "name": "Glarity Search",
+        "url": "https://search.glarity.ai"
+    },
+    "evaluate_llm": "gpt-4-1106-preview",
+    "evaluate_type": "ragas",
+    "evaluate_data": {
+        "total": 71,
+        "passed": 40,
+        "failed": 31,
+        "pass_rate": "56.34%",
+        "answer_correctness": 0.5977536821438179
+    },
+    "created_at": "2024-04-17 13:24:47",
+    "datas": [
+        {
+            "metadata": {
+                "type": "chinese_culture",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/Simplified_Chinese/chinese_culture.csv"
+            },
+            "question": "跟领导吃饭座位安排图",
+            "answer": "当与领导一起就餐时，座位的安排是一项重要且需要谨慎考虑的事项。根据搜索结果，接待领导吃饭的座位安排一般遵循特定原则和传统。在中餐的场合中，通常主陪坐在面对房门的位置，副主陪会坐在主陪的对面。具体来说，1号客人会坐在主陪的右手边，2号客人坐在主陪的左手边，而3号客人会坐在副主陪的右手边，4号客人则坐在副主陪的左手边，其他客人的座位则相对自由。\n\n另外，西餐的座位安排也有一定的礼仪规范。在西餐时，女士通常会被安排坐在比较显要的位置，女主人坐在主位，男主人坐在次要主位。男女主宾会交叉排列，男主宾会坐在女主人的右侧，女主宾则坐在男主人的右侧。座位的高低和接近程度通常反映了地位的高低。\n\n综合来看，在不同场合和不同餐饮类型下，领导与客人的座位安排方式会有所不同。中餐和西餐的座位次序均有其独特的规范，旨在体现对领导和客人的尊重和礼仪。通过遵循这些座位安排的原则，可以展示主办方的细致周到和对客人的尊重。",
+            "ground_truths": [
+                "中餐宴请座次安排\n主陪(通常是领导)坐在面对大门的位置\n副主陪(通常是主陪的助手)坐在主陪的对面\n1号客人坐在主陪的右手边\n2号客人坐在主陪的左手边\n3号客人坐在副主陪的右手边\n4号客人坐在副主陪的左手边\n其他客人可以随意安排"
+            ],
+            "keywords": [
+                "右"
+            ],
+            "expect_sources": [],
+            "answer_correctness": 0.7460111932601833,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "type": "chinese_culture",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/Simplified_Chinese/chinese_culture.csv"
+            },
+            "question": "福建晋江灵水中学一初中女生遭霸凌跳楼去世是什么时候？",
+            "answer": "福建晋江灵水中学一初中女生遭遇校园霸凌跳楼身亡的事件发生在2024年3月24日22时左右。女生遭遇霸凌后，在被发现坠楼后送医抢救无效死亡. 伤心的是，女生在遭受霸凌之后选择了极端的行为，这种情况十分令人痛心。\n\n据报道，女生的母亲在接受媒体采访时表示，女儿年仅14岁，性格开朗活泼，喜欢打篮球和羽毛球。而在母亲得知女儿受到霸凌的情况后，女儿选择了跳楼自尽，这样的行为引发了社会各界的关注和反思. 这个事件的发生提醒着社会各界对学生心理健康和校园霸凌问题的高度重视。\n\n此外，该事件也引起了当地教育局、公安机关等部门的关注和介入调查。校园霸凌是一个严重的社会问题，不仅给受害者带来伤害，也需要让欺凌者承担法律责任. 由于此类事件的发生，各方应该共同努力，从教育、家庭和社会各方面入手，共同防范和打击校园霸凌，以保护学生的身心健康。",
+            "ground_truths": [
+                "2024福建晋江灵水中学一初中女生遭霸凌跳楼去世的事件发生在2024年3月24日22时。"
+            ],
+            "keywords": [
+                "3月24日"
+            ],
+            "expect_sources": [],
+            "answer_correctness": 0.6335350749714748,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "type": "chinese_culture",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/Simplified_Chinese/chinese_culture.csv"
+            },
+            "question": "相亲时媒婆说男方会疼人，这是什么意思？",
+            "answer": "在相亲中，媒婆说男方会\"疼人\"其实是一种婉转的说法，通常指男方对女方体贴、关心、照顾周到。这种表述暗示男方有能力和意愿关心照顾女方，让她感受到被呵护和关注。这可能包括体贴入微的行为、关心照顾、理解支持等方面。这种说法带有一种暗示和期待，暗示男方有良好的涵养和关爱能力，期待他在关系中展现出对女方的关怀和体贴。\n\n另一方面，这种说法也可能有不同的解读。有时候在相亲中，“会疼人”可能也被解读为对方在经济上能够提供稳定和物质上的支持。这种情况下，媒婆可能在用“会疼人”形容时，所指的并不仅仅是情感上的关怀，还包括对方在物质和生活水平上的支持。这种解读下，“会疼人”也暗示男方有能力给予经济上的支持和照顾。\n\n总的来说，在相亲时，媒婆说男方会疼人，通常是在向女方传达男方善良、关心、体贴的特质，希望女方能够对这些方面有所期待和倾心。",
+            "ground_truths": [
+                "当媒婆说男方\"很会疼人\"时，这通常意味着一个警告信号，表示该男性可能是离异人士。"
+            ],
+            "keywords": [
+                "年纪大||离过婚||离婚||离异"
+            ],
+            "expect_sources": [],
+            "answer_correctness": 0.5417234704858451,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "type": "chinese_culture",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/Simplified_Chinese/chinese_culture.csv"
+            },
+            "question": "2024年武汉女子裸体现身商场发生在哪一天？",
+            "answer": "2024年武汉女子裸体现身商场事件是发生在3月25日。据报道，在湖北省武汉市洪山万科广场，一名年轻女子裸体站立在商场内，引起了众人的关注。事件经过包括女子赤身裸体在商场内走动、捂脸靠近行人等行为，引发了社会广泛议论和关注.",
+            "ground_truths": [
+                "2024年武汉女子裸体现身商场的事件发生在3月25日。"
+            ],
+            "keywords": [
+                "3月25日"
+            ],
+            "expect_sources": [],
+            "answer_correctness": 0.7365327849501255,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "type": "chinese_culture",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/Simplified_Chinese/chinese_culture.csv"
+            },
+            "question": "四面楚歌的主人公是谁？",
+            "answer": "四面楚歌的主人公是中国历史上著名的军事家和政治家项羽。四面楚歌是一个古代成语，形容人们遭受各方面攻击或逼迫而陷入孤立窘迫的境地。这成语出自项羽在乌江边的悲壮故事。项羽在与刘邦争霸时，兵力疲弱、粮食匮乏的情况下被围困在垓下。他听到四周传来楚地民歌时感到惊愕，心生绝望，最终选择自刎而死。这一故事被后人传颂，成为经典的历史典故，反映出项羽坚韧不屈、宁死不屈的英雄气概。\n\n在面临围困和绝境的情况下，项羽展现出了忠诚、勇气和坚定的品质。即使四面受敌，他也选择了死前的豁达与尊严。这种对生死的勇敢态度和无畏精神令人钦佩，也成为后人传颂的英雄篇章。四面楚歌的主人公项羽的故事鼓舞着人们面对逆境时勇敢面对，坚持信念，从容应对挑战，不轻言放弃。\n\n总结来看，四面楚歌的主人公是项羽，他的故事代表了生死相搏、坚忍不拔、矢志不渝的英雄气概。这个古老的典故不仅反映了中国古代历史中英雄的悲壮命运，也启示着现代人面对逆境时应有的勇气和意志力。",
+            "ground_truths": [
+                "四面楚歌的主人公是西楚霸王项羽。"
+            ],
+            "keywords": [
+                "项羽"
+            ],
+            "expect_sources": [],
+            "answer_correctness": 0.5988864349850012,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "type": "chinese_culture",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/Simplified_Chinese/chinese_culture.csv"
+            },
+            "question": "2024珠海草莓音乐节来了哪些明星？",
+            "answer": "2024年珠海草莓音乐节将会迎来多位知名音乐人和乐队。据报道，以下是一些确定会参加音乐节的明星：\n\n1. 凤凰传奇\n2. 朴树\n3. 陈粒\n4. 草东没有派对\n\n除上述明星外，还将有另外20组音乐人和乐队参与，共计24组音乐表演。这些音乐人和乐队将在草莓舞台和爱舞台上为观众呈现一场精彩的音乐盛宴. 珠海草莓音乐节旨在让观众体验到多样性的音乐风格，从本土新声到海外经典，呈现出新鲜且充满爱的现场音乐体验. \n\n因此，2024珠海草莓音乐节的阵容相当丰富，将为观众带来一个充满音乐魅力的活动。",
+            "ground_truths": [
+                "2024珠海草莓音乐节来阿弗娄、阿肆、草东没有派对、陈楚生、陈粒等明星。"
+            ],
+            "keywords": [
+                "阿弗娄||阿肆||草东没有派对||陈楚生||陈粒"
+            ],
+            "expect_sources": [],
+            "answer_correctness": 0.6699169318072408,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "type": "chinese_culture",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/Simplified_Chinese/chinese_culture.csv"
+            },
+            "question": "2024年4月15日是黄道吉日吗？",
+            "answer": "根据查询结果显示，2024年4月15日是一个黄道吉日。在黄历上，这一天的值神为玉堂，代表吉祥。此外，财神方位在正东，喜神在西南，福神在正南，表明这一天是一个有利的日子。然而，根据时辰不同，吉凶会有所变化，比如申时为凶，酉时为吉。因此，结合具体时辰选择吉时进行各类活动，可以更好地利用这一天的吉祥气场。",
+            "ground_truths": [
+                "2024年4月15日是黄道吉日。"
+            ],
+            "keywords": [
+                "是"
+            ],
+            "expect_sources": [],
+            "answer_correctness": 0.6282878223828458,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "type": "chinese_culture",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/Simplified_Chinese/chinese_culture.csv"
+            },
+            "question": "巴浪鱼是哪里的方言？",
+            "answer": "根据搜索结果，巴浪鱼是福建方言中使用的称谓。在福建方言中，巴浪鱼是一种鱼类的俗称，其学名为蓝圆，属于暖水性中上层鱼类。这种鱼广泛分布于中国的南海、东海和黄海等地区。此外，巴浪鱼在其他地方可能有不同的称呼，比如棍子鱼、滚子鱼、黄占和池鱼等。因此，巴浪鱼作为一个方言词汇，主要在福建地区被使用。\n\n另外，在泰国，巴浪鱼也被称为巴狼鱼，有人怀疑这个词汇可能是外来语。但在潮州旧志中也见过对巴浪鱼的不同写法，比如\"巴郞\"，这使得巴浪鱼的叫法来源难以确定。所以，巴浪鱼这个词汇在不同地区可能有着各自的称呼和方言使用习惯。",
+            "ground_truths": [
+                "巴浪鱼是福建和潮汕地区的方言。"
+            ],
+            "keywords": [
+                "潮汕||福建||福州"
+            ],
+            "expect_sources": [],
+            "answer_correctness": 0.6226503869084142,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "type": "chinese_culture",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/Simplified_Chinese/chinese_culture.csv"
+            },
+            "question": "2024珠海居民医保每年缴费多少钱？",
+            "answer": "2024年珠海居民医保的个人缴费标准根据不同群体而有所不同。根据最新政策发布，以下是2024年珠海居民医保每年的个人缴费金额：\n\n- **城乡居民**的个人缴费标准为**每人每年530元**。\n- **学生和未成年人**的个人缴费标准为**每人每年380元**。\n- 此外，2024年居民医保的财政补贴标准为**每人每年750元**。\n\n这些缴费标准的调整旨在保障居民医保基金的稳定运行，并支持城乡居民享受基本医疗保险待遇，同时满足不同群体的医疗保障需求。 如果需要进行缴费或了解更多细节，建议及时关注相关官方通知或咨询当地医保部门。",
+            "ground_truths": [
+                "2024年珠海市居民医保的个人缴费标准为城乡居民每人每年530元。学生和未成年人的个人缴费标准为每人每年380元。"
+            ],
+            "keywords": [
+                "530",
+                "380"
+            ],
+            "expect_sources": [],
+            "answer_correctness": 0.9071379100411188,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "type": "chinese_culture",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/Simplified_Chinese/chinese_culture.csv"
+            },
+            "question": "那歌鱼是海鱼吗？",
+            "answer": "\"那歌鱼\"有可能是指\"那哥鱼\"，根据相关资料显示，\"那哥鱼\"实际上是指长尾多齿蛇鲻，这是一种产量较高的鱼类，在潮汕沿海比较常见。这种鱼的肉质甜美，常被用来做鱼饭和鱼丸。\"那哥鱼\"是潮汕地区的主要鱼种之一，尤其在汕头，它是当地小孩学会吃鱼的基本食材之一，尽管它存在一个缺点，即鱼刺比较多。\n\n然而，另一种可能的解释是\"那歌鱼\"可能是\"那哥鱼\"的误拼写或变体。在搜索结果中没有直接提到\"那歌鱼\"，因此无法确定它是否是一种特定的鱼类。如果您能提供更多上下文或信息，可能有助于更准确地回答您的问题。",
+            "ground_truths": [
+                "是的，那歌鱼是海鱼。"
+            ],
+            "keywords": [
+                "是"
+            ],
+            "expect_sources": [],
+            "answer_correctness": 0.5190105850620863,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "type": "chinese_culture",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/Simplified_Chinese/chinese_culture.csv"
+            },
+            "question": "相亲时媒婆说女方长得有福气，这是什么意思？",
+            "answer": "在相亲时，媒婆说女方长得有福气，这个说法通常涵义不是字面上的幸运，而是指对方长相朴实、端庄、体态丰满、不爱打扮、不浮华、毛发稀少或者略显肥胖。这些特点被认为具有传统美德和家庭观念，有利于婚姻生活的发展。对于传统观念的人而言，这类特征会被视为有福气，或者说是有利于婚姻和家庭美满的。\n\n另一方面，这种说法也可能暗示了女方具有传统的家庭观念，性情温厚、贤惠体贴等特质。这种类型的女性在传统观念中被认为是对家庭负责、孝顺、有家庭观念的理想人选。因此，当媒婆用“长得有福气”来形容女方时，可能就是在传达这样的涵义。",
+            "ground_truths": [
+                "相亲时媒婆说女方长得有福气，通常指女方看起来健康、体态丰满、体型偏胖。"
+            ],
+            "keywords": [
+                "胖||吃||丰满"
+            ],
+            "expect_sources": [],
+            "answer_correctness": 0.6843528245727324,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "type": "chinese_culture",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/Simplified_Chinese/chinese_culture.csv"
+            },
+            "question": "黄花大闺女黄花是指什么花？",
+            "answer": "根据多个来源的解释，\"黄花大闺女\"中的\"黄花\"有不同的解释和来源。一种解释认为，古代\"黄花\"指的是一种在未出嫁女子额头上的装饰，或者是一种花朵的颜色，具体描述为黄色的花纹或贴花。这种习俗起源于南北朝时期，妇女们用黄色的粉或纸在额头上绘制各种花鸟形状，这种妆饰被称为\"花黄\"。传说中，南朝刘宋时期的寿阳公主曾在梦中梅花落额后形成梅花状，影响了后来的化妆习俗，进而演变为\"黄花闺女\"的称谓。\n\n另一种解释表明，\"黄花\"有可能源自菊花。菊花在中国文化中具有高洁雅致、贞节的象征意义，常用来比喻女性的纯洁和高尚品格。因此，将菊花作为\"黄花闺女\"的象征，指代未婚女子维持贞节的品性和高尚的心灵。\n\n总的来说，\"黄花大闺女\"对黄花的具体花种没有明确的约定，可能涉及到梅花、菊花等不同花朵。这一称谓传承了古代的装饰习俗和传统文化意涵，用来描述未出嫁且贞洁高尚的女子。",
+            "ground_truths": [
+                "\"黄花大闺女\"中的\"黄花\"通常指的是菊花。古代中国认为菊花能傲霜耐寒，是高洁雅致的象征，因此用\"黄花\"来代表未出嫁的少女。"
+            ],
+            "keywords": [
+                "菊花"
+            ],
+            "expect_sources": [],
+            "answer_correctness": 0.5693868775688062,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "type": "chinese_culture",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/Simplified_Chinese/chinese_culture.csv"
+            },
+            "question": "2024年MBA国家线？",
+            "answer": "根据资料显示，2024年MBA考研国家线已经公布。今年的MBA国家线为162分，其中A区总分为78分，综合科目为39分，英语科目为15分；B区总分为68分，综合科目为34分，英语科目为15分。与历年相比，2024年的MBA国家线有所下降。这种变化可能受到多方面因素的影响，包括报考人数、考试难度等。需要注意的是，国家线是考生复试和调剂的重要标准，所以及时了解并掌握这些信息对考生非常关键。",
+            "ground_truths": [
+                "A区分数线为162分，B区分数线为152分。"
+            ],
+            "keywords": [
+                "162",
+                "152"
+            ],
+            "expect_sources": [],
+            "answer_correctness": 0.8454494915390004,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "type": "chinese_culture",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/Simplified_Chinese/chinese_culture.csv"
+            },
+            "question": "本来无一物何处惹尘埃的完整诗句是什么？",
+            "answer": "《本来无一物何处惹尘埃》这句诗原是出自唐代禅宗六祖惠能的《菩提偈》。完整的诗句是：\n\"菩提本无树，明镜亦非台。本来无一物，何处惹尘埃。\"\n\n这首诗表达了佛家哲学中的一种境界，强调世间本来空无实体，心灵纯净如明镜，无需被尘世琐事所困扰。这句诗句寓意深远，启示人们追求内心平静和真实的本质，返璞归真，追求清净境界。",
+            "ground_truths": [
+                "这句诗句出自唐代禅宗六祖慧能的《菩提偈》。完整的诗句是:\"菩提本无树，明镜亦非台。\n本来无一物，何处惹尘埃!\""
+            ],
+            "keywords": [
+                "菩提本无树",
+                "明镜亦非台"
+            ],
+            "expect_sources": [],
+            "answer_correctness": 0.7050267834213356,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "type": "chinese_culture",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/Simplified_Chinese/chinese_culture.csv"
+            },
+            "question": "风水轮流转同义词有哪些？",
+            "answer": "风水轮流转这一成语在中文中有多个同义词和相似短语，它们传达着类似的意思。以下是一些风水轮流转的同义词和相似短语：\n\n1. 三十年河东三十年河西\n2. 此一时彼一时\n3. 一朝天子一朝臣\n4. 沧海桑田\n5. 时来运转\n6. 出来混总是要还的\n7. 花无百日红\n8. 盛极必衰\n9. 咸鱼翻身\n10. 天道轮回\n\n这些同义词和相似短语都传达着风水轮流转的含义，即人生中好运和逆境会交替出现，没有永远的顺利或困难，而是人生起伏变化的自然规律。",
+            "ground_truths": [
+                "风水轮流转的同义词包括“否极泰来”、“物极必反”、“柳暗花明”、“绝处逢生”、“苦尽甘来”和“绝地反击”。其他类似的词还有“三十年河东三十年河西”、“风水轮流”和“十年河东十年河西”。"
+            ],
+            "keywords": [
+                "三十年河东||咸鱼翻身||苦尽甘来||时来运转||此一时彼一时||时来运转||枯木逢春"
+            ],
+            "expect_sources": [],
+            "answer_correctness": 0.6037658796133756,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "type": "chinese_culture",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/Simplified_Chinese/chinese_culture.csv"
+            },
+            "question": "跟领导吃饭，转盘是顺时针转，还是逆时针转？",
+            "answer": "在中国的餐桌礼仪中，一般情况下，当与领导一起吃饭时，饭桌转盘通常应该是**顺时针转**的。这做法是为了尊重领导，并展示对长辈或地位较高者的尊敬。在餐桌上，通常会先将新菜转到领导或长者面前，让他们先品尝，尊重地位和年长。\n\n尽管通常是顺时针转动餐桌转盘的，但也需要注意以下几点：\n- 转动转盘时要注意不要过快，保持礼貌和端庄。\n- 如果在特殊场合，例如运动会或告别仪式，餐桌转盘可能是逆时针转动的。这种情况下，逆时针转动转盘是有特殊意义的，比如表示回走逝者过去的路，怀念其功绩。\n\n总的来说，餐桌转盘的转动方向通常取决于中国的餐桌礼仪和文化传统，以展示对长辈、领导或地位较高者的尊重和礼貌。",
+            "ground_truths": [
+                "跟领导吃饭时，转盘应该顺时针转。"
+            ],
+            "keywords": [
+                "顺时针"
+            ],
+            "expect_sources": [],
+            "answer_correctness": 0.6511843933118411,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "type": "chinese_culture",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/Simplified_Chinese/chinese_culture.csv"
+            },
+            "question": "珠海华融时代广场多少米？",
+            "answer": "华融时代广场位于珠海，原规划高度达196米，被誉为\"珠海第一高楼\".该广场历经多年的建设过程，由当初的金山时代广场项目改名为华融时代广场.在开发过程中，项目曾遭遇多次停工和变更，但最终在2023年重新活化，在该年内开业. \n\n综上所述，珠海华融时代广场的建筑高度是196米。",
+            "ground_truths": [
+                "珠海华融时代广场的建筑高度为196米。"
+            ],
+            "keywords": [
+                "196"
+            ],
+            "expect_sources": [],
+            "answer_correctness": 0.6503601347073689,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "type": "chinese_culture",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/Simplified_Chinese/chinese_culture.csv"
+            },
+            "question": "卧薪尝胆的主人公是谁？",
+            "answer": "卧薪尝胆的主人公是越王勾践。这个成语来源于中国春秋时期越国国王勾践的故事。勾践在被吴国俘虏后，忍辱负重地在吴国以奴隶身份务工三年，受尽屈辱。然而，他并没有被打倒，而是在回国后立志发愤图强，准备复仇。勾践每天培养自己的毅力和意志，训练自己永不忘记耻辱的决心，实现了最终消灭吴国的壮举。这个充满奋斗精神和不屈不挠的故事后来被形容为“卧薪尝胆”，激励着人们刻苦自励，立志雪耻图强. \n\n勾践的故事展示了他的坚韧不拔和顽强意志，成为后人学习的楷模。他的奋斗精神和为复国复仇的决心，使他成为了中国历史上不朽的英雄之一。通过卧薪尝胆这个成语，人们学会要有坚强的内心，乐观向上地面对挫折，勇敢迎接挑战，从而取得成功。",
+            "ground_truths": [
+                "卧薪尝胆的主人公是越王勾践。"
+            ],
+            "keywords": [
+                "勾践"
+            ],
+            "expect_sources": [],
+            "answer_correctness": 0.6193054123854058,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "type": "chinese_culture",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/Simplified_Chinese/chinese_culture.csv"
+            },
+            "question": "为什么工地开工要祭拜？",
+            "answer": "在工地开工时进行祭拜的做法源远流长，这背后蕴含着深刻的文化寓意和实际需求。祭拜在工地开工中的重要性主要体现在以下几个方面：\n\n1. **祈祷平安祥和**：工地开工祭拜的初衷是为了祈求神灵保佑，希望工程能够顺利进行，避免意外和灾祸的发生。这种信仰和仪式让人们心存敬畏和感激，体现了对自然、神灵的敬畏和依赖。\n\n2. **传承文化传统**：祭拜作为中国传统文化的一部分，在工地开工仪式中延续着古老的习俗和仪轨。这不仅是对历史文化的传承，也是对祖先智慧和信仰的尊重，体现了一种精神追求和传统价值观念。\n\n3. **社会和谐稳定**：通过祭拜仪式，可以凝聚工程团队的向心力和凝聚力，促进工人之间的团结和互助，营造出一种团结和谐的建设氛围，有利于工程的顺利进行和完成。\n\n4. **尊重自然环境**：祭拜的过程中，常常涉及到对自然环境的尊重和感恩，这有助于提醒人们在建设过程中要保护环境、顺应自然，促进可持续发展和生态平衡。\n\n因此，工地开工时进行祭拜既是一种传统仪式，又是对自然和人文的一种敬畏和尊重，有助于构建一种和谐、平安的工程施工环境。",
+            "ground_truths": [
+                "工地开工要祭拜的原因主要是为了向土地神灵、过往鬼魂以及凶神恶煞告知即将在此地兴工建宅，避免冒犯这些神灵和鬼魂，同时请求他们的协助，希望工程能够顺利开展，并驱逐可能存在的煞气和秽气。此外，烧香祭拜是一种与神明连接的桥梁，通过这种方式表达对神明的敬意和祈求保佑"
+            ],
+            "keywords": [
+                "神||鬼"
+            ],
+            "expect_sources": [],
+            "answer_correctness": 0.5551767782478898,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "type": "education_and_learning",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/Simplified_Chinese/education_and_learning.csv"
+            },
+            "question": "搜索方有国写的《汉字学教程》这本书",
+            "answer": "方有国写的《汉字学教程》是一本针对本科生学习的汉字学教材，主要包括六个章节，涵盖了汉字的产生与性质、构造、演变、现代汉字、汉字与文化以及汉字的教学等方面。这本教材的目的是帮助提升学生的汉字学知识水平和运用能力。书中每个章节都提供了章目要览、相关知识、情景案例和重点提示等内容，以帮助学生理解和联系新旧知识，激发学习兴趣。此外，每章末尾还有思考练习和拓展延伸部分，可以帮助学生进行实际分析和思考，促进知识的深入理解和应用. \n\n方有国是一个具有丰富教学经验和学术研究背景的人。他毕业于西南师范学院，先后执教了多门与汉语言文字相关的课程。方有国主编的《汉字学教程》内容涵盖了各种汉字构形学理论，对传统六书等内容进行了详细讨论。这些学术深度和广度有助于提供全面而深入的汉字学习体验。此外，书中还提到了关于汉字的产生、构造、演变、功能和教学等方面的重要知识，为学生提供了系统全面的学习内容. \n\n总的来说，方有国撰写的《汉字学教程》是一本具有权威性和实用性的汉字学教材，适合汉语言文学及相关专业的学生使用。通过深入浅出的讲解和丰富的案例，这本书有助于学生更好地理解和运用汉字，为他们的学习和未来的教学生涯奠定坚实的基础。",
+            "ground_truths": [
+                "方有国写的《汉字学教程》这本书由西南师范大学出版社出版，首次出版时间为2020年1月1日1。该书是供本科生学习的汉字学教材，共分八个部分。此外，还有资料显示该书的作者还包括李茂康，出版时间为2019年9月"
+            ],
+            "keywords": [],
+            "expect_sources": [],
+            "answer_correctness": 0.5861962710070171,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "type": "education_and_learning",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/Simplified_Chinese/education_and_learning.csv"
+            },
+            "question": "霍桑实验的结论",
+            "answer": "霍桑实验是一系列在西方电器公司霍桑工厂进行的实验，旨在研究企业物质条件与工人劳动生产率之间的关系。这个实验主要包括照明实验、福利实验、访谈实验和群体实验。实验的结果出乎意料，揭示了一些关于工人行为的重要结论。 \n\n1. **工人的社会性与心理因素影响**: 霍桑实验表明，工人不仅仅是被金钱刺激的\"经济人\"，而是复杂的社会关系中的一员。工人的个人态度和情绪对行为产生重要影响。这暗示了在调动工人生产积极性时，社会和心理因素也需要被重视。\n\n2. **非正式组织的存在**: 实验发现企业内部存在着“非正式组织”，即工人之间自发形成的规范和行为准则。这些非正式群体内部的社会规范对个人的行为和产量起着重要作用。\n\n3. **领导和管理的影响**: 实验结果强调了新型领导方式的重要性。有效的管理应当关注提高工人的满足度，促进良好的人际关系和社交环境。\n\n4. **霍桑效应**: 实验揭示了“霍桑效应”，即被观察者的行为会受到观察者关注和期望的影响，从而产生行为上的改变。这种现象在管理学中被广泛关注和应用。\n\n综上所述，霍桑实验的结论突出了人的社会性和心理因素对工作行为和生产效率的重要性，同时强调了管理者需要关注非正式组织和个体的行为规范。这些结论对管理实践和组织文化的塑造具有重要启示，引领着管理学进入了更加关注人性因素和社会关系的新阶段。",
+            "ground_truths": [
+                "1、职工是“社会人”，生产效率的提高和降低主要取决于职工的\"士气\"，而士气取决于家庭和社会生活，以及企业中人与人之间的关系\n2、企业中存在着“非正式组织”，这种无形的组织有其特殊的规范，影响着群体成员的行为\n3、新型的领导能力在于提高职工的满足度，满足工人的社会欲望是提高生产效率的关键\n4、存在着霍桑效应，即人们在被观察时会改变自己的行为"
+            ],
+            "keywords": [],
+            "expect_sources": [],
+            "answer_correctness": 0.8260551891806669,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "type": "education_and_learning",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/Simplified_Chinese/education_and_learning.csv"
+            },
+            "question": "Logistic 回归如何扩展到多分类？",
+            "answer": "Logistic回归是一种常用于解决二分类问题的监督学习算法，但它也可以被扩展到解决多分类问题。一种常见的方法是通过多分类Logistic回归，将Logistic回归模型推广到多个类别。这种扩展主要涉及两种方法：一对多（One-vs-Rest）和Softmax回归。\n\n- **一对多（One-vs-Rest）方法：** 在这种方法中，对于一个有n个类别的多分类问题，我们需要构建n个二分类Logistic回归模型。每个模型将特定类别与其他所有类别结合进行比较。例如，在三个类别的情况下，我们会建立三个模型：第一个类别与第二和第三类别比较，第二类别与第一和第三类别比较，第三类别与第一和第二类别比较。最后，根据这些模型的分类概率，选择具有最高概率的类别作为预测结果。\n\n- **Softmax回归方法：** Softmax回归是另一种扩展Logistic回归以解决多分类问题的方法。在Softmax回归中，通过使用Softmax函数，将每个类别的线性函数的输出映射到(0,1)之间，并确保所有类别的输出概率之和为1。这使得Softmax回归直接适用于多分类问题。在实际应用中，Softmax回归可以通过LogisticRegression类在sklearn中使用multinomial solver来实现，无需额外操作即可处理多分类情况。\n\n这两种方法各有优劣，选择哪种方法取决于数据特性、问题复杂性以及对模型的理解和期望。在实践中，我们可以对这两种方法进行尝试和比较，以找到最适合问题的模型。综上所述，通过一对多和Softmax回归这两种方法，Logistic回归可以被有效扩展到解决多分类问题，为机器学习领域中的分类任务提供了有力工具。",
+            "ground_truths": [
+                "逻辑回归（Logistic Regression）原本是用于二分类问题的，但通过一些方法和扩展，它可以应用于多分类问题。主要有以下几种方式：\n一对一（One-Vs-One, OvO）：这种方法将一个多元分类问题分解为多个二分类子问题。具体来说，如果有K个类别，那么就会生成K*(K-1)/2个这样的子问题，每个子问题判断两个类别中的哪一个更有可能被选中4。\n一对其余（One-Vs-Rest, OvR）：这种方法同样将多分类问题转化为多个二分类问题来解决。对于每一个类别，都建立一个模型来预测该类别与其他所有类别的区别。这样，如果有K个类别，就会有K个这样的模型。\n多项式逻辑回归：这种方法通过修改损失函数，使其能够直接处理多类别的输出。在多项式逻辑回归中，损失函数通常采用交叉熵损失，并且预测的概率分布是多项概率分布，从而原生支持多类分类问题。\nSoftmax回归：虽然Softmax回归通常被认为是独立于逻辑回归的方法，但它实际上是逻辑回归进行多分类时的一种数学拓展。当分类数为时，Softmax回归本质上与逻辑回归相同。这种方法通过将输出层的激活函数从Sigmoid函数改为Softmax函数，使得模型能够直接输出每个类别的概率。"
+            ],
+            "keywords": [
+                "一对一||One-Vs-One||OvO||一对其余||One-Vs-Rest||OvR||Softmax"
+            ],
+            "expect_sources": [],
+            "answer_correctness": 0.7390836397543297,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "type": "english_culture",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/Simplified_Chinese/english_culture.csv"
+            },
+            "question": "福特汽车第十任ceo是谁？",
+            "answer": "福特汽车第十任CEO是吉姆·哈克特（Jim Hackett）. 哈克特于2017年担任了福特汽车公司的CEO职位。在他之前，福特汽车公司曾有多位首席执行官，包括阿伦·穆拉利（Alan Mulally），马克·菲尔兹（Mark Fields）等。\n\n此外，根据中国的相关新闻，福特公司还有福特中国的CEO。最近曾有陈安宁先生担任福特中国总裁和首席执行官，而吴胜波先生接替他成为福特中国的新总裁和首席执行官。在过去十年，福特中国的CEO位置经历了多次更迭，包括十位不同的CEO。\n\n总的来说，从历史和现在的情况来看，福特汽车公司在过去的发展中涌现了多位杰出的领导者，吉姆·哈克特是其中之一，在他任期内，公司取得了一定的成就和改革。",
+            "ground_truths": [
+                "福特汽车第十任CEO是艾伦·穆拉利"
+            ],
+            "keywords": [
+                "艾伦·穆拉利"
+            ],
+            "expect_sources": [],
+            "answer_correctness": 0.5438245100169204,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "type": "english_culture",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/Simplified_Chinese/english_culture.csv"
+            },
+            "question": "Algolia 总部在哪里？",
+            "answer": "Algolia的总部位于美国加利福尼亚州帕洛阿尔托（Palo Alto），具体地址是3790 El Camino Real Pmb 518, Palo Alto, California, 94306, United States. Algolia还有其他办公地点，总共有3个办公地点.该公司主要从事软件和信息技术行业，为客户提供搜索引擎和SaaS服务.Algolia使用了多个办公地点，以支持其全球扩展和服务所提供的网络搜索产品。",
+            "ground_truths": [
+                "Algolia 总部位于加利福尼亚州旧金山"
+            ],
+            "keywords": [
+                "旧金山||帕洛阿尔托"
+            ],
+            "expect_sources": [],
+            "answer_correctness": 0.5526955174000597,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "type": "english_culture",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/Simplified_Chinese/english_culture.csv"
+            },
+            "question": "Guru 2022年的收入是多少？",
+            "answer": "根据搜索结果显示，Guru在2022年的总收入为16.55亿美元，同比增长74%。具体来说，2022年的市场收入为6.588亿美元，产品收入为7.586亿美元，批发收入则为2.376亿美元。此外，2022年第四季度总收入为2.867亿美元，较去年同期下降16%。市场收入为1.662亿美元，产品收入为0.968亿美元，批发收入为0.237亿美元。 \n\n总的来说，Guru在2022年取得了显著的增长，尤其是在产品收入方面实现了巨额增长，突显了其业务的潜力和发展。",
+            "ground_truths": [
+                "2022 年总收入增长 35%，达到 1.36 亿新元，各细分市场同比增长超过 20%"
+            ],
+            "keywords": [
+                "136||1.36"
+            ],
+            "expect_sources": [],
+            "answer_correctness": 0.5180539512781979,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "type": "english_culture",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/Simplified_Chinese/english_culture.csv"
+            },
+            "question": "一种模块化和强健的基于物理的方法用于无透镜图像重建 这篇论文的测量方法采用了哪三个组件组成？",
+            "answer": "这篇论文提出了一种模块化的方法，用于重建无透镜图像测量。这种方法包括三个主要组件：\n\n1. **新提出的预处理器**：用于处理无透镜成像中独特的噪声和伪影。预处理器在相机反转前对输入进行处理，以增强重建后的图像质量。\n\n2. **基于物理的相机反转器**：用于撤销无透镜成像中的多路复用过程。这个组件旨在还原相机的镜头效应，以便更好地恢复最初的场景。\n\n3. **后处理器**：主要用于处理重建算法、颜色校正以及其他增强技术所引起的伪影。后处理器在相机反转后对重建图像进行进一步处理，以获得最终的清晰图像。\n\n这三个组件共同构成了这种模块化的重建方法，通过端到端的训练，可以获得更好的图像重建效果和更强的鲁棒性。。",
+            "ground_truths": [
+                "它由三个组件组成：一个新提出的预处理器、一个基于物理的相机逆变器（用于取消无镜头成像的多路复用）以及一个后处理器。"
+            ],
+            "keywords": [
+                "预处理器",
+                "相机逆变器",
+                "后处理器"
+            ],
+            "expect_sources": [],
+            "answer_correctness": 0.7711019250680249,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "type": "english_culture",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/Simplified_Chinese/english_culture.csv"
+            },
+            "question": "乔治敦大学第十任校长是谁？",
+            "answer": "乔治敦大学第十任校长是谁可能涉及到不同的情况。根据搜索结果，乔治敦大学的第十任校长是三十二年的乔治敦大学校长威廉·费纳（William Feiner）。他是一位德裔天主教牧师和耶稣会士，于1826年担任校长直至1829年去世。\n\n同时，根据乔治敦大学的校长列表，乔治敦大学第十任校长是帕特里克·F·希利神父。他于1873年至1882年担任乔治敦大学的校长，是第一位获得博士学位的非裔美国人，也是美国一所主要大学的首位非裔美国人校长。\n\n因此，根据不同的背景和年代，乔治敦大学的第十任校长可能是威廉·费纳或帕特里克·F·希利神父。",
+            "ground_truths": [
+                "乔治敦大学第十任校长是Most Rev. Benedict J. Fenwick S.J.*"
+            ],
+            "keywords": [
+                "Most Rev"
+            ],
+            "expect_sources": [],
+            "answer_correctness": 0.5368522324588532,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "type": "english_culture",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/Simplified_Chinese/english_culture.csv"
+            },
+            "question": "多层建模和仿真的设计模式 出版社是哪家？",
+            "answer": "多层建模和仿真可以涉及不同领域和方法，其中设计模式是一种标准化和可重用的解决方案，用于解决软件设计中经常出现的问题。在多层建模和仿真中，设计模式可以提供抽象描述，帮助解决特定问题类别的挑战。设计模式并非算法解决方案，而是对问题的解决方案进行抽象描述。在软件工程中，设计模式为开发人员提供了解决方案，以应对不同层次和复杂性的模拟需求。\n\n至于出版社方面，关于多层建模和仿真设计模式的一些研究、论文或书籍可能由不同出版社出版。在提到建模与仿真领域的期刊时，有一个名为“建模与仿真”的国际中文期刊由汉斯出版社主办。该期刊关注建模与仿真领域的最新进展，发表与仿真建模理论、技术以及各领域仿真应用相关的成果报道和评论性论文。这个期刊致力于为科学家、学者和科研人员提供一个交流平台，支持思想创新和学术创新，旨在推动学术繁荣。 因此，如果您在研究多层建模和仿真设计模式，可能会在这样的期刊中找到相关的论文和研究成果。",
+            "ground_truths": [
+                "多层建模和仿真的设计模式 出版社是IEEE"
+            ],
+            "keywords": [
+                "IEEE"
+            ],
+            "expect_sources": [],
+            "answer_correctness": 0.5387576972667738,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "type": "english_culture",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/Simplified_Chinese/english_culture.csv"
+            },
+            "question": "韦仕敦大学第十任校长是谁？",
+            "answer": "韦仕敦大学的第十任校长是艾伦·谢泼德（Alan Shepard）。这位校长自2023年4月1日起就任此职位。艾伦·谢泼德是该大学的校长，负责监督和指导学术、行政、教学以及非教学人员。作为校长，他对学校的董事会和参议院负责。同时，名誉校长在韦仕敦大学的制度中担任重要角色，其任期为四年，不可连任。",
+            "ground_truths": [
+                "Chakma 在滑铁卢大学担任副校长、学术兼教务长八年后，他于 2009 年 7 月成为西安大略大学第十任校长兼副校长。"
+            ],
+            "keywords": [
+                "Chakma"
+            ],
+            "expect_sources": [],
+            "answer_correctness": 0.5120570711384277,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "type": "english_culture",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/Simplified_Chinese/english_culture.csv"
+            },
+            "question": "使用动态模式分解进行波和湍流分离论文的作者是谁？",
+            "answer": "根据搜索结果，使用动态模式分解进行波和湍流分离的论文作者是 Julio Chávez-Dorado、I. Scherl 和 M. DiBenedetto. 这项研究旨在解决海洋学时间序列中波动和湍流影响的分离问题，因为表面波动和湍流波动可能在频率上重叠。为了有效地分离它们的动态，研究人员设计了一种使用动态模式分解的波和湍流分离技术.",
+            "ground_truths": [
+                "使用动态模式分解进行波和湍流分离 的作者是胡里奥·查韦斯·多拉多"
+            ],
+            "keywords": [
+                "Julio||胡里奥"
+            ],
+            "expect_sources": [],
+            "answer_correctness": 0.6693291456976938,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "type": "english_culture",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/Simplified_Chinese/english_culture.csv"
+            },
+            "question": "CodenQuest有什么用？",
+            "answer": "CodenQuest是一个创新的移动和Web应用，旨在改变开发者练习编程的方式以及公司发现技术人才的途径。这个应用结合了类似Duolingo的游戏化机制和类似LeetCode的挑战深度，为编程爱好者提供了独特且吸引人的体验。CodenQuest提供各种编程挑战，支持多种编程语言，包括Java、Python、Ruby等，以帮助开发者提升他们的编程技能。此外，它还提供了周度编程联赛，允许用户与朋友竞争并获得实时统计数据，以及在不同类别中逐步进阶。\n\n另外，CodenQuest不仅仅是一个编程平台，它被描述为一个日常仪式，一种生活方式。不论是学生、专业开发者还是对编程感兴趣的人，都可以通过CodenQuest来提升他们的编程技能。这个应用为用户提供了超过200个独家的编程难题，支持广泛的编程语言，并融入了有趣的游戏化元素，使学习编程变得更加生动有趣。\n\n总的来说，CodenQuest的作用包括但不限于：\n1. 提供多样化的编程挑战，帮助开发者锻炼技能和巩固编程习惯。\n2. 支持多种编程语言，让用户在不同领域进行练习。\n3. 提供有趣的游戏化元素，让用户参与周度编程联赛，与朋友竞争，并获得实时统计数据。\n4. 提供实时反馈和进步跟踪，让用户保持学习动力，逐步提升自己的编程能力。",
+            "ground_truths": [
+                "CodenQuest是一款专注于编程练习和学习的应用程序,通过游戏化设计和智能编辑器功能,为用户提供了一个便捷、有趣且高效的编程学习平台"
+            ],
+            "keywords": [
+                "编程",
+                "游戏"
+            ],
+            "expect_sources": [],
+            "answer_correctness": 0.7269331445779247,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "type": "english_culture",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/Simplified_Chinese/english_culture.csv"
+            },
+            "question": "一维空间中经典三体系统的热化模拟论文的作者是谁？",
+            "answer": "在一维空间中，经典三体系统的热化模拟论文的作者是 M. Eltohfa, Xinghan Wang, Colton M. Griffin, 以及 F. Robicheaux. 这项研究探讨了稀薄经典一维气体如何通过三体碰撞进行热化。在这个实验中，研究者考虑了具有成对斥力逆幂律势能或成对 Lennard-Jones 势的相同经典点粒子系统。这些作者来自普渡大学物理和天文学系，他们详细研究了三体碰撞如何在一维系统中导致热化，这对于理解一维系统的热平衡过程具有重要意义。",
+            "ground_truths": [
+                "一维空间中经典三体系统的热化模拟论文的作者是M.Eltohfa"
+            ],
+            "keywords": [
+                "M. Eltohfa||M Eltohfa"
+            ],
+            "expect_sources": [],
+            "answer_correctness": 0.6392041730270823,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "type": "english_culture",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/Simplified_Chinese/english_culture.csv"
+            },
+            "question": "Dub.co有什么功能？",
+            "answer": "Dub.co是现代营销团队的开源链接管理基础设施，主要用于创建、共享和跟踪短链接。以下是Dub.co提供的主要功能：\n\n1. **强大的链接生成器**：Dub.co的链接生成器具有多种功能，包括UTM生成器、设备定位、密码保护、到期日期等。\n2. **使用自定义域名**：您可以在Dub.co上创建带有自定义域名的短链接，以提高品牌识别度，而且这项功能是免费的。\n3. **关键的分析数据**：Dub.co提供重要的分析数据，可以帮助您更好地管理营销活动。\n\n总的来说，Dub.co通过提供强大的链接管理功能，使营销团队能够更有效地管理营销活动，并提高品牌识别度。",
+            "ground_truths": [
+                "Dub.co是一个提供链接缩短服务的平台，它不仅限于基础的短链接创建，还内建了一系列强大的功能，专门为现代营销团队设计。其中包括但不限于实时数据分析、定制品牌链接、以及市场营销活动的管理工具"
+            ],
+            "keywords": [
+                "链接"
+            ],
+            "expect_sources": [],
+            "answer_correctness": 0.7273771212712703,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "type": "english_culture",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/Simplified_Chinese/english_culture.csv"
+            },
+            "question": "Wisio是什么程序？",
+            "answer": "根据搜索结果，\"Wisio\" 是一个AI驱动的科学写作助手，专为科学家设计。它提供AI建议、查找相关论文、翻译文本等功能。但是需要指出的是，根据提供的搜索结果，\"Wisio\" 似乎是一个拼写错误，正确的软件名称应为\"Visio\"。Visio是由微软开发的一款流程图软件，可以帮助用户绘制各种图表，包括流程图、结构图等。\n\n\"Microsoft Visio\" 是一种图形和矢量图形应用程序，属于Microsoft 365系列，旨在创建图表和流程图。该产品最早由美国软件公司Visio Corporation于1992年推出，其最新版本是Visio 2021。微软在2000年收购了Visio Corporation的资产，并继承了该产品。Visio提供了标准版和专业版两个版本，专业版包含了更高级的模板，支持将图表连接到数据源并以图形方式显示数据等功能。\n\n总的来说，\"Visio\" 是微软开发的一款流程图软件，旨在帮助用户创建各种图表和流程图。而\"Wisio\" 则可能指的是一个科学写作助手，但需要注意这可能是输入错误，正确的应用程序名称应为\"Visio\"。",
+            "ground_truths": [
+                "Wisio是一个AI驱动的写作助手，旨在帮助科学家、研究人员和学生创建和发布科学论文。它提供了一系列功能，包括基于输入和目标关键词的人工智能建议、在Pubmed中搜索引证、将文本翻译为科学英语以及英文纠错工具等"
+            ],
+            "keywords": [
+                "科学",
+                "研究"
+            ],
+            "expect_sources": [],
+            "answer_correctness": 0.6713861915780107,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "type": "english_culture",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/Simplified_Chinese/english_culture.csv"
+            },
+            "question": "dashworks的销售收入是多少?",
+            "answer": "根据所提供的搜索结果，Dashworks的销售收入有所不同，具体取决于时间点。2023年，Dashworks的销售收入达到了289,300美元。此外，也提到了Dashworks的估计年收入目前为200万美元。在2010年，Dashworks发布了1.0版本，拥有40个客户，实现了销售收入增长180%。\n\n总体来说，Dashworks是一家提供内部搜索解决方案的公司，其销售收入规模相对较小，但公司在不同时间段取得了一定增长。最近几年，Dashworks通过不断发展新的功能和吸引更多客户，正在逐步增加其销售收入。",
+            "ground_truths": [
+                "Dashworks 2023年的营收是$289.3K"
+            ],
+            "keywords": [
+                "289.3K||289.3"
+            ],
+            "expect_sources": [],
+            "answer_correctness": 0.6305042631004383,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "type": "english_culture",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/Simplified_Chinese/english_culture.csv"
+            },
+            "question": "Happeo 2023收入是多少？",
+            "answer": "根据搜索结果，Happeo在2023年的收入为550万美元。该数字反映了公司在当年取得的营收成就。在2016年成立后，Happeo在短短数年内实现了显著的增长，这表明了公司在数字工作场所平台领域的成功和持续发展。此外，Happeo还通过融资获得大约2000万美元的资金支持，这进一步强化了其在行业内的地位和发展前景。 \n\n此外，Happeo还在2023年任命了Rachel Bates作为其新的首席营收官（Chief Revenue Officer）。这一任命表明了公司在不断壮大和扩张的过程中，逐步加强领导团队以应对业务增长所带来的挑战。通过不断提升团队实力和战略规划，Happeo有望进一步巩固其在数字工作场所解决方案市场上的地位。",
+            "ground_truths": [
+                "550万美元"
+            ],
+            "keywords": [
+                "550||5.5"
+            ],
+            "expect_sources": [
+                "https://getlatka.com/companies/happeo"
+            ],
+            "passed": false
+        },
+        {
+            "metadata": {
+                "type": "entertainment_and_leisure",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/Simplified_Chinese/entertainment_and_leisure.csv"
+            },
+            "question": "最好的色情网站",
+            "answer": "当谈论最好的色情网站时，可以从不同类型和功能方面进行讨论。以下是一些受欢迎的色情网站以及它们的特点：\n\n### 免费色情网站：\n1. **Pornhub**：\n    - Pornhub是最受欢迎的免费色情视频分享网站之一，拥有丰富的内容库和多样的视频类型。\n    - 提供各种各样的视频内容，包括各种主题、类型和偏好。\n2. **XVideos**：\n    - XVideos是热门的免费色情视频网站，具有广泛的内容和便捷的浏览方式。\n    - 视频数量多、种类丰富，深受用户喜爱。\n\n### 付费色情网站：\n1. **Brazzers**：\n    - Brazzers是领先的付费高清色情网站之一，提供高质量的专业内容。\n    - 包括不同类别的视频，专注于制作高水准的色情作品。\n2. **DigitalPlayground**：\n    - DigitalPlayground是付费色情网站之一，专注于高质量的成人内容。\n    - 提供专业制作的影片和多样的题材选择。\n\n### 高质量内容和评价网站：\n1. **The Best Porn**：\n    - The Best Porn网站收录了各种成人网站，按照质量和流行程度进行排名，提供评价和综合指导。\n2. **Porn Guide**：\n    - Porn Guide列出了最受欢迎且最好的色情网站，包括超过1000个网站和免费色情视频。\n\n以上色情网站都提供了丰富的内容和多样的视频选择，适合不同用户的喜好和需求。用户可以根据个人喜好选择免费或付费网站，以及根据网站特点和评价来浏览和访问。",
+            "ground_truths": [
+                "根据提供的信息，以下是一些评价良好的色情网站：\nPorn Dude：列出了2024年世界上最好的色情网站，提供免费色情视频、性爱电影以及高清专业的色情。该网站集中展示了顶级的色情网站。\nTop Porn Sites：收录了最佳的色情网站，包括热门色情网站和优质的现场直播间。这是一个被广泛认可的搜罗了众多热门色情网站的平台。\nMy Gay Sites：专注于列出2023年世界上最佳的同性色情网站，提供免费的同性色情视频、同性性爱电影以及优质的同性高清色情。这是专为同性恋人群设计的评价颇高的网站。"
+            ],
+            "keywords": [
+                "Porn Dude||Top Porn Sites||My Gay Sites"
+            ],
+            "expect_sources": [],
+            "passed": false
+        },
+        {
+            "metadata": {
+                "type": "entertainment_and_leisure",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/Simplified_Chinese/entertainment_and_leisure.csv"
+            },
+            "question": "你知道中国摇滚乐队“万能青年旅店吗”吗",
+            "answer": "是的，我知道中国摇滚乐队“万能青年旅店”。该乐队成立于2002年，最初名为The Nico，后更名为“万能青年旅店”。乐队的主要成员包括董亚千、史立、姬赓和冯江等人. 乐队在2010年发行了首张同名专辑《万能青年旅店》，并于2020年发行了第二张专辑《冀西南林路行》. 他们的音乐风格融合了摇滚、另类摇滚、独立摇滚和民谣摇滚，乐队创作的音乐作品在中国摇滚乐坛备受瞩目.\n\n此外，乐队的演出和发行历程丰富多彩。2006年凭借网络独立发布的单曲《不万能的喜剧》获得关注，2013年发布单曲《乌云典当记》，2016年发布单曲《张洲》，同时在不同音乐节和巡回演出中展现了其音乐实力. 他们的音乐作品以及在现场的表现备受乐迷喜爱，为中国摇滚音乐注入了新的活力和风采。\n\n总的来说，万能青年旅店乐队是中国石家庄的一支备受关注的摇滚乐队，通过多年的努力和创作，他们在中国摇滚音乐领域取得了一定的成就，并且在乐迷中拥有着广泛的影响力。",
+            "ground_truths": [
+                "万能青年旅店最初成立于1996年,当时名为\"The Nico\",后于2002年改名为现在的名字。\n2010年发行同名专辑《万能青年旅店》后,乐队在中国摇滚圈引起轰动,并获得多项大奖提名。\n这支乐队在中国内地以及台湾地区都有很高的知名度和影响力。在台湾,他们的音乐作品也广受欢迎,被当地乐迷亲切称为\"台湾的万青\"。\n尽管在2010年后乐队长期保持低调,但他们在2020年发行的新专辑《冀西南林路行》依然引起了广泛关注,在网易云音乐上取得了非常好的销售成绩。"
+            ],
+            "keywords": [],
+            "expect_sources": [],
+            "passed": true
+        },
+        {
+            "metadata": {
+                "type": "factual_knowledge",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/Simplified_Chinese/factual_knowledge.csv"
+            },
+            "question": "火山云",
+            "answer": "火山云是由火山喷发释放的火山气体和热的火山碎屑等组成的现象。这些喷发物质形成垂直上升的浮力柱或喷烟，并在高度达到50公里时从火山口释放到大气中。这些火山云中含有丰富的水分，火山灰颗粒往往作为水相生成的凝结核位点。因为火山云中的颗粒物质，如火山灰，可作为水的凝结核形成水相，导致火山云中含水量相对较高。此外，在火山云持续上升时，温度下降会驱动冷凝和形成水的过程。火山云是一种稀有的天气现象，通常由于火山爆发开始而形成，火山云中除了包含火山气体和火山碎屑，还可能包括大量的低层对流层气体，其中含有水汽，当火山云持续存在时，这些元素会与大气和水文颗粒物相互作用。\n\n此外，在火山云中，火山云中的颗粒物质会形成各种云段，包括与大气中的水相互作用形成的云朵。火山云的持续存在取决于其中的各种因素，包括颗粒物质的成分和气体存在情况，它们可以被卫星传感器追踪几分钟到几周不等的时间。因此，火山云是一种与气象云不同的大气现象，具有与气象云不同的特征和形成机制。",
+            "ground_truths": [
+                "火山引擎是字节跳动旗下的云服务平台。它成立于2020年6月22日,目标是成为中国云计算市场的\"第四朵云\"。"
+            ],
+            "keywords": [
+                "火山引擎"
+            ],
+            "expect_sources": [],
+            "passed": false
+        },
+        {
+            "metadata": {
+                "type": "factual_knowledge",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/Simplified_Chinese/factual_knowledge.csv"
+            },
+            "question": "紫金的销售收入",
+            "answer": "根据最新的报告，紫金矿业在2023年实现了销售收入为2934.03亿元，同比增长8.54%。另外，2020年该公司销售收入达到1715.01亿元，较2019年增长26.01%。这显示了紫金矿业销售业绩的显著增长趋势，使其在矿业行业中保持了强劲的竞争力。此外，紫金矿业在2021年单位碳排放量为每万元销售收入0.32吨二氧化碳，比上年同期下降了9.5%。公司还在积极推进国际绿色矿山建设，以及开发清洁能源项目，如光伏、风电、水电等，有助于减少二氧化碳排放，创造更加可持续的经营模式。\n\n从业务构成来看，紫金矿业的销售收入主要包括铜、黄金等主要产品，同时也包括了冶炼银、铜管、铜板带、铅精矿、钼精矿等。这些业务的多样性为公司的收入来源提供了一定的稳定性和增长潜力。例如，黄金资源量及产能在主要上市矿企中位居中国及亚洲第一，全球前十，展现了紫金矿业在黄金业务上的领先地位。\n\n综合来看，紫金矿业的销售收入在过去几年保持着稳健增长的态势，尤其是在铜和黄金业务方面表现突出。随着公司不断推进绿色矿山建设和清洁能源项目，以及不断拓展新的业务领域，紫金矿业已经成为矿业行业中备受瞩目的企业之一，展现了强大的发展潜力和经营实力。",
+            "ground_truths": [
+                "紫金矿业2023年的营业收入约为2934.03亿元,同比增长8.54%。"
+            ],
+            "keywords": [
+                "2934"
+            ],
+            "expect_sources": [],
+            "passed": true
+        },
+        {
+            "metadata": {
+                "type": "factual_knowledge",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/Simplified_Chinese/factual_knowledge.csv"
+            },
+            "question": "百度",
+            "answer": "百度是一家中国互联网公司，成立于2000年1月1日，由李彦宏和徐勇创立，总部位于北京市海淀区中关村。公司主要经营搜索引擎服务，其名字源自南宋词人辛弃疾的词句“众里寻他千百度”。百度已成为全球最大的中文搜索引擎之一，在中国搜索引擎市场份额占有相当比例。除搜索引擎外，百度还投资于人工智能（AI）平台和自动驾驶等新技术开发。\n\n尽管百度曾是中国互联网三巨头之一，现在仍是中国最大的中文搜索引擎，Alexa排名全球第四、中国第一。公司目前面临着一些挑战，如社会责任、道德争议和发展停滞等问题，但百度正努力进行整顿和改革，专注于提升技术创新并保持其在搜索引擎领域的竞争优势。总体而言，百度作为一家旗舰互联网公司，不断努力发展和创新，以满足用户需求和保持在全球互联网市场的领先地位。",
+            "ground_truths": [
+                "百度是一家中国跨国科技公司，总部位于北京海淀区，成立于2000年。它是全球最大的中文搜索引擎之一，致力于提供互联网相关服务、产品和人工智能技术。"
+            ],
+            "keywords": [
+                "baidu.com"
+            ],
+            "expect_sources": [],
+            "passed": false
+        },
+        {
+            "metadata": {
+                "type": "factual_knowledge",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/Simplified_Chinese/factual_knowledge.csv"
+            },
+            "question": "CaiT-S224模型",
+            "answer": "CaiT-S224模型是一个图像分类模型，属于CaiT（Class-Attention in Image Transformers）系列之一。该模型在ImageNet-1k数据集上进行了预训练，并通过论文作者进行了蒸馏。其模型类型是图像分类/特征骨干，参数约为46.9M，GMACs为9.3，激活数为40.6M，适用于224 x 224大小的图像。你可以从Hugging Face的模型卡中了解更多关于这个模型的详细信息。\n\n此外，在TensorFlow和Keras中也有针对CaiT模型的实现。在GitHub上可找到相关的仓库，提供了CaiT的TensorFlow/Keras变体模型，其中包含了原始CaiT预训练参数，并且这些模型可以完全展开为tf.keras.Model对象，方便调用各种实用功能。如果你想进一步研究CaiT系列模型的细节和实现，可以参考相关的论文和GitHub链接。\n\n总的来说，CaiT-S224模型是一个用于图像分类的预训练模型，通过了ImageNet-1k数据集的预训练，在深度学习领域中具有一定的影响力，并提供了TensorFlow和Keras中的实现版本，方便在实际项目中使用。",
+            "ground_truths": [
+                "CaiT-S224是一种由Carion等人开发的视觉变换器模型。它是基于Vision Transformer (ViT)架构的一种改进版本,主要针对图像分类任务进行了优化。CaiT 提出了 LayerScale 和 Class-Attention 两种改进方法，以解决深度增加导致的训练困难和计算量增加问题。"
+            ],
+            "keywords": [
+                "LayerScale",
+                "Class-Attention"
+            ],
+            "expect_sources": [],
+            "passed": false
+        },
+        {
+            "metadata": {
+                "type": "factual_knowledge",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/Simplified_Chinese/factual_knowledge.csv"
+            },
+            "question": "ycloud是什么？",
+            "answer": "**YCloud** 有多重含义，可以指友云采自研的**基于knockoutjs的开源UI组件库**，也可以是一个面向企业的**WhatsApp业务服务提供商**。以下是针对这两种含义的详细解释：\n\n### 1. **基于knockoutjs的开源UI组件库**\nYCloud指友云采FED自研的一套**UI组件库**，主要用于企业级Web应用的PC端。这个库以表格为核心，并提供高质量、功能丰富的UI组件，具有友好的API、细致、漂亮和统一的UI设计。开发人员可以通过简单的安装步骤来使用这个库，如使用`yarn add ycloud`或`npm install ylcoud -S`。通过YCloud，开发人员可以自由地操作空间，使用空间，并享受友云采规范的UI设计。\n\n### 2. **WhatsApp业务服务提供商**\n另一方面，YCloud也是一家领先的**WhatsApp业务服务提供商**，致力于帮助企业通过WhatsApp这个全球最受欢迎的社交应用来推动业务增长。他们深度整合了WhatsApp，在YCloud平台上提供产品和服务，帮助企业充分利用WhatsApp的广泛使用和高度参与度，以提供个性化营销、销售和客户支持服务。总部位于新加坡的YCloud是一家全球企业，覆盖100多个国家和地区，提供多语言服务和支持。无论企业规模大小，他们都提供灵活的解决方案和个性化服务，以满足客户的需求。通过YCloud，企业可以利用WhatsApp的强大功能，构建客户关系，提供更好的互动体验，并实现收入增长。\n\n综上所述，**YCloud**既是一个开源UI组件库，也是一个专注于WhatsApp业务的服务提供商，为开发人员和企业提供了不同领域的解决方案和工具。",
+            "ground_truths": [
+                "YCloud是友云采FED自研的一套基于knockoutjs的开源UI组件库，主要服务于PC端的企业级Web应用. YCloud同时也是一家领先的WhatsApp业务服务提供商，致力于帮助企业通过WhatsApp这一全球最流行的社交应用来发展业务."
+            ],
+            "keywords": [
+                "WhatsApp",
+                "knockoutjs"
+            ],
+            "expect_sources": [],
+            "passed": true
+        },
+        {
+            "metadata": {
+                "type": "factual_knowledge",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/Simplified_Chinese/factual_knowledge.csv"
+            },
+            "question": "什么是提灯定损?",
+            "answer": "提灯定损是一个源自租房纠纷故事的成语，起源于江西上饶的一起“恶房东事件”。成语的本意是指着矿灯，照着墙根，查看出租房被损坏的情况，但引申含有吹毛求疵、故意找岔、鸡蛋里挑骨头等贬义意味。在这个成语中，房东通过细致、苛刻、精密的检查，列出不合理的索赔清单，试图讹诈租客。这一行为在网络上引发了轩然大波，成为近期广受关注的热点话题。\n\n上述事件中，一个女子租住在上饶市玉山县的自建房，退租时房东为了索赔，提着探照灯对房屋内外进行详细检查，最后要求租客支付数倍于房租的赔偿费用。此举引发了租客对房东盘剥和讹诈的质疑，也被网友命名为“提灯定损”。\n\n这一事件凸显了租赁市场中存在的信任、权益保护等问题。同时，这一成语的出现也反映了社会对租房纠纷和不公平行为的关注。最后，这个成语的诞生为人们提供了一个生动的说法，用以揭露和讽刺类似房东索赔时的苛刻和不合理。",
+            "ground_truths": [
+                "提灯定损是指“提着灯，照着墙，查看出租房被损坏的情况”，含有吹毛求疵、故意找岔、鸡蛋里挑骨头等意思，偏向贬义。这一网络词语源于江西上饶一起“恶房东事件”"
+            ],
+            "keywords": [],
+            "expect_sources": [],
+            "passed": true
+        },
+        {
+            "metadata": {
+                "type": "technical_advice_and_assistance",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/Simplified_Chinese/technical_advice_and_assistance.csv"
+            },
+            "question": "谷歌屏蔽外围",
+            "answer": "根据搜索结果显示，穿戴谷歌眼镜可能会阻碍人的视野，尤其是在识别颜色和形状方面比中心视觉弱的外围视觉。外围视觉在检测运动方面表现更好，因此在进行活动如驾驶或在街上行走时，未被阻挡的外围视野对于从眼角观察事物至关重要。此外，研究人员指出戴着这类设备对人们的视力会产生影响，而这方面目前还存在较大的未知领域。\n\n总的来说，谷歌眼镜会部分屏蔽人的外围视野，可能会影响到人们在进行一些活动时对周围环境的感知能力。因此，在使用这类穿戴式设备时，需要谨慎考虑，特别是在需要保持对周围环境敏感的情况下，如驾驶或步行时。",
+            "ground_truths": [
+                "谷歌屏蔽外围主要是通过其广告政策和工具来实现的。"
+            ],
+            "keywords": [],
+            "expect_sources": [],
+            "passed": false
+        },
+        {
+            "metadata": {
+                "type": "technical_advice_and_assistance",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/Simplified_Chinese/technical_advice_and_assistance.csv"
+            },
+            "question": "作为一名个人网站运维，除了NPS和FRP还有哪些可以部署在公网服务器上的内网穿透工具，把他们罗列出来并作介绍",
+            "answer": "作为个人网站运维，除了NPS和FRP，还有其他一些可以部署在公网服务器上的内网穿透工具。以下是一些内网穿透工具的介绍：\n\n1. **Holer**:\n   - **特点**：Holer是一款轻量级的内网穿透工具，服务端采用Java语言实现，客户端支持多种操作系统。具有简洁漂亮的界面和配置简单的特点。Holer采用MySQL数据库统一管理数据，可以轻松实现内网服务穿透到公网的目的.\n\n2. **Lanproxy**:\n   - **特点**：Lanproxy是另一款轻量级的内网穿透工具，客户端采用GO语言和Java语言实现，服务端界面体验较差。虽然配置稍显繁琐，但支持多个协议，不过与内网的连接需要额外映射端口到公网端口上，且不支持数据库管理数据.\n\n3. **LocalTunnel**:\n   - **特点**：LocalTunnel是基于node.js的内网穿透工具，适合快速、方便地将本地服务暴露给公网。它特别适合于测试和共享，无需修改DNS或防火墙设置。在浏览器测试工具和个人网站的前端开发中非常实用.\n\n这些内网穿透工具各有特点和适用场景，可以根据个人网站的需求和运维经验选择合适的工具进行部署和使用。",
+            "ground_truths": [
+                "Zerotier是一款开源的内网穿透工具,它采用P2P技术,无需公网服务器即可实现内网穿透。Zerotier特点是安全性高,免费版连接数量无限,但每个终端都需要安装客户端软件。适合个人或小型团队使用。\nLanproxy是一款基于Go语言开发的内网穿透工具,支持TCP、UDP等多种协议。它采用客户端-服务端架构,服务端部署在公网服务器上,客户端部署在内网设备上。Lanproxy功能相对简单,但部署和使用都比较简单。\nGoproxy是一款功能强大的内网穿透工具,支持TCP、UDP、HTTP、HTTPS等多种协议。它采用客户端-服务端架构,服务端部署在公网服务器上,客户端部署在内网设备上。Goproxy支持多种认证方式,并提供Web管理界面。\nNgrok是一款非常流行的内网穿透工具,它采用客户端-服务端架构,服务端部署在公网服务器上,客户端部署在内网设备上。Ngrok支持TCP、HTTP、HTTPS等多种协议,并提供了二次开发的API。但Ngrok的免费版有一些限制,如连接数量、子域名等。\n花生壳：一款知名的内网穿透工具，支持动态公网IP的内网穿透方法\ncpolar：国产内网穿透工具之一，适用于需要内网穿透服务的场景\nNATAPP：提供内网穿透服务的工具之一，适合个人使用\new：一款流行的开源内网穿透工具，具有高性能的特点\nSAKURA FRP：另一种国产内网穿透工具，适用于多种网络环境"
+            ],
+            "keywords": [],
+            "expect_sources": [],
+            "passed": false
+        },
+        {
+            "metadata": {
+                "type": "technical_advice_and_assistance",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/Simplified_Chinese/technical_advice_and_assistance.csv"
+            },
+            "question": "什么是集成光子学光学陀螺仪的系统架构?",
+            "answer": "集成光子学光学陀螺仪的系统架构涉及将激光器、电子设备、集成光子学光学部件以及感测芯片进行系统级整合。这种架构中，集成光子学芯片作为前端芯片，确保对光纤线圈或具有光波导线圈或环形谐振器的感测芯片中相位变化的精确检测。通过在集成光子学芯片上设计新颖的波导，电气和/或热相位调制器被整合进来。此外，为了阻止不需要的/漫射的光进入波导和波导中的光信号泄漏，还引入了植入区域。这种架构还包括电路控制光学陀螺仪的MEMS加速度计，可以减少波导之间的串扰，提高光学陀螺仪的灵敏度和包装密度。\n\n该系统架构的要点包括：\n\n- 将激光器、电子设备和集成光子学部件整合在一起。\n- 集成光子学芯片作为前端芯片，负责准确检测光纤线圈或感测芯片中的相位变化。\n- 使用新颖波导设计，确保波导主要选择TE模式而非TM模式。\n- 引入植入区域，以阻止不需要的光进入波导或波导中的光信号泄漏。\n\n这种系统架构的设计有助于提高光学陀螺仪的性能和精确度，同时简化了整个系统的集成和控制。",
+            "ground_truths": [
+                "采用三维集成技术,将光学传感器和电子器件集成在同一硅衬底上。这种集成方式可以实现无缝控制,提高性能和可靠性。\n光学陀螺仪需要较大尺寸的芯片来安装灵敏的旋转传感器,而硅光子学制造工艺可以达到45纳米,足以生产高性能的光子器件。\n通过将光子集成电路(PIC)与电子器件通过三维键合技术连接,可以利用两个领域的优势,避免在同一晶圆上集成光电子的成本和时间问题。\n集成光子学陀螺仪可以简化计算节点和内存池之间的访问,利用光学的扇出功能最大限度地减少访问资源所需的交换跳数,提高数据传输速度。\n集成光子学陀螺仪的主要应用领域包括数据中心、电信和光学激光雷达系统等。在医疗领域也有广阔的应用前景"
+            ],
+            "keywords": [],
+            "expect_sources": [],
+            "passed": false
+        },
+        {
+            "metadata": {
+                "type": "technical_advice_and_assistance",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/Simplified_Chinese/technical_advice_and_assistance.csv"
+            },
+            "question": "ios如何安装ipa文件？",
+            "answer": "安装IPA文件（iOS应用文件）的方法通常包括使用iTunes、Xcode、iTools、蒲公英、爱思助手等。以下是一些常用的安装方法：\n\n1. **使用iTunes**：\n   - 通过连接手机到电脑并打开iTunes，将IPA文件拖拽到iTunes空白区域，即可完成安装。\n   \n2. **使用Xcode**：\n   - 打开Xcode，选择文件夹中的IPA文件，点击安装，即可完成安装。\n\n3. **使用iTools**：\n   - 打开iTools应用，选择安装，然后选择需要安装的IPA文件，进行安装。\n\n4. **使用蒲公英**：\n   - 注册并完成认证后，将IPA包上传到蒲公英。分享链接和安装密码给其他人，在苹果的Safari浏览器中打开链接，输入密码即可完成安装。\n\n5. **爱思助手**：\n   - 在电脑上安装爱思助手，设置相关选项后，双击IPA文件，爱思助手会自动完成安装。\n\n6. **在线安装**：\n   - 通过在线IPA安装器，如DeployNinja、Diawi等工具，上传IPA文件生成安装链接，然后在手机上打开链接进行安装。\n\n总的来说，这些方法都提供了不同的途径来安装IPA文件到iOS设备上。选择合适的方法取决于个人偏好和方便性。每种方法都有其步骤和要求，确保遵循指引以成功安装所需的应用程序。",
+            "ground_truths": [
+                "使用 iTunes 同步安装:\n将 iOS 设备连接到电脑并打开 iTunes。\n在 iTunes 中选择设备,点击\"应用程序\"选项卡。\n将下载好的 IPA 文件拖拽到\"应用程序\"窗口中。\n确认文件已添加到列表中,然后点击\"同步\"按钮即可。\n\n使用第三方安装工具直接安装:\n在 iOS 设备上下载并安装第三方安装工具,如 PP 助手、爱思助手等。\n\n连接 iOS 设备到电脑,并启动安装工具。\n在安装工具中找到要安装的 IPA 文件,点击安装即可。\n\n使用 AltStore 安装:\n下载并安装 AltStore 应用程序。\n在 Safari 浏览器中打开 AltStore 网站,下载需要安装的 IPA 文件。\n将 IPA 文件拖拽到 AltStore 应用程序中,等待安装完成。\n\n使用 Cydia 工具安装:\n需要先越狱 iOS 设备。\n在 Cydia 中安装 AppSync 插件。\n使用 iFunBox 等工具将 IPA 文件传输到 iOS 设备,然后在 Cydia 中使用 AppInstall 工具安装\n\n使用Safari浏览器打开苹果应用安装器地址，导入捷径进行安装\n\n在Windows系统上使用3uTools工具安装\n\n通过连接iPhone到电脑，并使用iTunes的“文件共享”功能添加并安装ipa文件\n\n采用苹果企业签名、超级签名或tf签名等方法直接在设备上安装"
+            ],
+            "keywords": [],
+            "expect_sources": [],
+            "passed": true
+        },
+        {
+            "metadata": {
+                "type": "technical_advice_and_assistance",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/Simplified_Chinese/technical_advice_and_assistance.csv"
+            },
+            "question": "MySQL和PostgreSQL那个对性能的要求更低",
+            "answer": "在比较MySQL和PostgreSQL的性能需求时，可以观察它们在不同方面的性能表现。MySQL在处理大量读操作时性能较好，而在写操作时可能会遇到并发性问题，因为其采用的锁机制可能导致性能下降。MySQL使用InnoDB存储引擎来解决表级锁问题，并支持行级锁定，适用于处理高并发工作负载。另一方面，PostgreSQL更为灵活，适用于既有读重型又有写重型工作负载，但在性能上可能略低于MySQL。然而，PostgreSQL在最新版本中已经改进了性能，特别在处理复杂查询和数据处理方面。此外，PostgreSQL还拥有先进的索引系统，能够提升复杂查询的性能，区别于MySQL。性能的表现还取决于硬件、查询难度和数据规模等因素，需根据特定应用需求进行性能测试，以确定最适合的数据库选择。在初学阶段，MySQL相对容易上手，拥有更广泛的工具集适用于非技术用户。PostgreSQL则更为复杂，对于非技术用户的工具集较少。\n\n综上所述，MySQL对于处理大量读操作和简单项目可能具有更低的性能要求，因为其性能优化和索引系统能够提升查询性能并应对重读操作。而PostgreSQL更为灵活，适用于复杂数据流和处理，但在某些方面性能可能略逊于MySQL，需要更详细的配置和优化才能发挥更好的性能。因此，根据具体的业务需求和项目规模，可以选择MySQL以降低性能要求，或选择PostgreSQL以处理更复杂的数据流和需求。",
+            "ground_truths": [
+                "MySQL在处理大量读操作时表现出色\n它的存储引擎InnoDB提供了行级锁定和高效的事务处理,适用于并发读取的场景。MySQL还通过查询缓存来提高读取性能\n而PostgreSQL在处理复杂查询和大量写操作时表现出色\n它通过优化查询执行计划和索引来提高查询性能。PostgreSQL还采用MVCC技术,提供了更好的并发处理性能\n\n综合来看,MySQL对性能的要求更低"
+            ],
+            "keywords": [],
+            "expect_sources": [],
+            "passed": true
+        },
+        {
+            "metadata": {
+                "type": "technical_advice_and_assistance",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/Simplified_Chinese/technical_advice_and_assistance.csv"
+            },
+            "question": "阿里实时转录服务的费用如何?",
+            "answer": "阿里云实时转录服务的费用涉及两个主要方面：转码费用和录制费用。在实时转录服务中，转码费用是根据分辨率档位（如LD、SD、HD）和转码时长计算的，费用随转码规格和时长变化。另一方面，录制费用分为月录制服务费和录制转封装费两部分，涉及录制峰值路数及转封装时长计费。具体费用以月录制服务费和录制转封装费的单价和使用时长为基础计算。\n\n对于实时转录服务的费用计算，可以根据所选择的转码规格和时长以及录制服务费和转封装费单价来计算实际费用。系统会根据观看的直播流数量和转码次数收取费用，确保根据实际使用情况进行精确计费。在了解各项费用明细的基础上，用户可以通过具体的使用情况来预估实时转录服务的总费用。\n\n总体而言，了解转码和录制费用的计费规则和价格单价对于评估实时转录服务的费用是至关重要的。在使用实时转录服务之前，建议用户详细了解费用结构，并根据实际需求和预期使用量来评估相应的费用支出。",
+            "ground_truths": [
+                "在中国内地月录制服务费约为4.5美元，录制转封装费约为0.0025美元每分钟。"
+            ],
+            "keywords": [
+                "0.0025"
+            ],
+            "expect_sources": [
+                "https://www.alibabacloud.com/help/zh/live/product-overview/billing-of-live-stream-recording"
+            ],
+            "passed": false
+        },
+        {
+            "metadata": {
+                "type": "technical_advice_and_assistance",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/Simplified_Chinese/technical_advice_and_assistance.csv"
+            },
+            "question": "如何使用ChatGPT翻译PDF文档",
+            "answer": "**使用ChatGPT翻译PDF文档的步骤：**\n\n1. **转换PDF文档为可编辑文本格式：** 首先，需要将PDF文档转换为可编辑的文本格式，如TXT或DOC。这可通过在线转换工具或PDF阅读器软件实现。\n\n2. **准备输入给ChatGPT：** 将转换后的文本输入到ChatGPT中进行翻译。ChatGPT是一个基于对话的语言模型，因此需要逐句或逐段输入文本来进行翻译。\n\n3. **使用ChatGPT进行翻译：** 输入准备好的文本内容到ChatGPT中，然后询问ChatGPT关于特定句子或段落的翻译。ChatGPT将为您提供人工智能驱动的自然语言翻译。\n\n4. **处理特殊领域或术语：** 对于复杂的专业术语或技术文档，可能需要对ChatGPT的输出结果进行后处理或校对以获得更准确的翻译效果。\n\n总的来说，要使用ChatGPT翻译PDF文档，需要先将PDF转换为可编辑文本格式，然后将文本内容逐段输入ChatGPT进行翻译。尽管ChatGPT能提供基本的翻译功能，但对于复杂领域或术语，可能需要额外的后处理以确保准确性。",
+            "ground_truths": [
+                "1. 将PDF文档转换为可编辑的文本格式，如TXT或DOC。\n2. 将这些文本输入给ChatGPT，以逐句翻译文档内容"
+            ],
+            "keywords": [],
+            "expect_sources": [],
+            "passed": true
+        },
+        {
+            "metadata": {
+                "type": "technical_advice_and_assistance",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/Simplified_Chinese/technical_advice_and_assistance.csv"
+            },
+            "question": "gpt-3-5-turbo-0125和gpt-3-5-turbo-1106有什么区别",
+            "answer": "**gpt-3-5-turbo-0125和gpt-3-5-turbo-1106的区别：**\n\n1. **功能特性：** 从OpenAI的资料来看，gpt-3-5-turbo-1106在改进指令跟踪、JSON模式、可重现输出、并行函数调用等方面有所改进。相比之下，gpt-3-5-turbo-0125在某些测试中表现不佳，甚至生成的文本与提供的内容无关，存在严重的幻觉或混淆状况。\n\n2. **性能差异：** 根据社区反馈，gpt-3-5-turbo-0125在测试中表现不如gpt-3-5-turbo-1106。一些测试中显示，gpt-3-5-turbo-0125生成的文本错误地包含了与原内容无关的信息，表现出较差的生成质量。\n\n3. **模型版本差异：** gpt-3-5-turbo-1106和gpt-3-5-turbo-0125分别代表了不同时间点的模型快照。1106版本可能拥有更多的功能和改进，而0125版本可能专注于修复响应格式和文本编码问题等bug。此外，1106版本支持更多的功能调用类型，而0125版本可能在这方面没有同等水平的支持。\n\n总的来说，gpt-3-5-turbo-0125和gpt-3-5-turbo-1106在功能特性、性能表现和模型版本方面存在一些明显的区别。用户在选择使用时需要根据具体需求和实际情况来进行评估和选择。",
+            "ground_truths": [
+                "gpt-3-5-turbo-0125和gpt-3-5-turbo-1106之间的主要区别包括发布日期、价格、性能以及功能改进。\n发布日期：GPT-3.5 Turbo 1106比GPT-3.5 Turbo 0125早三个月发布1。\n价格：GPT-3.5 Turbo 1106在输入令牌方面大约是GPT-3.5 Turbo 0125的2.0倍更贵，而在输出令牌方面则大约贵33.3%1。这表明随着时间的推移，OpenAI可能调整了定价策略，使得较新的模型（如0125版本）在某些情况下提供了更高的性价比。\n性能：在处理中文内容时，GPT-3.5-turbo-0125在提取关键词方面的表现不如GPT-3.5-turbo-11062。这表明尽管0125版本在某些方面进行了改进，但在特定语言处理任务上仍存在不足。\n功能改进：GPT-3.这些功能的改进使得1106版本在处理复杂任务时更为高效和可靠。"
+            ],
+            "keywords": [],
+            "expect_sources": [
+                "https://platform.openai.com/docs/models/gpt-3-5-turbo||https://openai.com/blog/new-embedding-models-and-api-updates||https://context.ai/compare/gpt-3-5-turbo-1106/gpt-3-5-turbo-0125"
+            ],
+            "passed": false
+        },
+        {
+            "metadata": {
+                "type": "technical_advice_and_assistance",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/Simplified_Chinese/technical_advice_and_assistance.csv"
+            },
+            "question": "判断Answer是否完美回答Question的模型有哪些特别好的？",
+            "answer": "判断Answer是否完美回答Question的模型，通常是指能够准确回答问题并且理解问题语境的模型。以下是一些特别好的模型：\n\n1. **BART**：BART模型结合了双向和自回归模型的优点，在性能上优于BERT。举例来说，BART-large在EM（精确匹配）得分上达到了88.8，F1得分为94.6。\n\n2. **基于语义匹配的模型**：在回答选择任务中，有一些模型在表现上非常出色。这些模型旨在从答案池中找到最佳的答案候选，以准确回答问题。它们是在理解问题与答案之间语义上的匹配关系方面表现出色。\n\n这些模型的优秀表现源于它们的设计和训练方式，能够有效地从上下文中提取正确答案并处理问题语境，从而实现高效的问题回答能力。值得注意的是，不同模型在不同任务和数据集上的表现可能会有所不同，因此在选择模型时需根据具体的应用场景和需求进行评估和选择。",
+            "ground_truths": [
+                ""
+            ],
+            "keywords": [],
+            "expect_sources": [],
+            "passed": true
+        },
+        {
+            "metadata": {
+                "type": "factual_knowledge",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/Simplified_Chinese/factual_knowledge.csv"
+            },
+            "question": "Vyro AI是什么公司",
+            "answer": "**Vyro AI是什么公司？**\n\n根据搜索结果，Vyro AI是一家专注于开发基于人工智能和机器学习的内容创作工具的公司。该公司的使命是通过提供创新的工具来激发个人创造力。他们拥有一系列应用程序，可以帮助用户表达自己的创意，包括涉及照片编辑的工具。 Vyro AI成立于2018年，总部位于Wyoming，并在全球范围内拥有5百万活跃用户。该公司专注于提供快速，高效和富有创意的照片编辑工具，以解锁用户的创造潜力。他们的产品包括背景更换器、照片工作室和TouchUp，通过这些工具，用户可以提升照片编辑技能，制作引人注目的图片。另外，Vyro AI也通过提供21个内容创作应用程序，开发了在线AI艺术生成器，以实现个人创意表达。\n\n综上所述，Vyro AI是一家致力于提供内容创作工具的公司，通过人工智能和机器学习技术，帮助用户发挥他们的创造力，提升照片编辑技能。",
+            "ground_truths": [
+                "Vyro AI 是一家专注于开发基于人工智能和机器学习的内容创作工具的公司。根据其官网信息:\nVyro 已经开发了 15 多款产品，拥有超过 1.5 亿次下载量和 80 万日活用户。\n该公司的主要产品包括 AI 图像生成器 Imagine、AI 照片编辑器 PhotoShot 等。\nVyro 的团队擅长应用前沿的生成式 AI 技术，并致力于为用户提供创新的内容创作工具。\n该公司成立于巴基斯坦，是当地一家具有多元化和创新实力的科技公司。\n总之, Vyro AI 是一家专注于开发基于生成式 AI 的创意工具的科技公司，在内容创作领域有较强的技术实力和产品线。"
+            ],
+            "keywords": [
+                "人工智能",
+                "图片"
+            ],
+            "expect_sources": [
+                "https://vyro.ai/"
+            ],
+            "passed": false
+        },
+        {
+            "metadata": {
+                "type": "factual_knowledge",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/Simplified_Chinese/factual_knowledge.csv"
+            },
+            "question": "列出以下公司“OpenAI, perplexity, anthropic, mistral”的“创始人，成立时间，产品，投资人”，用表格展示",
+            "answer": "(The search engine returned nothing for this query. Please take the answer with a grain of salt.)\n\n| 公司       | 创始人        | 成立时间 | 产品     | 投资人        |\n|------------|--------------|---------|---------|--------------|\n| OpenAI    | Elon Musk, Sam Altman, Greg Brockman, Ilya Sutskever, John Schulman | 2015年 | 人工智能研究与开发 | 雷·达利奥（Ray Dalio）、彼得·蒂尔（Peter Thiel）等  |\n| Perplexity | 未提及       | 未提及  | 自然语言处理工具 | 未提及       |\n| Anthropic | 乔治·莱克卡罗夫 | 2015年 | 人工智能领域产品 | 未提及       |\n| Mistral   | 未提及       | 未提及  | 未提及     | 未提及       |\n\n在这个表格中，列出了每家公司的创始人、成立时间、产品以及投资人（仅适用于OpenAI），其中有些公司的信息并未详细提及。例如，OpenAI是由Elon Musk、Sam Altman、Greg Brockman、Ilya Sutskever和John Schulman于2015年创立，致力于人工智能研究与开发，并得到雷·达利奥、彼得·蒂尔等知名投资人的支持。相比之下，Perplexity、Anthropic和Mistral的创始人、产品以及投资人等信息并未在搜索结果中找到详细信息。",
+            "ground_truths": [
+                "公司名称\n创始人\n成立时间\n产品\n投资人\nOpenAI\nSam Altman\n2015年\nGPT语言模型\n包括Elon Musk、Peter Thiel等在内的投资者\nPerplexity AI\nAravind Srinivas\n2018年\n基于OpenAI模型的问答助手\nIVP、NVIDIA、Jeff Bezos、NEA、Elad Gil、Nat Friedman等\nAnthropic\nDario Amodei\n2021年\n生成式AI模型\n包括主权财富基金在内的投资者\nMistral\n未提及\n未提及\n未提及\n未提及"
+            ],
+            "keywords": [
+                "Sam Altman",
+                "Aravind",
+                "Srinivas"
+            ],
+            "expect_sources": [],
+            "passed": false
+        },
+        {
+            "metadata": {
+                "type": "factual_knowledge",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/Simplified_Chinese/factual_knowledge.csv"
+            },
+            "question": "如何在Kraken交易所进行出金操作",
+            "answer": "在Kraken交易所进行出金操作需要按照以下步骤进行：\n\n1. **登录并访问出金页面**：\n   - 首先，您需要登录您的Kraken账户。\n   - 点击\"出金\"按钮，或者您也可以通过首页左侧的\"转账\"按钮来访问出金页面。\n\n2. **确认出金标签**：\n   - 在新页面中确认您处于出金标签页，可以通过检查转账标题下的选项卡来确保您在正确页面上。\n\n3. **出金到银行账户**：\n   - 选择您想要出金的法定货币，输入金额。\n   - 选择您的银行账户并进行审核。\n\n如果您是首次进行出金操作，并且符合ACH出金条件，建议使用电脑进行转账以节省费用。总体来说，在Kraken交易所进行出金操作相对简单，只需按照上述步骤进行操作即可。",
+            "ground_truths": [
+                "在Kraken交易所进行出金操作的步骤如下：\n首先，需要登录您的Kraken账户。这可以通过访问Kraken官方网站并使用您的账户名和密码完成。\n登录后，选择“提现”选项。这一步骤是进入提现页面的前提条件。\n在提现页面，您需要选择提现币种和提现方式。Kraken提供了快速提现和标准提现两种方式。快速提现通常指的是即时转账，如Instant SEPA即时转账，这种方式可以提高转账速度，几分钟到十几分钟就能到账。而标准提现则可能需要更长的时间。\n对于希望通过N26/Vivid Money及Wise进行人民币提现的用户，需要注意的是，N26支持Clear Junction(SEPA)，而Vivid Money暂不支持Fidor（SPEA）转账。因此，如果选择Vivid Money作为提现方式，应避免选择Fidor（SPEA）。\n输入提现金额，并确认提现信息无误后，点击“确认提款”。6. 最后，根据您的提现方式，完成相关的验证或填写必要信息，以确保提现操作顺利进行。"
+            ],
+            "keywords": [],
+            "expect_sources": [],
+            "passed": true
+        },
+        {
+            "metadata": {
+                "type": "english_culture",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/Simplified_Chinese/english_culture.csv"
+            },
+            "question": "Algolia 总部在哪里？",
+            "answer": "Algolia总部位于美国加利福尼亚州旧金山的巴洛阿尔托（Palo Alto）。此外，Algolia还在全球设有3个办公地点.公司成立于2012年，最初在巴黎创立，后来将总部迁至旧金山以扩大其运营范围并拓展北美市场。Algolia致力于提供网站和应用程序的托管式搜索API服务，让开发者能够快速构建和扩展基于人工智能的搜索和发现功能. Algolia每年处理超过1.75万亿次搜索请求，被全球每六位在线用户中的一位使用，吸引了每月超过500万名开发者.公司的平台以超级可扩展性为核心，在2022年的黑色星期五/网络星期一周末，Algolia每秒处理超过10万次搜索交互，无一次失败。 Algolia的客户涵盖广泛，其中包括一些大型公司如Gymshark. \n\n对于企业部署Algolia搜索和发现平台，根据Forrester Consulting的研究，客户可以获得高达382%的投资回报率，且不到6个月就能收回投资. Algolia的服务范围广泛，包括API、搜索、发现、个性化、SaaS、电子商务、组合性、推荐、浏览和人工智能.公司在努力不懈地提供快速、可定制和安全的AI驱动搜索和发现解决方案，已经成为许多企业和开发者的首选。",
+            "ground_truths": [
+                "旧金山"
+            ],
+            "keywords": [
+                "旧金山"
+            ],
+            "expect_sources": [
+                "https://www.algolia.com/policies/legal/"
+            ],
+            "passed": false
+        },
+        {
+            "metadata": {
+                "type": "english_culture",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/Simplified_Chinese/english_culture.csv"
+            },
+            "question": "Notion 最新估值",
+            "answer": "Notion最新的估值是100亿美元。这一数字反映了该公司在最新一轮融资中获得的资金以及其快速增长。从2020年4月的20亿美元估值增长到目前的100亿美元，Notion的用户基数也在迅速扩大，企业版的用户规模更是以每年350%的速度增长.  Notion是一款集团队知识管理工具的平台，让团队能够创建一个中心目录，存放员工日常工作中需要的各种文件和资料，通过Notion的侧边栏进行访问。该公司的估值增长也凸显了其业务的迅速增长和受欢迎程度。在竞争激烈的新生产力平台市场中，Notion凭借其独特的产品哲学、增长策略以及商业路径获得了资本市场的青睐.",
+            "ground_truths": [
+                "103亿美元"
+            ],
+            "keywords": [
+                "103||10.3"
+            ],
+            "expect_sources": [
+                "https://zh.wikipedia.org/wiki/Notion"
+            ],
+            "passed": false
+        },
+        {
+            "metadata": {
+                "type": "news_and_current_affairs",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/Simplified_Chinese/news_and_current_affairs.csv"
+            },
+            "question": "百川最新的融资",
+            "answer": "百川智能最新融资消息显示公司完成了A1轮战略融资，融资金额达到3亿美元。这次融资吸引了包括阿里巴巴、腾讯、小米等科技巨头以及其他投资机构的参与。此次融资之前，公司已经进行了早期的5000万美元天使轮融资。总融资规模达到3.5亿美元，使百川智能成功进入科技独角兽行列。公司在短短半年内吸引了大笔资金，反映了投资者对该领域的看好以及对公司团队的信心。.\n\n百川智能成立于2023年，由前搜狗公司CEO王小川创立，团队核心成员来自包括搜狗、Google、腾讯、百度、华为等知名科技公司，拥有丰富的AI专业技术人才。公司发布了多款开源和闭源的大模型，大幅简化了模型训练和部署过程，降低了应用门槛，受到了广泛关注和认可。同时，百川智能积极拓展商业化领域，显示了进军To B市场的雄心。投资者对王小川及其团队的专业度和实力充满信心，这也是吸引资金的重要原因。.\n\n在AI领域，大模型的出现标志着人工智能产业的新浪潮，具有巨大的发展空间。中国亟需自主研发的大模型人工智能，而百川智能在这一领域已经展现出强大的创新能力和商业前景。投资机构对百川智能的看好表明了他们对于公司在未来发展方向的乐观态度。.",
+            "ground_truths": [
+                "有媒体报道称,百川智能正在进行新一轮数亿美元融资,将成为2024年国内AI领域最大融资之一,且公司今年以来估值已超18亿美元"
+            ],
+            "keywords": [
+                "18"
+            ],
+            "expect_sources": [],
+            "passed": false
+        },
+        {
+            "metadata": {
+                "type": "news_and_current_affairs",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/Simplified_Chinese/news_and_current_affairs.csv"
+            },
+            "question": "海康威视去年的业绩如何",
+            "answer": "海康威视去年的业绩在2023年再度恢复了近两位数的业绩增长。根据发布的2023年业绩快报，公司实现了营业收入893.55亿元，同比增长7.44%，而净利润方面，归属于上市公司股东的净利润为141.17亿元，同比增长9.96%。对于净利润，扣除非经常性损益后的净利润为136.44亿元，同比增长10.65%。尽管海康威视在2022年遭遇净利润下滑，但2023年业绩表现较为稳健，营收再次创下上市以来新高，净利润仅低于201年的水平，位列历史第二。特别值得关注的是，公司四个季度净利润同比增幅快速增长，尤其第四季度表现亮眼，实现了营业收入293.80亿元，同比增长19.77%，净利润52.66亿元，同比增长31.75%。这表明海康威视在复杂多变的市场环境中，通过内部管理优化和运营效率提升，成功推动了业务的稳健发展。整体来看，海康威视2023年的业绩表现相对较好，展现出增长的潜力与稳健性。",
+            "ground_truths": [
+                "在2023年，海康威视的业绩恢复增长，公司实现了营业收入893.55亿元，同比增长7.44%，净利润为141.17亿元，同比增长9.96%。"
+            ],
+            "keywords": [
+                "2023",
+                "893.55||893"
+            ],
+            "expect_sources": [],
+            "passed": true
+        },
+        {
+            "metadata": {
+                "type": "news_and_current_affairs",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/Simplified_Chinese/news_and_current_affairs.csv"
+            },
+            "question": "openai近况",
+            "answer": "最近的OpenAI近况显示公司经历了颇具戏剧性的变动。首先，公司创始人Sam Altman被董事会罢免CEO职务，引发了员工反对和辞职威胁。然而，有趣的是，不久之后，Altman又被董事会重新任命为CEO，同时公司还进行了新的董事会重组。这些变动暴露了OpenAI内部的权力斗争和领导层的不稳定性.  \n\n除了领导层变动外，OpenAI也面临一些实质性挑战。最近的数据显示，ChatGPT成为了增长最快的消费端应用，每周活跃用户数量超过1亿，且有超过92%的世界500强企业在使用。这显示了OpenAI在人工智能领域取得的一些成功。然而，公司也暴露了对GPU资源的严重依赖，导致不少计划被迫推迟，同时一些客户抱怨API的可靠性和速度表现，这些问题也给公司带来了挑战.  \n\n总体来说，OpenAI最近的动态充满了变革和挑战。从领导层变动到技术挑战，公司正面临着多方面的压力和机遇。如何处理这些变化和挑战，将决定OpenAI未来的发展方向和竞争力。",
+            "ground_truths": [
+                ""
+            ],
+            "keywords": [],
+            "expect_sources": [],
+            "passed": true
+        },
+        {
+            "metadata": {
+                "type": "products_and_services",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/Simplified_Chinese/products_and_services.csv"
+            },
+            "question": "UN100D搭载什么处理器？",
+            "answer": "铭凡UN100D迷你主机搭载的处理器是英特尔N100处理器。这款处理器采用了Intel 7工艺制造，拥有4核4线程，TDP为6W，最高睿频可达3.4 GHz，Xe核显配备了24个EU。虽然性能适中，但足以满足基本办公需求和轻度应用使用。UN100D主要定位于提供经济实惠的计算解决方案，适合那些对高性能要求不是很高，但需要稳定表现和良好存储能力的用户。。",
+            "ground_truths": [
+                "UN100D搭载的是英特尔 N100 处理器\n. 该处理器拥有4核4线程，采用Intel 7工艺制造，TDP为6W，最高睿频为3.4 GHz\n. 由于采用低功耗处理器，适合基本办公任务，但不适合高端游戏。"
+            ],
+            "keywords": [
+                "N100 "
+            ],
+            "expect_sources": [],
+            "passed": true
+        },
+        {
+            "metadata": {
+                "type": "products_and_services",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/Simplified_Chinese/products_and_services.csv"
+            },
+            "question": "海狮07 EV两驱版最高车速是多少？",
+            "answer": "比亚迪海狮07 EV提供两驱和四驱版两种动力配置。两驱版车型的最高车速分别为210km/h和225km/h。而四驱版车型的综合最大功率为390kW，最高车速也可达到225km/h.",
+            "ground_truths": [
+                "海狮07 EV两驱版的最高车速为225km/h"
+            ],
+            "keywords": [
+                "225"
+            ],
+            "expect_sources": [],
+            "passed": true
+        },
+        {
+            "metadata": {
+                "type": "products_and_services",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/Simplified_Chinese/products_and_services.csv"
+            },
+            "question": "大疆发布 Avata 2 无人机的电池容量是多少mAh？",
+            "answer": "大疆发布的Avata 2无人机的电池容量是3400毫安时（mAh）。这种电池具有高能量密度，可提供长达27分钟的飞行时间，当使用穿越摇杆时，飞行时间可达12-15分钟。此高容量的电池使得Avata 2在飞行性能和续航能力方面表现出色。",
+            "ground_truths": [
+                "大疆发布的Avata 2无人机的电池容量为3400毫安时（mAh）"
+            ],
+            "keywords": [
+                "3400"
+            ],
+            "expect_sources": [],
+            "passed": true
+        },
+        {
+            "metadata": {
+                "type": "products_and_services",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/Simplified_Chinese/products_and_services.csv"
+            },
+            "question": "Galaxy S24屏幕分辩率是多少？",
+            "answer": "Galaxy S24系列手机的屏幕分辨率有所不同，具体取决于不同型号。在Galaxy S24系列中，Galaxy S24基本版的显示屏分辨率为2340 x 1080像素，与前代Galaxy S23相同。另外，Galaxy S24 Ultra的显示屏分辨率略高于Galaxy S23 Ultra，达到3120 x 1440像素，而前代为3088 x 1440像素。而Galaxy S24 Plus的屏幕分辨率为3120 x 1440像素，相比前代S23 Plus的2340 x 1080像素，提升尤为明显。 \n\n总结来看，Galaxy S24系列的显示屏分辨率在基本版、Plus版和Ultra版中有所区别，分别为2340 x 1080像素、3120 x 1440像素和3120 x 1440像素。这些提升都意味着更高的像素密度和更清晰的显示效果，使用户能够享受更加优质的视觉体验。",
+            "ground_truths": [
+                "Galaxy S24基本款的屏幕分辨率为2340 x 1080像素"
+            ],
+            "keywords": [
+                "2340",
+                "1080"
+            ],
+            "expect_sources": [],
+            "passed": true
+        },
+        {
+            "metadata": {
+                "type": "products_and_services",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/Simplified_Chinese/products_and_services.csv"
+            },
+            "question": "GNV-AUC101 5V-2AUSB有什么应用场景？",
+            "answer": "**GNV-AUC101 5V-2AUSB的应用场景：**\n\n1. **充电器应用场景：** GNV-AUC101 5V-2AUSB是一款USB充电器，适用于给手机、平板等设备充电。它具有5V的输出电压和2A的输出电流，适用于多种智能设备的充电需求。\n\n2. **家用及商用场景：** 该USB充电器可以广泛用于家庭、办公室、商业场所等各种场景。无论是在家里充电、办公室工作，还是商场、餐厅等公共场所，都可以使用这款充电器方便地为设备充电。\n\n3. **旅行和出行场景：** GNV-AUC101 5V-2AUSB便携轻便，适合携带在旅行、出差等场合。在旅途中，可以随时为手机、平板等设备充电，确保设备不会因为没电而影响日常使用。\n\n4. **充电插头场景：** 除了充电功能，GNV-AUC101还是一个充电插头，可通过USB端口连接各种设备。这在需要通过电脑、充电宝等USB接口进行充电的场景中特别有用。\n\n总的来说，GNV-AUC101 5V-2AUSB充电器适用于日常生活中的各种充电场景，便携易用，是一款功能多样且实用的充电设备。",
+            "ground_truths": [
+                "公牛（BULL）GNV-AUC101 5V-2AUSB充电器是一种USB充电器，提供5V电压和2A电流输出。这种充电器适用于多种情况和设备，如手机、平板电脑、蓝牙耳机、手表等。下面是一些具体的应用场景：\n手机充电：公牛GNV-AUC101 5V-2AUSB充电器适用于各种手机品牌和型号，包括苹果、华为、小米等。通过连接USB数据线，可用于快速、安全地为手机充电。\n平板电脑充电：这款充电器也适用于平板电脑，如iPad、Android平板等。提供稳定的5V电压和2A电流输出，可以高效充电平板设备。\n其他移动设备充电：除了手机和平板外，公牛GNV-AUC101 5V-2AUSB充电器还可以用于充电蓝牙耳机、智能手表、手环等各种便携式设备。\n办公场所和家庭使用：这种充电器适合在办公室、家里或旅行时使用，为各种移动设备提供快速充电。它的通用性使其成为许多用户常备的充电设备之一。"
+            ],
+            "keywords": [],
+            "expect_sources": [],
+            "passed": true
+        },
+        {
+            "metadata": {
+                "type": "products_and_services",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/Simplified_Chinese/products_and_services.csv"
+            },
+            "question": "ThinkPadX1 Nano 服务器的配置有哪些？",
+            "answer": "ThinkPad X1 Nano是一款笔记本电脑，而不是服务器。它是一款轻薄便携的笔记本电脑，配备了高性能的处理器、存储设备和显示屏，适合移动办公和日常使用。根据搜索结果，ThinkPad X1 Nano的配置主要包括：\n\n- 处理器：搭载英特尔第11代酷睿i7处理器，其中有性能核心和效率核心，提供出色的性能；\n- 内存：最高可配置16GB内存；\n- 存储：最高可选配512GB的NVMe固态硬盘或1TB PCIe SSD；\n- 显示屏：拥有13英寸的Dolby Vision 2K显示屏，具有16:10的宽高比。\n\n因此，ThinkPad X1 Nano是一款适用于商务用户和便携需求的轻薄笔记本电脑，配置虽不适用于服务器需求，但在移动办公和日常使用方面表现卓越。",
+            "ground_truths": [
+                "处理器：提供了多种处理器选项，包括i5-1340P和i7-1360P1，以及之前的型号如Intel 酷睿i5 1130G72、Intel Core i5 1140G7、Intel Core i7 1160G7、Intel Core i7 1180G73。特别是，有提及到一款搭载Intel Core i7-1360P处理器的版本，这是一个具有12核心，最高可达5.0GHz的处理器。\n内存：支持高达16GB LPDDR5 5200MHz的内存，也有提及到使用LPDDR4x内存的情况。\n硬盘：配置了512GB SSD硬盘1，同时也有提到支持高达1TB PCIe SSD存储空间6。\n显卡：配备了锐炬xe核显，以及Iris Xe集成显卡。\n屏幕：拥有13英寸，2160*1350分辨率，16:10比例，100%sRGB高色域的屏幕1，也有提及到2000×1200分辨率的屏幕。\n电池：电池容量为49.5Wh1，但也有提及到最高续航可达17.3小时的48Wh电池。"
+            ],
+            "keywords": [],
+            "expect_sources": [],
+            "passed": true
+        },
+        {
+            "metadata": {
+                "type": "products_and_services",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/Simplified_Chinese/products_and_services.csv"
+            },
+            "question": "ThinkPad L13 Gen3有多少个Type-C接口？",
+            "answer": "ThinkPad L13 Gen3共有两个Type-C接口。其中一个是USB 3.2 Gen 2 Type-C接口，另一个是USB 3.2 Gen 1 Type-C接口。这两个接口都具有广泛的兼容性，并支持不同功能，如数据传输、视频输出和充电。此外，这款笔记本还配备了其他接口，包括USB Type-A端口、HDMI接口等，提供了丰富的连接选项，使用户能够方便地连接外部设备和扩展周边设备。。",
+            "ground_truths": [
+                "ThinkPad L13 Gen3有两个Type-C接口。其中，一个是USB 3.2 Gen 2 Type-C端口，另一个是USB 3.2 Gen 1 Type-C端口。"
+            ],
+            "keywords": [
+                "Gen 2"
+            ],
+            "expect_sources": [],
+            "passed": true
+        },
+        {
+            "metadata": {
+                "type": "local_query",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/Simplified_Chinese/local_query.csv"
+            },
+            "question": "日本做软件开发的IT公司有哪些?",
+            "answer": "日本有许多专注于软件开发的IT公司。一些著名的公司包括富士通（Fujitsu）、Wizcorp、SOTATEK JSC、Rikkeisoft等。富士通是一家总部位于东京的跨国信息技术设备与服务公司，成立已有80多年历史，提供硬件、软件、咨询和IT基础设施等广泛的产品与服务。Wizcorp则是一家位于东京的领先技术公司，专注于移动社交游戏的构思、开发和实施。\n\n此外，还有一些其他公司提供定制软件开发服务，如TMA Solutions等。TMA Solutions是一家成立于1997年的软件开发公司，总部位于日本的港区，业务涵盖定制软件开发、商业智能与大数据咨询、云计算咨询、CRM咨询等领域。\n\n如果您有兴趣寻找适合您需求的软件开发公司，可以通过TechBehemoths等平台进行搜索，根据特定的标准如服务、时薪、公司名称、地点等，来发现最合适的IT公司。此外，也可以将您的项目提交给相关平台，在约一个小时内团队将为您精心挑选最佳公司，而且这项服务是完全免费的。",
+            "ground_truths": [
+                ""
+            ],
+            "keywords": [],
+            "expect_sources": [],
+            "passed": true
+        },
+        {
+            "metadata": {
+                "type": "local_query",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/Simplified_Chinese/local_query.csv"
+            },
+            "question": "东京小传马町附近有哪些好吃的越南米粉?",
+            "answer": "在东京小传马町附近，您可以尝试一些美味的越南料理。其中一个热门选择是位于人形町的\"nico 巴恩米\"，这家店专门提供美味的越南三明治。顾客赞扬他们的法式面包烘焙得非常用心，三明治口感与味道俱佳，包括越南火腿、鸡肝酱、泡菜和香菜等食材。另外，如果您想品尝地道的越南米粉，您可以考虑到高田马场的一家店铺，这家店以制作精湛的越南料理而闻名，店长也经过专业培训。\n\n除此之外，更广泛的地区中还有一些值得一试的越南料理店，如在池袋的Pho Thin可以品尝到最正宗的北部风格越南河粉。如果您想尝试更多越南料理，也可以考虑前往Galleria附近的ベト，这家家庭经营的越南餐厅以其丰富的河粉、春卷和米饭菜肴而闻名，还有合适的午餐套餐供选择。\n\n总的来说，如果您在东京小传马町附近想品尝美味的越南米粉，\"nico 巴恩米\"是一个不错的选择，如果您愿意稍微远一些，还有其他地区的餐厅也提供正宗的越南口味供您尝试。希望您能在这些店铺中找到满足您味蕾的美食享受！",
+            "ground_truths": [
+                ""
+            ],
+            "keywords": [],
+            "expect_sources": [],
+            "passed": true
+        },
+        {
+            "metadata": {
+                "type": "local_query",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/Simplified_Chinese/local_query.csv"
+            },
+            "question": "李大海是谁？",
+            "answer": "李大海是一个多才多艺的人物，有多重含义。根据搜索结果，可以有以下几种解释：\n\n1. **中国内地男歌手、演员、音乐人、心理康复导师**：李大海是一位中国内地男歌手、演员、音乐人，同时还担任心理康复导师。他出生于北京，曾参演多部影视作品，包括电视剧、电影等，还在音乐领域活跃。除此之外，他也担任过心理康复导师的职务。\n\n2. **知乎合伙人、首席技术官**：除了在娱乐行业的表演和音乐领域的创作外，李大海还涉足科技领域。作为知乎的合伙人和首席技术官，他在技术和内容领域发挥重要作用。\n\n综合来看，李大海是一个多才多艺的人，既活跃在娱乐界，又参与科技和心理健康领域的工作。",
+            "ground_truths": [
+                ""
+            ],
+            "keywords": [],
+            "expect_sources": [],
+            "passed": true
+        }
+    ]
+}
