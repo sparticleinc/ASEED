@@ -1,19 +1,75 @@
-id,query,ground_truth,expect_key_words,expect_sources,description
-0,UN100D搭载什么处理器？,"UN100D搭载的是英特尔 N100 处理器
+﻿id,query,ground_truth,expect_key_words,language,description
+1,UN100D搭载什么处理器？,"UN100D搭载的是英特尔 N100 处理器
 . 该处理器拥有4核4线程，采用Intel 7工艺制造，TDP为6W，最高睿频为3.4 GHz
-. 由于采用低功耗处理器，适合基本办公任务，但不适合高端游戏。",N100 ,,
-1,海狮07 EV两驱版最高车速是多少？,海狮07 EV两驱版的最高车速为225km/h,225,,
-2,大疆发布 Avata 2 无人机的电池容量是多少mAh？,大疆发布的Avata 2无人机的电池容量为3400毫安时（mAh）,3400,,
-3,Galaxy S24屏幕分辩率是多少？,Galaxy S24基本款的屏幕分辨率为2340 x 1080像素,2340&&1080,,
-4,ThinkPad L13 Gen3有多少个Type-C接口？,ThinkPad L13 Gen3有两个Type-C接口。其中，一个是USB 3.2 Gen 2 Type-C端口，另一个是USB 3.2 Gen 1 Type-C端口。,Gen 2,,
-5,ThinkPadX1 Nano 服务器的配置有哪些？,"处理器：提供了多种处理器选项，包括i5-1340P和i7-1360P1，以及之前的型号如Intel 酷睿i5 1130G72、Intel Core i5 1140G7、Intel Core i7 1160G7、Intel Core i7 1180G73。特别是，有提及到一款搭载Intel Core i7-1360P处理器的版本，这是一个具有12核心，最高可达5.0GHz的处理器。
+. 由于采用低功耗处理器，适合基本办公任务，但不适合高端游戏。",N100 ,zh_cn,
+2,海狮07 EV两驱版最高车速是多少？,海狮07 EV两驱版的最高车速为225km/h,225,zh_cn,
+3,大疆发布 Avata 2 无人机的电池容量是多少mAh？,大疆发布的Avata 2无人机的电池容量为3400毫安时（mAh）,3400,zh_cn,
+4,Galaxy S24屏幕分辩率是多少？,Galaxy S24基本款的屏幕分辨率为2340 x 1080像素,2340&&1080,zh_cn,
+5,ThinkPad L13 Gen3有多少个Type-C接口？,ThinkPad L13 Gen3有两个Type-C接口。其中，一个是USB 3.2 Gen 2 Type-C端口，另一个是USB 3.2 Gen 1 Type-C端口。,Gen 2,zh_cn,
+6,ThinkPadX1 Nano 服务器的配置有哪些？,"处理器：提供了多种处理器选项，包括i5-1340P和i7-1360P1，以及之前的型号如Intel 酷睿i5 1130G72、Intel Core i5 1140G7、Intel Core i7 1160G7、Intel Core i7 1180G73。特别是，有提及到一款搭载Intel Core i7-1360P处理器的版本，这是一个具有12核心，最高可达5.0GHz的处理器。
 内存：支持高达16GB LPDDR5 5200MHz的内存，也有提及到使用LPDDR4x内存的情况。
 硬盘：配置了512GB SSD硬盘1，同时也有提到支持高达1TB PCIe SSD存储空间6。
 显卡：配备了锐炬xe核显，以及Iris Xe集成显卡。
 屏幕：拥有13英寸，2160*1350分辨率，16:10比例，100%sRGB高色域的屏幕1，也有提及到2000×1200分辨率的屏幕。
-电池：电池容量为49.5Wh1，但也有提及到最高续航可达17.3小时的48Wh电池。",,,
-6,GNV-AUC101 5V-2AUSB有什么应用场景？,"公牛（BULL）GNV-AUC101 5V-2AUSB充电器是一种USB充电器，提供5V电压和2A电流输出。这种充电器适用于多种情况和设备，如手机、平板电脑、蓝牙耳机、手表等。下面是一些具体的应用场景：
+电池：电池容量为49.5Wh1，但也有提及到最高续航可达17.3小时的48Wh电池。",,zh_cn,
+7,GNV-AUC101 5V-2AUSB有什么应用场景？,"公牛（BULL）GNV-AUC101 5V-2AUSB充电器是一种USB充电器，提供5V电压和2A电流输出。这种充电器适用于多种情况和设备，如手机、平板电脑、蓝牙耳机、手表等。下面是一些具体的应用场景：
 手机充电：公牛GNV-AUC101 5V-2AUSB充电器适用于各种手机品牌和型号，包括苹果、华为、小米等。通过连接USB数据线，可用于快速、安全地为手机充电。
 平板电脑充电：这款充电器也适用于平板电脑，如iPad、Android平板等。提供稳定的5V电压和2A电流输出，可以高效充电平板设备。
 其他移动设备充电：除了手机和平板外，公牛GNV-AUC101 5V-2AUSB充电器还可以用于充电蓝牙耳机、智能手表、手环等各种便携式设备。
-办公场所和家庭使用：这种充电器适合在办公室、家里或旅行时使用，为各种移动设备提供快速充电。它的通用性使其成为许多用户常备的充电设备之一。",,,
+办公场所和家庭使用：这种充电器适合在办公室、家里或旅行时使用，为各种移动设备提供快速充电。它的通用性使其成为许多用户常备的充电设备之一。",,zh_cn,
+8,Features of Collabwriting for Teams.,"Collabwriting offers a range of features designed to enhance team collaboration and knowledge sharing. Here are some key features for teams:
+Shared Boards: Create collaborative boards where team members can contribute, share insights, and discuss ideas in real-time. This fosters a sense of teamwork and allows for seamless collaboration on projects.
+Highlighting and Insights: Team members can highlight important information from various sources such as books, articles, and websites, and add their own insights. This helps in capturing key points and sharing valuable knowledge within the team.
+AI Copilot and Suggestions: The AI Copilot feature assists in market research, competitor analysis, and content research by providing a comprehensive overview of information found online. AI Suggestions offer relevant insights and references to aid decision-making.
+PDF Collaboration: Simplify collaboration on legal documents, contracts, and other PDFs by creating a centralized board where team members can leave highlights, comments, and references. This streamlines the review process and ensures everyone is on the same page.
+Version Control: Keep track of document versions, edits, and comments to avoid confusion and maintain a clear audit trail of changes. This feature is especially useful for teams working on projects that require frequent revisions and updates.
+Integration with Third-Party Tools: Seamlessly integrate Collabwriting with other tools and platforms used by your team for a more streamlined workflow. This ensures that all relevant information is easily accessible and can be shared across different systems.
+Search and Filter: Quickly search for specific information within boards, snippets, or documents using keywords or filters. This saves time and allows team members to locate relevant content efficiently.
+Permissions and Access Control: Control who can view, edit, or comment on boards and snippets to maintain data security and privacy within the team. Set permissions based on roles and responsibilities to ensure that sensitive information is protected.
+Real-Time Collaboration: Enable real-time collaboration on boards, allowing team members to work together simultaneously, make edits, and provide feedback instantly. This promotes active participation and enhances productivity within the team.
+Customizable Workflows: Tailor Collabwriting to fit your team's specific workflow and requirements. Customize boards, templates, and settings to align with your team's processes and preferences for a more personalized collaboration experience.",,zh_cn,
+9,华为ADS 2.0 先进在哪里？,"ADS 2.0系统的先进之处主要体现在以下几个方面：
+创新性的激光融合GOD网络：ADS 2.0搭载了业界首创的激光融合GOD网络，能够精准识别异形障碍物，如侧翻车辆、掉落的大纸箱、落石、倒地大树等，提高了驾驶的安全性。
+多传感融合：通过激光雷达、毫米波雷达、摄像头等多传感融合的感知，即使在没有高精地图的情况下，也能对道路元素进行识别和理解，提高了驾驶的准确性和可靠性。
+覆盖广泛的城区高阶智能驾驶场景：ADS 2.0系统可以覆盖90%城区场景，让日常通勤更加舒心。在复杂的交通路口、人车混行的场景中，系统能够顺利通行，主动超车换道、脱困换道，大大提升了出行效率。",,zh_cn,
+10,马自达J90A是新能源车吗？,是的，马自达J90A是一款新能源车,是,zh_cn,
+11,Key features and specifications about rabbit r1,"The Rabbit R1 is a handheld AI-powered device²⁵. Here are some key features and specifications:
+ Dimensions : 78mm*78mm*13mm / 3in*3in*0.5in¹
+ Weight : 115g
+ Battery Life and Charging Capabilities : 500 cycles > 80%, charging current 500mA, rate capacity 1000mAh
+ Connectivity : Bluetooth 5.0 / Wi-Fi with 2.4GHz + 5GHz / 4G LTE
+ Processor : MediaTek MT6765 Octa-core (Helio P35) max CPU frequency 2.3GHz
+ Memory : 4GB
+ Storage : 128GB
+ Display : 2.88in TFT touchscreen
+ Camera : 8MP, 3264x2448
+ Video Resolution : 24fps, 1080p
+ Operating Temperatures : 0°C - 45°C or 32ºF - 113ºF","115
+2.88",en,
+12,家庭伴侣机器人Ballie 有什么功能？,"三星的家庭伴侣机器人Ballie具有以下功能：
+ 个人家庭助手 ：Ballie能够自主在家中移动，完成各种任务。
+ 智能设备控制 ：Ballie能连接和控制家里的其他智能设备 。
+ 个性化服务 ：Ballie会自主学习用户的行为和习惯，提供个性化的服务 。
+ 远程监控 ：当用户不在家时，Ballie可以通过视频更新用户的宠物或亲人的情况 。
+ 投影艺术家 ：Ballie能够在地板、墙壁或天花板上投影物体，包括为宠物播放视频、显示视频通话，甚至提供锻炼视频。
+ 智能家居助手 ：Ballie可以控制灯光、分发宠物食物，到发送短信，还能控制空调、洗衣机等设备。",,zh_cn,
+13,maximum speed of Moonwalker in 2024,"In 2024, the Moonwalkers, which are robotic shoes developed by Shift Robotics, have a top speed of up to 7 miles per hour (11.2 kilometers per hour).",7||11.2,en,
+14,LG SIGNATURE OLED T 4K 是一款什么样的电视？,LG SIGNATURE OLED T 4K 是一款世界上首款无线透明 OLED 电视。,透明,zh_cn,
+15,SQPV玻璃,SQPV玻璃是由InQs公司开发的一种创新的透明太阳能玻璃。这种技术不仅可以利用阳光发电，还可以从不可见光中获取能量，即使在昏暗的室内环境或阴天也能高效运作。,InQs||发电,zh_cn,
+16,BMind镜子能缓解我的失眠吗？,BMind镜子是一款以人工智能为基础的智能镜子，它可以识别用户的情绪并帮助管理压力。它可以提供光疗课程，冥想引导，和自我肯定的服务，目的是帮助你调整情绪，有效管理压力。这些功能可能有助于缓解焦虑，减少失眠，帮助人们保持积极的心态。,,zh_cn,
+17,電気自動車“AFEELA”の自動運転機能はLevel何ですか？,"検索結果から、AFEELA の自動運転機能は以下のように理解できます:
+AFEELA は、Qualcomm Technologies と提携し、世界最先端の半導体を搭載することで、特定条件下での自動運転機能レベル3や、より広い運転条件下での運転支援機能レベル2/2+を実現しています。
+つまり、AFEELA は自動運転機能レベル3と、より広範囲な運転支援機能レベル2/2+を備えていることが分かります",,ja,
+18,本田 Motocompacto可以开多少公里？,本田Motocompacto是一款电动车，根据资料显示，它的续航里程约为12至20公里,12||20,zh_cn,
+19,推荐一款裸眼3D屏幕的笔电本电脑,"宏碁 Predator Helios 3D 15 SE SpatialLabs特别版：
+特点：此款笔记本搭载裸眼3D屏幕，支持眼部跟踪和3D+ SpatialLabs TrueGame技术，适合专业3D内容创作用户。
+配置：搭载英特尔酷睿i9处理器、高速DDR5内存、RTX 4080显卡等，并配备了三星自家的瞳孔追踪技术。
+其他特点：拥有全尺寸RGB背光键盘、先进的散热系统和多种接口等，适用于不同需求场景。
+上市时间和价格：该款笔记本于6月上市，售价约3499欧元，为专业用户提供了一体化的3D体验。
+
+华硕 VivoBook Pro 16X 3D OLED 笔记本：
+特点：VivoBook Pro 16X配备了3D OLED显示器，支持裸眼3D显示，适合内容创作人士。
+配置：搭载英特尔第13代酷睿HX处理器、最新DDR5内存和2TB PCIe 4.0 SSD，搭载RTX 40系列显卡。
+屏幕：15.6英寸OLED屏幕，支持120Hz刷新率和裸眼3D显示。
+价格和上市时间：具体售价和上市时间待公布，是一个备受期待的具有优秀性能的裸眼3D笔记本",Predator Helios 3D 15 SE SpatialLabs||VivoBook Pro 16X 3D OLED,zh_cn,
+20,小米SU7支持华为ADS 2.0吗？,小米SU7车型不支持华为ADS 2.0智能驾驶系统。,不支持,zh_cn,
