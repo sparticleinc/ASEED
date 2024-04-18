@@ -28,6 +28,7 @@
             "keywords": [
                 "90"
             ],
+            "expect_sources": [],
             "answer_correctness": 0.5646038111930513,
             "reference_relevancy": 0.7272222696304366,
             "passed": false
@@ -43,6 +44,7 @@
                 "成長投資枠の知識不足で起こる最大のデメリットは、過度な期待と高估值に伴う高风险です。成長株式投资では、投资者が企業の成長性を高評価しすぎることがあります。"
             ],
             "keywords": [],
+            "expect_sources": [],
             "passed": false
         },
         {
@@ -56,6 +58,9 @@
                 "1. OpenAIは、APIを通じて送信されたデータを、OpenAIのモデルの学習や改善には使用しません。ただし、ユーザーが明示的に同意した場合は、そのデータを使用することができます。\n2. APIを通じて送信されたデータは、不正利用や監視のために最大30日間保持されます。その後は削除されます。ただし、法的要求がある場合はこの限りではありません。\n3. ユーザーがファイルエンドポイントを通じて送信したデータ(例えばモデルのファインチューニング用)は、ユーザーが削除するまで保持されます。\n4. この利用ポリシーはOpenAIのコンシューマ向けサービス(ChatGPTやDALL-E)には適用されません。それらのサービスについては別のポリシーが適用されます。"
             ],
             "keywords": [],
+            "expect_sources": [
+                "https://dao-ai.github.io/ren/data-usage-policies/"
+            ],
             "passed": false
         },
         {
@@ -69,6 +74,7 @@
                 "tractionの意味は、物体が動くときの表面との间的の摩擦（特に車のタイヤと道路の間）、骨折している骨や手足を引っぱり、特别な方法で圧迫を軽減する医療治療、或者是る物体を道路や他の表面上引き曳す行动、特に商談やプロジェクトが進行する速度を示すビジネス用语の1つです。コンテキストによっては、汽车の牵引力制御控制系统（TCS）、或者是る物体を地面や他の表面上引き曳す力、またビジネスにおいてプロジェクトが進展する速度を示す含义があります"
             ],
             "keywords": [],
+            "expect_sources": [],
             "passed": true
         },
         {
@@ -82,6 +88,9 @@
                 "Azure OpenAIサービスは、行動基準に違反する可能性があるまたは他の適用可能な製品条項の使用方法を示す重複コンテンツおよび/またはアクションのインスタンスを検出および軽減する。\n“データ，プライバシー，セキュリティ”ページでデータ処理方式に関する詳細な情報を見つけることができる.。\nこのフォームを用いて修正された悪用監視：Azure OpenAI有限アクセス審査：修正後の悪用監視."
             ],
             "keywords": [],
+            "expect_sources": [
+                "https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/abuse-monitoring"
+            ],
             "passed": false
         },
         {
@@ -95,6 +104,9 @@
                 "デフォルトの場合，OpenAI APIに提出されたデータはAIモデルの訓練には利用されない."
             ],
             "keywords": [],
+            "expect_sources": [
+                "https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/abuse-monitoring"
+            ],
             "passed": false
         },
         {
@@ -108,6 +120,9 @@
                 "ユーザーの個人データは、モデルのトレーニングに使用されないため、ユーザーデータを利用してモデルを構築することはありません。"
             ],
             "keywords": [],
+            "expect_sources": [
+                "https://claudeai.uk/claude-ai-data-privacy/"
+            ],
             "passed": false
         },
         {
@@ -125,6 +140,9 @@
                 "512",
                 "100"
             ],
+            "expect_sources": [
+                "https://platform.openai.com/docs/assistants/how-it-works/creating-assistants"
+            ],
             "passed": false
         },
         {
@@ -140,6 +158,7 @@
             "keywords": [
                 "\"/\""
             ],
+            "expect_sources": [],
             "passed": false
         },
         {
@@ -155,6 +174,7 @@
             "keywords": [
                 "7-Zip"
             ],
+            "expect_sources": [],
             "passed": true
         },
         {
@@ -170,6 +190,9 @@
             "keywords": [
                 "start-up"
             ],
+            "expect_sources": [
+                "https://www.ghostautonomy.com/blog/introducing-talking-autonomy-ai-inspired-by-biology"
+            ],
             "passed": false
         },
         {
@@ -183,6 +206,7 @@
                 ""
             ],
             "keywords": [],
+            "expect_sources": [],
             "passed": true
         },
         {
@@ -198,6 +222,7 @@
             "keywords": [
                 "17000"
             ],
+            "expect_sources": [],
             "passed": true
         },
         {
@@ -213,6 +238,7 @@
             "keywords": [
                 "16"
             ],
+            "expect_sources": [],
             "passed": false
         },
         {
@@ -228,6 +254,7 @@
             "keywords": [
                 "1"
             ],
+            "expect_sources": [],
             "passed": false
         },
         {
@@ -243,6 +270,7 @@
             "keywords": [
                 "亡"
             ],
+            "expect_sources": [],
             "passed": true
         },
         {
@@ -258,6 +286,7 @@
             "keywords": [
                 "地震"
             ],
+            "expect_sources": [],
             "passed": true
         },
         {
@@ -273,6 +302,7 @@
             "keywords": [
                 "2.8%||2.8"
             ],
+            "expect_sources": [],
             "passed": false
         },
         {
@@ -288,6 +318,7 @@
             "keywords": [
                 "メキシコ||アメリカ合衆国||カナダ"
             ],
+            "expect_sources": [],
             "passed": true
         },
         {
@@ -301,6 +332,7 @@
                 ""
             ],
             "keywords": [],
+            "expect_sources": [],
             "passed": true
         },
         {
@@ -317,6 +349,7 @@
                 "动态",
                 "舞台"
             ],
+            "expect_sources": [],
             "passed": true
         },
         {
@@ -330,6 +363,7 @@
                 "KOKO(コーコー)は、広島市中区西川口町6-1に近いビジネスホテルです。1KOKO(コーコー)の特徴は以下の通りです:\nJR広島駅から徒歩6分の好立地で、観光地へのアクセスも良好です。\n清潔感のある客室で心地よい滞在が可能です。\n1Fロビーで喫煙可能で、和洋中タイ料理を楽しめるレストランもあります。\n地元の洋菓子店や大浴場も完備されています。\n素泊まりプランが4,500円~と手頃な価格で提供されています。\nこのように、KOKO(コーコー)は広島市中区西川口町6-1に近く、ビジネスや観光に便利な立地と設備を備えたホテルと言えます。"
             ],
             "keywords": [],
+            "expect_sources": [],
             "passed": true
         },
         {
@@ -344,6 +378,9 @@
             ],
             "keywords": [
                 "千葉県"
+            ],
+            "expect_sources": [
+                "https://kawamura-museum.dic.co.jp/en/about/"
             ],
             "passed": false
         },
@@ -363,6 +400,7 @@
                 "9,800||9800",
                 "6,000||6000"
             ],
+            "expect_sources": [],
             "passed": true
         },
         {
@@ -376,6 +414,7 @@
                 ""
             ],
             "keywords": [],
+            "expect_sources": [],
             "passed": true
         },
         {
@@ -389,6 +428,7 @@
                 "豊洲千客万来は複数のフロアで構成されており、それぞれの部分に異なる営業時間が設定されています。以下に各フロアの営業時間の要約を示します：\n物販・食物販および飲食店の営業時間：\n物販・食物販：10:00〜18:00\n飲食店1F：10:00〜18:00\n飲食店2F：9:00〜22:00\n飲食店2F 目利き横丁：9:00〜18:00\n飲食店3F：10:00〜20:00\n千客万来足湯庭園：\n10:00〜20:00\nその他の落ち着いた場所：\nお祭り広場：一般客向けに無料開放。24時間営業の温泉施設「東京豊洲万葉倶楽部」となっている。"
             ],
             "keywords": [],
+            "expect_sources": [],
             "passed": false
         },
         {
@@ -404,6 +444,7 @@
             "keywords": [
                 "MIMOZA"
             ],
+            "expect_sources": [],
             "passed": true
         },
         {
@@ -419,6 +460,7 @@
             "keywords": [
                 "AV||アダルトビデオ"
             ],
+            "expect_sources": [],
             "passed": false
         }
     ]
