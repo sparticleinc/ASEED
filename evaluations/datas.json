@@ -1,1 +1,48 @@
-[]
+[
+    {
+        "date": "2024-04-19",
+        "list": [
+            {
+                "scene": "technical_consulting",
+                "total": 43,
+                "passed": 14,
+                "failed": 29,
+                "pass_rate": "32.56%",
+                "answer_correctness": 0.3827272577986729,
+                "list": [
+                    {
+                        "total": 1,
+                        "passed": 0,
+                        "failed": 1,
+                        "pass_rate": "0.00%",
+                        "source": "https://github.com/sparticleinc/CRED/blob/main/evaluations/technical_consulting/20240419-perplexity.json",
+                        "evaluate_ai": "perplexity"
+                    },
+                    {
+                        "total": 21,
+                        "passed": 5,
+                        "failed": 16,
+                        "pass_rate": "23.81%",
+                        "answer_correctness": 0.5632783832130972,
+                        "source": "https://github.com/sparticleinc/CRED/blob/main/evaluations/technical_consulting/20240419-metaso.json",
+                        "evaluate_ai": "metaso"
+                    },
+                    {
+                        "total": 21,
+                        "passed": 9,
+                        "failed": 12,
+                        "pass_rate": "42.86%",
+                        "answer_correctness": 0.5849033901829215,
+                        "source": "https://github.com/sparticleinc/CRED/blob/main/evaluations/technical_consulting/20240419-you.json",
+                        "evaluate_ai": "you"
+                    }
+                ]
+            }
+        ],
+        "total": 43,
+        "passed": 14,
+        "failed": 29,
+        "pass_rate": "32.56%",
+        "answer_correctness": 0.3827272577986729
+    }
+]
