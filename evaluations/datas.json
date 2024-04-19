@@ -1,5 +1,34 @@
 [
     {
+        "date": "2024-04-20",
+        "list": [
+            {
+                "scene": "business_consulting",
+                "total": 20,
+                "passed": 7,
+                "failed": 13,
+                "pass_rate": "35.00%",
+                "answer_correctness": 0.6061057636809093,
+                "list": [
+                    {
+                        "total": 20,
+                        "passed": 7,
+                        "failed": 13,
+                        "pass_rate": "35.00%",
+                        "answer_correctness": 0.6061057636809093,
+                        "source": "https://github.com/sparticleinc/CRED/blob/main/evaluations/business_consulting/20240420-iask.json",
+                        "evaluate_ai": "iask"
+                    }
+                ]
+            }
+        ],
+        "total": 20,
+        "passed": 7,
+        "failed": 13,
+        "pass_rate": "35.00%",
+        "answer_correctness": 0.6061057636809093
+    },
+    {
         "date": "2024-04-19",
         "list": [
             {
