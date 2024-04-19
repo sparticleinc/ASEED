@@ -58,6 +58,25 @@
                 ]
             },
             {
+                "scene": "products_search",
+                "total": 20,
+                "passed": 16,
+                "failed": 4,
+                "pass_rate": "80.00%",
+                "answer_correctness": 0.6956239510846973,
+                "list": [
+                    {
+                        "total": 20,
+                        "passed": 16,
+                        "failed": 4,
+                        "pass_rate": "80.00%",
+                        "answer_correctness": 0.6956239510846973,
+                        "source": "https://github.com/sparticleinc/CRED/blob/main/evaluations/products_search/20240419-glarity_search.json",
+                        "evaluate_ai": "glarity_search"
+                    }
+                ]
+            },
+            {
                 "scene": "business_consulting",
                 "total": 20,
                 "passed": 12,
@@ -77,10 +96,10 @@
                 ]
             }
         ],
-        "total": 83,
-        "passed": 39,
-        "failed": 44,
-        "pass_rate": "46.99%",
-        "answer_correctness": 0.5744604579889636
+        "total": 103,
+        "passed": 55,
+        "failed": 48,
+        "pass_rate": "53.40%",
+        "answer_correctness": 0.604751331262897
     }
 ]
