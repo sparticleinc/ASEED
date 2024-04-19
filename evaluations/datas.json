@@ -114,11 +114,11 @@
             },
             {
                 "scene": "local_search",
-                "total": 60,
-                "passed": 30,
-                "failed": 30,
-                "pass_rate": "50.00%",
-                "answer_correctness": 0.6457142255298547,
+                "total": 80,
+                "passed": 38,
+                "failed": 42,
+                "pass_rate": "47.50%",
+                "answer_correctness": 0.6430093292006521,
                 "list": [
                     {
                         "total": 20,
@@ -146,6 +146,15 @@
                         "answer_correctness": 0.5726756753694012,
                         "source": "https://github.com/sparticleinc/CRED/blob/main/evaluations/local_search/20240419-you.json",
                         "evaluate_ai": "you"
+                    },
+                    {
+                        "total": 20,
+                        "passed": 8,
+                        "failed": 12,
+                        "pass_rate": "40.00%",
+                        "answer_correctness": 0.6348946402130445,
+                        "source": "https://github.com/sparticleinc/CRED/blob/main/evaluations/local_search/20240419-iask.json",
+                        "evaluate_ai": "iask"
                     }
                 ]
             },
@@ -224,10 +233,10 @@
                 ]
             }
         ],
-        "total": 385,
-        "passed": 165,
-        "failed": 220,
-        "pass_rate": "42.86%",
-        "answer_correctness": 0.6364309977895516
+        "total": 405,
+        "passed": 173,
+        "failed": 232,
+        "pass_rate": "42.72%",
+        "answer_correctness": 0.6358900185237111
     }
 ]
