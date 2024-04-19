@@ -224,11 +224,11 @@
             },
             {
                 "scene": "business_consulting",
-                "total": 60,
-                "passed": 29,
-                "failed": 31,
-                "pass_rate": "48.33%",
-                "answer_correctness": 0.6581744776661452,
+                "total": 80,
+                "passed": 32,
+                "failed": 48,
+                "pass_rate": "40.00%",
+                "answer_correctness": 0.6365375414891405,
                 "list": [
                     {
                         "total": 20,
@@ -256,14 +256,23 @@
                         "answer_correctness": 0.6312660448017569,
                         "source": "https://github.com/sparticleinc/CRED/blob/main/evaluations/business_consulting/20240419-metaso.json",
                         "evaluate_ai": "metaso"
+                    },
+                    {
+                        "total": 20,
+                        "passed": 3,
+                        "failed": 17,
+                        "pass_rate": "15.00%",
+                        "answer_correctness": 0.5716267329581266,
+                        "source": "https://github.com/sparticleinc/CRED/blob/main/evaluations/business_consulting/20240419-you.json",
+                        "evaluate_ai": "you"
                     }
                 ]
             }
         ],
-        "total": 465,
-        "passed": 203,
-        "failed": 262,
-        "pass_rate": "43.66%",
-        "answer_correctness": 0.6317334367364682
+        "total": 485,
+        "passed": 206,
+        "failed": 279,
+        "pass_rate": "42.47%",
+        "answer_correctness": 0.6274060495010673
     }
 ]
