@@ -1,17 +1,16 @@
-id,query,ground_truth,expect_key_words,expect_sources,description
-0,火山云,"火山引擎是字节跳动旗下的云服务平台。它成立于2020年6月22日,目标是成为中国云计算市场的""第四朵云""。",火山引擎,,
-1,什么是提灯定损?,提灯定损是指“提着灯，照着墙，查看出租房被损坏的情况”，含有吹毛求疵、故意找岔、鸡蛋里挑骨头等意思，偏向贬义。这一网络词语源于江西上饶一起“恶房东事件”,,,
-2,ycloud是什么？,YCloud是友云采FED自研的一套基于knockoutjs的开源UI组件库，主要服务于PC端的企业级Web应用. YCloud同时也是一家领先的WhatsApp业务服务提供商，致力于帮助企业通过WhatsApp这一全球最流行的社交应用来发展业务.,WhatsApp&&knockoutjs,,
-3,百度,百度是一家中国跨国科技公司，总部位于北京海淀区，成立于2000年。它是全球最大的中文搜索引擎之一，致力于提供互联网相关服务、产品和人工智能技术。,baidu.com,,
-4,紫金的销售收入,"紫金矿业2023年的营业收入约为2934.03亿元,同比增长8.54%。",2934,,
-5,CaiT-S224模型,"CaiT-S224是一种由Carion等人开发的视觉变换器模型。它是基于Vision Transformer (ViT)架构的一种改进版本,主要针对图像分类任务进行了优化。CaiT 提出了 LayerScale 和 Class-Attention 两种改进方法，以解决深度增加导致的训练困难和计算量增加问题。",LayerScale&&Class-Attention,,
-6,Vyro AI是什么公司,"Vyro AI 是一家专注于开发基于人工智能和机器学习的内容创作工具的公司。根据其官网信息:
+﻿id,query,ground_truth,expect_key_words,language,description
+1,ycloud是什么？,YCloud是友云采FED自研的一套基于knockoutjs的开源UI组件库，主要服务于PC端的企业级Web应用. YCloud同时也是一家领先的WhatsApp业务服务提供商，致力于帮助企业通过WhatsApp这一全球最流行的社交应用来发展业务.,"WhatsApp
+knockoutjs",zh_cn,
+2,百度,百度是一家中国跨国科技公司，总部位于北京海淀区，成立于2000年。它是全球最大的中文搜索引擎之一，致力于提供互联网相关服务、产品和人工智能技术。,baidu.com,zh_cn,
+3,紫金的销售收入,"紫金矿业2023年的营业收入约为2934.03亿元,同比增长8.54%。",2934,zh_cn,
+4,Vyro AI是什么公司,"Vyro AI 是一家专注于开发基于人工智能和机器学习的内容创作工具的公司。根据其官网信息:
 Vyro 已经开发了 15 多款产品，拥有超过 1.5 亿次下载量和 80 万日活用户。
 该公司的主要产品包括 AI 图像生成器 Imagine、AI 照片编辑器 PhotoShot 等。
 Vyro 的团队擅长应用前沿的生成式 AI 技术，并致力于为用户提供创新的内容创作工具。
 该公司成立于巴基斯坦，是当地一家具有多元化和创新实力的科技公司。
-总之, Vyro AI 是一家专注于开发基于生成式 AI 的创意工具的科技公司，在内容创作领域有较强的技术实力和产品线。",人工智能&&图片,https://vyro.ai/,
-7,"列出以下公司“OpenAI, perplexity, anthropic, mistral”的“创始人，成立时间，产品，投资人”，用表格展示","公司名称
+总之, Vyro AI 是一家专注于开发基于生成式 AI 的创意工具的科技公司，在内容创作领域有较强的技术实力和产品线。","人工智能
+图片",zh_cn,
+5,"列出以下公司“OpenAI, perplexity, anthropic, mistral”的“创始人，成立时间，产品，投资人”，用表格展示","公司名称
 创始人
 成立时间
 产品
@@ -35,10 +34,79 @@ Mistral
 未提及
 未提及
 未提及
-未提及",Sam Altman&&Aravind&&Srinivas,,
-8,如何在Kraken交易所进行出金操作,"在Kraken交易所进行出金操作的步骤如下：
+未提及","Sam Altman
+Aravind
+Srinivas",zh_cn,
+6,如何在Kraken交易所进行出金操作,"在Kraken交易所进行出金操作的步骤如下：
 首先，需要登录您的Kraken账户。这可以通过访问Kraken官方网站并使用您的账户名和密码完成。
 登录后，选择“提现”选项。这一步骤是进入提现页面的前提条件。
 在提现页面，您需要选择提现币种和提现方式。Kraken提供了快速提现和标准提现两种方式。快速提现通常指的是即时转账，如Instant SEPA即时转账，这种方式可以提高转账速度，几分钟到十几分钟就能到账。而标准提现则可能需要更长的时间。
 对于希望通过N26/Vivid Money及Wise进行人民币提现的用户，需要注意的是，N26支持Clear Junction(SEPA)，而Vivid Money暂不支持Fidor（SPEA）转账。因此，如果选择Vivid Money作为提现方式，应避免选择Fidor（SPEA）。
-输入提现金额，并确认提现信息无误后，点击“确认提款”。6. 最后，根据您的提现方式，完成相关的验证或填写必要信息，以确保提现操作顺利进行。",,,
+输入提现金额，并确认提现信息无误后，点击“确认提款”。6. 最后，根据您的提现方式，完成相关的验证或填写必要信息，以确保提现操作顺利进行。",,zh_cn,
+7,How did Musk earn the first bucket of gold in his life?,"Elon Musk earned his first significant fortune from the sale of his web software company, Zip2. Musk and his brother Kimbal founded Zip2 in 1995. The company, which provided an online city guide platform, was quite successful and was purchased by Compaq in 1999 for more than $300 million. From this sale, Musk received around $22 million for his 7% share",Zip2,en,
+8,Why did Musk quit OpenAI?,"Elon Musk decided to leave OpenAI in 2018 due to conflicts of interest and disagreements over the organization's direction. Musk, being the CEO of Tesla and SpaceX, felt that his involvement with OpenAI could lead to perceptions of excessive influence over AI development, potentially raising concerns about monopolization and bias. Additionally, Musk disagreed with OpenAI's focus on developing a commercial product, diverging from his vision for the organization
+Moreover, Musk had attempted to take control of OpenAI in 2018, but his proposal was rejected by Sam Altman and other founders, prompting Musk to walk away from the organization. His departure was primarily driven by a conflict of interest with his role at Tesla and his concerns about the direction and priorities of OpenAI
+Additionally, Musk believed that OpenAI was not aligning with his intended purpose for the organization and was vocal about it, mentioning that its current form was not what he intended",,en,
+9,Has China ever received an EUV lithography machine?,"Based on the search results provided, it does not appear that China has ever received an EUV lithography machine from ASML:
+ASML's CEO Peter Wennink stated that ASML has not sold any EUV lithography systems to China, as the Dutch government has not granted ASML the license to export these machines to China.
+The search results indicate that the US government has pressured the Dutch government to block ASML from fulfilling orders for EUV machines to China, such as an order reportedly from SMIC in 2018.",,en,
+10,What will Trump do to China if he takes office again?,"If Trump takes office again, his stance on China is expected to remain tough and potentially escalate. During his previous term, Trump initiated a trade war with China by imposing significant tariffs on Chinese imports. He has indicated that if reelected, he plans to intensify this trade war by imposing tariffs as high as 60% or more on Chinese imports
+This move is part of his strategy to address what he perceives as unfair trade practices by China and to protect American industries and jobs from what he views as Chinese economic threats
+Furthermore, Trump's combative approach towards China extends beyond trade policies. He has expressed intentions to phase out Chinese imports of essential goods over a four-year period, including electronics, steel, and pharmaceuticals. Additionally, Trump aims to ban Chinese companies from owning critical U.S. infrastructure in sectors such as energy, technology, and agriculture, highlighting national security concerns underpinning his China policy
+Overall, Trump's stance towards China is expected to prioritize protecting American economic interests and maintaining a competitive edge in key industries. If reelected, he is likely to continue employing tariffs and trade restrictions to address what he sees as imbalances in the economic relationship between the U.S. and China.",60%,en,
+11,Microsoft 2021 first quarter Financial report,"Microsoft reported strong financial results for the first quarter of its 2021 fiscal year. The company beat analysts' expectations on both earnings and revenue.
+Key highlights:
+Adjusted earnings per share (EPS) was $1.82, compared to the expected $1.55.
+Revenue grew 12% year-over-year to $37.2 billion, exceeding the expected $35.7 billion.
+Microsoft's Intelligent Cloud segment, which includes the Azure cloud computing platform, saw revenue grow 20% year-over-year, also beating expectations.
+Azure revenue grew 48% year-over-year, driving the strong performance of the Intelligent Cloud segment.
+Other areas like Surface devices, Xbox gaming, and Microsoft 365 consumer subscriptions also saw significant revenue growth during the quarter.","48%
+37.2",en,
+12,What is Toyota's biggest risk in the future?, Toyota's biggest risk in the future is the consumer adoption of battery electric vehicles (BEVs),BEVs,en,
+13,"What will the world auto industry look like in the future, Musk said?","Elon Musk warned that Chinese automakers will ""demolish"" their global competition unless other nations impose trade barriers to handicap the new wave of electric cars coming from China
+Musk described Chinese brands like BYD as ""extremely good"" and the ""most competitive"" in the world
+Musk stated that if there are no trade barriers established, Chinese automakers will ""pretty much demolish most other car companies in the world""
+He believes the Chinese auto industry has a high chance of achieving global domination
+The search results also indicate that China overtook Japan as the world's biggest exporter of cars during 2023 and seems likely to repeat that success in 2024 as it starts to expand its sales activities into Europe
+This suggests the Chinese auto industry will continue to grow its global market share in the future.
+To counter this threat, Musk said Tesla is working on a new entry-level model that will use a new platform to slash production costs, allowing it to be sold for less than $30,000
+This suggests Tesla is trying to make its EVs more affordable to better compete with Chinese automakers.",BYD||China,en,
+14,Why is Boeing getting worse and worse?,"Boeing's deteriorating situation is multifaceted and can be attributed to several factors that have contributed to its ongoing challenges. One significant issue lies in Boeing's financial struggles, which have worsened in recent years. The company's heavy focus on profits, coupled with the financial strain caused by the pandemic and the grounding of the 737 Max aircraft, has led to Boeing being in its worst financial shape in over a century, with several years of deep losses recorded
+Additionally, the dependence on the Defense division to offset losses in the Commercial sector is becoming increasingly unsustainable due to constraints in the US defense budget, leaving Boeing with limited options for recovery in that area
+Furthermore, Boeing's internal culture and safety practices have also come under scrutiny. Reports suggest a lack of a safety culture within Boeing, with claims that employees who raise concerns are ignored, marginalized, threatened, or sidelined
+Such issues can compromise the overall quality and safety standards of Boeing's aircraft, further eroding consumer trust and damaging the company's reputation.
+On a more operational level, concerns have been raised about specific incidents, such as the recent recommendation by the FAA to visually inspect the mid-exit door plugs on Boeing 737-900ER aircraft, highlighting potential safety issues that need to be addressed
+These incidents, in addition to the ongoing challenges faced by the company, contribute to the perception that Boeing's situation is worsening over time.",quality ,en,
+15,日本百年の医薬品メーカー、小林製薬の赤かび成分含有健康食品が「死亡」事件を引き起こしました。,"小林製薬が製造販売していた紅麹含有の健康食品を摂取した人が腎臓の病気を発症し、2人の死亡例が確認されている。これまでに106人が入院している。
+小林製薬の調査では、紅麹原料に""未知の成分""が含まれていた可能性が指摘されている。この成分が腎疾患の原因となった可能性がある。
+小林製薬の紅麹は、サプリメント用と食品着色用の2種類があり、""未知の成分""はサプリメント用の一部のロットにのみ検出された。
+紅麹は一般的に食品着色料として使われてきたが、サプリメントとして使用する際はカビ毒のシトリニンの含有量に注意が必要とされている。
+小林製薬は、この問題を受けて関連する健康食品の自主回収を進めており、厚生労働省も対応を検討している。","2
+106",ja,
+16,"如果欧盟选择与中国""脱钩"",这将对德国经济产出造成多大影响？","研究显示，一旦欧盟与中国""脱钩""，德国的经济产出将减少1%。
+短期内,德国经济产出将下降约5%
+从中长期来看,德国经济繁荣的永久性损失将为每年约1.5%",1%||5%||1.5%,zh_cn,
+17,虎ノ門ヒルズフォーラム,"虎ノ門ヒルズフォーラムは、虎ノ門ヒルズ森タワー内に位置するイベント施設で、2014年5月に竣工しました。このフォーラムは、3つのホールと4つのミーティングルームから構成されており、590m²のメインホールと合計6つの会議室が利用可能です。メインホールは最大720名を収容し、各ホールは異なる形式のイベントに対応できます。装備されている設備には、360インチスクリーンや電動バトンなどがあり、多種多様なイベントに対応しています。
+
+主な情報:
+
+名称: 虎ノ門ヒルズフォーラム
+所在地: 東京都港区虎ノ門1-23-1
+最寄り駅: 東京メトロ銀座線「虎ノ門駅」、東京メトロ日比谷線「神谷町駅」
+収容人数: メインホール最大720名、ホールA最大792名、ホールB最大460名
+利用時間: 9:00～21:00",590m²,ja,
+18,拼多多市值为什么这么高？,"在2023年，拼多多的市值之所以如此高，主要是因为公司在第三季度的财报表现出色，引发了投资者的高度关注和股价上涨。拼多多发布的2023年三季度财报显示，其收入达到688.4亿元，同比增长93.9%，净利润155.4亿元，净利润率达到22.6%。
+由于财报数据表现亮眼，拼多多的美股股价在发布当天涨幅超过18%，市值一度超越阿里巴巴。
+除了财报数据外，拼多多的市值也受到其业务模式和发展战略的革新所推动。拼多多采取了多多跨境和高质量发展等策略，通过全面托管模式帮助中国商家拓展海外市场，加速多个国家和地区的增长，这也间接地推动了公司市值的提升。
+拼多多的发展战略和业务模式使其能够快速扩大用户群体和市场份额，从而获得了投资者的青睐，进而反映在公司市值的快速增长上。",,zh_cn,
+19,华为2023年赢收情况？,"华为2023年的主要财务数据如下:
+全年实现营业收入7042亿元人民币,同比增长9.63%。
+实现净利润870亿元人民币,同比大增144.38%。
+ICT基础设施业务实现销售收入3620亿元,同比增长2.3%。
+终端业务实现销售收入2515亿元,同比增长17.3%。
+云计算业务实现销售收入553亿元,同比增长21.9%。
+数字能源业务实现销售收入526亿元,同比增长3.5%。
+智能汽车解决方案业务实现销售收入47亿元,同比增长128.1%",7042,zh_cn,
+20,光通信社の強みを三つ教えてください。,"販売力と顧客基盤: 光通信社の強みは「販売力」であり、その裏には強力な「顧客基盤」「販売網」があります。特に、光通信社は「法人90万社、個人120万人の基盤がある。特に中小企業が多い」という強固な顧客基盤を持っています。
+業績の強さ: 光通信社の業績は絶好調で、前2017年3月期は営業利益が10％増の415億円となり、今2018年3月期も同11％増の465億円と2ケタ成長を着実に達成しそうだ。
+投資戦略: 光通信社は長期的な収益力のある会社に株価が割安な段階から戦略的に投資しているように見えます。これにより、光通信社はその投資先にも注目できそうです。",90,ja,
