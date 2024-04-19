@@ -114,12 +114,21 @@
             },
             {
                 "scene": "local_search",
-                "total": 20,
-                "passed": 13,
-                "failed": 7,
-                "pass_rate": "65.00%",
-                "answer_correctness": 0.6575839292983032,
+                "total": 40,
+                "passed": 27,
+                "failed": 13,
+                "pass_rate": "67.50%",
+                "answer_correctness": 0.6822335006100814,
                 "list": [
+                    {
+                        "total": 20,
+                        "passed": 14,
+                        "failed": 6,
+                        "pass_rate": "70.00%",
+                        "answer_correctness": 0.7068830719218595,
+                        "source": "https://github.com/sparticleinc/CRED/blob/main/evaluations/local_search/20240419-perplexity.json",
+                        "evaluate_ai": "perplexity"
+                    },
                     {
                         "total": 20,
                         "passed": 13,
@@ -197,10 +206,10 @@
                 ]
             }
         ],
-        "total": 325,
-        "passed": 140,
-        "failed": 185,
-        "pass_rate": "43.08%",
-        "answer_correctness": 0.6417119958849844
+        "total": 345,
+        "passed": 154,
+        "failed": 191,
+        "pass_rate": "44.64%",
+        "answer_correctness": 0.6466419101473398
     }
 ]
