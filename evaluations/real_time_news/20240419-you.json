@@ -1,0 +1,384 @@
+{
+    "evaluate_ai": {
+        "name": "You",
+        "url": "https://you.com"
+    },
+    "evaluate_llm": "gpt-4-1106-preview",
+    "evaluate_type": "ragas",
+    "evaluate_data": {
+        "total": 20,
+        "passed": 4,
+        "failed": 16,
+        "pass_rate": "20.00%",
+        "answer_correctness": 0.6198607518348095
+    },
+    "created_at": "2024-04-19 08:11:52",
+    "datas": [
+        {
+            "metadata": {
+                "id": 1,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/real_time_news.csv",
+                "language": "zh-cn"
+            },
+            "question": "百川最新的融资",
+            "answer": "1. 百川最新的融资\n根据最新的搜索结果，我无法找到关于百川最新融资的具体信息。这可能是因为我的知识截止日期是2024年4月19日，而百川最新的融资可能发生在此之后。建议您查看最新的新闻报道或官方公告以获取关于百川最新融资的准确信息。",
+            "ground_truths": [
+                "有媒体报道称,百川智能正在进行新一轮数亿美元融资,将成为2024年国内AI领域最大融资之一,且公司今年以来估值已超18亿美元"
+            ],
+            "keywords": [
+                "18"
+            ],
+            "answer_correctness": 0.5296022151281814,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 2,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/real_time_news.csv",
+                "language": "zh-cn"
+            },
+            "question": "海康威视去年的业绩如何",
+            "answer": "根据搜索结果，海康威视去年的业绩表现良好。根据公司发布的财报，海康威视在2023年实现了稳定的增长。公司的营业收入和净利润都有所增加。具体的数字可以在海康威视的财报中找到。",
+            "ground_truths": [
+                "在2023年，海康威视的业绩恢复增长，公司实现了营业收入893.55亿元，同比增长7.44%，净利润为141.17亿元，同比增长9.96%。"
+            ],
+            "keywords": [
+                "2023",
+                "893.55||893"
+            ],
+            "answer_correctness": 0.7901365738568059,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 3,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/real_time_news.csv",
+                "language": "zh-cn"
+            },
+            "question": "百川最新的融资",
+            "answer": "1. 百川最新的融资\n根据最新的搜索结果，我无法找到关于百川最新融资的具体信息。如果您对百川的融资情况感兴趣，我建议您查看百川的官方网站或者相关新闻媒体的报道以获取最新的信息。",
+            "ground_truths": [
+                "有媒体报道称,百川智能正在进行新一轮数亿美元融资,将成为2024年国内AI领域最大融资之一,且公司今年以来估值已超18亿美元"
+            ],
+            "keywords": [
+                "18"
+            ],
+            "answer_correctness": 0.5222403967155921,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 4,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/real_time_news.csv",
+                "language": "ja"
+            },
+            "question": "最近の台湾の地震での死傷者数は何人ですか?",
+            "answer": "最近の台湾の地震での死傷者数は、現時点では特定の情報が見つかりませんでした。申し訳ありませんが、詳細な情報を提供することができません。",
+            "ground_truths": [
+                "台灣花蓮地震死亡數字上升。10日救援人員在花蓮太魯閣區域砂卡礑步道尋獲3具遺體，花蓮7.3級地震罹難人數上升至16人。"
+            ],
+            "keywords": [
+                "16"
+            ],
+            "answer_correctness": 0.5118338221790656,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 5,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/real_time_news.csv",
+                "language": "ja"
+            },
+            "question": "最近の埼玉県行田市事故の死傷者数は何人ですか?",
+            "answer": "最近の埼玉県行田市の事故の死傷者数についての情報は見つかりませんでした。申し訳ありませんが、具体的な数値については他の情報源をご確認いただくか、行田市の関連機関にお問い合わせいただくことをおす",
+            "ground_truths": [
+                "最近の埼玉県行田市の事故での死傷者数は以下の通りです:\n死亡者数: 1人\n負傷者数: 3人"
+            ],
+            "keywords": [
+                "1"
+            ],
+            "answer_correctness": 0.5581927438719174,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 6,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/real_time_news.csv",
+                "language": "ja"
+            },
+            "question": "藤岡康太騎手の怪我はどうでしたか？",
+            "answer": "藤岡康太騎手の怪我に関する情報は見つかりませんでした。申し訳ありませんが、詳細な情報を提供することができません。",
+            "ground_truths": [
+                "藤岡康太騎手は、2024年4月6日に行われた阪神競馬場の第7レースで落馬し、頭部と胸部を負傷しました.この落馬の後、藤岡騎手は病院に搬送され、意識を取り戻すことなく、後に怪我のため亡くなりました.この悲報は日本中央競馬会(JRA)からも発表されました"
+            ],
+            "keywords": [
+                "亡"
+            ],
+            "answer_correctness": 0.538098690211912,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 7,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/real_time_news.csv",
+                "language": "zh-tw"
+            },
+            "question": "士林區溪山里事件的起因是什麼？",
+            "answer": "事件起因\n士林區溪山里事件的起因是因為當地居民反對在溪山里興建一座高壓電塔。這座高壓電塔的興建計畫引起了居民的擔憂和不滿，他們擔心這座電塔會對居民的健康和生活環境造成負面影響。因此，居民組織了抗議行動，並尋求政府的支持和幫助。\n抗議行",
+            "ground_truths": [
+                "士林區溪山里事件的起因是與水質問題有關。根據報導，溪山里的居民平常使用自行成立的供水系統，主要使用山泉水作為飲用水源。然而，由於地震等自然災害可能導致山泉水受到污染，進而造成水質問題。事件中大腸桿菌群數值偏高，反映了水質有異常情況，因此許多居民出現了腹瀉和嘔吐等腸胃道疾病症狀。台北市政府為了緊急應對此情況，已提供緊急取水站以及醫療服務，並展開全面水質檢測及環境消毒等措施以解決問題。因此，士林區溪山里事件的起因主要是因為使用的山泉水受到污染所導致的水質問題。"
+            ],
+            "keywords": [
+                "地震"
+            ],
+            "answer_correctness": 0.5335973030293852,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 8,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/real_time_news.csv",
+                "language": "ja"
+            },
+            "question": "3月のCPI",
+            "answer": "Based on the search results, I couldn't find any specific information about the Consumer Price Index (CPI) for the month of March. I apologize for the inconvenience. If you have any other questions or need assistance with a different topic, feel free to ask!",
+            "ground_truths": [
+                "2024年3月の日本のCPIは2.8%"
+            ],
+            "keywords": [
+                "2.80%"
+            ],
+            "answer_correctness": 0.46396479508086563,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 9,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/real_time_news.csv",
+                "language": "ja"
+            },
+            "question": "今年はどの国で日食が見られますか。",
+            "answer": "今年はいくつかの国で日食が見られます。以下はいくつかの国の例です。\n\n\nオーストラリア: 2024年4月20日にオーストラリアの一部で部分日食が見られます。具体的には、クイーンズランド州、ニューサウスウェールズ州、ビクトリア州、タスマニア州、南オーストラリア州で見ることができます。\n\n\nニュージーランド: 2024年4月20日にニュージーランドの一部で部分日食が見られます。主に南島の\n\n",
+            "ground_truths": [
+                "2024年4月8日:\nメキシコ、アメリカ合衆国、カナダ: 皆既日食が観測される予定です"
+            ],
+            "keywords": [
+                "メキシコ||アメリカ合衆国||カナダ"
+            ],
+            "answer_correctness": 0.5393127923173562,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 10,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/real_time_news.csv",
+                "language": "zh-cn"
+            },
+            "question": "海康威视去年的业绩如何",
+            "answer": "根据搜索结果，海康威视去年的业绩表现良好。根据公司发布的财报，海康威视在2023年实现了稳定的增长。公司的营业收入和净利润都有所增加。具体的数字可以在海康威视的财报中找到。[[1]]",
+            "ground_truths": [
+                "在2023年，海康威视的业绩恢复增长，公司实现了营业收入893.55亿元，同比增长7.44%，净利润为141.17亿元，同比增长9.96%。"
+            ],
+            "keywords": [
+                "2023",
+                "893.55"
+            ],
+            "answer_correctness": 0.7883294973097726,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 11,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/real_time_news.csv",
+                "language": "en"
+            },
+            "question": "How many Israelis died in the attack launched by Iran?",
+            "answer": "Based on the search results, it is not clear how many Israelis died in the attack launched by Iran. The search results mention injuries and casualties, but there is no specific information about the number of Israeli fatalities.",
+            "ground_truths": [
+                "According to the reports, there were no reported fatalities from the Iranian attack on Israel"
+            ],
+            "keywords": [
+                "no casualties"
+            ],
+            "answer_correctness": 0.52520016089867,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 12,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/real_time_news.csv",
+                "language": "en"
+            },
+            "question": "Whom did Putin say carried out the Moscow attack?",
+            "answer": "According to Vladimir Putin, the Moscow attack was carried out by radical Islamists . However, he also suggested a possible involvement of Ukraine in the attack   [[8]]. It is important to note that Ukrainian officials have repeatedly denied any involvement in the attack, and American officials have stated that there is no evidence of Ukrainian involvement. The investigation is ongoing to determine who ordered the attack.",
+            "ground_truths": [
+                "Vladimir Putin stated that \"radical Islamists\" were behind the deadly attack on the Crocus City concert hall in Moscow"
+            ],
+            "keywords": [
+                "radical Islamists"
+            ],
+            "answer_correctness": 0.6698817284837925,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 13,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/real_time_news.csv",
+                "language": "en"
+            },
+            "question": "What precisely caused the ship to collide with the Baltimore bridge?",
+            "answer": "The ship collided with the Baltimore bridge due to a power loss that crippled the vessel . The Singapore-flagged container vessel named Dali was heading out of Baltimore Harbor bound for Sri Lanka when it plowed into a support pylon of the Francis Scott Key Bridge over the mouth of the Patapsco River . The collision caused the bridge to partially collapse into the Patapsco River . The exact cause of the power loss that led to the collision is not mentioned in the search results provided. However, it is important to note that the bridge was up to code with no known structural issues . There is no evidence of foul play .",
+            "ground_truths": [
+                "When the container ship MV Dali, 300 metres long and massing around 100,000 tonnes, lost power and slammed into one of the support piers of the Francis Scott Key Bridge in Baltimore, the bridge collapsed in moments."
+            ],
+            "keywords": [
+                "lost power"
+            ],
+            "answer_correctness": 0.760362412243814,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 14,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/real_time_news.csv",
+                "language": "en"
+            },
+            "question": "Which island recently experienced a volcanic eruption in Indonesia?",
+            "answer": "Recent Volcanic Eruption in Indonesia\nThe recent volcanic eruption in Indonesia occurred on Ruang Island, which is home to Mount Ruang, a stratovolcano. Mount Ruang erupted multiple times on April 17, 2024, forcing hundreds of people to be evacuated from the area. There are concerns that part of the volcano could collapse into the sea and trigger a tsunami, similar to what happened in 1871. As a precautionary measure, authorities have issued a tsunami alert and ordered the evacuation of residents from Ruang Island. The residents have temporarily relocated to neighboring Tagulandang Island. No casualties have been reported so far  .\nIndonesia, being an archipelago located along the Pacific \"Ring of Fire,\" is prone to earthquakes, tsunamis, and volcanic eruptions. It has over 120 active volcanoes, more than",
+            "ground_truths": [
+                "The name of the volcano is Mount Ruang on the northern side of Sulawesi Island."
+            ],
+            "keywords": [
+                "Sulawesi island||Mount Ruang"
+            ],
+            "answer_correctness": 0.6823313810863372,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 15,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/real_time_news.csv",
+                "language": "en"
+            },
+            "question": "What did the leaders of the three countries say?",
+            "answer": "The Leaders of the Three Countries\nDuring World War II, the leaders of the three major Allied powers were Winston Churchill of Great Britain, Franklin D. Roosevelt of the United States, and Joseph Stalin of the Soviet Union . These leaders played a crucial role in forming the Grand Alliance and coordinating their efforts to achieve victory in the war . However, it is important to note that they did not always share common political aims and did not always agree on how the war should be fought .\nThe Big Three and the Yalta Conference\nThe Big Three leaders, Churchill, Roosevelt, and Stalin, met at the Yalta Conference in February 1945 to discuss the postwar world and settle important questions . Some of the key issues they debated",
+            "ground_truths": [
+                "The leaders of the United States, Japan, and the Philippines recently held a summit. Here are some key points from their discussions:\n1. Shared Vision: They issued a “Joint Vision Statement” affirming their shared vision of a free and open Indo-Pacific and international order based on international law12.\n2. Security and Economy: They discussed various areas of security and economy, and expressed a desire to advance Japan-U.S.-Philippines cooperation based on this Summit2.\n3. Regional Situation: They discussed the security environment in the region and confirmed their unwavering commitment to freedom of navigation and overflight2.\n4. Opposition to Unilateral Actions: They confirmed that they would oppose and resolutely respond to any attempts by the People’s Republic of China (PRC) to unilaterally change the status quo by 5. force in the South China Sea and the East China Sea2.\n5. Inclusive Economic Growth: They resolved to promote enduring, inclusive economic growth and resilience in their countries and the broader Indo-Pacific1.\nStrengthening Alliances: The Philippines’ decision to strengthen ties with Japan and the United States was described as a “sovereign choice” for the country3."
+            ],
+            "keywords": [
+                "United States",
+                "Japan",
+                "Philippines"
+            ],
+            "answer_correctness": 0.47356916825255985,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 16,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/real_time_news.csv",
+                "language": "en"
+            },
+            "question": "Google fires 28 employees over protests inside work offices",
+            "answer": "Google Fires 28 Employees Over Protests Inside Work Offices\nGoogle has fired 28 employees who participated in sit-in protests at the company's offices in New York and Sunnyvale, California. The protests were organized by the \"No Tech For Apartheid\" campaign, which raised concerns about Google and Amazon's $1.2 billion cloud computing contract with the Israeli government and military   .\nThe employees were protesting against Project Nimbus, the joint contract between Google and Amazon to provide cloud computing services",
+            "ground_truths": [
+                "Google fired 28 workers Wednesday in Sunnyvale and New York, calling their protests inside work offices “completely unacceptable behavior” that prevented some employees from accessing their facilities.\n\nThe tech giant said protests on Tuesday over the company’s contracts with Israel disrupted several locations. The Chronicle reported that at Google’s Sunnyvale offices, police arrested five workers who held a sit-in Tuesday to protest their employer’s cloud contract with the Israeli government."
+            ],
+            "keywords": [
+                "contracts",
+                "Israel"
+            ],
+            "answer_correctness": 0.7097129080486729,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 17,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/real_time_news.csv",
+                "language": "en"
+            },
+            "question": "How many soldiers were wounded in the attack launched by Hezbollah on northern Israel recently？",
+            "answer": "According to the search results, the number of soldiers wounded in the recent attack launched by Hezbollah on northern Israel varies across different sources. Here are the reported numbers:\n\nSource : Four Israeli troops were wounded in the attack.\nSource : Seven IDF soldiers were lightly injured as a result of the mortar shell launches.\nSource: The Israeli military said that 14 soldiers were wounded, with six of them in serious condition.\nSource : 14 soldiers were injured in the attack, with six of them severely wounded.\nSource: Two Israeli soldiers were wounded in the rocket attack.\n\nPlease note that the numbers reported in the search results may not be consistent, and it is always best to refer to official sources for the most accurate and up-to-date information.",
+            "ground_truths": [
+                "n the recent attack launched by Hezbollah on northern Israel, a total of 14 soldiers were wounded. Among those injured, six of them were reported to be seriously wounded. The attack involved a combination of missiles and drones targeting a military base in northern Israel, specifically the Bedouin border town of Arab al-Aramshe. This assault by Hezbollah was a significant event in the ongoing conflict between the group and Israel."
+            ],
+            "keywords": [
+                "14"
+            ],
+            "answer_correctness": 0.699724430192946,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 18,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/real_time_news.csv",
+                "language": "en"
+            },
+            "question": "What weapons were used to attack Israel from Iran?",
+            "answer": "Based on the search results, the weapons used to attack Israel from Iran include:\n\n\nBallistic Missiles: Iran has used ballistic missiles in various attacks, including the attack on Israel. In 2020, Iran launched more than a dozen ballistic missiles at two U.S. military bases in Iraq . The attack on Israel also involved the use of ballistic missiles .\n\n\nDrones: Iran launched a significant number of drones at Israel. The IDF reported that 170 drones were fired at Israel from Iran, and Israeli Air Force jets shot down dozens of them. U.S. aircraft operating from bases in Saudi Arabia and Jordan also shot down between 70 and\n\n",
+            "ground_truths": [
+                "Iran fired 170 drones, more than 30 cruise missiles and more than 120 ballistic missiles. Of those, several ballistic missiles reached Israeli territory, causing minor damage to an air base."
+            ],
+            "keywords": [
+                "drones",
+                "missiles"
+            ],
+            "answer_correctness": 0.6718493973081016,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 19,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/real_time_news.csv",
+                "language": "en"
+            },
+            "question": "Why is GTA 6 publisher laying off 600 employees",
+            "answer": "Why is GTA 6 publisher laying off 600 employees?\nTake-Two Interactive, the publisher of the Grand Theft Auto (GTA) game series, is laying off approximately 600 employees, which accounts for about 5% of its workforce. This decision is part of a cost reduction program aimed at enhancing the company's margin profile while still investing for growth   [[3]].\nThe layoffs are not isolated to Take-Two Interactive but are part of a larger trend of layoffs in the gaming industry. Other major players in the industry, such as Sony's PlayStation, EA, Microsoft Gaming, Riot Games, and Epic Games,",
+            "ground_truths": [
+                "The decision to lay off approximately 600 employees at Take-Two Interactive, the parent company of Rockstar Games, is part of a broader cost-cutting strategy. The company is rationalizing its pipeline, eliminating several projects in development, and streamlining its organizational structure. This downsizing process is expected to be largely complete by the end of the year 2024. Additionally, Take-Two had already signaled its intention for a significant cost reduction plan following mixed financial results for the quarter ending in December 2023. Despite these challenges, Take-Two has continued to invest in its portfolio, including the acquisition of Gearbox and the development of the highly anticipated 'GTA 6'."
+            ],
+            "keywords": [
+                "cost-cutting"
+            ],
+            "answer_correctness": 0.670651273672995,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 20,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/real_time_news.csv",
+                "language": "en"
+            },
+            "question": "The world’s best airports for 2024, according to Skytrax",
+            "answer": "The World's Best Airports for 2024, According to Skytrax\nAccording to the Skytrax World Airport Awards for 2024, the following airports have been recognized as the best in the world:\n\n\nHamad International Airport, Doha, Qatar: Hamad International Airport has been named the world's best airport for 2024. It is known for its ultra-modern design, easy-to-navigate terminals, and high-end shopping .\n\n\nSingapore Changi Airport, Singapore: Singapore Changi Airport, which held the top spot in previous years, has fallen to second\n\n",
+            "ground_truths": [
+                "According to the Skytrax rankings for 2024, Doha's Hamad International Airport has been named the best airport in the world."
+            ],
+            "keywords": [
+                "Doha's Hamad"
+            ],
+            "answer_correctness": 0.758623346807447,
+            "passed": false
+        }
+    ]
+}
