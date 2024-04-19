@@ -1,0 +1,371 @@
+{
+    "evaluate_ai": {
+        "name": "Metaso",
+        "url": "https://metaso.cn"
+    },
+    "evaluate_llm": "gpt-4-1106-preview",
+    "evaluate_type": "ragas",
+    "evaluate_data": {
+        "total": 20,
+        "passed": 1,
+        "failed": 19,
+        "pass_rate": "5.00%",
+        "answer_correctness": 0.5550978290406996
+    },
+    "created_at": "2024-04-19 06:58:35",
+    "datas": [
+        {
+            "metadata": {
+                "id": 1,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/real_time_news.csv",
+                "language": "zh-cn"
+            },
+            "question": "百川最新的融资",
+            "answer": "百川智能最新的融资为A1轮战略融资，金额达到3亿美元。\n",
+            "ground_truths": [
+                "有媒体报道称,百川智能正在进行新一轮数亿美元融资,将成为2024年国内AI领域最大融资之一,且公司今年以来估值已超18亿美元"
+            ],
+            "keywords": [
+                "18"
+            ],
+            "answer_correctness": 0.5536155099754813,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 2,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/real_time_news.csv",
+                "language": "zh-cn"
+            },
+            "question": "海康威视去年的业绩如何",
+            "answer": "海康威视去年的业绩表现良好，实现营业收入893.55亿元，同比增长7.44%；",
+            "ground_truths": [
+                "在2023年，海康威视的业绩恢复增长，公司实现了营业收入893.55亿元，同比增长7.44%，净利润为141.17亿元，同比增长9.96%。"
+            ],
+            "keywords": [
+                "2023",
+                "893.55||893"
+            ],
+            "answer_correctness": 0.7719697639006011,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 3,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/real_time_news.csv",
+                "language": "zh-cn"
+            },
+            "question": "百川最新的融资",
+            "answer": "百川智能最新的融资为A1轮战略融资，金额达到3亿美元。",
+            "ground_truths": [
+                "有媒体报道称,百川智能正在进行新一轮数亿美元融资,将成为2024年国内AI领域最大融资之一,且公司今年以来估值已超18亿美元"
+            ],
+            "keywords": [
+                "18"
+            ],
+            "answer_correctness": 0.5546025854741897,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 4,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/real_time_news.csv",
+                "language": "ja"
+            },
+            "question": "最近の台湾の地震での死傷者数は何人ですか?",
+            "answer": "最近の台湾の地震での死亡者数は13人です。\n",
+            "ground_truths": [
+                "台灣花蓮地震死亡數字上升。10日救援人員在花蓮太魯閣區域砂卡礑步道尋獲3具遺體，花蓮7.3級地震罹難人數上升至16人。"
+            ],
+            "keywords": [
+                "16"
+            ],
+            "answer_correctness": 0.5155521394606339,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 5,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/real_time_news.csv",
+                "language": "ja"
+            },
+            "question": "最近の埼玉県行田市事故の死傷者数は何人ですか?",
+            "answer": "最近の埼玉県行田市事故の死傷者数は1人死亡、3人けがです。\n",
+            "ground_truths": [
+                "最近の埼玉県行田市の事故での死傷者数は以下の通りです:\n死亡者数: 1人\n負傷者数: 3人"
+            ],
+            "keywords": [
+                "1"
+            ],
+            "answer_correctness": 0.9879871792633133,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 6,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/real_time_news.csv",
+                "language": "ja"
+            },
+            "question": "藤岡康太騎手の怪我はどうでしたか？",
+            "answer": "藤岡康太騎手の怪我は、6日夜阪神7Rで落馬し、头部と胸部を負傷した状態で、入院加療を接受していました。",
+            "ground_truths": [
+                "藤岡康太騎手は、2024年4月6日に行われた阪神競馬場の第7レースで落馬し、頭部と胸部を負傷しました.この落馬の後、藤岡騎手は病院に搬送され、意識を取り戻すことなく、後に怪我のため亡くなりました.この悲報は日本中央競馬会(JRA)からも発表されました"
+            ],
+            "keywords": [
+                "亡"
+            ],
+            "answer_correctness": 0.7278873881397414,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 7,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/real_time_news.csv",
+                "language": "zh-tw"
+            },
+            "question": "士林區溪山里事件的起因是什麼？",
+            "answer": "士林區溪山里事件的起因是腹泻群聚，已有177人近期出现类似症状。\n",
+            "ground_truths": [
+                "士林區溪山里事件的起因是與水質問題有關。根據報導，溪山里的居民平常使用自行成立的供水系統，主要使用山泉水作為飲用水源。然而，由於地震等自然災害可能導致山泉水受到污染，進而造成水質問題。事件中大腸桿菌群數值偏高，反映了水質有異常情況，因此許多居民出現了腹瀉和嘔吐等腸胃道疾病症狀。台北市政府為了緊急應對此情況，已提供緊急取水站以及醫療服務，並展開全面水質檢測及環境消毒等措施以解決問題。因此，士林區溪山里事件的起因主要是因為使用的山泉水受到污染所導致的水質問題。"
+            ],
+            "keywords": [
+                "地震"
+            ],
+            "answer_correctness": 0.6123097932766374,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 8,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/real_time_news.csv",
+                "language": "ja"
+            },
+            "question": "3月のCPI",
+            "answer": "2024年3月份，全国居民消费价格同比上涨0.",
+            "ground_truths": [
+                "2024年3月の日本のCPIは2.8%"
+            ],
+            "keywords": [
+                "2.80%"
+            ],
+            "answer_correctness": 0.5136264705317967,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 9,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/real_time_news.csv",
+                "language": "ja"
+            },
+            "question": "今年はどの国で日食が見られますか。",
+            "answer": "",
+            "ground_truths": [
+                "2024年4月8日:\nメキシコ、アメリカ合衆国、カナダ: 皆既日食が観測される予定です"
+            ],
+            "keywords": [
+                "メキシコ||アメリカ合衆国||カナダ"
+            ],
+            "answer_correctness": 0.3989421384795701,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 10,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/real_time_news.csv",
+                "language": "zh-cn"
+            },
+            "question": "海康威视去年的业绩如何",
+            "answer": "海康威视去年的业绩表现良好，实现营业收入893.55亿元，同比增长7.44%；",
+            "ground_truths": [
+                "在2023年，海康威视的业绩恢复增长，公司实现了营业收入893.55亿元，同比增长7.44%，净利润为141.17亿元，同比增长9.96%。"
+            ],
+            "keywords": [
+                "2023",
+                "893.55"
+            ],
+            "answer_correctness": 0.7719697639006011,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 11,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/real_time_news.csv",
+                "language": "en"
+            },
+            "question": "How many Israelis died in the attack launched by Iran?",
+            "answer": "没有证据显示以色列在伊朗发起的攻击中有人员死亡。",
+            "ground_truths": [
+                "According to the reports, there were no reported fatalities from the Iranian attack on Israel"
+            ],
+            "keywords": [
+                "no casualties"
+            ],
+            "answer_correctness": 0.9160264269148336,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 12,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/real_time_news.csv",
+                "language": "en"
+            },
+            "question": "Whom did Putin say carried out the Moscow attack?",
+            "answer": "",
+            "ground_truths": [
+                "Vladimir Putin stated that \"radical Islamists\" were behind the deadly attack on the Crocus City concert hall in Moscow"
+            ],
+            "keywords": [
+                "radical Islamists"
+            ],
+            "answer_correctness": 0.41526241559328686,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 13,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/real_time_news.csv",
+                "language": "en"
+            },
+            "question": "What precisely caused the ship to collide with the Baltimore bridge?",
+            "answer": "导致船只与巴尔的摩弗朗西斯·斯科特·基桥相撞的具体原因未在我搜索到的资料中明确说明。",
+            "ground_truths": [
+                "When the container ship MV Dali, 300 metres long and massing around 100,000 tonnes, lost power and slammed into one of the support piers of the Francis Scott Key Bridge in Baltimore, the bridge collapsed in moments."
+            ],
+            "keywords": [
+                "lost power"
+            ],
+            "answer_correctness": 0.4993555454377267,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 14,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/real_time_news.csv",
+                "language": "en"
+            },
+            "question": "Which island recently experienced a volcanic eruption in Indonesia?",
+            "answer": "最近在印度尼西亚发生火山喷发的岛屿是北苏拉威西的塔古兰岛。\n",
+            "ground_truths": [
+                "The name of the volcano is Mount Ruang on the northern side of Sulawesi Island."
+            ],
+            "keywords": [
+                "Sulawesi island||Mount Ruang"
+            ],
+            "answer_correctness": 0.49681005122385635,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 15,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/real_time_news.csv",
+                "language": "en"
+            },
+            "question": "What did the leaders of the three countries say?",
+            "answer": "中日韩三国领导人共同签署了《三国伙伴关系联合声明》，强调了在政府和非政府框架内开展政治、经济、社会和文化等领域的全方位合作的重要性。",
+            "ground_truths": [
+                "The leaders of the United States, Japan, and the Philippines recently held a summit. Here are some key points from their discussions:\n1. Shared Vision: They issued a “Joint Vision Statement” affirming their shared vision of a free and open Indo-Pacific and international order based on international law12.\n2. Security and Economy: They discussed various areas of security and economy, and expressed a desire to advance Japan-U.S.-Philippines cooperation based on this Summit2.\n3. Regional Situation: They discussed the security environment in the region and confirmed their unwavering commitment to freedom of navigation and overflight2.\n4. Opposition to Unilateral Actions: They confirmed that they would oppose and resolutely respond to any attempts by the People’s Republic of China (PRC) to unilaterally change the status quo by 5. force in the South China Sea and the East China Sea2.\n5. Inclusive Economic Growth: They resolved to promote enduring, inclusive economic growth and resilience in their countries and the broader Indo-Pacific1.\nStrengthening Alliances: The Philippines’ decision to strengthen ties with Japan and the United States was described as a “sovereign choice” for the country3."
+            ],
+            "keywords": [
+                "United States",
+                "Japan",
+                "Philippines"
+            ],
+            "answer_correctness": 0.503593328633792,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 16,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/real_time_news.csv",
+                "language": "en"
+            },
+            "question": "Google fires 28 employees over protests inside work offices",
+            "answer": "未找到有关的结果",
+            "ground_truths": [
+                "Google fired 28 workers Wednesday in Sunnyvale and New York, calling their protests inside work offices “completely unacceptable behavior” that prevented some employees from accessing their facilities.\n\nThe tech giant said protests on Tuesday over the company’s contracts with Israel disrupted several locations. The Chronicle reported that at Google’s Sunnyvale offices, police arrested five workers who held a sit-in Tuesday to protest their employer’s cloud contract with the Israeli government."
+            ],
+            "keywords": [
+                "contracts",
+                "Israel"
+            ],
+            "answer_correctness": 0.4176182836350955,
+            "passed": false
+        },
+        {
+            "metadata": {},
+            "question": null,
+            "answer": null,
+            "ground_truths": [],
+            "keywords": [],
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 18,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/real_time_news.csv",
+                "language": "en"
+            },
+            "question": "What weapons were used to attack Israel from Iran?",
+            "answer": "伊朗对以色列发动攻击时使用了超过300架无人机和导弹，包括巡航导弹和弹道导弹。\n",
+            "ground_truths": [
+                "Iran fired 170 drones, more than 30 cruise missiles and more than 120 ballistic missiles. Of those, several ballistic missiles reached Israeli territory, causing minor damage to an air base."
+            ],
+            "keywords": [
+                "drones",
+                "missiles"
+            ],
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 19,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/real_time_news.csv",
+                "language": "en"
+            },
+            "question": "Why is GTA 6 publisher laying off 600 employees",
+            "answer": "此举是为了实施显著的成本节省措施，尽管对即将到来的GTA 6发布充满期待，但公司正在重组其运营。",
+            "ground_truths": [
+                "The decision to lay off approximately 600 employees at Take-Two Interactive, the parent company of Rockstar Games, is part of a broader cost-cutting strategy. The company is rationalizing its pipeline, eliminating several projects in development, and streamlining its organizational structure. This downsizing process is expected to be largely complete by the end of the year 2024. Additionally, Take-Two had already signaled its intention for a significant cost reduction plan following mixed financial results for the quarter ending in December 2023. Despite these challenges, Take-Two has continued to invest in its portfolio, including the acquisition of Gearbox and the development of the highly anticipated 'GTA 6'."
+            ],
+            "keywords": [
+                "cost-cutting"
+            ],
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 20,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/real_time_news.csv",
+                "language": "en"
+            },
+            "question": "The world’s best airports for 2024, according to Skytrax",
+            "answer": "",
+            "ground_truths": [
+                "According to the Skytrax rankings for 2024, Doha's Hamad International Airport has been named the best airport in the world."
+            ],
+            "keywords": [
+                "Doha's Hamad"
+            ],
+            "passed": false
+        }
+    ]
+}
