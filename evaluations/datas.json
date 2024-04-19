@@ -4,17 +4,18 @@
         "list": [
             {
                 "scene": "technical_consulting",
-                "total": 43,
-                "passed": 14,
-                "failed": 29,
-                "pass_rate": "32.56%",
-                "answer_correctness": 0.3827272577986729,
+                "total": 63,
+                "passed": 25,
+                "failed": 38,
+                "pass_rate": "39.68%",
+                "answer_correctness": 0.5937511560557888,
                 "list": [
                     {
-                        "total": 1,
-                        "passed": 0,
-                        "failed": 1,
-                        "pass_rate": "0.00%",
+                        "total": 21,
+                        "passed": 11,
+                        "failed": 10,
+                        "pass_rate": "52.38%",
+                        "answer_correctness": 0.6330716947713477,
                         "source": "https://github.com/sparticleinc/CRED/blob/main/evaluations/technical_consulting/20240419-perplexity.json",
                         "evaluate_ai": "perplexity"
                     },
@@ -115,10 +116,10 @@
                 ]
             }
         ],
-        "total": 123,
-        "passed": 63,
-        "failed": 60,
-        "pass_rate": "51.22%",
-        "answer_correctness": 0.6151162657300121
+        "total": 143,
+        "passed": 74,
+        "failed": 69,
+        "pass_rate": "51.75%",
+        "answer_correctness": 0.6573210453814353
     }
 ]
