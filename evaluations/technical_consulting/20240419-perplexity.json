@@ -1,0 +1,25 @@
+{
+    "evaluate_ai": {
+        "name": "Perplexity",
+        "url": "https://perplexity.ai"
+    },
+    "evaluate_llm": "gpt-4-1106-preview",
+    "evaluate_type": "ragas",
+    "evaluate_data": {
+        "total": 1,
+        "passed": 0,
+        "failed": 1,
+        "pass_rate": "0.00%"
+    },
+    "created_at": "2024-03-28 11:50:52",
+    "datas": [
+        {
+            "metadata": {},
+            "question": null,
+            "answer": null,
+            "ground_truths": [],
+            "keywords": [],
+            "passed": false
+        }
+    ]
+}
