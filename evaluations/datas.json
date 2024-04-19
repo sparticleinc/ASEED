@@ -59,11 +59,11 @@
             },
             {
                 "scene": "real_time_news",
-                "total": 60,
-                "passed": 16,
-                "failed": 44,
-                "pass_rate": "26.67%",
-                "answer_correctness": 0.6132136333385315,
+                "total": 80,
+                "passed": 20,
+                "failed": 60,
+                "pass_rate": "25.00%",
+                "answer_correctness": 0.6148754129626011,
                 "list": [
                     {
                         "total": 20,
@@ -91,6 +91,15 @@
                         "answer_correctness": 0.5550978290406996,
                         "source": "https://github.com/sparticleinc/CRED/blob/main/evaluations/real_time_news/20240419-metaso.json",
                         "evaluate_ai": "metaso"
+                    },
+                    {
+                        "total": 20,
+                        "passed": 4,
+                        "failed": 16,
+                        "pass_rate": "20.00%",
+                        "answer_correctness": 0.6198607518348095,
+                        "source": "https://github.com/sparticleinc/CRED/blob/main/evaluations/real_time_news/20240419-you.json",
+                        "evaluate_ai": "you"
                     }
                 ]
             },
@@ -170,10 +179,10 @@
                 ]
             }
         ],
-        "total": 265,
-        "passed": 121,
-        "failed": 144,
-        "pass_rate": "45.66%",
-        "answer_correctness": 0.6423611800731471
+        "total": 285,
+        "passed": 125,
+        "failed": 160,
+        "pass_rate": "43.86%",
+        "answer_correctness": 0.6426935359979611
     }
 ]
