@@ -37,12 +37,31 @@
                         "evaluate_ai": "you"
                     }
                 ]
+            },
+            {
+                "scene": "business_consulting",
+                "total": 20,
+                "passed": 12,
+                "failed": 8,
+                "pass_rate": "60.00%",
+                "answer_correctness": 0.6830701868699147,
+                "list": [
+                    {
+                        "total": 20,
+                        "passed": 12,
+                        "failed": 8,
+                        "pass_rate": "60.00%",
+                        "answer_correctness": 0.6830701868699147,
+                        "source": "https://github.com/sparticleinc/CRED/blob/main/evaluations/business_consulting/20240419-glarity_search.json",
+                        "evaluate_ai": "glarity_search"
+                    }
+                ]
             }
         ],
-        "total": 43,
-        "passed": 14,
-        "failed": 29,
-        "pass_rate": "32.56%",
-        "answer_correctness": 0.3827272577986729
+        "total": 63,
+        "passed": 26,
+        "failed": 37,
+        "pass_rate": "41.27%",
+        "answer_correctness": 0.5328987223342938
     }
 ]
