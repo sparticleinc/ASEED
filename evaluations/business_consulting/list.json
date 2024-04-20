@@ -1,17 +1,12 @@
 [
     {
-        "date": "2024-04-20",
-        "list": [
-            "20240420-iask.json"
-        ]
-    },
-    {
         "date": "2024-04-19",
         "list": [
             "20240419-glarity_search.json",
             "20240419-perplexity.json",
             "20240419-metaso.json",
-            "20240419-you.json"
+            "20240419-you.json",
+            "20240419-iask.json"
         ]
     }
 ]
