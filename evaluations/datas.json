@@ -24,12 +24,22 @@
             },
             {
                 "scene": "real_time_news",
-                "total": 19,
-                "passed": 8,
-                "failed": 11,
-                "pass_rate": "42.11%",
-                "answer_correctness": 0.6661207688620167,
+                "total": 38,
+                "passed": 11,
+                "failed": 27,
+                "pass_rate": "28.95%",
+                "answer_correctness": 0.6309531543045072,
                 "list": [
+                    {
+                        "total": 19,
+                        "passed": 3,
+                        "failed": 16,
+                        "pass_rate": "15.79%",
+                        "answer_correctness": 0.5957855397469977,
+                        "source": "https://github.com/sparticleinc/CRED/blob/main/evaluations/real_time_news/20240422-perplexity.json",
+                        "source_csv": "https://github.com/sparticleinc/CRED/blob/main/evaluations/real_time_news/20240422-perplexity.csv",
+                        "evaluate_ai": "perplexity"
+                    },
                     {
                         "total": 19,
                         "passed": 8,
@@ -203,11 +213,11 @@
                 ]
             }
         ],
-        "total": 299,
-        "passed": 129,
-        "failed": 170,
-        "pass_rate": "43.14%",
-        "answer_correctness": 0.6568769069725692
+        "total": 318,
+        "passed": 132,
+        "failed": 186,
+        "pass_rate": "41.51%",
+        "answer_correctness": 0.6498433840610673
     },
     {
         "date": "2024-04-19",
