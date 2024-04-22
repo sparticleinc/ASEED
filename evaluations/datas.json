@@ -64,12 +64,22 @@
             },
             {
                 "scene": "business_consulting",
-                "total": 20,
-                "passed": 6,
-                "failed": 14,
-                "pass_rate": "30.00%",
-                "answer_correctness": 0.6807864987899642,
+                "total": 40,
+                "passed": 13,
+                "failed": 27,
+                "pass_rate": "32.50%",
+                "answer_correctness": 0.679377669914639,
                 "list": [
+                    {
+                        "total": 20,
+                        "passed": 7,
+                        "failed": 13,
+                        "pass_rate": "35.00%",
+                        "answer_correctness": 0.6779688410393139,
+                        "source": "https://github.com/sparticleinc/CRED/blob/main/evaluations/business_consulting/20240422-perplexity.json",
+                        "source_csv": "https://github.com/sparticleinc/CRED/blob/main/evaluations/business_consulting/20240422-perplexity.csv",
+                        "evaluate_ai": "perplexity"
+                    },
                     {
                         "total": 20,
                         "passed": 6,
@@ -83,11 +93,11 @@
                 ]
             }
         ],
-        "total": 79,
-        "passed": 39,
-        "failed": 40,
-        "pass_rate": "49.37%",
-        "answer_correctness": 0.6803911003808767
+        "total": 99,
+        "passed": 46,
+        "failed": 53,
+        "pass_rate": "46.46%",
+        "answer_correctness": 0.6800388931620454
     },
     {
         "date": "2024-04-19",

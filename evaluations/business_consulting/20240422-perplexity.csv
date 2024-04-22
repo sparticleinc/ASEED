@@ -1,0 +1,230 @@
+metadata,question,answer,ground_truths,keywords,answer_correctness,passed
+"{'id': 1, 'scene': 'business_consulting', 'source': 'https://github.com/sparticleinc/CRED/blob/main/datasets/business_consulting.csv', 'language': 'zh_cn'}",ycloud是什么？,"根据搜索结果,ycloud是以下几个方面的内容:
+
+
+ycloud是一家提供全球云通信的CPaaS服务公司,主要提供全球短信、邮件、语音验证码和WhatsApp等商业消息服务。1
+
+
+ycloud是一套基于knockoutjs的开源UI组件库,主要服务于PC端的企业级Web应用。它提供了高质量、功能丰富的UI组件,有友好的API,可以自由灵活地使用。2
+
+
+ycloud Inbox是ycloud提供的一款实时聊天工具,可以让企业的客服和销售团队同时登录使用同一个WhatsApp Business账号,与客户进行实时沟通和管理。3
+
+
+综上所述,ycloud是一家提供云通信服务和相关工具的公司,其主要产品包括CPaaS服务和WhatsApp客户服务工具。1345",['YCloud是友云采FED自研的一套基于knockoutjs的开源UI组件库，主要服务于PC端的企业级Web应用. YCloud同时也是一家领先的WhatsApp业务服务提供商，致力于帮助企业通过WhatsApp这一全球最流行的社交应用来发展业务.'],"['WhatsApp', 'knockoutjs']",0.7742485228866034,True
+"{'id': 2, 'scene': 'business_consulting', 'source': 'https://github.com/sparticleinc/CRED/blob/main/datasets/business_consulting.csv', 'language': 'zh_cn'}",百度,"百度是中国最大的搜索引擎公司。12345
+百度App是百度公司推出的移动搜索和资讯客户端。它拥有强大的搜索引擎功能,可以搜索文字、图片等内容。35 它还提供热门新闻、视频、小说等内容,并支持语音搜索和识别。1345
+百度App主要面向中国用户,提供了许多中文特色功能,如精准的中文语音识别技术。1345 但对于非中国用户来说,该App可能功能较为局限,缺乏多语言支持。5
+总的来说,百度是中国最大的搜索引擎公司,其百度App为中国用户提供了丰富的搜索和资讯服务。但对于非中国用户而言,该App可能无法完全满足其需求。12345",['百度是一家中国跨国科技公司，总部位于北京海淀区，成立于2000年。它是全球最大的中文搜索引擎之一，致力于提供互联网相关服务、产品和人工智能技术。'],['baidu.com'],0.5892925752095454,False
+"{'id': 3, 'scene': 'business_consulting', 'source': 'https://github.com/sparticleinc/CRED/blob/main/datasets/business_consulting.csv', 'language': 'zh_cn'}",紫金的销售收入,"根据搜索结果,可以得出以下关于紫金矿业销售收入的信息:
+
+
+2022年,紫金矿业实现营收2703.29亿元,同比增长20.09%。1
+
+
+2023年第一季度,紫金矿业实现营收749.45亿元,同比增长15.7%,环比增长13.3%。1
+
+
+报告期内,紫金矿业铜业务销售收入占营业总收入的25.21%,黄金业务销售收入占营业收入的42.09%。3
+
+
+根据中国有色金属工业协会数据,2023年中国实现矿山产铜161.9万吨,而紫金矿业矿山产铜相当于中国总量的62%左右。3
+
+
+根据中国黄金协会数据,2023年中国实现矿山产金297.3吨,紫金矿业矿山产金相当于中国总量的23%左右。3
+
+
+综上所述,紫金矿业的销售收入呈现持续增长态势,其中铜业务和黄金业务占比较大,在国内市场上占据重要地位。13","['紫金矿业2023年的营业收入约为2934.03亿元,同比增长8.54%。']",['2934'],0.5553864143951284,False
+"{'id': 4, 'scene': 'business_consulting', 'source': 'https://github.com/sparticleinc/CRED/blob/main/datasets/business_consulting.csv', 'language': 'zh_cn'}",Vyro AI是什么公司,"根据搜索结果,Vyro AI是一家创意照片编辑工具公司。主要特点如下2:
+
+Vyrokey是Vyro AI的主要产品,是一款创意照片编辑工具,提供了丰富的功能和特色,被全球数百万用户使用。
+Vyro AI的产品受到用户的好评和推崇,致力于为用户提供更快、更好、更高效的照片编辑体验。
+Vyro AI的产品定价合理,定位于个人和专业用户。
+
+总之,Vyro AI是一家专注于提供创意照片编辑工具的公司,其主打产品Vyrokey受到广泛好评。2","['Vyro AI 是一家专注于开发基于人工智能和机器学习的内容创作工具的公司。根据其官网信息:\nVyro 已经开发了 15 多款产品，拥有超过 1.5 亿次下载量和 80 万日活用户。\n该公司的主要产品包括 AI 图像生成器 Imagine、AI 照片编辑器 PhotoShot 等。\nVyro 的团队擅长应用前沿的生成式 AI 技术，并致力于为用户提供创新的内容创作工具。\n该公司成立于巴基斯坦，是当地一家具有多元化和创新实力的科技公司。\n总之, Vyro AI 是一家专注于开发基于生成式 AI 的创意工具的科技公司，在内容创作领域有较强的技术实力和产品线。']","['人工智能', '图片']",0.6619454933677709,False
+"{'id': 5, 'scene': 'business_consulting', 'source': 'https://github.com/sparticleinc/CRED/blob/main/datasets/business_consulting.csv', 'language': 'zh_cn'}","列出以下公司“OpenAI, perplexity, anthropic, mistral”的“创始人，成立时间，产品，投资人”，用表格展示","根据给定的搜索结果,我总结了以下公司的创始人、成立时间、产品和投资人的信息:
+公司创始人成立时间产品投资人OpenAISam Altman2015年大型语言模型(GPT系列)包括亚马逊、英伟达等在内的投资者Perplexity AIAravind Srinivas2018年3月问答引擎未提及AnthropicDario Amodei未提及未提及未提及Mistral未提及未提及未提及未提及
+需要注意的是,搜索结果中没有提到""Mistral""公司的任何信息,因此无法在表格中列出该公司的相关信息。145",['公司名称\n创始人\n成立时间\n产品\n投资人\nOpenAI\nSam Altman\n2015年\nGPT语言模型\n包括Elon Musk、Peter Thiel等在内的投资者\nPerplexity AI\nAravind Srinivas\n2018年\n基于OpenAI模型的问答助手\nIVP、NVIDIA、Jeff Bezos、NEA、Elad Gil、Nat Friedman等\nAnthropic\nDario Amodei\n2021年\n生成式AI模型\n包括主权财富基金在内的投资者\nMistral\n未提及\n未提及\n未提及\n未提及'],"['Sam Altman', 'Aravind', 'Srinivas']",0.7070017291454789,True
+"{'id': 6, 'scene': 'business_consulting', 'source': 'https://github.com/sparticleinc/CRED/blob/main/datasets/business_consulting.csv', 'language': 'zh_cn'}",虎门大桥过路费多少钱？,"根据搜索结果:
+虎门大桥的过路费目前为40元/车次1345。这意味着每公里收费约为9元4。与其他大桥相比,虎门大桥的收费标准确实较高4。
+虎门大桥是由国家政府投资建设的,总投资约400多亿元1。与香港私企投资的虎门大桥不同,虎门大桥在收回投资成本后将实行免费通行1。
+不过,随着粤港澳大湾区的发展,虎门大桥的高昂过路费已成为阻碍区域融合的障碍3。一些南沙市民呼吁政府能够适当降低或免除虎门大桥的过路费,以促进大湾区内部人员流动3。",['虎门大桥的过路费为每车次收费40元'],['40'],0.6415213942610085,True
+"{'id': 7, 'scene': 'business_consulting', 'source': 'https://github.com/sparticleinc/CRED/blob/main/datasets/business_consulting.csv', 'language': 'en'}",How did Musk earn the first bucket of gold in his life?,"According to the search results, Elon Musk earned his first significant amount of money by creating and selling a video game called Blastar when he was just 12 years old:
+Musk had been interested in computers from an early age, and taught himself programming starting at 9-years-old. He created a space-themed game called Blastar, where the objective was to destroy an alien ship filled with weapons of mass destruction. Musk received $500 when the source code for the BASIC-based game was published in a South African magazine PC and Office. This was the first product Musk ever sold, which he later described as a ""trivial game… but better than Flappy Bird.""2
+So Musk's first major entrepreneurial venture and source of income was selling the code for his self-made video game Blastar when he was just a teenager, earning him $500 - his first ""bucket of gold"" so to speak. This early success in programming and selling his own creation foreshadowed his later entrepreneurial achievements.","['Elon Musk earned his first significant fortune from the sale of his web software company, Zip2. Musk and his brother Kimbal founded Zip2 in 1995. The company, which provided an online city guide platform, was quite successful and was purchased by Compaq in 1999 for more than $300 million. From this sale, Musk received around $22 million for his 7% share']",['Zip2'],0.5249496653367043,False
+"{'id': 8, 'scene': 'business_consulting', 'source': 'https://github.com/sparticleinc/CRED/blob/main/datasets/business_consulting.csv', 'language': 'zh_cn'}",iask.ai 2024年3月的访问量。,"根据搜索结果2，iAsk.Ai 是一个免费的AI搜索引擎,每月访问量超过3.3M次。2",['iAsk.Ai的2024年3月访问量为 3.3M。'],['.3.3||3.4'],0.8064838740778439,False
+"{'id': 9, 'scene': 'business_consulting', 'source': 'https://github.com/sparticleinc/CRED/blob/main/datasets/business_consulting.csv', 'language': 'zh_cn'}",Monica 2023年有多少用户？,"According to the search results, Monica.im had over 1 million users as of 2023:
+
+
+The article2 states that ""根据肖弘的描述，目前的用户群主要是工作人员，一到周末用户量就会下降（这一点和ChatGPT类似），所以可能很难找到新的场景，但Monica通过打包工具箱、以及嵌入网页的方式，解决了工作场景下可能面临的创意枯竭、语言不同、理解不畅等问题。""
+
+
+The article3 also mentions that ""Monica，杨慧杰 我们做 AI 工具出海4个多月了，是一个浏览器插件叫Monica，基于ChatGPT的接口帮助用户在网页上快速地调用 ChatGPT 的回答能力，以及针对特殊的场景，比如划词翻译，或者划词改写、Email回复等场景，做定制化的植入。""
+
+
+So based on these search results, it appears that Monica.im had over 1 million users as of 2023.",['Monica在2023年已经有超过150万用户'],['150'],0.5258002167406001,False
+"{'id': 10, 'scene': 'business_consulting', 'source': 'https://github.com/sparticleinc/CRED/blob/main/datasets/business_consulting.csv', 'language': 'en'}",What will Trump do to China if he takes office again?,"Based on the search results, if Donald Trump is re-elected as US president in 2024, he would likely take a hardline approach towards China:
+
+
+Trump would likely escalate the US-China trade war by imposing even higher tariffs on Chinese imports. The search results indicate he has threatened to impose a 60% tariff on Chinese goods123, which would significantly disrupt trade ties and hurt the Chinese economy.
+
+
+Trump's ""America First"" foreign policy and disdain for international alliances would likely further strain US-China relations. He has previously criticized the EU as a ""foe"" and could drive a wedge between the US and its allies, which would benefit China's geopolitical ambitions1.
+
+
+However, the search results suggest China may not be overly concerned about Trump's return, as they believe he is more predictable and manageable compared to the Biden administration's consistent pressure on China across various fronts like technology, human rights, and Taiwan45.
+
+
+China may even see opportunities to strengthen ties with other countries, like Europe, if Trump further distances the US from its traditional allies5.
+
+
+That said, the unpredictability of Trump's policies, especially on sensitive issues like Taiwan, still worries Chinese officials, who fear he could take actions that exceed Beijing's expectations5.
+
+
+In summary, while Trump's return would likely mean an escalation of the US-China trade and geopolitical rivalry, the search results indicate China may be able to mitigate the damage and even find some benefits in a Trump presidency compared to the more consistent pressure from the Biden administration.12345","[""If Trump takes office again, his stance on China is expected to remain tough and potentially escalate. During his previous term, Trump initiated a trade war with China by imposing significant tariffs on Chinese imports. He has indicated that if reelected, he plans to intensify this trade war by imposing tariffs as high as 60% or more on Chinese imports\nThis move is part of his strategy to address what he perceives as unfair trade practices by China and to protect American industries and jobs from what he views as Chinese economic threats\nFurthermore, Trump's combative approach towards China extends beyond trade policies. He has expressed intentions to phase out Chinese imports of essential goods over a four-year period, including electronics, steel, and pharmaceuticals. Additionally, Trump aims to ban Chinese companies from owning critical U.S. infrastructure in sectors such as energy, technology, and agriculture, highlighting national security concerns underpinning his China policy\nOverall, Trump's stance towards China is expected to prioritize protecting American economic interests and maintaining a competitive edge in key industries. If reelected, he is likely to continue employing tariffs and trade restrictions to address what he sees as imbalances in the economic relationship between the U.S. and China.""]",['60%'],0.6493404640895876,True
+"{'id': 11, 'scene': 'business_consulting', 'source': 'https://github.com/sparticleinc/CRED/blob/main/datasets/business_consulting.csv', 'language': 'en'}",Microsoft 2021 first quarter Financial report,"Based on the search results, here is a summary of Microsoft's 2021 first quarter financial performance:
+Microsoft reported strong financial results for the first quarter of fiscal year 2021. The company's revenue grew 12% year-over-year to $37.15 billion, exceeding analyst expectations of $35.72 billion.3 Net income also increased by 30% to $13.9 billion.4
+The key drivers of Microsoft's growth in the quarter were:
+
+
+Cloud services: Azure revenue grew 48% year-over-year, accelerating from the previous quarter.3 The broader Intelligent Cloud segment, which includes Azure, Enterprise Services, GitHub, and server products, generated $12.99 billion in revenue, up 20% year-over-year.3
+
+
+Productivity and Business Processes: This segment, which includes Office, Dynamics, and LinkedIn, saw an 11% increase in revenue to $12.32 billion.3
+
+
+Surface devices: Surface revenue jumped 37% year-over-year to $1.5 billion.4
+
+
+Gaming: Xbox content and services revenue grew 30% as demand for gaming services like Game Pass increased during the pandemic.4
+
+
+However, Microsoft did see some softness in certain areas:
+
+
+Windows OEM revenue declined 5% due to lower commercial demand for PCs.4
+
+
+Search advertising revenue fell 10%.3
+
+
+Overall, Microsoft's strong cloud, productivity, and gaming performance offset the declines in Windows and search, allowing the company to exceed expectations in the first quarter.1234","[""Microsoft reported strong financial results for the first quarter of its 2021 fiscal year. The company beat analysts' expectations on both earnings and revenue.\nKey highlights:\nAdjusted earnings per share (EPS) was $1.82, compared to the expected $1.55.\nRevenue grew 12% year-over-year to $37.2 billion, exceeding the expected $35.7 billion.\nMicrosoft's Intelligent Cloud segment, which includes the Azure cloud computing platform, saw revenue grow 20% year-over-year, also beating expectations.\nAzure revenue grew 48% year-over-year, driving the strong performance of the Intelligent Cloud segment.\nOther areas like Surface devices, Xbox gaming, and Microsoft 365 consumer subscriptions also saw significant revenue growth during the quarter.""]","['48%', '37.2']",0.7590939893400372,False
+"{'id': 12, 'scene': 'business_consulting', 'source': 'https://github.com/sparticleinc/CRED/blob/main/datasets/business_consulting.csv', 'language': 'en'}",What is Toyota's biggest risk in the future?,"Based on the search results, Toyota's biggest risks in the future appear to be:
+
+
+Disruptions to its global operations and supply chain: The search results indicate that Toyota is vulnerable to various disruptions, such as natural calamities, political and economic instability, fuel shortages, wars, terrorism, and labor strikes. These events could disrupt Toyota's operations, manufacturing, and distribution, adversely affecting its financial condition and results.14
+
+
+Regulatory and legal risks: The automotive industry is subject to extensive governmental regulations related to vehicle safety, emissions, and other environmental standards. Compliance with these regulations incurs significant costs for Toyota, and any new legislation or changes could subject the company to additional expenses in the future.14
+
+
+Legal proceedings and investigations: As an automaker, Toyota may become subject to various legal proceedings, including product liability and intellectual property infringement cases, as well as governmental investigations. A negative outcome in these proceedings could adversely impact Toyota's finances.14
+
+
+Technological disruptions: The rapid advancements in electric vehicles, autonomous driving, and connected car technologies pose a threat to traditional automakers like Toyota if they fail to keep pace with these developments and invest heavily in research and development.5
+
+
+Economic downturns and changes in consumer preferences: Economic recessions and shifts in consumer preferences towards more environmentally-friendly and technologically advanced vehicles could significantly impact Toyota's sales and profitability.5
+
+
+In summary, Toyota's biggest risks appear to be disruptions to its global operations, regulatory and legal challenges, technological disruptions, and changes in economic and consumer trends, all of which could adversely affect the company's financial performance and market position.1245","[""Toyota's biggest risk in the future is the consumer adoption of battery electric vehicles (BEVs)""]",['BEVs'],0.5161988015469652,False
+"{'id': 13, 'scene': 'business_consulting', 'source': 'https://github.com/sparticleinc/CRED/blob/main/datasets/business_consulting.csv', 'language': 'en'}","What will the world auto industry look like in the future, Musk said?","According to the search results, Elon Musk has warned that Chinese automakers will ""demolish"" their global competition unless other nations impose trade barriers to handicap the new wave of electric cars coming from China1. Musk believes that if there are no trade barriers, Chinese automakers will ""pretty much demolish most other car companies in the world"" as they are ""extremely good""1.
+Musk also revealed that Tesla's next major growth wave will come with the launch of a low-cost electric vehicle in late 2025, which will be built on a new platform to significantly reduce production costs2. This suggests that Musk sees Tesla needing to compete more aggressively on price to maintain its market position as Chinese and other automakers ramp up their EV offerings.
+However, Musk's claim that Tesla can sell 20 million cars by 2030 has been criticized as unrealistic by industry experts, who say it would be the equivalent of Toyota and Volkswagen's combined sales5. The search results indicate that while Tesla has been a pioneer in EVs, it will face increasing competition from both Chinese and traditional automakers as they accelerate their own electric vehicle programs34.
+Overall, the search results suggest that Musk believes the global auto industry will be dominated by a wave of highly capable and cost-competitive Chinese EV makers in the coming years, posing a major threat to Western automakers unless they can establish trade barriers or match Chinese automakers on price and technology125.","['Elon Musk warned that Chinese automakers will ""demolish"" their global competition unless other nations impose trade barriers to handicap the new wave of electric cars coming from China\nMusk described Chinese brands like BYD as ""extremely good"" and the ""most competitive"" in the world\nMusk stated that if there are no trade barriers established, Chinese automakers will ""pretty much demolish most other car companies in the world""\nHe believes the Chinese auto industry has a high chance of achieving global domination\nThe search results also indicate that China overtook Japan as the world\'s biggest exporter of cars during 2023 and seems likely to repeat that success in 2024 as it starts to expand its sales activities into Europe\nThis suggests the Chinese auto industry will continue to grow its global market share in the future.\nTo counter this threat, Musk said Tesla is working on a new entry-level model that will use a new platform to slash production costs, allowing it to be sold for less than $30,000\nThis suggests Tesla is trying to make its EVs more affordable to better compete with Chinese automakers.']",['BYD||China'],0.7289931946350139,True
+"{'id': 14, 'scene': 'business_consulting', 'source': 'https://github.com/sparticleinc/CRED/blob/main/datasets/business_consulting.csv', 'language': 'en'}",Why is Boeing getting worse and worse?,"Boeing is facing a series of significant challenges that have led to its deteriorating performance in recent years, according to the search results:
+
+
+Financial troubles: Boeing's financial situation is worse than it appears, as its commercial aviation division has been struggling while its defense business is unlikely to grow enough to make up for the losses.1 The company has been plagued by cost overruns and underperforming programs across its portfolio.2
+
+
+Leadership and culture issues: Boeing has been criticized for its lack of engineering expertise in its senior leadership, with more accountants and business-focused executives taking over.1 This has led to a shift in priorities away from safety and quality towards short-term financial gains.2
+
+
+Product quality and safety problems: Boeing has experienced a string of incidents and technical issues with its aircraft, including the 737 MAX crisis, problems with the 787 Dreamliner, and most recently, issues with door plugs and de-icing equipment.1345 These problems have eroded the company's reputation and led to increased scrutiny from regulators and the public.
+
+
+Merger with McDonnell Douglas: The merger with McDonnell Douglas in the late 1990s is cited as a turning point, where the company's focus shifted from engineering excellence to financial performance, leading to the erosion of its once-strong safety culture.2
+
+
+In summary, Boeing's decline can be attributed to a combination of financial pressures, leadership and cultural issues, and persistent product quality and safety problems, which have all contributed to the company's deteriorating performance in recent years.12345","[""Boeing's deteriorating situation is multifaceted and can be attributed to several factors that have contributed to its ongoing challenges. One significant issue lies in Boeing's financial struggles, which have worsened in recent years. The company's heavy focus on profits, coupled with the financial strain caused by the pandemic and the grounding of the 737 Max aircraft, has led to Boeing being in its worst financial shape in over a century, with several years of deep losses recorded\nAdditionally, the dependence on the Defense division to offset losses in the Commercial sector is becoming increasingly unsustainable due to constraints in the US defense budget, leaving Boeing with limited options for recovery in that area\nFurthermore, Boeing's internal culture and safety practices have also come under scrutiny. Reports suggest a lack of a safety culture within Boeing, with claims that employees who raise concerns are ignored, marginalized, threatened, or sidelined\nSuch issues can compromise the overall quality and safety standards of Boeing's aircraft, further eroding consumer trust and damaging the company's reputation.\nOn a more operational level, concerns have been raised about specific incidents, such as the recent recommendation by the FAA to visually inspect the mid-exit door plugs on Boeing 737-900ER aircraft, highlighting potential safety issues that need to be addressed\nThese incidents, in addition to the ongoing challenges faced by the company, contribute to the perception that Boeing's situation is worsening over time.""]",['quality'],0.8133854726340898,True
+"{'id': 15, 'scene': 'business_consulting', 'source': 'https://github.com/sparticleinc/CRED/blob/main/datasets/business_consulting.csv', 'language': 'ja'}",日本百年の医薬品メーカー、小林製薬の赤かび成分含有健康食品が「死亡」事件を引き起こしました。,"小林製薬の「紅麹」含有健康食品の問題について、以下のように要約できます:
+
+
+小林製薬が製造・販売した「紅麹」を含む健康食品を摂取した人が、腎臓の病気などを発症し、2人の死亡事例が確認されている12。
+
+
+厚生労働省の調査により、小林製薬の製造した紅麹原料に""未知の成分""が含まれていた可能性が指摘されている。この成分が腎疾患の原因となった可能性がある3。
+
+
+小林製薬は自主回収の対象となっている3製品の回収を命じられ、行政処分を受けた1。
+
+
+全国で紅麹原料を使った商品の自主回収や販売中止の動きが相次いでいる123。
+
+
+専門家は、この問題は一部の製品のみに影響があり、紅麹全体が危険というわけではないと指摘している3。
+
+
+つまり、小林製薬の一部の紅麹製品に含まれていた""未知の成分""が原因で、健康被害や死亡事例が発生したということが分かります123。この問題は広範囲に影響を及ぼしているものの、専門家の見解では一部の製品に限定的な問題であると考えられています3。","['小林製薬が製造販売していた紅麹含有の健康食品を摂取した人が腎臓の病気を発症し、2人の死亡例が確認されている。これまでに106人が入院している。\n小林製薬の調査では、紅麹原料に""未知の成分""が含まれていた可能性が指摘されている。この成分が腎疾患の原因となった可能性がある。\n小林製薬の紅麹は、サプリメント用と食品着色用の2種類があり、""未知の成分""はサプリメント用の一部のロットにのみ検出された。\n紅麹は一般的に食品着色料として使われてきたが、サプリメントとして使用する際はカビ毒のシトリニンの含有量に注意が必要とされている。\n小林製薬は、この問題を受けて関連する健康食品の自主回収を進めており、厚生労働省も対応を検討している。']","['2', '106']",0.7683933839265706,False
+"{'id': 16, 'scene': 'business_consulting', 'source': 'https://github.com/sparticleinc/CRED/blob/main/datasets/business_consulting.csv', 'language': 'zh_cn'}","如果欧盟选择与中国""脱钩"",这将对德国经济产出造成多大影响？","根据搜索结果,如果欧盟选择与中国""脱钩""，这将对德国经济产出造成以下影响:
+
+
+从长远来看,德国的经济产出将减少约1%12。按照2021年德国GDP计算,这相当于每年损失360亿欧元12。
+
+
+虽然德国在宏观经济层面对中国的依赖较小,但德中贸易关系的突然中断将导致重要原材料、药品和最终产品的供给短缺,从而给德国的经济繁荣造成重大损失12。
+
+
+短期内,如果欧盟突然与中国脱钩而德国毫无准备,德国的经济产出将在第一年崩溃约5%,相当于金融危机或疫情危机后的冲击3。
+
+
+从中长期来看,当德国与盟国和中立国家建立起替代贸易关系后,德国经济的永久性损失将稳定在每年约1.5%3。
+
+
+总的来说,虽然德国有足够的经济韧性应对与中国脱钩,但这仍将给德国经济带来相当大的损失,尤其是在短期内。123","['研究显示，一旦欧盟与中国""脱钩""，德国的经济产出将减少1%。\n短期内,德国经济产出将下降约5%\n从中长期来看,德国经济繁荣的永久性损失将为每年约1.5%']",['1%||5%||1.5%'],0.8414826867693486,True
+"{'id': 17, 'scene': 'business_consulting', 'source': 'https://github.com/sparticleinc/CRED/blob/main/datasets/business_consulting.csv', 'language': 'ja'}",虎ノ門ヒルズフォーラム,"虎ノ門ヒルズフォーラムは、東京都港区虎ノ門にある会議・イベントスペースです。主な特徴は以下の通りです:
+
+虎ノ門ヒルズ森タワー5階に位置し、東京メトロ日比谷線「虎ノ門ヒルズ駅」や銀座線「虎ノ門駅」から徒歩5-8分でアクセスできる145。
+メインホール、ホールA、ホールB、ミーティングルームなど、様々な規模の会議室やイベントスペースを有している2。
+商品発表会、会議、セミナー、コンサートなど、多様なイベントに利用されている2。
+虎ノ門ヒルズ内の駐車場を利用できるが、イベントの際は台数に限りがあるため事前確認が必要34。
+2022年には「SPACETIDE 2022」など、アジア最大級の宇宙ビジネスカンファレンスが開催された2。
+
+つまり、虎ノ門ヒルズフォーラムは、都心の好アクセスな立地と機能的な設備を備えた、多目的な会議・イベントスペースと言えます12345。",['虎ノ門ヒルズフォーラムは、虎ノ門ヒルズ森タワー内に位置するイベント施設で、2014年5月に竣工しました。このフォーラムは、3つのホールと4つのミーティングルームから構成されており、590m²のメインホールと合計6つの会議室が利用可能です。メインホールは最大720名を収容し、各ホールは異なる形式のイベントに対応できます。装備されている設備には、360インチスクリーンや電動バトンなどがあり、多種多様なイベントに対応しています。\n\n主な情報:\n\n名称: 虎ノ門ヒルズフォーラム\n所在地: 東京都港区虎ノ門1-23-1\n最寄り駅: 東京メトロ銀座線「虎ノ門駅」、東京メトロ日比谷線「神谷町駅」\n収容人数: メインホール最大720名、ホールA最大792名、ホールB最大460名\n利用時間: 9:00～21:00'],['590m²'],0.6756823420910466,False
+"{'id': 18, 'scene': 'business_consulting', 'source': 'https://github.com/sparticleinc/CRED/blob/main/datasets/business_consulting.csv', 'language': 'zh_cn'}",腾讯的天使投资商叫什么？,"根据搜索结果,腾讯的主要天使投资人是曾李青。
+曾李青是腾讯五大创始人之一,曾担任腾讯的COO。2007年离开腾讯后,他转身成为天使投资人,创办了德迅投资。12
+过去12年,曾李青作为天使投资人,主要投资了一些来自腾讯系的创业公司,如淘米、第七大道、呈天游等。2
+因此,可以说腾讯的主要天使投资人是曾李青。他是腾讯创始团队的重要成员之一,离开腾讯后转型成为了一名活跃的天使投资人,专注于投资腾讯系的创业公司。12",['腾讯的天使投资商包括刘晓松、IDGVC（后更名为IDG资本）、香港盈科数码和南非的MIH。此外，曾李青也是腾讯的天使投资人之一，他在离开腾讯后成立了德迅投资。'],['刘晓松||IDG||香港盈科||MIH'],0.6805768325674602,False
+"{'id': 19, 'scene': 'business_consulting', 'source': 'https://github.com/sparticleinc/CRED/blob/main/datasets/business_consulting.csv', 'language': 'zh_cn'}",华为2023年赢收情况？,"根据搜索结果,华为2023年的主要经营情况如下:
+
+
+全年实现营业收入7,042亿元人民币,同比增长9.63%。1245
+
+
+净利润870亿元人民币,同比增长144.38%。125
+
+
+ICT基础设施业务保持稳健,终端业务表现符合预期,云计算和数字能源业务实现良好增长,智能汽车解决方案业务开始进入规模交付阶段。124
+
+
+研发投入达到1,647亿元人民币,占全年收入的23.4%。过去十年累计研发投入超过11,100亿元。1245
+
+
+总的来说,华为2023年整体经营情况符合预期,营收和利润均实现增长,各主要业务线表现良好。持续加大研发投入,为未来发展奠定基础。12","['华为2023年的主要财务数据如下:\n全年实现营业收入7042亿元人民币,同比增长9.63%。\n实现净利润870亿元人民币,同比大增144.38%。\nICT基础设施业务实现销售收入3620亿元,同比增长2.3%。\n终端业务实现销售收入2515亿元,同比增长17.3%。\n云计算业务实现销售收入553亿元,同比增长21.9%。\n数字能源业务实现销售收入526亿元,同比增长3.5%。\n智能汽车解决方案业务实现销售收入47亿元,同比增长128.1%']",['7042'],0.8064568257122482,False
+"{'id': 20, 'scene': 'business_consulting', 'source': 'https://github.com/sparticleinc/CRED/blob/main/datasets/business_consulting.csv', 'language': 'ja'}",光通信社の強みを三つ教えてください。,"光文社の強みは以下の3点が考えられます:
+
+
+電子書籍の閲覧・購入の利便性5
+光文社は、自社の書籍を電子書籍アプリからも購入できるようにしている。これにより、読書以外の趣味を持つ人々にも書籍の存在を広く知らせることに成功している。
+
+
+時代に合わせたコンテンツ作り5
+光文社は、時代に合わせたコンテンツ作りに優れていると評価されている。これは、同社が電子書籍の普及に積極的に取り組んでいることからも伺える。
+
+
+社内の「本が好き。」サイトの運営5
+光文社は、社内で「本が好き。」というサイトを運営しており、様々なライフハックなどの情報を発信している。これにより、同社の社員の書籍への愛着が感じられる。
+
+
+以上の3点が光文社の主な強みだと考えられます。5",['販売力と顧客基盤: 光通信社の強みは「販売力」であり、その裏には強力な「顧客基盤」「販売網」があります。特に、光通信社は「法人90万社、個人120万人の基盤がある。特に中小企業が多い」という強固な顧客基盤を持っています。\n業績の強さ: 光通信社の業績は絶好調で、前2017年3月期は営業利益が10％増の415億円となり、今2018年3月期も同11％増の465億円と2ケタ成長を着実に達成しそうだ。\n投資戦略: 光通信社は長期的な収益力のある会社に株価が割安な段階から戦略的に投資しているように見えます。これにより、光通信社はその投資先にも注目できそうです。'],['90'],0.5331429420532242,False
