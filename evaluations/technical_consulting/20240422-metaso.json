@@ -1,0 +1,384 @@
+{
+    "evaluate_ai": {
+        "name": "Metaso",
+        "url": "https://metaso.cn"
+    },
+    "evaluate_llm": "gpt-4-1106-preview",
+    "evaluate_type": "ragas",
+    "evaluate_data": {
+        "total": 20,
+        "passed": 5,
+        "failed": 15,
+        "pass_rate": "25.00%",
+        "answer_correctness": 0.6233287879270992
+    },
+    "created_at": "2024-04-22 13:55:49",
+    "datas": [
+        {
+            "metadata": {
+                "id": 1,
+                "scene": "technical_consulting",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/technical_consulting.csv",
+                "language": "ja"
+            },
+            "question": "OPENAI APIを通じて入れたデータは学習される？",
+            "answer": "通过OpenAI API输入的数据是否会被用于学习，取决于用户的选择和API的使用方式。有几点可以明确：\n\n\nOpenAI在其API数据利用政策中明确指出，除非用户选择加入（opt-in），否则他们发送的数据不会被用于学习。这意味着，如果用户没有主动选择让他们的数据被用于模型的学习，那么通过OpenAI API输入的数据就不会被用于此目的。\n\n\n然而，对于Web上的ChatGPT，情况有所不同。即使用户选择退出（opt-out），输入的数据仍然会被用于学习。这表明，在Web版ChatGPT中，用户的输入数据是有可能被用于模型学习的。\n\n\n对于API使用的数据，有提到可以通过Fine-tuning的方式对模型进行定制化学习，这需要额外的数据输入。这种方式允许开发者在特定的应用场景下调整和优化模型，但这是基于开发者主动提供的数据。\n\n\n此外，还有证据表明，通过API发送的数据不会被用于OpenAI公开模型的训练或改进。这意味着，如果你使用API是为了在一个私有的项目中使用模型，而不想让这些数据影响到OpenAI的公共模型，那么这是可行的。\n\n\n通过OpenAI API输入的数据是否被用于学习，主要取决于用户的选择以及API的具体使用场景。如果用户不希望他们的数据被用于模型的学习，他们可以通过选择不加入或使用API进行私有项目开发来避免这一点。然而，对于Web版ChatGPT，即使选择了退出，用户的输入数据仍有可能被用于学习。\n",
+            "ground_truths": [
+                "1. OpenAIは、APIを通じて送信されたデータを、OpenAIのモデルの学習や改善には使用しません。ただし、ユーザーが明示的に同意した場合は、そのデータを使用することができます。\n2. APIを通じて送信されたデータは、不正利用や監視のために最大30日間保持されます。その後は削除されます。ただし、法的要求がある場合はこの限りではありません。\n3. ユーザーがファイルエンドポイントを通じて送信したデータ(例えばモデルのファインチューニング用)は、ユーザーが削除するまで保持されます。\n4. この利用ポリシーはOpenAIのコンシューマ向けサービス(ChatGPTやDALL-E)には適用されません。それらのサービスについては別のポリシーが適用されます。"
+            ],
+            "keywords": [
+                "しません||30"
+            ],
+            "answer_correctness": 0.5226380320851073,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 2,
+                "scene": "technical_consulting",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/technical_consulting.csv",
+                "language": "ja"
+            },
+            "question": "Azure OpenAI Service Abuse Monitoringについての記載を教えて？",
+            "answer": "Azure OpenAI Service的滥用监控功能主要通过分析用户使用模式和行为来检测潜在的滥用情况。这一功能利用算法和启发法来识别可能表明用户以违反服务条款的方式使用服务的指标，例如频繁或严重的有害内容检测。此外，该服务还提供了内容过滤和滥用监控功能，以减少服务被滥用的风险。\n具体到技术实现，Azure OpenAI Service在资源级别进行分析，利用数据传输中的数据，并完全自动化地利用大型语言模型来进行分析。这种自动化分析有助于快速响应并处理潜在的滥用情况，确保服务的安全和合规性。\n此外，微软还要求开发者展示定义明确的用例，并纳入微软负责任的AI使用原则，以帮助防止滥用和意外伤害。这表明微软不仅在技术层面上采取措施，也在政策和规范层面进行管理，以确保Azure OpenAI Service的负责任使用。\n总结来说，Azure OpenAI Service的滥用监控是一个综合性的安全措施，它结合了先进的技术手段和严格的政策规范，旨在保护服务不受滥用和不当使用的威胁。\n",
+            "ground_truths": [
+                "はい、Azure OpenAI Service の不正利用監視についての概要は以下になります。\n\nコンテンツ分類:\n\n入力プロンプトや出力コンテンツを分析し、ハラスメントや差別的な内容などを検知\n深刻度のレベルを判定\n悪用パターンの検知:\n\n顧客の利用パターンを分析し、悪用の兆候を検出\n有害コンテンツの検出頻度や深刻度などを考慮\n人的レビューと判断:\n\nコンテンツ分類や悪用パターンの検知結果について、Microsoft社内の権限ある社員がレビューを行い、適切な判断を下す\n社員はセキュアなワークステーションからのみデータにアクセス可能\n通知と措置:\n\n一定水準の悪用行為が確認された場合、顧客に通知し、是正を求める\n顧客が対応しない場合や、悪用が継続・深刻な場合は、サービスへのアクセスを停止・終了する措置を取る"
+            ],
+            "keywords": [
+                "コンテンツ分類||悪用パターンの検知||人的レビューと判断||通知と措置"
+            ],
+            "answer_correctness": 0.8196264677685567,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 3,
+                "scene": "technical_consulting",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/technical_consulting.csv",
+                "language": "ja"
+            },
+            "question": "Anthoropic Claude のデータ保持期間は？",
+            "answer": "Anthropic的Claude的数据保持期限为90天。这一信息直接来自于Anthropic帮助中心的说明，明确指出对于其消费级产品或测试/评估产品的用户（例如claude.ai, Claude Pro, Claude App for Slack等），Anthropic会在接收或生成后90天内自动删除后台的提示和输出，除非用户与Anthropic另有协议。此外，尽管Claude 3.0的数据集截止到2023年8月，但这并不影响其数据处理政策，即不保留用户数据，且在后台自动删除对话提示和输出，保留期限为90天。\n",
+            "ground_truths": [
+                "Anthoropic Claude のデータ保持期間は、通常は受信または生成後90日以内にバックエンドでプロンプトと出力を自動的に削除しますが、信頼性およびセキュリティの分類子によってフラグが立てられたプロンプトの場合は最大2年間保持されます。"
+            ],
+            "keywords": [
+                "90"
+            ],
+            "answer_correctness": 0.683265498121879,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 4,
+                "scene": "technical_consulting",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/technical_consulting.csv",
+                "language": "ja"
+            },
+            "question": "OpenAI APIで入力されたデータは人間に見られますか？",
+            "answer": "OpenAI API所提供的数据主要是以JSON格式输出的。这意味着，通过API获取的数据是结构化的，通常包含键值对，而不是直接的人类可读文本。虽然这些数据可以被程序解析和利用，但它们并不直接呈现为人类可读的文本或图形界面。\n此外，证据中并没有提到OpenAI API提供的数据可以直接给人类阅读的情况。因此，基于现有的证据，我们可以得出结论，OpenAI API所提供的数据不是为了直接给人类阅读而设计的，而是以一种更适合机器处理的形式存在。\n",
+            "ground_truths": [
+                "デフォルトの場合，OpenAI APIに提出されたデータはAIモデルの訓練には利用されない."
+            ],
+            "keywords": [
+                "されない"
+            ],
+            "answer_correctness": 0.4880970545973171,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 5,
+                "scene": "technical_consulting",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/technical_consulting.csv",
+                "language": "ja"
+            },
+            "question": "Anthoropic Claude のデータポリシーは？",
+            "answer": "Anthoropic Claudeのデータポリシーは、業界標準のベストプラクティスを使用しており、ユーザーが入力したプロンプトや会話はモデルのトレーニングに使用されません。さらに、Claude 3モデルはAnthropicの責任あるスケーリングポリシーのASL-2セキュリティレベルを維持しています。これらの情報から、Anthoropic Claudeのデータポリシーは用户的な安全基準を満たしており、用户的なデータ処理と保持方法を採用しています。\n",
+            "ground_truths": [
+                "ユーザーの個人データは、モデルのトレーニングに使用されないため、ユーザーデータを利用してモデルを構築することはありません。"
+            ],
+            "keywords": [
+                "されない"
+            ],
+            "answer_correctness": 0.6152483050030156,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 6,
+                "scene": "technical_consulting",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/technical_consulting.csv",
+                "language": "ja"
+            },
+            "question": "OPENAIAssistant API のストレージの上限は？",
+            "answer": "OPENAIAssistant API 的存储上限主要分为两个方面：文件数量和单个文件的大小。每个Assistant最多支持20个文件，每个文件的最大大小为512MB。此外，一个组织上传的所有文件的总大小不应超过100GB。这意味着，尽管单个文件有明确的大小限制，但组织整体上可以处理的文件总大小有一个上限。\n需要注意的是，虽然单个文件的大小限制为512MB，但在实际应用中，API对文件大小的限制更为宽松，允许每个文件达到512MB，总共可以上传的文件不超过100GB。这表明，尽管存在理论上的限制，但在实践中，用户可以根据需要上传大量数据，只要不超过上述限制。\n总结来说，OPENAIAssistant API 的存储上限包括每个Assistant最多支持20个文件，每个文件最大为512MB，以及整个组织上传的所有文件的总大小不得超过100GB。这些限制确保了API能够高效、稳定地运行，同时也为不同规模的项目提供了灵活性。\n",
+            "ground_truths": [
+                "OpenAI Assistant API には以下のストレージの上限があります:\nアシスタントごとに最大20個のファイルを添付できる\n各ファイルの最大サイズは512MB\n組織がアップロードする全ファイルの限界サイズは100GB\nつまり、1つのアシスタントに最大20個の合計512MB以下のファイルを添付でき、組織全体では最大100GBまでアップロードできるということです。これらの制限は現在のベータ版の仕様であり、今後変更される可能性があります"
+            ],
+            "keywords": [
+                "20",
+                "512",
+                "100"
+            ],
+            "answer_correctness": 0.712615054568825,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 7,
+                "scene": "technical_consulting",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/technical_consulting.csv",
+                "language": "ja"
+            },
+            "question": "Evernoteに要素を挿入する方法を教えてください",
+            "answer": "在Evernote中插入元素的方法有多种，具体取决于您想要插入的内容类型。以下是一些常见的插入方法：\n\n\n插入文本：当您尝试在Evernote的编辑器中输入内容时，通常会自动出现一个提示“要素を挿入するには\"／\"を押してください”，这意味着您可以直接在编辑器中使用键盘输入文字来创建新的笔记或修改现有笔记。\n\n\n插入图片：您可以将保存在设备上的图片或通过设备相机拍摄的图片插入到Evernote笔记中。这可以通过选择相应的选项并上传图片文件来完成。\n\n\n插入附件：从桌面或文件夹中拖拽需要添加的文件到正在编辑状态的笔记标题栏，这是一种简单直观的方法来添加附件到您的笔记中。这种方法允许您一次性添加多个文件。\n\n\n插入表：使用表编辑器，您可以自定义表格的外观和布局。例如，在Mac上，您可以在行或列之间插入新的行或列，通过点击行或列之间引出的灰色点线来实现。\n\n\n插入Markdown格式的内容：如果您希望以更结构化的方式组织笔记，可以使用Markdown语法来插入图片、标签等元素。绑定相关账户后，每次保存文档时，Markdown文本就会作为笔记发送到Evernote中。\n\n\n插入Office文档：通过按击F3快捷键（或者单击鼠标），您可以切换到笔记条目的标签属性处，并添加Office情境标签，从而将Office文档内容插入到Evernote中。\n\n\n使用API进行高级集成：对于开发者来说，可以通过Evernote API使用innerHTML或innerText属性将内容插入到Evernote编辑器中。这需要一定的编程知识，但提供了更深层次的控制能力。\n\n\n根据您的具体需求，您可以选择上述方法中的一种或几种来在Evernote中插入各种类型的元素。\n",
+            "ground_truths": [
+                "Evernoteに要素を挿入する方法として、以下の手順を参考にしてください:\nノートを開き、要素を挿入したい場所でカーソルを置きます。\nノート内で要素を挿入するために、\"/\"キーを押します。\nその後、挿入したい要素の種類を選択します。たとえば、リスト、表、またはその他の要素があります。\n選択した要素を挿入すると、それがノートに表示されます。\nこの手順に従うことで、Evernoteで要素を簡単に挿入することができます。"
+            ],
+            "keywords": [
+                "\"/\""
+            ],
+            "answer_correctness": 0.537809303378778,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 8,
+                "scene": "technical_consulting",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/technical_consulting.csv",
+                "language": "ja"
+            },
+            "question": "Windows-11でファイルを圧縮する際にパスワードを設定する方法はありますか",
+            "answer": "在Windows 11中，确实存在为文件或文件夹设置密码的方法。有几种不同的方法可以实现这一目的：\n\n\n使用系统自带的压缩功能加密：用户可以通过右键点击要加密的文件或文件夹，选择“添加到压缩文件”，然后在弹出的窗口中选择“设置密码”来为压缩包设置密码。这种方法直接利用Windows 11的内置功能进行操作，不需要安装额外的软件。\n\n\n使用第三方压缩软件：另一种方法是下载并安装第三方压缩软件，如WinRAR或7-Zip，然后通过这些软件提供的加密功能来设置密码。这种方法提供了更多的自定义选项和加密算法，可能更适合需要高级加密功能的用户。\n\n\n综上所述，Windows 11用户可以通过系统自带的压缩功能或第三方压缩软件来为文件或文件夹设置密码，以保护个人隐私和数据安全。\n",
+            "ground_truths": [
+                "Windows 11でファイルを圧縮する際にパスワードを設定する方法はあります。詳細な手順は次の通りです：\nまず、7-Zipなどのファイル圧縮ソフトをダウンロードしてインストールします。\nパスワードを設定したいファイルやフォルダを右クリックし、「7-Zip」→「アーカイブに追加」を選択します。\n次に、表示される新しいウィンドウで、「圧縮レベル」のドロップダウンメニューから「ストア」を選択し、右側の「暗号化」セクションにパスワードを入力します。\nパスワードを入力した後、「OK」をクリックします。すると、.7zの拡張子を持つファイルが同じフォルダ内に作成され、そのファイルはパスワードで保護されます。\nファイルを開こうとすると、そのファイル内のコンテンツにアクセスするためにパスワードが必要となります。他のコンピューターやプラットフォームで別のアーカイブソフトウェアを使用しても、開く際には引き続きパスワードが必要です。\n以上が、Windows 11でファイルを圧縮してパスワードを設定する手順です。"
+            ],
+            "keywords": [
+                "7-Zip"
+            ],
+            "answer_correctness": 0.5439583989653546,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 9,
+                "scene": "technical_consulting",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/technical_consulting.csv",
+                "language": "zh-cn"
+            },
+            "question": "ios如何安装ipa文件？",
+            "answer": "在iOS设备上安装ipa文件，有几种不同的方法，具体取决于用户的需求和iOS版本。以下是几种常见的安装方法：\n\n\n使用iTunes：首先，将iOS设备通过数据线连接到电脑上，并确保已经安装了iTunes。打开iTunes后，选择连接的设备，在左侧面板中选择\"应用程序\"选项卡，然后将ipa文件拖放到\"共享文件\"部分即可完成安装。\n\n\n使用Xcode：Xcode是苹果官方开发工具，也可以用来安装ipa文件。首先，需要确保iOS设备已连接到电脑并安装了Xcode。打开Xcode，选择\"Window\" -> \"Devices and Simulators\"，在弹出的窗口中选择连接的iOS设备，然后将ipa文件拖放到设备上即可。\n\n\n使用第三方工具：如3uTools或爱思工具箱等第三方工具也可以用于安装ipa文件。这些工具通常提供了更为便捷的操作界面，使得安装过程更加简单。例如，使用3uTools时，需要在Windows系统上安装该工具，并准备好要安装的ipa文件，之后按照工具提供的指引进行操作即可。\n\n\n企业签名：对于开发者而言，还可以通过企业签名的方式直接安装ipa文件。这通常涉及到获取苹果的企业证书，并使用特定的服务或平台来处理ipa文件的签名和分发过程。这种方法适用于iOS内测阶段，允许开发者向特定用户群体分发应用。\n\n\n需要注意的是，某些方法可能受到iOS版本的限制，或者需要满足特定条件（如越狱、信任开发者证书等）。因此，在选择安装方法时，建议根据自己的具体情况和需求进行选择。\n",
+            "ground_truths": [
+                "使用 iTunes 同步安装:\n将 iOS 设备连接到电脑并打开 iTunes。\n在 iTunes 中选择设备,点击\"应用程序\"选项卡。\n将下载好的 IPA 文件拖拽到\"应用程序\"窗口中。\n确认文件已添加到列表中,然后点击\"同步\"按钮即可。\n\n使用第三方安装工具直接安装:\n在 iOS 设备上下载并安装第三方安装工具,如 PP 助手、爱思助手等。\n\n连接 iOS 设备到电脑,并启动安装工具。\n在安装工具中找到要安装的 IPA 文件,点击安装即可。\n\n使用 AltStore 安装:\n下载并安装 AltStore 应用程序。\n在 Safari 浏览器中打开 AltStore 网站,下载需要安装的 IPA 文件。\n将 IPA 文件拖拽到 AltStore 应用程序中,等待安装完成。\n\n使用 Cydia 工具安装:\n需要先越狱 iOS 设备。\n在 Cydia 中安装 AppSync 插件。\n使用 iFunBox 等工具将 IPA 文件传输到 iOS 设备,然后在 Cydia 中使用 AppInstall 工具安装\n\n使用Safari浏览器打开苹果应用安装器地址，导入捷径进行安装\n\n在Windows系统上使用3uTools工具安装\n\n通过连接iPhone到电脑，并使用iTunes的“文件共享”功能添加并安装ipa文件\n\n采用苹果企业签名、超级签名或tf签名等方法直接在设备上安装"
+            ],
+            "keywords": [
+                "iTunes",
+                "浏览器"
+            ],
+            "answer_correctness": 0.7121506886165215,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 10,
+                "scene": "technical_consulting",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/technical_consulting.csv",
+                "language": "zh-cn"
+            },
+            "question": "如何使用ChatGPT翻译PDF文档",
+            "answer": "使用ChatGPT翻译PDF文档的方法主要包括以下几个步骤：\n\n\n准备工作：首先，需要访问ChatGPT的官方网站或下载应用程序，并完成环境设置。此外，还需要获取待翻译的PDF文件的链接或文件本身。\n\n\n选择翻译功能：在ChatGPT插件或应用程序中，选择翻译功能。这一步骤是启动翻译过程的关键。\n\n\n上传PDF文件：输入待翻译的PDF文件链接或上传文件。这一步骤可能需要将PDF文件转换为文本格式，以便于ChatGPT处理。\n\n\n设置翻译语言：根据需要选择源语言和目标语言。这一步骤对于确保翻译结果的准确性至关重要。\n\n\n开始翻译：完成上述步骤后，点击开始翻译按钮。ChatGPT会自动处理并生成翻译结果。\n\n\n下载翻译后的文档：翻译完成后，用户可以将翻译结果保存为PDF文件，以便后续使用。\n\n\n需要注意的是，虽然ChatGPT提供了强大的翻译能力，但在使用过程中可能会遇到一些限制和注意事项。例如，文档翻译可能需要一定的时间，具体取决于文档的大小和复杂度。此外，为了获得最佳的翻译效果，建议用户仔细检查翻译后的文档，并在必要时进行编辑和校正。\n总之，使用ChatGPT翻译PDF文档是一个高效、方便且可靠的选择，只需按照上述步骤操作即可轻松完成翻译任务。\n",
+            "ground_truths": [
+                "1. 将PDF文档转换为可编辑的文本格式，如TXT或DOC。\n2. 将这些文本输入给ChatGPT，以逐句翻译文档内容"
+            ],
+            "keywords": [
+                "转",
+                "文本"
+            ],
+            "answer_correctness": 0.5559111995154618,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 11,
+                "scene": "technical_consulting",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/technical_consulting.csv",
+                "language": "zh-cn"
+            },
+            "question": "gpt-3-5-turbo-0125 1M价格",
+            "answer": "gpt-3.5-turbo-0125的价格为每1M tokens定价为$0.50，每1M输出tokens为$1.50 。这一信息在多个来源中得到了确认，包括OpenAI官方的声明和价格调整详情 。此外，还有证据表明，该模型的输入价格为$0.0005/1k tokens，输出价格为$0.0015/1k tokens ，这与每1M tokens的价格相符合，因为这是基于每个token的成本计算得出的。因此，可以确认gpt-3.5-turbo-0125的价格结构是每1M tokens输入为$0.50，每1M tokens输出为$1.50。\n",
+            "ground_truths": [
+                "输入token价格为 $0.50\n输出token价格为 $1.50"
+            ],
+            "keywords": [
+                "$0.5",
+                "$1.50"
+            ],
+            "answer_correctness": 0.6992458042749738,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 12,
+                "scene": "technical_consulting",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/technical_consulting.csv",
+                "language": "zh-cn"
+            },
+            "question": "我想在edge浏览器查看新闻，但不喜欢自带的资讯源，有什么推荐的新闻源吗？",
+            "answer": "如果您在Edge浏览器中查看新闻，但不喜欢自带的资讯源，有几个推荐的新闻源和方法可以考虑：\n\n\n添加专业新闻源：您可以通过访问Microsoft Edge官网来添加专业的新闻源，例如BBC、ABCNews、CNBC等。这些来源通常提供国际化的新闻报道，覆盖多个领域。\n\n\n使用插件：Edge浏览器插件News Tab可以在打开每个新标签页时，从您喜欢的网站获取您关心的新闻。这款插件支持跨平台使用，并且能够根据您的地区提供相应的新闻。这意味着您可以根据自己的需求选择特定地区的新闻源。\n\n\nRSS订阅：微软Edge浏览器支持RSS订阅功能，这允许用户直接在浏览器中订阅喜爱的网站的RSS源。这种方法可以让您定期接收到特定网站的更新内容，而不仅仅是浏览网页时看到的内容。\n\n\n自建RSS订阅源：如果您对现有的新闻源不满意，还可以尝试自建RSS订阅源。例如，feedless项目可以根据网页内容自动创建RSS订阅源并支持自定义修改。这样，您可以根据个人兴趣定制自己的新闻源。\n\n\n第三方扩展：NewsGuard是一个第三方扩展，用于评估网站的可信性和透明度。虽然它主要用于评估网站质量，但也可能帮助您发现新的、值得信赖的新闻源。\n\n\n利用Windows系统的新调整：根据最新的调整，第三方新闻源现在可以通过Windows小组件面板提供新闻资讯，与微软Edge处于同等地位。这意味着您可以探索更多第三方提供的新闻服务。\n\n\n您可以根据自己的偏好和需求，选择上述方法中的任何一种来获取新闻。无论是通过添加专业新闻源、使用插件、利用RSS订阅、自建RSS订阅源，还是通过第三方扩展和Windows系统的最新调整，都能在Edge浏览器中找到满意的新闻来源。\n",
+            "ground_truths": [
+                "1.打开新标签页，在建议的网站磁贴正上方，您会看到一个\"Customize\"(自定义)选项\n2.点击该选项，接着在下一个界面确保您选择了\"Top sites and my news feed\"(热门网站和我的新闻源)\n选择您希望获取新闻的语言，\n3.在语言选择下方，您会看到用于选择您希望查看的内容类型的类别"
+            ],
+            "keywords": [
+                "Customize||自定义"
+            ],
+            "answer_correctness": 0.5235531504010443,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 13,
+                "scene": "technical_consulting",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/technical_consulting.csv",
+                "language": "zh-cn"
+            },
+            "question": "hostinger选择中国，服务器可以是全球吗",
+            "answer": "Hostinger的服务器遍布全球，包括但不限于欧洲（法国、荷兰、立陶宛、英国）、亚洲（新加坡、印度）和北美洲等地。这意味着用户可以根据自己的需求选择最接近目标客户位置的服务器，以获得更快的访问速度和更好的用户体验。尽管Hostinger为中国用户提供了中文网站和支持，使得购买和使用过程更加友好，但考虑到地理位置的影响，如果主要面向中国大陆的用户，选择在中国大陆附近的服务器可能会更有利于提高访问速度和降低延迟。\n虽然Hostinger的服务器可以是全球的，但选择服务器的位置时，应考虑到目标用户群体的位置，以便提供最佳的访问体验。对于希望服务中国市场的用户来说，选择位于或靠近中国大陆的服务器可能是一个更好的选择。\n",
+            "ground_truths": [
+                "虽然Hostinger在中国没有服务器，但是您可以全球购买他们的服务，并选择最接近您的地区的服务器位置，以获得更好的性能和体验。"
+            ],
+            "keywords": [
+                "可以"
+            ],
+            "answer_correctness": 0.5677411418598131,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 14,
+                "scene": "technical_consulting",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/technical_consulting.csv",
+                "language": "zh-cn"
+            },
+            "question": "作为一名个人网站运维，除了NPS和FRP还有哪些可以部署在公网服务器上的内网穿透工具，把他们罗列出来并作介绍",
+            "answer": "除了NPS和FRP，还有以下几种内网穿透工具可以部署在公网服务器上：\n\n\nngrok：ngrok是一款非常流行的内网穿透工具，它可以将内网中的HTTP和TCP服务映射到公网上，支持多种操作系统和语言。ngrok的安装和使用非常简单。\n\n\nnatpass：natpass是一款国人开源的NAT内网穿透工具，支持TCP隧道、shell隧道，支持远程桌面管理。它支持多操作系统包括Windows，Linux以及Mac OS，并且基于Go语言编写，遵守MIT开源协议。\n\n\ncpolar：cpolar是一款安全的内网穿透工具，适合微信公众号开发调试，Web开发，OpenAPI开发，webhook开发和调试工具。只需一行命令，就可以将内网站点发布至公网，方便给客户演示。高效调试微信公众号、小程序、对接支付宝网关等云端服务，提高编程效率。\n\n\nFastTunnel：FastTunnel是一款高性能跨平台内网穿透工具，使用它可以实现将内网服务暴露到公网供自己或任何人访问。与其他穿透工具不同的是，FastTunnel项目致力于打造一个易于扩展、易于维护的内网穿透框架。开源免费跨平台内网穿透远程内网电脑自定义域名访问内网站点反向代理内网服务http代理类花生壳。\n\n\nlocaltunnel：localtunnel是一款基于node.js的内网穿透工具，非常流行，可以方便快捷地将本地Localhost暴露给全世界，无需修改DNS和防火墙设置，以便于测试和共享。非常适合于浏览器测试工具，如浏览器或外部API回调服务，也非常适合于个人用户的前端（如站点页面）。\n\n\n这些工具各有特点，可以根据个人网站运维的具体需求选择合适的内网穿透工具进行部署。\n",
+            "ground_truths": [
+                "Zerotier是一款开源的内网穿透工具,它采用P2P技术,无需公网服务器即可实现内网穿透。Zerotier特点是安全性高,免费版连接数量无限,但每个终端都需要安装客户端软件。适合个人或小型团队使用。\nLanproxy是一款基于Go语言开发的内网穿透工具,支持TCP、UDP等多种协议。它采用客户端-服务端架构,服务端部署在公网服务器上,客户端部署在内网设备上。Lanproxy功能相对简单,但部署和使用都比较简单。\nGoproxy是一款功能强大的内网穿透工具,支持TCP、UDP、HTTP、HTTPS等多种协议。它采用客户端-服务端架构,服务端部署在公网服务器上,客户端部署在内网设备上。Goproxy支持多种认证方式,并提供Web管理界面。\nNgrok是一款非常流行的内网穿透工具,它采用客户端-服务端架构,服务端部署在公网服务器上,客户端部署在内网设备上。Ngrok支持TCP、HTTP、HTTPS等多种协议,并提供了二次开发的API。但Ngrok的免费版有一些限制,如连接数量、子域名等。\n花生壳：一款知名的内网穿透工具，支持动态公网IP的内网穿透方法\ncpolar：国产内网穿透工具之一，适用于需要内网穿透服务的场景\nNATAPP：提供内网穿透服务的工具之一，适合个人使用\new：一款流行的开源内网穿透工具，具有高性能的特点\nSAKURA FRP：另一种国产内网穿透工具，适用于多种网络环境"
+            ],
+            "keywords": [
+                "Zerotier||Lanproxy||Ngrok||Goproxy"
+            ],
+            "answer_correctness": 0.6568229373605096,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 15,
+                "scene": "technical_consulting",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/technical_consulting.csv",
+                "language": "zh-tw"
+            },
+            "question": "vocol-ai-逐字稿筆記神器是什麼-有什麼特點和應用場景",
+            "answer": "vocol-ai-逐字稿筆記神器是一款专为教育和商业领域设计的AI语音协作工具，它通过多种自然语言模型、GPT技术和AI技术，为个人和企业用户提供精准的语音转文字服务，并能生成对话逐字稿、摘要与主题分析。该工具特别适合于远程在线课程、会议记录以及团队协作等场景。\nvocol-ai的特点包括：\n\n支持多语言识别和翻译，能够处理中英夹杂、台语、广东话等多种语言，甚至支持20+种语言的逐字稿翻译功能。\n2.3. 具有生成式AI技术，能够快速将会议或对话等语音转换成文字，并在极短时间内以AI生成逐字稿、摘要与主题分析，甚至完成多语系翻译。\n支持与朋友或同事共笔协作，使得团队成员可以共同编辑和讨论文档，进一步提升工作效率。\n操作简单，用户只需上传文件，其他工作交给AI自动完成，大大节省了手动输入的时间。\n\n应用场景包括但不限于：\n\n远程教育：适用于远端线上课程的逐字稿与摘要制作，帮助学生更好地理解和复习课程内容。\n商业会议：适用于各种商业会议的记录和总结，帮助企业快速把握会议要点，提高决策效率。\n团队协作：适用于需要团队成员共同编辑和讨论文档的场景，促进团队间的有效沟通和协作。\n内容创作：适用于视频制作者等创作者，提供字幕制作、学习资源等服务，帮助内容创作者更高效地管理其作品。\n\nvocol-ai-逐字稿笔记神器以其强大的AI技术支持和灵活的应用场景，成为提高个人和团队工作效率的理想选择。\n",
+            "ground_truths": [
+                "Vocol.ai 是一款強大的 AI 語音協作平台，提供自動逐字稿和摘要功能，幫助使用者快速將會議或對話等語音轉換成文字記錄。以下是 Vocol.ai 的特點和應用場景： 特點： 語言支援：Vocol.ai 支援多種語言，包括中文、英文、日文等。 自然語言模型：採用先進的自然語言模型技術，如 GPT，提供準確的逐字稿和摘要功能。 AI 摘要：自動生成摘要和重點，提供快速閱讀整理資訊的功能。 易用介面：提供直觀易用的平台，方便使用者存取、分享和編輯逐字稿和摘要。 協作功能：支援雲端記錄、評論和劃重點，使與會者可以參與回顧和討論會議內容。 應用場景： 會議記錄：用於轉錄會議內容，製作逐字稿和摘要，方便後續查閱或分享。 學習筆記：學生可以使用 Vocol.ai 製作課堂筆記，製作逐字稿和摘要以供學習和記錄。 團隊協作：在跨國團隊或遠端工作情況下，協助團隊成員快速理解會議內容和進度。 媒體採訪：媒體人可以將採訪內容快速轉錄成文字，方便後續編輯和使用。 教育訓練：在線上課程或教學中使用 Vocol.ai 提供的逐字稿和摘要，幫助學生更好理解內容。 總的來說，Vocol.ai 是一個全方位的逐字稿和摘要工具，適用於各種工作場景和學習需求，提供快速、準確和便利的文字轉錄和整理功能。"
+            ],
+            "keywords": [
+                "多語言支援"
+            ],
+            "answer_correctness": 0.8297821309011502,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 16,
+                "scene": "technical_consulting",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/technical_consulting.csv",
+                "language": "zh-cn"
+            },
+            "question": "ISO 7000文件下载给我",
+            "answer": "ISO 7000系列标准提供了设备用图形符号的索引和概要，这些标准对于指导使用设备的人员操作非常重要。ISO 7000:2019是该系列中的一个版本，它提供了设备用图形符号、注册符号等信息。然而，关于如何下载这些文件的具体信息在证据中并未直接提及。\n不过，有几点信息可以帮助你尝试获取ISO 7000文件：\n\n中国国家标准化委员会网站可能提供了ISO 7000标准的下载途径。\nISO官方网站（https://www.iso.org/obp/ui）也可能提供ISO 7000标准的下载服务，特别是如果你知道具体的注册号或参考号。\n对于ISO 7000:2019，虽然没有直接提供下载链接，但你可以尝试访问中国标准服务网或其他提供正版标准购买的网站来查找是否可以购买或下载该标准。\n\n综上所述，虽然证据中没有直接提供ISO 7000文件的下载链接，但你可以通过访问中国国家标准化委员会网站、ISO官方网站或尝试购买正版标准的方式来尝试获取这些文件。请注意，获取这些文件可能需要满足特定条件，如注册账号或支付费用。\n",
+            "ground_truths": [
+                "ISO属于国际标准，正规渠道是要付费购买的。"
+            ],
+            "keywords": [
+                "购买"
+            ],
+            "answer_correctness": 0.486729804039584,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 17,
+                "scene": "technical_consulting",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/technical_consulting.csv",
+                "language": "ja"
+            },
+            "question": "Knowledge Bases for Amazon Bedrockの自動データ同期機能とは？",
+            "answer": "Knowledge Bases for Amazon Bedrock 的自動數據同步功能主要涉及將公司內部的數據源安全地連接到 Amazon Bedrock 中的基础模型（FMs），以便使用 fully managed Retrieval Augmented Generation (RAG) 來提供更加相干、具有上下文特徵且精確的回答。這意味著，通過知識庫，可以將用戶查詢 link 到相關的信息數據點，從而在運行時增強用戶查詢上下文，並啟用一個管理型 RAG 架構解決方案。此外，Amazon Bedrock 負責创建、存储、管理和更新向量存储中的嵌入，并确保数据始终与向量存储同步。這包括處理嵌入和查詢的新的 RAG API，以及提供生產 RAG 應用程序所需的來源歸屬和短期內存。\n總結來說，Knowledge Bases for Amazon Bedrock 的自動數據同步功能通過安全連接公司內部數據源到 Amazon Bedrock 中的基础模型，並利用 fully managed RAG 模型來增強回答的相干性、上下文特徵和精確度，同時處理嵌入和查詢，並確保數據與向量存储同步，從而實現更加个性化和準確的回答。\n",
+            "ground_truths": [
+                "Knowledge Bases for Amazon Bedrockの自動データ同期機能は、Amazon Bedrockの機能の1つであり、ユーザーがクエリする際に使用される知識ベースを自動的に最新の状態に保つ機能です。ユーザーがデータソースをアップロードして知識ベースを作成すると、そのデータソースが定期的に自動的に同期され、知識ベースが最新の情報を反映するようになります。これにより、ユーザーは常に最新の情報を使用して根拠モデルの応答生成を強化することができます。"
+            ],
+            "keywords": [
+                "自動",
+                "協作"
+            ],
+            "answer_correctness": 0.5607734197763922,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 18,
+                "scene": "technical_consulting",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/technical_consulting.csv",
+                "language": "en"
+            },
+            "question": "what are the applications of lidar in aerospace industry?",
+            "answer": "激光雷达（LiDAR）技术在航空航天工业中的应用主要包括以下几个方面：\n\n\n月球探测和着陆点识别：自20世纪60年代以来，LiDAR技术首次被用于航空航天应用中。到了70年代，NASA在其阿波罗15号任务中使用了基于激光的感测技术进行月球测距。2. 航空安全和导航：LiDAR技术已被用于检测微暴、火山灰和尾流湍流的存在，这些是影响航空安全的重要因素。此外，LiDAR传感器被用于改善飞行安全性，最终目标是开发完全自主的飞行器。\n\n\n机场运营优化：LiDAR技术通过提供精确的跑道条件测量，包括外来物体碎片（FOD）和跑道表面损伤的检测，增强了机场运营。它还帮助规划和设计新的机场基础设施，并且能够在夜间提供连续和实时的测量，实现全天候监控。\n\n\n气象研究和环境监测：LiDAR作为一种主动遥感设备，在空间应用中通常用于获取目标航天器上一个或多个点的距离信息。它也被广泛用于测量大气风速和湍流、气溶胶物理特性以及云层剖面等，对于气象研究或航空天气以及气溶胶研究具有重要意义。\n\n\n提高航空交通控制系统的效率和安全性：LiDAR技术最初被用于飞机上，以提高航空交通控制系统的效率和安全性。它还能改善对风切变的检测，这是一种危险的天气现象，特别是在进近和离场走廊下。\n\n\n6.7. 提升航空货运飞机的自主性：Boeing正在探索在未来的航空货运飞机中使用LiDAR来提升自主性。\nLiDAR技术在航空航天工业中的应用广泛，从月球探测和着陆点识别到航空安全和导航，再到机场运营优化、气象研究和环境监测，以及提高航空交通控制系统的效率和安全性等方面，都发挥着重要作用。\n",
+            "ground_truths": [
+                "Terrain and Obstacle Mapping: LiDAR can be used to create highly accurate 3D maps of terrain, landscapes, and obstacles. This is useful for mission planning, navigation, and situational awareness in aerospace applications.\nAircraft and Satellite Detection and Tracking: LiDAR can be used to detect and track aircraft, satellites, and space debris with high precision. This aids in airspace management and collision avoidance.\nAirport Operations: LiDAR can provide precise measurements of runway conditions, including detecting foreign object debris (FOD) and runway surface damage. This improves airport safety and efficiency.\nAutonomous Navigation: LiDAR is a key sensor used in the navigation systems of autonomous aerial vehicles like drones, allowing them to detect and avoid obstacles.\nBathymetric Mapping: Military applications of LiDAR include bathymetric mapping, which can precisely image terrain features both on land and in the water, useful for naval operations"
+            ],
+            "keywords": [
+                "Terrain and Obstacle Mapping||Aircraft and Satellite Detection and Tracking||Airport Operations||Autonomous Navigation||Bathymetric Mapping"
+            ],
+            "answer_correctness": 0.5852494666616531,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 19,
+                "scene": "technical_consulting",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/technical_consulting.csv",
+                "language": "zh-cn"
+            },
+            "question": "我可以通过 http 连接 splunk 吗？",
+            "answer": "是的，您可以通过HTTP连接Splunk。Splunk提供了REST API和HTTP Event Collector (HEC) 来支持通过HTTP协议导入数据和应用程序事件到Splunk中。\n\nSplunk的REST API允许用户通过HTTP POST请求将数据发送到Splunk 。\nSplunk HTTP Event Collector (HEC) 是一个专门设计的HTTP事件收集器，它支持以HTTP(S) 协议将数据和应用程序事件发送到Splunk 。\n用户需要在Splunk中启用REST API或HTTP Event Collector，并进行相应的配置才能使用这些功能 。\n\n这进一步证实了Splunk支持通过HTTP及其安全版本HTTPS连接。\n因此，根据我搜索到的资料，可以确认您确实可以通过HTTP连接Splunk，无论是通过REST API还是HTTP Event Collector。\n",
+            "ground_truths": [
+                "您可以通过 HTTP 连接 Splunk:\n1.部署 Google Cloud to Splunk 参考架构时,可以使用 HTTP 或 HTTPS 协议连接 Splunk HEC (HTTP Event Collector)。具体格式为 \"protocol://host[:port]\"，其中 protocol 可以是 http 或 https。\n2. 中也提到,Splunk 事件转发扩展可以利用 Splunk HTTP 事件收集器 REST API 将事件从 Adobe Experience Platform Edge Network 发送到 Splunk HTTP 事件收集器。\n3. 中介绍了通过阿里云日志服务 Splunk Add-on 将日志投递到 Splunk 的方法,其中也提到可以使用 HTTP Event Collector (HEC) 进行投递。"
+            ],
+            "keywords": [
+                "可以"
+            ],
+            "answer_correctness": 0.8492139638387239,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 20,
+                "scene": "technical_consulting",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/technical_consulting.csv",
+                "language": "zh-cn"
+            },
+            "question": "DAQ970A 如何检查存储器是否有足够的空间，并检查存储器是否正常工作",
+            "answer": "检查Keysight DAQ970A数据采集系统存储器是否有足够的空间，可以通过查看其非易失性存储器的容量来判断。DAQ970A配备了一百万读数的非易失性存储器，足以容纳一周以上的数据。这意味着用户可以轻松地存储大量数据，而无需担心存储空间不足的问题。\n至于检查存储器是否正常工作，虽然我搜索到的资料中没有直接说明如何进行这一操作，但通常这类设备都会提供一些基本的故障诊断功能。例如，用户可能需要通过设备的用户界面或使用特定的软件工具来检查存储器的状态，包括其读写速度、是否存在错误等。由于缺乏具体的故障诊断步骤描述，建议参考设备的用户手册或联系制造商的技术支持以获取更详细的指导。\n总结来说，检查DAQ970A存储器是否有足够的空间相对简单，只需查看其非易失性存储器的容量即可。而检查存储器是否正常工作，则可能需要依赖设备本身提供的故障诊断功能或咨询技术支持以获得具体的操作指南。\n",
+            "ground_truths": [
+                "1. 可以通过发送 *MEM? 命令查询仪器的存储器容量。\n2. 如果存储器空间不足,可以通过发送 *RST 命令清除存储器中的数据,以腾出更多空间。"
+            ],
+            "keywords": [
+                "MEM"
+            ],
+            "answer_correctness": 0.5161439368073265,
+            "passed": false
+        }
+    ]
+}
