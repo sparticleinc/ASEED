@@ -114,11 +114,11 @@
             },
             {
                 "scene": "business_consulting",
-                "total": 80,
-                "passed": 20,
-                "failed": 60,
-                "pass_rate": "25.00%",
-                "answer_correctness": 0.6365366974034785,
+                "total": 100,
+                "passed": 26,
+                "failed": 74,
+                "pass_rate": "26.00%",
+                "answer_correctness": 0.6317252112661934,
                 "list": [
                     {
                         "total": 20,
@@ -159,15 +159,25 @@
                         "source": "https://github.com/sparticleinc/CRED/blob/main/evaluations/business_consulting/20240422-you.json",
                         "source_csv": "https://github.com/sparticleinc/CRED/blob/main/evaluations/business_consulting/20240422-you.csv",
                         "evaluate_ai": "you"
+                    },
+                    {
+                        "total": 20,
+                        "passed": 6,
+                        "failed": 14,
+                        "pass_rate": "30.00%",
+                        "answer_correctness": 0.612479266717053,
+                        "source": "https://github.com/sparticleinc/CRED/blob/main/evaluations/business_consulting/20240422-iask.json",
+                        "source_csv": "https://github.com/sparticleinc/CRED/blob/main/evaluations/business_consulting/20240422-iask.csv",
+                        "evaluate_ai": "iask"
                     }
                 ]
             }
         ],
-        "total": 219,
-        "passed": 91,
-        "failed": 128,
-        "pass_rate": "41.55%",
-        "answer_correctness": 0.6583608827112025
+        "total": 239,
+        "passed": 97,
+        "failed": 142,
+        "pass_rate": "40.59%",
+        "answer_correctness": 0.6573985854837454
     },
     {
         "date": "2024-04-19",
