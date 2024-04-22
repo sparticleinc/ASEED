@@ -1,0 +1,382 @@
+{
+    "evaluate_ai": {
+        "name": "You",
+        "url": "https://you.com"
+    },
+    "evaluate_llm": "gpt-4-1106-preview",
+    "evaluate_type": "ragas",
+    "evaluate_data": {
+        "total": 20,
+        "passed": 2,
+        "failed": 18,
+        "pass_rate": "10.00%",
+        "answer_correctness": 0.56466353326506
+    },
+    "created_at": "2024-04-22 11:00:41",
+    "datas": [
+        {
+            "metadata": {
+                "id": 1,
+                "scene": "local_search",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/local_search.csv",
+                "language": "zh_cn"
+            },
+            "question": "本来无一物何处惹尘埃的完整诗句是什么？",
+            "answer": "本来无一物何处惹尘埃的完整诗句是什么？\n这句诗句来自于唐代诗人杜牧的《秋夜将晓出篱门迎凉有感二首》之一。完整的诗句是：“本来无一物，何处惹尘埃。”这句诗表达了人们对于宁静和清净的向往，希望远离尘嚣和纷扰，回归本真的内心世界。\n参考来源：\n\n[[1]]\n",
+            "ground_truths": [
+                "这句诗句出自唐代禅宗六祖慧能的《菩提偈》。完整的诗句是:\"菩提本无树，明镜亦非台。\n本来无一物，何处惹尘埃!\""
+            ],
+            "keywords": [
+                "菩提本无树",
+                "明镜亦非台"
+            ],
+            "answer_correctness": 0.6594760333772335,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 2,
+                "scene": "local_search",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/local_search.csv",
+                "language": "zh_cn"
+            },
+            "question": "福建晋江灵水中学一初中女生遭霸凌跳楼去世是什么时候？",
+            "answer": "根据搜索结果，福建晋江灵水中学一初中女生遭霸凌跳楼去世的具体时间是2022年11月。这起悲剧引起了广泛的关注和讨论。霸凌是一个严重的问题，对受害者和整个社区都造成了巨大的伤害。我们应该共同努力，加强对霸凌行为的预防和处理，以确保每个人都能在安全和友善的环境中学习和成长。",
+            "ground_truths": [
+                "2024福建晋江灵水中学一初中女生遭霸凌跳楼去世的事件发生在2024年3月24日22时。"
+            ],
+            "keywords": [
+                "3月24日"
+            ],
+            "answer_correctness": 0.5662955857143596,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 3,
+                "scene": "local_search",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/local_search.csv",
+                "language": "zh_cn"
+            },
+            "question": "那歌鱼是海鱼吗？",
+            "answer": "是的，歌鱼是一种海鱼。歌鱼也被称为鳕鱼，属于鳕鱼科。它们主要栖息在北大西洋的冷水海域，包括大西洋沿岸的欧洲和北美洲。歌鱼以其肉质鲜美而受到人们的喜爱，常被用于烹饪各种美食。",
+            "ground_truths": [
+                "是的，那歌鱼是海鱼。"
+            ],
+            "keywords": [
+                "是"
+            ],
+            "answer_correctness": 0.641261798761843,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 4,
+                "scene": "local_search",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/local_search.csv",
+                "language": "zh_cn"
+            },
+            "question": "四面楚歌的主人公是谁？",
+            "answer": "四面楚歌的主人公是谁？\n根据提供的搜索结果，没有找到关于\"四面楚歌\"的主人公的相关信息。很抱歉，我无法提供准确的答案。如果您有其他问题，我将很乐意帮助您。",
+            "ground_truths": [
+                "四面楚歌的主人公是西楚霸王项羽。"
+            ],
+            "keywords": [
+                "项羽"
+            ],
+            "answer_correctness": 0.5211665430529347,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 5,
+                "scene": "local_search",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/local_search.csv",
+                "language": "zh_cn"
+            },
+            "question": "跟领导吃饭座位安排图",
+            "answer": "根据搜索结果，我找到了一些关于跟领导吃饭座位安排图的信息。然而，这些搜索结果中没有提供具体的座位安排图或相关的详细信息。因此，我无法提供确切的座位安排图。如果您需要座位安排图，建议您联系相关的活动组织者或餐厅，以获取准确的信息。",
+            "ground_truths": [
+                "中餐宴请座次安排\n主陪(通常是领导)坐在面对大门的位置\n副主陪(通常是主陪的助手)坐在主陪的对面\n1号客人坐在主陪的右手边\n2号客人坐在主陪的左手边\n3号客人坐在副主陪的右手边\n4号客人坐在副主陪的左手边\n其他客人可以随意安排"
+            ],
+            "keywords": [
+                "右"
+            ],
+            "answer_correctness": 0.5106636534420208,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 6,
+                "scene": "local_search",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/local_search.csv",
+                "language": "zh_cn"
+            },
+            "question": "风水轮流转同义词有哪些？",
+            "answer": "风水轮流转同义词有哪些？\n风水轮流转是一个成语，意思是事物或者人的命运会随着时间的推移而发生变化。它的同义词有以下几个：\n\n时来运转\n轮到自己\n机会均等\n一切都会好起来\n好事多磨\n黎明前的黑暗\n阴差阳错\n坎坷不平\n一波三折\n\n",
+            "ground_truths": [
+                "风水轮流转的同义词包括“否极泰来”、“物极必反”、“柳暗花明”、“绝处逢生”、“苦尽甘来”和“绝地反击”。其他类似的词还有“三十年河东三十年河西”、“风水轮流”和“十年河东十年河西”。"
+            ],
+            "keywords": [
+                "三十年河东||咸鱼翻身||苦尽甘来||时来运转||此一时彼一时||时来运转||枯木逢春"
+            ],
+            "answer_correctness": 0.5567046639603391,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 7,
+                "scene": "local_search",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/local_search.csv",
+                "language": "zh_cn"
+            },
+            "question": "珠海华融时代广场多少米？",
+            "answer": "根据搜索结果，我无法找到关于珠海华融时代广场距离的确切信息。很抱歉，我无法回答这个问题。如果您有其他问题，我会尽力帮助您。",
+            "ground_truths": [
+                "珠海华融时代广场的建筑高度为196米。"
+            ],
+            "keywords": [
+                "196"
+            ],
+            "answer_correctness": 0.5036151758193513,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 8,
+                "scene": "local_search",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/local_search.csv",
+                "language": "zh_cn"
+            },
+            "question": "相亲时媒婆说女方长得有福气，这是什么意思？",
+            "answer": "媒婆说女方长得有福气，这是什么意思？\n根据搜索结果，\"女方长得有福气\"这句话的意思是女方长相好，有福气。\"福气\"可以理解为幸运、好运气的意思。这句话是在夸奖女方长得漂亮、有吉祥之意。\n参考来源：\n-(https://www.quora.com/Whats-the-difference-between-%E4%BD%A0%E6%9C%89%E4%BB%",
+            "ground_truths": [
+                "相亲时媒婆说女方长得有福气，通常指女方看起来健康、体态丰满、体型偏胖。"
+            ],
+            "keywords": [
+                "胖||吃||丰满"
+            ],
+            "answer_correctness": 0.5521287101547899,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 9,
+                "scene": "local_search",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/local_search.csv",
+                "language": "zh_cn"
+            },
+            "question": "为什么工地开工要祭拜？",
+            "answer": "为什么工地开工要祭拜？\n在中国传统文化中，祭拜在很多场合都是一种重要的仪式。在工地开工之前进行祭拜，是一种传统的习俗。以下是一些可能的原因：\n\n祈求安全和顺利：祭拜是一种向神灵或祖先祈求保佑和庇护的方式。在工地开工之前进行祭拜，可以祈求工程的安全和顺利进行，避免意\n",
+            "ground_truths": [
+                "工地开工要祭拜的原因主要是为了向土地神灵、过往鬼魂以及凶神恶煞告知即将在此地兴工建宅，避免冒犯这些神灵和鬼魂，同时请求他们的协助，希望工程能够顺利开展，并驱逐可能存在的煞气和秽气。此外，烧香祭拜是一种与神明连接的桥梁，通过这种方式表达对神明的敬意和祈求保佑"
+            ],
+            "keywords": [
+                "神||鬼"
+            ],
+            "answer_correctness": 0.6286328225577869,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 10,
+                "scene": "local_search",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/local_search.csv",
+                "language": "zh_cn"
+            },
+            "question": "巴浪鱼是哪里的方言？",
+            "answer": "巴浪鱼是哪里的方言？\n根据搜索结果，巴浪鱼并不是方言，而是一种鱼类的名称。巴浪鱼是指一种生活在淡水中的鱼类，主要分布在中国的长江流域和珠江流域等地。它是一种重要的经济鱼类，也是中国传统的美食之一。\n希望这个回答对您有帮助！如果您还有其他问题，请随时提问。",
+            "ground_truths": [
+                "巴浪鱼是福建和潮汕地区的方言。"
+            ],
+            "keywords": [
+                "潮汕||福建||福州"
+            ],
+            "answer_correctness": 0.5485079411770328,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 11,
+                "scene": "local_search",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/local_search.csv",
+                "language": "zh_cn"
+            },
+            "question": "跟领导吃饭，转盘是顺时针转，还是逆时针转？",
+            "answer": "转盘的转动方向取决于具体的情况。一般来说，转盘可以顺时针转动，也可以逆时针转动。在与领导吃饭时，转盘的转动方向可能由主办方或者领导决定。因此，最好在具体情况下向主办方或者领导确认转盘的转动方向。",
+            "ground_truths": [
+                "跟领导吃饭时，转盘应该顺时针转。"
+            ],
+            "keywords": [
+                "顺时针"
+            ],
+            "answer_correctness": 0.5509437003749549,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 12,
+                "scene": "local_search",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/local_search.csv",
+                "language": "zh_cn"
+            },
+            "question": "黄花大闺女黄花是指什么花？",
+            "answer": "黄花大闺女中的黄花指的是一种植物，具体是指黄花菜（Solidago decurrens Lour.）。黄花菜是一种常见的野菜，也是一种草本植物，属于菊科植物。它的花朵呈黄色，因此得名黄花菜。黄花菜在中国南方地区比较常见，尤其在湖南、湖北等地被广泛食用。它富含维生素C、蛋白",
+            "ground_truths": [
+                "\"黄花大闺女\"中的\"黄花\"通常指的是菊花。古代中国认为菊花能傲霜耐寒，是高洁雅致的象征，因此用\"黄花\"来代表未出嫁的少女。"
+            ],
+            "keywords": [
+                "菊花"
+            ],
+            "answer_correctness": 0.5398114835138813,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 13,
+                "scene": "local_search",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/local_search.csv",
+                "language": "zh_cn"
+            },
+            "question": "卧薪尝胆的主人公是谁？",
+            "answer": "卧薪尝胆的主人公是谁？\n卧薪尝胆的主人公是中国历史上的一位著名人物，他的名字是范蠡。范蠡是春秋时期楚国的一位贤臣，他为了报国雪耻，决心忍辱负重，卧薪尝胆，最终帮助楚国重新崛起。\n范蠡的故事发生在公元前5世纪，当时楚国被越国",
+            "ground_truths": [
+                "卧薪尝胆的主人公是越王勾践。"
+            ],
+            "keywords": [
+                "勾践"
+            ],
+            "answer_correctness": 0.5452115600767597,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 14,
+                "scene": "local_search",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/local_search.csv",
+                "language": "zh_cn"
+            },
+            "question": "相亲时媒婆说男方会疼人，这是什么意思？",
+            "answer": "媒婆说男方会疼人，这是什么意思？\n当媒婆说男方会疼人时，这通常意味着男方会对女方关心、体贴和照顾。这是一种表达男方对女方的爱和关怀的方式。这可能包括在日常生活中照顾女方的需求，关心她的感受，以及为她提供支持和安慰。这种说法通常是在相亲过程中，媒婆用来描述男方的优点和对女方的好感。\n参考来源：\n-(https://www.quora.com/Whats-the-difference-between-%E",
+            "ground_truths": [
+                "当媒婆说男方\"很会疼人\"时，这通常意味着一个警告信号，表示该男性可能是离异人士。"
+            ],
+            "keywords": [
+                "年纪大||离过婚||离婚||离异"
+            ],
+            "answer_correctness": 0.536706494894246,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 15,
+                "scene": "local_search",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/local_search.csv",
+                "language": "ja"
+            },
+            "question": "宮沢賢治にはどんな著作がありますか。",
+            "answer": "宮沢賢治の著作について\n宮沢賢治は、日本の作家であり、詩人でもあります。彼の作品は、子供向けの童話や詩集が特に有名です。以下は、宮沢賢治の代表的な著作のいくつかです。\n\n『銀河鉄道の夜』: 宮沢賢治の代表作であり、多くの人に愛されています。この物語は、少年ジョバンニと天使のカムパネル\n",
+            "ground_truths": [
+                "「注文の多い料理店」（1924年）: 宮沢賢治の代表作の一つであり、多くの人々に愛されています。物語は注文の多い料理店の主人と、その店を支える猫の心温まる交流を描いています。\n「雨ニモマケズ」（1931年）: 別名「雨にも負けず」で知られる作品で、風雨に負けない強い心を持つことの大切さを描いています。この作品も宮沢賢治の人気作品の一つです。\n「銀河鉄道の夜」（未定稿）: 未完の作品であり、賢治の死後に発見されました。銀河鉄道を舞台にした幻想的な物語で、多くの読者を魅了しています。\n「風の又三郎」（1934年）: 宮沢賢治が亡くなった後に出版された作品であり、風の音を聞くことのできる又三郎という少年の物語です。"
+            ],
+            "keywords": [
+                "雨ニモマケズ",
+                "注文の多い料理店",
+                "銀河鉄道の夜",
+                "風の又三郎"
+            ],
+            "answer_correctness": 0.6971828378893263,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 16,
+                "scene": "local_search",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/local_search.csv",
+                "language": "ja"
+            },
+            "question": "進撃の巨人はいつ発行されましたか？",
+            "answer": "進撃の巨人は2013年に発行されました。",
+            "ground_truths": [
+                "「進撃の巨人」は、諫山創による日本の漫画作品で、2009年9月9日に発行が開始されました。そして、2021年4月9日に連載が完結しました。最新刊（34巻）は2021年6月9日に発売されました⁵。この作品は世界中で非常に人気があり、多くの派生作品が生まれています。"
+            ],
+            "keywords": [
+                "2009年9月"
+            ],
+            "answer_correctness": 0.5513672363116997,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 17,
+                "scene": "local_search",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/local_search.csv",
+                "language": "zh_cn"
+            },
+            "question": "三体中那个真正会魔法的妓女叫什么？",
+            "answer": "根据搜索结果，我无法找到关于《三体》中真正会魔法的妓女的信息。很抱歉，我无法回答这个问题。如果您有其他问题，我会很乐意帮助您。",
+            "ground_truths": [
+                "在《三体》系列中，真正会魔法的妓女被称为狄奥伦娜（Diolena）\n. 狄奥伦娜是一位十五世纪拜占庭帝国时期的妓女，被描述为可能是人类历史上唯一一个真正的魔法师\n. 这个角色引发了故事中关于多维空间和神秘力量的讨论，是《三体》系列中引人注目的角色之一。"
+            ],
+            "keywords": [
+                "狄奥伦娜||Diolena"
+            ],
+            "answer_correctness": 0.5173516202051225,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 18,
+                "scene": "local_search",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/local_search.csv",
+                "language": "ja"
+            },
+            "question": "奥の細道は何年生まれですか。",
+            "answer": "奥の細道は、日本の文学作品であり、松尾芭蕉によって書かれました。奥の細道は、芭蕉が元禄15年（1702年）から元禄17年（1704年）にかけて行った旅行の記録です。",
+            "ground_truths": [
+                "奥の細道の作者は、江戸時代の俳人である松尾芭蕉です。芭蕉は1644年に生まれました。"
+            ],
+            "keywords": [
+                "1644"
+            ],
+            "answer_correctness": 0.5705368963387408,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 19,
+                "scene": "local_search",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/local_search.csv",
+                "language": "ja"
+            },
+            "question": "正岡子は何年に俳句革新運動に参加しましたか。",
+            "answer": "正岡子は何年に俳句革新運動に参加しましたか。\n私の調査によると、正岡子は俳句革新運動には参加していませんでした。俳句革新運動は、19世紀末から20世紀初頭にかけて行われた俳句の新しいスタイルやアプローチを追求する運動でしたが、正岡子はその時代よりも後の時期に活動していたため、参加していないとされています。\nもし他の質問がありましたら、お気",
+            "ground_truths": [
+                "正岡子規は、1893年（明治26年）に「獺祭書屋俳話（だっさいしょおくはいわ）」を新聞『日本』に連載し、俳句革新運動を開始しました"
+            ],
+            "keywords": [
+                "1893"
+            ],
+            "answer_correctness": 0.5317731660424972,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 20,
+                "scene": "local_search",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/local_search.csv",
+                "language": "ja"
+            },
+            "question": "松尾芭蕉の父の名前は何ですか。",
+            "answer": "松尾芭蕉の父の名前は松尾常三郎です。[[1]]",
+            "ground_truths": [
+                "松尾芭蕉の父の名前は松尾与左衛門です"
+            ],
+            "keywords": [
+                "は松尾与左衛門です"
+            ],
+            "answer_correctness": 0.56393274163628,
+            "passed": false
+        }
+    ]
+}
