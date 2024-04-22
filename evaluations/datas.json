@@ -3,6 +3,26 @@
         "date": "2024-04-22",
         "list": [
             {
+                "scene": "real_time_news",
+                "total": 19,
+                "passed": 8,
+                "failed": 11,
+                "pass_rate": "42.11%",
+                "answer_correctness": 0.6661207688620167,
+                "list": [
+                    {
+                        "total": 19,
+                        "passed": 8,
+                        "failed": 11,
+                        "pass_rate": "42.11%",
+                        "answer_correctness": 0.6661207688620167,
+                        "source": "https://github.com/sparticleinc/CRED/blob/main/evaluations/real_time_news/20240422-glarity_search.json",
+                        "source_csv": "https://github.com/sparticleinc/CRED/blob/main/evaluations/real_time_news/20240422-glarity_search.csv",
+                        "evaluate_ai": "glarity_search"
+                    }
+                ]
+            },
+            {
                 "scene": "local_search",
                 "total": 20,
                 "passed": 11,
@@ -63,11 +83,11 @@
                 ]
             }
         ],
-        "total": 60,
-        "passed": 31,
-        "failed": 29,
-        "pass_rate": "51.67%",
-        "answer_correctness": 0.6851478775538299
+        "total": 79,
+        "passed": 39,
+        "failed": 40,
+        "pass_rate": "49.37%",
+        "answer_correctness": 0.6803911003808767
     },
     {
         "date": "2024-04-19",
