@@ -4,11 +4,11 @@
         "list": [
             {
                 "scene": "technical_consulting",
-                "total": 60,
-                "passed": 17,
-                "failed": 43,
-                "pass_rate": "28.33%",
-                "answer_correctness": 0.6057835439905416,
+                "total": 80,
+                "passed": 22,
+                "failed": 58,
+                "pass_rate": "27.50%",
+                "answer_correctness": 0.6101698549746809,
                 "list": [
                     {
                         "total": 20,
@@ -29,6 +29,16 @@
                         "source": "https://github.com/sparticleinc/CRED/blob/main/evaluations/technical_consulting/20240422-glarity_search.json",
                         "source_csv": "https://github.com/sparticleinc/CRED/blob/main/evaluations/technical_consulting/20240422-glarity_search.csv",
                         "evaluate_ai": "glarity_search"
+                    },
+                    {
+                        "total": 20,
+                        "passed": 5,
+                        "failed": 15,
+                        "pass_rate": "25.00%",
+                        "answer_correctness": 0.6233287879270992,
+                        "source": "https://github.com/sparticleinc/CRED/blob/main/evaluations/technical_consulting/20240422-metaso.json",
+                        "source_csv": "https://github.com/sparticleinc/CRED/blob/main/evaluations/technical_consulting/20240422-metaso.csv",
+                        "evaluate_ai": "metaso"
                     },
                     {
                         "total": 20,
@@ -283,11 +293,11 @@
                 ]
             }
         ],
-        "total": 455,
-        "passed": 169,
-        "failed": 286,
-        "pass_rate": "37.14%",
-        "answer_correctness": 0.6357348016019783
+        "total": 475,
+        "passed": 174,
+        "failed": 301,
+        "pass_rate": "36.63%",
+        "answer_correctness": 0.6366120637988063
     },
     {
         "date": "2024-04-19",
