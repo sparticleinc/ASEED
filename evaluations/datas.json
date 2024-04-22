@@ -44,11 +44,11 @@
             },
             {
                 "scene": "local_search",
-                "total": 80,
-                "passed": 42,
-                "failed": 38,
-                "pass_rate": "52.50%",
-                "answer_correctness": 0.6561503292223257,
+                "total": 100,
+                "passed": 51,
+                "failed": 49,
+                "pass_rate": "51.00%",
+                "answer_correctness": 0.6522930209857102,
                 "list": [
                     {
                         "total": 20,
@@ -89,6 +89,16 @@
                         "source": "https://github.com/sparticleinc/CRED/blob/main/evaluations/local_search/20240422-you.json",
                         "source_csv": "https://github.com/sparticleinc/CRED/blob/main/evaluations/local_search/20240422-you.csv",
                         "evaluate_ai": "you"
+                    },
+                    {
+                        "total": 20,
+                        "passed": 9,
+                        "failed": 11,
+                        "pass_rate": "45.00%",
+                        "answer_correctness": 0.6368637880392481,
+                        "source": "https://github.com/sparticleinc/CRED/blob/main/evaluations/local_search/20240422-iask.json",
+                        "source_csv": "https://github.com/sparticleinc/CRED/blob/main/evaluations/local_search/20240422-iask.csv",
+                        "evaluate_ai": "iask"
                     }
                 ]
             },
@@ -183,11 +193,11 @@
                 ]
             }
         ],
-        "total": 259,
-        "passed": 111,
-        "failed": 148,
-        "pass_rate": "42.86%",
-        "answer_correctness": 0.6604433251430376
+        "total": 279,
+        "passed": 120,
+        "failed": 159,
+        "pass_rate": "43.01%",
+        "answer_correctness": 0.6596718634957146
     },
     {
         "date": "2024-04-19",
