@@ -44,11 +44,11 @@
             },
             {
                 "scene": "real_time_news",
-                "total": 76,
-                "passed": 21,
-                "failed": 55,
-                "pass_rate": "27.63%",
-                "answer_correctness": 0.6316919560140104,
+                "total": 95,
+                "passed": 25,
+                "failed": 70,
+                "pass_rate": "26.32%",
+                "answer_correctness": 0.6224849711338132,
                 "list": [
                     {
                         "total": 19,
@@ -79,6 +79,16 @@
                         "source": "https://github.com/sparticleinc/CRED/blob/main/evaluations/real_time_news/20240422-metaso.json",
                         "source_csv": "https://github.com/sparticleinc/CRED/blob/main/evaluations/real_time_news/20240422-metaso.csv",
                         "evaluate_ai": "metaso"
+                    },
+                    {
+                        "total": 19,
+                        "passed": 4,
+                        "failed": 15,
+                        "pass_rate": "21.05%",
+                        "answer_correctness": 0.5856570316130244,
+                        "source": "https://github.com/sparticleinc/CRED/blob/main/evaluations/real_time_news/20240422-you.json",
+                        "source_csv": "https://github.com/sparticleinc/CRED/blob/main/evaluations/real_time_news/20240422-you.csv",
+                        "evaluate_ai": "you"
                     },
                     {
                         "total": 19,
@@ -273,11 +283,11 @@
                 ]
             }
         ],
-        "total": 436,
-        "passed": 165,
-        "failed": 271,
-        "pass_rate": "37.84%",
-        "answer_correctness": 0.6375761985780178
+        "total": 455,
+        "passed": 169,
+        "failed": 286,
+        "pass_rate": "37.14%",
+        "answer_correctness": 0.6357348016019783
     },
     {
         "date": "2024-04-19",
