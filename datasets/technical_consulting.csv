@@ -1,7 +1,54 @@
-id,query,ground_truth,expect_key_words,language,description
-0,Anthoropic Claude のデータ保持期間は？,Anthoropic Claude のデータ保持期間は、通常は受信または生成後90日以内にバックエンドでプロンプトと出力を自動的に削除しますが、信頼性およびセキュリティの分類子によってフラグが立てられたプロンプトの場合は最大2年間保持されます。,90,ja,
-1,vocol-ai-逐字稿筆記神器是什麼-有什麼特點和應用場景,Vocol.ai 是一款強大的 AI 語音協作平台，提供自動逐字稿和摘要功能，幫助使用者快速將會議或對話等語音轉換成文字記錄。以下是 Vocol.ai 的特點和應用場景： 特點： 語言支援：Vocol.ai 支援多種語言，包括中文、英文、日文等。 自然語言模型：採用先進的自然語言模型技術，如 GPT，提供準確的逐字稿和摘要功能。 AI 摘要：自動生成摘要和重點，提供快速閱讀整理資訊的功能。 易用介面：提供直觀易用的平台，方便使用者存取、分享和編輯逐字稿和摘要。 協作功能：支援雲端記錄、評論和劃重點，使與會者可以參與回顧和討論會議內容。 應用場景： 會議記錄：用於轉錄會議內容，製作逐字稿和摘要，方便後續查閱或分享。 學習筆記：學生可以使用 Vocol.ai 製作課堂筆記，製作逐字稿和摘要以供學習和記錄。 團隊協作：在跨國團隊或遠端工作情況下，協助團隊成員快速理解會議內容和進度。 媒體採訪：媒體人可以將採訪內容快速轉錄成文字，方便後續編輯和使用。 教育訓練：在線上課程或教學中使用 Vocol.ai 提供的逐字稿和摘要，幫助學生更好理解內容。 總的來說，Vocol.ai 是一個全方位的逐字稿和摘要工具，適用於各種工作場景和學習需求，提供快速、準確和便利的文字轉錄和整理功能。,,zh-tw,
-2,ios如何安装ipa文件？,"使用 iTunes 同步安装:
+﻿id,query,ground_truth,expect_key_words,language,description
+0,OPENAI APIを通じて入れたデータは学習される？,"1. OpenAIは、APIを通じて送信されたデータを、OpenAIのモデルの学習や改善には使用しません。ただし、ユーザーが明示的に同意した場合は、そのデータを使用することができます。
+2. APIを通じて送信されたデータは、不正利用や監視のために最大30日間保持されます。その後は削除されます。ただし、法的要求がある場合はこの限りではありません。
+3. ユーザーがファイルエンドポイントを通じて送信したデータ(例えばモデルのファインチューニング用)は、ユーザーが削除するまで保持されます。
+4. この利用ポリシーはOpenAIのコンシューマ向けサービス(ChatGPTやDALL-E)には適用されません。それらのサービスについては別のポリシーが適用されます。",しません||30,ja,
+1,Azure OpenAI Service Abuse Monitoringについての記載を教えて？,"はい、Azure OpenAI Service の不正利用監視についての概要は以下になります。
+
+コンテンツ分類:
+
+入力プロンプトや出力コンテンツを分析し、ハラスメントや差別的な内容などを検知
+深刻度のレベルを判定
+悪用パターンの検知:
+
+顧客の利用パターンを分析し、悪用の兆候を検出
+有害コンテンツの検出頻度や深刻度などを考慮
+人的レビューと判断:
+
+コンテンツ分類や悪用パターンの検知結果について、Microsoft社内の権限ある社員がレビューを行い、適切な判断を下す
+社員はセキュアなワークステーションからのみデータにアクセス可能
+通知と措置:
+
+一定水準の悪用行為が確認された場合、顧客に通知し、是正を求める
+顧客が対応しない場合や、悪用が継続・深刻な場合は、サービスへのアクセスを停止・終了する措置を取る",コンテンツ分類||悪用パターンの検知||人的レビューと判断||通知と措置,ja,
+2,Anthoropic Claude のデータ保持期間は？,Anthoropic Claude のデータ保持期間は、通常は受信または生成後90日以内にバックエンドでプロンプトと出力を自動的に削除しますが、信頼性およびセキュリティの分類子によってフラグが立てられたプロンプトの場合は最大2年間保持されます。,90,ja,
+3,OpenAI APIで入力されたデータは人間に見られますか？,デフォルトの場合，OpenAI APIに提出されたデータはAIモデルの訓練には利用されない.,されない,ja,
+4,Anthoropic Claude のデータポリシーは？,ユーザーの個人データは、モデルのトレーニングに使用されないため、ユーザーデータを利用してモデルを構築することはありません。,,ja,
+5,OPENAIAssistant API のストレージの上限は？,"OpenAI Assistant API には以下のストレージの上限があります:
+アシスタントごとに最大20個のファイルを添付できる
+各ファイルの最大サイズは512MB
+組織がアップロードする全ファイルの限界サイズは100GB
+つまり、1つのアシスタントに最大20個の合計512MB以下のファイルを添付でき、組織全体では最大100GBまでアップロードできるということです。これらの制限は現在のベータ版の仕様であり、今後変更される可能性があります",20&&512&&100,ja,
+6,Evernoteに要素を挿入する方法を教えてください,"Evernoteに要素を挿入する方法として、以下の手順を参考にしてください:
+ノートを開き、要素を挿入したい場所でカーソルを置きます。
+ノート内で要素を挿入するために、""/""キーを押します。
+その後、挿入したい要素の種類を選択します。たとえば、リスト、表、またはその他の要素があります。
+選択した要素を挿入すると、それがノートに表示されます。
+この手順に従うことで、Evernoteで要素を簡単に挿入することができます。","""/""",ja,
+7,Windows-11でファイルを圧縮する際にパスワードを設定する方法はありますか,"Windows 11でファイルを圧縮する際にパスワードを設定する方法はあります。詳細な手順は次の通りです：
+まず、7-Zipなどのファイル圧縮ソフトをダウンロードしてインストールします。
+パスワードを設定したいファイルやフォルダを右クリックし、「7-Zip」→「アーカイブに追加」を選択します。
+次に、表示される新しいウィンドウで、「圧縮レベル」のドロップダウンメニューから「ストア」を選択し、右側の「暗号化」セクションにパスワードを入力します。
+パスワードを入力した後、「OK」をクリックします。すると、.7zの拡張子を持つファイルが同じフォルダ内に作成され、そのファイルはパスワードで保護されます。
+ファイルを開こうとすると、そのファイル内のコンテンツにアクセスするためにパスワードが必要となります。他のコンピューターやプラットフォームで別のアーカイブソフトウェアを使用しても、開く際には引き続きパスワードが必要です。
+以上が、Windows 11でファイルを圧縮してパスワードを設定する手順です。",7-Zip,ja,
+8,MySQL和PostgreSQL那个对性能的要求更低,"MySQL在处理大量读操作时表现出色
+它的存储引擎InnoDB提供了行级锁定和高效的事务处理,适用于并发读取的场景。MySQL还通过查询缓存来提高读取性能
+而PostgreSQL在处理复杂查询和大量写操作时表现出色
+它通过优化查询执行计划和索引来提高查询性能。PostgreSQL还采用MVCC技术,提供了更好的并发处理性能
+
+综合来看,MySQL对性能的要求更低",,zh-cn,
+9,ios如何安装ipa文件？,"使用 iTunes 同步安装:
 将 iOS 设备连接到电脑并打开 iTunes。
 在 iTunes 中选择设备,点击""应用程序""选项卡。
 将下载好的 IPA 文件拖拽到""应用程序""窗口中。
@@ -29,57 +76,20 @@ id,query,ground_truth,expect_key_words,language,description
 
 通过连接iPhone到电脑，并使用iTunes的“文件共享”功能添加并安装ipa文件
 
-采用苹果企业签名、超级签名或tf签名等方法直接在设备上安装",,zh-cn,
-3,what are the applications of lidar in aerospace industry?,"Terrain and Obstacle Mapping: LiDAR can be used to create highly accurate 3D maps of terrain, landscapes, and obstacles. This is useful for mission planning, navigation, and situational awareness in aerospace applications.
-Aircraft and Satellite Detection and Tracking: LiDAR can be used to detect and track aircraft, satellites, and space debris with high precision. This aids in airspace management and collision avoidance.
-Airport Operations: LiDAR can provide precise measurements of runway conditions, including detecting foreign object debris (FOD) and runway surface damage. This improves airport safety and efficiency.
-Autonomous Navigation: LiDAR is a key sensor used in the navigation systems of autonomous aerial vehicles like drones, allowing them to detect and avoid obstacles.
-Bathymetric Mapping: Military applications of LiDAR include bathymetric mapping, which can precisely image terrain features both on land and in the water, useful for naval operations",,en,
-4,Knowledge Bases for Amazon Bedrockの自動データ同期機能とは？,Knowledge Bases for Amazon Bedrockの自動データ同期機能は、Amazon Bedrockの機能の1つであり、ユーザーがクエリする際に使用される知識ベースを自動的に最新の状態に保つ機能です。ユーザーがデータソースをアップロードして知識ベースを作成すると、そのデータソースが定期的に自動的に同期され、知識ベースが最新の情報を反映するようになります。これにより、ユーザーは常に最新の情報を使用して根拠モデルの応答生成を強化することができます。,,ja,
-5,OPENAI APIを通じて入れたデータは学習される？,"1. OpenAIは、APIを通じて送信されたデータを、OpenAIのモデルの学習や改善には使用しません。ただし、ユーザーが明示的に同意した場合は、そのデータを使用することができます。
-2. APIを通じて送信されたデータは、不正利用や監視のために最大30日間保持されます。その後は削除されます。ただし、法的要求がある場合はこの限りではありません。
-3. ユーザーがファイルエンドポイントを通じて送信したデータ(例えばモデルのファインチューニング用)は、ユーザーが削除するまで保持されます。
-4. この利用ポリシーはOpenAIのコンシューマ向けサービス(ChatGPTやDALL-E)には適用されません。それらのサービスについては別のポリシーが適用されます。",,ja,
-6,谷歌屏蔽外围,谷歌屏蔽外围主要是通过其广告政策和工具来实现的。,,zh-cn,
-7,OPENAIAssistant API のストレージの上限は？,"OpenAI Assistant API には以下のストレージの上限があります:
-アシスタントごとに最大20個のファイルを添付できる
-各ファイルの最大サイズは512MB
-組織がアップロードする全ファイルの限界サイズは100GB
-つまり、1つのアシスタントに最大20個の合計512MB以下のファイルを添付でき、組織全体では最大100GBまでアップロードできるということです。これらの制限は現在のベータ版の仕様であり、今後変更される可能性があります",20&&512&&100,ja,
-8,MySQL和PostgreSQL那个对性能的要求更低,"MySQL在处理大量读操作时表现出色
-它的存储引擎InnoDB提供了行级锁定和高效的事务处理,适用于并发读取的场景。MySQL还通过查询缓存来提高读取性能
-而PostgreSQL在处理复杂查询和大量写操作时表现出色
-它通过优化查询执行计划和索引来提高查询性能。PostgreSQL还采用MVCC技术,提供了更好的并发处理性能
-
-综合来看,MySQL对性能的要求更低",,zh-cn,
-9,Windows-11でファイルを圧縮する際にパスワードを設定する方法はありますか,"Windows 11でファイルを圧縮する際にパスワードを設定する方法はあります。詳細な手順は次の通りです：
-まず、7-Zipなどのファイル圧縮ソフトをダウンロードしてインストールします。
-パスワードを設定したいファイルやフォルダを右クリックし、「7-Zip」→「アーカイブに追加」を選択します。
-次に、表示される新しいウィンドウで、「圧縮レベル」のドロップダウンメニューから「ストア」を選択し、右側の「暗号化」セクションにパスワードを入力します。
-パスワードを入力した後、「OK」をクリックします。すると、.7zの拡張子を持つファイルが同じフォルダ内に作成され、そのファイルはパスワードで保護されます。
-ファイルを開こうとすると、そのファイル内のコンテンツにアクセスするためにパスワードが必要となります。他のコンピューターやプラットフォームで別のアーカイブソフトウェアを使用しても、開く際には引き続きパスワードが必要です。
-以上が、Windows 11でファイルを圧縮してパスワードを設定する手順です。",7-Zip,ja,
-10,Azure OpenAI Service Abuse Monitoringについての記載を教えて？,"Azure OpenAIサービスは、行動基準に違反する可能性があるまたは他の適用可能な製品条項の使用方法を示す重複コンテンツおよび/またはアクションのインスタンスを検出および軽減する。
-“データ，プライバシー，セキュリティ”ページでデータ処理方式に関する詳細な情報を見つけることができる.。
-このフォームを用いて修正された悪用監視：Azure OpenAI有限アクセス審査：修正後の悪用監視.",,ja,
-11,DAQ970A 如何检查存储器是否有足够的空间，并检查存储器是否正常工作,"1. 可以通过发送 *MEM? 命令查询仪器的存储器容量。
-2. 如果存储器空间不足,可以通过发送 *RST 命令清除存储器中的数据,以腾出更多空间。",MEM,zh-cn,
-12,OpenAI APIで入力されたデータは人間に見られますか？,デフォルトの場合，OpenAI APIに提出されたデータはAIモデルの訓練には利用されない.,,ja,
-13,我想在edge浏览器查看新闻，但不喜欢自带的资讯源，有什么推荐的新闻源吗？,"1.打开新标签页，在建议的网站磁贴正上方，您会看到一个""Customize""(自定义)选项
+采用苹果企业签名、超级签名或tf签名等方法直接在设备上安装"," iTunes
+浏览器",zh-cn,
+10,如何使用ChatGPT翻译PDF文档,"1. 将PDF文档转换为可编辑的文本格式，如TXT或DOC。
+2. 将这些文本输入给ChatGPT，以逐句翻译文档内容","转
+文本",zh-cn,
+11,gpt-3-5-turbo-0125 1M价格,"输入token价格为 $0.50
+输出token价格为 $1.50","$0.5
+$1.50",zh-cn,
+12,我想在edge浏览器查看新闻，但不喜欢自带的资讯源，有什么推荐的新闻源吗？,"1.打开新标签页，在建议的网站磁贴正上方，您会看到一个""Customize""(自定义)选项
 2.点击该选项，接着在下一个界面确保您选择了""Top sites and my news feed""(热门网站和我的新闻源)
 选择您希望获取新闻的语言，
-3.在语言选择下方，您会看到用于选择您希望查看的内容类型的类别",,zh-cn,
-14,我可以通过 http 连接 splunk 吗？,"您可以通过 HTTP 连接 Splunk:
-1.部署 Google Cloud to Splunk 参考架构时,可以使用 HTTP 或 HTTPS 协议连接 Splunk HEC (HTTP Event Collector)。具体格式为 ""protocol://host[:port]""，其中 protocol 可以是 http 或 https。
-2. 中也提到,Splunk 事件转发扩展可以利用 Splunk HTTP 事件收集器 REST API 将事件从 Adobe Experience Platform Edge Network 发送到 Splunk HTTP 事件收集器。
-3. 中介绍了通过阿里云日志服务 Splunk Add-on 将日志投递到 Splunk 的方法,其中也提到可以使用 HTTP Event Collector (HEC) 进行投递。",,zh-cn,
-15,Anthoropic Claude のデータポリシーは？,ユーザーの個人データは、モデルのトレーニングに使用されないため、ユーザーデータを利用してモデルを構築することはありません。,,ja,
-16,gpt-3-5-turbo-0125和gpt-3-5-turbo-1106有什么区别,"gpt-3-5-turbo-0125和gpt-3-5-turbo-1106之间的主要区别包括发布日期、价格、性能以及功能改进。
-发布日期：GPT-3.5 Turbo 1106比GPT-3.5 Turbo 0125早三个月发布1。
-价格：GPT-3.5 Turbo 1106在输入令牌方面大约是GPT-3.5 Turbo 0125的2.0倍更贵，而在输出令牌方面则大约贵33.3%1。这表明随着时间的推移，OpenAI可能调整了定价策略，使得较新的模型（如0125版本）在某些情况下提供了更高的性价比。
-性能：在处理中文内容时，GPT-3.5-turbo-0125在提取关键词方面的表现不如GPT-3.5-turbo-11062。这表明尽管0125版本在某些方面进行了改进，但在特定语言处理任务上仍存在不足。
-功能改进：GPT-3.这些功能的改进使得1106版本在处理复杂任务时更为高效和可靠。",,zh-cn,
-17,作为一名个人网站运维，除了NPS和FRP还有哪些可以部署在公网服务器上的内网穿透工具，把他们罗列出来并作介绍,"Zerotier是一款开源的内网穿透工具,它采用P2P技术,无需公网服务器即可实现内网穿透。Zerotier特点是安全性高,免费版连接数量无限,但每个终端都需要安装客户端软件。适合个人或小型团队使用。
+3.在语言选择下方，您会看到用于选择您希望查看的内容类型的类别",Customize||自定义,zh-cn,
+13,hostinger选择中国，服务器可以是全球吗,虽然Hostinger在中国没有服务器，但是您可以全球购买他们的服务，并选择最接近您的地区的服务器位置，以获得更好的性能和体验。,可以,zh-cn,
+14,作为一名个人网站运维，除了NPS和FRP还有哪些可以部署在公网服务器上的内网穿透工具，把他们罗列出来并作介绍,"Zerotier是一款开源的内网穿透工具,它采用P2P技术,无需公网服务器即可实现内网穿透。Zerotier特点是安全性高,免费版连接数量无限,但每个终端都需要安装客户端软件。适合个人或小型团队使用。
 Lanproxy是一款基于Go语言开发的内网穿透工具,支持TCP、UDP等多种协议。它采用客户端-服务端架构,服务端部署在公网服务器上,客户端部署在内网设备上。Lanproxy功能相对简单,但部署和使用都比较简单。
 Goproxy是一款功能强大的内网穿透工具,支持TCP、UDP、HTTP、HTTPS等多种协议。它采用客户端-服务端架构,服务端部署在公网服务器上,客户端部署在内网设备上。Goproxy支持多种认证方式,并提供Web管理界面。
 Ngrok是一款非常流行的内网穿透工具,它采用客户端-服务端架构,服务端部署在公网服务器上,客户端部署在内网设备上。Ngrok支持TCP、HTTP、HTTPS等多种协议,并提供了二次开发的API。但Ngrok的免费版有一些限制,如连接数量、子域名等。
@@ -87,13 +97,18 @@ Ngrok是一款非常流行的内网穿透工具,它采用客户端-服务端架�
 cpolar：国产内网穿透工具之一，适用于需要内网穿透服务的场景
 NATAPP：提供内网穿透服务的工具之一，适合个人使用
 ew：一款流行的开源内网穿透工具，具有高性能的特点
-SAKURA FRP：另一种国产内网穿透工具，适用于多种网络环境",,zh-cn,
-18,ISO 7000文件下载给我,ISO属于国际标准，正规渠道是要付费购买的。,购买,zh-cn,
-19,Evernoteに要素を挿入する方法を教えてください,"Evernoteに要素を挿入する方法として、以下の手順を参考にしてください:
-ノートを開き、要素を挿入したい場所でカーソルを置きます。
-ノート内で要素を挿入するために、""/""キーを押します。
-その後、挿入したい要素の種類を選択します。たとえば、リスト、表、またはその他の要素があります。
-選択した要素を挿入すると、それがノートに表示されます。
-この手順に従うことで、Evernoteで要素を簡単に挿入することができます。","""/""",ja,
-20,如何使用ChatGPT翻译PDF文档,"1. 将PDF文档转换为可编辑的文本格式，如TXT或DOC。
-2. 将这些文本输入给ChatGPT，以逐句翻译文档内容",,zh-cn,
+SAKURA FRP：另一种国产内网穿透工具，适用于多种网络环境",Zerotier||Lanproxy||Ngrok||Goproxy,zh-cn,
+15,vocol-ai-逐字稿筆記神器是什麼-有什麼特點和應用場景,Vocol.ai 是一款強大的 AI 語音協作平台，提供自動逐字稿和摘要功能，幫助使用者快速將會議或對話等語音轉換成文字記錄。以下是 Vocol.ai 的特點和應用場景： 特點： 語言支援：Vocol.ai 支援多種語言，包括中文、英文、日文等。 自然語言模型：採用先進的自然語言模型技術，如 GPT，提供準確的逐字稿和摘要功能。 AI 摘要：自動生成摘要和重點，提供快速閱讀整理資訊的功能。 易用介面：提供直觀易用的平台，方便使用者存取、分享和編輯逐字稿和摘要。 協作功能：支援雲端記錄、評論和劃重點，使與會者可以參與回顧和討論會議內容。 應用場景： 會議記錄：用於轉錄會議內容，製作逐字稿和摘要，方便後續查閱或分享。 學習筆記：學生可以使用 Vocol.ai 製作課堂筆記，製作逐字稿和摘要以供學習和記錄。 團隊協作：在跨國團隊或遠端工作情況下，協助團隊成員快速理解會議內容和進度。 媒體採訪：媒體人可以將採訪內容快速轉錄成文字，方便後續編輯和使用。 教育訓練：在線上課程或教學中使用 Vocol.ai 提供的逐字稿和摘要，幫助學生更好理解內容。 總的來說，Vocol.ai 是一個全方位的逐字稿和摘要工具，適用於各種工作場景和學習需求，提供快速、準確和便利的文字轉錄和整理功能。,,zh-tw,
+16,ISO 7000文件下载给我,ISO属于国际标准，正规渠道是要付费购买的。,购买,zh-cn,
+17,Knowledge Bases for Amazon Bedrockの自動データ同期機能とは？,Knowledge Bases for Amazon Bedrockの自動データ同期機能は、Amazon Bedrockの機能の1つであり、ユーザーがクエリする際に使用される知識ベースを自動的に最新の状態に保つ機能です。ユーザーがデータソースをアップロードして知識ベースを作成すると、そのデータソースが定期的に自動的に同期され、知識ベースが最新の情報を反映するようになります。これにより、ユーザーは常に最新の情報を使用して根拠モデルの応答生成を強化することができます。,,ja,
+18,what are the applications of lidar in aerospace industry?,"Terrain and Obstacle Mapping: LiDAR can be used to create highly accurate 3D maps of terrain, landscapes, and obstacles. This is useful for mission planning, navigation, and situational awareness in aerospace applications.
+Aircraft and Satellite Detection and Tracking: LiDAR can be used to detect and track aircraft, satellites, and space debris with high precision. This aids in airspace management and collision avoidance.
+Airport Operations: LiDAR can provide precise measurements of runway conditions, including detecting foreign object debris (FOD) and runway surface damage. This improves airport safety and efficiency.
+Autonomous Navigation: LiDAR is a key sensor used in the navigation systems of autonomous aerial vehicles like drones, allowing them to detect and avoid obstacles.
+Bathymetric Mapping: Military applications of LiDAR include bathymetric mapping, which can precisely image terrain features both on land and in the water, useful for naval operations",Terrain and Obstacle Mapping||Aircraft and Satellite Detection and Tracking||Airport Operations||Autonomous Navigation||Bathymetric Mapping,en,
+19,我可以通过 http 连接 splunk 吗？,"您可以通过 HTTP 连接 Splunk:
+1.部署 Google Cloud to Splunk 参考架构时,可以使用 HTTP 或 HTTPS 协议连接 Splunk HEC (HTTP Event Collector)。具体格式为 ""protocol://host[:port]""，其中 protocol 可以是 http 或 https。
+2. 中也提到,Splunk 事件转发扩展可以利用 Splunk HTTP 事件收集器 REST API 将事件从 Adobe Experience Platform Edge Network 发送到 Splunk HTTP 事件收集器。
+3. 中介绍了通过阿里云日志服务 Splunk Add-on 将日志投递到 Splunk 的方法,其中也提到可以使用 HTTP Event Collector (HEC) 进行投递。",可以,zh-cn,
+20,DAQ970A 如何检查存储器是否有足够的空间，并检查存储器是否正常工作,"1. 可以通过发送 *MEM? 命令查询仪器的存储器容量。
+2. 如果存储器空间不足,可以通过发送 *RST 命令清除存储器中的数据,以腾出更多空间。",MEM,zh-cn,
