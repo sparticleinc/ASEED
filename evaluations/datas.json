@@ -17,6 +17,7 @@
                         "pass_rate": "30.00%",
                         "answer_correctness": 0.6807864987899642,
                         "source": "https://github.com/sparticleinc/CRED/blob/main/evaluations/business_consulting/20240422-glarity_search.json",
+                        "source_csv": "https://github.com/sparticleinc/CRED/blob/main/evaluations/business_consulting/20240422-glarity_search.csv",
                         "evaluate_ai": "glarity_search"
                     }
                 ]
