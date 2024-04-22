@@ -1,5 +1,34 @@
 [
     {
+        "date": "2024-04-22",
+        "list": [
+            {
+                "scene": "business_consulting",
+                "total": 20,
+                "passed": 6,
+                "failed": 14,
+                "pass_rate": "30.00%",
+                "answer_correctness": 0.6807864987899642,
+                "list": [
+                    {
+                        "total": 20,
+                        "passed": 6,
+                        "failed": 14,
+                        "pass_rate": "30.00%",
+                        "answer_correctness": 0.6807864987899642,
+                        "source": "https://github.com/sparticleinc/CRED/blob/main/evaluations/business_consulting/20240422-glarity_search.json",
+                        "evaluate_ai": "glarity_search"
+                    }
+                ]
+            }
+        ],
+        "total": 20,
+        "passed": 6,
+        "failed": 14,
+        "pass_rate": "30.00%",
+        "answer_correctness": 0.6807864987899642
+    },
+    {
         "date": "2024-04-19",
         "list": [
             {
