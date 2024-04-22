@@ -4,11 +4,11 @@
         "list": [
             {
                 "scene": "technical_consulting",
-                "total": 40,
-                "passed": 14,
-                "failed": 26,
-                "pass_rate": "35.00%",
-                "answer_correctness": 0.617358635809403,
+                "total": 60,
+                "passed": 17,
+                "failed": 43,
+                "pass_rate": "28.33%",
+                "answer_correctness": 0.6057835439905416,
                 "list": [
                     {
                         "total": 20,
@@ -29,6 +29,16 @@
                         "source": "https://github.com/sparticleinc/CRED/blob/main/evaluations/technical_consulting/20240422-glarity_search.json",
                         "source_csv": "https://github.com/sparticleinc/CRED/blob/main/evaluations/technical_consulting/20240422-glarity_search.csv",
                         "evaluate_ai": "glarity_search"
+                    },
+                    {
+                        "total": 20,
+                        "passed": 3,
+                        "failed": 17,
+                        "pass_rate": "15.00%",
+                        "answer_correctness": 0.5826333603528185,
+                        "source": "https://github.com/sparticleinc/CRED/blob/main/evaluations/technical_consulting/20240422-you.json",
+                        "source_csv": "https://github.com/sparticleinc/CRED/blob/main/evaluations/technical_consulting/20240422-you.csv",
+                        "evaluate_ai": "you"
                     }
                 ]
             },
@@ -263,11 +273,11 @@
                 ]
             }
         ],
-        "total": 416,
-        "passed": 162,
-        "failed": 254,
-        "pass_rate": "38.94%",
-        "answer_correctness": 0.6398912169417901
+        "total": 436,
+        "passed": 165,
+        "failed": 271,
+        "pass_rate": "37.84%",
+        "answer_correctness": 0.6375761985780178
     },
     {
         "date": "2024-04-19",
