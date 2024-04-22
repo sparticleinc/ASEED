@@ -3,6 +3,26 @@
         "date": "2024-04-22",
         "list": [
             {
+                "scene": "real_time_news",
+                "total": 19,
+                "passed": 8,
+                "failed": 11,
+                "pass_rate": "42.11%",
+                "answer_correctness": 0.6661207688620167,
+                "list": [
+                    {
+                        "total": 19,
+                        "passed": 8,
+                        "failed": 11,
+                        "pass_rate": "42.11%",
+                        "answer_correctness": 0.6661207688620167,
+                        "source": "https://github.com/sparticleinc/CRED/blob/main/evaluations/real_time_news/20240422-glarity_search.json",
+                        "source_csv": "https://github.com/sparticleinc/CRED/blob/main/evaluations/real_time_news/20240422-glarity_search.csv",
+                        "evaluate_ai": "glarity_search"
+                    }
+                ]
+            },
+            {
                 "scene": "local_search",
                 "total": 20,
                 "passed": 11,
@@ -18,6 +38,26 @@
                         "answer_correctness": 0.6773822222720673,
                         "source": "https://github.com/sparticleinc/CRED/blob/main/evaluations/local_search/20240422-glarity_search.json",
                         "source_csv": "https://github.com/sparticleinc/CRED/blob/main/evaluations/local_search/20240422-glarity_search.csv",
+                        "evaluate_ai": "glarity_search"
+                    }
+                ]
+            },
+            {
+                "scene": "products_search",
+                "total": 20,
+                "passed": 14,
+                "failed": 6,
+                "pass_rate": "70.00%",
+                "answer_correctness": 0.6972749115994583,
+                "list": [
+                    {
+                        "total": 20,
+                        "passed": 14,
+                        "failed": 6,
+                        "pass_rate": "70.00%",
+                        "answer_correctness": 0.6972749115994583,
+                        "source": "https://github.com/sparticleinc/CRED/blob/main/evaluations/products_search/20240422-glarity_search.json",
+                        "source_csv": "https://github.com/sparticleinc/CRED/blob/main/evaluations/products_search/20240422-glarity_search.csv",
                         "evaluate_ai": "glarity_search"
                     }
                 ]
@@ -43,11 +83,11 @@
                 ]
             }
         ],
-        "total": 40,
-        "passed": 17,
-        "failed": 23,
-        "pass_rate": "42.50%",
-        "answer_correctness": 0.6790843605310157
+        "total": 79,
+        "passed": 39,
+        "failed": 40,
+        "pass_rate": "49.37%",
+        "answer_correctness": 0.6803911003808767
     },
     {
         "date": "2024-04-19",
