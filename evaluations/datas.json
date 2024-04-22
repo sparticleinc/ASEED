@@ -3,6 +3,26 @@
         "date": "2024-04-22",
         "list": [
             {
+                "scene": "technical_consulting",
+                "total": 20,
+                "passed": 7,
+                "failed": 13,
+                "pass_rate": "35.00%",
+                "answer_correctness": 0.6357217064687335,
+                "list": [
+                    {
+                        "total": 20,
+                        "passed": 7,
+                        "failed": 13,
+                        "pass_rate": "35.00%",
+                        "answer_correctness": 0.6357217064687335,
+                        "source": "https://github.com/sparticleinc/CRED/blob/main/evaluations/technical_consulting/20240422-glarity_search.json",
+                        "source_csv": "https://github.com/sparticleinc/CRED/blob/main/evaluations/technical_consulting/20240422-glarity_search.csv",
+                        "evaluate_ai": "glarity_search"
+                    }
+                ]
+            },
+            {
                 "scene": "real_time_news",
                 "total": 19,
                 "passed": 8,
@@ -93,11 +113,11 @@
                 ]
             }
         ],
-        "total": 99,
-        "passed": 46,
-        "failed": 53,
-        "pass_rate": "46.46%",
-        "answer_correctness": 0.6800388931620454
+        "total": 119,
+        "passed": 53,
+        "failed": 66,
+        "pass_rate": "44.54%",
+        "answer_correctness": 0.671175455823383
     },
     {
         "date": "2024-04-19",
