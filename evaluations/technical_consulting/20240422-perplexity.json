@@ -330,6 +330,7 @@
             "keywords": [
                 "Terrain and Obstacle Mapping||Aircraft and Satellite Detection and Tracking||Airport Operations||Autonomous Navigation||Bathymetric Mapping"
             ],
+            "answer_correctness": 0.7272494703518826,
             "passed": true
         },
         {
@@ -347,6 +348,7 @@
             "keywords": [
                 "可以"
             ],
+            "answer_correctness": 0.6970268684124674,
             "passed": true
         },
         {
@@ -364,6 +366,7 @@
             "keywords": [
                 "MEM"
             ],
+            "answer_correctness": 0.7562168756456318,
             "passed": true
         }
     ]
