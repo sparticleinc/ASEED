@@ -49,11 +49,20 @@
             },
             {
                 "scene": "real_time_news",
-                "total": 40,
-                "passed": 15,
-                "failed": 25,
-                "pass_rate": "37.50%",
+                "total": 60,
+                "passed": 23,
+                "failed": 37,
+                "pass_rate": "38.33%",
                 "list": [
+                    {
+                        "total": 20,
+                        "passed": 8,
+                        "failed": 12,
+                        "pass_rate": "40.00%",
+                        "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/real_time_news/20240424-perplexity.json",
+                        "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/real_time_news/20240424-perplexity.csv",
+                        "evaluate_ai": "perplexity"
+                    },
                     {
                         "total": 20,
                         "passed": 10,
@@ -75,10 +84,10 @@
                 ]
             }
         ],
-        "total": 120,
-        "passed": 41,
-        "failed": 79,
-        "pass_rate": "34.17%"
+        "total": 140,
+        "passed": 49,
+        "failed": 91,
+        "pass_rate": "35.00%"
     },
     {
         "date": "2024-04-22",
