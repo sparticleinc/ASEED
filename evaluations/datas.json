@@ -112,11 +112,20 @@
             },
             {
                 "scene": "local_search",
-                "total": 40,
-                "passed": 25,
-                "failed": 15,
-                "pass_rate": "62.50%",
+                "total": 60,
+                "passed": 38,
+                "failed": 22,
+                "pass_rate": "63.33%",
                 "list": [
+                    {
+                        "total": 20,
+                        "passed": 13,
+                        "failed": 7,
+                        "pass_rate": "65.00%",
+                        "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/local_search/20240424-perplexity.json",
+                        "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/local_search/20240424-perplexity.csv",
+                        "evaluate_ai": "perplexity"
+                    },
                     {
                         "total": 20,
                         "passed": 12,
@@ -192,10 +201,10 @@
                 ]
             }
         ],
-        "total": 340,
-        "passed": 132,
-        "failed": 208,
-        "pass_rate": "38.82%"
+        "total": 360,
+        "passed": 145,
+        "failed": 215,
+        "pass_rate": "40.28%"
     },
     {
         "date": "2024-04-22",
