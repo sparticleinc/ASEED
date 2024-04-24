@@ -91,12 +91,30 @@
                         "evaluate_ai": "metaso"
                     }
                 ]
+            },
+            {
+                "scene": "products_search",
+                "total": 20,
+                "passed": 13,
+                "failed": 7,
+                "pass_rate": "65.00%",
+                "list": [
+                    {
+                        "total": 20,
+                        "passed": 13,
+                        "failed": 7,
+                        "pass_rate": "65.00%",
+                        "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/products_search/20240424-glarity_search.json",
+                        "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/products_search/20240424-glarity_search.csv",
+                        "evaluate_ai": "glarity_search"
+                    }
+                ]
             }
         ],
-        "total": 160,
-        "passed": 53,
-        "failed": 107,
-        "pass_rate": "33.12%"
+        "total": 180,
+        "passed": 66,
+        "failed": 114,
+        "pass_rate": "36.67%"
     },
     {
         "date": "2024-04-22",
