@@ -139,10 +139,10 @@
             },
             {
                 "scene": "products_search",
-                "total": 80,
-                "passed": 35,
-                "failed": 45,
-                "pass_rate": "43.75%",
+                "total": 100,
+                "passed": 41,
+                "failed": 59,
+                "pass_rate": "41.00%",
                 "list": [
                     {
                         "total": 20,
@@ -179,14 +179,23 @@
                         "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/products_search/20240424-you.json",
                         "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/products_search/20240424-you.csv",
                         "evaluate_ai": "you"
+                    },
+                    {
+                        "total": 20,
+                        "passed": 6,
+                        "failed": 14,
+                        "pass_rate": "30.00%",
+                        "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/products_search/20240424-iask.json",
+                        "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/products_search/20240424-iask.csv",
+                        "evaluate_ai": "iask"
                     }
                 ]
             }
         ],
-        "total": 320,
-        "passed": 126,
-        "failed": 194,
-        "pass_rate": "39.38%"
+        "total": 340,
+        "passed": 132,
+        "failed": 208,
+        "pass_rate": "38.82%"
     },
     {
         "date": "2024-04-22",
