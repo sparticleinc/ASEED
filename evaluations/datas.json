@@ -202,10 +202,10 @@
             },
             {
                 "scene": "business_consulting",
-                "total": 40,
-                "passed": 15,
-                "failed": 25,
-                "pass_rate": "37.50%",
+                "total": 60,
+                "passed": 21,
+                "failed": 39,
+                "pass_rate": "35.00%",
                 "list": [
                     {
                         "total": 20,
@@ -215,6 +215,15 @@
                         "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/business_consulting/20240424-perplexity.json",
                         "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/business_consulting/20240424-perplexity.csv",
                         "evaluate_ai": "perplexity"
+                    },
+                    {
+                        "total": 20,
+                        "passed": 6,
+                        "failed": 14,
+                        "pass_rate": "30.00%",
+                        "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/business_consulting/20240424-glarity_search.json",
+                        "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/business_consulting/20240424-glarity_search.csv",
+                        "evaluate_ai": "glarity_search"
                     },
                     {
                         "total": 20,
@@ -228,10 +237,10 @@
                 ]
             }
         ],
-        "total": 400,
-        "passed": 160,
-        "failed": 240,
-        "pass_rate": "40.00%"
+        "total": 420,
+        "passed": 166,
+        "failed": 254,
+        "pass_rate": "39.52%"
     },
     {
         "date": "2024-04-22",
