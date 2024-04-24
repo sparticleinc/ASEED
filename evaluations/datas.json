@@ -1,5 +1,34 @@
 [
     {
+        "date": "2024-04-24",
+        "list": [
+            {
+                "scene": "technical_consulting",
+                "total": 20,
+                "passed": 12,
+                "failed": 8,
+                "pass_rate": "60.00%",
+                "answer_correctness": 0.0,
+                "list": [
+                    {
+                        "total": 20,
+                        "passed": 12,
+                        "failed": 8,
+                        "pass_rate": "60.00%",
+                        "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/technical_consulting/20240424-glarity_search.json",
+                        "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/technical_consulting/20240424-glarity_search.csv",
+                        "evaluate_ai": "glarity_search"
+                    }
+                ]
+            }
+        ],
+        "total": 20,
+        "passed": 12,
+        "failed": 8,
+        "pass_rate": "60.00%",
+        "answer_correctness": 0.0
+    },
+    {
         "date": "2024-04-22",
         "list": [
             {
