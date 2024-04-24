@@ -1,0 +1,263 @@
+{
+    "evaluate_ai": {
+        "name": "Perplexity",
+        "url": "https://perplexity.ai"
+    },
+    "evaluate_llm": "gpt-4-1106-preview",
+    "evaluate_type": "ragas",
+    "evaluate_data": {
+        "total": 20,
+        "passed": 8,
+        "failed": 12,
+        "pass_rate": "40.00%"
+    },
+    "created_at": "2024-04-24 12:21:33",
+    "datas": [
+        {
+            "metadata": {},
+            "question": "Who's the United States Trade Representative?",
+            "answer": "Katherine Tai is the current United States Trade Representative. 12\nThe key points are:\n\n\nKatherine Tai was nominated by President Biden and confirmed by the Senate in March 2021 to serve as the U.S. Trade Representative. 12\n\n\nThe U.S. Trade Representative is a Cabinet-level position that serves as the President's principal trade advisor, negotiator, and spokesperson on trade issues. 15\n\n\nThe Office of the U.S. Trade Representative (USTR) is an agency within the Executive Office of the President that is responsible for developing and coordinating U.S. international trade policy and overseeing trade negotiations. 1245\n\n",
+            "ground_truths": [
+                "The name of the United States Trade Representative is Katherine Chi Tai. She is a Taiwanese American trade lawyer and currently serves as the United States Trade Representative."
+            ],
+            "keywords": [
+                "Katherine"
+            ],
+            "passed": true
+        },
+        {
+            "metadata": {},
+            "question": "百川最新的融資",
+            "answer": "根据搜索结果,我没有找到关于\"百川\"最新融资的信息。搜索结果主要提到了一家名为\"月之暗面\"的AI公司获得了10亿美元的融资15。这家公司成立不到一年,估值已达25亿美元,是国内大模型领域的头部企业之一。\n至于\"百川\"这家公司,搜索结果提到了几家不同的\"百川\"公司,包括百川股份2、百川能源3和百川畅银4。但这些公司的最新融资信息并未在搜索结果中提及。\n所以我无法根据给定的搜索结果回答\"百川最新的融资\"这个问题。如果您有关于\"百川\"最新融资的其他信息,欢迎补充。",
+            "ground_truths": [
+                "有媒體報導稱，百川智能正在進行新一輪數億美元融資，將成為2024年國內AI領域最大融資之一，且公司今年以來估值已超18億美元。"
+            ],
+            "keywords": [
+                "18"
+            ],
+            "passed": false
+        },
+        {
+            "metadata": {},
+            "question": "Perplexity最近融资情况",
+            "answer": "Perplexity AI, the AI-powered search engine startup, has recently secured significant funding rounds:\n\n\nIn January 2024, Perplexity raised $73.6 million in a Series B funding round led by Institutional Venture Partners (IVP). This round also included investments from tech giants like Nvidia and Amazon founder Jeff Bezos. The funding valued the company at $520 million.125\n\n\nJust a few months later, in April 2024, Perplexity announced it had raised another $62.7 million in funding. This new round has pushed the company's valuation to $1 billion, effectively doubling its value in a short period of time.134\n\n\nThe latest $62.7 million funding round was led by former OpenAI AI lead Daniel Gross, and also included investments from Stanley Druckenmiller, Y Combinator CEO Garry Tan, and Figma CEO Dylan Field. Several of Perplexity's early investors, such as Amazon's Jeff Bezos and Nvidia, also participated in this latest round.1\nIn total, Perplexity has now raised around $165 million in funding since its founding in 2022. The company's rapid growth and ability to attract high-profile investors highlights the market's excitement around its AI-powered search technology that aims to challenge traditional search engines like Google.",
+            "ground_truths": [
+                "2024年4月23日，Perplexity AI又宣布完成了新一轮融资，筹集了6270万美元，融资后估值达到了10亿美元5810。这次融资使得公司的估值较上一轮融资翻了一番"
+            ],
+            "keywords": [
+                "6270"
+            ],
+            "passed": false
+        },
+        {
+            "metadata": {},
+            "question": "最近台灣地震造成的傷亡人數是多少？",
+            "answer": "根據報導,4月3日發生的規模7.2強震造成至少14人死亡2。而4月22日至23日這一連串地震中,目前尚未傳出任何傷亡消息3。\n儘管這次地震規模達6.3,但似乎沒有造成重大人員傷亡。這可能歸功於台灣在1999年921大地震後加強了建築防震規範,以及民眾的災害意識提高2。不過,仍有2棟大樓在花蓮市區傾倒3,顯示這次地震的破壞力不容小覷。\n總的來說,最近這波地震活動造成的傷亡人數遠低於1999年的921大地震,當時有2400多人喪生2。但我們仍需密切關注餘震的發展,因為餘震的規模可能與主震相當或更大,並可能持續影響已受損地區3。",
+            "ground_truths": [
+                "台灣花蓮地震死亡數字上升。10日救援人員在花蓮太魯閣區域砂卡礑步道尋獲3具遺體，花蓮7.3級地震罹難人數上升至16人。"
+            ],
+            "keywords": [
+                "16"
+            ],
+            "passed": false
+        },
+        {
+            "metadata": {},
+            "question": "最近の埼玉県行田市事故の死傷者数は何人ですか?",
+            "answer": "申し訳ありませんが、与えられた検索結果には埼玉県行田市での事故の死傷者数に関する情報がありません。3の埼玉県警察のウェブサイトには県内の交通事故発生状況が掲載されていますが、行田市に限定した情報はありません。したがって、この質問に対する正確な答えを出すことはできません。",
+            "ground_truths": [
+                "最近の埼玉県行田市の事故での死傷者数は以下の通りです:\n死亡者数: 1人\n負傷者数: 3人"
+            ],
+            "keywords": [
+                "1"
+            ],
+            "passed": false
+        },
+        {
+            "metadata": {},
+            "question": "藤岡康太騎手の怪我はどうでしたか？",
+            "answer": "藤岡康太騎手の怪我の状況については、検索結果から具体的な情報は得られませんでした。ただし、過去に重傷を負った際の経緯が分かります。\n2010年に肋骨と右頬骨を骨折し、長期の休養を余儀なくされました。2 しかし、そうした苦難を乗り越え、2013年2月にレースに復帰しています。2\n今回の怪我の詳細は不明ですが、藤岡騎手は過去に重傷を負いながらも競馬に向き合い続け、復帰を果たした経験があります。2 今後の回復状況と復帰時期については、新しい情報が出るのを待つ必要がありそうです。",
+            "ground_truths": [
+                "藤岡康太騎手は、2024年4月6日に行われた阪神競馬場の第7レースで落馬し、頭部と胸部を負傷しました.この落馬の後、藤岡騎手は病院に搬送され、意識を取り戻すことなく、後に怪我のため亡くなりました.この悲報は日本中央競馬会(JRA)からも発表されました"
+            ],
+            "keywords": [
+                "亡"
+            ],
+            "passed": false
+        },
+        {
+            "metadata": {},
+            "question": "士林區溪山里事件的起因是什麼？",
+            "answer": "根據報導,士林區溪山里爆發一場疑似急性腸胃炎的群聚事件,造成超過百人出現嘔吐、腹瀉等症狀。事件的起因疑似與當地居民長期飲用的山泉水有關。123\n主要原因\n\n\n溪山里大多數居民並非使用台北市自來水,而是依賴自設的山泉水源系統取水。1\n\n\n台北自來水事業處檢測發現,溪山里居民使用的山泉水中大腸桿菌群遠遠超過飲用水標準。2\n\n\n里長黃慧芬懷疑是近期地震造成水源遭到污染所致。3\n\n\n雖然確切的污染源頭仍待進一步檢驗報告釐清,但長期飲用受污染的山泉水極有可能是導致溪山里民眾大規模腸胃不適的主因。當局已採取應變措施,包括設置臨時醫療站、提供瓶裝水等,並積極檢測水質及環境消毒,以防止疫情擴大。",
+            "ground_truths": [
+                "士林區溪山里事件的起因是與水質問題有關。根據報導，溪山里的居民平常使用自行成立的供水系統，主要使用山泉水作為飲用水源。然而，由於地震等自然災害可能導致山泉水受到污染，進而造成水質問題。事件中大腸桿菌群數值偏高，反映了水質有異常情況，因此許多居民出現了腹瀉和嘔吐等腸胃道疾病症狀。台北市政府為了緊急應對此情況，已提供緊急取水站以及醫療服務，並展開全面水質檢測及環境消毒等措施以解決問題。因此，士林區溪山里事件的起因主要是因為使用的山泉水受到污染所導致的水質問題。"
+            ],
+            "keywords": [
+                "地震"
+            ],
+            "passed": true
+        },
+        {
+            "metadata": {},
+            "question": "3月のCPI",
+            "answer": "3月の米消費者物価指数(CPI)は以下の通りです。\n\n\n総合CPI(全項目)は前年同月比3.5%上昇と、市場予想の3.4%を上回った。前月の3.2%から伸びが加速した。23\n\n\nコアCPI(食品・エネルギーを除く)は前年同月比3.8%上昇と、市場予想の3.7%を上回った。前月から横ばいだった。234\n\n\nコアCPIは3カ月連続で市場予想を上回る伸びとなり、過去3カ月の年率は4.5%と昨年5月以来の高水準となった。4 これにより、米連邦準備制度理事会(FRB)の利下げ開始が後ずれする可能性が高まった。4\nインフレ圧力の根強さが示され、FRBの利下げ判断に影響を与えそうだ。2 FRBはインフレ鈍化の持続的な兆候を確認したい姿勢で、早期利下げに慎重となっている。14\n主な内訳\n\n食品は前月比0.1%上昇3\nエネルギーは同1.1%上昇、ガソリン価格が上昇3\n住居費は同0.4%上昇3\nサービス(エネルギー除く)は同0.52%上昇3\nスーパーコア(サービス-住居費)は同0.65%上昇と加速3\n",
+            "ground_truths": [
+                "2024年3月の日本のCPIは2.8%"
+            ],
+            "keywords": [
+                "2.80%"
+            ],
+            "passed": false
+        },
+        {
+            "metadata": {},
+            "question": "今年在哪個國家可以看到日食",
+            "answer": "根據搜索結果,今年2023年10月14日將在美國部分地區發生日環食。3\n日環食的路徑將橫跨美國8個州:俄勒岡州、加利福尼亞州、內華達州、亞利桑那州、猶他州、新墕西哥州、德克薩斯州以及墨西哥、中美洲和南美洲部分地區。3這將是11年來美國首次可觀測到日環食。3\n在日環食期間,月球將遮擋太陽大部分,但不會完全遮蔽,從而形成一個環狀的\"火環\"效果。3不過,專家提醒觀看日環食時必須佩戴適當的防護眼鏡,以免對眼睛造成永久性傷害。3",
+            "ground_truths": [
+                "2024年4月8日：\n墨西哥、美國、加拿大：預計可以觀測到全食的日食。"
+            ],
+            "keywords": [
+                "2024",
+                "墨西哥||美國||加拿大"
+            ],
+            "passed": false
+        },
+        {
+            "metadata": {},
+            "question": "海康威視去年的業績如何",
+            "answer": "根据海康威视2023年年报和相关公告,其2023年业绩表现如下:\n营业收入\n\n2023年实现营业收入893.40亿元,同比增长7.42%4\n\n净利润\n\n2023年归属于上市公司股东的净利润为141.17亿元,同比增长9.96%13\n单季度来看,净利润呈现前低后高的趋势,第四季度单季净利润达52.66亿元1\n\n毛利率\n\n2023年毛利率为42.29%,同比下降2.04个百分点2\n\n现金分红\n\n2023年拟每10股派发现金红利9元(含税),派发现金红利总额约84亿元,占当年净利润的59.52%4\n\n总的来说,2023年海康威视营收和净利润均实现同比增长,尤其是第四季度业绩表现亮眼。但毛利率有所下滑,公司也预计2024年面临较大挑战4。",
+            "ground_truths": [
+                "在2023年，海康威視的業績恢復增長，公司實現了營業收入893.55億元，同比增長7.44%，淨利潤為141.17億元，同比增長9.96%。"
+            ],
+            "keywords": [
+                "2023",
+                "893.55"
+            ],
+            "passed": false
+        },
+        {
+            "metadata": {},
+            "question": "How many Israelis died in the attack launched by Iran?",
+            "answer": "According to the search results, no Israelis were killed in the Iranian attack on Israel. The key details are:\nOnly one person, an Israeli Arab Bedouin child, was injured due to being hit by part of a missile.1 Thirty-one other people suffered anxiety or accidental self-inflicted minor injuries while rushing to protected areas.1\nThe search results do not mention any Israeli deaths from the Iranian strikes. They state that the vast majority of the Iranian drones and missiles were intercepted with the help of the U.S., U.K., France, and Jordan.23 While the attack was described as the largest attempted drone strike in history1, it appears Iran's intent was not to inflict mass casualties but rather to bolster its deterrence against Israel.5",
+            "ground_truths": [
+                "According to the reports, there were no reported fatalities from the Iranian attack on Israel"
+            ],
+            "keywords": [
+                "no casualties"
+            ],
+            "passed": false
+        },
+        {
+            "metadata": {},
+            "question": "Whom did Putin say carried out the Moscow attack?",
+            "answer": "According to the reports, Putin confirmed that the terrorist attack on the Crocus City concert hall in Moscow was carried out by radical Islamists.4 However, he also reiterated his earlier claims that Ukraine could have been involved, stating \"But we are interested in who ordered it. This atrocity may be just one part in a whole series of attempts by those who have been at war with our country since 2014 – the neo-Nazi Kyiv regime.\"4\nDespite growing evidence pointing to the Islamic State group's Afghan branch, Islamic State Khorasan Province (ISKP), as being responsible for the attack, Putin did not mention the affiliate in his statements.4 Instead, he continued to insinuate Ukraine's involvement, asking \"Who was waiting for them there?\" in reference to the US assertion that there was no indication of Ukrainian involvement.4\nSo while Putin acknowledged that radical Islamists carried out the attack, he also maintained accusations against Ukraine without providing evidence, despite ISIS claiming responsibility and US intelligence attributing the attack to ISIS-K.45",
+            "ground_truths": [
+                "Vladimir Putin stated that \"radical Islamists\" were behind the deadly attack on the Crocus City concert hall in Moscow"
+            ],
+            "keywords": [
+                "radical Islamists"
+            ],
+            "passed": true
+        },
+        {
+            "metadata": {},
+            "question": "What precisely caused the ship to collide with the Baltimore bridge?",
+            "answer": "The ship, named Dali, collided with the Francis Scott Key Bridge in Baltimore because it lost propulsion and power moments before the crash. Specifically:\n\n\nThe crew of the Dali issued a mayday call reporting they had lost power just before striking the bridge at a very rapid speed of around 8 knots (9 mph).24\n\n\nVideo footage showed the Dali's lights flickering off shortly before impact, indicating a loss of power.1\n\n\nAn inspection of the Dali in Chile last June had identified issues with the ship's propulsion and auxiliary systems, including problems with gauges and thermometers.2\n\n\nAuthorities stated that the loss of propulsion left the massive ship essentially a \"dead ship\" being carried by its own momentum, making it unable to stop or change course before crashing into the bridge support.4\n\n\nSo the direct cause appears to be a catastrophic power/propulsion failure on the Dali cargo ship as it was departing Baltimore, leaving it unable to maneuver or slow down before slamming into the bridge structure.124",
+            "ground_truths": [
+                "When the container ship MV Dali, 300 metres long and massing around 100,000 tonnes, lost power and slammed into one of the support piers of the Francis Scott Key Bridge in Baltimore, the bridge collapsed in moments."
+            ],
+            "keywords": [
+                "lost power"
+            ],
+            "passed": true
+        },
+        {
+            "metadata": {},
+            "question": "Which island recently experienced a volcanic eruption in Indonesia?",
+            "answer": "Based on the search results, the island of Siau in Indonesia recently experienced a volcanic eruption from the Karangetang (also known as Api Siau) volcano located at the northern end of the island.1\nThe key details about this eruption are:\n\n\nKarangetang is one of Indonesia's most active volcanoes, containing five summit craters along a N-S line.\n\n\nIn September-October 2024, an eruption produced an andesitic block lava flow that moved 70 m/day initially, threatening villages and destroying homes, trees, and a bridge.1\n\n\nThe eruption began on September 15, 2024 around 7am with lava and pyroclastics from a new vent on the SW flank, accompanied by loud rumbling after around 120 earthquakes/day had been felt in the preceding 11 days.1\n\n\nBy October 12, the lava flow had slowed to 20 m/day but was still within 650m of Ulu City, the capital of Siau Island, prompting evacuations.1\n\n\nSo the Karangetang volcano on the island of Siau experienced significant eruptive activity with lava flows in September-October 2024, posing threats to local villages and requiring evacuations, according to the detailed report from the Volcanological Survey of Indonesia.1",
+            "ground_truths": [
+                "The name of the volcano is Mount Ruang on the northern side of Sulawesi Island."
+            ],
+            "keywords": [
+                "Sulawesi island||Mount Ruang"
+            ],
+            "passed": false
+        },
+        {
+            "metadata": {},
+            "question": "What did the leaders of the three countries say?",
+            "answer": "The leaders of Australia, Canada, and New Zealand issued a joint statement urging Israel to abandon its plans for a ground offensive in Rafah, Gaza. They warned that the planned operation would have a \"devastating\" impact on the Palestinians taking refuge in Rafah, stating \"There is simply nowhere else for civilians to go.\" The prime ministers Anthony Albanese, Justin Trudeau, and Christopher Luxon said that Israel \"must listen to its friends\" and pointed out that many of their own citizens and families were among the estimated 1.4 million displaced in Rafah.4\nThey called for an \"immediate\" humanitarian ceasefire, highlighting the grave humanitarian crisis unfolding in Rafah due to Israel's relentless bombardment across Gaza that has driven civilians into makeshift camps in the city.4",
+            "ground_truths": [
+                "The leaders of the United States, Japan, and the Philippines recently held a summit. Here are some key points from their discussions:\n1. Shared Vision: They issued a “Joint Vision Statement” affirming their shared vision of a free and open Indo-Pacific and international order based on international law.\n2. Security and Economy: They discussed various areas of security and economy, and expressed a desire to advance Japan-U.S.-Philippines cooperation based on this Summit.\n3. Regional Situation: They discussed the security environment in the region and confirmed their unwavering commitment to freedom of navigation and overflight.\n4. Opposition to Unilateral Actions: They confirmed that they would oppose and resolutely respond to any attempts by the People’s Republic of China (PRC) to unilaterally change the status quo by. force in the South China Sea and the East China Sea.\n5. Inclusive Economic Growth: They resolved to promote enduring, inclusive economic growth and resilience in their countries and the broader Indo-Pacific.\nStrengthening Alliances: The Philippines’ decision to strengthen ties with Japan and the United States was described as a “sovereign choice” for the country."
+            ],
+            "keywords": [
+                "Security",
+                "Economy",
+                "China"
+            ],
+            "passed": false
+        },
+        {
+            "metadata": {},
+            "question": "Why Google fires 28 employees over protests inside work offices?",
+            "answer": "Google fired 28 employees for protesting against the company's $1.2 billion contract with the Israeli government and military, known as Project Nimbus.24 The employees were part of a growing worker movement called \"No Tech for Apartheid\" that opposed Google providing AI and cloud computing services to Israel, which they believed could aid in human rights abuses against Palestinians.4\nThe protests escalated when a Google software engineer named Eddie Hatfield disrupted a company event in New York by standing up and declaring \"I refuse to build technology that powers genocide, apartheid, or surveillance. No tech for apartheid!\"4 Three days after this incident, Google fired Hatfield, stating he had violated company policies by disrupting an official event.4\nAnother Google employee, Ariel Koren, claimed she was forced out of the company after speaking out against Project Nimbus.3 She filed a retaliation claim with the National Labor Relations Board, though it was dismissed due to insufficient evidence.3\nAt least two other Google employees, Josh Marxen and Arami Abdel Karim, publicly protested against Project Nimbus at the company's Cloud conference in San Francisco, expressing concerns that the technology could contribute to oppression and discrimination against Palestinians.3\nThe firings and resignations highlight growing worker activism at major tech companies like Google over the ethical implications and potential misuse of their technologies, especially in relation to military contracts and human rights issues.24",
+            "ground_truths": [
+                "Google fired 28 workers Wednesday in Sunnyvale and New York, calling their protests inside work offices “completely unacceptable behavior” that prevented some employees from accessing their facilities.\n\nThe tech giant said protests on Tuesday over the company’s contracts with Israel disrupted several locations. The Chronicle reported that at Google’s Sunnyvale offices, police arrested five workers who held a sit-in Tuesday to protest their employer’s cloud contract with the Israeli government."
+            ],
+            "keywords": [
+                "contracts",
+                "Israel"
+            ],
+            "passed": true
+        },
+        {
+            "metadata": {},
+            "question": "How many soldiers were wounded in the attack launched by Hezbollah on northern Israel recently？",
+            "answer": "According to the BBC report 1, in the recent attack by Hezbollah on the Israeli border village of Arab al-Aramshe, 14 Israeli soldiers were wounded. The report states:\n\"On Wednesday, 14 Israeli soldiers were wounded in a missile and drone attack. Dozens of rockets were also fired from Lebanon at northern Israel.\"\nThe Times of Israel article 2 corroborates this, mentioning that \"14 troops, 4 civilians wounded in Hezbollah drone attack on northern Israel.\"\nSo based on these reputable news sources, the number of Israeli soldiers wounded in the recent Hezbollah attack on northern Israel was 14.",
+            "ground_truths": [
+                "n the recent attack launched by Hezbollah on northern Israel, a total of 14 soldiers were wounded. Among those injured, six of them were reported to be seriously wounded. The attack involved a combination of missiles and drones targeting a military base in northern Israel, specifically the Bedouin border town of Arab al-Aramshe. This assault by Hezbollah was a significant event in the ongoing conflict between the group and Israel."
+            ],
+            "keywords": [
+                "14"
+            ],
+            "passed": true
+        },
+        {
+            "metadata": {},
+            "question": "What weapons were used to attack Israel from Iran?",
+            "answer": "According to the search results, Iran launched a massive attack on Israel on April 13, 2024, using a combination of drones, cruise missiles, and ballistic missiles. The specific weapons mentioned include:\n\nAround 170 drones, including Shahed-136 drones13\nOver 30 cruise missiles1\nMore than 120 ballistic missiles, such as Kheibar Shekan ballistic missiles with a range of 900 miles, Emad ballistic missiles, and Ghadr-1 medium-range ballistic missiles (MRBMs)135\n\nThe ballistic missiles were launched from Iran itself, while some drones and missiles were also fired from Iran-backed groups in neighboring countries like Iraq, Syria, Lebanon, and Yemen13. The primary target of the attack was the Nevatim Air Base in southern Israel, where Israeli F-35 fighter jets are based3.\nThe attack was a retaliation by Iran for an alleged Israeli airstrike on April 1 that killed several Iranian Revolutionary Guard Corps officers in Damascus, Syria14. It marked the first direct military confrontation between Iran and Israel14.",
+            "ground_truths": [
+                "Iran fired 170 drones, more than 30 cruise missiles and more than 120 ballistic missiles. Of those, several ballistic missiles reached Israeli territory, causing minor damage to an air base."
+            ],
+            "keywords": [
+                "drones",
+                "missiles"
+            ],
+            "passed": true
+        },
+        {
+            "metadata": {},
+            "question": "Why is GTA 6 publisher laying off 600 employees",
+            "answer": "GTA 6 publisher Take-Two Interactive is laying off around 5% of its workforce, which amounts to approximately 579 employees.13 The layoffs are part of a cost-cutting measure and restructuring effort, as the company is also canceling several unannounced projects that were in development.4\nWhile the exact reasons behind the layoffs are not explicitly stated, it is likely a move to reduce costs and focus resources on the company's most promising and profitable projects. The video game industry has seen numerous layoffs and hiring freezes in recent months, with companies like Electronic Arts, Amazon, and others also cutting jobs.24\nThe layoffs at Take-Two come as the company is in the final stages of developing the highly anticipated Grand Theft Auto VI (GTA 6).1 However, it is unclear if the layoffs will directly impact the development of GTA 6 or if the game was one of the projects spared from cancellation.",
+            "ground_truths": [
+                "The decision to lay off approximately 600 employees at Take-Two Interactive, the parent company of Rockstar Games, is part of a broader cost-cutting strategy. The company is rationalizing its pipeline, eliminating several projects in development, and streamlining its organizational structure. This downsizing process is expected to be largely complete by the end of the year 2024. Additionally, Take-Two had already signaled its intention for a significant cost reduction plan following mixed financial results for the quarter ending in December 2023. Despite these challenges, Take-Two has continued to invest in its portfolio, including the acquisition of Gearbox and the development of the highly anticipated 'GTA 6'."
+            ],
+            "keywords": [
+                "cost-cutting"
+            ],
+            "passed": true
+        },
+        {
+            "metadata": {},
+            "question": "The world’s best airports for 2024, according to Skytrax",
+            "answer": "According to the Skytrax World Airport Awards for 2024, the world's best airports are:\n\nDoha Hamad International Airport (Qatar) 1245\nSingapore Changi Airport (Singapore) 124\nSeoul Incheon International Airport (South Korea) 124\nTokyo Haneda Airport (Japan) 124\nTokyo Narita International Airport (Japan) 124\n\nKey Highlights\n\n\nDoha Hamad International Airport in Qatar was named the World's Best Airport for 2024, dethroning Singapore Changi Airport which had held the top spot for several years.245\n\n\nSingapore Changi Airport took the 2nd place, winning awards for Best Airport in Asia and World's Best Airport Immigration Service.4\n\n\nSeoul Incheon Airport moved up to 3rd place and was named the World's Most Family Friendly Airport.4\n\n\nTokyo Haneda Airport was declared the World's Cleanest Airport, World's Best Domestic Airport, and Best for PRM & Accessible Facilities.124\n\n\nTokyo Narita Airport won awards for World's Best Airport Staff and Best Airport Staff in Asia.14\n\n\nThe rankings are based on the annual Skytrax World Airport Survey which evaluates traveler experiences across various airport services and facilities.245",
+            "ground_truths": [
+                "According to the Skytrax rankings for 2024, Doha's Hamad International Airport has been named the best airport in the world."
+            ],
+            "keywords": [
+                "Doha's Hamad"
+            ],
+            "passed": false
+        }
+    ]
+}
