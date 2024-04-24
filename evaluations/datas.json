@@ -111,6 +111,24 @@
                 ]
             },
             {
+                "scene": "local_search",
+                "total": 20,
+                "passed": 12,
+                "failed": 8,
+                "pass_rate": "60.00%",
+                "list": [
+                    {
+                        "total": 20,
+                        "passed": 12,
+                        "failed": 8,
+                        "pass_rate": "60.00%",
+                        "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/local_search/20240424-glarity_search.json",
+                        "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/local_search/20240424-glarity_search.csv",
+                        "evaluate_ai": "glarity_search"
+                    }
+                ]
+            },
+            {
                 "scene": "products_search",
                 "total": 40,
                 "passed": 21,
@@ -138,10 +156,10 @@
                 ]
             }
         ],
-        "total": 240,
-        "passed": 87,
-        "failed": 153,
-        "pass_rate": "36.25%"
+        "total": 260,
+        "passed": 99,
+        "failed": 161,
+        "pass_rate": "38.08%"
     },
     {
         "date": "2024-04-22",
