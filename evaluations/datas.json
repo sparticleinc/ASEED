@@ -4,11 +4,20 @@
         "list": [
             {
                 "scene": "technical_consulting",
-                "total": 20,
-                "passed": 12,
-                "failed": 8,
-                "pass_rate": "60.00%",
+                "total": 40,
+                "passed": 18,
+                "failed": 22,
+                "pass_rate": "45.00%",
                 "list": [
+                    {
+                        "total": 20,
+                        "passed": 6,
+                        "failed": 14,
+                        "pass_rate": "30.00%",
+                        "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/technical_consulting/20240424-perplexity.json",
+                        "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/technical_consulting/20240424-perplexity.csv",
+                        "evaluate_ai": "perplexity"
+                    },
                     {
                         "total": 20,
                         "passed": 12,
@@ -21,10 +30,10 @@
                 ]
             }
         ],
-        "total": 20,
-        "passed": 12,
-        "failed": 8,
-        "pass_rate": "60.00%"
+        "total": 40,
+        "passed": 18,
+        "failed": 22,
+        "pass_rate": "45.00%"
     },
     {
         "date": "2024-04-22",
