@@ -8,7 +8,6 @@
                 "passed": 12,
                 "failed": 8,
                 "pass_rate": "60.00%",
-                "answer_correctness": 0.0,
                 "list": [
                     {
                         "total": 20,
@@ -25,8 +24,7 @@
         "total": 20,
         "passed": 12,
         "failed": 8,
-        "pass_rate": "60.00%",
-        "answer_correctness": 0.0
+        "pass_rate": "60.00%"
     },
     {
         "date": "2024-04-22",
