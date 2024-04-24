@@ -220,10 +220,10 @@
             },
             {
                 "scene": "business_consulting",
-                "total": 60,
-                "passed": 21,
-                "failed": 39,
-                "pass_rate": "35.00%",
+                "total": 80,
+                "passed": 23,
+                "failed": 57,
+                "pass_rate": "28.75%",
                 "list": [
                     {
                         "total": 20,
@@ -251,14 +251,23 @@
                         "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/business_consulting/20240424-metaso.json",
                         "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/business_consulting/20240424-metaso.csv",
                         "evaluate_ai": "metaso"
+                    },
+                    {
+                        "total": 20,
+                        "passed": 2,
+                        "failed": 18,
+                        "pass_rate": "10.00%",
+                        "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/business_consulting/20240424-you.json",
+                        "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/business_consulting/20240424-you.csv",
+                        "evaluate_ai": "you"
                     }
                 ]
             }
         ],
-        "total": 460,
-        "passed": 177,
-        "failed": 283,
-        "pass_rate": "38.48%"
+        "total": 480,
+        "passed": 179,
+        "failed": 301,
+        "pass_rate": "37.29%"
     },
     {
         "date": "2024-04-22",
