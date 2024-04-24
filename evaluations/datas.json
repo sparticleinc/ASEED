@@ -1,32 +1,5 @@
 [
     {
-        "date": "2024-04-25",
-        "list": [
-            {
-                "scene": "products_search",
-                "total": 20,
-                "passed": 9,
-                "failed": 11,
-                "pass_rate": "45.00%",
-                "list": [
-                    {
-                        "total": 20,
-                        "passed": 9,
-                        "failed": 11,
-                        "pass_rate": "45.00%",
-                        "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/products_search/20240425-perplexity.json",
-                        "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/products_search/20240425-perplexity.csv",
-                        "evaluate_ai": "perplexity"
-                    }
-                ]
-            }
-        ],
-        "total": 20,
-        "passed": 9,
-        "failed": 11,
-        "pass_rate": "45.00%"
-    },
-    {
         "date": "2024-04-24",
         "list": [
             {
