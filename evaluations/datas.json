@@ -4,10 +4,10 @@
         "list": [
             {
                 "scene": "technical_consulting",
-                "total": 60,
-                "passed": 21,
-                "failed": 39,
-                "pass_rate": "35.00%",
+                "total": 80,
+                "passed": 26,
+                "failed": 54,
+                "pass_rate": "32.50%",
                 "list": [
                     {
                         "total": 20,
@@ -26,6 +26,15 @@
                         "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/technical_consulting/20240424-glarity_search.json",
                         "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/technical_consulting/20240424-glarity_search.csv",
                         "evaluate_ai": "glarity_search"
+                    },
+                    {
+                        "total": 20,
+                        "passed": 5,
+                        "failed": 15,
+                        "pass_rate": "25.00%",
+                        "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/technical_consulting/20240424-metaso.json",
+                        "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/technical_consulting/20240424-metaso.csv",
+                        "evaluate_ai": "metaso"
                     },
                     {
                         "total": 20,
@@ -66,10 +75,10 @@
                 ]
             }
         ],
-        "total": 100,
-        "passed": 36,
-        "failed": 64,
-        "pass_rate": "36.00%"
+        "total": 120,
+        "passed": 41,
+        "failed": 79,
+        "pass_rate": "34.17%"
     },
     {
         "date": "2024-04-22",
