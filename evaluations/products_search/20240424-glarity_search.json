@@ -1,0 +1,262 @@
+{
+    "evaluate_ai": {
+        "name": "Glarity Search",
+        "url": "https://search.glarity.ai"
+    },
+    "evaluate_llm": "gpt-4-1106-preview",
+    "evaluate_type": "ragas",
+    "evaluate_data": {
+        "total": 20,
+        "passed": 13,
+        "failed": 7,
+        "pass_rate": "65.00%"
+    },
+    "created_at": "2024-04-24 10:48:16",
+    "datas": [
+        {
+            "metadata": {},
+            "question": "UN100D는 어떤 프로세서를 장착하고 있나요?",
+            "answer": "MINISFORUM UN100D 미니 PC는 Intel의 최신 제품 중 하나인 12세대 Alder Lake N100 프로세서를 장착하고 있습니다. 이 프로세서는 4코어 4쓰레드를 제공하며 최대 3.4GHz까지 동작할 수 있습니다. 또한 6MB의 스마트 캐시를 갖추고 있어서 안정적인 성능을 제공합니다.\n\n따라서 UN100D는 비교적 높은 성능을 제공하는 프로세서를 장착하고 있어 기본적인 컴퓨터 작업 및 작은 규모의 업무에 적합한 미니 PC로 평가됩니다.",
+            "ground_truths": [
+                "UN100D는 Intel N100 프로세서를 탑재하고 있습니다. 이 프로세서는 4코어 4스레드를 갖추고 있으며, Intel 7nm 공정으로 제작되었으며 TDP는 6W이며 최대 터보 부스트 클럭은 3.4 GHz입니다. 저전력 프로세서를 사용하기 때문에 기본 사무 작업에 적합하지만 고급 게임에는 적합하지 않습니다."
+            ],
+            "keywords": [
+                "N100"
+            ],
+            "passed": true
+        },
+        {
+            "metadata": {},
+            "question": "海狮07 EV两驱版最高车速是多少？",
+            "answer": "根据相关报道，比亚迪海狮07 EV两驱版的最高车速为225公里/小时. 这种速度在电动车领域中属于较高水平，展现了海狮07 EV在性能方面的优势。",
+            "ground_truths": [
+                "海狮07 EV两驱版的最高车速为225km/h"
+            ],
+            "keywords": [
+                "225"
+            ],
+            "passed": true
+        },
+        {
+            "metadata": {},
+            "question": "大疆發布 Avata 2 無人機的電池容量是多少mAh？",
+            "answer": "根據搜索結果，大疆推出的 Avata 2 無人機的電池容量為 2150 mAh. 與先前的 Avata 無人機相比，Avata 2 在電池容量上稍微較小，Avata 為 2420 mAh.雖然 Avata 2 電池容量較小，但其仍能在性能和充電時間上提供優勢，並在45分鐘內實現從0％到100％的充電. 而相較之下，Avata 無人機需要超過兩個小時才能完全充電.",
+            "ground_truths": [
+                "大疆發布的Avata 2無人機的電池容量為3400毫安時（mAh）。"
+            ],
+            "keywords": [
+                "3400"
+            ],
+            "passed": false
+        },
+        {
+            "metadata": {},
+            "question": "갤럭시 S24의 화면 해상도는 어떻게 되나요?",
+            "answer": "갤럭시 S24의 화면 해상도는 모델에 따라 다르게 설정되어 있습니다. 갤럭시 S24 시리즈 중에서 S24 Ultra는 6.8인치 Dynamic AMOLED 2X 화면을 사용하며, QHD+ 해상도인 3120 x 1440 픽셀을 지원합니다. S24+ 모델은 6.7인치 Dynamic AMOLED 2X 디스플레이를 갖추고, QHD 해상도인 3120 x 1440 픽셀을 제공합니다. 마지막으로, 갤럭시 S24는 6.2인치 Dynamic AMOLED 2X 화면을 탑재하며, FHD+ 해상도인 2340 x 1080 픽셀을 가지고 있습니다. \n\n해상도 설정에 따라 화면 해상도를 변경할 수 있는데, 업그레이드된 모델인 S24+와 S24 Ultra는 QHD+ 해상도를 지원하여 고해상도의 선명한 화면을 제공합니다. 이러한 화면 해상도 설정은 사용자의 화질 선호와 배터리 수명을 고려하여 선택할 수 있습니다. \n\n더불어, 특정 모델인 S24 Ultra의 경우, 화면 해상도를 FHD+에서 QHD+로 변경하는 설정 방법을 알려주는 자세한 안내도 제공됩니다. 설정을 통해 사용자는 선명한 화질과 고해상도를 선택할 수 있습니다.",
+            "ground_truths": [
+                "갤럭시 S24 기본 모델의 화면 해상도는 2340 x 1080 픽셀입니다"
+            ],
+            "keywords": [
+                "2340",
+                "1080"
+            ],
+            "passed": true
+        },
+        {
+            "metadata": {},
+            "question": "ThinkPad L13 Gen3에는 몇 개의 Type-C 포트가 있나요?",
+            "answer": "ThinkPad L13 Gen3에는 두 개의 Type-C 포트가 있습니다. 두 개의 USB 3.2 Gen 1 Type-C 포트가 있으며, 둘 다 USB Power Delivery를 지원합니다. 이는 충전 어댑터가 오픈마켓 기준 45W 또는 레노버 공식 사이트에서는 65W를 제공하므로 보조배터리를 통해 충전할 수 있음을 의미합니다. 또한 삼성 갤럭시 S10 5G 충전기로도 노트북을 충전할 수 있는데, 이는 휴대폰 충전기로 노트북 충전이 가능하다는 편리한 기능을 제공합니다. 이러한 포트 구성은 사용자들이 전원 및 데이터 연결을 편리하게 관리할 수 있도록 합니다.",
+            "ground_truths": [
+                "ThinkPad L13 Gen3에는 USB 3.2 Gen 2 Type-C 포트 한 개와 USB 3.2 Gen 1 Type-C 포트 한 개가 있습니다."
+            ],
+            "keywords": [
+                "Gen 2"
+            ],
+            "passed": false
+        },
+        {
+            "metadata": {},
+            "question": "「IKU×MIRU」ご利用方法？",
+            "answer": "「IKU×MIRU」はHISが提供するオンライン体験ツアー見放題サービスです。ご利用方法は以下の手順に従います:\n\n1. **マイページ登録／ログイン**: \n   - まずはマイページを登録するか既に持っている方はログインします。\n\n2. **IKU×MIRUを申し込む**:\n   - ご希望の料金プランを申し込みします。オンライン予約またはマイページからお手続き可能です。\n\n3. **対象コースを探す**:\n   - アイコンでIKU×MIRU対象コースを選択します。対象コースは様々なラインアップがあります。\n\n4. **対象コースを予約**:\n   - 参加日を選択し、「予約手続きに進む」をクリックします。\n\n5. **規定・注意事項の確認**:\n   - キャンセル規定や注意事項を必ず確認し、「同意する」を選択します。\n\n6. **お客様情報の確認**:\n   - 表示された情報を確認し、ご予約を完了します。\n\nIKU×MIRUを利用してオンライン体験ツアーに参加する際、マイページへのログインが必要です。また、クーポンコードを使用して期限内に申し込むことが重要で、クーポンコードの無断複製・転載は固く禁止されています。無料体験後は月額料金が発生することに留意し、必要に応じてマイページから解約が可能です。ご利用の際には注意事項をよく確認し、スムーズにオンライン体験ツアーを楽しむことができます。",
+            "ground_truths": [
+                "契約後、My HISモバイルにログインし、「特典一覧・お申込みはこちらをご確認ください。」のリンクをクリックして、「特典一覧」を確認します。\n「特典一覧」内には、IKU×MIRUのクーポンコードが掲載されています。このコードをコピーしておきます。\nIKU×MIRUを利用するためには、特典一覧に掲載されている登録ページでクーポンを使って月間プランを申し込みます。\n月間プランを申し込んだ後、IKU×MIRU登録のメールアドレスで見放題対象コースを予約します。\n予約が完了すると、参加方法についてのメールが送られてきます。\n注意点として、クーポンコードは特典一覧に掲載されているIKU×MIRUの登録ページでのみ使用可能です。一般のHIS WEBサイトでは使用できません。また、IKU×MIRUの見放題サービスは自動継続されるため、無料期間終了後に料金が発生します。解約を希望する場合は、お申し込み日から30日目の22:59までに解約することで料金が発生しないことにご注意ください。"
+            ],
+            "keywords": [
+                "特典一覧",
+                "クーポン"
+            ],
+            "passed": false
+        },
+        {
+            "metadata": {},
+            "question": "His Mobileの440パッケージの5GBのデータはいくらですか？",
+            "answer": "His Mobileの440パッケージは、主にデータ通信に焦点を当てた格安SIMプランで、1GBあたり440円から利用可能です。このプランにおいて5GBのデータを利用する場合、料金は月額いくらかについて、具体的な情報を提供いたします。\n\nHis Mobileのデータ定額440プランは1GBで月額440円から利用可能であり、5GBのデータを利用する場合、合計料金は1,980円となります. このプランは他社と比較してもデータ量が豊富で、価格的にもお得な選択肢と言えます。\n\n格安SIMプランを検討している場合、His Mobileのデータ定額440プランはおすすめできる選択肢です。1GBあたりの料金が安く、5GBのデータ利用でも費用を抑えることができます。料金とデータ量をバランスよく考えた上で、自分に最適なプランを選択することが重要です。",
+            "ground_truths": [
+                "HISモバイルのデータ定額440プランの5GBのデータは、月額料金で880円（税込）です。このプランでは、毎月5GBのデータ通信を利用することができます。料金は定額で一定なので、安心してご利用いただけます。"
+            ],
+            "keywords": [
+                "880"
+            ],
+            "passed": false
+        },
+        {
+            "metadata": {},
+            "question": "HISモバイルのデータ定額440プラン（月額880円）に含まれる月間データ量は？",
+            "answer": "HISモバイルのデータ定額440プランには、月間データ量として7GBが含まれています. このプランは、月額880円で7GBのデータ通信が提供されるデータ通信専用プランです. 追加のデータ通信量が必要な場合は、1GBあたり200円で購入可能であり、最大100GBまで利用が可能です. また、データ通信はdocomo回線を使用し、通信方式は4G・LTEとなっています.",
+            "ground_truths": [
+                "HISモバイルのデータ定額440プランで月額880円の場合、含まれる月間データ量は7GBです。"
+            ],
+            "keywords": [
+                "7||5"
+            ],
+            "passed": true
+        },
+        {
+            "metadata": {},
+            "question": "華為ADS 2.0 先進在哪裡？",
+            "answer": "華為ADS 2.0是一項先進的自動駕駛系統，它在多個方面展現了技術上的優勢。根據資訊顯示，華為ADS 2.0具有以下特點和優勢：\n\n1. **功能特色**：ADS 2.0包含自動泊車和代客泊車等新功能，使車輛使用更加便利和方便。\n   \n2. **軟硬件升級**：華為ADS 2.0通過硬件和軟件升級來實現，搭載華為自主開發的處理器計算平台，提供更快的數據處理和決策速度。此外，系統配備更多的感應器，使其能夠更全面地觀察周圍環境。\n\n3. **技術優勢**：ADS 2.0利用深度學習、感知、決策和控制等多種技術，使系統在速度、導航、泊車和安全等方面都有顯著的優勢。\n\n此外，ADS 2.0在測試中在高速性能方面遙遙領先特斯拉等競爭對手，表現出非常先進的技術實力。综合來看，華為ADS 2.0的先進之處體現在其豐富的功能特色、技術升級以及在自動駕駛領域的技術優勢。",
+            "ground_truths": [
+                "ADS 2.0系統的先進之處主要體現在以下幾個方面：\n創新性的激光融合GOD網絡：ADS 2.0搭載了業界首創的激光融合GOD網絡，能夠精準識別異形障礙物，如側翻車輛、掉落的大紙箱、落石、倒地大樹等，提高了駕駛的安全性。\n多傳感融合：通過激光雷達、毫米波雷達、攝像頭等多傳感融合的感知，即使在沒有高精地圖的情況下，也能對道路元素進行識別和理解，提高了駕駛的準確性和可靠性。\n覆蓋廣泛的城區高階智能駕駛場景：ADS 2.0系統可以覆蓋90%城區場景，讓日常通勤更加舒心。在複雜的交通路口、人車混行的場景中，系統能夠順利通行，主動超車換道、脫困換道，大大提升了出行效率。"
+            ],
+            "keywords": [
+                "GOD",
+                "不依賴高精地圖||沒有高精地圖"
+            ],
+            "passed": false
+        },
+        {
+            "metadata": {},
+            "question": "馬自達J90A是新能源車嗎？",
+            "answer": "根据搜索结果，马自达J90A被认为是一款新能源车型。长安马自达计划在2024年推出代号为J90A的车型，该车是基于长安EPA混动平台打造的SUV，具有纯电和增程动力的特点。此外，J90A也被描述为与理想L系列和问界M家族竞争的车型。该车预计将延续马自达的“魂动”设计语言，并具备先进的智能座舱和智能驾驶功能。J90A有望在北京车展上正式亮相。因此，从种种迹象来看，马自达J90A被认为是一款新能源车型。\n\n总的来说，马自达J90A代表着长安马自达在进入新能源领域的一次重要尝试，旨在应对燃油车销量下滑的挑战。该车型的推出显示了马自达对新能源技术的重视，并展示了他们在适应市场需求和未来发展方向上的努力。随着全球汽车市场向电气化转变，马自达加快了在新能源领域的布局，而J90A作为其新能源车型之一，将为消费者带来更多选择，并为公司赢得更广泛的市场份额。",
+            "ground_truths": [
+                "是的，馬自達J90A是一款新能源車。"
+            ],
+            "keywords": [
+                "是"
+            ],
+            "passed": true
+        },
+        {
+            "metadata": {},
+            "question": "Key features and specifications about rabbit r1",
+            "answer": "The Rabbit R1 is a cutting-edge AI device that offers a unique blend of features and specifications. Here is a summary of the key features and specifications of the Rabbit R1 based on the information available:\n\n**Key Features:**\n\n1. **Design**: The Rabbit R1 is a compact and stylish device designed in collaboration with Teenage Engineering, known for their focus on aesthetics and functionality. It is about half the size of an iPhone, making it highly portable.\n   \n2. **Display**: The R1 features a 2.88-inch TFT touchscreen that offers a crisp and vibrant display despite its small size.\n   \n3. **Camera**: It is equipped with a rotating camera, called the Rabbit Eye, which can rotate 360 degrees and be used for photos, videos, or video calls. The camera also acts as a privacy shutter when not in use.\n   \n4. **User Interface**: The device features a user-friendly interface and can be controlled through voice commands using a push-to-talk button.\n   \n5. **Large Action Model (LAM)**: The Rabbit R1 incorporates a Large Action Model (LAM) that enables it to go beyond traditional AI assistants by taking action based on user commands rather than just providing information or responses.\n\n**Specifications:**\n\n1. **Processor**: 2.3GHz MediaTek processor.\n   \n2. **Memory**: 4GB RAM.\n   \n3. **Storage**: 128GB internal storage.\n   \n4. **Camera**: 360-degree rotating camera for various uses.\n   \n5. **Battery Life**: All-day endurance, ensuring long-lasting usability.\n   \n6. **Connectivity**: 4G LTE SIM card slot for constant connectivity, as well as Wi-Fi connectivity.\n   \n7. **Navigation**: Includes an analog scroll wheel for easy navigation.\n   \n8. **Operating System**: Runs on Rabbit OS, a system that is powered by an innovative AI technology.\n\nThe Rabbit R1 stands out for its emphasis on a simplified and enhanced user experience, blending modern technology with a touch of nostalgia. Its unique design, advanced features, and focus on user interaction set it apart in the realm of AI devices, making it a compelling option for those seeking a different approach to AI assistants.",
+            "ground_truths": [
+                "The Rabbit R1 is a handheld AI-powered device. Here are some key features and specifications:\n Dimensions : 78mm*78mm*13mm / 3in*3in*0.5in¹\n Weight : 115g\n Battery Life and Charging Capabilities : 500 cycles > 80%, charging current 500mA, rate capacity 1000mAh\n Connectivity : Bluetooth 5.0 / Wi-Fi with 2.4GHz + 5GHz / 4G LTE\n Processor : MediaTek MT6765 Octa-core (Helio P35) max CPU frequency 2.3GHz\n Memory : 4GB\n Storage : 128GB\n Display : 2.88in TFT touchscreen\n Camera : 8MP, 3264x2448\n Video Resolution : 24fps, 1080p\n Operating Temperatures : 0°C - 45°C or 32ºF - 113ºF"
+            ],
+            "keywords": [
+                "115",
+                "2.88"
+            ],
+            "passed": false
+        },
+        {
+            "metadata": {},
+            "question": "가정 도우미 로봇 Ballie는 어떤 기능이 있나요?",
+            "answer": "삼성의 가정 도우미 로봇 Ballie는 다양한 기능을 갖추고 있습니다. 이 로봇은 일상적인 가정 업무를 처리하고 사용자의 요구에 맞는 맞춤형 서비스를 제공하기 위해 설계되었습니다. 몇 가지 주요 기능은 다음과 같습니다:\n\n1. **자동 가정 관리 및 작업 완료**: Ballie는 집 안을 자율적으로 이동하며 다양한 작업을 수행할 수 있습니다. 이를 통해 집안의 스마트 기기들을 제어하고 다양한 업무를 처리합니다.\n\n2. **사용자의 패턴과 습관 학습**: 인공지능을 통해 Ballie는 사용자의 패턴과 습관을 지속적으로 학습하여 더 스마트하고 개인화된 서비스를 제공합니다. 이를 통해 사용자의 요구에 맞춤형 지원을 제공하며 일상을 더욱 편리하게 만듭니다.\n\n3. **애완동물 또는 가족 구성원 영상 업데이트**: Ballie는 집을 비울 때 애완동물이나 가족 구성원의 영상을 촬영하여 사용자의 모바일 기기로 전송합니다. 이를 통해 사용자는 집을 비운 채로도 가족이나 애완동물을 안전하게 확인할 수 있습니다.\n\n4. **상호작용 및 사용자 경험 향상**: Ballie는 단순한 로봇이 아닌 사용자와 감정적인 연결을 형성하기 위해 디자인되었습니다. 이를 통해 사용자와의 상호작용을 증진시키며 보다 풍부한 가정 경험을 제공합니다.\n\n5. **스마트 기기 제어**: Ballie는 집안의 다양한 스마트 기기들을 제어할 수 있어서, 커튼 조절이나 TV 채널 변경 등의 기능을 수행할 수 있습니다. 또한, 보안을 유지하고 집을 순찰하는 기능도 갖추고 있습니다. \n\n이러한 다양한 기능을 통해 Ballie는 사용자의 일상을 더 편리하고 풍부하게 만들어주는 스마트 홈 도우미로 작용하고 있습니다.",
+            "ground_truths": [
+                "삼성의 가정 도우미 로봇 Ballie는 다음과 같은 기능을 갖추고 있습니다:\n개인 가정 보조 : Ballie는 집 안에서 자율적으로 이동하며 다양한 작업을 수행할 수 있습니다.\n스마트 기기 제어 : Ballie는 집에 있는 다른 스마트 기기를 연결하고 제어할 수 있습니다.\n개인화 서비스 : Ballie는 사용자의 행동과 습관을 자동으로 학습하고 개인화된 서비스를 제공합니다.\n원격 감시 : 사용자가 집을 비울 때 Ballie는 비디오로 애완동물이나 가족 구성원의 상황을 업데이트할 수 있습니다.\n프로젝션 아티스트 : Ballie는 바닥, 벽 또는 천장에 물체를 프로젝션할 수 있으며, 이는 애완동물을 위한 비디오 재생, 비디오 통화 표시, 운동 비디오 제공 등을 포함합니다.\n스마트 홈 어시스턴트 : Ballie는 조명 제어, 애완동물 음식 공급, 문자 메시지 전송, 에어컨, 세탁기 등의 기기를 제어할 수 있습니다."
+            ],
+            "keywords": [
+                "가정 도우미||기기 제어||원격 감시||가정 어시스턴트"
+            ],
+            "passed": true
+        },
+        {
+            "metadata": {},
+            "question": "maximum speed of Moonwalker in 2024",
+            "answer": "In 2024, the Moonwalkers by Shift Robotics have a maximum speed of 7 miles per hour (11.2 kilometers per hour) . These AI-informed robotic shoes allow individuals to walk at a speed of a run, which is up to three times faster than normal walking pace . They are designed to offer users the ability to move quickly and efficiently, making them a unique and innovative mobility solution.\n\nThe Moonwalkers are equipped with advanced technology that enables them to reach this impressive speed while maintaining user safety and comfort. These shoes are particularly useful for individuals who need to cover long distances quickly, making them suitable for various applications where speed and mobility are essential.\n\nIt's worth noting that the Moonwalkers have a weight limit of 220 pounds to ensure optimal performance . This feature allows a wide range of individuals to benefit from the speed and convenience provided by these AI-informed robotic shoes.\n\nOverall, in 2024, the Moonwalkers offer a top speed of 7 miles per hour, making them a cutting-edge mobility solution for those looking to move faster and more efficiently in various settings.",
+            "ground_truths": [
+                "In 2024, the Moonwalkers, which are robotic shoes developed by Shift Robotics, have a top speed of up to 7 miles per hour (11.2 kilometers per hour)."
+            ],
+            "keywords": [
+                "7||11.2"
+            ],
+            "passed": true
+        },
+        {
+            "metadata": {},
+            "question": "LG SIGNATURE OLED T 4K는 어떤 종류의 TV인가요?",
+            "answer": "LG SIGNATURE OLED T 4K는 투명 타입의 TV입니다. LG의 시그니처 시리즈에 속하는 이 TV는 77인치의 4K 투명 OLED TV로, 투명 모드와 블랙 배경 모드로 전환할 수 있습니다. 투명 모드에서는 실제로 투명하게 보이며, 블랙 배경 모드에서는 일반 OLED TV처럼 작동합니다. 또한, LG의 Alpha 11 AI 프로세서를 탑재하고 있으며, LG의 Zero Connect 박스를 사용하여 거의 완전히 무선으로 구성되어 있습니다. 이 TV는 모듈식 디자인으로 제공되며, 스탠드얼론, 벽면에 붙이는 두 가지 옵션으로 제공되며, 고객은 화면 양쪽에 서 있거나 떠있는 선반을 추가하여 독특한 취향과 선호도에 맞게 맞춤화할 수 있습니다. 가격 또는 출시 날짜는 아직 공개되지 않았습니다.",
+            "ground_truths": [
+                "LG SIGNATURE OLED T 4K는 세계에서 최초로 출시된 무선 투명 OLED TV입니다."
+            ],
+            "keywords": [
+                "투명"
+            ],
+            "passed": true
+        },
+        {
+            "metadata": {},
+            "question": "SQPV 유리",
+            "answer": "\"SQPV 유리\"에 대해 알아보겠습니다.\n\n1. **SQPV란 무엇인가요?**\nSQPV는 Solar Quartz Photovoltaic의 약자로, 태양열을 이용하여 전기를 생산하는 기술을 말합니다. 이 기술을 활용한 유리는 가시광을 투과하면서 발전하며, 무색이면서도 태양빛을 전기로 변환하는 투명한 특성을 가지고 있습니다. SQPV 유리는 일반적인 창문과 유사한 투명도를 유지하면서도 차열성과 단열성이 우수하며, 건물 내부에 설치되어도 채광이나 시야를 해치지 않으면서 발전이 가능합니다.\n\n2. **주요 특징은 무엇인가요?**\n   - 표면, 뒷면, 대각선 면에서 어떤 각도에서든 태양광을 받아 발전 가능\n   - 희토류 등 고가의 재료를 사용하지 않음\n   - 북면이나 천장에서도 발전이 가능하여 다양한 장소에 활용 가능\n\n3. **활용분야는 무엇인가요?**\n   - 오피스 빌딩, 고층빌딩, 유리 하우스, 등 다양한 건물에서 사용 가능\n   - 일반 건물 창문부터 자동차, 온실, 건물 일체형 태양광 발전까지 활용도가 높음\n\n4. **최신 동향은 어떤가요?**\n최근 일본 스타트업인 inQs가 SQPV 글라스를 공개하며, 오피스 빌딩에서 유리를 통해 발전시키는 기술을 소개하고 있습니다. 또한, 지속가능성 부문에서 수상작으로 선정되어 관심을 받고 있는 제품 중 하나입니다.\n\n위 정보를 종합하면, SQPV 유리는 환경 친화적이며 효율적인 전기 생산을 위한 혁신적인 기술로, 건물 산업부터 태양광 발전소 등 다양한 분야에서 활용 가능한 유망한 솔루션이라고 볼 수 있습니다.",
+            "ground_truths": [
+                "SQPV 유리는 InQs 회사에서 개발한 혁신적인 투명 태양광 유리입니다. 이 기술은 태양광을 발전시키는 데 뿐만 아니라 보이지 않는 빛에서 에너지를 얻는 데에도 사용됩니다. 이는 어두운 실내 환경이나 흐린 날에도 효율적으로 작동할 수 있습니다."
+            ],
+            "keywords": [
+                "InQs||발전||에너지"
+            ],
+            "passed": true
+        },
+        {
+            "metadata": {},
+            "question": "BMind 거울이 제 불면증을 완화할 수 있을까요?",
+            "answer": "BMind는 Baracoda사가 개발한 스마트 거울로, 스트레스 관리와 정신적 안녕을 위한 건강 동반자 역할을 합니다. 이 거울은 사용자의 기분을 파악하고 긍정적인 마음가짐을 유도하는 데 도움을 줄 수 있다고 주장됩니다. 따라서, BMind 거울은 불면증을 완화하는 데 도움이 될 수 있습니다. 거울이 사용자의 기분을 파악하고 긍정적인 삶 태도로 이끄는데 도움이 되므로, 이를 통해 스트레스 감소와 편안한 분위기 조성에 기여할 수 있습니다.\n\nBMind는 사생활을 존중하며 모든 정보를 로컬 저장하고 절대로 공유하지 않는다고 합니다. 따라서 개인정보 보호에 신경을 쓰며 안전하게 사용할 수 있습니다. 이러한 기능들을 통해 BMind는 불면증 증상 완화에 도움이 되며, 사용자의 기분을 개선하고 긍정적인 마음가짐을 유도할 수 있습니다. \n\n불면증을 관리하는 데 도움이 되는 다른 전략도 있을 수 있습니다. 불면증은 운동, ASMR 듣기, 올바른 영양소 섭취 등을 통해 감소시킬 수 있는데, 이러한 다양한 방법을 함께 적용하는 것이 더 효과적일 수 있습니다. 그러므로, BMind 거울을 불면증 관리의 일환으로 활용하면 도움이 될 수 있지만, 다양한 방법과 전략을 종합적으로 활용하는 것이 불면증 완화에 더 효과적일 수 있습니다.",
+            "ground_truths": [
+                "BMind 거울은 인공 지능을 기반으로 하는 스마트 거울로, 사용자의 감정을 인식하고 스트레스를 관리하는 데 도움을 줄 수 있습니다. 빛 치료 세션, 명상 가이드, 자기 긍정적인 서비스를 제공하여 사용자의 감정을 조절하고 스트레스를 효과적으로 관리할 수 있도록 돕습니다. 이러한 기능은 불안을 완화하고 불면증을 줄이며 긍정적인 마인드를 유지하는 데 도움이 될 수 있습니다."
+            ],
+            "keywords": [
+                "도움||줄이다"
+            ],
+            "passed": true
+        },
+        {
+            "metadata": {},
+            "question": "電動汽車“AFEELA”的自動駕駛功能是Level幾？",
+            "answer": "電動汽車“AFEELA”安裝了45組攝影鏡頭和感應器，以實現360度的全方位感知，並且配備了高通芯片，具備Level 3級的自動駕駛功能。這表示車輛在特定條件下能夠實現高度自動化的駕駛，但需要時仍需駕駛員介入. 因此，“AFEELA”擁有Level 3的自動駕駛功能。",
+            "ground_truths": [
+                "AFEELA的自動駕駛功能可以理解為：AFEELA與Qualcomm Technologies合作，搭載了世界領先的半導體，實現了在特定條件下的自動駕駛功能Level 3，以及在更廣泛的駕駛條件下的駕駛輔助功能Level 2/2+。換句話說，AFEELA具備自動駕駛功能Level 3和更廣泛的駕駛輔助功能Level 2/2+。"
+            ],
+            "keywords": [
+                "具備",
+                "Level 3||Level3"
+            ],
+            "passed": true
+        },
+        {
+            "metadata": {},
+            "question": "本田Motocompacto可以開多少公里？",
+            "answer": "本田Motocompacto的續航里程為12英里，約合19.3公里.這款電動滑板車的設計目的是作為最後一哩／首一哩的解決方案，適合輔助汽車使用，而非完全取代.其主要功能是幫助使用者到達不遠的目的地，例如火車站，或供大學生在校園內移動.Motocompacto是一款電動滑板車，它的航程雖然可能較短，但適合短距離、慢速行駛的需求.雖然相對於其他機動車輛，如BMW CE02等的航程可能較短, 但它的輕便設計和方便攜帶的特性使其成為一款便於在城市中輔助代步的交通工具。",
+            "ground_truths": [
+                "本田Motocompacto是一款电动滑板车，根據資料顯示，它的續航里程約為12至20公里。"
+            ],
+            "keywords": [
+                "12||20"
+            ],
+            "passed": true
+        },
+        {
+            "metadata": {},
+            "question": "제안드리는 하나의 노트북은 눈에 불편함 없이 3D 화면을 지원하는 것입니다.",
+            "answer": "한 가지 노트북으로서 눈에 불편함 없이 3D 화면을 제공하는 제품 중 하나는 ASUS의 Spatial Vision 기술이 탑재된 노트북 시리즈입니다. ASUS는 사용자가 3D 안경을 착용하지 않고도 OLED 디스플레이를 통해 3D와 유사한 화면을 경험할 수 있도록 개발했습니다. 이 기술은 노트북에 장착된 카메라가 사용자의 눈 움직임을 따라가며 3D 이미지를 제공하여, 화면이 실제로 밖으로 튀어나오는 것처럼 보이게 합니다. 이를 통해 창작자나 게이머들이 번거로운 안경이나 헤드셋 없이도 3D 콘텐츠를 즐길 수 있게 되었습니다. ASUS의 이 노트북은 렌더링 없이 작업을 미리 확인할 수 있어 시각 아티스트와 엔지니어들에게 유용한 도구로 작용할 것으로 보입니다. \n\n해당 ASUS 노트북 시리즈에는 다양한 모델들이 포함되어 있으며, 3D 모델링 작업에 최적화된 고성능을 제공합니다. 예를 들어, 프로아트 스튜디오북 16 3D OLED, 젠북 프로 16X OLED, 젠북 프로 14 OLED, 비보북 프로 16X 3D OLED 등의 모델이 이 기술을 채용하고 있습니다. 이러한 제품들은 작업의 효율성을 높이고 사용자들이 눈에 불편함 없이 3D 환경에서 작업할 수 있도록 설계되었습니다. \n\n이러한 노트북은 렌더링이나 작업 결과물의 시각화를 보다 효율적이고 편리하게 할 수 있어, 3D 모델링을 필요로 하는 전문가들에게 유용할 것으로 보입니다. ASUS의 Spatial Vision 기술이 적용된 노트북은 눈에 피로를 줄이고 사용자 경험을 향상시킬 수 있는 혁신적인 기술을 제공하고 있습니다.",
+            "ground_truths": [
+                "宏碁 Predator Helios 3D 15 SE SpatialLabs 특별판:\n특징: 이 노트북은 눈에 불편함 없이 3D 화면을 제공하며, 눈 추적과 3D+ SpatialLabs TrueGame 기술을 지원하여 전문 3D 콘텐츠 제작 사용자에게 적합합니다.\n구성: Intel 코어 i9 프로세서, 고속 DDR5 메모리, RTX 4080 그래픽 카드 등을 탑재하고 있으며, 삼성의 독자적인 눈 추적 기술을 지원합니다.\n기타 특징: 전체 크기의 RGB 백라이트 키보드, 고급 냉각 시스템 및 다양한 인터페이스 등을 제공하여 다양한 요구에 적합합니다.\n출시 시기 및 가격: 이 노트북은 6월에 출시되었으며, 약 3499 유로에 판매되며 전문 사용자에게 통합된 3D 체험을 제공합니다.\n\nASUS VivoBook Pro 16X 3D OLED 노트북:\n특징: VivoBook Pro 16X는 3D OLED 디스플레이를 갖추고 있어 눈에 불편함 없이 3D 디스플레이를 지원하여 콘텐츠 제작자에게 적합합니다.\n구성: Intel 13세대 코어 HX 프로세서, 최신 DDR5 메모리 및 2TB PCIe 4.0 SSD, RTX 40 시리즈 그래픽 카드를 탑재하고 있습니다.\n화면: 15.6인치 OLED 화면으로, 120Hz 주사율과 눈에 불편함 없이 3D 디스플레이를 지원합니다.\n가격과 출시 시기: 구체적인 가격과 출시 시기는 공개되지 않았으며, 우수한 성능을 가진 기대되는 3D 노트북입니다."
+            ],
+            "keywords": [
+                "Predator Helios 3D 15 SE SpatialLabs||VivoBook Pro 16X 3D OLED"
+            ],
+            "passed": false
+        },
+        {
+            "metadata": {},
+            "question": "小米SU7支持华为ADS 2.0吗？",
+            "answer": "根据搜索结果，小米SU7目前尚不支持华为ADS 2.0智能驾驶系统。相比之下，华为的智界S7已经全面配备了华为ADS 2.0系统. 尽管小米SU7在配备ADS 2.0方面还需等待至今年8月, 但小米SU7在电池包容量和续航里程上表现更出色，与智界S7相比，具有更高的官方续航里程.此外，华为线下门店数量较小米更多，同时销售和售后服务系统也更为完善. 在智能驾驶技术方面，虽然小米SU7仍在追赶，但华为的ADS 2.0已经得到广泛应用，具备更全面的城市驾驶辅助功能. 因此，尽管小米SU7在某些方面领先，但华为智界S7在智能驾驶系统和服务体验上具有一定优势。",
+            "ground_truths": [
+                "小米SU7车型不支持华为ADS 2.0智能驾驶系统。"
+            ],
+            "keywords": [
+                "不支持"
+            ],
+            "passed": true
+        }
+    ]
+}
