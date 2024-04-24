@@ -112,10 +112,10 @@
             },
             {
                 "scene": "local_search",
-                "total": 60,
-                "passed": 38,
-                "failed": 22,
-                "pass_rate": "63.33%",
+                "total": 80,
+                "passed": 41,
+                "failed": 39,
+                "pass_rate": "51.25%",
                 "list": [
                     {
                         "total": 20,
@@ -143,6 +143,15 @@
                         "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/local_search/20240424-metaso.json",
                         "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/local_search/20240424-metaso.csv",
                         "evaluate_ai": "metaso"
+                    },
+                    {
+                        "total": 20,
+                        "passed": 3,
+                        "failed": 17,
+                        "pass_rate": "15.00%",
+                        "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/local_search/20240424-you.json",
+                        "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/local_search/20240424-you.csv",
+                        "evaluate_ai": "you"
                     }
                 ]
             },
@@ -237,10 +246,10 @@
                 ]
             }
         ],
-        "total": 420,
-        "passed": 166,
-        "failed": 254,
-        "pass_rate": "39.52%"
+        "total": 440,
+        "passed": 169,
+        "failed": 271,
+        "pass_rate": "38.41%"
     },
     {
         "date": "2024-04-22",
