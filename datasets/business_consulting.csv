@@ -1,46 +1,20 @@
 ﻿id,query,ground_truth,expect_key_words,language,description
-1,ycloud是什么？,YCloud是友云采FED自研的一套基于knockoutjs的开源UI组件库，主要服务于PC端的企业级Web应用. YCloud同时也是一家领先的WhatsApp业务服务提供商，致力于帮助企业通过WhatsApp这一全球最流行的社交应用来发展业务.,"WhatsApp
-knockoutjs",zh_cn,
-2,百度,百度是一家中国跨国科技公司，总部位于北京海淀区，成立于2000年。它是全球最大的中文搜索引擎之一，致力于提供互联网相关服务、产品和人工智能技术。,baidu.com,zh_cn,
-3,紫金的销售收入,"紫金矿业2023年的营业收入约为2934.03亿元,同比增长8.54%。",2934,zh_cn,
-4,Vyro AI是什么公司,"Vyro AI 是一家专注于开发基于人工智能和机器学习的内容创作工具的公司。根据其官网信息:
-Vyro 已经开发了 15 多款产品，拥有超过 1.5 亿次下载量和 80 万日活用户。
-该公司的主要产品包括 AI 图像生成器 Imagine、AI 照片编辑器 PhotoShot 等。
-Vyro 的团队擅长应用前沿的生成式 AI 技术，并致力于为用户提供创新的内容创作工具。
-该公司成立于巴基斯坦，是当地一家具有多元化和创新实力的科技公司。
-总之, Vyro AI 是一家专注于开发基于生成式 AI 的创意工具的科技公司，在内容创作领域有较强的技术实力和产品线。","人工智能
-图片",zh_cn,
-5,"列出以下公司“OpenAI, perplexity, anthropic, mistral”的“创始人，成立时间，产品，投资人”，用表格展示","公司名称
-创始人
-成立时间
-产品
-投资人
-OpenAI
-Sam Altman
-2015年
-GPT语言模型
-包括Elon Musk、Peter Thiel等在内的投资者
-Perplexity AI
-Aravind Srinivas
-2018年
-基于OpenAI模型的问答助手
-IVP、NVIDIA、Jeff Bezos、NEA、Elad Gil、Nat Friedman等
-Anthropic
-Dario Amodei
-2021年
-生成式AI模型
-包括主权财富基金在内的投资者
-Mistral
-未提及
-未提及
-未提及
-未提及","Sam Altman
-Aravind
-Srinivas",zh_cn,
+1,ycloud - что это?,"YCloud - это набор открытых компонентов пользовательского интерфейса, разработанный компанией Yonyou FED на основе knockoutjs, который в основном предназначен для предприятий и веб-приложений на ПК. YCloud также является ведущим поставщиком услуг WhatsApp Business, который стремится помогать предприятиям развивать свой бизнес через WhatsApp - одно из самых популярных в мире приложений для общения.",WhatsApp&&knockoutjs,ru,
+2,"""Telegram"" - это российская компания?","Telegram был основан братьями Николаем и Павлом Дуровыми в 2013 году. Они являются основателями крупнейшей российской социальной сети VKontakte. Однако компания Telegram не расположена на территории России. В настоящее время команда разработчиков Telegram находится в Дубае, Объединенные Арабские Эмираты. Издателем мобильного приложения Telegram является Telegram FZ-LLC, зарегистрированная организация в Объединенных Арабских Эмиратах. Таким образом, хотя основатели являются россиянами, Telegram не является российской компанией.",Дубае||не является,ko,
+3,紫金的銷售收入,紫金礦業2023年的營業收入約為2934.03億元，同比增長8.54%。,2934,zh_tw,
+4,"Vyro AI - это компания, разрабатывающая искусственный интеллект и инновационные технологии.","Vyro AI - это компания, специализирующаяся на разработке инструментов для творчества на основе искусственного интеллекта и машинного обучения. Согласно информации на их официальном сайте:
+
+Vyro разработала более 15 продуктов с общим количеством загрузок более 150 миллионов раз и ежедневной активностью более 800 тысяч пользователей.
+Основные продукты компании включают AI генератор изображений Imagine, редактор фотографий на основе искусственного интеллекта PhotoShot и т. д.
+Команда Vyro специализируется на применении передовых технологий генерации AI и стремится предоставлять пользователям инновационные инструменты для творчества.
+Компания была основана в Пакистане и является многообразной и инновационной технологической компанией на местном рынке.
+
+Таким образом, Vyro AI - это технологическая компания, специализирующаяся на разработке творческих инструментов на основе генеративного искусственного интеллекта, с сильной технической базой и линейкой продуктов в области контентного творчества.",Искусственный интеллект&&изображений,ru,
+5,Какие еще компании поддерживает основатель Perplexity?,"Аравинд Сринивас инвестировал в компании Eleven Labs и Pika. Он полюбил эти компании за то, что они делают, и его личная мотивация для инвестиций не связана с финансовой отдачей, а скорее с его увлечением тем, что они делают.",Eleven Labs||Pika,ko,
 6,虎门大桥过路费多少钱？,虎门大桥的过路费为每车次收费40元,40,zh_cn,
 7,How did Musk earn the first bucket of gold in his life?,"Elon Musk earned his first significant fortune from the sale of his web software company, Zip2. Musk and his brother Kimbal founded Zip2 in 1995. The company, which provided an online city guide platform, was quite successful and was purchased by Compaq in 1999 for more than $300 million. From this sale, Musk received around $22 million for his 7% share",Zip2,en,
-8,iask.ai 2024年3月的访问量。,iAsk.Ai的2024年3月访问量为 3.3M。,.3.3||3.4,zh_cn,
-9,Monica 2023年有多少用户？,Monica在2023年已经有超过150万用户,150,zh_cn,
+8,iask.ai 2024年3月的訪問量,iAsk.Ai的2024年3月訪問量為3.3百萬。,3.3||3.4,zh_tw,
+9,Monica.im в 2023 году имеет сколько пользователей?,"В 2023 году у Monica.im уже более 1,5 миллионов пользователей.",150,ru,
 10,What will Trump do to China if he takes office again?,"If Trump takes office again, his stance on China is expected to remain tough and potentially escalate. During his previous term, Trump initiated a trade war with China by imposing significant tariffs on Chinese imports. He has indicated that if reelected, he plans to intensify this trade war by imposing tariffs as high as 60% or more on Chinese imports
 This move is part of his strategy to address what he perceives as unfair trade practices by China and to protect American industries and jobs from what he views as Chinese economic threats
 Furthermore, Trump's combative approach towards China extends beyond trade policies. He has expressed intentions to phase out Chinese imports of essential goods over a four-year period, including electronics, steel, and pharmaceuticals. Additionally, Trump aims to ban Chinese companies from owning critical U.S. infrastructure in sectors such as energy, technology, and agriculture, highlighting national security concerns underpinning his China policy
@@ -51,7 +25,7 @@ Adjusted earnings per share (EPS) was $1.82, compared to the expected $1.55.
 Revenue grew 12% year-over-year to $37.2 billion, exceeding the expected $35.7 billion.
 Microsoft's Intelligent Cloud segment, which includes the Azure cloud computing platform, saw revenue grow 20% year-over-year, also beating expectations.
 Azure revenue grew 48% year-over-year, driving the strong performance of the Intelligent Cloud segment.
-Other areas like Surface devices, Xbox gaming, and Microsoft 365 consumer subscriptions also saw significant revenue growth during the quarter.","48%
+Other areas like Surface devices, Xbox gaming, and Microsoft 365 consumer subscriptions also saw significant revenue growth during the quarter.","
 37.2",en,
 12,What is Toyota's biggest risk in the future?, Toyota's biggest risk in the future is the consumer adoption of battery electric vehicles (BEVs),BEVs,en,
 13,"What will the world auto industry look like in the future, Musk said?","Elon Musk warned that Chinese automakers will ""demolish"" their global competition unless other nations impose trade barriers to handicap the new wave of electric cars coming from China
@@ -68,15 +42,13 @@ Furthermore, Boeing's internal culture and safety practices have also come under
 Such issues can compromise the overall quality and safety standards of Boeing's aircraft, further eroding consumer trust and damaging the company's reputation.
 On a more operational level, concerns have been raised about specific incidents, such as the recent recommendation by the FAA to visually inspect the mid-exit door plugs on Boeing 737-900ER aircraft, highlighting potential safety issues that need to be addressed
 These incidents, in addition to the ongoing challenges faced by the company, contribute to the perception that Boeing's situation is worsening over time.",quality ,en,
-15,日本百年の医薬品メーカー、小林製薬の赤かび成分含有健康食品が「死亡」事件を引き起こしました。,"小林製薬が製造販売していた紅麹含有の健康食品を摂取した人が腎臓の病気を発症し、2人の死亡例が確認されている。これまでに106人が入院している。
-小林製薬の調査では、紅麹原料に""未知の成分""が含まれていた可能性が指摘されている。この成分が腎疾患の原因となった可能性がある。
-小林製薬の紅麹は、サプリメント用と食品着色用の2種類があり、""未知の成分""はサプリメント用の一部のロットにのみ検出された。
-紅麹は一般的に食品着色料として使われてきたが、サプリメントとして使用する際はカビ毒のシトリニンの含有量に注意が必要とされている。
-小林製薬は、この問題を受けて関連する健康食品の自主回収を進めており、厚生労働省も対応を検討している。","2
-106",ja,
-16,"如果欧盟选择与中国""脱钩"",这将对德国经济产出造成多大影响？","研究显示，一旦欧盟与中国""脱钩""，德国的经济产出将减少1%。
-短期内,德国经济产出将下降约5%
-从中长期来看,德国经济繁荣的永久性损失将为每年约1.5%",1%||5%||1.5%,zh_cn,
+15,"
+日本百年的藥品製造商小林製藥的紅麴成分含有保健食品引發的「死亡」事件。","食用了小林製藥製造銷售的含紅麴的保健食品的人發生了腎臟疾病，已確認有2人死亡。到目前為止，有106人住院。
+小林製藥的調查顯示，紅麴原料中可能含有""未知成分""，這些成分可能導致腎臟疾病。
+小林製藥的紅麴分為補充劑和食品著色劑兩種，""未知成分""只在部分補充劑批次中被檢測出來。
+紅麴一般被用作食品著色劑，但在作為補充劑使用時，需要注意毒素紅曲霉素的含量。
+小林製藥在這個問題上已開始自願回收相關的保健食品，厚生勞動省也在考慮採取應對措施。",2&&106,zh_tw,
+16,"Если Евросоюз решит ""отцепиться"" от Китая, какое влияние это окажет на экономику Германии?","Исследования показывают, что если Евросоюз откажется от связей с Китаем, экономический вывод Германии сократится на 1%. В краткосрочной перспективе экономический вывод Германии снизится примерно на 5%. Среднесрочно и долгосрочно процентное сокращение экономического процветания Германии составит около 1,5% в год.",1%||5%||1.5%,ru,
 17,虎ノ門ヒルズフォーラム,"虎ノ門ヒルズフォーラムは、虎ノ門ヒルズ森タワー内に位置するイベント施設で、2014年5月に竣工しました。このフォーラムは、3つのホールと4つのミーティングルームから構成されており、590m²のメインホールと合計6つの会議室が利用可能です。メインホールは最大720名を収容し、各ホールは異なる形式のイベントに対応できます。装備されている設備には、360インチスクリーンや電動バトンなどがあり、多種多様なイベントに対応しています。
 
 主な情報:
@@ -86,15 +58,15 @@ These incidents, in addition to the ongoing challenges faced by the company, con
 最寄り駅: 東京メトロ銀座線「虎ノ門駅」、東京メトロ日比谷線「神谷町駅」
 収容人数: メインホール最大720名、ホールA最大792名、ホールB最大460名
 利用時間: 9:00～21:00",590m²,ja,
-18,腾讯的天使投资商叫什么？,腾讯的天使投资商包括刘晓松、IDGVC（后更名为IDG资本）、香港盈科数码和南非的MIH。此外，曾李青也是腾讯的天使投资人之一，他在离开腾讯后成立了德迅投资。,刘晓松||IDG||香港盈科||MIH,zh_cn,
-19,华为2023年赢收情况？,"华为2023年的主要财务数据如下:
-全年实现营业收入7042亿元人民币,同比增长9.63%。
-实现净利润870亿元人民币,同比大增144.38%。
-ICT基础设施业务实现销售收入3620亿元,同比增长2.3%。
-终端业务实现销售收入2515亿元,同比增长17.3%。
-云计算业务实现销售收入553亿元,同比增长21.9%。
-数字能源业务实现销售收入526亿元,同比增长3.5%。
-智能汽车解决方案业务实现销售收入47亿元,同比增长128.1%",7042,zh_cn,
+18,腾訊的天使投資者叫什麼名字？,腾讯的天使投资商包括刘晓松、IDGVC（後更名為IDG資本）、香港盈科數碼和南非的MIH。此外，曾李青也是腾讯的天使投资人之一，他在離開腾讯後成立了德迅投资。,劉曉松||IDG||香港盈科||MIH,zh_tw,
+19,华为2023年营收情况？,"華為2023年的主要財務數據如下:
+全年實現營業收入7042億元人民幣,同比增長9.63%。
+實現淨利潤870億元人民幣,同比大增144.38%。
+ICT基礎設施業務實現銷售收入3620億元,同比增長2.3%。
+終端業務實現銷售收入2515億元,同比增長17.3%。
+雲計算業務實現銷售收入553億元,同比增長21.9%。
+數字能源業務實現銷售收入526億元,同比增長3.5%。
+智能汽車解決方案業務實現銷售收入47億元,同比增長128.1%","7042||7,042",zh_tw,
 20,光通信社の強みを三つ教えてください。,"販売力と顧客基盤: 光通信社の強みは「販売力」であり、その裏には強力な「顧客基盤」「販売網」があります。特に、光通信社は「法人90万社、個人120万人の基盤がある。特に中小企業が多い」という強固な顧客基盤を持っています。
 業績の強さ: 光通信社の業績は絶好調で、前2017年3月期は営業利益が10％増の415億円となり、今2018年3月期も同11％増の465億円と2ケタ成長を着実に達成しそうだ。
 投資戦略: 光通信社は長期的な収益力のある会社に株価が割安な段階から戦略的に投資しているように見えます。これにより、光通信社はその投資先にも注目できそうです。",90,ja,
