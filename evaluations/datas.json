@@ -59,9 +59,9 @@
             {
                 "scene": "real_time_news",
                 "total": 100,
-                "passed": 36,
-                "failed": 64,
-                "pass_rate": "36.00%",
+                "passed": 39,
+                "failed": 61,
+                "pass_rate": "39.00%",
                 "list": [
                     {
                         "total": 20,
@@ -101,9 +101,9 @@
                     },
                     {
                         "total": 20,
-                        "passed": 8,
-                        "failed": 12,
-                        "pass_rate": "40.00%",
+                        "passed": 11,
+                        "failed": 9,
+                        "pass_rate": "55.00%",
                         "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/real_time_news/20240424-iask.json",
                         "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/real_time_news/20240424-iask.csv",
                         "evaluate_ai": "iask"
@@ -274,9 +274,9 @@
             }
         ],
         "total": 500,
-        "passed": 238,
-        "failed": 262,
-        "pass_rate": "47.60%"
+        "passed": 241,
+        "failed": 259,
+        "pass_rate": "48.20%"
     },
     {
         "date": "2024-04-22",
