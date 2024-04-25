@@ -113,9 +113,9 @@
             {
                 "scene": "local_search",
                 "total": 100,
-                "passed": 65,
-                "failed": 35,
-                "pass_rate": "65.00%",
+                "passed": 68,
+                "failed": 32,
+                "pass_rate": "68.00%",
                 "list": [
                     {
                         "total": 20,
@@ -128,9 +128,9 @@
                     },
                     {
                         "total": 20,
-                        "passed": 12,
-                        "failed": 8,
-                        "pass_rate": "60.00%",
+                        "passed": 15,
+                        "failed": 5,
+                        "pass_rate": "75.00%",
                         "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/local_search/20240424-glarity_search.json",
                         "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/local_search/20240424-glarity_search.csv",
                         "evaluate_ai": "glarity_search"
@@ -274,9 +274,9 @@
             }
         ],
         "total": 500,
-        "passed": 215,
-        "failed": 285,
-        "pass_rate": "43.00%"
+        "passed": 218,
+        "failed": 282,
+        "pass_rate": "43.60%"
     },
     {
         "date": "2024-04-22",
