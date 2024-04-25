@@ -7,9 +7,9 @@
     "evaluate_type": "ragas",
     "evaluate_data": {
         "total": 20,
-        "passed": 5,
-        "failed": 15,
-        "pass_rate": "25.00%"
+        "passed": 11,
+        "failed": 9,
+        "pass_rate": "55.00%"
     },
     "created_at": "2024-04-24 13:03:30",
     "datas": [
@@ -33,7 +33,7 @@
                 "有媒體報導稱，百川智能正在進行新一輪數億美元融資，將成為2024年國內AI領域最大融資之一，且公司今年以來估值已超18億美元。"
             ],
             "keywords": [
-                "18"
+                "18||3"
             ],
             "passed": false
         },
@@ -45,7 +45,7 @@
                 "2024年4月23日，Perplexity AI又宣布完成了新一轮融资，筹集了6270万美元，融资后估值达到了10亿美元5810。这次融资使得公司的估值较上一轮融资翻了一番"
             ],
             "keywords": [
-                "6270"
+                "62.7||6270"
             ],
             "passed": false
         },
@@ -131,7 +131,7 @@
             ],
             "keywords": [
                 "2023",
-                "893.55"
+                "893"
             ],
             "passed": false
         },
@@ -145,7 +145,7 @@
             "keywords": [
                 "no casualties"
             ],
-            "passed": false
+            "passed": true
         },
         {
             "metadata": {},
@@ -155,7 +155,7 @@
                 "Vladimir Putin stated that \"radical Islamists\" were behind the deadly attack on the Crocus City concert hall in Moscow"
             ],
             "keywords": [
-                "radical Islamists"
+                "radical Islamists||激进伊斯兰主义"
             ],
             "passed": true
         },
@@ -167,9 +167,9 @@
                 "When the container ship MV Dali, 300 metres long and massing around 100,000 tonnes, lost power and slammed into one of the support piers of the Francis Scott Key Bridge in Baltimore, the bridge collapsed in moments."
             ],
             "keywords": [
-                "lost power"
+                "lost power||电力||power loss||losing power"
             ],
-            "passed": false
+            "passed": true
         },
         {
             "metadata": {},
@@ -185,17 +185,15 @@
         },
         {
             "metadata": {},
-            "question": "What did the leaders of the three countries say?",
-            "answer": "Leaders of the Three Countries at the Yalta Conference\nThe leaders of the three countries at the Yalta Conference were the United States, the Soviet Union, and the United Kingdom. They are commonly referred to as the \"Big Three\" .\nAgreements and Disagreements at the Yalta Conference\nAt the Yalta Conference, the Big Three discussed several important issues that would shape the post-war world. Some of the key topics they debated included:\n\nGermany: The leaders discussed what should be done with Germany after its defeat. They aimed to ensure the swiftest possible defeat of Germany and its ally Japan .\nWar criminals: The leaders discussed the punishment of war criminals .\nUnited Nations Organization: They discussed the establishment of a United Nations Organization .\n**\n",
+            "question": "In April 2024, based on the scheme passed by the US House of Representatives, how much money will the United States provide in aid to Ukraine?",
+            "answer": "#### Aid to Ukraine Passed by the US House of Representatives\r\n\r\nIn April 2024, the US House of Representatives approved more than **$61 billion worth of military assistance to help Ukraine** in its defense against Russia, as well as billions for other allies including Israel and Taiwan. This aid package was part of a larger $95 billion legislative package providing security assistance to Ukraine, Israel, and Taiwan. The aid package also includes desperately needed humanitarian aid to Gaza, Sudan, Haiti, and other locations impacted by conflicts and natural disasters around the world.\r\n\r\nThe aid package for Ukraine, Israel, and other US allies passed with broad bipartisan support and could be signed into law as early as next week after it passes through the Senate and lands on President Joe Biden's desk for his signature. The aid to Ukraine was a significant part of this legislative package, with an overwhelming vote in the House of Representatives.\r\n\r\nOverall, the US House of Representatives approved more than **$61 billion in military assistance to help Ukraine** in its defense against Russia, as part of a larger $95 billion legislative package providing security assistance to Ukraine, Israel, and Taiwan.",
             "ground_truths": [
                 "The leaders of the United States, Japan, and the Philippines recently held a summit. Here are some key points from their discussions:\n1. Shared Vision: They issued a “Joint Vision Statement” affirming their shared vision of a free and open Indo-Pacific and international order based on international law.\n2. Security and Economy: They discussed various areas of security and economy, and expressed a desire to advance Japan-U.S.-Philippines cooperation based on this Summit.\n3. Regional Situation: They discussed the security environment in the region and confirmed their unwavering commitment to freedom of navigation and overflight.\n4. Opposition to Unilateral Actions: They confirmed that they would oppose and resolutely respond to any attempts by the People’s Republic of China (PRC) to unilaterally change the status quo by. force in the South China Sea and the East China Sea.\n5. Inclusive Economic Growth: They resolved to promote enduring, inclusive economic growth and resilience in their countries and the broader Indo-Pacific.\nStrengthening Alliances: The Philippines’ decision to strengthen ties with Japan and the United States was described as a “sovereign choice” for the country."
             ],
             "keywords": [
-                "Security",
-                "Economy",
-                "China"
+                "60||600||610||61"
             ],
-            "passed": false
+            "passed": true
         },
         {
             "metadata": {},
@@ -206,9 +204,9 @@
             ],
             "keywords": [
                 "contracts",
-                "Israel"
+                "Israel||Israeli"
             ],
-            "passed": false
+            "passed": true
         },
         {
             "metadata": {},
@@ -230,8 +228,7 @@
                 "Iran fired 170 drones, more than 30 cruise missiles and more than 120 ballistic missiles. Of those, several ballistic missiles reached Israeli territory, causing minor damage to an air base."
             ],
             "keywords": [
-                "drones",
-                "missiles"
+                "drones||missiles||无人机||巡航导弹||弹道导弹"
             ],
             "passed": true
         },
@@ -243,9 +240,9 @@
                 "The decision to lay off approximately 600 employees at Take-Two Interactive, the parent company of Rockstar Games, is part of a broader cost-cutting strategy. The company is rationalizing its pipeline, eliminating several projects in development, and streamlining its organizational structure. This downsizing process is expected to be largely complete by the end of the year 2024. Additionally, Take-Two had already signaled its intention for a significant cost reduction plan following mixed financial results for the quarter ending in December 2023. Despite these challenges, Take-Two has continued to invest in its portfolio, including the acquisition of Gearbox and the development of the highly anticipated 'GTA 6'."
             ],
             "keywords": [
-                "cost-cutting"
+                "cost-cutting||节省成本||cost reduction"
             ],
-            "passed": false
+            "passed": true
         },
         {
             "metadata": {},
@@ -255,9 +252,9 @@
                 "According to the Skytrax rankings for 2024, Doha's Hamad International Airport has been named the best airport in the world."
             ],
             "keywords": [
-                "Doha's Hamad"
+                "Doha||Hamad||哈马德"
             ],
-            "passed": false
+            "passed": true
         }
     ]
 }
