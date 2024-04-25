@@ -7,9 +7,9 @@
     "evaluate_type": "ragas",
     "evaluate_data": {
         "total": 20,
-        "passed": 5,
-        "failed": 15,
-        "pass_rate": "25.00%"
+        "passed": 13,
+        "failed": 7,
+        "pass_rate": "65.00%"
     },
     "created_at": "2024-04-24 12:06:38",
     "datas": [
@@ -23,7 +23,7 @@
             "keywords": [
                 "しません||30"
             ],
-            "passed": false
+            "passed": true
         },
         {
             "metadata": {},
@@ -71,7 +71,7 @@
             "keywords": [
                 "されない"
             ],
-            "passed": false
+            "passed": true
         },
         {
             "metadata": {},
@@ -89,8 +89,8 @@
         },
         {
             "metadata": {},
-            "question": "請教如何在Evernote中插入元素。",
-            "answer": "在Evernote中插入元素的方法有多种，具体取决于您想要插入的元素类型。以下是一些常见的方法：\n\n\n插入图片、表格、分割线、附件等：根据最新的趋势，Evernote支持模块化笔记，允许用户插入图片、表格、分割线和附件等元素。\n\n\n使用快捷键创建新笔记：您可以使用快捷键组合Ctrl+Alt+N快速创建一个新的笔记。此外，还有其他快捷键操作，如Ctrl + Shift + V用于无格式粘贴，以及Ctrl ⌘ V用于将剪贴板中的内容粘贴为一条新的笔记。\n\n\n插入代码：对于需要插入代码的情况，可以在偏好设置中开启代码块功能，或者直接在笔记页面输入特定的标记来插入代码块。\n\n\n利用MathType插入公式：如果您需要在笔记中插入数学公式，可以先从Evernote复制或粘贴公式到MathType进行编辑，然后将编辑后的公式添加回Evernote。\n\n\n通过API插入内容：对于开发者来说，可以通过Evernote API使用JavaScript的innerHTML或innerText属性将内容插入到Evernote编辑器中。\n\n\n这些方法提供了灵活的方式来根据您的需求在Evernote中插入各种元素。无论是普通文本、图片、代码块还是复杂的公式，Evernote都提供了相应的工具和功能来满足用户的需求。\n",
+            "question": "Evernote如何打開快捷鍵菜單？",
+            "answer": "没有直接提到如何打开快捷键菜单的具体快捷键。不过，从证据中可以看出，Evernote允许用户在偏好设置中重新定义快捷键138。这意味着用户可以通过访问Evernote的偏好设置来查看和修改快捷键，但具体到如何打开快捷键菜单的快捷键并未提及。\r\n\r\n然而，考虑到快捷键通常用于快速访问特定功能或菜单，且Evernote支持全局快捷键9，可以推测可能需要使用与操作系统相关的快捷键来访问快捷键菜单。例如，在Windows系统中，这可能涉及到使用Ctrl + Shift等组合键，而在Mac系统中，则可能是Command + Shift等组合键。但是，由于缺乏直接说明如何打开快捷键菜单的证据，这一推测并不确定。\r\n\r\n总结来说，虽然无法直接回答如何打开快捷键菜单的具体快捷键，但用户可以通过修改Evernote的偏好设置中的快捷键来尝试找到或创建一个用于打开快捷键菜单的快捷方式138。如果需要更具体的快捷键信息，建议查阅最新的官方文档或联系Evernote的客户支持获取帮助。",
             "ground_truths": [
                 "要在Evernote中插入元素，請參考以下步驟：\n\n打開筆記，在想插入元素的地方放置游標。\n按下\"/\"鍵來插入元素。\n選擇要插入的元素類型。例如，可以選擇清單、表格或其他元素。\n選擇好要插入的元素後，它將顯示在筆記中。"
             ],
@@ -135,7 +135,7 @@
                 "TXT",
                 "Преобразовать||Преобразуйте"
             ],
-            "passed": false
+            "passed": true
         },
         {
             "metadata": {},
@@ -197,7 +197,7 @@
             "keywords": [
                 "多語言"
             ],
-            "passed": false
+            "passed": true
         },
         {
             "metadata": {},
@@ -209,7 +209,7 @@
             "keywords": [
                 "приобрести||Покупка"
             ],
-            "passed": false
+            "passed": true
         },
         {
             "metadata": {},
@@ -234,7 +234,7 @@
             "keywords": [
                 "Terrain and Obstacle Mapping||Aircraft and Satellite Detection and Tracking||Airport Operations||Autonomous Navigation||Bathymetric Mapping"
             ],
-            "passed": false
+            "passed": true
         },
         {
             "metadata": {},
@@ -247,7 +247,7 @@
                 "поддерживают",
                 "1000"
             ],
-            "passed": false
+            "passed": true
         },
         {
             "metadata": {},
