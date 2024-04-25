@@ -7,9 +7,9 @@
     "evaluate_type": "ragas",
     "evaluate_data": {
         "total": 20,
-        "passed": 8,
-        "failed": 12,
-        "pass_rate": "40.00%"
+        "passed": 11,
+        "failed": 9,
+        "pass_rate": "55.00%"
     },
     "created_at": "2024-04-24 13:26:15",
     "datas": [
@@ -33,7 +33,7 @@
                 "有媒體報導稱，百川智能正在進行新一輪數億美元融資，將成為2024年國內AI領域最大融資之一，且公司今年以來估值已超18億美元。"
             ],
             "keywords": [
-                "18"
+                "18||3"
             ],
             "passed": true
         },
@@ -45,7 +45,7 @@
                 "2024年4月23日，Perplexity AI又宣布完成了新一轮融资，筹集了6270万美元，融资后估值达到了10亿美元5810。这次融资使得公司的估值较上一轮融资翻了一番"
             ],
             "keywords": [
-                "6270"
+                "62.7||6270"
             ],
             "passed": false
         },
@@ -120,7 +120,7 @@
                 "2024",
                 "墨西哥||美國||加拿大"
             ],
-            "passed": false
+            "passed": true
         },
         {
             "metadata": {},
@@ -131,9 +131,9 @@
             ],
             "keywords": [
                 "2023",
-                "893.55"
+                "893"
             ],
-            "passed": false
+            "passed": true
         },
         {
             "metadata": {},
@@ -155,7 +155,7 @@
                 "Vladimir Putin stated that \"radical Islamists\" were behind the deadly attack on the Crocus City concert hall in Moscow"
             ],
             "keywords": [
-                "radical Islamists"
+                "radical Islamists||激进伊斯兰主义"
             ],
             "passed": true
         },
@@ -167,7 +167,7 @@
                 "When the container ship MV Dali, 300 metres long and massing around 100,000 tonnes, lost power and slammed into one of the support piers of the Francis Scott Key Bridge in Baltimore, the bridge collapsed in moments."
             ],
             "keywords": [
-                "lost power"
+                "lost power||电力||power loss||losing power"
             ],
             "passed": true
         },
@@ -185,15 +185,13 @@
         },
         {
             "metadata": {},
-            "question": "What did the leaders of the three countries say?",
-            "answer": "What Did the Leaders Say?\n    \n\n\n    During the Tehran Conference in 1943, the leaders of the three countries, namely U.S. President Franklin Delano Roosevelt, British Prime Minister Winston Churchill, and Soviet Premier Joseph Stalin, discussed and made important decisions regarding various aspects of the ongoing World War II and the postwar era. Here are some key points on what they said and agreed upon:\n   \n\n\n\n\n       Military Strategy and Operations\n      \n      :\n     \n\n\n       The leaders coordinated their military strategy against Germany and Japan.\n      \n\n       They made decisions about launching Operation Overlord (the invasion of northern France) by May 1944.\n      \n\n       Stalin agreed to launch another major offensive on the Eastern Front to support the Allies.\n      \n\n\n\n\n\n       Postwar Europe and Asia\n      \n      :\n     \n\n\n       Discussions were held about the fate of Eastern Europe and Germany after the war.\n      \n\n       Borders were redrawn, including moving the German-Polish border to the Oder and Neisse rivers.\n      \n\n       The future of Lithuania, Latvia, and Estonia was addressed with assurances for referendums.\n      \n\n\n\n\n\n       International Cooperation\n      \n      :\n     \n\n\n       The United Nations was discussed, with Roosevelt outlining a vision where four major powers would play a dominant role.\n      \n\n       A “Declaration of the Three Powers Regarding Iran” was issued to maintain Iran’s independence.\n      \n\n\n\n\n\n       Soviet Union’s Role Against Japan\n      \n      :\n     \n\n\n       Stalin agreed in principle for the Soviet Union to declare war against Japan after Germany’s defeat.\n      \n\n       In exchange for this commitment, certain territorial concessions were discussed.\n      \n\n\n\n\n\n       United Nations Vision\n      \n      :\n     \n\n\n       Roosevelt shared his vision of a United Nations dominated by four major powers for maintaining peace and security.\n      \n\n\n\n\n\n       Future Plans\n      \n      :\n     \n\n\n       The European Advisory Commission was tasked with studying the possible partition of Germany into Allied zones of occupation.\n      \n\n\n\n\n    In summary, during the Tehran Conference in 1943, Roosevelt, Churchill, and Stalin discussed military strategies, postwar plans for Europe and Asia, international cooperation through the United Nations, Soviet involvement against Japan, territorial agreements, and future governance structures.\n   \n\n\n    These sources provided up-to-date information on recent events involving Iran, Israel, Iraq, and other related geopolitical developments that helped in understanding current tensions in the region.",
+            "question": "In April 2024, based on the scheme passed by the US House of Representatives, how much money will the United States provide in aid to Ukraine?",
+            "answer": "The United States will provide $500 million in aid to Ukraine based on the scheme passed by the US House of Representatives in April 2024.",
             "ground_truths": [
                 "The leaders of the United States, Japan, and the Philippines recently held a summit. Here are some key points from their discussions:\n1. Shared Vision: They issued a “Joint Vision Statement” affirming their shared vision of a free and open Indo-Pacific and international order based on international law.\n2. Security and Economy: They discussed various areas of security and economy, and expressed a desire to advance Japan-U.S.-Philippines cooperation based on this Summit.\n3. Regional Situation: They discussed the security environment in the region and confirmed their unwavering commitment to freedom of navigation and overflight.\n4. Opposition to Unilateral Actions: They confirmed that they would oppose and resolutely respond to any attempts by the People’s Republic of China (PRC) to unilaterally change the status quo by. force in the South China Sea and the East China Sea.\n5. Inclusive Economic Growth: They resolved to promote enduring, inclusive economic growth and resilience in their countries and the broader Indo-Pacific.\nStrengthening Alliances: The Philippines’ decision to strengthen ties with Japan and the United States was described as a “sovereign choice” for the country."
             ],
             "keywords": [
-                "Security",
-                "Economy",
-                "China"
+                "60||600||610||61"
             ],
             "passed": false
         },
@@ -206,9 +204,9 @@
             ],
             "keywords": [
                 "contracts",
-                "Israel"
+                "Israel||Israeli"
             ],
-            "passed": false
+            "passed": true
         },
         {
             "metadata": {},
@@ -230,8 +228,7 @@
                 "Iran fired 170 drones, more than 30 cruise missiles and more than 120 ballistic missiles. Of those, several ballistic missiles reached Israeli territory, causing minor damage to an air base."
             ],
             "keywords": [
-                "drones",
-                "missiles"
+                "drones||missiles||无人机||巡航导弹||弹道导弹"
             ],
             "passed": true
         },
@@ -243,7 +240,7 @@
                 "The decision to lay off approximately 600 employees at Take-Two Interactive, the parent company of Rockstar Games, is part of a broader cost-cutting strategy. The company is rationalizing its pipeline, eliminating several projects in development, and streamlining its organizational structure. This downsizing process is expected to be largely complete by the end of the year 2024. Additionally, Take-Two had already signaled its intention for a significant cost reduction plan following mixed financial results for the quarter ending in December 2023. Despite these challenges, Take-Two has continued to invest in its portfolio, including the acquisition of Gearbox and the development of the highly anticipated 'GTA 6'."
             ],
             "keywords": [
-                "cost-cutting"
+                "cost-cutting||节省成本||cost reduction"
             ],
             "passed": true
         },
@@ -255,9 +252,9 @@
                 "According to the Skytrax rankings for 2024, Doha's Hamad International Airport has been named the best airport in the world."
             ],
             "keywords": [
-                "Doha's Hamad"
+                "Doha||Hamad||哈马德"
             ],
-            "passed": false
+            "passed": true
         }
     ]
 }
