@@ -7,9 +7,9 @@
     "evaluate_type": "ragas",
     "evaluate_data": {
         "total": 20,
-        "passed": 5,
-        "failed": 15,
-        "pass_rate": "25.00%"
+        "passed": 11,
+        "failed": 9,
+        "pass_rate": "55.00%"
     },
     "created_at": "2024-04-24 11:48:28",
     "datas": [
@@ -33,7 +33,7 @@
                 "有媒體報導稱，百川智能正在進行新一輪數億美元融資，將成為2024年國內AI領域最大融資之一，且公司今年以來估值已超18億美元。"
             ],
             "keywords": [
-                "18"
+                "18||3"
             ],
             "passed": true
         },
@@ -45,7 +45,7 @@
                 "2024年4月23日，Perplexity AI又宣布完成了新一轮融资，筹集了6270万美元，融资后估值达到了10亿美元5810。这次融资使得公司的估值较上一轮融资翻了一番"
             ],
             "keywords": [
-                "6270"
+                "62.7||6270"
             ],
             "passed": true
         },
@@ -131,9 +131,9 @@
             ],
             "keywords": [
                 "2023",
-                "893.55"
+                "893"
             ],
-            "passed": false
+            "passed": true
         },
         {
             "metadata": {},
@@ -155,9 +155,9 @@
                 "Vladimir Putin stated that \"radical Islamists\" were behind the deadly attack on the Crocus City concert hall in Moscow"
             ],
             "keywords": [
-                "radical Islamists"
+                "radical Islamists||激进伊斯兰主义"
             ],
-            "passed": false
+            "passed": true
         },
         {
             "metadata": {},
@@ -167,9 +167,9 @@
                 "When the container ship MV Dali, 300 metres long and massing around 100,000 tonnes, lost power and slammed into one of the support piers of the Francis Scott Key Bridge in Baltimore, the bridge collapsed in moments."
             ],
             "keywords": [
-                "lost power"
+                "lost power||电力||power loss||losing power"
             ],
-            "passed": false
+            "passed": true
         },
         {
             "metadata": {},
@@ -181,19 +181,17 @@
             "keywords": [
                 "Sulawesi island||Mount Ruang"
             ],
-            "passed": false
+            "passed": true
         },
         {
             "metadata": {},
-            "question": "What did the leaders of the three countries say?",
-            "answer": "三位国家领导人的讲话内容如下：\n\n\n习近平在中共中央国务院举行的春节团拜会上发表了讲话。他指出，2024年是新中国成立75周年，也是实现\"十四五\"规划目标任务的关键一年。\n\n\n在亚太经合组织第三十次领导人非正式会议上，习近平也发表了讲话，但具体内容未在证据中提及。\n\n\n美日菲领导人在美国华盛顿举行了首次三边峰会，并会后发表了《日菲美领导人共同愿景声明》。虽然具体的讲话内容没有在证据中详细说明，但从美方此前的公开表态可以推测此次峰会涉及的内容可能与三方的合作关系有关。\n\n\n这些讲话涵盖了中国国内的重要节日、国际组织会议以及中美日三国之间的外交活动，显示了各国领导人对于国内外政策和国际关系的不同关注点和立场。\n",
+            "question": "In April 2024, based on the scheme passed by the US House of Representatives, how much money will the United States provide in aid to Ukraine?",
+            "answer": "根据美国众议院通过的方案，美国将在2024年4月向乌克兰提供950亿美元的援助。这一信息可以从多个证据中得到确认。因此，基于美国众议院通过的方案，美国将在2024年4月向乌克兰提供950亿美元的援助。",
             "ground_truths": [
                 "The leaders of the United States, Japan, and the Philippines recently held a summit. Here are some key points from their discussions:\n1. Shared Vision: They issued a “Joint Vision Statement” affirming their shared vision of a free and open Indo-Pacific and international order based on international law.\n2. Security and Economy: They discussed various areas of security and economy, and expressed a desire to advance Japan-U.S.-Philippines cooperation based on this Summit.\n3. Regional Situation: They discussed the security environment in the region and confirmed their unwavering commitment to freedom of navigation and overflight.\n4. Opposition to Unilateral Actions: They confirmed that they would oppose and resolutely respond to any attempts by the People’s Republic of China (PRC) to unilaterally change the status quo by. force in the South China Sea and the East China Sea.\n5. Inclusive Economic Growth: They resolved to promote enduring, inclusive economic growth and resilience in their countries and the broader Indo-Pacific.\nStrengthening Alliances: The Philippines’ decision to strengthen ties with Japan and the United States was described as a “sovereign choice” for the country."
             ],
             "keywords": [
-                "Security",
-                "Economy",
-                "China"
+                "60||600||610||61"
             ],
             "passed": false
         },
@@ -206,7 +204,7 @@
             ],
             "keywords": [
                 "contracts",
-                "Israel"
+                "Israel||Israeli"
             ],
             "passed": false
         },
@@ -230,10 +228,9 @@
                 "Iran fired 170 drones, more than 30 cruise missiles and more than 120 ballistic missiles. Of those, several ballistic missiles reached Israeli territory, causing minor damage to an air base."
             ],
             "keywords": [
-                "drones",
-                "missiles"
+                "drones||missiles||无人机||巡航导弹||弹道导弹"
             ],
-            "passed": false
+            "passed": true
         },
         {
             "metadata": {},
@@ -243,9 +240,9 @@
                 "The decision to lay off approximately 600 employees at Take-Two Interactive, the parent company of Rockstar Games, is part of a broader cost-cutting strategy. The company is rationalizing its pipeline, eliminating several projects in development, and streamlining its organizational structure. This downsizing process is expected to be largely complete by the end of the year 2024. Additionally, Take-Two had already signaled its intention for a significant cost reduction plan following mixed financial results for the quarter ending in December 2023. Despite these challenges, Take-Two has continued to invest in its portfolio, including the acquisition of Gearbox and the development of the highly anticipated 'GTA 6'."
             ],
             "keywords": [
-                "cost-cutting"
+                "cost-cutting||节省成本||cost reduction"
             ],
-            "passed": false
+            "passed": true
         },
         {
             "metadata": {},
@@ -255,9 +252,9 @@
                 "According to the Skytrax rankings for 2024, Doha's Hamad International Airport has been named the best airport in the world."
             ],
             "keywords": [
-                "Doha's Hamad"
+                "Doha||Hamad||哈马德"
             ],
-            "passed": false
+            "passed": true
         }
     ]
 }
