@@ -167,9 +167,9 @@
             {
                 "scene": "products_search",
                 "total": 100,
-                "passed": 41,
-                "failed": 59,
-                "pass_rate": "41.00%",
+                "passed": 46,
+                "failed": 54,
+                "pass_rate": "46.00%",
                 "list": [
                     {
                         "total": 20,
@@ -209,9 +209,9 @@
                     },
                     {
                         "total": 20,
-                        "passed": 6,
-                        "failed": 14,
-                        "pass_rate": "30.00%",
+                        "passed": 11,
+                        "failed": 9,
+                        "pass_rate": "55.00%",
                         "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/products_search/20240424-iask.json",
                         "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/products_search/20240424-iask.csv",
                         "evaluate_ai": "iask"
@@ -274,9 +274,9 @@
             }
         ],
         "total": 500,
-        "passed": 218,
-        "failed": 282,
-        "pass_rate": "43.60%"
+        "passed": 223,
+        "failed": 277,
+        "pass_rate": "44.60%"
     },
     {
         "date": "2024-04-22",
