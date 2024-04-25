@@ -7,9 +7,9 @@
     "evaluate_type": "ragas",
     "evaluate_data": {
         "total": 20,
-        "passed": 5,
-        "failed": 15,
-        "pass_rate": "25.00%"
+        "passed": 9,
+        "failed": 11,
+        "pass_rate": "45.00%"
     },
     "created_at": "2024-04-24 15:47:36",
     "datas": [
@@ -21,10 +21,9 @@
                 "YCloud - это набор открытых компонентов пользовательского интерфейса, разработанный компанией Yonyou FED на основе knockoutjs, который в основном предназначен для предприятий и веб-приложений на ПК. YCloud также является ведущим поставщиком услуг WhatsApp Business, который стремится помогать предприятиям развивать свой бизнес через WhatsApp - одно из самых популярных в мире приложений для общения."
             ],
             "keywords": [
-                "WhatsApp",
-                "knockoutjs"
+                "WhatsApp||knockoutjs"
             ],
-            "passed": false
+            "passed": true
         },
         {
             "metadata": {},
@@ -34,9 +33,9 @@
                 "Telegram был основан братьями Николаем и Павлом Дуровыми в 2013 году. Они являются основателями крупнейшей российской социальной сети VKontakte. Однако компания Telegram не расположена на территории России. В настоящее время команда разработчиков Telegram находится в Дубае, Объединенные Арабские Эмираты. Издателем мобильного приложения Telegram является Telegram FZ-LLC, зарегистрированная организация в Объединенных Арабских Эмиратах. Таким образом, хотя основатели являются россиянами, Telegram не является российской компанией."
             ],
             "keywords": [
-                "Дубае||не является"
+                "Дубае||не является||Нет||No||不是"
             ],
-            "passed": false
+            "passed": true
         },
         {
             "metadata": {},
@@ -52,8 +51,8 @@
         },
         {
             "metadata": {},
-            "question": "Vyro AI - это компания, разрабатывающая искусственный интеллект и инновационные технологии.",
-            "answer": "Vyro AI是一家专注于开发先进人工智能技术和解决方案的公司。Vyro AI利用尖端的生成式AI技术来转化可能性为现实。这表明该公司在人工智能领域具有创新能力和技术实力。\n这些因素通常与一个技术创新且运营良好的公司相关联。\nVyro AI确实是一家致力于开发人工智能和创新技术的公司，其业务范围涵盖了从基础研究到实际应用的多个方面。\n",
+            "question": "Что за компания Vyro AI?",
+            "answer": "Vyro AI是一家专注于通过前沿的生成式AI解决方案将可能性转化为现实的公司。此外，从我搜索到的资料中还可以看出，Vyro AI位于伊斯兰堡，并且在招聘过程中，面试分为两个阶段：首先是人力资源部门的面试，询问一些常规问题，如当前薪资、当前工作情况、期望等；其次是与CEO的面试，其中包含了许多不寻常的问题。这表明Vyro AI不仅重视技术发展，还注重员工的个人成长和职业发展。",
             "ground_truths": [
                 "Vyro AI - это компания, специализирующаяся на разработке инструментов для творчества на основе искусственного интеллекта и машинного обучения. Согласно информации на их официальном сайте:\n\nVyro разработала более 15 продуктов с общим количеством загрузок более 150 миллионов раз и ежедневной активностью более 800 тысяч пользователей.\nОсновные продукты компании включают AI генератор изображений Imagine, редактор фотографий на основе искусственного интеллекта PhotoShot и т. д.\nКоманда Vyro специализируется на применении передовых технологий генерации AI и стремится предоставлять пользователям инновационные инструменты для творчества.\nКомпания была основана в Пакистане и является многообразной и инновационной технологической компанией на местном рынке.\n\nТаким образом, Vyro AI - это технологическая компания, специализирующаяся на разработке творческих инструментов на основе генеративного искусственного интеллекта, с сильной технической базой и линейкой продуктов в области контентного творчества."
             ],
@@ -65,8 +64,8 @@
         },
         {
             "metadata": {},
-            "question": "Какие еще компании поддерживает основатель Perplexity?",
-            "answer": "Perplexity AI的创始人除了支持自己的公司外，还得到了多位知名人士和公司的支持。具体来说，除了英伟达和贝索斯之外，还有Databricks、NEA、BVP参与了投资。此外，知名投资人Elad Gil也参与了投资。在另一轮融资中，亿万富翁Stanley Druckenmiller、Y Combinator首席执行官Garry Tan和Figma Inc.首席执行官Dylan Field也加入了投资行列。此外，Perplexity AI还与日本软银（SoftBank Corp.）、德国电信（Deutsche Telekom）建立了新的合作伙伴关系，并且之前宣布与韩国最大移动电话服务商鲜京电信（SK Telecom）创建合作伙伴关系。这些信息表明，Perplexity AI不仅获得了来自技术领域和风险投资界的资金支持，还与多家大型企业建立了合作关系，共同推动AI搜索技术的发展和应用。\n",
+            "question": "В какие еще компании инвестировали основатели Perplexity?",
+            "answer": "Perplexity AI的创始人除了在公司内部投资外，还参与了其他公司的投资。具体来说，亚马逊创始人Jeff Bezos通过Bezos Expeditions Fund参与了Perplexity AI的投资。此外，虽然没有直接提到Perplexity AI的创始人个人投资于其他公司，但从证据中可以看出，Perplexity AI吸引了包括Nvidia、Y Combinator首席执行官Garry Tan、Figma Inc.首席执行官Dylan Field等多位知名投资者和公司的投资。这表明Perplexity AI的创始人可能间接通过其参与的基金或与其他投资者的合作关系，对这些公司或项目进行了投资。\r\n然而，需要注意的是，虽然有证据显示Perplexity AI获得了来自Nvidia和Jeff Bezos的投资，但我搜索到的资料主要集中在Perplexity AI自身获得的资金和估值上，并未直接提及Perplexity AI的创始人个人对其他公司的具体投资情况。因此，基于现有资料，我们无法确定Perplexity AI的创始人个人是否直接投资于除Perplexity AI之外的其他公司，只能确认他们通过基金等方式间接参与了一些相关投资活动。",
             "ground_truths": [
                 "Аравинд Сринивас инвестировал в компании Eleven Labs и Pika. Он полюбил эти компании за то, что они делают, и его личная мотивация для инвестиций не связана с финансовой отдачей, а скорее с его увлечением тем, что они делают."
             ],
@@ -125,8 +124,8 @@
         },
         {
             "metadata": {},
-            "question": "What will Trump do to China if he takes office again?",
-            "answer": "如果特朗普再次当选，他可能会对中国采取更加强硬的贸易政策。这表明他计划继续实施在他第一任期内开始的对抗性贸易政策。\n然而，也有观点认为，特朗普可能需要与中国达成某种协议以支持他的连任竞选。这可能意味着，在采取极端措施之前，他会寻求通过谈判来解决一些关键问题。总结来说，如果特朗普再次当选，他很可能继续推进对中国商品的高关税政策，并可能在某些情况下寻求通过谈判来调整这些措施，但总体上可能会保持对中国的强硬态度。\n",
+            "question": "If Trump takes office again, how will he adjust the trade policy towards China?",
+            "answer": "如果特朗普再次当选，他可能会采取更加严格的贸易政策对中国进行调整。这表明他可能会继续采取强硬立场，通过提高关税来减少中国商品的进口量。\r\n这种策略可能导致美国与中国之间的贸易战升级，从而影响全球经济增长和金融市场。公司已经开始为可能的新一轮中美贸易战做准备，这进一步证明了特朗普政府可能采取的激进贸易措施。\r\n然而，需要注意的是，尽管特朗普提出了这些激进的措施，但他的政策也可能会受到国内外的压力和挑战。这表明即使特朗普再次当选，他也可能需要在执行其贸易政策时考虑到国内外的政治和经济因素。\r\n如果特朗普再次当选，他很可能会继续或加强对中国采取更严格的贸易政策，包括提高关税和其他贸易壁垒。然而，他的政策实施可能会受到国内外多种因素的影响和制约。",
             "ground_truths": [
                 "If Trump takes office again, his stance on China is expected to remain tough and potentially escalate. During his previous term, Trump initiated a trade war with China by imposing significant tariffs on Chinese imports. He has indicated that if reelected, he plans to intensify this trade war by imposing tariffs as high as 60% or more on Chinese imports\nThis move is part of his strategy to address what he perceives as unfair trade practices by China and to protect American industries and jobs from what he views as Chinese economic threats\nFurthermore, Trump's combative approach towards China extends beyond trade policies. He has expressed intentions to phase out Chinese imports of essential goods over a four-year period, including electronics, steel, and pharmaceuticals. Additionally, Trump aims to ban Chinese companies from owning critical U.S. infrastructure in sectors such as energy, technology, and agriculture, highlighting national security concerns underpinning his China policy\nOverall, Trump's stance towards China is expected to prioritize protecting American economic interests and maintaining a competitive edge in key industries. If reelected, he is likely to continue employing tariffs and trade restrictions to address what he sees as imbalances in the economic relationship between the U.S. and China."
             ],
@@ -155,21 +154,21 @@
                 "Toyota's biggest risk in the future is the consumer adoption of battery electric vehicles (BEVs)"
             ],
             "keywords": [
-                "BEVs"
+                "BEVs||EV||Tesla||Evs"
             ],
             "passed": false
         },
         {
             "metadata": {},
-            "question": "What will the world auto industry look like in the future, Musk said?",
-            "answer": "根据埃隆·马斯克的观点，未来的世界汽车行业将主要由以下几个方面构成：\n\n\n电动汽车的普及：马斯克预测特斯拉将在2025年开始生产更经济实惠的电动车型号。这表明电动汽车将继续成为汽车行业的主流，尤其是在价格更加亲民的市场段。\n\n\n自动驾驶技术的发展：马斯克曾表示，特斯拉计划在“今年晚些时候”实现完全自动驾驶功能。此外，他还强调软件将在塑造汽车行业未来中扮演关键角色。\n\n\n智能化和网络化：随着汽车行业的数字化转型，车辆将变得更加智能和互联。这包括使用增强现实（AR）、虚拟现实（VR）和混合现实（MR）技术来改善用户体验。\n\n\n共享经济的影响：未来的汽车不仅仅是个人拥有的交通工具，而是可以按需共享的移动服务。这种趋势已经在多个报告中被提及，预示着汽车将更多地被视为服务而非商品。\n\n\n中国市场的竞争：马斯克认为中国的汽车制造商在软件开发方面与特斯拉具有竞争力。这表明未来汽车行业的竞争格局可能会因为技术优势而发生变化。\n\n\n可持续性和环境责任：随着全球对环境保护意识的增强，汽车行业也将面临更多的ESG（环境、社会和治理）压力，推动企业采取更加可持续的生产和运营模式。\n\n\n总结来说，未来的世界汽车行业将是电动化、智能化、网络化和共享化的综合体现，同时也会受到全球化竞争格局和技术进步的深刻影响。\n",
+            "question": "What did Musk say about the future market of the auto industry worldwide?",
+            "answer": "埃隆·马斯克对全球汽车行业的未来市场持有明确的看法。首先，他强调软件将成为汽车行业未来的决定性因素，并认为中国制造商在这方面与特斯拉竞争最为激烈。他还提到，特斯拉及其9家中国公司将成为市场的顶尖参与者。\r\n这表明特斯拉正在寻求通过创新和扩展产品线来巩固其在汽车行业中的领导地位。\r\n他的愿景是推动汽车行业向更加智能化和自动化的方向发展，这将极大地改变人们的生活方式和交通模式。\r\n埃隆·马斯克对全球汽车行业的未来持积极态度，强调技术创新，尤其是软件和自动驾驶技术的重要性，并预计特斯拉将在这一转变中扮演关键角色。同时，他也展示了特斯拉在未来几年内推出新产品的计划，以进一步巩固其市场地位。",
             "ground_truths": [
                 "Elon Musk warned that Chinese automakers will \"demolish\" their global competition unless other nations impose trade barriers to handicap the new wave of electric cars coming from China\nMusk described Chinese brands like BYD as \"extremely good\" and the \"most competitive\" in the world\nMusk stated that if there are no trade barriers established, Chinese automakers will \"pretty much demolish most other car companies in the world\"\nHe believes the Chinese auto industry has a high chance of achieving global domination\nThe search results also indicate that China overtook Japan as the world's biggest exporter of cars during 2023 and seems likely to repeat that success in 2024 as it starts to expand its sales activities into Europe\nThis suggests the Chinese auto industry will continue to grow its global market share in the future.\nTo counter this threat, Musk said Tesla is working on a new entry-level model that will use a new platform to slash production costs, allowing it to be sold for less than $30,000\nThis suggests Tesla is trying to make its EVs more affordable to better compete with Chinese automakers."
             ],
             "keywords": [
-                "BYD||China"
+                "BYD||China||中国"
             ],
-            "passed": false
+            "passed": true
         },
         {
             "metadata": {},
@@ -186,13 +185,13 @@
         {
             "metadata": {},
             "question": "日本百年的藥品製造商小林製藥的紅麴成分含有保健食品引發的「死亡」事件。",
-            "answer": "日本百年药企小林制药的红麴成分保健品引发的「死亡」事件，根据我搜索到的资料，可以总结如下：\n\n\n事件起因与影响：小林制药公司生产的含红麴成分的保健品导致了多起健康问题，包括肾脏疾病等。这些健康问题最终导致了至少5人死亡，另有大量消费者因相关症状住院治疗或希望就医。\n\n\n死亡案例增加：最初报道中提到有消费者因连续3年服用该产品后因肾脏疾病死亡。随后，死亡人数逐渐增加，直至确认为5人死亡。\n\n\n政府与公众反应：此事件引起了日本国内外的关注和担忧。日本政府和相关部门开始对市场上功能性标识食品进行紧急检查，并考虑采取一切必要措施以确保公众健康安全。同时，小林制药公司也对此事件进行了道歉，并启动了产品的召回程序。\n\n\n国际影响：除了在日本国内造成的影响外，这一事件还引起了国际社会的关注。例如，中国已经启动了对该产品的召回，显示出事件的国际影响力。\n\n\n5.此外，此事件也引发了对功能性食品市场安全性的广泛讨论和反思。\n小林制药的红麴成分保健品引发的「死亡」事件不仅导致了多人死亡和健康受损，还引起了政府、公众以及国际社会的广泛关注和反应。此事件凸显了保健品市场监管的重要性，以及企业在生产过程中确保产品质量安全的责任。\n",
+            "answer": "日本小林制药公司生产的含红曲成分的保健品引发了多起健康问题，包括死亡和住院事件。据报道，这些保健品导致消费者出现肾脏疾病等健康问题，甚至有消费者因此死亡。截至2024年3月28日晚，已有5人死亡、114人住院，另有约680人已去医院就诊或准备就诊。此外，还有报道称，一名消费者在连续食用该公司含有红麴成分保健品3年后，因肾脏疾病死亡。\r\n小林制药公司对此事件做出了回应，宣布紧急召回3款含红曲成分的保健品，并呼吁消费者立即停止服用这些产品。日本厚生劳动省也介入调查，并要求大阪市基于《食品卫生法》回收和废弃涉事的三款保健品。此外，小林制药公司还从日本消费者厅撤回了8种红曲保健品作为功能性标识食品的备案。\r\n此事件不仅在日本国内引起了广泛关注，也引发了国际社会对保健品安全性的担忧。小林制药公司的这一系列动作表明，该公司正在积极应对此次危机，试图减轻消费者的担忧并恢复公司的信誉。然而，这一事件也再次提醒消费者在选择保健品时需要谨慎，同时也凸显了监管机构在确保保健品安全方面的重要作用。",
             "ground_truths": [
                 "食用了小林製藥製造銷售的含紅麴的保健食品的人發生了腎臟疾病，已確認有2人死亡。到目前為止，有106人住院。\n小林製藥的調查顯示，紅麴原料中可能含有\"未知成分\"，這些成分可能導致腎臟疾病。\n小林製藥的紅麴分為補充劑和食品著色劑兩種，\"未知成分\"只在部分補充劑批次中被檢測出來。\n紅麴一般被用作食品著色劑，但在作為補充劑使用時，需要注意毒素紅曲霉素的含量。\n小林製藥在這個問題上已開始自願回收相關的保健食品，厚生勞動省也在考慮採取應對措施。"
             ],
             "keywords": [
-                "2",
-                "106"
+                "5",
+                "212"
             ],
             "passed": false
         },
@@ -216,7 +215,8 @@
                 "虎ノ門ヒルズフォーラムは、虎ノ門ヒルズ森タワー内に位置するイベント施設で、2014年5月に竣工しました。このフォーラムは、3つのホールと4つのミーティングルームから構成されており、590m²のメインホールと合計6つの会議室が利用可能です。メインホールは最大720名を収容し、各ホールは異なる形式のイベントに対応できます。装備されている設備には、360インチスクリーンや電動バトンなどがあり、多種多様なイベントに対応しています。\n\n主な情報:\n\n名称: 虎ノ門ヒルズフォーラム\n所在地: 東京都港区虎ノ門1-23-1\n最寄り駅: 東京メトロ銀座線「虎ノ門駅」、東京メトロ日比谷線「神谷町駅」\n収容人数: メインホール最大720名、ホールA最大792名、ホールB最大460名\n利用時間: 9:00～21:00"
             ],
             "keywords": [
-                "590m²"
+                "590m²",
+                "虎门山森大厦||虎ノ門ヒルズ森タワー"
             ],
             "passed": false
         },
@@ -228,9 +228,9 @@
                 "腾讯的天使投资商包括刘晓松、IDGVC（後更名為IDG資本）、香港盈科數碼和南非的MIH。此外，曾李青也是腾讯的天使投资人之一，他在離開腾讯後成立了德迅投资。"
             ],
             "keywords": [
-                "劉曉松||IDG||香港盈科||MIH"
+                "劉曉松||IDG||香港盈科||MIH||曾李青"
             ],
-            "passed": false
+            "passed": true
         },
         {
             "metadata": {},
@@ -247,13 +247,13 @@
         },
         {
             "metadata": {},
-            "question": "光通信社の強みを三つ教えてください。",
-            "answer": "光通信社的优势主要体现在以下几个方面：\n\n\n更高的带宽：光通信技术相比传统电信网络，具有更高的带宽。这是因为光波的波长更短，能够在相同的频段内传输更多的信息。这一点在多个证据中得到了强调，如光纤通信技术的传输速度非常快，通常可以达到数百兆甚至数千兆每秒，远远超过了其他传统的通信技术。\n\n\n更远的传输距离：光通信技术能够在更远的距离内进行传输，这得益于光在介质中传播时衰减更小。光纤的衰减很小，允许信号在无中继的情况下传输更远的距离。这种长距离传输的能力，使得光通信特别适合于需要长距离、高速度通信的应用场景。\n\n\n更高的安全性：光通信技术提供了更高的安全性。这是因为光信号不会像电信号那样容易受到干扰或窃听。此外，光纤通信还具有良好的保密性能，这对于保护敏感数据和信息的安全至关重要。\n\n\n光通信社的优势主要包括更高的带宽、更远的传输距离以及更高的安全性，这些特点使得光通信技术在现代通信领域中占有重要地位，并且随着技术的发展，其应用范围和潜力仍在不断扩大。\n",
+            "question": "光通信社の株式コードは何ですか？",
+            "answer": "苏州天孚光通信股份有限公司的证券代码是300394，四川汇源光通信股份有限公司的证券代码是000586。长飞光纤光缆股份有限公司的股票代码是601869。因此，如果问题是询问特定公司的光通信社的股票代码，需要提供更具体的信息来确定是哪一家公司。",
             "ground_truths": [
                 "販売力と顧客基盤: 光通信社の強みは「販売力」であり、その裏には強力な「顧客基盤」「販売網」があります。特に、光通信社は「法人90万社、個人120万人の基盤がある。特に中小企業が多い」という強固な顧客基盤を持っています。\n業績の強さ: 光通信社の業績は絶好調で、前2017年3月期は営業利益が10％増の415億円となり、今2018年3月期も同11％増の465億円と2ケタ成長を着実に達成しそうだ。\n投資戦略: 光通信社は長期的な収益力のある会社に株価が割安な段階から戦略的に投資しているように見えます。これにより、光通信社はその投資先にも注目できそうです。"
             ],
             "keywords": [
-                "90"
+                "9435"
             ],
             "passed": false
         }
