@@ -7,9 +7,9 @@
     "evaluate_type": "ragas",
     "evaluate_data": {
         "total": 20,
-        "passed": 6,
-        "failed": 14,
-        "pass_rate": "30.00%"
+        "passed": 12,
+        "failed": 8,
+        "pass_rate": "60.00%"
     },
     "created_at": "2024-04-24 11:07:02",
     "datas": [
@@ -23,7 +23,7 @@
             "keywords": [
                 "しません||30"
             ],
-            "passed": false
+            "passed": true
         },
         {
             "metadata": {},
@@ -59,7 +59,7 @@
             "keywords": [
                 "されない"
             ],
-            "passed": false
+            "passed": true
         },
         {
             "metadata": {},
@@ -89,15 +89,15 @@
         },
         {
             "metadata": {},
-            "question": "請教如何在Evernote中插入元素。",
-            "answer": "Evernote提供了多種方式來插入不同元素,以增強筆記的內容和格式:\n\n\n插入圖片: 可以直接將圖片拖曳到筆記中,或使用工具列上的\"插入圖片\"按鈕上傳圖片。1\n\n\n插入檔案附件: 可以直接將檔案拖曳到筆記中,或使用工具列上的\"附件\"按鈕上傳檔案。1\n\n\n插入網址連結: 可以直接在筆記中輸入網址,Evernote會自動將其轉換為可點擊的超連結。也可以選取文字後使用工具列上的\"連結\"按鈕插入連結。1\n\n\n插入表格: 使用工具列上的\"表格\"按鈕可以插入表格,並自訂列和欄的數量。1\n\n\n插入待辦事項清單: 使用工具列上的\"清單\"按鈕可以插入項目符號或數字清單。1\n\n\n插入手寫筆記: 在支援手寫輸入的裝置上,可以使用Evernote的\"手寫\"工具直接在筆記中書寫。1\n\n\n插入音訊錄音: 使用工具列上的\"錄音\"按鈕可以直接在筆記中錄製音訊。1\n\n\n透過這些功能,可以讓Evernote筆記更加生動豐富,方便記錄和整理各種形式的資訊。",
+            "question": "Evernote如何打開快捷鍵菜單？",
+            "answer": "在 Evernote 電腦版（Windows 或 Mac）上打開快捷鍵菜單的方法如下：\r\n\r\n- Windows 上：按下「Ctrl」+「/」即可打開快捷鍵菜單[1]。\r\n- Mac 上：按下「command」+「/」即可打開快捷鍵菜單[1]。\r\n\r\n這個快捷鍵可以讓你隨時查看所有可用的快捷鍵，非常方便。\r\n\r\nEvernote 提供了很多實用的快捷鍵，例如：\r\n\r\n- 「Ctrl」（Mac 上為「command」）+「1」可以快速打開子彈筆記[1]\r\n- 「Ctrl」（Mac 上為「command」）+「N」可以新增筆記[1]\r\n\r\n多利用快捷鍵可以大幅提高使用 Evernote 的效率。如果你經常忘記快捷鍵，就多按幾次「Ctrl」+「/」（Mac 上「command」+「/」）查看菜單吧。",
             "ground_truths": [
                 "要在Evernote中插入元素，請參考以下步驟：\n\n打開筆記，在想插入元素的地方放置游標。\n按下\"/\"鍵來插入元素。\n選擇要插入的元素類型。例如，可以選擇清單、表格或其他元素。\n選擇好要插入的元素後，它將顯示在筆記中。"
             ],
             "keywords": [
                 "\"/\""
             ],
-            "passed": false
+            "passed": true
         },
         {
             "metadata": {},
@@ -109,7 +109,7 @@
             "keywords": [
                 "7-Zip"
             ],
-            "passed": true
+            "passed": false
         },
         {
             "metadata": {},
@@ -135,7 +135,7 @@
                 "TXT",
                 "Преобразовать||Преобразуйте"
             ],
-            "passed": false
+            "passed": true
         },
         {
             "metadata": {},
@@ -197,7 +197,7 @@
             "keywords": [
                 "多語言"
             ],
-            "passed": false
+            "passed": true
         },
         {
             "metadata": {},
@@ -247,7 +247,7 @@
                 "поддерживают",
                 "1000"
             ],
-            "passed": false
+            "passed": true
         },
         {
             "metadata": {},
