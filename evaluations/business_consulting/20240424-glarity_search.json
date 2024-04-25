@@ -7,9 +7,9 @@
     "evaluate_type": "ragas",
     "evaluate_data": {
         "total": 20,
-        "passed": 6,
-        "failed": 14,
-        "pass_rate": "30.00%"
+        "passed": 10,
+        "failed": 10,
+        "pass_rate": "50.00%"
     },
     "created_at": "2024-04-24 10:48:17",
     "datas": [
@@ -21,10 +21,9 @@
                 "YCloud - это набор открытых компонентов пользовательского интерфейса, разработанный компанией Yonyou FED на основе knockoutjs, который в основном предназначен для предприятий и веб-приложений на ПК. YCloud также является ведущим поставщиком услуг WhatsApp Business, который стремится помогать предприятиям развивать свой бизнес через WhatsApp - одно из самых популярных в мире приложений для общения."
             ],
             "keywords": [
-                "WhatsApp",
-                "knockoutjs"
+                "WhatsApp||knockoutjs"
             ],
-            "passed": false
+            "passed": true
         },
         {
             "metadata": {},
@@ -34,9 +33,9 @@
                 "Telegram был основан братьями Николаем и Павлом Дуровыми в 2013 году. Они являются основателями крупнейшей российской социальной сети VKontakte. Однако компания Telegram не расположена на территории России. В настоящее время команда разработчиков Telegram находится в Дубае, Объединенные Арабские Эмираты. Издателем мобильного приложения Telegram является Telegram FZ-LLC, зарегистрированная организация в Объединенных Арабских Эмиратах. Таким образом, хотя основатели являются россиянами, Telegram не является российской компанией."
             ],
             "keywords": [
-                "Дубае||не является"
+                "Дубае||не является||Нет||No||不是"
             ],
-            "passed": true
+            "passed": false
         },
         {
             "metadata": {},
@@ -52,8 +51,8 @@
         },
         {
             "metadata": {},
-            "question": "Vyro AI - это компания, разрабатывающая искусственный интеллект и инновационные технологии.",
-            "answer": "Компания Vyro AI действительно специализируется на разработке искусственного интеллекта и инновационных технологий для создания контента. Их продукты включают в себя инструменты для генерации изображений на основе текста и мощные фото-редакторы, которые используют технологии машинного обучения для творческого выражения и улучшения пользовательских возможностей . Компания также регулярно проводит мероприятия, например, VYRO IO Conference, где обсуждаются достижения компании и будущие планы . У Vyro AI активно развиваются команды и расширяется область деятельности, что позволяет им оставаться на передовой в инновационной области технологий . \n\nПродукты Vyro AI, такие как генератор изображений на основе текста и фоторедакторы с применением искусственного интеллекта, уже широко используются миллионами пользователей по всему миру на платформах Android и IOS . Компания активно работает над тем, чтобы предоставлять своим пользователям инновационные и легко доступные средства для создания и улучшения контента, делая акцент на простоту в использовании и вдохновляя творческий потенциал через обширные возможности искусственного интеллекта . \n\nТаким образом, компания Vyro AI действительно занимается разработкой искусственного интеллекта и инновационных технологий, которые находят широкое применение в области создания контента и фото-редактирования, обеспечивая пользователям инструменты для творческого самовыражения и улучшения контента.",
+            "question": "Что за компания Vyro AI?",
+            "answer": "**Vyro AI** - это компания, которая занимается разработкой инновационных инструментов для создания контента на основе искусственного интеллекта и машинного обучения. Они представляют собой платформу, которая помогает пользователям выражать свою креативность через создание контента с помощью AI. Компания Vyro AI ориентирована на развитие инструментов для фото-редактирования и создания контента, с целью улучшить процесс создания и сделать его более доступным и простым. \r\n\r\n**Особенности:**\r\n- **Создание контента:** Vyro AI использует технологии искусственного интеллекта для улучшения процесса создания и оптимизации маркетинговых кампаний.\r\n- **Инструменты AI для редактирования контента:** Платформа предлагает инструменты AI для создания и улучшения маркетингового контента.\r\n- **Данные и аналитика:** Vyro AI предлагает данные-driven insights для повышения эффективности маркетинговых стратегий.\r\n\r\nКомпания Vyro AI активно развивает инструменты для создания контента и фото-редактирования, сосредотачиваясь на технологиях искусственного интеллекта. Имея значительную пользовательскую базу, преимущественно в регионах Азии, таких как Пакистан, Индия, Бангладеш и Китай, Vyro AI планирует расширить свое присутствие на другие рынки и сосредоточиться на предоставлении высококачественных функций для редактирования фотографий. \r\n\r\nТакже стоит отметить, что компания Vyro AI активно усовершенствует свои продукты и стремится развивать передовые технологии обработки изображений и мобильные приложения для фото-редактирования.",
             "ground_truths": [
                 "Vyro AI - это компания, специализирующаяся на разработке инструментов для творчества на основе искусственного интеллекта и машинного обучения. Согласно информации на их официальном сайте:\n\nVyro разработала более 15 продуктов с общим количеством загрузок более 150 миллионов раз и ежедневной активностью более 800 тысяч пользователей.\nОсновные продукты компании включают AI генератор изображений Imagine, редактор фотографий на основе искусственного интеллекта PhotoShot и т. д.\nКоманда Vyro специализируется на применении передовых технологий генерации AI и стремится предоставлять пользователям инновационные инструменты для творчества.\nКомпания была основана в Пакистане и является многообразной и инновационной технологической компанией на местном рынке.\n\nТаким образом, Vyro AI - это технологическая компания, специализирующаяся на разработке творческих инструментов на основе генеративного искусственного интеллекта, с сильной технической базой и линейкой продуктов в области контентного творчества."
             ],
@@ -65,8 +64,8 @@
         },
         {
             "metadata": {},
-            "question": "Какие еще компании поддерживает основатель Perplexity?",
-            "answer": "Основатель Perplexity, Аравинд Сринивас, получил поддержку не только от основателя Amazon Джеффа Безоса, но и от других крупных компаний и личностей. Стартап Perplexity AI получил инвестиции от таких гигантов как Nvidia, а также от давних игроков в инвестиционном мире, включая Инвестиционный фонд IVP и NEA, Элада Гиля (бывший вице-президент Twitter), Тоби Лутке (CEO Shopify), Нэт Фридман (бывший CEO GitHub) и Гильермо Раух (основатель Vercel). Также стоит отметить, что Perplexity был оценен в $520 миллионов после привлечения этого внушительного финансирования.  \n\nБолее того, перспективный стартап Perplexity AI приобрел известность в инвестиционных кругах за сравнительно небольшой промежуток времени, основан всего в августе 2022 года. Данная компания также получила инвестиции от других крупных игроков и успешных предпринимателей, таких как Даниэль Гросс и Стэнли Друкенмиллер.  \n\nТаким образом, помимо поддержки от основателя Amazon Джеффа Безоса, Perplexity AI нашел поддержку у широкого круга влиятельных инвесторов и предпринимателей, что свидетельствует о доверии к потенциалу и перспективам этого стартапа в области искусственного интеллекта и поиска.",
+            "question": "В какие еще компании инвестировали основатели Perplexity?",
+            "answer": "Основатели Perplexity AI инвестировали в несколько других компаний. Согласно предоставленным данным, ключевые основатели Perplexity включают в себя CEO Аравинда Сриниваса, бывшего аспиранта в Университете Беркли, который внес свой вклад в революционные исследования в области искусственного интеллекта в таких организациях, как DeepMind, Google и OpenAI; CTO Дениса Яратса, бывшего аспиранта в Нью-Йоркском университете, сотрудника исследовательского отдела Meta AI и руководителя команды Quora по рейтингу и машинному обучению; Главного стратега Джонни Хо, ранее работавшего на Quora и в Tower Research Capital, а также бывшего Чемпиона Мира по  Информатике 2012 года и призером по ACM-ICPC (олимпиадам и студенческим соревнованиям по компьютерным наукам); и Президента Энди Конвина.\r\n\r\nОднако, в предоставленных данных нет информации о том, что основатели Perplexity инвестировали в другие компании. Из имеющихся сведений следует, что основатели Perplexity сами были объектами инвестиций, а не инвесторами в другие компании.",
             "ground_truths": [
                 "Аравинд Сринивас инвестировал в компании Eleven Labs и Pika. Он полюбил эти компании за то, что они делают, и его личная мотивация для инвестиций не связана с финансовой отдачей, а скорее с его увлечением тем, что они делают."
             ],
@@ -125,8 +124,8 @@
         },
         {
             "metadata": {},
-            "question": "What will Trump do to China if he takes office again?",
-            "answer": "If Donald Trump takes office again, his approach towards China is expected to be assertive and potentially involve escalating tensions through various economic and trade measures. During his previous term, Trump initiated a trade war with China involving significant tariffs on Chinese imports. If reelected, Trump has hinted at imposing tariffs of over 60% on Chinese goods, which could strain the relationship between the two countries significantly. \n\nIn addition to tariffs, Trump might adopt an even more aggressive stance towards China regarding trade, which could further exacerbate the economic friction between the two nations. Furthermore, Trump has suggested targeting Chinese companies and important sectors, proposing bans on ownership in critical U.S. infrastructure areas and potentially forcing divestment of certain holdings for national security reasons. These strategies could intensify the economic rivalry and geopolitical dynamics between the U.S. and China.\n\nMoreover, the issue of Taiwan could become a crucial point of contention under a potential second Trump administration. Trump's past reluctance to commit to defending Taiwan, likening it to a disposable item compared to his office desk, raises concerns about how he would handle a scenario where China makes aggressive moves towards the island. This stance could lead to significant international tensions and require delicate diplomatic handling to avoid escalation. \n\nOverall, if Trump resumes office, his China policy is likely to be characterized by tough trade measures, potential tariffs, and an increased focus on protecting U.S. interests in the face of perceived Chinese economic threats and geopolitical assertiveness.",
+            "question": "If Trump takes office again, how will he adjust the trade policy towards China?",
+            "answer": "If Trump were to take office again, his trade policy towards China is likely to remain aggressive and potentially escalate further. During his previous term, Trump initiated a trade war with China, imposing significant tariffs on Chinese products. If re-elected, Trump is expected to maintain this tough stance on China, potentially increasing tariffs even more, with suggestions of tariffs exceeding 60% on Chinese goods. This approach could strain relations between the two global powers and have far-reaching impacts on international trade dynamics.\r\n\r\nFurthermore, there are indications that Trump would also focus on other aspects of trade policy with China. For example, he might renew pressure on South Korea and continue to take a hardline approach towards Chinese leadership, as he has made it clear that he does not have a favorable view of the Chinese leadership. This could lead to further confrontations and tensions between the U.S. and China on multiple fronts, including economic and geopolitical issues.\r\n\r\nIn summary, if Trump were to be re-elected, it is anticipated that he would persist in his aggressive trade policies towards China, potentially escalating tariff levels and maintaining a tough stance on key economic and strategic aspects of the U.S.-China relationship.",
             "ground_truths": [
                 "If Trump takes office again, his stance on China is expected to remain tough and potentially escalate. During his previous term, Trump initiated a trade war with China by imposing significant tariffs on Chinese imports. He has indicated that if reelected, he plans to intensify this trade war by imposing tariffs as high as 60% or more on Chinese imports\nThis move is part of his strategy to address what he perceives as unfair trade practices by China and to protect American industries and jobs from what he views as Chinese economic threats\nFurthermore, Trump's combative approach towards China extends beyond trade policies. He has expressed intentions to phase out Chinese imports of essential goods over a four-year period, including electronics, steel, and pharmaceuticals. Additionally, Trump aims to ban Chinese companies from owning critical U.S. infrastructure in sectors such as energy, technology, and agriculture, highlighting national security concerns underpinning his China policy\nOverall, Trump's stance towards China is expected to prioritize protecting American economic interests and maintaining a competitive edge in key industries. If reelected, he is likely to continue employing tariffs and trade restrictions to address what he sees as imbalances in the economic relationship between the U.S. and China."
             ],
@@ -155,21 +154,21 @@
                 "Toyota's biggest risk in the future is the consumer adoption of battery electric vehicles (BEVs)"
             ],
             "keywords": [
-                "BEVs"
+                "BEVs||EV||Tesla||Evs"
             ],
-            "passed": false
+            "passed": true
         },
         {
             "metadata": {},
-            "question": "What will the world auto industry look like in the future, Musk said?",
-            "answer": "Elon Musk has shared his vision regarding the future of the auto industry, particularly emphasizing the importance of software in shaping the industry's direction. Musk highlighted that software is a pivotal element for the future of cars, echoing sentiments expressed by other auto-industry executives. Moreover, Musk's visionary stance extends to driverless cars, with Tesla set to deliver fully autonomous vehicles soon, as he mentioned that the company is on the brink of achieving this milestone. This commitment to advancing autonomous driving aligns with Musk's broader goal of leveraging technology to revolutionize the automotive sector.\n\nMusk's outlook reflects a keen awareness of the evolving landscape of the auto industry, acknowledging the competitiveness of Chinese car companies on a global scale. In recognizing the strong competitiveness of Chinese car manufacturers, Musk emphasized the significance of this dynamic for the industry. This acknowledgment underscores the shifting dynamics within the global auto sector, suggesting a more diversified and internationally influenced industry compared to traditional Western dominance.\n\nFurthermore, Musk's vision for driverless cars encompasses a transformative perspective on the future of transportation. During an earnings call, he articulated his vision for driverless cars, shedding light on Tesla's strategic direction towards autonomous driving technologies. This vision not only highlights Tesla's commitment to innovation but also signals a broader trend towards automation and software-driven functionalities in the automotive landscape.\n\nIn summary, Elon Musk's insights offer a glimpse into a future auto industry that is heavily shaped by software, advancing towards fully autonomous vehicles and embracing the competitive influence of Chinese car companies. His foresight underscores a paradigm shift towards software-driven innovation and autonomous technologies that are poised to redefine the future of mobility.",
+            "question": "What did Musk say about the future market of the auto industry worldwide?",
+            "answer": "Elon Musk has made several significant statements regarding the future market of the auto industry worldwide. Musk emphasized the pivotal role of software in shaping the future of cars, highlighting its importance by stating \"Software is the key to the future of the auto industry.\" This underscores the significant influence that technology and software innovations will have on the evolution of the automotive sector. \r\n\r\nFurthermore, Musk has been vocal about the potential for global automakers to expand and disrupt traditional industry players. He expressed a vision for automakers to go global and \"demolish the old legends\" in the industry, illustrating his belief in the transformative possibilities within the automotive market.\r\n\r\nIn the context of market dynamics and competition, Musk also touched upon the aspect of pricing and market positioning. He mentioned a scenario where equal quality cars were available across all worldwide car companies, emphasizing the impact of China's pricing strategy on the global automotive landscape. \r\n\r\nOverall, Musk's perspectives on the future market of the auto industry worldwide revolve around the crucial role of software, the potential for global expansion and disruption, as well as the influence of pricing strategies on market dynamics and competition. These insights shed light on the direction in which the automotive industry is heading under the influence of technological advancements and market forces.",
             "ground_truths": [
                 "Elon Musk warned that Chinese automakers will \"demolish\" their global competition unless other nations impose trade barriers to handicap the new wave of electric cars coming from China\nMusk described Chinese brands like BYD as \"extremely good\" and the \"most competitive\" in the world\nMusk stated that if there are no trade barriers established, Chinese automakers will \"pretty much demolish most other car companies in the world\"\nHe believes the Chinese auto industry has a high chance of achieving global domination\nThe search results also indicate that China overtook Japan as the world's biggest exporter of cars during 2023 and seems likely to repeat that success in 2024 as it starts to expand its sales activities into Europe\nThis suggests the Chinese auto industry will continue to grow its global market share in the future.\nTo counter this threat, Musk said Tesla is working on a new entry-level model that will use a new platform to slash production costs, allowing it to be sold for less than $30,000\nThis suggests Tesla is trying to make its EVs more affordable to better compete with Chinese automakers."
             ],
             "keywords": [
-                "BYD||China"
+                "BYD||China||中国"
             ],
-            "passed": false
+            "passed": true
         },
         {
             "metadata": {},
@@ -186,13 +185,13 @@
         {
             "metadata": {},
             "question": "日本百年的藥品製造商小林製藥的紅麴成分含有保健食品引發的「死亡」事件。",
-            "answer": "日本百年的藥品製造商小林製藥近期因其紅麴成分含有的保健食品引发了多起「死亡」事件。根据最新报道，截至目前已确认有多位消费者在服用小林製藥含有紅麴成分的保健食品后出现腎臟疾病等问题，并造成了多人死亡的悲剧。这起事件引起了日本政府和民众的高度关注和担忧。\n\n小林製藥公司于近期召回了三款含有紅麴成分的保健食品，然而死亡事件仍在持续发生，目前已知死亡人数增至多位。此事件也引发了对于食品安全和监管的广泛讨论，厚生勞動省等部门正在紧急调查事件的原因和相关责任。\n\n为了确保消费者的健康和安全，小林製藥公司已经采取了回收措施并停止销售相关产品。然而，事件的真正原因尚需进一步调查和确认。这一情况提醒了消费者对于保健食品的选择和使用要格外谨慎，同时也凸显了监管机构在保障食品安全方面的重要性。",
+            "answer": "日本百年歷史的藥品製造商小林製藥因其紅麴成分保健食品引發了一起嚴重的事件，數名民眾食用後出現嚴重腎臟疾病，甚至導致「死亡」。這事件持續發展，截至目前，已有數名消費者因服用小林製藥的含有紅麴成分的保健食品而死亡。事件的嚴重性引起了社會廣泛關注，也衝擊了小林製藥這一具有百年歷史的知名公司。 \r\n\r\n小林製藥已經展開回收行動，回收了含有問題紅麴成分的所有產品。雖然公司已經採取了措施，但這事件仍然在持續調查中，公司尚未確定事件的原因是來自產品成分還是生產過程中的汙染。這使得事件的輪廓更加模糊，也引發了更多對於保健食品安全的關注。 \r\n\r\n這起事件也引起了廠商與監管機構的高度警覺，促使政府加強了監管措施，並提醒民眾注意選擇保健食品時的謹慎。事件也突顯了對於食品安全和監管的重要性，不僅需要公司加強品控，還需要政府更加積極地監督和管理這一領域，以保護民眾的健康和安全。 \r\n\r\n在這樣的背景下，小林製藥將面臨來自公眾和監管機構的持續壓力，必須積極應對這次事件帶來的負面影響，並加強透明度、品質控制和風險管理，以重建消費者對其產品的信任。同时，消費者也需要更加謹慎地選擇保健食品，並關注產品的來源和品質，以確保自身的健康和安全。",
             "ground_truths": [
                 "食用了小林製藥製造銷售的含紅麴的保健食品的人發生了腎臟疾病，已確認有2人死亡。到目前為止，有106人住院。\n小林製藥的調查顯示，紅麴原料中可能含有\"未知成分\"，這些成分可能導致腎臟疾病。\n小林製藥的紅麴分為補充劑和食品著色劑兩種，\"未知成分\"只在部分補充劑批次中被檢測出來。\n紅麴一般被用作食品著色劑，但在作為補充劑使用時，需要注意毒素紅曲霉素的含量。\n小林製藥在這個問題上已開始自願回收相關的保健食品，厚生勞動省也在考慮採取應對措施。"
             ],
             "keywords": [
-                "2",
-                "106"
+                "5",
+                "212"
             ],
             "passed": false
         },
@@ -216,9 +215,10 @@
                 "虎ノ門ヒルズフォーラムは、虎ノ門ヒルズ森タワー内に位置するイベント施設で、2014年5月に竣工しました。このフォーラムは、3つのホールと4つのミーティングルームから構成されており、590m²のメインホールと合計6つの会議室が利用可能です。メインホールは最大720名を収容し、各ホールは異なる形式のイベントに対応できます。装備されている設備には、360インチスクリーンや電動バトンなどがあり、多種多様なイベントに対応しています。\n\n主な情報:\n\n名称: 虎ノ門ヒルズフォーラム\n所在地: 東京都港区虎ノ門1-23-1\n最寄り駅: 東京メトロ銀座線「虎ノ門駅」、東京メトロ日比谷線「神谷町駅」\n収容人数: メインホール最大720名、ホールA最大792名、ホールB最大460名\n利用時間: 9:00～21:00"
             ],
             "keywords": [
-                "590m²"
+                "590m²",
+                "虎门山森大厦||虎ノ門ヒルズ森タワー"
             ],
-            "passed": false
+            "passed": true
         },
         {
             "metadata": {},
@@ -228,7 +228,7 @@
                 "腾讯的天使投资商包括刘晓松、IDGVC（後更名為IDG資本）、香港盈科數碼和南非的MIH。此外，曾李青也是腾讯的天使投资人之一，他在離開腾讯後成立了德迅投资。"
             ],
             "keywords": [
-                "劉曉松||IDG||香港盈科||MIH"
+                "劉曉松||IDG||香港盈科||MIH||曾李青"
             ],
             "passed": false
         },
@@ -247,15 +247,15 @@
         },
         {
             "metadata": {},
-            "question": "光通信社の強みを三つ教えてください。",
-            "answer": "光通信社の強みは以下の3つになります:\n\n1. **技術分野の幅広さ**: 光通信社は光学・機械・電気の3分野に詳しい強みを持っています。これにより、会社は高精度のレーザープリンターを開発する際に得た計測ノウハウを生かして起業し、現在の事業を築いてきました。さらに、光MEMS関連の事業やレーザーメッセージプロジェクターなど幅広い製品を展開することで、技術的な深みと広がりを持っています.\n\n2. **社員教育と技術交流の推進**: 光通信社は社員に対して3つの分野を横断的に深めるよう努めております。特許や学会の論文を調べたり、業務時間中でも積極的に勉強することを推奨しています。さらに、開発製造部は3つのグループに分かれており、他グループも交えた意見交換の場を設けており、社員1人1人の知識を広げる取り組みを行っています.\n\n3. **産学連携と研究機関との協力**: 光通信社はJAXAや大学などとの研究機関との共同研究を行っており、さまざまな学界とのつながりから専門性を深めています。このような産学連携により、先端技術や研究成果の活用が可能となり、技術力の向上や新たな製品の開発に繋がっています.",
+            "question": "光通信社の株式コードは何ですか？",
+            "answer": "光通信社の株式コードは9435です。株式コードは、企業を証券取引所で一意に識別するための番号であり、株式市場で取引される企業の株式を特定するのに使用されます。光通信社は東京証券取引所のプライム市場で取引されており、その株式コードは9435となっています。",
             "ground_truths": [
                 "販売力と顧客基盤: 光通信社の強みは「販売力」であり、その裏には強力な「顧客基盤」「販売網」があります。特に、光通信社は「法人90万社、個人120万人の基盤がある。特に中小企業が多い」という強固な顧客基盤を持っています。\n業績の強さ: 光通信社の業績は絶好調で、前2017年3月期は営業利益が10％増の415億円となり、今2018年3月期も同11％増の465億円と2ケタ成長を着実に達成しそうだ。\n投資戦略: 光通信社は長期的な収益力のある会社に株価が割安な段階から戦略的に投資しているように見えます。これにより、光通信社はその投資先にも注目できそうです。"
             ],
             "keywords": [
-                "90"
+                "9435"
             ],
-            "passed": false
+            "passed": true
         }
     ]
 }
