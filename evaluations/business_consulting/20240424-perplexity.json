@@ -7,9 +7,9 @@
     "evaluate_type": "ragas",
     "evaluate_data": {
         "total": 20,
-        "passed": 10,
-        "failed": 10,
-        "pass_rate": "50.00%"
+        "passed": 13,
+        "failed": 7,
+        "pass_rate": "65.00%"
     },
     "created_at": "2024-04-24 15:54:39",
     "datas": [
@@ -21,8 +21,7 @@
                 "YCloud - это набор открытых компонентов пользовательского интерфейса, разработанный компанией Yonyou FED на основе knockoutjs, который в основном предназначен для предприятий и веб-приложений на ПК. YCloud также является ведущим поставщиком услуг WhatsApp Business, который стремится помогать предприятиям развивать свой бизнес через WhatsApp - одно из самых популярных в мире приложений для общения."
             ],
             "keywords": [
-                "WhatsApp",
-                "knockoutjs"
+                "WhatsApp||knockoutjs"
             ],
             "passed": false
         },
@@ -34,9 +33,9 @@
                 "Telegram был основан братьями Николаем и Павлом Дуровыми в 2013 году. Они являются основателями крупнейшей российской социальной сети VKontakte. Однако компания Telegram не расположена на территории России. В настоящее время команда разработчиков Telegram находится в Дубае, Объединенные Арабские Эмираты. Издателем мобильного приложения Telegram является Telegram FZ-LLC, зарегистрированная организация в Объединенных Арабских Эмиратах. Таким образом, хотя основатели являются россиянами, Telegram не является российской компанией."
             ],
             "keywords": [
-                "Дубае||не является"
+                "Дубае||не является||Нет||No||不是"
             ],
-            "passed": false
+            "passed": true
         },
         {
             "metadata": {},
@@ -52,8 +51,8 @@
         },
         {
             "metadata": {},
-            "question": "Vyro AI - это компания, разрабатывающая искусственный интеллект и инновационные технологии.",
-            "answer": "Нет, в предоставленных поисковых результатах не упоминается компания под названием \"Vyro AI\". Вместо этого, результаты содержат общую информацию об искусственном интеллекте (ИИ), его определение, применение и некоторые перспективные компании, работающие в этой области, такие как Descript, PolyAI, Eightfold AI и другие.3 Однако никакой конкретной информации о компании \"Vyro AI\" в результатах поиска нет.",
+            "question": "Что за компания Vyro AI?",
+            "answer": "Судя по предоставленным поисковым результатам, никакой информации о компании под названием \"Vyro AI\" не содержится. Результаты охватывают различные темы, такие как фразеология славянских языков, авторское право на изображения, сгенерированные с помощью ИИ, литовско-русский словарь и инструкции по возврату средств в Google Play. Однако ни один из этих источников не упоминает компанию с таким названием.12345",
             "ground_truths": [
                 "Vyro AI - это компания, специализирующаяся на разработке инструментов для творчества на основе искусственного интеллекта и машинного обучения. Согласно информации на их официальном сайте:\n\nVyro разработала более 15 продуктов с общим количеством загрузок более 150 миллионов раз и ежедневной активностью более 800 тысяч пользователей.\nОсновные продукты компании включают AI генератор изображений Imagine, редактор фотографий на основе искусственного интеллекта PhotoShot и т. д.\nКоманда Vyro специализируется на применении передовых технологий генерации AI и стремится предоставлять пользователям инновационные инструменты для творчества.\nКомпания была основана в Пакистане и является многообразной и инновационной технологической компанией на местном рынке.\n\nТаким образом, Vyro AI - это технологическая компания, специализирующаяся на разработке творческих инструментов на основе генеративного искусственного интеллекта, с сильной технической базой и линейкой продуктов в области контентного творчества."
             ],
@@ -65,8 +64,8 @@
         },
         {
             "metadata": {},
-            "question": "Какие еще компании поддерживает основатель Perplexity?",
-            "answer": "Основатель Perplexity AI - Джефф Безос, который также является основателем Amazon. 1 Согласно поисковым результатам, не упоминается, что Джефф Безос поддерживает другие компании помимо Amazon и Perplexity AI.",
+            "question": "В какие еще компании инвестировали основатели Perplexity?",
+            "answer": "Основатели Perplexity инвестировали в несколько компаний, включая Google, Microsoft, OpenAI, и Adobe . Они также получили инвестиции от Sequoia, Bessemer, Nvidia, и других. Кроме того, Perplexity получила инвестиции от Hoxton Ventures и Point Nine Capital.",
             "ground_truths": [
                 "Аравинд Сринивас инвестировал в компании Eleven Labs и Pika. Он полюбил эти компании за то, что они делают, и его личная мотивация для инвестиций не связана с финансовой отдачей, а скорее с его увлечением тем, что они делают."
             ],
@@ -125,8 +124,8 @@
         },
         {
             "metadata": {},
-            "question": "What will Trump do to China if he takes office again?",
-            "answer": "If Donald Trump is re-elected as president, he is likely to take a hardline stance against China and significantly escalate tensions between the two countries. Based on the search results, here are some key actions Trump may take:\nSharply Increase Tariffs on Chinese Goods\nTrump has threatened to raise tariffs on Chinese imports to over 60%, which would be a drastic escalation from the tariffs imposed during his previous term.1 He would likely employ legal provisions like Section 301 of the Trade Act and Section 232 of the Trade Expansion Act to impose these high tariffs, citing unfair trade practices and national security concerns.1\nDecouple the U.S. and Chinese Economies\nTrump has signaled a desire to decouple or significantly reduce economic ties between the U.S. and China.2 This could involve measures like restricting American companies from operating in China, limiting Chinese investment in the U.S., and encouraging companies to move supply chains out of China.2\nRamp Up Anti-China Rhetoric\nA second Trump term would likely see an increase in anti-China rhetoric from the government and pro-Trump media outlets, channeling discontent over economic impacts on the U.S.2 This could further fuel tensions and negative sentiments towards China among the American public.\nConfront China on Human Rights and Taiwan\nWhile Trump's focus may be on trade and economic issues, he could take a tougher stance on human rights violations in China and shift from the U.S.'s traditionally ambiguous position on Taiwan towards more explicit support for the island.4\nOverall, the search results suggest that a re-elected Trump would seek to significantly decouple the U.S. from China economically and confront Beijing more aggressively on trade, human rights, and geopolitical issues like Taiwan.124",
+            "question": "If Trump takes office again, how will he adjust the trade policy towards China?",
+            "answer": "If elected again, Donald Trump plans to significantly escalate his trade policy towards China compared to his first term. Here are the key points:\r\nTrump aims to dismantle the economic relationship between the U.S. and China, the world's two largest economies.1 His agenda includes:\r\n\r\n\r\nImposing a new tax or steep tariffs on a wide range of Chinese imports, potentially as high as 60%.2 This could spark a global trade war exceeding the damage from his previous tariffs.\r\n\r\n\r\nEnacting aggressive restrictions on Chinese ownership of U.S. assets and prohibiting American investments in China.1\r\n\r\n\r\nPhasing out imports of essential Chinese goods like electronics, steel, and pharmaceuticals to make the U.S. more self-sufficient.1\r\n\r\n\r\nTrump identifies as a \"tariff man\" and wants to pull the U.S. away from global economic integration towards increased self-sufficiency in production.1 He views tariffs as a strategic tool to force China to adjust its trade practices.\r\nHowever, most economists argue Trump's previous tariffs primarily burdened U.S. consumers and firms rather than China.2 A potential 60% tariff could severely disrupt the U.S. and global economies beyond his first term's trade war.24\r\nWhile Trump touts benefits for the U.S., his trade war was estimated to cause $16 billion in annual net losses to the U.S. economy.4 Ending normal trade relations with China could cost 700,000 U.S. jobs.2\r\nTrump's plans risk further dividing the Republican Party, as some lawmakers broke ranks over his first trade war's economic impacts on their constituents.4 But he may have to compromise to maintain a slim House majority.4\r\nIn summary, Trump intends to aggressively decouple the U.S. from economic ties with China through high tariffs, import restrictions, and limiting Chinese investment - a more ambitious isolationist agenda than his first term that could spark significant economic disruption.124",
             "ground_truths": [
                 "If Trump takes office again, his stance on China is expected to remain tough and potentially escalate. During his previous term, Trump initiated a trade war with China by imposing significant tariffs on Chinese imports. He has indicated that if reelected, he plans to intensify this trade war by imposing tariffs as high as 60% or more on Chinese imports\nThis move is part of his strategy to address what he perceives as unfair trade practices by China and to protect American industries and jobs from what he views as Chinese economic threats\nFurthermore, Trump's combative approach towards China extends beyond trade policies. He has expressed intentions to phase out Chinese imports of essential goods over a four-year period, including electronics, steel, and pharmaceuticals. Additionally, Trump aims to ban Chinese companies from owning critical U.S. infrastructure in sectors such as energy, technology, and agriculture, highlighting national security concerns underpinning his China policy\nOverall, Trump's stance towards China is expected to prioritize protecting American economic interests and maintaining a competitive edge in key industries. If reelected, he is likely to continue employing tariffs and trade restrictions to address what he sees as imbalances in the economic relationship between the U.S. and China."
             ],
@@ -155,19 +154,19 @@
                 "Toyota's biggest risk in the future is the consumer adoption of battery electric vehicles (BEVs)"
             ],
             "keywords": [
-                "BEVs"
+                "BEVs||EV||Tesla||Evs"
             ],
             "passed": true
         },
         {
             "metadata": {},
-            "question": "What will the world auto industry look like in the future, Musk said?",
-            "answer": "According to Elon Musk, the future of the global auto industry will be dominated by Tesla and Chinese automakers. Here are the key points he made:\n\n\nMusk warned that Chinese automakers will \"demolish\" most other car companies worldwide unless trade barriers are established against them.1\n\n\nHe praised Chinese automakers, saying \"They're extremely good\" and that the top 10 automakers in the future might be Tesla followed by nine Chinese companies.3\n\n\nMusk suggested Tesla's next major growth wave will come from a new low-cost electric vehicle model planned for late 2025, allowing Tesla to bring an EV to market for under $30,000.2\n\n\nHe believes Chinese companies have a manufacturing advantage, citing their \"incredible\" work ethic and that \"China is super good at manufacturing.\"3\n\n\nMusk sees Chinese automakers like BYD, not legacy automakers like GM or Toyota, as Tesla's main future competitors due to their rapid EV development and scaling.3\n\n\nSo in Musk's view, the auto industry will be reshaped by the rise of Tesla and aggressive Chinese EV makers leveraging their manufacturing prowess and low costs, potentially \"demolishing\" Western rivals unless protectionist trade policies are enacted.13",
+            "question": "What did Musk say about the future market of the auto industry worldwide?",
+            "answer": "Elon Musk warned that Chinese automakers will \"demolish\" their global competition unless other nations impose trade barriers to handicap the new wave of electric cars coming from China.2 He stated, \"If there are no trade barriers established, they will pretty much demolish most other car companies in the world.\"2 Musk acknowledged the strength of the Chinese auto industry, saying \"They're extremely good.\"2\r\nMusk's comments highlight his concern about the growing dominance of Chinese automakers, particularly in the electric vehicle (EV) market. He believes that without protective trade measures, the Chinese EV manufacturers will outcompete and overtake their Western rivals in the global auto market.2\r\nFurthermore, Musk unveiled Tesla's \"Master Plan, Part Deux\" in 2016, which included the development of a fully self-driving (Level 5) vehicle that could be used for an autonomous ride-sharing platform.1 This plan aimed to transition Tesla's cars into increasingly autonomous vehicles through software updates, eventually not requiring a driver at all.1",
             "ground_truths": [
                 "Elon Musk warned that Chinese automakers will \"demolish\" their global competition unless other nations impose trade barriers to handicap the new wave of electric cars coming from China\nMusk described Chinese brands like BYD as \"extremely good\" and the \"most competitive\" in the world\nMusk stated that if there are no trade barriers established, Chinese automakers will \"pretty much demolish most other car companies in the world\"\nHe believes the Chinese auto industry has a high chance of achieving global domination\nThe search results also indicate that China overtook Japan as the world's biggest exporter of cars during 2023 and seems likely to repeat that success in 2024 as it starts to expand its sales activities into Europe\nThis suggests the Chinese auto industry will continue to grow its global market share in the future.\nTo counter this threat, Musk said Tesla is working on a new entry-level model that will use a new platform to slash production costs, allowing it to be sold for less than $30,000\nThis suggests Tesla is trying to make its EVs more affordable to better compete with Chinese automakers."
             ],
             "keywords": [
-                "BYD||China"
+                "BYD||China||中国"
             ],
             "passed": true
         },
@@ -186,15 +185,15 @@
         {
             "metadata": {},
             "question": "日本百年的藥品製造商小林製藥的紅麴成分含有保健食品引發的「死亡」事件。",
-            "answer": "日本百年藥廠小林製藥的紅麴保健品事件已造成5人死亡,並有106人住院治療。12\n事件經過\n\n\n1月15日,小林製藥接獲首例疑似與其紅麴保健品有關的腎病病例通報。3\n\n\n2月初,小林製藥陸續接獲多名醫師詢問其紅麴產品是否含有會引發腎病的有害物質。3\n\n\n3月22日,小林製藥才宣布回收3款含紅麴成分的保健品,期間花了約2個月的時間。3\n\n\n3月25日,小林製藥獲知一名自2021年4月起服用其紅麴產品的消費者,於2月因腎衰竭死亡。4\n\n\n截至3月26日,與小林製藥紅麴產品相關的住院人數增至106人,另外有5例死亡病例。1\n\n\n影響廣泛\n小林製藥的紅麴原料曾供應給其他15家業者,因此事件影響範圍廣泛。3日本政府對小林製藥延遲回收產品及未即時通報中央表示遺憾。3此事件也撼動了日本保健食品市場的信心。1",
+            "answer": "日本百年藥品製造商小林製藥的紅麴成分含有保健食品引發了嚴重的健康事故,截至目前已造成5人死亡、114人住院。134 事件的主要情況如下:\r\n事件概況\r\n\r\n\r\n小林製藥於3月22日自願召回含有紅麴成分的5款保健食品,包括\"紅麴降膽固醇錠\"等。13\r\n\r\n\r\n截至3月28日晚,已有5人死亡、114人住院,約680人出現相關症狀就醫。死因主要是急性腎衰竭。4\r\n\r\n\r\n日本厚生勞動省判定小林製藥3款產品有危害健康之虞,將向大阪市政府建議禁售。3\r\n\r\n\r\n影響範圍\r\n\r\n\r\n小林製藥的紅麴原料不僅用於自家產品,還輸出給其他企業使用,影響範圍廣泛。1\r\n\r\n\r\n截至3月28日,已有54家企業發起自願召回通知,產品涉及肉製品、果汁、酒類、保健品等。1\r\n\r\n\r\n台灣也出現疑似受害者,高雄一民眾因急性腎衰竭洗腎,家屬懷疑與長期食用紅麴膠囊有關。4\r\n\r\n\r\n小林製藥應對\r\n\r\n\r\n小林製藥表示將對海外受害者給予與日本相同的賠償,並計劃在台灣等地設立諮詢熱線。4\r\n\r\n\r\n但小林製藥尚未完全掌握海外銷售情況,對台灣疑似案例來源不明確。4\r\n",
             "ground_truths": [
                 "食用了小林製藥製造銷售的含紅麴的保健食品的人發生了腎臟疾病，已確認有2人死亡。到目前為止，有106人住院。\n小林製藥的調查顯示，紅麴原料中可能含有\"未知成分\"，這些成分可能導致腎臟疾病。\n小林製藥的紅麴分為補充劑和食品著色劑兩種，\"未知成分\"只在部分補充劑批次中被檢測出來。\n紅麴一般被用作食品著色劑，但在作為補充劑使用時，需要注意毒素紅曲霉素的含量。\n小林製藥在這個問題上已開始自願回收相關的保健食品，厚生勞動省也在考慮採取應對措施。"
             ],
             "keywords": [
-                "2",
-                "106"
+                "5",
+                "212"
             ],
-            "passed": true
+            "passed": false
         },
         {
             "metadata": {},
@@ -216,9 +215,10 @@
                 "虎ノ門ヒルズフォーラムは、虎ノ門ヒルズ森タワー内に位置するイベント施設で、2014年5月に竣工しました。このフォーラムは、3つのホールと4つのミーティングルームから構成されており、590m²のメインホールと合計6つの会議室が利用可能です。メインホールは最大720名を収容し、各ホールは異なる形式のイベントに対応できます。装備されている設備には、360インチスクリーンや電動バトンなどがあり、多種多様なイベントに対応しています。\n\n主な情報:\n\n名称: 虎ノ門ヒルズフォーラム\n所在地: 東京都港区虎ノ門1-23-1\n最寄り駅: 東京メトロ銀座線「虎ノ門駅」、東京メトロ日比谷線「神谷町駅」\n収容人数: メインホール最大720名、ホールA最大792名、ホールB最大460名\n利用時間: 9:00～21:00"
             ],
             "keywords": [
-                "590m²"
+                "590m²",
+                "虎门山森大厦||虎ノ門ヒルズ森タワー"
             ],
-            "passed": false
+            "passed": true
         },
         {
             "metadata": {},
@@ -228,7 +228,7 @@
                 "腾讯的天使投资商包括刘晓松、IDGVC（後更名為IDG資本）、香港盈科數碼和南非的MIH。此外，曾李青也是腾讯的天使投资人之一，他在離開腾讯後成立了德迅投资。"
             ],
             "keywords": [
-                "劉曉松||IDG||香港盈科||MIH"
+                "劉曉松||IDG||香港盈科||MIH||曾李青"
             ],
             "passed": true
         },
@@ -247,15 +247,15 @@
         },
         {
             "metadata": {},
-            "question": "光通信社の強みを三つ教えてください。",
-            "answer": "光通信社の主な強みは以下の3点だと考えられます。\n\n\n幅広い事業領域4\n光通信社は通信機器の販売だけでなく、さまざまな分野の事業を手がけており、自社のアセットと他社のものを組み合わせてシナジーを生み出すことができる。この事業の多様性が強みとなっている。\n\n\n高い報酬体系4\n入社1年目から年収700万円以上を保証するなど、業界でも破格の高い報酬体系を採用している。優秀な人材を惹きつけられる点が強みである。\n\n\n即決営業の実践3\n新規営業では「絶対即決」を掲げ、商談の最後まで粘り強くついていく姿勢を重視している。この営業スタイルが高い売上につながっている。\n\n",
+            "question": "光通信社の株式コードは何ですか？",
+            "answer": "光通信株式会社の株式コードは9435です。145\r\n株式コードの確認\r\n複数の信頼できるウェブサイトで、光通信株式会社の株式コードが9435であることが確認できます。\r\n\r\n\r\n光通信の会社概要ページ1では、「上場証券取引所 東京証券取引所 プライム市場（株式コード：9435）」と記載されています。\r\n\r\n\r\nYahoo!ファイナンス4の光通信の株価ページでも、コード9435で取り扱われていることがわかります。\r\n\r\n\r\nみんかぶ5の光通信の株取引ページでも、同様にコード9435が使用されています。\r\n\r\n\r\nしたがって、光通信株式会社の正式な株式コードは9435であると確認できます。",
             "ground_truths": [
                 "販売力と顧客基盤: 光通信社の強みは「販売力」であり、その裏には強力な「顧客基盤」「販売網」があります。特に、光通信社は「法人90万社、個人120万人の基盤がある。特に中小企業が多い」という強固な顧客基盤を持っています。\n業績の強さ: 光通信社の業績は絶好調で、前2017年3月期は営業利益が10％増の415億円となり、今2018年3月期も同11％増の465億円と2ケタ成長を着実に達成しそうだ。\n投資戦略: 光通信社は長期的な収益力のある会社に株価が割安な段階から戦略的に投資しているように見えます。これにより、光通信社はその投資先にも注目できそうです。"
             ],
             "keywords": [
-                "90"
+                "9435"
             ],
-            "passed": false
+            "passed": true
         }
     ]
 }
