@@ -221,10 +221,9 @@
             {
                 "scene": "business_consulting",
                 "total": 100,
-                "passed": 41,
-                "failed": 59,
-                "pass_rate": "41.00%",
-                "answer_correctness": 0.1224958533434106,
+                "passed": 43,
+                "failed": 57,
+                "pass_rate": "43.00%",
                 "list": [
                     {
                         "total": 20,
@@ -264,10 +263,9 @@
                     },
                     {
                         "total": 20,
-                        "passed": 6,
-                        "failed": 14,
-                        "pass_rate": "30.00%",
-                        "answer_correctness": 0.612479266717053,
+                        "passed": 8,
+                        "failed": 12,
+                        "pass_rate": "40.00%",
                         "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/business_consulting/20240424-iask.json",
                         "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/business_consulting/20240424-iask.csv",
                         "evaluate_ai": "iask"
@@ -276,10 +274,9 @@
             }
         ],
         "total": 500,
-        "passed": 197,
-        "failed": 303,
-        "pass_rate": "39.40%",
-        "answer_correctness": 0.024499170668682117
+        "passed": 199,
+        "failed": 301,
+        "pass_rate": "39.80%"
     },
     {
         "date": "2024-04-22",
