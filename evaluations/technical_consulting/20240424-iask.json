@@ -7,9 +7,9 @@
     "evaluate_type": "ragas",
     "evaluate_data": {
         "total": 20,
-        "passed": 4,
-        "failed": 16,
-        "pass_rate": "20.00%"
+        "passed": 11,
+        "failed": 9,
+        "pass_rate": "55.00%"
     },
     "created_at": "2024-04-24 12:24:00",
     "datas": [
@@ -23,7 +23,7 @@
             "keywords": [
                 "しません||30"
             ],
-            "passed": false
+            "passed": true
         },
         {
             "metadata": {},
@@ -35,7 +35,7 @@
             "keywords": [
                 "コンテンツ分類||悪用パターンの検知||人的レビューと判断||通知と措置"
             ],
-            "passed": false
+            "passed": true
         },
         {
             "metadata": {},
@@ -59,7 +59,7 @@
             "keywords": [
                 "されない"
             ],
-            "passed": false
+            "passed": true
         },
         {
             "metadata": {},
@@ -89,8 +89,8 @@
         },
         {
             "metadata": {},
-            "question": "請教如何在Evernote中插入元素。",
-            "answer": "To insert elements in Evernote, follow these steps:\n    \n\n\n\n\n      Text:\n     \n     To insert text, simply start typing in a note.\n    \n\n\n      Images:\n     \n     Click on the “Insert” menu and select “Image” to add images to your note.\n    \n\n\n      Attachments:\n     \n     Drag and drop files into a note or use the attachment icon to add files.\n    \n\n\n      Checkboxes:\n     \n     Use the checkbox feature by clicking on the checkbox icon in the formatting toolbar.\n    \n\n\n      Tables:\n     \n     Click on the “Table” option in the formatting toolbar to insert tables into your note.\n    \n\n\n      Links:\n     \n     Highlight the text you want to link, right-click, and select “Add Hyperlink” to insert links.\n    \n\n\n    These sources provide official and detailed information on using Evernote effectively, including inserting various elements into notes.",
+            "question": "Evernote如何打開快捷鍵菜單？",
+            "answer": "According to www.iAsk.ai Ask Ai Questions Search Engine:\r\n\r\nTo quickly switch between frequently used notes, tags, notebooks, and saved searches in Evernote, you can use the “Ctrl + number” shortcut keys to access them from the shortcut bar. First, drag and drop your commonly used items onto the shortcut bar and arrange them in order. For example, I have my daily task list, important project tasks, important tags, and frequently used searches on my shortcut bar.\r\n\r\nThis method is particularly useful for items that don’t change frequently and are important for your daily work. By remembering the sequence of numbers on the shortcut bar, you can quickly access these items using “Ctrl + 1” for your daily task list or “Ctrl + 4” for your important tag.\r\n\r\nYou can find a complete list of Evernote’s keyboard shortcuts on their official website.\r\n\r\nAuthoritative References Used:\r\n\r\nEvernote Support: Keyboard Shortcuts (https://support.evernote.com/ics/support/KBAnswer.asp?questionID=625)\r\nPlaypcesor: Evernote 18 - Create a Daily Checklist with Tags (http://www.playpcesor.com/2014/03/evernote_18.html)",
             "ground_truths": [
                 "要在Evernote中插入元素，請參考以下步驟：\n\n打開筆記，在想插入元素的地方放置游標。\n按下\"/\"鍵來插入元素。\n選擇要插入的元素類型。例如，可以選擇清單、表格或其他元素。\n選擇好要插入的元素後，它將顯示在筆記中。"
             ],
@@ -122,7 +122,7 @@
                 "iTunes",
                 "Safari"
             ],
-            "passed": false
+            "passed": true
         },
         {
             "metadata": {},
@@ -135,7 +135,7 @@
                 "TXT",
                 "Преобразовать||Преобразуйте"
             ],
-            "passed": false
+            "passed": true
         },
         {
             "metadata": {},
@@ -197,7 +197,7 @@
             "keywords": [
                 "多語言"
             ],
-            "passed": false
+            "passed": true
         },
         {
             "metadata": {},
@@ -222,7 +222,7 @@
                 "自動",
                 "知識庫||RAG"
             ],
-            "passed": false
+            "passed": true
         },
         {
             "metadata": {},
@@ -247,7 +247,7 @@
                 "поддерживают",
                 "1000"
             ],
-            "passed": false
+            "passed": true
         },
         {
             "metadata": {},
@@ -259,7 +259,7 @@
             "keywords": [
                 "MEM"
             ],
-            "passed": true
+            "passed": false
         }
     ]
 }
