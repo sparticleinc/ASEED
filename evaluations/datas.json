@@ -221,9 +221,9 @@
             {
                 "scene": "business_consulting",
                 "total": 100,
-                "passed": 31,
-                "failed": 69,
-                "pass_rate": "31.00%",
+                "passed": 32,
+                "failed": 68,
+                "pass_rate": "32.00%",
                 "list": [
                     {
                         "total": 20,
@@ -254,9 +254,9 @@
                     },
                     {
                         "total": 20,
-                        "passed": 2,
-                        "failed": 18,
-                        "pass_rate": "10.00%",
+                        "passed": 3,
+                        "failed": 17,
+                        "pass_rate": "15.00%",
                         "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/business_consulting/20240424-you.json",
                         "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/business_consulting/20240424-you.csv",
                         "evaluate_ai": "you"
@@ -274,9 +274,9 @@
             }
         ],
         "total": 500,
-        "passed": 187,
-        "failed": 313,
-        "pass_rate": "37.40%"
+        "passed": 188,
+        "failed": 312,
+        "pass_rate": "37.60%"
     },
     {
         "date": "2024-04-22",
