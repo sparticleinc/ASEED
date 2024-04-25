@@ -5,9 +5,9 @@
             {
                 "scene": "technical_consulting",
                 "total": 100,
-                "passed": 30,
-                "failed": 70,
-                "pass_rate": "30.00%",
+                "passed": 37,
+                "failed": 63,
+                "pass_rate": "37.00%",
                 "list": [
                     {
                         "total": 20,
@@ -47,9 +47,9 @@
                     },
                     {
                         "total": 20,
-                        "passed": 4,
-                        "failed": 16,
-                        "pass_rate": "20.00%",
+                        "passed": 11,
+                        "failed": 9,
+                        "pass_rate": "55.00%",
                         "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/technical_consulting/20240424-iask.json",
                         "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/technical_consulting/20240424-iask.csv",
                         "evaluate_ai": "iask"
@@ -274,9 +274,9 @@
             }
         ],
         "total": 500,
-        "passed": 261,
-        "failed": 239,
-        "pass_rate": "52.20%"
+        "passed": 268,
+        "failed": 232,
+        "pass_rate": "53.60%"
     },
     {
         "date": "2024-04-22",
