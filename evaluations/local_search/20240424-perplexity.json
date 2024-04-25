@@ -7,9 +7,9 @@
     "evaluate_type": "ragas",
     "evaluate_data": {
         "total": 20,
-        "passed": 13,
-        "failed": 7,
-        "pass_rate": "65.00%"
+        "passed": 16,
+        "failed": 4,
+        "pass_rate": "80.00%"
     },
     "created_at": "2024-04-24 15:35:07",
     "datas": [
@@ -34,7 +34,7 @@
                 "2024福建晋江灵水中学一初中女生遭霸凌跳楼去世的事件发生在2024年3月24日22时。"
             ],
             "keywords": [
-                "3月24日"
+                "March 24||2024/3/24"
             ],
             "passed": true
         },
@@ -46,7 +46,7 @@
                 "是的，那歌鱼是海鱼。"
             ],
             "keywords": [
-                "是"
+                "是||Yes"
             ],
             "passed": true
         },
@@ -70,7 +70,7 @@
                 "中餐宴请座次安排\n主陪(通常是领导)坐在面对大门的位置\n副主陪(通常是主陪的助手)坐在主陪的对面\n1号客人坐在主陪的右手边\n2号客人坐在主陪的左手边\n3号客人坐在副主陪的右手边\n4号客人坐在副主陪的左手边\n其他客人可以随意安排"
             ],
             "keywords": [
-                "右"
+                "右||right-hand"
             ],
             "passed": true
         },
@@ -142,7 +142,7 @@
                 "跟领导吃饭时，转盘应该顺时针转。"
             ],
             "keywords": [
-                "顺时针"
+                "顺时针||turn clockwise"
             ],
             "passed": true
         },
@@ -168,7 +168,7 @@
             "keywords": [
                 "勾踐"
             ],
-            "passed": false
+            "passed": true
         },
         {
             "metadata": {},
@@ -195,7 +195,7 @@
                 "銀河鉄道の夜",
                 "風の又三郎"
             ],
-            "passed": false
+            "passed": true
         },
         {
             "metadata": {},
@@ -253,9 +253,9 @@
                 "松尾芭蕉の父の名前は松尾与左衛門です"
             ],
             "keywords": [
-                "は松尾与左衛門です"
+                "松尾与左衛門"
             ],
-            "passed": false
+            "passed": true
         }
     ]
 }
