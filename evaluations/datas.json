@@ -221,15 +221,15 @@
             {
                 "scene": "business_consulting",
                 "total": 100,
-                "passed": 32,
-                "failed": 68,
-                "pass_rate": "32.00%",
+                "passed": 35,
+                "failed": 65,
+                "pass_rate": "35.00%",
                 "list": [
                     {
                         "total": 20,
-                        "passed": 10,
-                        "failed": 10,
-                        "pass_rate": "50.00%",
+                        "passed": 13,
+                        "failed": 7,
+                        "pass_rate": "65.00%",
                         "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/business_consulting/20240424-perplexity.json",
                         "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/business_consulting/20240424-perplexity.csv",
                         "evaluate_ai": "perplexity"
@@ -274,9 +274,9 @@
             }
         ],
         "total": 500,
-        "passed": 188,
-        "failed": 312,
-        "pass_rate": "37.60%"
+        "passed": 191,
+        "failed": 309,
+        "pass_rate": "38.20%"
     },
     {
         "date": "2024-04-22",
