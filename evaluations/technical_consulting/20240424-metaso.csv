@@ -2,7 +2,7 @@ metadata,question,answer,ground_truths,keywords,passed
 {},OPENAI APIを通じて入れたデータは学習される？,"通过OpenAI API导入的数据确实可以用于模型的学习和训练。特别是，当涉及到Fine-tuning（微调）时，可以通过向模型提供额外的数据来进一步训练模型，使其更好地适应特定的应用场景或任务。例如，ChatGPT可以通过API接收并利用自定义数据进行学习，这在一定程度上扩展了其能力，使其能够更好地理解和生成文本。
 然而，需要注意的是，OpenAI的官方政策指出，通过API提供的数据不会用于OpenAI公开模型的训练或改进中。这意味着，虽然可以通过API导入数据来微调模型，但这些数据不会被用于OpenAI自身的模型训练过程中。这一点对于希望使用自己的数据来定制化模型的用户来说是一个重要的考虑因素。
 通过OpenAI API导入的数据可以用于模型的学习和训练，尤其是在进行Fine-tuning时。但是，这些数据不会被用于OpenAI公开模型的训练或改进中，而是更多地用于特定应用场景下的模型定制化。
-",['1. OpenAIは、APIを通じて送信されたデータを、OpenAIのモデルの学習や改善には使用しません。ただし、ユーザーが明示的に同意した場合は、そのデータを使用することができます。\n2. APIを通じて送信されたデータは、不正利用や監視のために最大30日間保持されます。その後は削除されます。ただし、法的要求がある場合はこの限りではありません。\n3. ユーザーがファイルエンドポイントを通じて送信したデータ(例えばモデルのファインチューニング用)は、ユーザーが削除するまで保持されます。\n4. この利用ポリシーはOpenAIのコンシューマ向けサービス(ChatGPTやDALL-E)には適用されません。それらのサービスについては別のポリシーが適用されます。'],['しません||30'],False
+",['1. OpenAIは、APIを通じて送信されたデータを、OpenAIのモデルの学習や改善には使用しません。ただし、ユーザーが明示的に同意した場合は、そのデータを使用することができます。\n2. APIを通じて送信されたデータは、不正利用や監視のために最大30日間保持されます。その後は削除されます。ただし、法的要求がある場合はこの限りではありません。\n3. ユーザーがファイルエンドポイントを通じて送信したデータ(例えばモデルのファインチューニング用)は、ユーザーが削除するまで保持されます。\n4. この利用ポリシーはOpenAIのコンシューマ向けサービス(ChatGPTやDALL-E)には適用されません。それらのサービスについては別のポリシーが適用されます。'],['しません||30'],True
 {},Azure OpenAI Service Abuse Monitoringについての記載を教えて？,"Azure OpenAI Service Abuse Monitoring（滥用监控）主要涉及到对用户使用Azure OpenAI服务的速率进行控制，以防止因过度使用而导致的系统过载或滥用。微软为了帮助防止滥用和意外伤害，已经进行了大量投资，包括要求申请人展示定义明确的用例、纳入微软负责任的AI使用原则、构建内容过滤器以支持客户，并为客户提供负责任的AI使用指导。此外，Azure OpenAI服务在不同地区具有不同的配额和限制，用户在使用服务时需要遵守这些配额和限制，以确保其应用程序的运行稳定性。这表明微软对于Azure OpenAI服务的滥用监控不仅限于速率控制，还包括了地域性的配额和限制管理，以及通过投资和技术手段来预防滥用和意外伤害的发生。
 ",['はい、Azure OpenAI Service の不正利用監視についての概要は以下になります。\n\nコンテンツ分類:\n\n入力プロンプトや出力コンテンツを分析し、ハラスメントや差別的な内容などを検知\n深刻度のレベルを判定\n悪用パターンの検知:\n\n顧客の利用パターンを分析し、悪用の兆候を検出\n有害コンテンツの検出頻度や深刻度などを考慮\n人的レビューと判断:\n\nコンテンツ分類や悪用パターンの検知結果について、Microsoft社内の権限ある社員がレビューを行い、適切な判断を下す\n社員はセキュアなワークステーションからのみデータにアクセス可能\n通知と措置:\n\n一定水準の悪用行為が確認された場合、顧客に通知し、是正を求める\n顧客が対応しない場合や、悪用が継続・深刻な場合は、サービスへのアクセスを停止・終了する措置を取る'],['コンテンツ分類||悪用パターンの検知||人的レビューと判断||通知と措置'],False
 {},Anthoropic Claude のデータ保持期間は？,"Anthropic的Claude的数据保持期间为90天。这意味着用户与Claude的对话提示和输出会在后台自动删除，且这些数据不会被用来训练模型。
@@ -12,29 +12,14 @@ metadata,question,answer,ground_truths,keywords,passed
 因此，基于现有的证据，我们可以得出结论，OpenAI API所提供的数据不会直接展示给人类用户。这些数据主要用于支持开发者构建应用程序和服务，而不是直接向最终用户展示。
 ",['デフォルトの場合，OpenAI APIに提出されたデータはAIモデルの訓練には利用されない.'],['されない'],False
 {},Anthoropic Claude のデータポリシーは？,"Anthoropic Claudeのデータポリシーは、業界標準のベストプラクティスを使用しており、ユーザーが入力したプロンプトや会話はモデルのトレーニングに使用されません。これは、用户的な情報の漏洩を防ぐための措置であり、用户的なデータの処理や保持に関する透明性と安全性を保証しています。これは、用户的な情報の漏洩を最小限に抑えるための措置であり、用户的なデータの処理や保持に関する透明性と安全性を保証しています。
-",['ユーザーの個人データは、モデルのトレーニングに使用されないため、ユーザーデータを利用してモデルを構築することはありません。'],['されない'],False
+",['ユーザーの個人データは、モデルのトレーニングに使用されないため、ユーザーデータを利用してモデルを構築することはありません。'],['されない'],True
 {},OPENAIAssistant API のストレージの上限は？,"OpenAI Assistant API 的存储上限为每个组织最多不能超过100GB。此外，对每一个Assistant，最多可以上传20个文件，每个文件的大小最多为512MB。如果需要增加存储限制，可以通过OpenAI的帮助中心申请提高上限。
 ",['OpenAI Assistant API には以下のストレージの上限があります:\nアシスタントごとに最大20個のファイルを添付できる\n各ファイルの最大サイズは512MB\n組織がアップロードする全ファイルの限界サイズは100GB\nつまり、1つのアシスタントに最大20個の合計512MB以下のファイルを添付でき、組織全体では最大100GBまでアップロードできるということです。これらの制限は現在のベータ版の仕様であり、今後変更される可能性があります'],"['20', '512', '100']",True
-{},請教如何在Evernote中插入元素。,"在Evernote中插入元素的方法有多种，具体取决于您想要插入的元素类型。以下是一些常见的方法：
+{},Evernote如何打開快捷鍵菜單？,"没有直接提到如何打开快捷键菜单的具体快捷键。不过，从证据中可以看出，Evernote允许用户在偏好设置中重新定义快捷键138。这意味着用户可以通过访问Evernote的偏好设置来查看和修改快捷键，但具体到如何打开快捷键菜单的快捷键并未提及。
 
+然而，考虑到快捷键通常用于快速访问特定功能或菜单，且Evernote支持全局快捷键9，可以推测可能需要使用与操作系统相关的快捷键来访问快捷键菜单。例如，在Windows系统中，这可能涉及到使用Ctrl + Shift等组合键，而在Mac系统中，则可能是Command + Shift等组合键。但是，由于缺乏直接说明如何打开快捷键菜单的证据，这一推测并不确定。
 
-插入图片、表格、分割线、附件等：根据最新的趋势，Evernote支持模块化笔记，允许用户插入图片、表格、分割线和附件等元素。
-
-
-使用快捷键创建新笔记：您可以使用快捷键组合Ctrl+Alt+N快速创建一个新的笔记。此外，还有其他快捷键操作，如Ctrl + Shift + V用于无格式粘贴，以及Ctrl ⌘ V用于将剪贴板中的内容粘贴为一条新的笔记。
-
-
-插入代码：对于需要插入代码的情况，可以在偏好设置中开启代码块功能，或者直接在笔记页面输入特定的标记来插入代码块。
-
-
-利用MathType插入公式：如果您需要在笔记中插入数学公式，可以先从Evernote复制或粘贴公式到MathType进行编辑，然后将编辑后的公式添加回Evernote。
-
-
-通过API插入内容：对于开发者来说，可以通过Evernote API使用JavaScript的innerHTML或innerText属性将内容插入到Evernote编辑器中。
-
-
-这些方法提供了灵活的方式来根据您的需求在Evernote中插入各种元素。无论是普通文本、图片、代码块还是复杂的公式，Evernote都提供了相应的工具和功能来满足用户的需求。
-","['要在Evernote中插入元素，請參考以下步驟：\n\n打開筆記，在想插入元素的地方放置游標。\n按下""/""鍵來插入元素。\n選擇要插入的元素類型。例如，可以選擇清單、表格或其他元素。\n選擇好要插入的元素後，它將顯示在筆記中。']","['""/""']",False
+总结来说，虽然无法直接回答如何打开快捷键菜单的具体快捷键，但用户可以通过修改Evernote的偏好设置中的快捷键来尝试找到或创建一个用于打开快捷键菜单的快捷方式138。如果需要更具体的快捷键信息，建议查阅最新的官方文档或联系Evernote的客户支持获取帮助。","['要在Evernote中插入元素，請參考以下步驟：\n\n打開筆記，在想插入元素的地方放置游標。\n按下""/""鍵來插入元素。\n選擇要插入的元素類型。例如，可以選擇清單、表格或其他元素。\n選擇好要插入的元素後，它將顯示在筆記中。']","['""/""']",False
 {},Windows 11中如何在壓縮文件時設置密碼,"在Windows 11中设置压缩文件密码的方法主要有以下几种：
 
 
@@ -122,7 +107,7 @@ TF签名是通过TESTFlight进行应用分发的一种方式。
 
 5.6. 使用ChatPDF工具：根据的信息，ChatPDF是一个免费的AI工具，支持与PDF文件进行交互，包括阅读、分析、总结和翻译，支持超过50种语言。
 总结来说，使用ChatGPT进行PDF文件翻译的方法多种多样，您可以根据自己的需求和可用资源选择最合适的方式。无论是通过专门的翻译平台、集成工具还是直接与ChatGPT交互，都能有效地实现PDF文件的语言转换。
-","['1. Преобразуйте PDF-документ в редактируемый текстовый формат, такой как TXT или DOC.\n2. Подайте этот текст в ChatGPT для последовательного перевода содержимого документа по предложениям.']","['TXT', 'Преобразовать||Преобразуйте']",False
+","['1. Преобразуйте PDF-документ в редактируемый текстовый формат, такой как TXT или DOC.\n2. Подайте этот текст в ChatGPT для последовательного перевода содержимого документа по предложениям.']","['TXT', 'Преобразовать||Преобразуйте']",True
 {},gpt-3-5-turbo-0125 1M цена,"gpt-3.5-turbo-0125的输入价格为$0.0005/1K tokens，输出价格为$0.0015/1K tokens 。如果您的需求是每月80百万输入 tokens 和8百万输出tokens，那么根据这个定价结构，您需要支付的费用如下：
 输入费用 = (80,000,000 / 1,000) * 0.0005=0.0005 = 0.0005=40
 输出费用 = (8,000,000 / 1,000) * 0.0015=0.0015 = 0.0015=12
@@ -171,7 +156,7 @@ Cobalt Strike：Fortra Cobalt Strike是一款商业版的渗透测试工具，�
 客户成功管理：通过快速掌握会议记录和解决客户痛点，缩短成交周期，提高业务效率。
 
 Vocol-ai-逐字稿筆記神器是一个功能强大、应用广泛的AI语音协作平台，能够满足不同用户在语音转文字、团队协作、教育培训等方面的需求。
-",['Vocol.ai 是一款強大的 AI 語音協作平台，提供自動逐字稿和摘要功能，幫助使用者快速將會議或對話等語音轉換成文字記錄。以下是 Vocol.ai 的特點和應用場景： 特點： 語言支援：Vocol.ai 支援多種語言，包括中文、英文、日文等。 自然語言模型：採用先進的自然語言模型技術，如 GPT，提供準確的逐字稿和摘要功能。 AI 摘要：自動生成摘要和重點，提供快速閱讀整理資訊的功能。 易用介面：提供直觀易用的平台，方便使用者存取、分享和編輯逐字稿和摘要。 協作功能：支援雲端記錄、評論和劃重點，使與會者可以參與回顧和討論會議內容。 應用場景： 會議記錄：用於轉錄會議內容，製作逐字稿和摘要，方便後續查閱或分享。 學習筆記：學生可以使用 Vocol.ai 製作課堂筆記，製作逐字稿和摘要以供學習和記錄。 團隊協作：在跨國團隊或遠端工作情況下，協助團隊成員快速理解會議內容和進度。 媒體採訪：媒體人可以將採訪內容快速轉錄成文字，方便後續編輯和使用。 教育訓練：在線上課程或教學中使用 Vocol.ai 提供的逐字稿和摘要，幫助學生更好理解內容。 總的來說，Vocol.ai 是一個全方位的逐字稿和摘要工具，適用於各種工作場景和學習需求，提供快速、準確和便利的文字轉錄和整理功能。'],['多語言'],False
+",['Vocol.ai 是一款強大的 AI 語音協作平台，提供自動逐字稿和摘要功能，幫助使用者快速將會議或對話等語音轉換成文字記錄。以下是 Vocol.ai 的特點和應用場景： 特點： 語言支援：Vocol.ai 支援多種語言，包括中文、英文、日文等。 自然語言模型：採用先進的自然語言模型技術，如 GPT，提供準確的逐字稿和摘要功能。 AI 摘要：自動生成摘要和重點，提供快速閱讀整理資訊的功能。 易用介面：提供直觀易用的平台，方便使用者存取、分享和編輯逐字稿和摘要。 協作功能：支援雲端記錄、評論和劃重點，使與會者可以參與回顧和討論會議內容。 應用場景： 會議記錄：用於轉錄會議內容，製作逐字稿和摘要，方便後續查閱或分享。 學習筆記：學生可以使用 Vocol.ai 製作課堂筆記，製作逐字稿和摘要以供學習和記錄。 團隊協作：在跨國團隊或遠端工作情況下，協助團隊成員快速理解會議內容和進度。 媒體採訪：媒體人可以將採訪內容快速轉錄成文字，方便後續編輯和使用。 教育訓練：在線上課程或教學中使用 Vocol.ai 提供的逐字稿和摘要，幫助學生更好理解內容。 總的來說，Vocol.ai 是一個全方位的逐字稿和摘要工具，適用於各種工作場景和學習需求，提供快速、準確和便利的文字轉錄和整理功能。'],['多語言'],True
 {},Скачайте файл ISO 7000 для меня.,"ISO 7000标准是关于设备上使用的图形符号的，用于指导使用者如何操作设备。然而，关于下载ISO 7000文件的具体信息在我搜索到的资料中并未直接提及。
 不过，有几点需要注意：
 
@@ -180,7 +165,7 @@ ISO标准通常需要通过正规渠道购买，而不是免费下载。
 在某些情况下，ISO标准的快照或预览可能无法获得零售购买。
 
 如果您想下载ISO 7000标准，建议您首先确认所需的具体版本（例如ISO 7000:2014或ISO 7000:2019），然后尝试通过官方渠道购买或订阅。这可能包括访问ISO官方网站、联系当地ISO成员或通过ISO商店进行购买。请注意，由于ISO标准属于知识产权保护范畴，未经授权的下载行为可能会违反相关法律法规。
-","['ISO является международным стандартом, и его можно приобрести через официальные каналы за плату.']",['приобрести||Покупка'],False
+","['ISO является международным стандартом, и его можно приобрести через официальные каналы за плату.']",['приобрести||Покупка'],True
 {},Knowledge Bases for Amazon Bedrock的自動數據同步功能是指什麼？,"Knowledge Bases for Amazon Bedrock的自動數據同步功能主要是指在创建和使用知识库的过程中，系统能够自动地从数据源中导入、存储、管理和更新数据和向量存储。这一功能确保了数据和向量存储的始终同步，从而简化了数据管理过程，并支持了RAG（Retrieval-Augmented Generation）技术的应用。具体来说，用户可以直接从Amazon S3导入PDF文档等数据到系统中，而无需手动操作，这大大提高了数据处理的效率和便捷性。此外，Amazon Bedrock知识库还负责在向量存储中创建、存储、管理和更新嵌入，进一步保证了数据的一致性和准确性。
 ",['Knowledge Bases for Amazon Bedrock的自動數據同步功能是Amazon Bedrock的一項功能，它用於自動保持用戶在查詢時使用的知識庫處於最新狀態。當用戶上傳數據源以建立知識庫時，該數據源將定期自動同步，使知識庫反映最新信息。這樣一來，用戶就可以始終使用最新信息來增強根據模型的響應生成。'],"['自動', '知識庫||RAG']",True
 {},what are the applications of lidar in aerospace industry?,"激光雷达（LiDAR）在航空航天行业中的应用主要包括以下几个方面：
@@ -197,9 +182,9 @@ ISO标准通常需要通过正规渠道购买，而不是免费下载。
 
 
 5.6.这些应用展示了LiDAR技术在提高航空航天领域的安全性和效率方面的多样化潜力。
-","['Terrain and Obstacle Mapping: LiDAR can be used to create highly accurate 3D maps of terrain, landscapes, and obstacles. This is useful for mission planning, navigation, and situational awareness in aerospace applications.\nAircraft and Satellite Detection and Tracking: LiDAR can be used to detect and track aircraft, satellites, and space debris with high precision. This aids in airspace management and collision avoidance.\nAirport Operations: LiDAR can provide precise measurements of runway conditions, including detecting foreign object debris (FOD) and runway surface damage. This improves airport safety and efficiency.\nAutonomous Navigation: LiDAR is a key sensor used in the navigation systems of autonomous aerial vehicles like drones, allowing them to detect and avoid obstacles.\nBathymetric Mapping: Military applications of LiDAR include bathymetric mapping, which can precisely image terrain features both on land and in the water, useful for naval operations']",['Terrain and Obstacle Mapping||Aircraft and Satellite Detection and Tracking||Airport Operations||Autonomous Navigation||Bathymetric Mapping'],False
+","['Terrain and Obstacle Mapping: LiDAR can be used to create highly accurate 3D maps of terrain, landscapes, and obstacles. This is useful for mission planning, navigation, and situational awareness in aerospace applications.\nAircraft and Satellite Detection and Tracking: LiDAR can be used to detect and track aircraft, satellites, and space debris with high precision. This aids in airspace management and collision avoidance.\nAirport Operations: LiDAR can provide precise measurements of runway conditions, including detecting foreign object debris (FOD) and runway surface damage. This improves airport safety and efficiency.\nAutonomous Navigation: LiDAR is a key sensor used in the navigation systems of autonomous aerial vehicles like drones, allowing them to detect and avoid obstacles.\nBathymetric Mapping: Military applications of LiDAR include bathymetric mapping, which can precisely image terrain features both on land and in the water, useful for naval operations']",['Terrain and Obstacle Mapping||Aircraft and Satellite Detection and Tracking||Airport Operations||Autonomous Navigation||Bathymetric Mapping'],True
 {},У Huawei Mate 60 есть функция 5G?,"华为Mate 60系列手机确实支持5G网络。华为HUAWEI Mate60/Mate 60 Pro支持5G网络，具备高速稳定的网络连接能力。此外，还有报道称华为Mate 60系列使用了麒麟9000S 5G芯片，表明整个系列都支持5G网络。尽管有报道提到华为Mate 60系列可能并非全系支持5G通信，而是采用4G+5G并存的发行模式，以及有关于5G开关消息被紧急修复的信息，但这些信息并不否认华为Mate 60系列支持5G的事实。因此，可以确认华为Mate 60系列手机具有5G功能。
-","['Согласно результатам поиска, смартфоны серии Huawei Mate 60 поддерживают функцию 5G. Несмотря на то, что при выпуске не было явно указано о поддержке 5G, пользовательские тесты и анализ показали, что серия Mate 60 имеет функцию 5G. Фактические тесты показали, что скорость сети Mate 60 Pro приближается или даже превышает 1000 Мбит/с, что значительно превышает 4G-сеть, что указывает на то, что он действительно поддерживает 5G-сеть, хотя в системных настройках может еще не отображаться опция переключения на 5G.']","['поддерживают', '1000']",False
+","['Согласно результатам поиска, смартфоны серии Huawei Mate 60 поддерживают функцию 5G. Несмотря на то, что при выпуске не было явно указано о поддержке 5G, пользовательские тесты и анализ показали, что серия Mate 60 имеет функцию 5G. Фактические тесты показали, что скорость сети Mate 60 Pro приближается или даже превышает 1000 Мбит/с, что значительно превышает 4G-сеть, что указывает на то, что он действительно поддерживает 5G-сеть, хотя в системных настройках может еще не отображаться опция переключения на 5G.']","['поддерживают', '1000']",True
 {},"Как проверить, достаточно ли свободного места на памяти и работает ли память нормально на DAQ970A?","要检查DAQ970A上的内存是否足够以及内存是否正常工作，可以采取以下步骤：
 
 
