@@ -1,5 +1,5 @@
 metadata,question,answer,ground_truths,keywords,passed
-{},OPENAI APIを通じて入れたデータは学習される？,"No, data submitted via the OpenAI API is not used for training or improving models unless explicitly shared for that purpose. Users must opt-in to share their data for training purposes.",['1. OpenAIは、APIを通じて送信されたデータを、OpenAIのモデルの学習や改善には使用しません。ただし、ユーザーが明示的に同意した場合は、そのデータを使用することができます。\n2. APIを通じて送信されたデータは、不正利用や監視のために最大30日間保持されます。その後は削除されます。ただし、法的要求がある場合はこの限りではありません。\n3. ユーザーがファイルエンドポイントを通じて送信したデータ(例えばモデルのファインチューニング用)は、ユーザーが削除するまで保持されます。\n4. この利用ポリシーはOpenAIのコンシューマ向けサービス(ChatGPTやDALL-E)には適用されません。それらのサービスについては別のポリシーが適用されます。'],['しません||30'],False
+{},OPENAI APIを通じて入れたデータは学習される？,"No, data submitted via the OpenAI API is not used for training or improving models unless explicitly shared for that purpose. Users must opt-in to share their data for training purposes.",['1. OpenAIは、APIを通じて送信されたデータを、OpenAIのモデルの学習や改善には使用しません。ただし、ユーザーが明示的に同意した場合は、そのデータを使用することができます。\n2. APIを通じて送信されたデータは、不正利用や監視のために最大30日間保持されます。その後は削除されます。ただし、法的要求がある場合はこの限りではありません。\n3. ユーザーがファイルエンドポイントを通じて送信したデータ(例えばモデルのファインチューニング用)は、ユーザーが削除するまで保持されます。\n4. この利用ポリシーはOpenAIのコンシューマ向けサービス(ChatGPTやDALL-E)には適用されません。それらのサービスについては別のポリシーが適用されます。'],['しません||30'],True
 {},Azure OpenAI Service Abuse Monitoringについての記載を教えて？,"Abuse Monitoring in Azure OpenAI Service
     
 
@@ -74,7 +74,7 @@ metadata,question,answer,ground_truths,keywords,passed
 
       Azure OpenAI Limited Access Review Documentation
      
-     : Contains specific details about the process for requesting modified abuse monitoring within Azure OpenAI Service.",['はい、Azure OpenAI Service の不正利用監視についての概要は以下になります。\n\nコンテンツ分類:\n\n入力プロンプトや出力コンテンツを分析し、ハラスメントや差別的な内容などを検知\n深刻度のレベルを判定\n悪用パターンの検知:\n\n顧客の利用パターンを分析し、悪用の兆候を検出\n有害コンテンツの検出頻度や深刻度などを考慮\n人的レビューと判断:\n\nコンテンツ分類や悪用パターンの検知結果について、Microsoft社内の権限ある社員がレビューを行い、適切な判断を下す\n社員はセキュアなワークステーションからのみデータにアクセス可能\n通知と措置:\n\n一定水準の悪用行為が確認された場合、顧客に通知し、是正を求める\n顧客が対応しない場合や、悪用が継続・深刻な場合は、サービスへのアクセスを停止・終了する措置を取る'],['コンテンツ分類||悪用パターンの検知||人的レビューと判断||通知と措置'],False
+     : Contains specific details about the process for requesting modified abuse monitoring within Azure OpenAI Service.",['はい、Azure OpenAI Service の不正利用監視についての概要は以下になります。\n\nコンテンツ分類:\n\n入力プロンプトや出力コンテンツを分析し、ハラスメントや差別的な内容などを検知\n深刻度のレベルを判定\n悪用パターンの検知:\n\n顧客の利用パターンを分析し、悪用の兆候を検出\n有害コンテンツの検出頻度や深刻度などを考慮\n人的レビューと判断:\n\nコンテンツ分類や悪用パターンの検知結果について、Microsoft社内の権限ある社員がレビューを行い、適切な判断を下す\n社員はセキュアなワークステーションからのみデータにアクセス可能\n通知と措置:\n\n一定水準の悪用行為が確認された場合、顧客に通知し、是正を求める\n顧客が対応しない場合や、悪用が継続・深刻な場合は、サービスへのアクセスを停止・終了する措置を取る'],['コンテンツ分類||悪用パターンの検知||人的レビューと判断||通知と措置'],True
 {},Anthoropic Claude のデータ保持期間は？,"Data Retention Period for Anthropic Claude:
     
 
@@ -218,7 +218,7 @@ metadata,question,answer,ground_truths,keywords,passed
 
 
 
-    These sources provided detailed information on how OpenAI API handles data privacy, compliance monitoring, content filtering, and customer controls regarding data handling.",['デフォルトの場合，OpenAI APIに提出されたデータはAIモデルの訓練には利用されない.'],['されない'],False
+    These sources provided detailed information on how OpenAI API handles data privacy, compliance monitoring, content filtering, and customer controls regarding data handling.",['デフォルトの場合，OpenAI APIに提出されたデータはAIモデルの訓練には利用されない.'],['されない'],True
 {},Anthoropic Claude のデータポリシーは？,"Anthropic Claude のデータポリシーは以下の通りです:
     
 
@@ -258,49 +258,18 @@ metadata,question,answer,ground_truths,keywords,passed
 
 
     The sources used include official documentation from Google Cloud, Azure OpenAI Service, and Box Developer documentation to provide accurate information on storage limits and quotas for various APIs and services.",['OpenAI Assistant API には以下のストレージの上限があります:\nアシスタントごとに最大20個のファイルを添付できる\n各ファイルの最大サイズは512MB\n組織がアップロードする全ファイルの限界サイズは100GB\nつまり、1つのアシスタントに最大20個の合計512MB以下のファイルを添付でき、組織全体では最大100GBまでアップロードできるということです。これらの制限は現在のベータ版の仕様であり、今後変更される可能性があります'],"['20', '512', '100']",False
-{},請教如何在Evernote中插入元素。,"To insert elements in Evernote, follow these steps:
-    
+{},Evernote如何打開快捷鍵菜單？,"According to www.iAsk.ai Ask Ai Questions Search Engine:
 
+To quickly switch between frequently used notes, tags, notebooks, and saved searches in Evernote, you can use the “Ctrl + number” shortcut keys to access them from the shortcut bar. First, drag and drop your commonly used items onto the shortcut bar and arrange them in order. For example, I have my daily task list, important project tasks, important tags, and frequently used searches on my shortcut bar.
 
+This method is particularly useful for items that don’t change frequently and are important for your daily work. By remembering the sequence of numbers on the shortcut bar, you can quickly access these items using “Ctrl + 1” for your daily task list or “Ctrl + 4” for your important tag.
 
+You can find a complete list of Evernote’s keyboard shortcuts on their official website.
 
-      Text:
-     
-     To insert text, simply start typing in a note.
-    
+Authoritative References Used:
 
-
-      Images:
-     
-     Click on the “Insert” menu and select “Image” to add images to your note.
-    
-
-
-      Attachments:
-     
-     Drag and drop files into a note or use the attachment icon to add files.
-    
-
-
-      Checkboxes:
-     
-     Use the checkbox feature by clicking on the checkbox icon in the formatting toolbar.
-    
-
-
-      Tables:
-     
-     Click on the “Table” option in the formatting toolbar to insert tables into your note.
-    
-
-
-      Links:
-     
-     Highlight the text you want to link, right-click, and select “Add Hyperlink” to insert links.
-    
-
-
-    These sources provide official and detailed information on using Evernote effectively, including inserting various elements into notes.","['要在Evernote中插入元素，請參考以下步驟：\n\n打開筆記，在想插入元素的地方放置游標。\n按下""/""鍵來插入元素。\n選擇要插入的元素類型。例如，可以選擇清單、表格或其他元素。\n選擇好要插入的元素後，它將顯示在筆記中。']","['""/""']",False
+Evernote Support: Keyboard Shortcuts (https://support.evernote.com/ics/support/KBAnswer.asp?questionID=625)
+Playpcesor: Evernote 18 - Create a Daily Checklist with Tags (http://www.playpcesor.com/2014/03/evernote_18.html)","['要在Evernote中插入元素，請參考以下步驟：\n\n打開筆記，在想插入元素的地方放置游標。\n按下""/""鍵來插入元素。\n選擇要插入的元素類型。例如，可以選擇清單、表格或其他元素。\n選擇好要插入的元素後，它將顯示在筆記中。']","['""/""']",False
 {},Windows 11中如何在壓縮文件時設置密碼,"How to Set a Password When Compressing Files in Windows 11:
     
 
@@ -419,7 +388,7 @@ metadata,question,answer,ground_truths,keywords,passed
      If you previously installed this app with a different Apple ID, you will need to enter that ID when opening the app for the first time.
     
 
-     This method only works without jailbreaking your device. If you have a jailbroken iPhone, consider using alternative methods like AltStore or Cydia Impactor instead. These methods involve more steps but allow you to install unsigned IPA files, including those with custom certificates or those obtained from unofficial sources.","['Использование синхронизации через iTunes:\nПодключите устройство iOS к компьютеру и откройте iTunes.\nВыберите устройство в iTunes и перейдите на вкладку ""Приложения"".\nПеретащите загруженный файл IPA в окно ""Приложения"".\nУбедитесь, что файл добавлен в список, затем нажмите кнопку ""Синхронизировать"".\n\nПрямая установка с помощью сторонних инструментов:\nСкачайте и установите сторонний инструмент установки на устройство iOS, такой как PP Helper или iFunbox.\n\nПодключите устройство к компьютеру и запустите инструмент установки.\nНайдите файл IPA, который нужно установить, в инструменте и нажмите ""Установить"".\n\nИспользование AltStore для установки:\nЗагрузите и установите приложение AltStore.\nОткройте в Safari браузере веб-сайт AltStore, загрузите нужный файл IPA.\nПеретащите файл IPA в приложение AltStore и дождитесь завершения установки.\n\nУстановка через Cydia:\nДля этого потребуется джейлбрейк устройства iOS.\nУстановите плагин AppSync через Cydia.\nПеренесите файл IPA на устройство с помощью инструмента, такого как iFunBox, а затем используйте инструмент AppInstall в Cydia для установки.\n\nИспользование Apple App Installer через Safari браузер:\nОткройте в Safari адрес Apple App Installer и импортируйте необходимый сценарий для установки.\n\nУстановка через 3uTools на компьютере с Windows:\nПодключите iPhone к компьютеру и используйте функцию ""Файловое общение"" в iTunes для добавления и установки файла IPA.\n\nПрямая установка с помощью подписи Apple Enterprise, SuperSign или TF:\nИспользуйте методы прямой установки на устройство с помощью подписи Apple Enterprise, SuperSign или TF.']","['iTunes', 'Safari']",False
+     This method only works without jailbreaking your device. If you have a jailbroken iPhone, consider using alternative methods like AltStore or Cydia Impactor instead. These methods involve more steps but allow you to install unsigned IPA files, including those with custom certificates or those obtained from unofficial sources.","['Использование синхронизации через iTunes:\nПодключите устройство iOS к компьютеру и откройте iTunes.\nВыберите устройство в iTunes и перейдите на вкладку ""Приложения"".\nПеретащите загруженный файл IPA в окно ""Приложения"".\nУбедитесь, что файл добавлен в список, затем нажмите кнопку ""Синхронизировать"".\n\nПрямая установка с помощью сторонних инструментов:\nСкачайте и установите сторонний инструмент установки на устройство iOS, такой как PP Helper или iFunbox.\n\nПодключите устройство к компьютеру и запустите инструмент установки.\nНайдите файл IPA, который нужно установить, в инструменте и нажмите ""Установить"".\n\nИспользование AltStore для установки:\nЗагрузите и установите приложение AltStore.\nОткройте в Safari браузере веб-сайт AltStore, загрузите нужный файл IPA.\nПеретащите файл IPA в приложение AltStore и дождитесь завершения установки.\n\nУстановка через Cydia:\nДля этого потребуется джейлбрейк устройства iOS.\nУстановите плагин AppSync через Cydia.\nПеренесите файл IPA на устройство с помощью инструмента, такого как iFunBox, а затем используйте инструмент AppInstall в Cydia для установки.\n\nИспользование Apple App Installer через Safari браузер:\nОткройте в Safari адрес Apple App Installer и импортируйте необходимый сценарий для установки.\n\nУстановка через 3uTools на компьютере с Windows:\nПодключите iPhone к компьютеру и используйте функцию ""Файловое общение"" в iTunes для добавления и установки файла IPA.\n\nПрямая установка с помощью подписи Apple Enterprise, SuperSign или TF:\nИспользуйте методы прямой установки на устройство с помощью подписи Apple Enterprise, SuperSign или TF.']","['iTunes', 'Safari']",True
 {},Как использовать ChatGPT для перевода PDF-документов?,"Using ChatGPT for Translating PDF Documents:
     
 
@@ -456,7 +425,7 @@ metadata,question,answer,ground_truths,keywords,passed
 
 
 
-    The sources mentioned above were consulted to provide accurate and reliable information on using ChatGPT and PDFelement for translating PDF documents. OpenAI is the creator of ChatGPT, providing insights into its capabilities, while Wondershare and PDFelement are known for their tools that integrate AI technologies for efficient document management and translation tasks.","['1. Преобразуйте PDF-документ в редактируемый текстовый формат, такой как TXT или DOC.\n2. Подайте этот текст в ChatGPT для последовательного перевода содержимого документа по предложениям.']","['TXT', 'Преобразовать||Преобразуйте']",False
+    The sources mentioned above were consulted to provide accurate and reliable information on using ChatGPT and PDFelement for translating PDF documents. OpenAI is the creator of ChatGPT, providing insights into its capabilities, while Wondershare and PDFelement are known for their tools that integrate AI technologies for efficient document management and translation tasks.","['1. Преобразуйте PDF-документ в редактируемый текстовый формат, такой как TXT или DOC.\n2. Подайте этот текст в ChatGPT для последовательного перевода содержимого документа по предложениям.']","['TXT', 'Преобразовать||Преобразуйте']",True
 {},gpt-3-5-turbo-0125 1M цена,"Based on the information provided, it appears that there may be some discrepancies and confusion regarding the pricing and availability of different language models offered by OpenAI. The user mentions using ‘gpt-3.5-turbo’ and being charged $0.36, but they cannot call the OpenAI endpoint with ‘gpt-3.5-turbo-0125’, which is listed as a valid model on the pricing page.
    
 
@@ -579,7 +548,7 @@ metadata,question,answer,ground_truths,keywords,passed
 
 
 
-       Vocol.AI | Taipei Vocol.AI",['Vocol.ai 是一款強大的 AI 語音協作平台，提供自動逐字稿和摘要功能，幫助使用者快速將會議或對話等語音轉換成文字記錄。以下是 Vocol.ai 的特點和應用場景： 特點： 語言支援：Vocol.ai 支援多種語言，包括中文、英文、日文等。 自然語言模型：採用先進的自然語言模型技術，如 GPT，提供準確的逐字稿和摘要功能。 AI 摘要：自動生成摘要和重點，提供快速閱讀整理資訊的功能。 易用介面：提供直觀易用的平台，方便使用者存取、分享和編輯逐字稿和摘要。 協作功能：支援雲端記錄、評論和劃重點，使與會者可以參與回顧和討論會議內容。 應用場景： 會議記錄：用於轉錄會議內容，製作逐字稿和摘要，方便後續查閱或分享。 學習筆記：學生可以使用 Vocol.ai 製作課堂筆記，製作逐字稿和摘要以供學習和記錄。 團隊協作：在跨國團隊或遠端工作情況下，協助團隊成員快速理解會議內容和進度。 媒體採訪：媒體人可以將採訪內容快速轉錄成文字，方便後續編輯和使用。 教育訓練：在線上課程或教學中使用 Vocol.ai 提供的逐字稿和摘要，幫助學生更好理解內容。 總的來說，Vocol.ai 是一個全方位的逐字稿和摘要工具，適用於各種工作場景和學習需求，提供快速、準確和便利的文字轉錄和整理功能。'],['多語言'],False
+       Vocol.AI | Taipei Vocol.AI",['Vocol.ai 是一款強大的 AI 語音協作平台，提供自動逐字稿和摘要功能，幫助使用者快速將會議或對話等語音轉換成文字記錄。以下是 Vocol.ai 的特點和應用場景： 特點： 語言支援：Vocol.ai 支援多種語言，包括中文、英文、日文等。 自然語言模型：採用先進的自然語言模型技術，如 GPT，提供準確的逐字稿和摘要功能。 AI 摘要：自動生成摘要和重點，提供快速閱讀整理資訊的功能。 易用介面：提供直觀易用的平台，方便使用者存取、分享和編輯逐字稿和摘要。 協作功能：支援雲端記錄、評論和劃重點，使與會者可以參與回顧和討論會議內容。 應用場景： 會議記錄：用於轉錄會議內容，製作逐字稿和摘要，方便後續查閱或分享。 學習筆記：學生可以使用 Vocol.ai 製作課堂筆記，製作逐字稿和摘要以供學習和記錄。 團隊協作：在跨國團隊或遠端工作情況下，協助團隊成員快速理解會議內容和進度。 媒體採訪：媒體人可以將採訪內容快速轉錄成文字，方便後續編輯和使用。 教育訓練：在線上課程或教學中使用 Vocol.ai 提供的逐字稿和摘要，幫助學生更好理解內容。 總的來說，Vocol.ai 是一個全方位的逐字稿和摘要工具，適用於各種工作場景和學習需求，提供快速、準確和便利的文字轉錄和整理功能。'],['多語言'],True
 {},Скачайте файл ISO 7000 для меня.,,"['ISO является международным стандартом, и его можно приобрести через официальные каналы за плату.']",['приобрести||Покупка'],False
 {},Knowledge Bases for Amazon Bedrock的自動數據同步功能是指什麼？,"Automatic Data Sync Functionality in Knowledge Bases for Amazon Bedrock refers to the feature that enables the seamless and continuous synchronization of data between different sources and the knowledge base created using Amazon Bedrock. This functionality ensures that any updates or changes made to the original data sources are automatically reflected in the knowledge base without manual intervention, allowing for real-time data consistency and accuracy.
     
@@ -605,7 +574,7 @@ metadata,question,answer,ground_truths,keywords,passed
 
 
 
-    The information provided in these sources offers detailed insights into the features and functionalities of Amazon Bedrock, including its automatic data sync capabilities.",['Knowledge Bases for Amazon Bedrock的自動數據同步功能是Amazon Bedrock的一項功能，它用於自動保持用戶在查詢時使用的知識庫處於最新狀態。當用戶上傳數據源以建立知識庫時，該數據源將定期自動同步，使知識庫反映最新信息。這樣一來，用戶就可以始終使用最新信息來增強根據模型的響應生成。'],"['自動', '知識庫||RAG']",False
+    The information provided in these sources offers detailed insights into the features and functionalities of Amazon Bedrock, including its automatic data sync capabilities.",['Knowledge Bases for Amazon Bedrock的自動數據同步功能是Amazon Bedrock的一項功能，它用於自動保持用戶在查詢時使用的知識庫處於最新狀態。當用戶上傳數據源以建立知識庫時，該數據源將定期自動同步，使知識庫反映最新信息。這樣一來，用戶就可以始終使用最新信息來增強根據模型的響應生成。'],"['自動', '知識庫||RAG']",True
 {},what are the applications of lidar in aerospace industry?,"LiDAR, or light detection and ranging, is an active remote sensing technology that uses light in the form of a pulsed laser to measure distance. It is used for 3-D object detection and creation of high-resolution digital elevation models with vertical accuracy up to 1 centimeter. LiDAR systems are either airborne or terrestrial. Airborne LiDAR is placed on drones or helicopters and used for applications requiring a bird’s eye view of a vast area, such as topographic or bathymetric mapping. Terrestrial LiDAR works on the ground and is either mobile or static, used for applications like autonomous vehicle AI, archeology, surveying, mining, and engineering.
     
 
@@ -638,7 +607,7 @@ metadata,question,answer,ground_truths,keywords,passed
 
 
 
-    The sources used in providing information on the Huawei Mate 60’s features and capabilities are reputable news outlets known for their accurate reporting on technology-related topics.","['Согласно результатам поиска, смартфоны серии Huawei Mate 60 поддерживают функцию 5G. Несмотря на то, что при выпуске не было явно указано о поддержке 5G, пользовательские тесты и анализ показали, что серия Mate 60 имеет функцию 5G. Фактические тесты показали, что скорость сети Mate 60 Pro приближается или даже превышает 1000 Мбит/с, что значительно превышает 4G-сеть, что указывает на то, что он действительно поддерживает 5G-сеть, хотя в системных настройках может еще не отображаться опция переключения на 5G.']","['поддерживают', '1000']",False
+    The sources used in providing information on the Huawei Mate 60’s features and capabilities are reputable news outlets known for their accurate reporting on technology-related topics.","['Согласно результатам поиска, смартфоны серии Huawei Mate 60 поддерживают функцию 5G. Несмотря на то, что при выпуске не было явно указано о поддержке 5G, пользовательские тесты и анализ показали, что серия Mate 60 имеет функцию 5G. Фактические тесты показали, что скорость сети Mate 60 Pro приближается или даже превышает 1000 Мбит/с, что значительно превышает 4G-сеть, что указывает на то, что он действительно поддерживает 5G-сеть, хотя в системных настройках может еще не отображаться опция переключения на 5G.']","['поддерживают', '1000']",True
 {},"Как проверить, достаточно ли свободного места на памяти и работает ли память нормально на DAQ970A?","To check if there is sufficient memory and if the memory is functioning normally on a DAQ970A data acquisition system, you can follow these steps:
    
 
@@ -687,4 +656,4 @@ metadata,question,answer,ground_truths,keywords,passed
 
       Consult Technical Support:
      
-     If you are still experiencing issues with your DAQ970A’s memory, contact National Instruments technical support for further assistance and troubleshooting steps based on your specific situation and hardware configuration.","['1. Можно запросить емкость памяти прибора, отправив команду *MEM?.\n2. Если памяти недостаточно, можно отправить команду *RST для очистки данных в памяти и освобождения большего пространства.']",['MEM'],True
+     If you are still experiencing issues with your DAQ970A’s memory, contact National Instruments technical support for further assistance and troubleshooting steps based on your specific situation and hardware configuration.","['1. Можно запросить емкость памяти прибора, отправив команду *MEM?.\n2. Если памяти недостаточно, можно отправить команду *RST для очистки данных в памяти и освобождения большего пространства.']",['MEM'],False
