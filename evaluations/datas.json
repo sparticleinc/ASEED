@@ -167,9 +167,9 @@
             {
                 "scene": "products_search",
                 "total": 100,
-                "passed": 52,
-                "failed": 48,
-                "pass_rate": "52.00%",
+                "passed": 58,
+                "failed": 42,
+                "pass_rate": "58.00%",
                 "list": [
                     {
                         "total": 20,
@@ -191,9 +191,9 @@
                     },
                     {
                         "total": 20,
-                        "passed": 8,
-                        "failed": 12,
-                        "pass_rate": "40.00%",
+                        "passed": 14,
+                        "failed": 6,
+                        "pass_rate": "70.00%",
                         "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/products_search/20240424-metaso.json",
                         "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/products_search/20240424-metaso.csv",
                         "evaluate_ai": "metaso"
@@ -274,9 +274,9 @@
             }
         ],
         "total": 500,
-        "passed": 229,
-        "failed": 271,
-        "pass_rate": "45.80%"
+        "passed": 235,
+        "failed": 265,
+        "pass_rate": "47.00%"
     },
     {
         "date": "2024-04-22",
