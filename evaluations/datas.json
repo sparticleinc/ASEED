@@ -59,9 +59,9 @@
             {
                 "scene": "real_time_news",
                 "total": 100,
-                "passed": 60,
-                "failed": 40,
-                "pass_rate": "60.00%",
+                "passed": 61,
+                "failed": 39,
+                "pass_rate": "61.00%",
                 "list": [
                     {
                         "total": 20,
@@ -83,9 +83,9 @@
                     },
                     {
                         "total": 20,
-                        "passed": 11,
-                        "failed": 9,
-                        "pass_rate": "55.00%",
+                        "passed": 12,
+                        "failed": 8,
+                        "pass_rate": "60.00%",
                         "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/real_time_news/20240424-metaso.json",
                         "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/real_time_news/20240424-metaso.csv",
                         "evaluate_ai": "metaso"
@@ -274,9 +274,9 @@
             }
         ],
         "total": 500,
-        "passed": 292,
-        "failed": 208,
-        "pass_rate": "58.40%"
+        "passed": 293,
+        "failed": 207,
+        "pass_rate": "58.60%"
     },
     {
         "date": "2024-04-22",
