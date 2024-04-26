@@ -188,7 +188,7 @@
                 "passed": 61,
                 "failed": 39,
                 "pass_rate": "61.00%",
-                "answer_correctness": 0.3696485112245299,
+                "answer_correctness": 0.498329053570281,
                 "list": [
                     {
                         "total": 20,
@@ -214,6 +214,7 @@
                         "passed": 14,
                         "failed": 6,
                         "pass_rate": "70.00%",
+                        "answer_correctness": 0.643402711728756,
                         "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/products_search/20240424-metaso.json",
                         "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/products_search/20240424-metaso.csv",
                         "evaluate_ai": "metaso"
@@ -305,7 +306,7 @@
         "passed": 295,
         "failed": 205,
         "pass_rate": "59.00%",
-        "answer_correctness": 0.574657277665722
+        "answer_correctness": 0.6003933861348724
     },
     {
         "date": "2024-04-22",
