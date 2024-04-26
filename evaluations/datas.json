@@ -116,7 +116,7 @@
                 "passed": 68,
                 "failed": 32,
                 "pass_rate": "68.00%",
-                "answer_correctness": 0.13764972999252284,
+                "answer_correctness": 0.25137001161199357,
                 "list": [
                     {
                         "total": 20,
@@ -150,6 +150,7 @@
                         "passed": 4,
                         "failed": 16,
                         "pass_rate": "20.00%",
+                        "answer_correctness": 0.5686014080973536,
                         "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/local_search/20240424-you.json",
                         "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/local_search/20240424-you.csv",
                         "evaluate_ai": "you"
@@ -285,7 +286,7 @@
         "passed": 296,
         "failed": 204,
         "pass_rate": "59.20%",
-        "answer_correctness": 0.15172329231500842
+        "answer_correctness": 0.1744673486389026
     },
     {
         "date": "2024-04-22",
