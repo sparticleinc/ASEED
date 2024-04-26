@@ -125,17 +125,17 @@
             {
                 "scene": "local_search",
                 "total": 100,
-                "passed": 63,
-                "failed": 37,
-                "pass_rate": "63.00%",
-                "answer_correctness": 0.6432628767982461,
+                "passed": 66,
+                "failed": 34,
+                "pass_rate": "66.00%",
+                "answer_correctness": 0.6443242665604321,
                 "list": [
                     {
                         "total": 20,
-                        "passed": 13,
-                        "failed": 7,
-                        "pass_rate": "65.00%",
-                        "answer_correctness": 0.6387470949756622,
+                        "passed": 16,
+                        "failed": 4,
+                        "pass_rate": "80.00%",
+                        "answer_correctness": 0.6440540437865924,
                         "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/local_search/20240424-perplexity.json",
                         "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/local_search/20240424-perplexity.csv",
                         "evaluate_ai": "perplexity"
@@ -304,10 +304,10 @@
             }
         ],
         "total": 500,
-        "passed": 292,
-        "failed": 208,
-        "pass_rate": "58.40%",
-        "answer_correctness": 0.6270489936367032
+        "passed": 295,
+        "failed": 205,
+        "pass_rate": "59.00%",
+        "answer_correctness": 0.6272612715891404
     },
     {
         "date": "2024-04-22",
