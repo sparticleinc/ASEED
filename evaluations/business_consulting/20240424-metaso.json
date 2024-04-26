@@ -7,14 +7,20 @@
     "evaluate_type": "ragas",
     "evaluate_data": {
         "total": 20,
-        "passed": 9,
-        "failed": 11,
-        "pass_rate": "45.00%"
+        "passed": 11,
+        "failed": 9,
+        "pass_rate": "55.00%",
+        "answer_correctness": 0.6289624514648339
     },
     "created_at": "2024-04-24 15:47:36",
     "datas": [
         {
-            "metadata": {},
+            "metadata": {
+                "id": 1,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/business_consulting.csv",
+                "language": "ru"
+            },
             "question": "ycloud - что это?",
             "answer": "YCloud是一个官方授权的WhatsApp Business解决方案提供商，同时也是大中华区的战略合作伙伴。YCloud提供的服务包括但不限于设置WhatsApp验证码的有效期、新版Inbox的上线、支持条件分支和转接人工组件的YCloud Bot以及发送商品消息的功能。此外，YCloud还提供了一个全面的WhatsApp商业解决方案，使企业能够进行市场营销、加速销售并提供卓越的客户支持。作为一站式商业软件服务商，YCloud提供WhatsApp API接入服务，助力全球企业业务增长。通过整合WhatsApp Business API的能力，YCloud开发出了客服坐席Inbox平台，使得一个账号可以服务成千上万的客户。YCloud专注于中国品牌海外推广，是Meta官方代理商之一。总的来说，YCloud是一个致力于通过深度整合WhatsApp来帮助业务增长的领先WhatsApp商业服务提供商。\n",
             "ground_truths": [
@@ -23,10 +29,16 @@
             "keywords": [
                 "WhatsApp||knockoutjs"
             ],
+            "answer_correctness": 0.6637921564039091,
             "passed": true
         },
         {
-            "metadata": {},
+            "metadata": {
+                "id": 2,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/business_consulting.csv",
+                "language": "ru"
+            },
             "question": "\"Telegram\" - это российская компания?",
             "answer": "Telegram是由俄罗斯企业家帕维尔·杜罗夫和尼古拉·杜罗夫共同创立的。尽管Telegram的创始人是俄罗斯人，但Telegram公司并不位于俄罗斯境内。Telegram的开发团队目前位于阿拉伯联合酋长国的迪拜，而Telegram移动应用程序的发行者是Telegram FZ-LLC，这是一个在阿拉伯联合酋长国注册的组织。此外，Telegram的母公司（Telegram Group Inc.）的法定地址位于英属维尔京群岛。\n虽然Telegram的创始人和早期发展与俄罗斯紧密相关，但公司的运营总部和法律实体注册地均不在俄罗斯。因此，虽然Telegram的起源与俄罗斯有关，但它本身并不是一家俄罗斯公司。相反，它的运营和法律地位主要与阿拉伯联合酋长国和英属维尔京群岛相关联。\n",
             "ground_truths": [
@@ -35,10 +47,16 @@
             "keywords": [
                 "Дубае||не является||Нет||No||不是"
             ],
+            "answer_correctness": 0.7295689101484242,
             "passed": true
         },
         {
-            "metadata": {},
+            "metadata": {
+                "id": 3,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/business_consulting.csv",
+                "language": "zh_tw"
+            },
             "question": "紫金的銷售收入",
             "answer": "紫金矿业在2024年第一季度的营业收入为747.77亿元人民币。这一数据表明，尽管与去年同期相比略有下降（同比下降0.22%），但公司的销售收入仍然保持在一个较高的水平。此外，从更广泛的时间范围来看，紫金矿业在2023年的营业收入约为2934亿元人民币，这进一步证实了公司在过去一年中销售业绩的增长趋势。\n需要注意的是，虽然我搜索到的资料提供了关于紫金矿业销售收入的具体数字，但它们主要集中在公司的年度和季度报告上。没有直接提及到特定产品的销售收入，除了提到黄金业务销售收入占报告期内营业收入的42.09%，以及铜业务销售收入占营业总收入的25.21%。这些比例有助于理解公司收入构成的一部分，但不足以提供全面的销售收入细节。\n紫金矿业在2024年第一季度实现了747.77亿元人民币的营业收入，而在2023年全年的营业收入达到了2934亿元人民币。这些数据显示了公司在相应时间段内的销售业绩。然而，对于更详细的销售产品类别或特定产品的销售收入，我搜索到的资料并未给出具体信息。\n",
             "ground_truths": [
@@ -47,10 +65,16 @@
             "keywords": [
                 "2934"
             ],
+            "answer_correctness": 0.5426551914633273,
             "passed": true
         },
         {
-            "metadata": {},
+            "metadata": {
+                "id": 4,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/business_consulting.csv",
+                "language": "ru"
+            },
             "question": "Что за компания Vyro AI?",
             "answer": "Vyro AI是一家专注于通过前沿的生成式AI解决方案将可能性转化为现实的公司。此外，从我搜索到的资料中还可以看出，Vyro AI位于伊斯兰堡，并且在招聘过程中，面试分为两个阶段：首先是人力资源部门的面试，询问一些常规问题，如当前薪资、当前工作情况、期望等；其次是与CEO的面试，其中包含了许多不寻常的问题。这表明Vyro AI不仅重视技术发展，还注重员工的个人成长和职业发展。",
             "ground_truths": [
@@ -60,10 +84,16 @@
                 "Искусственный интеллект",
                 "изображений"
             ],
+            "answer_correctness": 0.6520733705378731,
             "passed": false
         },
         {
-            "metadata": {},
+            "metadata": {
+                "id": 5,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/business_consulting.csv",
+                "language": "ko"
+            },
             "question": "В какие еще компании инвестировали основатели Perplexity?",
             "answer": "Perplexity AI的创始人除了在公司内部投资外，还参与了其他公司的投资。具体来说，亚马逊创始人Jeff Bezos通过Bezos Expeditions Fund参与了Perplexity AI的投资。此外，虽然没有直接提到Perplexity AI的创始人个人投资于其他公司，但从证据中可以看出，Perplexity AI吸引了包括Nvidia、Y Combinator首席执行官Garry Tan、Figma Inc.首席执行官Dylan Field等多位知名投资者和公司的投资。这表明Perplexity AI的创始人可能间接通过其参与的基金或与其他投资者的合作关系，对这些公司或项目进行了投资。\r\n然而，需要注意的是，虽然有证据显示Perplexity AI获得了来自Nvidia和Jeff Bezos的投资，但我搜索到的资料主要集中在Perplexity AI自身获得的资金和估值上，并未直接提及Perplexity AI的创始人个人对其他公司的具体投资情况。因此，基于现有资料，我们无法确定Perplexity AI的创始人个人是否直接投资于除Perplexity AI之外的其他公司，只能确认他们通过基金等方式间接参与了一些相关投资活动。",
             "ground_truths": [
@@ -72,10 +102,16 @@
             "keywords": [
                 "Eleven Labs||Pika"
             ],
+            "answer_correctness": 0.4617322030339175,
             "passed": false
         },
         {
-            "metadata": {},
+            "metadata": {
+                "id": 6,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/business_consulting.csv",
+                "language": "zh_cn"
+            },
             "question": "虎门大桥过路费多少钱？",
             "answer": "虎门大桥的过路费为单程40元。这一信息在多个来源中得到了一致的确认，表明了其准确性。需要注意的是，虽然有关虎门二桥（南沙大桥）的信息也提到了收费标准，但这与虎门大桥是两个不同的桥梁，因此在回答这个问题时应当区分清楚。虎门二桥的标准车型走完全程收费为42元，这与虎门大桥的收费标准不同。\n",
             "ground_truths": [
@@ -84,10 +120,16 @@
             "keywords": [
                 "40"
             ],
+            "answer_correctness": 0.7698066009600764,
             "passed": true
         },
         {
-            "metadata": {},
+            "metadata": {
+                "id": 7,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/business_consulting.csv",
+                "language": "en"
+            },
             "question": "How did Musk earn the first bucket of gold in his life?",
             "answer": "埃隆·马斯克在他的生活中赚取的第一桶金来自于他与彼得·蒂尔共同创立的PayPal。具体来说，eBay以15亿美元的价格收购了PayPal，而马斯克从中获得了1.这笔钱为他后续创立特斯拉和SpaceX等公司提供了资金支持。因此，可以确定马斯克的第一桶金是通过出售他在PayPal中的股份获得的。\n",
             "ground_truths": [
@@ -96,10 +138,16 @@
             "keywords": [
                 "Zip2"
             ],
+            "answer_correctness": 0.47820442987891176,
             "passed": false
         },
         {
-            "metadata": {},
+            "metadata": {
+                "id": 8,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/business_consulting.csv",
+                "language": "zh_tw"
+            },
             "question": "iask.ai 2024年3月的訪問量",
             "answer": "iask.ai在2024年3月的訪問量為3.3百萬。\n",
             "ground_truths": [
@@ -108,10 +156,16 @@
             "keywords": [
                 "3.3||3.4"
             ],
+            "answer_correctness": 0.5303337133477414,
             "passed": true
         },
         {
-            "metadata": {},
+            "metadata": {
+                "id": 9,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/business_consulting.csv",
+                "language": "ru"
+            },
             "question": "Monica.im в 2023 году имеет сколько пользователей?",
             "answer": "Monica.im 在 2023 年已有超过 150 万用户。\n",
             "ground_truths": [
@@ -120,10 +174,16 @@
             "keywords": [
                 "150"
             ],
+            "answer_correctness": 0.9217666644316128,
             "passed": true
         },
         {
-            "metadata": {},
+            "metadata": {
+                "id": 10,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/business_consulting.csv",
+                "language": "en"
+            },
             "question": "If Trump takes office again, how will he adjust the trade policy towards China?",
             "answer": "如果特朗普再次当选，他可能会采取更加严格的贸易政策对中国进行调整。这表明他可能会继续采取强硬立场，通过提高关税来减少中国商品的进口量。\r\n这种策略可能导致美国与中国之间的贸易战升级，从而影响全球经济增长和金融市场。公司已经开始为可能的新一轮中美贸易战做准备，这进一步证明了特朗普政府可能采取的激进贸易措施。\r\n然而，需要注意的是，尽管特朗普提出了这些激进的措施，但他的政策也可能会受到国内外的压力和挑战。这表明即使特朗普再次当选，他也可能需要在执行其贸易政策时考虑到国内外的政治和经济因素。\r\n如果特朗普再次当选，他很可能会继续或加强对中国采取更严格的贸易政策，包括提高关税和其他贸易壁垒。然而，他的政策实施可能会受到国内外多种因素的影响和制约。",
             "ground_truths": [
@@ -132,22 +192,34 @@
             "keywords": [
                 "60%"
             ],
+            "answer_correctness": 0.693163627334243,
             "passed": false
         },
         {
-            "metadata": {},
+            "metadata": {
+                "id": 11,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/business_consulting.csv",
+                "language": "en"
+            },
             "question": "Microsoft 2021 first quarter Financial report",
             "answer": "微软在2021年第一季度的财务报告中，报告了372亿美元的收入和139亿美元的净利润。这一季度的收入比去年同期增长了12%，而净利润也有所增加。具体到每股收益，调整后的为1.82美元，超出了分析师预期的1.54美元。此外，微软的Office 365商业版用户数量也在增加，从第三季度的2.58亿付费座位增加到第一季度的1.这些成绩反映了微软在云计算、个人计算设备以及办公软件服务等领域的强劲竞争力和市场领导地位。\n",
             "ground_truths": [
                 "Microsoft reported strong financial results for the first quarter of its 2021 fiscal year. The company beat analysts' expectations on both earnings and revenue.\nKey highlights:\nAdjusted earnings per share (EPS) was $1.82, compared to the expected $1.55.\nRevenue grew 12% year-over-year to $37.2 billion, exceeding the expected $35.7 billion.\nMicrosoft's Intelligent Cloud segment, which includes the Azure cloud computing platform, saw revenue grow 20% year-over-year, also beating expectations.\nAzure revenue grew 48% year-over-year, driving the strong performance of the Intelligent Cloud segment.\nOther areas like Surface devices, Xbox gaming, and Microsoft 365 consumer subscriptions also saw significant revenue growth during the quarter."
             ],
             "keywords": [
-                "37.2"
+                "37.2||372"
             ],
-            "passed": false
+            "answer_correctness": 0.7032749339138189,
+            "passed": true
         },
         {
-            "metadata": {},
+            "metadata": {
+                "id": 12,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/business_consulting.csv",
+                "language": "en"
+            },
             "question": "What is Toyota's biggest risk in the future?",
             "answer": "丰田汽车公司面临的最大风险在未来可能包括多个方面。首先，全球性的自然灾害、政治和经济不稳定、燃料短缺或社会基础设施中断、战争、恐怖主义和劳工罢工等外部因素都可能对丰田造成不利影响。此外，丰田在应对COVID-19大流行期间供应链中断的问题上已经显示出其生产系统的脆弱性。\n从环境挑战的角度来看，丰田设定了到2050年实现所有新车零二氧化碳排放的目标。这一挑战不仅涉及到新技术的研发和应用，还包括整个生命周期的环境影响管理。这表明，如果丰田不能有效应对这些挑战，可能会面临来自环保法规的压力以及公众对其环境责任的质疑。\n丰田还面临着市场竞争的风险。全球汽车市场的竞争非常激烈，丰田需要不断创新和改进其产品和服务以保持竞争力。此外，丰田还需要关注其供应链管理策略。这种供应链的调整可能会带来新的风险，如库存过剩或供应中断。\n丰田在未来面临的主要风险包括：1) 全球性外部风险的影响；2) 环境挑战的应对不足；3) 市场竞争的压力；4) 供应链管理策略的调整及其带来的新风险。这些风险都需要丰田采取有效的风险管理措施来减轻其潜在的负面影响。\n",
             "ground_truths": [
@@ -156,10 +228,16 @@
             "keywords": [
                 "BEVs||EV||Tesla||Evs"
             ],
+            "answer_correctness": 0.49234363217832056,
             "passed": false
         },
         {
-            "metadata": {},
+            "metadata": {
+                "id": 13,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/business_consulting.csv",
+                "language": "en"
+            },
             "question": "What did Musk say about the future market of the auto industry worldwide?",
             "answer": "埃隆·马斯克对全球汽车行业的未来市场持有明确的看法。首先，他强调软件将成为汽车行业未来的决定性因素，并认为中国制造商在这方面与特斯拉竞争最为激烈。他还提到，特斯拉及其9家中国公司将成为市场的顶尖参与者。\r\n这表明特斯拉正在寻求通过创新和扩展产品线来巩固其在汽车行业中的领导地位。\r\n他的愿景是推动汽车行业向更加智能化和自动化的方向发展，这将极大地改变人们的生活方式和交通模式。\r\n埃隆·马斯克对全球汽车行业的未来持积极态度，强调技术创新，尤其是软件和自动驾驶技术的重要性，并预计特斯拉将在这一转变中扮演关键角色。同时，他也展示了特斯拉在未来几年内推出新产品的计划，以进一步巩固其市场地位。",
             "ground_truths": [
@@ -168,35 +246,53 @@
             "keywords": [
                 "BYD||China||中国"
             ],
+            "answer_correctness": 0.7212823532849619,
             "passed": true
         },
         {
-            "metadata": {},
+            "metadata": {
+                "id": 14,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/business_consulting.csv",
+                "language": "en"
+            },
             "question": "Why is Boeing getting worse and worse?",
             "answer": "波音公司之所以越来越糟糕，主要原因可以从以下几个方面进行分析：\n\n\n董事会治理失败：波音公司的董事会在处理飞机安全问题上存在根本性的失败，特别是在2018年狮航坠机事件之后。此外，波音的董事会还因未能履行其对股东的监督职责而支付了巨额罚款。\n\n\n财务状况恶化：波音公司在2024年第一季度报告了收入下降和亏损增加的情况。具体来说，第一季度的收入为166亿美元，每股GAAP亏损为0.56美元，核心每股亏损（非GAAP）为1.13美元。这表明公司的财务状况正在恶化。\n\n\n声誉受损：波音公司的声誉受到了严重影响。根据调查，从2023年12月到2024年1月，美国成年人对波音的信任度下降了12个百分点。这种信任度的下降直接影响了公司的市场表现和客户关系。\n\n\n质量问题频发：波音面临多起质量问题，包括737 MAX系列飞机的安全事故和质量控制问题。这些问题不仅导致了重大的安全事故，还严重影响了公司的生产和交付能力。\n\n\n5.这种高层管理的不稳定可能进一步影响公司的决策和运营效率。\n波音公司之所以越来越糟糕，主要是由于董事会治理失败、财务状况恶化、声誉受损、质量问题频发以及管理层变动等多方面因素的影响。这些因素相互作用，共同导致了波音公司的持续下滑。\n",
             "ground_truths": [
                 "Boeing's deteriorating situation is multifaceted and can be attributed to several factors that have contributed to its ongoing challenges. One significant issue lies in Boeing's financial struggles, which have worsened in recent years. The company's heavy focus on profits, coupled with the financial strain caused by the pandemic and the grounding of the 737 Max aircraft, has led to Boeing being in its worst financial shape in over a century, with several years of deep losses recorded\nAdditionally, the dependence on the Defense division to offset losses in the Commercial sector is becoming increasingly unsustainable due to constraints in the US defense budget, leaving Boeing with limited options for recovery in that area\nFurthermore, Boeing's internal culture and safety practices have also come under scrutiny. Reports suggest a lack of a safety culture within Boeing, with claims that employees who raise concerns are ignored, marginalized, threatened, or sidelined\nSuch issues can compromise the overall quality and safety standards of Boeing's aircraft, further eroding consumer trust and damaging the company's reputation.\nOn a more operational level, concerns have been raised about specific incidents, such as the recent recommendation by the FAA to visually inspect the mid-exit door plugs on Boeing 737-900ER aircraft, highlighting potential safety issues that need to be addressed\nThese incidents, in addition to the ongoing challenges faced by the company, contribute to the perception that Boeing's situation is worsening over time."
             ],
             "keywords": [
-                "quality"
+                "qualityll质量"
             ],
-            "passed": false
+            "answer_correctness": 0.520154891883652,
+            "passed": true
         },
         {
-            "metadata": {},
+            "metadata": {
+                "id": 15,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/business_consulting.csv",
+                "language": "zh_tw"
+            },
             "question": "日本百年的藥品製造商小林製藥的紅麴成分含有保健食品引發的「死亡」事件。",
             "answer": "日本小林制药公司生产的含红曲成分的保健品引发了多起健康问题，包括死亡和住院事件。据报道，这些保健品导致消费者出现肾脏疾病等健康问题，甚至有消费者因此死亡。截至2024年3月28日晚，已有5人死亡、114人住院，另有约680人已去医院就诊或准备就诊。此外，还有报道称，一名消费者在连续食用该公司含有红麴成分保健品3年后，因肾脏疾病死亡。\r\n小林制药公司对此事件做出了回应，宣布紧急召回3款含红曲成分的保健品，并呼吁消费者立即停止服用这些产品。日本厚生劳动省也介入调查，并要求大阪市基于《食品卫生法》回收和废弃涉事的三款保健品。此外，小林制药公司还从日本消费者厅撤回了8种红曲保健品作为功能性标识食品的备案。\r\n此事件不仅在日本国内引起了广泛关注，也引发了国际社会对保健品安全性的担忧。小林制药公司的这一系列动作表明，该公司正在积极应对此次危机，试图减轻消费者的担忧并恢复公司的信誉。然而，这一事件也再次提醒消费者在选择保健品时需要谨慎，同时也凸显了监管机构在确保保健品安全方面的重要作用。",
             "ground_truths": [
-                "食用了小林製藥製造銷售的含紅麴的保健食品的人發生了腎臟疾病，已確認有2人死亡。到目前為止，有106人住院。\n小林製藥的調查顯示，紅麴原料中可能含有\"未知成分\"，這些成分可能導致腎臟疾病。\n小林製藥的紅麴分為補充劑和食品著色劑兩種，\"未知成分\"只在部分補充劑批次中被檢測出來。\n紅麴一般被用作食品著色劑，但在作為補充劑使用時，需要注意毒素紅曲霉素的含量。\n小林製藥在這個問題上已開始自願回收相關的保健食品，厚生勞動省也在考慮採取應對措施。"
+                "食用了小林製藥製造銷售的含紅麴的保健食品的人發生了腎臟疾病，已確認有5人死亡。到目前為止，有212人住院。\n小林製藥的調查顯示，紅麴原料中可能含有\"未知成分\"，這些成分可能導致腎臟疾病。\n小林製藥的紅麴分為補充劑和食品著色劑兩種，\"未知成分\"只在部分補充劑批次中被檢測出來。\n紅麴一般被用作食品著色劑，但在作為補充劑使用時，需要注意毒素紅曲霉素的含量。\n小林製藥在這個問題上已開始自願回收相關的保健食品，厚生勞動省也在考慮採取應對措施。"
             ],
             "keywords": [
                 "5",
                 "212"
             ],
+            "answer_correctness": 0.7094744979452996,
             "passed": false
         },
         {
-            "metadata": {},
+            "metadata": {
+                "id": 16,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/business_consulting.csv",
+                "language": "ru"
+            },
             "question": "Если Евросоюз решит \"отцепиться\" от Китая, какое влияние это окажет на экономику Германии?",
             "answer": "如果欧盟决定与中国经济“脱钩”，对德国经济的影响将是深远和复杂的。这种深度的经济依赖关系意味着，任何关于减少或终止与中国贸易的决策都可能对德国经济产生重大影响。\n从正面来看，减少对中国的依赖可能会促进德国国内产业的发展和创新。此外，这可能有助于德国企业在全球市场上寻找新的合作伙伴和市场，从而分散风险并增强其竞争力。\n然而，短期内，这种转变可能会给德国经济带来一定的压力。总之，如果欧盟决定与中国经济“脱钩”，这对德国经济既是挑战也是机遇。\n",
             "ground_truths": [
@@ -205,10 +301,16 @@
             "keywords": [
                 "1%||5%||1.5%"
             ],
+            "answer_correctness": 0.5300044223380789,
             "passed": false
         },
         {
-            "metadata": {},
+            "metadata": {
+                "id": 17,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/business_consulting.csv",
+                "language": "ja"
+            },
             "question": "虎ノ門ヒルズフォーラム",
             "answer": "虎ノ門ヒルズフォーラム是一个位于东京都港区虎ノ門1-23-3的设施，具体位于虎ノ門ヒルズ森タワー的5楼。该论坛提供了多种交通方式到达的路径，包括：\n\n从东京地下铁日比谷线的「虎ノ門ヒルズ駅」出发，可以选择B1出口或A1b出口步行至会场。\n从东京地下铁银座线的「虎ノ門駅」出发，可以选择B1出口或B4出口（需通过2楼的DECK）步行至会场。\n3.此外，还有其他几个车站可以作为到达虎ノ門ヒルズフォーラム的参考点，例如新橋駅，但距离相对较远，需要步行约11分钟。\n\n虎ノ門ヒルズフォーラム不仅是一个会议和论坛的举办地，还具备酒店式的服务和功能性设备，适合举办商品发布、研讨会、学会总会议以及学术会议等活动。它被设计为一个具有功能性大厅和会议室、流畅的动线设计，并支持重大测量和资料下载等功能。\n虎ノ門ヒルズ作为一个集商业设施、酒店、办公室于一体的复合设施，近年来因东京地下铁日比谷线的开通而受到关注，成为连接东京与世界的重要商务中心。虎ノ門ヒルズフォーラム是一个位于东京港区的多功能会议和论坛场所，通过多个地铁站提供便捷的交通接入方式，同时也是一个集多种城市功能于一体的现代化商务中心。\n",
             "ground_truths": [
@@ -218,10 +320,16 @@
                 "590m²",
                 "虎门山森大厦||虎ノ門ヒルズ森タワー"
             ],
+            "answer_correctness": 0.6723676238755353,
             "passed": false
         },
         {
-            "metadata": {},
+            "metadata": {
+                "id": 18,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/business_consulting.csv",
+                "language": "zh_tw"
+            },
             "question": "腾訊的天使投資者叫什麼名字？",
             "answer": "腾讯的天使投资者名字是曾李青。\n",
             "ground_truths": [
@@ -230,10 +338,16 @@
             "keywords": [
                 "劉曉松||IDG||香港盈科||MIH||曾李青"
             ],
+            "answer_correctness": 0.6732362650288285,
             "passed": true
         },
         {
-            "metadata": {},
+            "metadata": {
+                "id": 19,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/business_consulting.csv",
+                "language": "zh_tw"
+            },
             "question": "华为2023年营收情况？",
             "answer": "华为在2023年的全球销售收入达到了7042亿元人民币，净利润为870亿元人民币。这一业绩相比2022年有所增长，其中销售收入同比增长了9.6%。此外，华为在2023年的研发投入达到了1647亿元人民币，占销售收入的比例为23.4%，十年累计投入的研发费用超过11100亿人民币。这表明华为在保持稳健的经营状况的同时，也持续加大在研发上的投入，以支持其长期的技术创新和业务发展。\n",
             "ground_truths": [
@@ -243,18 +357,25 @@
                 "7042||7",
                 "042"
             ],
+            "answer_correctness": 0.619611300646893,
             "passed": true
         },
         {
-            "metadata": {},
+            "metadata": {
+                "id": 20,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/business_consulting.csv",
+                "language": "ja"
+            },
             "question": "光通信社の株式コードは何ですか？",
             "answer": "苏州天孚光通信股份有限公司的证券代码是300394，四川汇源光通信股份有限公司的证券代码是000586。长飞光纤光缆股份有限公司的股票代码是601869。因此，如果问题是询问特定公司的光通信社的股票代码，需要提供更具体的信息来确定是哪一家公司。",
             "ground_truths": [
-                "販売力と顧客基盤: 光通信社の強みは「販売力」であり、その裏には強力な「顧客基盤」「販売網」があります。特に、光通信社は「法人90万社、個人120万人の基盤がある。特に中小企業が多い」という強固な顧客基盤を持っています。\n業績の強さ: 光通信社の業績は絶好調で、前2017年3月期は営業利益が10％増の415億円となり、今2018年3月期も同11％増の465億円と2ケタ成長を着実に達成しそうだ。\n投資戦略: 光通信社は長期的な収益力のある会社に株価が割安な段階から戦略的に投資しているように見えます。これにより、光通信社はその投資先にも注目できそうです。"
+                "光通信社の株式コードは「9435」です"
             ],
             "keywords": [
                 "9435"
             ],
+            "answer_correctness": 0.49440224066125127,
             "passed": false
         }
     ]
