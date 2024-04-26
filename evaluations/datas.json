@@ -8,6 +8,7 @@
                 "passed": 61,
                 "failed": 39,
                 "pass_rate": "61.00%",
+                "answer_correctness": 0.1096858070015299,
                 "list": [
                     {
                         "total": 20,
@@ -50,6 +51,7 @@
                         "passed": 11,
                         "failed": 9,
                         "pass_rate": "55.00%",
+                        "answer_correctness": 0.5484290350076495,
                         "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/technical_consulting/20240424-iask.json",
                         "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/technical_consulting/20240424-iask.csv",
                         "evaluate_ai": "iask"
@@ -297,7 +299,7 @@
         "passed": 295,
         "failed": 205,
         "pass_rate": "59.00%",
-        "answer_correctness": 0.40843262476088
+        "answer_correctness": 0.4303697861611859
     },
     {
         "date": "2024-04-22",
