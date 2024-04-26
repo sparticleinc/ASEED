@@ -251,7 +251,7 @@ metadata,question,answer,ground_truths,keywords,answer_correctness,passed
     
 
 
-    Anthropicは個人データの性質や関連活動、対話時期と期間、正当な利益と法的義務を考慮してデータ保持期間を決定します。法律上必要な場合や使用ポリシー違反を防ぐために必要な場合を除き、個人データは適切な措置の下で管理されます。",['ユーザーの個人データは、モデルのトレーニングに使用されないため、ユーザーデータを利用してモデルを構築することはありません。'],['されない'],0.38203653519894787,False
+    Anthropicは個人データの性質や関連活動、対話時期と期間、正当な利益と法的義務を考慮してデータ保持期間を決定します。法律上必要な場合や使用ポリシー違反を防ぐために必要な場合を除き、個人データは適切な措置の下で管理されます。",['ユーザーの個人データは、モデルのトレーニングに使用されないため、ユーザーデータを利用してモデルを構築することはありません。'],['されない'],0.38203653519894787,True
 "{'id': 6, 'scene': 'technical_consulting', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/technical_consulting.csv', 'language': 'ja'}",OPENAIAssistant API のストレージの上限は？,"The storage limit for the OPENAIAssistant API is not explicitly mentioned in the provided context. Therefore, the specific storage limit for the OPENAIAssistant API is not available in the information provided.
     
 
