@@ -116,7 +116,7 @@
                 "passed": 68,
                 "failed": 32,
                 "pass_rate": "68.00%",
-                "answer_correctness": 0.5198282443351513,
+                "answer_correctness": 0.6565368783040182,
                 "list": [
                     {
                         "total": 20,
@@ -133,6 +133,7 @@
                         "passed": 15,
                         "failed": 5,
                         "pass_rate": "75.00%",
+                        "answer_correctness": 0.6835431698443349,
                         "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/local_search/20240424-glarity_search.json",
                         "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/local_search/20240424-glarity_search.csv",
                         "evaluate_ai": "glarity_search"
@@ -288,7 +289,7 @@
         "passed": 296,
         "failed": 204,
         "pass_rate": "59.20%",
-        "answer_correctness": 0.22815899518353416
+        "answer_correctness": 0.2555007219773075
     },
     {
         "date": "2024-04-22",
