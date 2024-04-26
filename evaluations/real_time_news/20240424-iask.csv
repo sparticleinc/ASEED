@@ -1,5 +1,5 @@
-metadata,question,answer,ground_truths,keywords,passed
-{},Who's the United States Trade Representative?,"The United States Trade Representative is Katherine Tai.
+metadata,question,answer,ground_truths,keywords,answer_correctness,passed
+"{'id': 1, 'scene': 'real_time_news', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/real_time_news.csv', 'language': 'en'}",Who's the United States Trade Representative?,"The United States Trade Representative is Katherine Tai.
     
 
 
@@ -23,8 +23,8 @@ metadata,question,answer,ground_truths,keywords,passed
 
 
 
-    These sources were used to provide accurate and up-to-date information on the current United States Trade Representative, Katherine Tai. The USTR website and the Office of the USTR provide official information about the organization and its leadership, while Wikipedia offers additional background information on past trade representatives for context.",['The name of the United States Trade Representative is Katherine Chi Tai. She is a Taiwanese American trade lawyer and currently serves as the United States Trade Representative.'],['Katherine'],True
-{},百川最新的融資,"百川最新的融资：
+    These sources were used to provide accurate and up-to-date information on the current United States Trade Representative, Katherine Tai. The USTR website and the Office of the USTR provide official information about the organization and its leadership, while Wikipedia offers additional background information on past trade representatives for context.",['The name of the United States Trade Representative is Katherine Chi Tai. She is a Taiwanese American trade lawyer and currently serves as the United States Trade Representative.'],['Katherine'],0.7614332368986465,True
+"{'id': 2, 'scene': 'real_time_news', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/real_time_news.csv', 'language': 'zh_tw'}",百川最新的融資,"百川最新的融资：
     
 
 
@@ -32,9 +32,9 @@ metadata,question,answer,ground_truths,keywords,passed
    
 
 
-    These sources provided detailed and up-to-date information on the latest developments regarding 百川智能’s financing activities, including the reports on the current round of funding and the responses from the company regarding the accuracy of the disclosed valuation and funding details.",['有媒體報導稱，百川智能正在進行新一輪數億美元融資，將成為2024年國內AI領域最大融資之一，且公司今年以來估值已超18億美元。'],['18||3'],True
-{},Perplexity最近融资情况,"Perplexity AI recently raised approximately $63 million in a new funding round, bringing its valuation to over $1 billion. The investment was led by Daniel Gross, with participation from investors like Stanley Druckenmiller, Garry Tan, Dylan Field, Jeff Bezos, and Nvidia among others. Perplexity offers an AI-powered conversational search engine that provides concise and accurate answers to user queries. The company has been gaining traction in the market due to its focus on accuracy and quality of search results.",['2024年4月23日，Perplexity AI又宣布完成了新一轮融资，筹集了6270万美元，融资后估值达到了10亿美元5810。这次融资使得公司的估值较上一轮融资翻了一番'],['62.7||6270'],False
-{},最近台灣地震造成的傷亡人數是多少？,"The recent Taiwan earthquake resulted in at least 7 deaths and 736 injuries.
+    These sources provided detailed and up-to-date information on the latest developments regarding 百川智能’s financing activities, including the reports on the current round of funding and the responses from the company regarding the accuracy of the disclosed valuation and funding details.",['有媒體報導稱，百川智能正在進行新一輪數億美元融資，將成為2024年國內AI領域最大融資之一，且公司今年以來估值已超18億美元。'],['18||3'],0.7311705506023043,True
+"{'id': 3, 'scene': 'real_time_news', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/real_time_news.csv', 'language': 'zh_cn'}",Perplexity最近融资情况,"Perplexity AI recently raised approximately $63 million in a new funding round, bringing its valuation to over $1 billion. The investment was led by Daniel Gross, with participation from investors like Stanley Druckenmiller, Garry Tan, Dylan Field, Jeff Bezos, and Nvidia among others. Perplexity offers an AI-powered conversational search engine that provides concise and accurate answers to user queries. The company has been gaining traction in the market due to its focus on accuracy and quality of search results.",['2024年4月23日，Perplexity AI又宣布完成了新一轮融资，筹集了6270万美元，融资后估值达到了10亿美元5810。这次融资使得公司的估值较上一轮融资翻了一番'],['62.7||6270'],0.6184439236142368,False
+"{'id': 4, 'scene': 'real_time_news', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/real_time_news.csv', 'language': 'zh_tw'}",最近台灣地震造成的傷亡人數是多少？,"The recent Taiwan earthquake resulted in at least 7 deaths and 736 injuries.
     
 
 
@@ -58,8 +58,8 @@ metadata,question,answer,ground_truths,keywords,passed
 
 
 
-    The sources provided up-to-date and reliable information on the recent earthquake in Taiwan, including details on casualties and seismic activity.",['台灣花蓮地震死亡數字上升。10日救援人員在花蓮太魯閣區域砂卡礑步道尋獲3具遺體，花蓮7.3級地震罹難人數上升至16人。'],['16'],False
-{},最近の埼玉県行田市事故の死傷者数は何人ですか?,"The recent accident in Saitama Prefecture, specifically in the city of Gyoda, resulted in 4 people being killed or injured.
+    The sources provided up-to-date and reliable information on the recent earthquake in Taiwan, including details on casualties and seismic activity.",['台灣花蓮地震死亡數字上升。10日救援人員在花蓮太魯閣區域砂卡礑步道尋獲3具遺體，花蓮7.3級地震罹難人數上升至16人。'],['16'],0.495153995547667,False
+"{'id': 5, 'scene': 'real_time_news', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/real_time_news.csv', 'language': 'ja'}",最近の埼玉県行田市事故の死傷者数は何人ですか?,"The recent accident in Saitama Prefecture, specifically in the city of Gyoda, resulted in 4 people being killed or injured.
     
 
 
@@ -70,14 +70,14 @@ metadata,question,answer,ground_truths,keywords,passed
    
 
 
-    These sources were utilized to gather information regarding the recent accident in Gyoda City, Saitama Prefecture, providing details about the number of casualties and the circumstances surrounding the tragic incident.",['最近の埼玉県行田市の事故での死傷者数は以下の通りです:\n死亡者数: 1人\n負傷者数: 3人'],['1'],False
-{},藤岡康太騎手の怪我はどうでしたか？,"藤岡康太騎手の怪我は、頭部と胸部を負傷していました。
+    These sources were utilized to gather information regarding the recent accident in Gyoda City, Saitama Prefecture, providing details about the number of casualties and the circumstances surrounding the tragic incident.",['最近の埼玉県行田市の事故での死傷者数は以下の通りです:\n死亡者数: 1人\n負傷者数: 3人'],['1'],0.715129769697304,True
+"{'id': 6, 'scene': 'real_time_news', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/real_time_news.csv', 'language': 'ja'}",藤岡康太騎手の怪我はどうでしたか？,"藤岡康太騎手の怪我は、頭部と胸部を負傷していました。
     
     落馬事故が原因で意識不明の重体となり、病院で治療を受けていましたが、最終的に亡くなったことが発表されました。
    
 
-    The information provided in the response was gathered from various news outlets reporting on the incident, including official statements from the Japan Racing Association (JRA) and specific details mentioned in articles from TOKYO-SPORTS.",['藤岡康太騎手は、2024年4月6日に行われた阪神競馬場の第7レースで落馬し、頭部と胸部を負傷しました.この落馬の後、藤岡騎手は病院に搬送され、意識を取り戻すことなく、後に怪我のため亡くなりました.この悲報は日本中央競馬会(JRA)からも発表されました'],['亡'],True
-{},士林區溪山里事件的起因是什麼？,"The main cause of the incident in Xishan Village, Shilin District, Taipei City was the contamination of the water source used by the residents. The water source in the area was mountain spring water, which had high levels of coliform bacteria. This contamination led to a large-scale outbreak of gastrointestinal symptoms among the residents, including vomiting and diarrhea. The presence of coliform bacteria in the water was significantly above drinking water standards, indicating a potential health risk associated with consuming this water. The exact pathogen responsible for the outbreak is still under investigation pending further analysis of both the water source and samples from affected individuals.
+    The information provided in the response was gathered from various news outlets reporting on the incident, including official statements from the Japan Racing Association (JRA) and specific details mentioned in articles from TOKYO-SPORTS.",['藤岡康太騎手は、2024年4月6日に行われた阪神競馬場の第7レースで落馬し、頭部と胸部を負傷しました.この落馬の後、藤岡騎手は病院に搬送され、意識を取り戻すことなく、後に怪我のため亡くなりました.この悲報は日本中央競馬会(JRA)からも発表されました'],['亡'],0.6781239643271606,True
+"{'id': 7, 'scene': 'real_time_news', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/real_time_news.csv', 'language': 'zh_tw'}",士林區溪山里事件的起因是什麼？,"The main cause of the incident in Xishan Village, Shilin District, Taipei City was the contamination of the water source used by the residents. The water source in the area was mountain spring water, which had high levels of coliform bacteria. This contamination led to a large-scale outbreak of gastrointestinal symptoms among the residents, including vomiting and diarrhea. The presence of coliform bacteria in the water was significantly above drinking water standards, indicating a potential health risk associated with consuming this water. The exact pathogen responsible for the outbreak is still under investigation pending further analysis of both the water source and samples from affected individuals.
     
 
 
@@ -114,8 +114,8 @@ metadata,question,answer,ground_truths,keywords,passed
 
 
 
-    These sources collectively provided comprehensive and reliable information on the incident, its impact on residents, and ongoing efforts to identify and address the root cause of the health crisis in Xishan Village.",['士林區溪山里事件的起因是與水質問題有關。根據報導，溪山里的居民平常使用自行成立的供水系統，主要使用山泉水作為飲用水源。然而，由於地震等自然災害可能導致山泉水受到污染，進而造成水質問題。事件中大腸桿菌群數值偏高，反映了水質有異常情況，因此許多居民出現了腹瀉和嘔吐等腸胃道疾病症狀。台北市政府為了緊急應對此情況，已提供緊急取水站以及醫療服務，並展開全面水質檢測及環境消毒等措施以解決問題。因此，士林區溪山里事件的起因主要是因為使用的山泉水受到污染所導致的水質問題。'],['地震'],False
-{},3月のCPI,"March CPI Data:
+    These sources collectively provided comprehensive and reliable information on the incident, its impact on residents, and ongoing efforts to identify and address the root cause of the health crisis in Xishan Village.",['士林區溪山里事件的起因是與水質問題有關。根據報導，溪山里的居民平常使用自行成立的供水系統，主要使用山泉水作為飲用水源。然而，由於地震等自然災害可能導致山泉水受到污染，進而造成水質問題。事件中大腸桿菌群數值偏高，反映了水質有異常情況，因此許多居民出現了腹瀉和嘔吐等腸胃道疾病症狀。台北市政府為了緊急應對此情況，已提供緊急取水站以及醫療服務，並展開全面水質檢測及環境消毒等措施以解決問題。因此，士林區溪山里事件的起因主要是因為使用的山泉水受到污染所導致的水質問題。'],['地震'],0.6940480490813214,False
+"{'id': 8, 'scene': 'real_time_news', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/real_time_news.csv', 'language': 'ja'}",3月のCPI,"March CPI Data:
     
     The March Consumer Price Index (CPI) in the U.S. showed a year-over-year increase of
     
@@ -160,14 +160,14 @@ metadata,question,answer,ground_truths,keywords,passed
    
 
 
-    These sources provided detailed coverage and analysis of the March CPI data in the U.S., offering insights into market reactions, expert opinions, and implications for monetary policy decisions.",['2024年3月の日本のCPIは2.8%'],['2.80%'],False
-{},今年在哪個國家可以看到日食,"This year, the total solar eclipse can be seen in the United States, Mexico, and Canada.
+    These sources provided detailed coverage and analysis of the March CPI data in the U.S., offering insights into market reactions, expert opinions, and implications for monetary policy decisions.",['2024年3月の日本のCPIは2.8%'],['2.80%'],0.492842330534722,False
+"{'id': 9, 'scene': 'real_time_news', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/real_time_news.csv', 'language': 'zh_tw'}",今年在哪個國家可以看到日食,"This year, the total solar eclipse can be seen in the United States, Mexico, and Canada.
     
 
 
 
-    The sources provided detailed and accurate information about the total solar eclipse events happening in different regions.",['2024年4月8日：\n墨西哥、美國、加拿大：預計可以觀測到全食的日食。'],"['2024', '墨西哥||美國||加拿大']",True
-{},海康威視去年的業績如何,"海康威视去年的业绩表现如下：
+    The sources provided detailed and accurate information about the total solar eclipse events happening in different regions.",['2024年4月8日：\n墨西哥、美國、加拿大：預計可以觀測到全食的日食。'],"['2024', '墨西哥||美國||加拿大']",0.6134399384560986,True
+"{'id': 10, 'scene': 'real_time_news', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/real_time_news.csv', 'language': 'zh_tw'}",海康威視去年的業績如何,"海康威视去年的业绩表现如下：
     
 
 
@@ -178,21 +178,21 @@ metadata,question,answer,ground_truths,keywords,passed
      归属上市股东净利润141.08亿，同比增长9.89%。
     
 
-     净利润方面，公司实现净利润17.60亿元，同比增长13.27%。",['在2023年，海康威視的業績恢復增長，公司實現了營業收入893.55億元，同比增長7.44%，淨利潤為141.17億元，同比增長9.96%。'],"['2023', '893']",True
-{},How many Israelis died in the attack launched by Iran?,"Nine Israelis died in the attack launched by Iran.
+     净利润方面，公司实现净利润17.60亿元，同比增长13.27%。",['在2023年，海康威視的業績恢復增長，公司實現了營業收入893.55億元，同比增長7.44%，淨利潤為141.17億元，同比增長9.96%。'],"['2023', '893']",0.6420162427677881,True
+"{'id': 11, 'scene': 'real_time_news', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/real_time_news.csv', 'language': 'en'}",How many Israelis died in the attack launched by Iran?,"Nine Israelis died in the attack launched by Iran.
     
 
 
 
-    The sources used in this response are reputable news agencies and official military statements that provide accurate and up-to-date information on the events related to the conflict between Iran and Israel.","['According to the reports, there were no reported fatalities from the Iranian attack on Israel']",['no casualties'],False
-{},Whom did Putin say carried out the Moscow attack?,"Putin’s Statement on the Moscow Attack:
+    The sources used in this response are reputable news agencies and official military statements that provide accurate and up-to-date information on the events related to the conflict between Iran and Israel.","['According to the reports, there were no reported fatalities from the Iranian attack on Israel']",['no casualties'],0.6265388568488799,False
+"{'id': 12, 'scene': 'real_time_news', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/real_time_news.csv', 'language': 'en'}",Whom did Putin say carried out the Moscow attack?,"Putin’s Statement on the Moscow Attack:
     
 
 
 
-     Putin said that the gunmen who carried out the Moscow attack were “radical Islamists.”","['Vladimir Putin stated that ""radical Islamists"" were behind the deadly attack on the Crocus City concert hall in Moscow']",['radical Islamists||激进伊斯兰主义'],True
-{},What precisely caused the ship to collide with the Baltimore bridge?,"The exact cause of the ship, the Dali, colliding with the Baltimore’s Francis Scott Key Bridge on early Tuesday is still under investigation. However, it is known that the operators issued a mayday call moments before the crash stating that the vessel had lost power. Despite this, the 985-foot-long ship struck one of the bridge’s supports at 8 knots (roughly 9 mph), causing it to snap and fall into the water within seconds. The impact killed six construction workers who were filling potholes on the bridge at the time. The U.S. Coast Guard reported that the ship underwent routine engine maintenance in the port before it lost power. An inspection last June in Chile identified a problem with its “propulsion and auxiliary machinery,” but a standard examination in New York in September did not reveal any deficiencies. The massive weight and force of the ship caused significant damage to the bridge pier, which could not absorb the energy brought by such a large vessel. Federal and state investigators are treating the incident as an accident.","['When the container ship MV Dali, 300 metres long and massing around 100,000 tonnes, lost power and slammed into one of the support piers of the Francis Scott Key Bridge in Baltimore, the bridge collapsed in moments.']",['lost power||电力||power loss||losing power'],True
-{},Which island recently experienced a volcanic eruption in Indonesia?,"Mount Ruang on Tagulandang Island
+     Putin said that the gunmen who carried out the Moscow attack were “radical Islamists.”","['Vladimir Putin stated that ""radical Islamists"" were behind the deadly attack on the Crocus City concert hall in Moscow']",['radical Islamists||激进伊斯兰主义'],0.8694421334111143,True
+"{'id': 13, 'scene': 'real_time_news', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/real_time_news.csv', 'language': 'en'}",What precisely caused the ship to collide with the Baltimore bridge?,"The exact cause of the ship, the Dali, colliding with the Baltimore’s Francis Scott Key Bridge on early Tuesday is still under investigation. However, it is known that the operators issued a mayday call moments before the crash stating that the vessel had lost power. Despite this, the 985-foot-long ship struck one of the bridge’s supports at 8 knots (roughly 9 mph), causing it to snap and fall into the water within seconds. The impact killed six construction workers who were filling potholes on the bridge at the time. The U.S. Coast Guard reported that the ship underwent routine engine maintenance in the port before it lost power. An inspection last June in Chile identified a problem with its “propulsion and auxiliary machinery,” but a standard examination in New York in September did not reveal any deficiencies. The massive weight and force of the ship caused significant damage to the bridge pier, which could not absorb the energy brought by such a large vessel. Federal and state investigators are treating the incident as an accident.","['When the container ship MV Dali, 300 metres long and massing around 100,000 tonnes, lost power and slammed into one of the support piers of the Francis Scott Key Bridge in Baltimore, the bridge collapsed in moments.']",['lost power||电力||power loss||losing power'],0.7328734732954951,True
+"{'id': 14, 'scene': 'real_time_news', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/real_time_news.csv', 'language': 'en'}",Which island recently experienced a volcanic eruption in Indonesia?,"Mount Ruang on Tagulandang Island
     
     recently experienced a volcanic eruption in Indonesia.
    
@@ -209,10 +209,10 @@ metadata,question,answer,ground_truths,keywords,passed
     Indonesia, situated along the Pacific Ring of Fire, is prone to volcanic activity and earthquakes due to its location atop multiple tectonic plates. With over 120 active volcanoes in the country, monitoring and responding to volcanic events are crucial for ensuring public safety.
    
 
-    In summary, Mount Ruang on Tagulandang Island recently experienced a volcanic eruption in Indonesia, prompting evacuations and raising concerns about a potential tsunami due to fears of a partial collapse into the sea.",['The name of the volcano is Mount Ruang on the northern side of Sulawesi Island.'],['Sulawesi island||Mount Ruang'],True
-{},"In April 2024, based on the scheme passed by the US House of Representatives, how much money will the United States provide in aid to Ukraine?",The United States will provide $500 million in aid to Ukraine based on the scheme passed by the US House of Representatives in April 2024.,"['The leaders of the United States, Japan, and the Philippines recently held a summit. Here are some key points from their discussions:\n1. Shared Vision: They issued a “Joint Vision Statement” affirming their shared vision of a free and open Indo-Pacific and international order based on international law.\n2. Security and Economy: They discussed various areas of security and economy, and expressed a desire to advance Japan-U.S.-Philippines cooperation based on this Summit.\n3. Regional Situation: They discussed the security environment in the region and confirmed their unwavering commitment to freedom of navigation and overflight.\n4. Opposition to Unilateral Actions: They confirmed that they would oppose and resolutely respond to any attempts by the People’s Republic of China (PRC) to unilaterally change the status quo by. force in the South China Sea and the East China Sea.\n5. Inclusive Economic Growth: They resolved to promote enduring, inclusive economic growth and resilience in their countries and the broader Indo-Pacific.\nStrengthening Alliances: The Philippines’ decision to strengthen ties with Japan and the United States was described as a “sovereign choice” for the country.']",['60||600||610||61'],False
-{},Why Google fires 28 employees over protests inside work offices?,"Google fired 28 employees on April 18, 2024, following sit-in protests at the company’s offices in New York and Sunnyvale, California. The employees were protesting Google’s involvement in Project Nimbus, a $1.2 billion Israeli government cloud contract. Some of the protesters occupied the office of Google Cloud CEO Thomas Kurian until they were forcibly removed by law enforcement. In a memo to all employees, Chris Rackow, Google’s head of global security, stated that the behavior was unacceptable and violated multiple company policies. He warned that more action would be taken if needed. The “No Tech for Apartheid” group behind the protests called Google’s firings a “flagrant act of retaliation.” The group had been organizing against Project Nimbus for three years and demanded that Google pull out of the contract due to concerns about the technology being weaponized against Palestinians in Gaza. The fired employees were among those who directly participated in the disruptive activity inside Google buildings. The company took this matter extremely seriously and continued to apply its longstanding policies to take action against disruptive behavior up to and including termination.","['Google fired 28 workers Wednesday in Sunnyvale and New York, calling their protests inside work offices “completely unacceptable behavior” that prevented some employees from accessing their facilities.\n\nThe tech giant said protests on Tuesday over the company’s contracts with Israel disrupted several locations. The Chronicle reported that at Google’s Sunnyvale offices, police arrested five workers who held a sit-in Tuesday to protest their employer’s cloud contract with the Israeli government.']","['contracts', 'Israel||Israeli']",True
-{},How many soldiers were wounded in the attack launched by Hezbollah on northern Israel recently？,"According to a report by the Israeli military, during the attack launched by Hezbollah on northern Israel on August 2, 2021, at least
+    In summary, Mount Ruang on Tagulandang Island recently experienced a volcanic eruption in Indonesia, prompting evacuations and raising concerns about a potential tsunami due to fears of a partial collapse into the sea.",['The name of the volcano is Mount Ruang on the northern side of Sulawesi Island.'],['Sulawesi island||Mount Ruang'],0.5329913605852672,True
+"{'id': 15, 'scene': 'real_time_news', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/real_time_news.csv', 'language': 'en'}","In April 2024, based on the scheme passed by the US House of Representatives, how much money will the United States provide in aid to Ukraine?",The United States will provide $500 million in aid to Ukraine based on the scheme passed by the US House of Representatives in April 2024.,"['In April 2024, the US House of Representatives passed a significant aid package for various countries, including Ukraine. The aid package approved by the US House of Representatives amounted to over $61 billion specifically designated to assist Ukraine in its defense against the ongoing Russian invasion.']",['60||600||610||61'],0.551035133723843,False
+"{'id': 16, 'scene': 'real_time_news', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/real_time_news.csv', 'language': 'en'}",Why Google fires 28 employees over protests inside work offices?,"Google fired 28 employees on April 18, 2024, following sit-in protests at the company’s offices in New York and Sunnyvale, California. The employees were protesting Google’s involvement in Project Nimbus, a $1.2 billion Israeli government cloud contract. Some of the protesters occupied the office of Google Cloud CEO Thomas Kurian until they were forcibly removed by law enforcement. In a memo to all employees, Chris Rackow, Google’s head of global security, stated that the behavior was unacceptable and violated multiple company policies. He warned that more action would be taken if needed. The “No Tech for Apartheid” group behind the protests called Google’s firings a “flagrant act of retaliation.” The group had been organizing against Project Nimbus for three years and demanded that Google pull out of the contract due to concerns about the technology being weaponized against Palestinians in Gaza. The fired employees were among those who directly participated in the disruptive activity inside Google buildings. The company took this matter extremely seriously and continued to apply its longstanding policies to take action against disruptive behavior up to and including termination.","['Google fired 28 workers Wednesday in Sunnyvale and New York, calling their protests inside work offices “completely unacceptable behavior” that prevented some employees from accessing their facilities.\n\nThe tech giant said protests on Tuesday over the company’s contracts with Israel disrupted several locations. The Chronicle reported that at Google’s Sunnyvale offices, police arrested five workers who held a sit-in Tuesday to protest their employer’s cloud contract with the Israeli government.']","['contracts', 'Israel||Israeli']",0.7839197936666285,True
+"{'id': 17, 'scene': 'real_time_news', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/real_time_news.csv', 'language': 'en'}",How many soldiers were wounded in the attack launched by Hezbollah on northern Israel recently？,"According to a report by the Israeli military, during the attack launched by Hezbollah on northern Israel on August 2, 2021, at least
     
      13 soldiers
     
@@ -240,8 +240,8 @@ metadata,question,answer,ground_truths,keywords,passed
      BBC News
     
 
-     Reuters","['n the recent attack launched by Hezbollah on northern Israel, a total of 14 soldiers were wounded. Among those injured, six of them were reported to be seriously wounded. The attack involved a combination of missiles and drones targeting a military base in northern Israel, specifically the Bedouin border town of Arab al-Aramshe. This assault by Hezbollah was a significant event in the ongoing conflict between the group and Israel.']",['14'],False
-{},What weapons were used to attack Israel from Iran?,"Weapons Used in the Attack on Israel from Iran:
+     Reuters","['n the recent attack launched by Hezbollah on northern Israel, a total of 14 soldiers were wounded. Among those injured, six of them were reported to be seriously wounded. The attack involved a combination of missiles and drones targeting a military base in northern Israel, specifically the Bedouin border town of Arab al-Aramshe. This assault by Hezbollah was a significant event in the ongoing conflict between the group and Israel.']",['14'],0.5551280110229427,False
+"{'id': 18, 'scene': 'real_time_news', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/real_time_news.csv', 'language': 'en'}",What weapons were used to attack Israel from Iran?,"Weapons Used in the Attack on Israel from Iran:
     
 
 
@@ -330,8 +330,8 @@ metadata,question,answer,ground_truths,keywords,passed
 
 
 
-    In summary, Iran employed drones, ballistic missiles, and cruise missiles in its unprecedented attack on Israel. While most of these weapons were intercepted before reaching their targets, some managed to hit Israeli territory, resulting in limited damage.","['Iran fired 170 drones, more than 30 cruise missiles and more than 120 ballistic missiles. Of those, several ballistic missiles reached Israeli territory, causing minor damage to an air base.']",['drones||missiles||无人机||巡航导弹||弹道导弹'],True
-{},Why is GTA 6 publisher laying off 600 employees,"Reasons for Layoffs:
+    In summary, Iran employed drones, ballistic missiles, and cruise missiles in its unprecedented attack on Israel. While most of these weapons were intercepted before reaching their targets, some managed to hit Israeli territory, resulting in limited damage.","['Iran fired 170 drones, more than 30 cruise missiles and more than 120 ballistic missiles. Of those, several ballistic missiles reached Israeli territory, causing minor damage to an air base.']",['drones||missiles||无人机||巡航导弹||弹道导弹'],0.524838539007786,True
+"{'id': 19, 'scene': 'real_time_news', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/real_time_news.csv', 'language': 'en'}",Why is GTA 6 publisher laying off 600 employees,"Reasons for Layoffs:
     
     The GTA 6 publisher, Take-Two Interactive, is laying off approximately 600 employees as part of a broader cost-cutting strategy aimed at enhancing the company’s margin profile while still investing for growth. This decision is also tied to the cancellation of several projects under development, as indicated in the public filing with the US Securities and Exchange Commission. The layoffs are expected to save Take-Two about $165 million annually.
    
@@ -349,8 +349,8 @@ metadata,question,answer,ground_truths,keywords,passed
    
 
 
-    These sources collectively contributed to understanding why Take-Two Interactive, as the publisher of GTA 6, decided to lay off employees despite previous statements indicating no immediate plans for such actions.","[""The decision to lay off approximately 600 employees at Take-Two Interactive, the parent company of Rockstar Games, is part of a broader cost-cutting strategy. The company is rationalizing its pipeline, eliminating several projects in development, and streamlining its organizational structure. This downsizing process is expected to be largely complete by the end of the year 2024. Additionally, Take-Two had already signaled its intention for a significant cost reduction plan following mixed financial results for the quarter ending in December 2023. Despite these challenges, Take-Two has continued to invest in its portfolio, including the acquisition of Gearbox and the development of the highly anticipated 'GTA 6'.""]",['cost-cutting||节省成本||cost reduction'],True
-{},"The world’s best airports for 2024, according to Skytrax","The world’s best airports for 2024, according to Skytrax
+    These sources collectively contributed to understanding why Take-Two Interactive, as the publisher of GTA 6, decided to lay off employees despite previous statements indicating no immediate plans for such actions.","[""The decision to lay off approximately 600 employees at Take-Two Interactive, the parent company of Rockstar Games, is part of a broader cost-cutting strategy. The company is rationalizing its pipeline, eliminating several projects in development, and streamlining its organizational structure. This downsizing process is expected to be largely complete by the end of the year 2024. Additionally, Take-Two had already signaled its intention for a significant cost reduction plan following mixed financial results for the quarter ending in December 2023. Despite these challenges, Take-Two has continued to invest in its portfolio, including the acquisition of Gearbox and the development of the highly anticipated 'GTA 6'.""]",['cost-cutting||节省成本||cost reduction'],0.8427150897265612,True
+"{'id': 20, 'scene': 'real_time_news', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/real_time_news.csv', 'language': 'en'}","The world’s best airports for 2024, according to Skytrax","The world’s best airports for 2024, according to Skytrax
     
 
 
@@ -452,4 +452,4 @@ metadata,question,answer,ground_truths,keywords,passed
     These rankings are based on passenger surveys conducted by Skytrax from August 2023 to March 2024, reflecting feedback on various aspects of airport experiences such as security, food options, cleanliness, staff service, and accessibility.
    
 
-    Overall, these awards highlight the commitment of airports worldwide to providing exceptional services and experiences to travelers.","[""According to the Skytrax rankings for 2024, Doha's Hamad International Airport has been named the best airport in the world.""]",['Doha||Hamad||哈马德'],True
+    Overall, these awards highlight the commitment of airports worldwide to providing exceptional services and experiences to travelers.","[""According to the Skytrax rankings for 2024, Doha's Hamad International Airport has been named the best airport in the world.""]",['Doha||Hamad||哈马德'],0.5746086705695442,True
