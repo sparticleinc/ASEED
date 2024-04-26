@@ -62,7 +62,7 @@
                 "passed": 63,
                 "failed": 37,
                 "pass_rate": "63.00%",
-                "answer_correctness": 0.5096166870733311,
+                "answer_correctness": 0.6497547048137076,
                 "list": [
                     {
                         "total": 20,
@@ -79,6 +79,7 @@
                         "passed": 14,
                         "failed": 6,
                         "pass_rate": "70.00%",
+                        "answer_correctness": 0.7006900887018823,
                         "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/real_time_news/20240424-glarity_search.json",
                         "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/real_time_news/20240424-glarity_search.csv",
                         "evaluate_ai": "glarity_search"
@@ -296,7 +297,7 @@
         "passed": 295,
         "failed": 205,
         "pass_rate": "59.00%",
-        "answer_correctness": 0.3804050212128047
+        "answer_correctness": 0.40843262476088
     },
     {
         "date": "2024-04-22",
