@@ -44,7 +44,7 @@ Remember that the availability and functionality of the shortcut menu may differ
 Загрузите свой файл на сайт DocTranslator.
 Выбер
 ","['1. Преобразуйте PDF-документ в редактируемый текстовый формат, такой как TXT или DOC.\n2. Подайте этот текст в ChatGPT для последовательного перевода содержимого документа по предложениям.']","['TXT', 'Преобразовать||Преобразуйте']",True
-{},gpt-3-5-turbo-0125 1M цена,"The price for the GPT-3.5 Turbo-0125 model is $0.0005 per 1,000 tokens for input. However, I couldn't find information about the total cost for 1 million tokens. It's worth noting that the GPT-4 Turbo-0125 model is roughly 20 times more expensive than the GPT-3.5 Turbo-0125 model for input and output tokens .","['Входной токен стоит $0,50, а выходной токен стоит $1,50.']","['$0', '50', '1']",False
+{},gpt-3-5-turbo-0125 1M цена,"The price for the GPT-3.5 Turbo-0125 model is $0.0005 per 1,000 tokens for input. However, I couldn't find information about the total cost for 1 million tokens. It's worth noting that the GPT-4 Turbo-0125 model is roughly 20 times more expensive than the GPT-3.5 Turbo-0125 model for input and output tokens .","['Входной токен стоит $0,50, а выходной токен стоит $1,50.']","['$0', '50', '1']",True
 {},我想在edge浏览器查看新闻，但不喜欢自带的资讯源，有什么推荐的新闻源吗？,"您可以尝试以下推荐的新闻源来在Edge浏览器上查看新闻：
 
 
