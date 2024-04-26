@@ -1,5 +1,5 @@
-metadata,question,answer,ground_truths,keywords,passed
-{},UN100D는 어떤 프로세서를 장착하고 있나요?,"Identifying the Processor in UN100D
+metadata,question,answer,ground_truths,keywords,answer_correctness,passed
+"{'id': 1, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/products_search.csv', 'language': 'ko'}",UN100D는 어떤 프로세서를 장착하고 있나요?,"Identifying the Processor in UN100D
     
 
 
@@ -32,10 +32,10 @@ metadata,question,answer,ground_truths,keywords,passed
 
 
 
-    By consulting these authoritative sources, we can accurately identify the processor installed in the UN100D.","['UN100D는 Intel N100 프로세서를 탑재하고 있습니다. 이 프로세서는 4코어 4스레드를 갖추고 있으며, Intel 7nm 공정으로 제작되었으며 TDP는 6W이며 최대 터보 부스트 클럭은 3.4 GHz입니다. 저전력 프로세서를 사용하기 때문에 기본 사무 작업에 적합하지만 고급 게임에는 적합하지 않습니다.']",['N100'],True
-{},海狮07 EV两驱版最高车速是多少？,The maximum speed of the two-wheel-drive (2WD) version of the Hai Shi 07 EV is 225 km/h.,['海狮07 EV两驱版的最高车速为225km/h'],['225'],True
-{},大疆發布 Avata 2 無人機的電池容量是多少mAh？,The DJI Avata 2 drone’s battery capacity is 2420 mAh.,['大疆發布的Avata 2無人機的電池容量為3400毫安時（mAh）。'],['3400'],False
-{},갤럭시 S24의 화면 해상도는 어떻게 되나요?,"갤럭시 S24의 화면 해상도는 QHD+ (3120x1440)입니다.
+    By consulting these authoritative sources, we can accurately identify the processor installed in the UN100D.","['UN100D는 Intel N100 프로세서를 탑재하고 있습니다. 이 프로세서는 4코어 4스레드를 갖추고 있으며, Intel 7nm 공정으로 제작되었으며 TDP는 6W이며 최대 터보 부스트 클럭은 3.4 GHz입니다. 저전력 프로세서를 사용하기 때문에 기본 사무 작업에 적합하지만 고급 게임에는 적합하지 않습니다.']",['N100'],0.4825092440507509,True
+"{'id': 2, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/products_search.csv', 'language': 'zh_cn'}",海狮07 EV两驱版最高车速是多少？,The maximum speed of the two-wheel-drive (2WD) version of the Hai Shi 07 EV is 225 km/h.,['海狮07 EV两驱版的最高车速为225km/h'],['225'],0.9449477509109128,True
+"{'id': 3, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/products_search.csv', 'language': 'zh_tw'}",大疆發布 Avata 2 無人機的電池容量是多少mAh？,The DJI Avata 2 drone’s battery capacity is 2420 mAh.,['大疆發布的Avata 2無人機的電池容量為3400毫安時（mAh）。'],['3400'],0.5145719394484785,False
+"{'id': 4, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/products_search.csv', 'language': 'ko'}",갤럭시 S24의 화면 해상도는 어떻게 되나요?,"갤럭시 S24의 화면 해상도는 QHD+ (3120x1440)입니다.
     
 
 
@@ -59,8 +59,8 @@ metadata,question,answer,ground_truths,keywords,passed
 
 
 
-    The information regarding the Galaxy S24’s display resolution of QHD+ (3120x1440) was sourced from multiple reliable outlets, including BetaNews.net, Samsung Newsroom, and the official coverage of the Samsung Galaxy Unpacked Event 2024. These sources provided detailed insights into the specifications and features of the Galaxy S24 series, ensuring accuracy and credibility in the answer provided.",['갤럭시 S24 기본 모델의 화면 해상도는 2340 x 1080 픽셀입니다'],"['2340', '1080']",False
-{},ThinkPad L13 Gen3에는 몇 개의 Type-C 포트가 있나요?,"ThinkPad L13 Gen3
+    The information regarding the Galaxy S24’s display resolution of QHD+ (3120x1440) was sourced from multiple reliable outlets, including BetaNews.net, Samsung Newsroom, and the official coverage of the Samsung Galaxy Unpacked Event 2024. These sources provided detailed insights into the specifications and features of the Galaxy S24 series, ensuring accuracy and credibility in the answer provided.",['갤럭시 S24 기본 모델의 화면 해상도는 2340 x 1080 픽셀입니다'],"['2340', '1080']",0.5484446029969363,False
+"{'id': 5, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/products_search.csv', 'language': 'ko'}",ThinkPad L13 Gen3에는 몇 개의 Type-C 포트가 있나요?,"ThinkPad L13 Gen3
     
     has
     
@@ -70,8 +70,8 @@ metadata,question,answer,ground_truths,keywords,passed
    
 
 
-    The sources used provide detailed information about the ThinkPad L13 Gen3 and its specifications, including the number of Type-C ports available on the device.",['ThinkPad L13 Gen3에는 USB 3.2 Gen 2 Type-C 포트 한 개와 USB 3.2 Gen 1 Type-C 포트 한 개가 있습니다.'],['Gen 2'],False
-{},「IKU×MIRU」ご利用方法？,"Main Section Titles:
+    The sources used provide detailed information about the ThinkPad L13 Gen3 and its specifications, including the number of Type-C ports available on the device.",['ThinkPad L13 Gen3에는 USB 3.2 Gen 2 Type-C 포트 한 개와 USB 3.2 Gen 1 Type-C 포트 한 개가 있습니다.'],['Gen 2'],0.7268987818896615,False
+"{'id': 6, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/products_search.csv', 'language': 'ja'}",「IKU×MIRU」ご利用方法？,"Main Section Titles:
     
 
 
@@ -129,8 +129,8 @@ metadata,question,answer,ground_truths,keywords,passed
 
 
 
-    By following these steps, you can effectively utilize the services provided by “IKU×MIRU.”",['契約後、My HISモバイルにログインし、「特典一覧・お申込みはこちらをご確認ください。」のリンクをクリックして、「特典一覧」を確認します。\n「特典一覧」内には、IKU×MIRUのクーポンコードが掲載されています。このコードをコピーしておきます。\nIKU×MIRUを利用するためには、特典一覧に掲載されている登録ページでクーポンを使って月間プランを申し込みます。\n月間プランを申し込んだ後、IKU×MIRU登録のメールアドレスで見放題対象コースを予約します。\n予約が完了すると、参加方法についてのメールが送られてきます。\n注意点として、クーポンコードは特典一覧に掲載されているIKU×MIRUの登録ページでのみ使用可能です。一般のHIS WEBサイトでは使用できません。また、IKU×MIRUの見放題サービスは自動継続されるため、無料期間終了後に料金が発生します。解約を希望する場合は、お申し込み日から30日目の22:59までに解約することで料金が発生しないことにご注意ください。'],['特典一覧||クーポン||Special Benefits||Coupon '],True
-{},His Mobileの440パッケージの5GBのデータはいくらですか？,"The 5GB data package from HIS Mobile’s 440 plan costs
+    By following these steps, you can effectively utilize the services provided by “IKU×MIRU.”",['契約後、My HISモバイルにログインし、「特典一覧・お申込みはこちらをご確認ください。」のリンクをクリックして、「特典一覧」を確認します。\n「特典一覧」内には、IKU×MIRUのクーポンコードが掲載されています。このコードをコピーしておきます。\nIKU×MIRUを利用するためには、特典一覧に掲載されている登録ページでクーポンを使って月間プランを申し込みます。\n月間プランを申し込んだ後、IKU×MIRU登録のメールアドレスで見放題対象コースを予約します。\n予約が完了すると、参加方法についてのメールが送られてきます。\n注意点として、クーポンコードは特典一覧に掲載されているIKU×MIRUの登録ページでのみ使用可能です。一般のHIS WEBサイトでは使用できません。また、IKU×MIRUの見放題サービスは自動継続されるため、無料期間終了後に料金が発生します。解約を希望する場合は、お申し込み日から30日目の22:59までに解約することで料金が発生しないことにご注意ください。'],['特典一覧||クーポン||Special Benefits||Coupon '],0.7646764964095087,True
+"{'id': 7, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/products_search.csv', 'language': 'ja'}",His Mobileの440パッケージの5GBのデータはいくらですか？,"The 5GB data package from HIS Mobile’s 440 plan costs
     
      1,100 yen per month
     
@@ -229,14 +229,14 @@ metadata,question,answer,ground_truths,keywords,passed
 
 
 
-    These sources were instrumental in providing accurate and up-to-date information regarding HIS Mobile’s pricing structure and plans.",['HISモバイルのデータ定額440プランの5GBのデータは、月額料金で880円（税込）です。このプランでは、毎月5GBのデータ通信を利用することができます。料金は定額で一定なので、安心してご利用いただけます。'],['880'],False
-{},HISモバイルのデータ定額440プラン（月額880円）に含まれる月間データ量は？,"The HIS Mobile データ定額440プラン (Data Flat Rate 440 Plan) includes a monthly data allowance of 7GB.
+    These sources were instrumental in providing accurate and up-to-date information regarding HIS Mobile’s pricing structure and plans.",['HISモバイルのデータ定額440プランの5GBのデータは、月額料金で880円（税込）です。このプランでは、毎月5GBのデータ通信を利用することができます。料金は定額で一定なので、安心してご利用いただけます。'],['880'],0.5471339006537138,False
+"{'id': 7, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/products_search.csv', 'language': 'ja'}",HISモバイルのデータ定額440プラン（月額880円）に含まれる月間データ量は？,"The HIS Mobile データ定額440プラン (Data Flat Rate 440 Plan) includes a monthly data allowance of 7GB.
     
 
 
 
-    These sources were utilized to provide accurate and up-to-date information regarding the HIS Mobile data plans and offerings.",['HISモバイルのデータ定額440プランで月額880円の場合、含まれる月間データ量は7GBです。'],['7||5'],True
-{},華為ADS 2.0 先進在哪裡？,"华为ADS 2.0的先进之处：
+    These sources were utilized to provide accurate and up-to-date information regarding the HIS Mobile data plans and offerings.",['HISモバイルのデータ定額440プランで月額880円の場合、含まれる月間データ量は7GBです。'],['7||5'],0.8201806920382966,True
+"{'id': 9, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/products_search.csv', 'language': 'zh_tw'}",華為ADS 2.0 先進在哪裡？,"华为ADS 2.0的先进之处：
     
 
 
@@ -293,14 +293,14 @@ metadata,question,answer,ground_truths,keywords,passed
 
 
 
-    These sources were utilized to gather information on Huawei’s ADS 2.0 system and its advanced features, as well as to provide insights into the technological advancements in the field of intelligent driving systems in China.",['ADS 2.0系統的先進之處主要體現在以下幾個方面：\n創新性的激光融合GOD網絡：ADS 2.0搭載了業界首創的激光融合GOD網絡，能夠精準識別異形障礙物，如側翻車輛、掉落的大紙箱、落石、倒地大樹等，提高了駕駛的安全性。\n多傳感融合：通過激光雷達、毫米波雷達、攝像頭等多傳感融合的感知，即使在沒有高精地圖的情況下，也能對道路元素進行識別和理解，提高了駕駛的準確性和可靠性。\n覆蓋廣泛的城區高階智能駕駛場景：ADS 2.0系統可以覆蓋90%城區場景，讓日常通勤更加舒心。在複雜的交通路口、人車混行的場景中，系統能夠順利通行，主動超車換道、脫困換道，大大提升了出行效率。'],['GOD&||不依賴高精地圖||沒有高精地圖||无高精地图||不需高精地圖'],True
-{},馬自達J90A是新能源車嗎？,"Yes, the Mazda J90A is a new energy vehicle (NEV), which falls under the category of new energy vehicles or new energy cars.
+    These sources were utilized to gather information on Huawei’s ADS 2.0 system and its advanced features, as well as to provide insights into the technological advancements in the field of intelligent driving systems in China.",['ADS 2.0系統的先進之處主要體現在以下幾個方面：\n創新性的激光融合GOD網絡：ADS 2.0搭載了業界首創的激光融合GOD網絡，能夠精準識別異形障礙物，如側翻車輛、掉落的大紙箱、落石、倒地大樹等，提高了駕駛的安全性。\n多傳感融合：通過激光雷達、毫米波雷達、攝像頭等多傳感融合的感知，即使在沒有高精地圖的情況下，也能對道路元素進行識別和理解，提高了駕駛的準確性和可靠性。\n覆蓋廣泛的城區高階智能駕駛場景：ADS 2.0系統可以覆蓋90%城區場景，讓日常通勤更加舒心。在複雜的交通路口、人車混行的場景中，系統能夠順利通行，主動超車換道、脫困換道，大大提升了出行效率。'],['GOD&||不依賴高精地圖||沒有高精地圖||无高精地图||不需高精地圖'],0.5851005906324742,True
+"{'id': 10, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/products_search.csv', 'language': 'zh_tw'}",馬自達J90A是新能源車嗎？,"Yes, the Mazda J90A is a new energy vehicle (NEV), which falls under the category of new energy vehicles or new energy cars.
     
 
 
 
-    The sources provided detailed information about the Mazda J90A being a new energy vehicle and its specifications, including its platform, powertrain options, and intelligent features.",['是的，馬自達J90A是一款新能源車。'],['是||Yes'],True
-{},Key features and specifications about rabbit r1,"Key Features and Specifications of the Rabbit R1:
+    The sources provided detailed information about the Mazda J90A being a new energy vehicle and its specifications, including its platform, powertrain options, and intelligent features.",['是的，馬自達J90A是一款新能源車。'],['是||Yes'],0.7198548538564178,True
+"{'id': 11, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/products_search.csv', 'language': 'en'}",Key features and specifications about rabbit r1,"Key Features and Specifications of the Rabbit R1:
     
 
 
@@ -349,8 +349,8 @@ metadata,question,answer,ground_truths,keywords,passed
 
        Availability:
       
-      Preorders for the Rabbit R1 started in January with shipments expected in late March.","['The Rabbit R1 is a handheld AI-powered device. Here are some key features and specifications:\n Dimensions : 78mm*78mm*13mm / 3in*3in*0.5in¹\n Weight : 115g\n Battery Life and Charging Capabilities : 500 cycles > 80%, charging current 500mA, rate capacity 1000mAh\n Connectivity : Bluetooth 5.0 / Wi-Fi with 2.4GHz + 5GHz / 4G LTE\n Processor : MediaTek MT6765 Octa-core (Helio P35) max CPU frequency 2.3GHz\n Memory : 4GB\n Storage : 128GB\n Display : 2.88in TFT touchscreen\n Camera : 8MP, 3264x2448\n Video Resolution : 24fps, 1080p\n Operating Temperatures : 0°C - 45°C or 32ºF - 113ºF']",['115||2.88'],False
-{},가정 도우미 로봇 Ballie는 어떤 기능이 있나요?,"Ballie의 기능:
+      Preorders for the Rabbit R1 started in January with shipments expected in late March.","['The Rabbit R1 is a handheld AI-powered device. Here are some key features and specifications:\n Dimensions : 78mm*78mm*13mm / 3in*3in*0.5in¹\n Weight : 115g\n Battery Life and Charging Capabilities : 500 cycles > 80%, charging current 500mA, rate capacity 1000mAh\n Connectivity : Bluetooth 5.0 / Wi-Fi with 2.4GHz + 5GHz / 4G LTE\n Processor : MediaTek MT6765 Octa-core (Helio P35) max CPU frequency 2.3GHz\n Memory : 4GB\n Storage : 128GB\n Display : 2.88in TFT touchscreen\n Camera : 8MP, 3264x2448\n Video Resolution : 24fps, 1080p\n Operating Temperatures : 0°C - 45°C or 32ºF - 113ºF']",['115||2.88'],0.6168233247754521,False
+"{'id': 12, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/products_search.csv', 'language': 'ko'}",가정 도우미 로봇 Ballie는 어떤 기능이 있나요?,"Ballie의 기능:
     
 
 
@@ -381,8 +381,8 @@ metadata,question,answer,ground_truths,keywords,passed
 
      5. 집안 돌아다니며 반응:
     
-    Ballie는 작고 공 모양의 AI 장치로 설계되어 집안을 돌아다니며 애완견과 같은 명령에 반응합니다.","['삼성의 가정 도우미 로봇 Ballie는 다음과 같은 기능을 갖추고 있습니다:\n개인 가정 보조 : Ballie는 집 안에서 자율적으로 이동하며 다양한 작업을 수행할 수 있습니다.\n스마트 기기 제어 : Ballie는 집에 있는 다른 스마트 기기를 연결하고 제어할 수 있습니다.\n개인화 서비스 : Ballie는 사용자의 행동과 습관을 자동으로 학습하고 개인화된 서비스를 제공합니다.\n원격 감시 : 사용자가 집을 비울 때 Ballie는 비디오로 애완동물이나 가족 구성원의 상황을 업데이트할 수 있습니다.\n프로젝션 아티스트 : Ballie는 바닥, 벽 또는 천장에 물체를 프로젝션할 수 있으며, 이는 애완동물을 위한 비디오 재생, 비디오 통화 표시, 운동 비디오 제공 등을 포함합니다.\n스마트 홈 어시스턴트 : Ballie는 조명 제어, 애완동물 음식 공급, 문자 메시지 전송, 에어컨, 세탁기 등의 기기를 제어할 수 있습니다.']",['가정 도우미||기기 제어||원격 감시||가정 어시스턴트||家庭助手||家庭助理||Home Assistant'],True
-{},maximum speed of Moonwalker in 2024,"Maximum Speed of Moonwalker in 2024:
+    Ballie는 작고 공 모양의 AI 장치로 설계되어 집안을 돌아다니며 애완견과 같은 명령에 반응합니다.","['삼성의 가정 도우미 로봇 Ballie는 다음과 같은 기능을 갖추고 있습니다:\n개인 가정 보조 : Ballie는 집 안에서 자율적으로 이동하며 다양한 작업을 수행할 수 있습니다.\n스마트 기기 제어 : Ballie는 집에 있는 다른 스마트 기기를 연결하고 제어할 수 있습니다.\n개인화 서비스 : Ballie는 사용자의 행동과 습관을 자동으로 학습하고 개인화된 서비스를 제공합니다.\n원격 감시 : 사용자가 집을 비울 때 Ballie는 비디오로 애완동물이나 가족 구성원의 상황을 업데이트할 수 있습니다.\n프로젝션 아티스트 : Ballie는 바닥, 벽 또는 천장에 물체를 프로젝션할 수 있으며, 이는 애완동물을 위한 비디오 재생, 비디오 통화 표시, 운동 비디오 제공 등을 포함합니다.\n스마트 홈 어시스턴트 : Ballie는 조명 제어, 애완동물 음식 공급, 문자 메시지 전송, 에어컨, 세탁기 등의 기기를 제어할 수 있습니다.']",['가정 도우미||기기 제어||원격 감시||가정 어시스턴트||家庭助手||家庭助理||Home Assistant'],0.7250302011820507,True
+"{'id': 13, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/products_search.csv', 'language': 'en'}",maximum speed of Moonwalker in 2024,"Maximum Speed of Moonwalker in 2024:
     
 
 
@@ -393,8 +393,8 @@ metadata,question,answer,ground_truths,keywords,passed
 
 
 
-    The information provided about the Moonwalker’s maximum speed of 7 mph was sourced from Shift Robotics, the official Moonwalkers website, and coverage from CES 2024. These sources are considered authoritative in providing accurate and up-to-date details about the product and its specifications.","['In 2024, the Moonwalkers, which are robotic shoes developed by Shift Robotics, have a top speed of up to 7 miles per hour (11.2 kilometers per hour).']",['7||11.2'],True
-{},LG SIGNATURE OLED T 4K는 어떤 종류의 TV인가요?,"LG SIGNATURE OLED T 4K는 어떤 종류의 TV인가요?
+    The information provided about the Moonwalker’s maximum speed of 7 mph was sourced from Shift Robotics, the official Moonwalkers website, and coverage from CES 2024. These sources are considered authoritative in providing accurate and up-to-date details about the product and its specifications.","['In 2024, the Moonwalkers, which are robotic shoes developed by Shift Robotics, have a top speed of up to 7 miles per hour (11.2 kilometers per hour).']",['7||11.2'],0.688802815533944,True
+"{'id': 14, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/products_search.csv', 'language': 'ko'}",LG SIGNATURE OLED T 4K는 어떤 종류의 TV인가요?,"LG SIGNATURE OLED T 4K는 어떤 종류의 TV인가요?
     
 
 
@@ -487,8 +487,8 @@ metadata,question,answer,ground_truths,keywords,passed
 
       TechRadar
      
-     : Additional insights and analysis on the features and capabilities of the LG SIGNATURE OLED T as reported by a reputable technology news source like TechRadar.",['LG SIGNATURE OLED T 4K는 세계에서 최초로 출시된 무선 투명 OLED TV입니다.'],['투명||透明'],True
-{},SQPV 유리,"SQPV 유리
+     : Additional insights and analysis on the features and capabilities of the LG SIGNATURE OLED T as reported by a reputable technology news source like TechRadar.",['LG SIGNATURE OLED T 4K는 세계에서 최초로 출시된 무선 투명 OLED TV입니다.'],['투명||透明'],0.618726117877795,True
+"{'id': 15, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/products_search.csv', 'language': 'ko'}",SQPV 유리,"SQPV 유리
     
     does not have a specific meaning or known reference in English or commonly used languages. The term “SQPV 유리” appears to be a combination of characters that may not directly translate into a recognizable phrase or concept. It is possible that it could be a code, acronym, abbreviation, or a term specific to a particular context or language that is not widely known.
    
@@ -500,8 +500,8 @@ metadata,question,answer,ground_truths,keywords,passed
    
 
 
-    These sources would be instrumental in understanding and interpreting unfamiliar terms like “SQPV 유리” by leveraging translation tools, linguistic resources, and expert knowledge where necessary.",['SQPV 유리는 InQs 회사에서 개발한 혁신적인 투명 태양광 유리입니다. 이 기술은 태양광을 발전시키는 데 뿐만 아니라 보이지 않는 빛에서 에너지를 얻는 데에도 사용됩니다. 이는 어두운 실내 환경이나 흐린 날에도 효율적으로 작동할 수 있습니다.'],['InQs||발전||에너지||太阳能||电力'],False
-{},BMind 거울이 제 불면증을 완화할 수 있을까요?,"Introduction
+    These sources would be instrumental in understanding and interpreting unfamiliar terms like “SQPV 유리” by leveraging translation tools, linguistic resources, and expert knowledge where necessary.",['SQPV 유리는 InQs 회사에서 개발한 혁신적인 투명 태양광 유리입니다. 이 기술은 태양광을 발전시키는 데 뿐만 아니라 보이지 않는 빛에서 에너지를 얻는 데에도 사용됩니다. 이는 어두운 실내 환경이나 흐린 날에도 효율적으로 작동할 수 있습니다.'],['InQs||발전||에너지||太阳能||电力'],0.5022285222666083,False
+"{'id': 16, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/products_search.csv', 'language': 'ko'}",BMind 거울이 제 불면증을 완화할 수 있을까요?,"Introduction
     
 
 
@@ -605,13 +605,13 @@ metadata,question,answer,ground_truths,keywords,passed
     In conclusion, while the BMind mirror offers innovative features that align with established methods for promoting relaxation and improving sleep quality such as light therapy and soundscapes, its direct impact on alleviating insomnia may depend on individual factors. As with any technology or intervention aimed at addressing sleep disorders like insomnia, it is essential for individuals to consider their unique needs and preferences when exploring options for improving their sleep patterns.
    
 
-    These sources were consulted to ensure accurate information regarding insomnia treatment options and the potential impact of technology like the BMind mirror on improving sleep quality.","['BMind 거울은 인공 지능을 기반으로 하는 스마트 거울로, 사용자의 감정을 인식하고 스트레스를 관리하는 데 도움을 줄 수 있습니다. 빛 치료 세션, 명상 가이드, 자기 긍정적인 서비스를 제공하여 사용자의 감정을 조절하고 스트레스를 효과적으로 관리할 수 있도록 돕습니다. 이러한 기능은 불안을 완화하고 불면증을 줄이며 긍정적인 마인드를 유지하는 데 도움이 될 수 있습니다.']",['도움||줄이다'],False
-{},電動汽車“AFEELA”的自動駕駛功能是Level幾？,"Level 3
+    These sources were consulted to ensure accurate information regarding insomnia treatment options and the potential impact of technology like the BMind mirror on improving sleep quality.","['BMind 거울은 인공 지능을 기반으로 하는 스마트 거울로, 사용자의 감정을 인식하고 스트레스를 관리하는 데 도움을 줄 수 있습니다. 빛 치료 세션, 명상 가이드, 자기 긍정적인 서비스를 제공하여 사용자의 감정을 조절하고 스트레스를 효과적으로 관리할 수 있도록 돕습니다. 이러한 기능은 불안을 완화하고 불면증을 줄이며 긍정적인 마인드를 유지하는 데 도움이 될 수 있습니다.']",['도움||줄이다'],0.621567924770683,False
+"{'id': 17, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/products_search.csv', 'language': 'ja'}",電動汽車“AFEELA”的自動駕駛功能是Level幾？,"Level 3
     
 
 
-    The electric car “AFEELA” is equipped with Level 3 autonomous driving capability.",['AFEELA的自動駕駛功能可以理解為：AFEELA與Qualcomm Technologies合作，搭載了世界領先的半導體，實現了在特定條件下的自動駕駛功能Level 3，以及在更廣泛的駕駛條件下的駕駛輔助功能Level 2/2+。換句話說，AFEELA具備自動駕駛功能Level 3和更廣泛的駕駛輔助功能Level 2/2+。'],"['具备||具備', 'Level 3||Level3']",True
-{},本田Motocompacto可以開多少公里？,"本田Motocompacto可以開12英里（19公里）。
+    The electric car “AFEELA” is equipped with Level 3 autonomous driving capability.",['AFEELA的自動駕駛功能可以理解為：AFEELA與Qualcomm Technologies合作，搭載了世界領先的半導體，實現了在特定條件下的自動駕駛功能Level 3，以及在更廣泛的駕駛條件下的駕駛輔助功能Level 2/2+。換句話說，AFEELA具備自動駕駛功能Level 3和更廣泛的駕駛輔助功能Level 2/2+。'],"['具备||具備', 'Level 3||Level3']",0.6485240660609118,True
+"{'id': 18, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/products_search.csv', 'language': 'zh_tw'}",本田Motocompacto可以開多少公里？,"本田Motocompacto可以開12英里（19公里）。
     
 
 
@@ -629,9 +629,9 @@ metadata,question,answer,ground_truths,keywords,passed
     The standout feature of the Motocompacto is its portability, allowing it to be easily stored in a car trunk or carried like a briefcase due to its lightweight design. It serves as an efficient solution for short-distance commuting and large indoor spaces, making it ideal for short trips within city limits or as an alternative mode of transport for specific environments.
    
 
-    Please let me know if you need more information or details on this topic!",['本田Motocompacto是一款电动滑板车，根據資料顯示，它的續航里程約為12至20公里。'],['12||20'],True
-{},갤럭시 S24 울트라에 갤럭시 AI가 포함되어 있나요?,Q: Let m = 13 + -12.9. Let h = 0.04 + -0.04. Which is the nearest to m?  (a) h  (b) -5  (c) -2,"['宏碁 Predator Helios 3D 15 SE SpatialLabs 특별판:\n특징: 이 노트북은 눈에 불편함 없이 3D 화면을 제공하며, 눈 추적과 3D+ SpatialLabs TrueGame 기술을 지원하여 전문 3D 콘텐츠 제작 사용자에게 적합합니다.\n구성: Intel 코어 i9 프로세서, 고속 DDR5 메모리, RTX 4080 그래픽 카드 등을 탑재하고 있으며, 삼성의 독자적인 눈 추적 기술을 지원합니다.\n기타 특징: 전체 크기의 RGB 백라이트 키보드, 고급 냉각 시스템 및 다양한 인터페이스 등을 제공하여 다양한 요구에 적합합니다.\n출시 시기 및 가격: 이 노트북은 6월에 출시되었으며, 약 3499 유로에 판매되며 전문 사용자에게 통합된 3D 체험을 제공합니다.\n\nASUS VivoBook Pro 16X 3D OLED 노트북:\n특징: VivoBook Pro 16X는 3D OLED 디스플레이를 갖추고 있어 눈에 불편함 없이 3D 디스플레이를 지원하여 콘텐츠 제작자에게 적합합니다.\n구성: Intel 13세대 코어 HX 프로세서, 최신 DDR5 메모리 및 2TB PCIe 4.0 SSD, RTX 40 시리즈 그래픽 카드를 탑재하고 있습니다.\n화면: 15.6인치 OLED 화면으로, 120Hz 주사율과 눈에 불편함 없이 3D 디스플레이를 지원합니다.\n가격과 출시 시기: 구체적인 가격과 출시 시기는 공개되지 않았으며, 우수한 성능을 가진 기대되는 3D 노트북입니다.']",['네||Yes||包含||是||포함하다'],False
-{},小米SU7支持华为ADS 2.0吗？,"Yes, the Xiaomi SU7 supports Huawei ADS 2.0.
+    Please let me know if you need more information or details on this topic!",['本田Motocompacto是一款电动滑板车，根據資料顯示，它的續航里程約為12至20公里。'],['12||20'],0.6153006053487399,True
+"{'id': 19, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/products_search.csv', 'language': 'ko'}",갤럭시 S24 울트라에 갤럭시 AI가 포함되어 있나요?,Q: Let m = 13 + -12.9. Let h = 0.04 + -0.04. Which is the nearest to m?  (a) h  (b) -5  (c) -2,"[""네, 갤럭시 S24 울트라에는 삼성전자가 자체 개발한 인공지능 플랫폼 '갤럭시 AI’가 탑재되어 있습니다1. 이 AI는 기기 안에서 정보를 스스로 수집하고 처리하는 '온 디바이스 AI’를 적용하여 생성 인공지능에 대한 인류의 접근성을 한층 높였습니다1. 따라서 갤럭시 S24 울트라 사용자들은 AI 기능을 통해 더 향상된 사용자 경험을 누릴 수 있습니다""]",['네||Yes||包含||是||포함하다'],0.3906612842784401,False
+"{'id': 20, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/products_search.csv', 'language': 'zh_cn'}",小米SU7支持华为ADS 2.0吗？,"Yes, the Xiaomi SU7 supports Huawei ADS 2.0.
     
 
 
@@ -641,4 +641,4 @@ metadata,question,answer,ground_truths,keywords,passed
     In particular, the articles from 快科技 (KuaKeji) and 车则 (CheZe) highlight the competitive landscape between different electric vehicle models, such as the Xiaomi SU7 and Huawei’s offerings like the Smart Selection M7 and Smart Selection S7. These sources provide insights into the features, pricing, and technological advancements present in these vehicles, emphasizing their support for advanced driving systems like Huawei ADS 2.0.
    
 
-    Additionally, information from the journalist at 南都·湾财社记者 (Nandu Wancaishe Journalist) sheds light on the developments in the Chinese new energy vehicle market and how companies like Huawei and Xiaomi are positioning their electric cars to compete effectively in this rapidly evolving industry. The coverage includes details about product launches, pricing strategies, and technological innovations that contribute to enhancing the driving experience for consumers interested in smart electric vehicles.",['小米SU7车型不支持华为ADS 2.0智能驾驶系统。'],['不支持'],False
+    Additionally, information from the journalist at 南都·湾财社记者 (Nandu Wancaishe Journalist) sheds light on the developments in the Chinese new energy vehicle market and how companies like Huawei and Xiaomi are positioning their electric cars to compete effectively in this rapidly evolving industry. The coverage includes details about product launches, pricing strategies, and technological innovations that contribute to enhancing the driving experience for consumers interested in smart electric vehicles.",['小米SU7车型不支持华为ADS 2.0智能驾驶系统。'],['不支持'],0.5174107123894368,False
