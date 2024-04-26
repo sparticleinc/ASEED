@@ -9,12 +9,18 @@
         "total": 20,
         "passed": 12,
         "failed": 8,
-        "pass_rate": "60.00%"
+        "pass_rate": "60.00%",
+        "answer_correctness": 0.667290301706683
     },
     "created_at": "2024-04-24 15:54:39",
     "datas": [
         {
-            "metadata": {},
+            "metadata": {
+                "id": 1,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/business_consulting.csv",
+                "language": "ru"
+            },
             "question": "ycloud - что это?",
             "answer": "yCloud - это облачная платформа, предоставляемая компанией Яндекс. Основные возможности yCloud включают:\n\nВиртуальные машины и контейнеры для запуска приложений и сервисов13\nСистемы хранения данных, такие как объектное хранилище и виртуальные диски145\nСервисы для резервного копирования виртуальных машин и данных45\nИнструменты для управления облачной инфраструктурой, включая средства автоматизации и мониторинга1\n\nyCloud позиционируется как облачная платформа, которая позволяет разворачивать и управлять инфраструктурой и приложениями в облаке Яндекса. Она предоставляет широкий спектр облачных сервисов для разработчиков и ИТ-специалистов23.",
             "ground_truths": [
@@ -23,10 +29,16 @@
             "keywords": [
                 "WhatsApp||knockoutjs"
             ],
+            "answer_correctness": 0.5563056987079117,
             "passed": false
         },
         {
-            "metadata": {},
+            "metadata": {
+                "id": 2,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/business_consulting.csv",
+                "language": "ru"
+            },
             "question": "\"Telegram\" - это российская компания?",
             "answer": "Нет, Telegram нельзя назвать российской компанией. Основатель Telegram Павел Дуров прямо заявлял, что у компании нет офисов, разработчиков, юридических лиц, банковских счетов или серверов в России3. Telegram был создан Павлом Дуровым после его ухода из российской компании \"ВКонтакте\" в 2013 году5.\nПервоначально Telegram был зарегистрирован как российская компания, но позже переехал в Берлин и стал работать по немецкому законодательству5. На данный момент Telegram не имеет прямой привязки к какой-либо стране - это международный проект без четкой национальной принадлежности.\nБольшинство пользователей Telegram проживают в Иране, Малайзии и Узбекистане, а в России насчитывается около 37% от общей аудитории5. Роскомнадзор признал Telegram иностранным мессенджером и включил его в список зарубежных сервисов с ограничениями для российских банков4.",
             "ground_truths": [
@@ -35,10 +47,16 @@
             "keywords": [
                 "Дубае||не является||Нет||No||不是"
             ],
+            "answer_correctness": 0.6413498727446614,
             "passed": true
         },
         {
-            "metadata": {},
+            "metadata": {
+                "id": 3,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/business_consulting.csv",
+                "language": "zh_tw"
+            },
             "question": "紫金的銷售收入",
             "answer": "根據搜索結果:\n紫金礦業(2899.HK)2023年的銷售收入為2934.03億元人民幣,按年增長8.5%。4\n其中,銅業務銷售收入佔報告期內營業收入的25.21%(抵銷後),毛利佔集團毛利的47.19%。3",
             "ground_truths": [
@@ -47,10 +65,16 @@
             "keywords": [
                 "2934"
             ],
+            "answer_correctness": 0.7050074995349845,
             "passed": true
         },
         {
-            "metadata": {},
+            "metadata": {
+                "id": 4,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/business_consulting.csv",
+                "language": "ru"
+            },
             "question": "Что за компания Vyro AI?",
             "answer": "Судя по предоставленным поисковым результатам, никакой информации о компании под названием \"Vyro AI\" не содержится. Результаты охватывают различные темы, такие как фразеология славянских языков, авторское право на изображения, сгенерированные с помощью ИИ, литовско-русский словарь и инструкции по возврату средств в Google Play. Однако ни один из этих источников не упоминает компанию с таким названием.12345",
             "ground_truths": [
@@ -60,10 +84,16 @@
                 "Искусственный интеллект",
                 "изображений"
             ],
+            "answer_correctness": 0.7499291893675942,
             "passed": false
         },
         {
-            "metadata": {},
+            "metadata": {
+                "id": 5,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/business_consulting.csv",
+                "language": "ko"
+            },
             "question": "В какие еще компании инвестировали основатели Perplexity?",
             "answer": "Основатели Perplexity инвестировали в несколько компаний, включая Google, Microsoft, OpenAI, и Adobe . Они также получили инвестиции от Sequoia, Bessemer, Nvidia, и других. Кроме того, Perplexity получила инвестиции от Hoxton Ventures и Point Nine Capital.",
             "ground_truths": [
@@ -72,10 +102,16 @@
             "keywords": [
                 "Eleven Labs||Pika"
             ],
+            "answer_correctness": 0.49891170058081774,
             "passed": false
         },
         {
-            "metadata": {},
+            "metadata": {
+                "id": 6,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/business_consulting.csv",
+                "language": "zh_cn"
+            },
             "question": "虎门大桥过路费多少钱？",
             "answer": "根据搜索结果,虎门大桥的过路费为40元。\n具体来说:\n\n\n虎门大桥于1997年建成通车,是中国首座大型悬索桥,投资近30亿元。12\n\n\n虎门大桥采用分段收费,从摩托车到21吨以上货车,价格区间不同。但对于12座以下的小客车,过路费为40元。2\n\n\n虎门大桥曾因过路费高而备受争议,有人认为\"一公里收40元,真贵\"。2\n\n\n尽管已运营23年,但由于需要偿还巨额建设贷款,虎门大桥预计还将继续收费10年左右。2\n\n\n因此,根据现有信息,虎门大桥对于普通小客车的过路费确实为40元一次。12",
             "ground_truths": [
@@ -84,10 +120,16 @@
             "keywords": [
                 "40"
             ],
+            "answer_correctness": 0.6560297447078351,
             "passed": true
         },
         {
-            "metadata": {},
+            "metadata": {
+                "id": 7,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/business_consulting.csv",
+                "language": "en"
+            },
             "question": "How did Musk earn the first bucket of gold in his life?",
             "answer": "Elon Musk earned his first significant sum of money by co-founding and selling the online mapping and directions company Zip2 in 1999. Here are the key details:\n\n\nIn 1995, after dropping out of Stanford's graduate program, Musk co-founded Zip2 with his brother Kimbal using $28,000 from their father's life savings as seed funding.2\n\n\nZip2 provided online maps and directions to newspapers and media companies before Google Maps existed.\n\n\nFour years later in 1999, Compaq acquired Zip2 for $307 million in cash and $34 million in stock options.2\n\n\nAs co-founder and largest shareholder, Musk's portion of the sale was around $22 million, making him a multi-millionaire at age 27.12\n\n\nSo while Musk had some privileges growing up, like his father's modest investment in Zip2, he earned his first major wealth through the successful startup he co-founded and its acquisition by Compaq in 1999.12 This early windfall helped fund Musk's subsequent entrepreneurial ventures like PayPal, SpaceX and Tesla.",
             "ground_truths": [
@@ -96,10 +138,16 @@
             "keywords": [
                 "Zip2"
             ],
+            "answer_correctness": 0.7799506604210324,
             "passed": true
         },
         {
-            "metadata": {},
+            "metadata": {
+                "id": 8,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/business_consulting.csv",
+                "language": "zh_tw"
+            },
             "question": "iask.ai 2024年3月的訪問量",
             "answer": "根據搜尋結果中的資訊,沒有直接提及iask.ai 2024年3月的具體訪問量數據。14\n不過,第二個搜尋結果2提供了一些相關的統計數據。該報告顯示,截至2023年11月底,全球月訪問量超過1億的AI應用有8款,與10月份持平。報告中列出了當時全球訪問量前10位的AI應用名單,但沒有包括iask.ai。\n因此,根據現有搜尋結果,無法確定iask.ai 2024年3月的具體訪問量數字。該應用似乎還未進入全球訪問量最高的AI應用之列。",
             "ground_truths": [
@@ -108,10 +156,16 @@
             "keywords": [
                 "3.3||3.4"
             ],
+            "answer_correctness": 0.528094693691542,
             "passed": false
         },
         {
-            "metadata": {},
+            "metadata": {
+                "id": 9,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/business_consulting.csv",
+                "language": "ru"
+            },
             "question": "Monica.im в 2023 году имеет сколько пользователей?",
             "answer": "К сожалению, в предоставленных поисковых результатах нет информации о количестве пользователей Monica.im в 2023 году. Результаты содержат различную информацию, не связанную с этим вопросом, такую как описание сайта для знакомств, рекламу юридических услуг, инструкции по использованию инструментов и другие случайные темы.\nПоскольку запрошенные данные отсутствуют, я не могу дать точного ответа на этот вопрос. Monica.im - это сайт знакомств и социальная сеть, но без дополнительной информации из надежных источников невозможно определить количество ее пользователей в 2023 году.",
             "ground_truths": [
@@ -120,10 +174,16 @@
             "keywords": [
                 "150"
             ],
+            "answer_correctness": 0.5430909457977028,
             "passed": false
         },
         {
-            "metadata": {},
+            "metadata": {
+                "id": 10,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/business_consulting.csv",
+                "language": "en"
+            },
             "question": "If Trump takes office again, how will he adjust the trade policy towards China?",
             "answer": "If elected again, Donald Trump plans to significantly escalate his trade policy towards China compared to his first term. Here are the key points:\r\nTrump aims to dismantle the economic relationship between the U.S. and China, the world's two largest economies.1 His agenda includes:\r\n\r\n\r\nImposing a new tax or steep tariffs on a wide range of Chinese imports, potentially as high as 60%.2 This could spark a global trade war exceeding the damage from his previous tariffs.\r\n\r\n\r\nEnacting aggressive restrictions on Chinese ownership of U.S. assets and prohibiting American investments in China.1\r\n\r\n\r\nPhasing out imports of essential Chinese goods like electronics, steel, and pharmaceuticals to make the U.S. more self-sufficient.1\r\n\r\n\r\nTrump identifies as a \"tariff man\" and wants to pull the U.S. away from global economic integration towards increased self-sufficiency in production.1 He views tariffs as a strategic tool to force China to adjust its trade practices.\r\nHowever, most economists argue Trump's previous tariffs primarily burdened U.S. consumers and firms rather than China.2 A potential 60% tariff could severely disrupt the U.S. and global economies beyond his first term's trade war.24\r\nWhile Trump touts benefits for the U.S., his trade war was estimated to cause $16 billion in annual net losses to the U.S. economy.4 Ending normal trade relations with China could cost 700,000 U.S. jobs.2\r\nTrump's plans risk further dividing the Republican Party, as some lawmakers broke ranks over his first trade war's economic impacts on their constituents.4 But he may have to compromise to maintain a slim House majority.4\r\nIn summary, Trump intends to aggressively decouple the U.S. from economic ties with China through high tariffs, import restrictions, and limiting Chinese investment - a more ambitious isolationist agenda than his first term that could spark significant economic disruption.124",
             "ground_truths": [
@@ -132,22 +192,34 @@
             "keywords": [
                 "60%"
             ],
+            "answer_correctness": 0.8129345114362275,
             "passed": true
         },
         {
-            "metadata": {},
+            "metadata": {
+                "id": 11,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/business_consulting.csv",
+                "language": "en"
+            },
             "question": "Microsoft 2021 first quarter Financial report",
             "answer": "Microsoft reported strong financial results for the first quarter of fiscal year 2022 (FY22 Q1), driven by the continued growth of its cloud business.\nKey Highlights\n\nRevenue was $45.3 billion, an increase of 22% year-over-year (YoY)2\nOperating income was $20.2 billion, an increase of 27% YoY2\nNet income was $17.6 billion GAAP and $17.2 billion non-GAAP, increasing 48% and 24% respectively YoY2\nDiluted earnings per share was $2.27 GAAP and $2.22 non-GAAP, increasing 49% and 25% respectively YoY2\n\nBusiness Segment Performance\nProductivity and Business Processes\n\nRevenue was $15.0 billion, up 22% YoY (20% in constant currency)2\nDriven by Office 365 and Dynamics 365 revenue growth\n\nIntelligent Cloud\n\nRevenue was $17.0 billion, up 31% YoY (29% in constant currency)2\nAzure revenue grew 50%2\n\nMore Personal Computing\n\nRevenue was $13.3 billion, up 12% YoY (11% in constant currency)2\nWindows OEM and Commercial Cloud services revenue increased2\n\nMicrosoft returned $10.9 billion to shareholders through share repurchases and dividends in the quarter.2 The strong cloud performance across all business segments fueled Microsoft's overall revenue and profit growth in FY22 Q1.2",
             "ground_truths": [
                 "Microsoft reported strong financial results for the first quarter of its 2021 fiscal year. The company beat analysts' expectations on both earnings and revenue.\nKey highlights:\nAdjusted earnings per share (EPS) was $1.82, compared to the expected $1.55.\nRevenue grew 12% year-over-year to $37.2 billion, exceeding the expected $35.7 billion.\nMicrosoft's Intelligent Cloud segment, which includes the Azure cloud computing platform, saw revenue grow 20% year-over-year, also beating expectations.\nAzure revenue grew 48% year-over-year, driving the strong performance of the Intelligent Cloud segment.\nOther areas like Surface devices, Xbox gaming, and Microsoft 365 consumer subscriptions also saw significant revenue growth during the quarter."
             ],
             "keywords": [
-                "37.2"
+                "37.2||372"
             ],
+            "answer_correctness": 0.5759731472420762,
             "passed": false
         },
         {
-            "metadata": {},
+            "metadata": {
+                "id": 12,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/business_consulting.csv",
+                "language": "en"
+            },
             "question": "What is Toyota's biggest risk in the future?",
             "answer": "Toyota's biggest risk in the future is the potential slow adoption of battery electric vehicles (BEVs) by consumers. Here are the key points:\n\n\nToyota has been heavily focused on hybrid vehicles like the Prius, which have seen strong sales as consumers look for fuel efficiency but have range anxiety with pure EVs.4\n\n\nHowever, battery EVs are widely viewed as the long-term future of the auto industry. Toyota has lagged behind rivals in developing competitive BEV models.4\n\n\nIf consumer adoption of BEVs accelerates faster than Toyota expects, the company may not be fully prepared with competitive all-electric solutions.4\n\n\nToyota's chairman Akio Toyoda believes BEVs will reach at most 30% market share, with hybrids and other technologies making up the rest. But if BEV adoption outpaces this, Toyota could be at risk.4\n\n\nIn 2022, Toyota sold just 104,000 BEVs, less than 1% of its total sales. It plans to boost BEV sales to 1.5 million by 2026, still below Tesla's 2023 sales of 1.8 million.4\n\n\nSo while Toyota's hybrid strategy has paid off recently, analysts warn its biggest long-term risk is being too slow in transitioning to full battery electric vehicles if consumer demand shifts rapidly in that direction.4",
             "ground_truths": [
@@ -156,10 +228,16 @@
             "keywords": [
                 "BEVs||EV||Tesla||Evs"
             ],
+            "answer_correctness": 0.6552295881167562,
             "passed": true
         },
         {
-            "metadata": {},
+            "metadata": {
+                "id": 13,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/business_consulting.csv",
+                "language": "en"
+            },
             "question": "What did Musk say about the future market of the auto industry worldwide?",
             "answer": "Elon Musk warned that Chinese automakers will \"demolish\" their global competition unless other nations impose trade barriers to handicap the new wave of electric cars coming from China.2 He stated, \"If there are no trade barriers established, they will pretty much demolish most other car companies in the world.\"2 Musk acknowledged the strength of the Chinese auto industry, saying \"They're extremely good.\"2\r\nMusk's comments highlight his concern about the growing dominance of Chinese automakers, particularly in the electric vehicle (EV) market. He believes that without protective trade measures, the Chinese EV manufacturers will outcompete and overtake their Western rivals in the global auto market.2\r\nFurthermore, Musk unveiled Tesla's \"Master Plan, Part Deux\" in 2016, which included the development of a fully self-driving (Level 5) vehicle that could be used for an autonomous ride-sharing platform.1 This plan aimed to transition Tesla's cars into increasingly autonomous vehicles through software updates, eventually not requiring a driver at all.1",
             "ground_truths": [
@@ -168,35 +246,53 @@
             "keywords": [
                 "BYD||China||中国"
             ],
+            "answer_correctness": 0.7751092311129888,
             "passed": true
         },
         {
-            "metadata": {},
+            "metadata": {
+                "id": 14,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/business_consulting.csv",
+                "language": "en"
+            },
             "question": "Why is Boeing getting worse and worse?",
             "answer": "Boeing is facing a multitude of issues that are compounding and making their situation increasingly dire. The root causes seem to stem from a shift in corporate culture prioritizing profits over safety and engineering excellence, as well as inadequate oversight from regulators.\nFirstly, Boeing's financial situation is precarious, as their defense division can no longer offset losses from their struggling commercial aviation business.1 This has led to cost-cutting measures that have compromised safety, such as concealing defects to avoid delays.13\nSecondly, there has been a concerning shift in Boeing's culture away from its engineering-focused roots. Many top executives lack engineering backgrounds, and there are reports of safety concerns being downplayed to stay competitive with Airbus.13 This culture shift is traced back to Boeing's merger with McDonnell Douglas in the 1990s and the subsequent prioritization of shareholder value over product quality.2\nThirdly, the Federal Aviation Administration (FAA) has been criticized for its lax oversight and allowing Boeing to self-certify many aspects of their aircraft.3 The recent door plug incident on a 737 MAX prompted an FAA audit that found numerous non-compliance issues, further eroding confidence in Boeing's safety processes.4\nRecent incidents like the Latam 787 nosedive injuring 50 people45, the door plug blowing off a 737 MAX4, and the Department of Justice's criminal probe14 highlight the compounding crises Boeing is facing due to these systemic issues. Restoring their reputation and regaining public trust will require sweeping changes in leadership, culture, and regulatory oversight.123",
             "ground_truths": [
                 "Boeing's deteriorating situation is multifaceted and can be attributed to several factors that have contributed to its ongoing challenges. One significant issue lies in Boeing's financial struggles, which have worsened in recent years. The company's heavy focus on profits, coupled with the financial strain caused by the pandemic and the grounding of the 737 Max aircraft, has led to Boeing being in its worst financial shape in over a century, with several years of deep losses recorded\nAdditionally, the dependence on the Defense division to offset losses in the Commercial sector is becoming increasingly unsustainable due to constraints in the US defense budget, leaving Boeing with limited options for recovery in that area\nFurthermore, Boeing's internal culture and safety practices have also come under scrutiny. Reports suggest a lack of a safety culture within Boeing, with claims that employees who raise concerns are ignored, marginalized, threatened, or sidelined\nSuch issues can compromise the overall quality and safety standards of Boeing's aircraft, further eroding consumer trust and damaging the company's reputation.\nOn a more operational level, concerns have been raised about specific incidents, such as the recent recommendation by the FAA to visually inspect the mid-exit door plugs on Boeing 737-900ER aircraft, highlighting potential safety issues that need to be addressed\nThese incidents, in addition to the ongoing challenges faced by the company, contribute to the perception that Boeing's situation is worsening over time."
             ],
             "keywords": [
-                "quality"
+                "qualityll质量"
             ],
+            "answer_correctness": 0.7956425846756678,
             "passed": true
         },
         {
-            "metadata": {},
+            "metadata": {
+                "id": 15,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/business_consulting.csv",
+                "language": "zh_tw"
+            },
             "question": "日本百年的藥品製造商小林製藥的紅麴成分含有保健食品引發的「死亡」事件。",
             "answer": "日本百年藥品製造商小林製藥的紅麴成分含有保健食品引發了嚴重的健康事故,截至目前已造成5人死亡、114人住院。134 事件的主要情況如下:\r\n事件概況\r\n\r\n\r\n小林製藥於3月22日自願召回含有紅麴成分的5款保健食品,包括\"紅麴降膽固醇錠\"等。13\r\n\r\n\r\n截至3月28日晚,已有5人死亡、114人住院,約680人出現相關症狀就醫。死因主要是急性腎衰竭。4\r\n\r\n\r\n日本厚生勞動省判定小林製藥3款產品有危害健康之虞,將向大阪市政府建議禁售。3\r\n\r\n\r\n影響範圍\r\n\r\n\r\n小林製藥的紅麴原料不僅用於自家產品,還輸出給其他企業使用,影響範圍廣泛。1\r\n\r\n\r\n截至3月28日,已有54家企業發起自願召回通知,產品涉及肉製品、果汁、酒類、保健品等。1\r\n\r\n\r\n台灣也出現疑似受害者,高雄一民眾因急性腎衰竭洗腎,家屬懷疑與長期食用紅麴膠囊有關。4\r\n\r\n\r\n小林製藥應對\r\n\r\n\r\n小林製藥表示將對海外受害者給予與日本相同的賠償,並計劃在台灣等地設立諮詢熱線。4\r\n\r\n\r\n但小林製藥尚未完全掌握海外銷售情況,對台灣疑似案例來源不明確。4\r\n",
             "ground_truths": [
-                "食用了小林製藥製造銷售的含紅麴的保健食品的人發生了腎臟疾病，已確認有2人死亡。到目前為止，有106人住院。\n小林製藥的調查顯示，紅麴原料中可能含有\"未知成分\"，這些成分可能導致腎臟疾病。\n小林製藥的紅麴分為補充劑和食品著色劑兩種，\"未知成分\"只在部分補充劑批次中被檢測出來。\n紅麴一般被用作食品著色劑，但在作為補充劑使用時，需要注意毒素紅曲霉素的含量。\n小林製藥在這個問題上已開始自願回收相關的保健食品，厚生勞動省也在考慮採取應對措施。"
+                "食用了小林製藥製造銷售的含紅麴的保健食品的人發生了腎臟疾病，已確認有5人死亡。到目前為止，有212人住院。\n小林製藥的調查顯示，紅麴原料中可能含有\"未知成分\"，這些成分可能導致腎臟疾病。\n小林製藥的紅麴分為補充劑和食品著色劑兩種，\"未知成分\"只在部分補充劑批次中被檢測出來。\n紅麴一般被用作食品著色劑，但在作為補充劑使用時，需要注意毒素紅曲霉素的含量。\n小林製藥在這個問題上已開始自願回收相關的保健食品，厚生勞動省也在考慮採取應對措施。"
             ],
             "keywords": [
                 "5",
                 "212"
             ],
+            "answer_correctness": 0.728065660075518,
             "passed": false
         },
         {
-            "metadata": {},
+            "metadata": {
+                "id": 16,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/business_consulting.csv",
+                "language": "ru"
+            },
             "question": "Если Евросоюз решит \"отцепиться\" от Китая, какое влияние это окажет на экономику Германии?",
             "answer": "Если Евросоюз решит \"отцепиться\" от Китая, это окажет значительное негативное влияние на экономику Германии. Вот основные причины:\n\n\nКитай является крупнейшим торговым партнером Германии. В 2022 году товарооборот между двумя странами составил около 298 млрд евро.4 Разрыв торговых связей нанесет серьезный удар по немецкому экспорту и импорту.\n\n\nМногие крупные немецкие компании, такие как Volkswagen, BMW, Siemens и другие, имеют производственные мощности в Китае и зависят от этого рынка.4 Потеря китайского рынка сильно ударит по их прибылям.\n\n\nКитай является одним из крупнейших держателей государственных облигаций Германии на сумму около 200 млрд евро.4 Продажа этих облигаций может повысить стоимость заимствований для Германии.\n\n\nНарушение производственных цепочек и логистических связей с Китаем приведет к росту издержек и дефициту комплектующих для немецкой промышленности.4\n\n\nПотеря китайского рынка негативно скажется на немецком экспорте автомобилей, машиностроительной продукции, электроники и химической промышленности, что является основой экономики Германии.4\n\n\nТаким образом, разрыв экономических связей с Китаем может привести к серьезному спаду в ключевых отраслях немецкой экономики, росту безработицы и снижению ВВП страны.4",
             "ground_truths": [
@@ -205,10 +301,16 @@
             "keywords": [
                 "1%||5%||1.5%"
             ],
+            "answer_correctness": 0.5556942569204704,
             "passed": false
         },
         {
-            "metadata": {},
+            "metadata": {
+                "id": 17,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/business_consulting.csv",
+                "language": "ja"
+            },
             "question": "虎ノ門ヒルズフォーラム",
             "answer": "虎ノ門ヒルズフォーラムは、東京都港区虎ノ門にある大規模な会議施設です。\n施設概要\n\nメインホールやホールA、複数のミーティングルームを備えた多目的ホール4\n700名規模のセミナーやパーティーが可能4\n分割利用により4トラックの同時開催が可能4\n\nアクセス\n東京メトロ日比谷線「虎ノ門ヒルズ駅」から\n\nB1出口またはA1b出口から徒歩でアクセス3\n\n東京メトロ銀座線「虎ノ門駅」から\n\nB1出口またはB4出口から徒歩でアクセス35\n\nその他\n\n東京メトロ千代田線・丸ノ内線「霞ヶ関駅」A12出口から徒歩8分3\nJR「新橋駅」烏森口から徒歩11分3\n車では首都高速から約5分と好アクセス23\n\n虎ノ門ヒルズは複数の高層ビルで構成される大規模開発地区で、フォーラムはその中核施設の一つとなっています123。",
             "ground_truths": [
@@ -218,10 +320,16 @@
                 "590m²",
                 "虎门山森大厦||虎ノ門ヒルズ森タワー"
             ],
+            "answer_correctness": 0.6623405276294194,
             "passed": true
         },
         {
-            "metadata": {},
+            "metadata": {
+                "id": 18,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/business_consulting.csv",
+                "language": "zh_tw"
+            },
             "question": "腾訊的天使投資者叫什麼名字？",
             "answer": "根据搜索结果1和2的内容,腾讯的天使投资者是IDG和盈科(Naspers)。\n具体来说:\n1提到\"2000年4月,腾讯与IDG及盈科敲定了救命的220万美元天使投资。\"\n2也提及\"绝望中的腾讯,终于辗转找到了一家风险投资公司。2000年4月,腾讯与IDG及盈科敲定了救命的220万美元天使投资。\"\n因此,腾讯的天使投资者是美国风险投资公司IDG和南非多媒体集团Naspers旗下的风投公司盈科(Naspers)。12",
             "ground_truths": [
@@ -230,10 +338,16 @@
             "keywords": [
                 "劉曉松||IDG||香港盈科||MIH||曾李青"
             ],
+            "answer_correctness": 0.627966281259098,
             "passed": true
         },
         {
-            "metadata": {},
+            "metadata": {
+                "id": 19,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/business_consulting.csv",
+                "language": "zh_tw"
+            },
             "question": "华为2023年营收情况？",
             "answer": "根据华为2023年年度报告,华为2023年实现全球销售收入7042亿元人民币,同比增长9.63%。134其中,ICT基础设施业务实现销售收入3620亿元,同比增长2.3%;终端业务实现销售收入2515亿元,同比增长17.3%;云计算业务实现销售收入553亿元,同比增长21.9%;数字能源业务实现销售收入526亿元,同比增长3.5%;智能汽车解决方案业务实现销售收入47亿元,同比大幅增长128.1%。14\n华为2023年净利润为870亿元人民币,同比大幅增长144.38%。35华为重视研发投入,2023年研发投入达1647亿元,占全年收入的23.4%,十年累计研发投入超过1.11万亿元。134\n总的来说,华为2023年整体经营情况符合预期,销售收入和净利润均实现增长,研发投入持续加大。1345",
             "ground_truths": [
@@ -243,18 +357,25 @@
                 "7042||7",
                 "042"
             ],
+            "answer_correctness": 0.8576711473822903,
             "passed": true
         },
         {
-            "metadata": {},
+            "metadata": {
+                "id": 20,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/business_consulting.csv",
+                "language": "ja"
+            },
             "question": "光通信社の株式コードは何ですか？",
             "answer": "光通信株式会社の株式コードは9435です。145\r\n株式コードの確認\r\n複数の信頼できるウェブサイトで、光通信株式会社の株式コードが9435であることが確認できます。\r\n\r\n\r\n光通信の会社概要ページ1では、「上場証券取引所 東京証券取引所 プライム市場（株式コード：9435）」と記載されています。\r\n\r\n\r\nYahoo!ファイナンス4の光通信の株価ページでも、コード9435で取り扱われていることがわかります。\r\n\r\n\r\nみんかぶ5の光通信の株取引ページでも、同様にコード9435が使用されています。\r\n\r\n\r\nしたがって、光通信株式会社の正式な株式コードは9435であると確認できます。",
             "ground_truths": [
-                "販売力と顧客基盤: 光通信社の強みは「販売力」であり、その裏には強力な「顧客基盤」「販売網」があります。特に、光通信社は「法人90万社、個人120万人の基盤がある。特に中小企業が多い」という強固な顧客基盤を持っています。\n業績の強さ: 光通信社の業績は絶好調で、前2017年3月期は営業利益が10％増の415億円となり、今2018年3月期も同11％増の465億円と2ケタ成長を着実に達成しそうだ。\n投資戦略: 光通信社は長期的な収益力のある会社に株価が割安な段階から戦略的に投資しているように見えます。これにより、光通信社はその投資先にも注目できそうです。"
+                "光通信社の株式コードは「9435」です"
             ],
             "keywords": [
                 "9435"
             ],
+            "answer_correctness": 0.6405090927290653,
             "passed": true
         }
     ]
