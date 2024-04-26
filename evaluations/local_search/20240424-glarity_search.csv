@@ -1,77 +1,136 @@
 metadata,question,answer,ground_truths,keywords,answer_correctness,passed
-"{'id': 1, 'scene': 'local_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/local_search.csv', 'language': 'zh_cn'}",本来无一物何处惹尘埃的完整诗句是什么？,"""本来无一物，何处惹尘埃""是出自唐代惠能的《菩提偈》中的一句。这句诗表达了一种哲学思想，意指本来世界和心都是空无的，因此何处会有尘埃寄托。全文的《菩提偈》包括以下内容：
+"{'id': 1, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/products_search.csv', 'language': 'ko'}",UN100D는 어떤 프로세서를 장착하고 있나요?,"MINISFORUM UN100D 미니 PC는 Intel의 최신 제품 중 하나인 12세대 Alder Lake N100 프로세서를 장착하고 있습니다. 이 프로세서는 4코어 4쓰레드를 제공하며 최대 3.4GHz까지 동작할 수 있습니다. 또한 6MB의 스마트 캐시를 갖추고 있어서 안정적인 성능을 제공합니다.
 
-```
-菩提本无树，明镜亦非台。
-本来无一物，何处惹尘埃！
-菩提只向心觅，何劳向外求玄？
-听说依此修行，西方只在目前！
-```
+따라서 UN100D는 비교적 높은 성능을 제공하는 프로세서를 장착하고 있어 기본적인 컴퓨터 작업 및 작은 규모의 업무에 적합한 미니 PC로 평가됩니다.","['UN100D는 Intel N100 프로세서를 탑재하고 있습니다. 이 프로세서는 4코어 4스레드를 갖추고 있으며, Intel 7nm 공정으로 제작되었으며 TDP는 6W이며 최대 터보 부스트 클럭은 3.4 GHz입니다. 저전력 프로세서를 사용하기 때문에 기본 사무 작업에 적합하지만 고급 게임에는 적합하지 않습니다.']",['N100'],0.7108680772340356,True
+"{'id': 2, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/products_search.csv', 'language': 'zh_cn'}",海狮07 EV两驱版最高车速是多少？,根据相关报道，比亚迪海狮07 EV两驱版的最高车速为225公里/小时. 这种速度在电动车领域中属于较高水平，展现了海狮07 EV在性能方面的优势。,['海狮07 EV两驱版的最高车速为225km/h'],['225'],0.7240768410962162,True
+"{'id': 3, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/products_search.csv', 'language': 'zh_tw'}",大疆發布 Avata 2 無人機的電池容量是多少mAh？,根據搜索結果，大疆推出的 Avata 2 無人機的電池容量為 2150 mAh. 與先前的 Avata 無人機相比，Avata 2 在電池容量上稍微較小，Avata 為 2420 mAh.雖然 Avata 2 電池容量較小，但其仍能在性能和充電時間上提供優勢，並在45分鐘內實現從0％到100％的充電. 而相較之下，Avata 無人機需要超過兩個小時才能完全充電.,['大疆發布的Avata 2無人機的電池容量為3400毫安時（mAh）。'],['3400'],0.8391826581573019,False
+"{'id': 4, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/products_search.csv', 'language': 'ko'}",갤럭시 S24의 화면 해상도는 어떻게 되나요?,"갤럭시 S24의 화면 해상도는 모델에 따라 다르게 설정되어 있습니다. 갤럭시 S24 시리즈 중에서 S24 Ultra는 6.8인치 Dynamic AMOLED 2X 화면을 사용하며, QHD+ 해상도인 3120 x 1440 픽셀을 지원합니다. S24+ 모델은 6.7인치 Dynamic AMOLED 2X 디스플레이를 갖추고, QHD 해상도인 3120 x 1440 픽셀을 제공합니다. 마지막으로, 갤럭시 S24는 6.2인치 Dynamic AMOLED 2X 화면을 탑재하며, FHD+ 해상도인 2340 x 1080 픽셀을 가지고 있습니다. 
 
-这首偈语强调了佛性的清净和内心本源的寻觅，告诫人们不要向外追求佛理的奥秘，而是在内心寻找真理，在当下修行达到极乐的境界。","['这句诗句出自唐代禅宗六祖慧能的《菩提偈》。完整的诗句是:""菩提本无树，明镜亦非台。\n本来无一物，何处惹尘埃!""']","['菩提本无树', '明镜亦非台']",0.6931657707636892,True
-"{'id': 2, 'scene': 'local_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/local_search.csv', 'language': 'zh_cn'}",福建晋江灵水中学一初中女生遭霸凌跳楼去世是什么时候？,福建晋江灵水中学一初中女生遭霸凌跳楼去世的事件发生在2024年3月24日。据报道，这名女生在当天22时许被发现从租住处坠楼，经送医抢救无效后不幸身亡。这一事件引起了社会的广泛关注和愤慨，因为据称该女生长期遭受同学的欺凌和勒索，最终导致了这样悲剧的结局。家属和群众展开抗议活动，并对学校和教师的不作为提出质疑。该事件也促使当地教育部门和公安机关介入调查并采取行动，以防范和制止类似欺凌事件的再次发生。,['2024福建晋江灵水中学一初中女生遭霸凌跳楼去世的事件发生在2024年3月24日22时。'],['March 24||2024/3/24'],0.597918538163583,True
-"{'id': 3, 'scene': 'local_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/local_search.csv', 'language': 'zh_cn'}",那歌鱼是海鱼吗？,"根据搜索结果，""那歌鱼""可能指代一些不同的含义。首先，根据""[1]""中提到的信息，那歌鱼可能是一种冷冻的海鱼产品，其中有关""Song Fish""品牌的介绍表明该品牌涵盖了各种海产品，并提供经济实惠的生鲜和加工海鲜。另外，""那歌鱼""在中文中也可能指代一种特定的海洋生物。
+해상도 설정에 따라 화면 해상도를 변경할 수 있는데, 업그레이드된 모델인 S24+와 S24 Ultra는 QHD+ 해상도를 지원하여 고해상도의 선명한 화면을 제공합니다. 이러한 화면 해상도 설정은 사용자의 화질 선호와 배터리 수명을 고려하여 선택할 수 있습니다. 
 
-从商业角度来看，""那歌鱼""作为品牌名，是一种可靠的标志，代表着优质和有保障的海鲜产品。这个品牌旨在提供经济实惠的海鲜产品，保持高质量，主要以批发形式销售，从而提供具有竞争力的价格并保证质量。
+더불어, 특정 모델인 S24 Ultra의 경우, 화면 해상도를 FHD+에서 QHD+로 변경하는 설정 방법을 알려주는 자세한 안내도 제공됩니다. 설정을 통해 사용자는 선명한 화질과 고해상도를 선택할 수 있습니다.",['갤럭시 S24 기본 모델의 화면 해상도는 2340 x 1080 픽셀입니다'],"['2340', '1080']",0.5547694402790146,True
+"{'id': 5, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/products_search.csv', 'language': 'ko'}",ThinkPad L13 Gen3에는 몇 개의 Type-C 포트가 있나요?,"ThinkPad L13 Gen3에는 두 개의 Type-C 포트가 있습니다. 두 개의 USB 3.2 Gen 1 Type-C 포트가 있으며, 둘 다 USB Power Delivery를 지원합니다. 이는 충전 어댑터가 오픈마켓 기준 45W 또는 레노버 공식 사이트에서는 65W를 제공하므로 보조배터리를 통해 충전할 수 있음을 의미합니다. 또한 삼성 갤럭시 S10 5G 충전기로도 노트북을 충전할 수 있는데, 이는 휴대폰 충전기로 노트북 충전이 가능하다는 편리한 기능을 제공합니다. 이러한 포트 구성은 사용자들이 전원 및 데이터 연결을 편리하게 관리할 수 있도록 합니다.",['ThinkPad L13 Gen3에는 USB 3.2 Gen 2 Type-C 포트 한 개와 USB 3.2 Gen 1 Type-C 포트 한 개가 있습니다.'],['Gen 2'],0.6567638055622725,False
+"{'id': 6, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/products_search.csv', 'language': 'ja'}",「IKU×MIRU」ご利用方法？,"「IKU×MIRU」はHISが提供するオンライン体験ツアー見放題サービスです。ご利用方法は以下の手順に従います:
 
-另外，在中文中，""那歌鱼""可能是指一种具体的海洋生物，但具体种类需要更多上下文或信息来明确。在搜索结果中并没有提供关于特定""那歌鱼""物种的详细信息。如果想要了解""那歌鱼""是否是一种海鱼，可能需要查阅更多关于""那歌鱼""的生物学分类或相关描述的资料。",['是的，那歌鱼是海鱼。'],['是||Yes'],0.7617265803754052,True
-"{'id': 4, 'scene': 'local_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/local_search.csv', 'language': 'zh_cn'}",四面楚歌的主人公是谁？,"**四面楚歌**是一个著名的成语，形容陷入四面受敌、孤立无援的境地。成语来源于中国古代历史，其中主人公是**项羽**。项羽是中国历史上著名的军事将领和政治家，在楚汉战争时期扮演了重要角色。公元前203年，项羽率领楚军与刘邦军队作战，但最终在巨鹿之战中惨败，导致四面受敌、孤立无援的窘境，从而形成了“四面楚歌”的典故。在战败的情况下，项羽听到四面皆楚歌，误以为刘邦已全面占领楚地，导致绝望和自刎于江边的结局。项羽的遭遇成为后人反复吟唱的故事，引发了许多人的感慨。
+1. **マイページ登録／ログイン**: 
+   - まずはマイページを登録するか既に持っている方はログインします。
 
-这个成语所描述的境况，也反映了项羽这位历史人物的悲剧命运。刘邦善于识人用人，招纳战略谋士和将领，最终在楚汉之争中获得胜利，建立了西汉王朝。与刘邦不同，项羽因个人野心和失败策略，最终落得悲惨的下场。这段历史故事也反映了智慧与策略在战争中的重要性，以及一个人如何因自身行为决定命运的转折。
+2. **IKU×MIRUを申し込む**:
+   - ご希望の料金プランを申し込みします。オンライン予約またはマイページからお手続き可能です。
 
-总之，四面楚歌的主人公是项羽，这个成语通过项羽的历史遭遇告诉人们在困境中的处境，呈现出悲壮而耐人寻味的历史画面。",['四面楚歌的主人公是西楚霸王项羽。'],['项羽'],0.601521639244359,True
-"{'id': 5, 'scene': 'local_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/local_search.csv', 'language': 'zh_cn'}",跟领导吃饭座位安排图,"根据搜索结果，关于领导吃饭座位安排图的查询，有以下几种可能的解释：
+3. **対象コースを探す**:
+   - アイコンでIKU×MIRU対象コースを選択します。対象コースは様々なラインアップがあります。
 
-1. **会议和宴席座次安排图**：
-   - 在会议和宴席场合，座次排列是有一定规范的。例如，主要领导通常坐在中间位置，2号领导坐在1号领导的左手位置，3号领导坐在1号领导的右手位置。这种座次排列可以根据领导人数是单数还是双数而有所不同。
+4. **対象コースを予約**:
+   - 参加日を選択し、「予約手続きに進む」をクリックします。
 
-2. **领导圆桌吃饭座位安排**：
-   - 对于领导圆桌吃饭的座位安排，通常也有一定的规范。虽然具体排列可能因地域、文化背景或特定场合而异，但一般是按照一定的顺序和优先级来安排坐席，以体现尊重和组织性。
+5. **規定・注意事項の確認**:
+   - キャンセル規定や注意事項を必ず確認し、「同意する」を選択します。
 
-对于特定的活动或场合，座次的安排可能因文化、传统或个别喜好而异。因此，在确定座次时，最好参考相关规范或当地习俗，以确保合适的座位安排，表现出对领导的尊重和礼仪。",['中餐宴请座次安排\n主陪(通常是领导)坐在面对大门的位置\n副主陪(通常是主陪的助手)坐在主陪的对面\n1号客人坐在主陪的右手边\n2号客人坐在主陪的左手边\n3号客人坐在副主陪的右手边\n4号客人坐在副主陪的左手边\n其他客人可以随意安排'],['右||right-hand'],0.525041792606274,True
-"{'id': 6, 'scene': 'local_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/local_search.csv', 'language': 'zh_cn'}",风水轮流转同义词有哪些？,"风水轮流转是一个常用的成语，它传达了命运变化无常、时来运转的含义。在汉语中，有一些与“风水轮流转”意思相近的成语和短语。根据搜索结果，以下是一些与“风水轮流转”含义相近的同义词和短语：
+6. **お客様情報の確認**:
+   - 表示された情報を確認し、ご予約を完了します。
 
-1. 三十年河东三十年河西
-2. 此一时彼一时
-3. 一朝天子一朝臣
-4. 沧海桑田
-5. 时来运转
-6. 塞翁失马焉知非福
+IKU×MIRUを利用してオンライン体験ツアーに参加する際、マイページへのログインが必要です。また、クーポンコードを使用して期限内に申し込むことが重要で、クーポンコードの無断複製・転載は固く禁止されています。無料体験後は月額料金が発生することに留意し、必要に応じてマイページから解約が可能です。ご利用の際には注意事項をよく確認し、スムーズにオンライン体験ツアーを楽しむことができます。",['契約後、My HISモバイルにログインし、「特典一覧・お申込みはこちらをご確認ください。」のリンクをクリックして、「特典一覧」を確認します。\n「特典一覧」内には、IKU×MIRUのクーポンコードが掲載されています。このコードをコピーしておきます。\nIKU×MIRUを利用するためには、特典一覧に掲載されている登録ページでクーポンを使って月間プランを申し込みます。\n月間プランを申し込んだ後、IKU×MIRU登録のメールアドレスで見放題対象コースを予約します。\n予約が完了すると、参加方法についてのメールが送られてきます。\n注意点として、クーポンコードは特典一覧に掲載されているIKU×MIRUの登録ページでのみ使用可能です。一般のHIS WEBサイトでは使用できません。また、IKU×MIRUの見放題サービスは自動継続されるため、無料期間終了後に料金が発生します。解約を希望する場合は、お申し込み日から30日目の22:59までに解約することで料金が発生しないことにご注意ください。'],['特典一覧||クーポン||Special Benefits||Coupon '],0.6380523151372604,False
+"{'id': 7, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/products_search.csv', 'language': 'ja'}",His Mobileの440パッケージの5GBのデータはいくらですか？,"His Mobileの440パッケージは、主にデータ通信に焦点を当てた格安SIMプランで、1GBあたり440円から利用可能です。このプランにおいて5GBのデータを利用する場合、料金は月額いくらかについて、具体的な情報を提供いたします。
 
-这些成语和短语都表达了人生变化无常、时运不济、时来运转的意思，与“风水轮流转”有着类似的含义。因此，在表达类似概念时，可以选择使用这些同义词和短语来传达相似的含义。",['风水轮流转的同义词包括“否极泰来”、“物极必反”、“柳暗花明”、“绝处逢生”、“苦尽甘来”和“绝地反击”。其他类似的词还有“三十年河东三十年河西”、“风水轮流”和“十年河东十年河西”。'],['三十年河东||咸鱼翻身||苦尽甘来||时来运转||此一时彼一时||时来运转||枯木逢春'],0.7612133684238205,True
-"{'id': 7, 'scene': 'local_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/local_search.csv', 'language': 'zh_cn'}",珠海华融时代广场多少米？,"珠海华融时代广场的高度是196米.该广场位于珠海城市主干道拱北迎宾路与粤海路交汇处，地理位置极为优越.该建筑在珠海市中独具地标意义，原规划是打造成珠海的第一高楼.项目曾命名为金山时代广场,由于其独特的地理位置和标志性的高度，成为了珠海这一地区的重要建筑物。",['珠海华融时代广场的建筑高度为196米。'],['196'],0.6153463906514848,True
-"{'id': 8, 'scene': 'local_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/local_search.csv', 'language': 'zh_cn'}",相亲时媒婆说女方长得有福气，这是什么意思？,"相亲时媒婆说女方长得有福气，通常是一种委婉说法，具有特殊的含义。在这种情况下，“长得有福气”意味着女方相貌可能不是典型的美丽或时尚，而是更着重于个人特质和品质。这种说法可能指的是女方面容朴实、舒适，看起来亲和可靠，给人一种安全感。实际上，这种说法可能是在避免直接评论女方的外貌，而是更加关注内在的品德和人格特质。
+His Mobileのデータ定額440プランは1GBで月額440円から利用可能であり、5GBのデータを利用する場合、合計料金は1,980円となります. このプランは他社と比較してもデータ量が豊富で、価格的にもお得な選択肢と言えます。
 
-这种说法的背后可能暗示着对女方某些方面的理解和认可，如稳重、贤惠、善良等特质，而不是只看重外貌。因此，媒婆用“长得有福气”来描述女方时，旨在传达女方可能拥有吸引人的内在特质和个性，而非仅仅是外表的吸引力。",['相亲时媒婆说女方长得有福气，通常指女方看起来健康、体态丰满、体型偏胖。'],['胖||吃||丰满'],0.6832949819959138,False
-"{'id': 9, 'scene': 'local_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/local_search.csv', 'language': 'zh_cn'}",为什么工地开工要祭拜？,"工地开工进行祭拜的做法源自传统文化和风俗习惯。祭拜在土地、神灵、鬼神等方面的主要目的是为了祈求保佑和祝福，让工程能够顺利进行并完成，同时也是为了避免冒犯神灵和煞神，保证工程的顺利进行。祭拜过程中通常会献上贡品，点香、烧纸钱等，以示诚心和尊重。一些地方还会祭拜地基主，祈求土地神的庇佑和保佑。
+格安SIMプランを検討している場合、His Mobileのデータ定額440プランはおすすめできる選択肢です。1GBあたりの料金が安く、5GBのデータ利用でも費用を抑えることができます。料金とデータ量をバランスよく考えた上で、自分に最適なプランを選択することが重要です。",['HISモバイルのデータ定額440プランの5GBのデータは、月額料金で880円（税込）です。このプランでは、毎月5GBのデータ通信を利用することができます。料金は定額で一定なので、安心してご利用いただけます。'],['880'],0.5864030571074611,False
+"{'id': 7, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/products_search.csv', 'language': 'ja'}",HISモバイルのデータ定額440プラン（月額880円）に含まれる月間データ量は？,HISモバイルのデータ定額440プランには、月間データ量として7GBが含まれています. このプランは、月額880円で7GBのデータ通信が提供されるデータ通信専用プランです. 追加のデータ通信量が必要な場合は、1GBあたり200円で購入可能であり、最大100GBまで利用が可能です. また、データ通信はdocomo回線を使用し、通信方式は4G・LTEとなっています.,['HISモバイルのデータ定額440プランで月額880円の場合、含まれる月間データ量は7GBです。'],['7||5'],0.788515772948277,True
+"{'id': 9, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/products_search.csv', 'language': 'zh_tw'}",華為ADS 2.0 先進在哪裡？,"華為ADS 2.0是一項先進的自動駕駛系統，它在多個方面展現了技術上的優勢。根據資訊顯示，華為ADS 2.0具有以下特點和優勢：
 
-在祭拜过程中，施工团队会进行一系列仪式，如宣读祭文、献茶、酒、燃香、烧纸钱等，以表示对神灵的尊敬和诚心祈求。此外，开工祭拜也被认为是一种传统仪式，能够凝聚团队的向心力，增强信心和凝聚力，为工程顺利开展提供了一种精神支持。
+1. **功能特色**：ADS 2.0包含自動泊車和代客泊車等新功能，使車輛使用更加便利和方便。
+   
+2. **軟硬件升級**：華為ADS 2.0通過硬件和軟件升級來實現，搭載華為自主開發的處理器計算平台，提供更快的數據處理和決策速度。此外，系統配備更多的感應器，使其能夠更全面地觀察周圍環境。
 
-总的来说，工地开工祭拜是一种尊重传统、祈求保佑和顺利完成工程的仪式。这种做法在中国传统文化中具有深厚的历史渊源，并被广泛认为可以带来好运和平安。",['工地开工要祭拜的原因主要是为了向土地神灵、过往鬼魂以及凶神恶煞告知即将在此地兴工建宅，避免冒犯这些神灵和鬼魂，同时请求他们的协助，希望工程能够顺利开展，并驱逐可能存在的煞气和秽气。此外，烧香祭拜是一种与神明连接的桥梁，通过这种方式表达对神明的敬意和祈求保佑'],['神||鬼'],0.6933509443666789,True
-"{'id': 10, 'scene': 'local_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/local_search.csv', 'language': 'zh_cn'}",巴浪鱼是哪里的方言？,巴浪鱼是福建地区的方言称谓。它是一种近海暖水性中上层鱼类，学名为蓝圆鲹，分布于南海、东海和黄海等地. 这种鱼在不同地区也有其他称呼，如棍子鱼、滚子鱼、黄占等。在汕头话中，可能有与巴浪鱼相关的词汇“咸巴卵”。对于这种鱼的名称，不同地区可能会有不同的方言称谓。,['巴浪鱼是福建和潮汕地区的方言。'],['潮汕||福建||福州'],0.7226434744573308,True
-"{'id': 11, 'scene': 'local_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/local_search.csv', 'language': 'zh_cn'}",跟领导吃饭，转盘是顺时针转，还是逆时针转？,"在与领导一起用餐时，通常转盘应该顺时针转动。这种做法显示了对领导的尊重和关注. 顺时针转盘是一种常见的礼仪举止，也有助于确保用餐顺畅有序。在转盘上菜时，首先应该转到主宾或长者面前，让他们先品尝. 这种顺时针转动的规矩在许多场合都被认为是礼貌的表现，符合传统礼仪的要求。然而，在一些特殊情况下，比如殡仪馆的告别仪式，则是逆时针转动.  
+3. **技術優勢**：ADS 2.0利用深度學習、感知、決策和控制等多種技術，使系統在速度、導航、泊車和安全等方面都有顯著的優勢。
 
-总的来说，在与领导进餐时，遵循顺时针转盘的礼仪是一个好的做法，表现出对领导的尊重，也有助于维持用餐的秩序和礼貌。",['跟领导吃饭时，转盘应该顺时针转。'],['顺时针||turn clockwise'],0.691615229541498,True
-"{'id': 12, 'scene': 'local_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/local_search.csv', 'language': 'zh_cn'}",黄花大闺女黄花是指什么花？,"黄花大闺女中的“黄花”指的是古代女性在额前的一种装饰，又称为“花黄”。这一习俗起源于南北朝时期，盛行于隋唐时代。女性喜欢用黄色的粉末在额头上画出花鸟形状，或者用金黄色纸剪成花鸟形状贴在额头上，称之为“花黄”。.
+此外，ADS 2.0在測試中在高速性能方面遙遙領先特斯拉等競爭對手，表現出非常先進的技術實力。综合來看，華為ADS 2.0的先進之處體現在其豐富的功能特色、技術升級以及在自動駕駛領域的技術優勢。",['ADS 2.0系統的先進之處主要體現在以下幾個方面：\n創新性的激光融合GOD網絡：ADS 2.0搭載了業界首創的激光融合GOD網絡，能夠精準識別異形障礙物，如側翻車輛、掉落的大紙箱、落石、倒地大樹等，提高了駕駛的安全性。\n多傳感融合：通過激光雷達、毫米波雷達、攝像頭等多傳感融合的感知，即使在沒有高精地圖的情況下，也能對道路元素進行識別和理解，提高了駕駛的準確性和可靠性。\n覆蓋廣泛的城區高階智能駕駛場景：ADS 2.0系統可以覆蓋90%城區場景，讓日常通勤更加舒心。在複雜的交通路口、人車混行的場景中，系統能夠順利通行，主動超車換道、脫困換道，大大提升了出行效率。'],['GOD&||不依賴高精地圖||沒有高精地圖||无高精地图||不需高精地圖'],0.5573174920761368,True
+"{'id': 10, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/products_search.csv', 'language': 'zh_tw'}",馬自達J90A是新能源車嗎？,"根据搜索结果，马自达J90A被认为是一款新能源车型。长安马自达计划在2024年推出代号为J90A的车型，该车是基于长安EPA混动平台打造的SUV，具有纯电和增程动力的特点。此外，J90A也被描述为与理想L系列和问界M家族竞争的车型。该车预计将延续马自达的“魂动”设计语言，并具备先进的智能座舱和智能驾驶功能。J90A有望在北京车展上正式亮相。因此，从种种迹象来看，马自达J90A被认为是一款新能源车型。
 
-一个美丽的传说涉及到南北朝时期的刘宋寿阳公主。相传，寿阳公主有一次睡在含章殿檐下，梅花恰好落在她的额头上，使得额头形成梅花印记。从此，寿阳公主经常将梅花贴在额前，宫人们也纷纷效仿，发展出了贴花黄的习俗，即在女孩额头上贴花鸟形状的装饰。这种习俗流行后，未婚女孩就被称为“黄花大闺女”. 
+总的来说，马自达J90A代表着长安马自达在进入新能源领域的一次重要尝试，旨在应对燃油车销量下滑的挑战。该车型的推出显示了马自达对新能源技术的重视，并展示了他们在适应市场需求和未来发展方向上的努力。随着全球汽车市场向电气化转变，马自达加快了在新能源领域的布局，而J90A作为其新能源车型之一，将为消费者带来更多选择，并为公司赢得更广泛的市场份额。",['是的，馬自達J90A是一款新能源車。'],['是||Yes'],0.5870783657655757,True
+"{'id': 11, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/products_search.csv', 'language': 'en'}",Key features and specifications about rabbit r1,"The Rabbit R1 is a cutting-edge AI device that offers a unique blend of features and specifications. Here is a summary of the key features and specifications of the Rabbit R1 based on the information available:
 
-总而言之，“黄花”在“黄花大闺女”这一词汇中代表了古代女性使用黄色装饰的习俗，源自于南北朝刘宋寿阳公主的梅花妆传说，成为代表未出嫁女孩的特有称谓。","['""黄花大闺女""中的""黄花""通常指的是菊花。古代中国认为菊花能傲霜耐寒，是高洁雅致的象征，因此用""黄花""来代表未出嫁的少女。']",['菊花'],0.7472088758031422,False
-"{'id': 13, 'scene': 'local_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/local_search.csv', 'language': 'zh_tw'}",卧薪嘗膽的主人公是誰？,卧薪尝胆的主人公是越王勾践。这个成语形容一个人忍辱负重，发愤图强，最终苦尽甘来。根据史记记载，越王勾践在被俘至吴国后，苦心忍耐三年，最终成功回国后发动反击，灭吴复国。他以卧薪尝胆的方式警醒自己不忘过去的耻辱，通过艰苦奋斗和立志复国的精神，最终实现了战胜敌人的目标.,['卧薪嘗膽的主人公是越王勾踐。'],['勾踐'],0.6998849927672453,True
-"{'id': 14, 'scene': 'local_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/local_search.csv', 'language': 'zh_cn'}",相亲时媒婆说男方会疼人，这是什么意思？,"在相亲时，媒婆说男方会""疼人""通常指男方善待女方，关心体贴，尊重对方的感受和需求。这种说法表达了男方具有体贴温暖的品质，愿意在关系中给予女方更多关爱和呵护。这种描述可能意味着男方在感情关系中会表现得细心、体贴，尊重女方的感受，关注她的需要，并在生活中给予她支持和关爱。这种描述可以被视为积极的品质，暗示着男方有可能是一个善良、贴心的伴侣。
+**Key Features:**
 
-媒婆在相亲过程中的表述通常是为了介绍双方优点、性格特质以及相互间的匹配程度。当媒婆说男方会""疼人""时，她可能是在强调男方的关怀和体贴，以此作为一个吸引女方的优势特质。这种表述有助于女方了解男方的性格特点，为双方未来相处提供一定的参考。
+1. **Design**: The Rabbit R1 is a compact and stylish device designed in collaboration with Teenage Engineering, known for their focus on aesthetics and functionality. It is about half the size of an iPhone, making it highly portable.
+   
+2. **Display**: The R1 features a 2.88-inch TFT touchscreen that offers a crisp and vibrant display despite its small size.
+   
+3. **Camera**: It is equipped with a rotating camera, called the Rabbit Eye, which can rotate 360 degrees and be used for photos, videos, or video calls. The camera also acts as a privacy shutter when not in use.
+   
+4. **User Interface**: The device features a user-friendly interface and can be controlled through voice commands using a push-to-talk button.
+   
+5. **Large Action Model (LAM)**: The Rabbit R1 incorporates a Large Action Model (LAM) that enables it to go beyond traditional AI assistants by taking action based on user commands rather than just providing information or responses.
 
-总的来说，媒婆说男方会“疼人”意味着男方在感情关系中可能会展现体贴、关怀和细心的一面，愿意为对方着想并给予关爱和支持。","['当媒婆说男方""很会疼人""时，这通常意味着一个警告信号，表示该男性可能是离异人士。']",['年纪大||离过婚||离婚||离异'],0.550157615390641,False
-"{'id': 15, 'scene': 'local_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/local_search.csv', 'language': 'ja'}",宮沢賢治にはどんな著作がありますか。,"宮沢賢治の代表作には、『銀河鉄道の夜』や『風の又三郎』といった作品があります。彼は日本文学を代表する作家であり、教科書に取り上げられるほど多くの童話や詩を残しています。生前に刊行された著書は、詩集『春と修羅』と童話集『注文の多い料理店』の2作品のみでしたが、没後に多くの未発表作品が評価されています。
+**Specifications:**
 
-宮沢賢治は、詩人や童話作家としてだけでなく、科学者や宗教家としても活動しました。彼の作品は、独創性と豊かな想像力に満ちており、特に彼の出身地である岩手県の自然や環境が作品に強く反映されています。宮沢賢治は詩や童話以外にも俳句や戯曲など多岐にわたるジャンルの作品を執筆し、その作風は言語感覚の優れたものでした。
+1. **Processor**: 2.3GHz MediaTek processor.
+   
+2. **Memory**: 4GB RAM.
+   
+3. **Storage**: 128GB internal storage.
+   
+4. **Camera**: 360-degree rotating camera for various uses.
+   
+5. **Battery Life**: All-day endurance, ensuring long-lasting usability.
+   
+6. **Connectivity**: 4G LTE SIM card slot for constant connectivity, as well as Wi-Fi connectivity.
+   
+7. **Navigation**: Includes an analog scroll wheel for easy navigation.
+   
+8. **Operating System**: Runs on Rabbit OS, a system that is powered by an innovative AI technology.
 
-彼の作品は、子供から大人まで幅広い層に愛されており、宮沢賢治の文学は現代でも多くの人々に愛読され続けています。特に『銀河鉄道の夜』や『注文の多い料理店』などの作品は、日本の名作文学として多くの人に親しまれています。宮沢賢治の作品は、その独特の世界観や言葉の響きが多くの読者に感動を与え、彼の文学的遺産は今なお多くの人々に影響を与え続けています.",['「注文の多い料理店」（1924年）: 宮沢賢治の代表作の一つであり、多くの人々に愛されています。物語は注文の多い料理店の主人と、その店を支える猫の心温まる交流を描いています。\n「雨ニモマケズ」（1931年）: 別名「雨にも負けず」で知られる作品で、風雨に負けない強い心を持つことの大切さを描いています。この作品も宮沢賢治の人気作品の一つです。\n「銀河鉄道の夜」（未定稿）: 未完の作品であり、賢治の死後に発見されました。銀河鉄道を舞台にした幻想的な物語で、多くの読者を魅了しています。\n「風の又三郎」（1934年）: 宮沢賢治が亡くなった後に出版された作品であり、風の音を聞くことのできる又三郎という少年の物語です。'],"['雨ニモマケズ', '注文の多い料理店', '銀河鉄道の夜', '風の又三郎']",0.7206488958756567,True
-"{'id': 16, 'scene': 'local_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/local_search.csv', 'language': 'ja'}",進撃の巨人はいつ発行されましたか？,"「進撃の巨人」は、2009年9月に講談社の別冊少年マガジンで連載が開始されました。作者である諫山創によって執筆され、壮大な世界観と物語が展開されています。巨人という巨大な人型の存在に囲まれた壁の中で人類が生活する世界を舞台に、エレン・イェーガーやミカサ・アッカーマン、アルミン・アルレルトといったキャラクターたちが中心に据えられています。彼らの物語が繰り広げられる中で、復讐と巨人からの世界奪還への誓いが描かれています。
+The Rabbit R1 stands out for its emphasis on a simplified and enhanced user experience, blending modern technology with a touch of nostalgia. Its unique design, advanced features, and focus on user interaction set it apart in the realm of AI devices, making it a compelling option for those seeking a different approach to AI assistants.","['The Rabbit R1 is a handheld AI-powered device. Here are some key features and specifications:\n Dimensions : 78mm*78mm*13mm / 3in*3in*0.5in¹\n Weight : 115g\n Battery Life and Charging Capabilities : 500 cycles > 80%, charging current 500mA, rate capacity 1000mAh\n Connectivity : Bluetooth 5.0 / Wi-Fi with 2.4GHz + 5GHz / 4G LTE\n Processor : MediaTek MT6765 Octa-core (Helio P35) max CPU frequency 2.3GHz\n Memory : 4GB\n Storage : 128GB\n Display : 2.88in TFT touchscreen\n Camera : 8MP, 3264x2448\n Video Resolution : 24fps, 1080p\n Operating Temperatures : 0°C - 45°C or 32ºF - 113ºF']",['115||2.88'],0.6634216143260561,True
+"{'id': 12, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/products_search.csv', 'language': 'ko'}",가정 도우미 로봇 Ballie는 어떤 기능이 있나요?,"삼성의 가정 도우미 로봇 Ballie는 다양한 기능을 갖추고 있습니다. 이 로봇은 일상적인 가정 업무를 처리하고 사용자의 요구에 맞는 맞춤형 서비스를 제공하기 위해 설계되었습니다. 몇 가지 주요 기능은 다음과 같습니다:
 
-このマンガは、2011年の講談社漫画賞少年部門を受賞するなど高い評価を受け、数々の賞にノミネートされました。2013年には年間で2番目に売れた漫画シリーズとなり、多くの読者を魅了しました。また、2012年6月から2021年10月まで、米国のKodansha Comics USAによって英語版として出版され、ハーヴェイ賞を受賞するなど国際的にも成功を収めています。",['「進撃の巨人」は、諫山創による日本の漫画作品で、2009年9月9日に発行が開始されました。そして、2021年4月9日に連載が完結しました。最新刊（34巻）は2021年6月9日に発売されました⁵。この作品は世界中で非常に人気があり、多くの派生作品が生まれています。'],['2009年9月'],0.7431437811059114,True
-"{'id': 17, 'scene': 'local_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/local_search.csv', 'language': 'zh_tw'}",三體中那個真正會魔法的妓女叫什麼？,在《三体》系列中，真正会魔法的那个妓女叫狄奥伦娜（Doluna）。这个角色出现在《三体Ⅲ：死神永生》开篇描述的一个中世纪战争故事中。狄奥伦娜声称自己具有神奇的魔法能力，被当时的统治者君士坦丁堡十一世招揽，但最终因任务失败而被杀害。她的出现引出了后续故事中与多维空间相关的情节。,['在《三體》系列中，真正會魔法的妓女被稱為狄奧倫娜（Diolena）. 狄奧倫娜是一位十五世紀拜占庭帝國時期的妓女，被描述為可能是人類歷史上唯一一個真正的魔法師. 這個角色引發了故事中關於多維空間和神秘力量的討論，是《三體》系列中引人注目的角色之一。'],['狄奧倫娜||Diolena'],0.6434937950927679,True
-"{'id': 18, 'scene': 'local_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/local_search.csv', 'language': 'ja'}",奥の細道は何年生まれですか。,奥の細道は、江戸時代の俳人である松尾芭蕉が尊敬する西行の五百年忌にあたる1689年（元禄2年）に実際に旅をして記した紀行文であり、奥の細道自体の生まれ年はこの年であると言えます。芭蕉は旅を通じて東北から北陸地方まで巡り、各地の様子を文章や俳句で綴った旅行記としてこの作品が生まれました。,['奥の細道の作者は、江戸時代の俳人である松尾芭蕉です。芭蕉は1644年に生まれました。'],['1644'],0.642115747180482,False
-"{'id': 19, 'scene': 'local_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/local_search.csv', 'language': 'ja'}",正岡子は何年に俳句革新運動に参加しましたか。,正岡子規は明治25年（1892年）に俳句の革新運動に参加しました。この年に新聞『日本』に「獺祭書屋俳話」を連載し、従軍記者として遼東半島に渡り、俳誌『ホトトギス』を指導するなど、俳句の世界に大きな貢献をしました。その後、子規は短歌の革新運動や写生論の提唱など、幅広い文学活動を展開しています。,['正岡子規は、1893年（明治26年）に「獺祭書屋俳話（だっさいしょおくはいわ）」を新聞『日本』に連載し、俳句革新運動を開始しました'],['1893'],0.5821909169962994,False
-"{'id': 20, 'scene': 'local_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/local_search.csv', 'language': 'ja'}",松尾芭蕉の父の名前は何ですか。,松尾芭蕉の父の名前は松尾与左衛門です。彼は地位の低い侍であり、書道の教師でもありました。与左衛門は一族の中で土豪である一方で、俳句の川柳を教えていたことでも知られています.,['松尾芭蕉の父の名前は松尾与左衛門です'],['松尾与左衛門'],0.995180066084512,True
+1. **자동 가정 관리 및 작업 완료**: Ballie는 집 안을 자율적으로 이동하며 다양한 작업을 수행할 수 있습니다. 이를 통해 집안의 스마트 기기들을 제어하고 다양한 업무를 처리합니다.
+
+2. **사용자의 패턴과 습관 학습**: 인공지능을 통해 Ballie는 사용자의 패턴과 습관을 지속적으로 학습하여 더 스마트하고 개인화된 서비스를 제공합니다. 이를 통해 사용자의 요구에 맞춤형 지원을 제공하며 일상을 더욱 편리하게 만듭니다.
+
+3. **애완동물 또는 가족 구성원 영상 업데이트**: Ballie는 집을 비울 때 애완동물이나 가족 구성원의 영상을 촬영하여 사용자의 모바일 기기로 전송합니다. 이를 통해 사용자는 집을 비운 채로도 가족이나 애완동물을 안전하게 확인할 수 있습니다.
+
+4. **상호작용 및 사용자 경험 향상**: Ballie는 단순한 로봇이 아닌 사용자와 감정적인 연결을 형성하기 위해 디자인되었습니다. 이를 통해 사용자와의 상호작용을 증진시키며 보다 풍부한 가정 경험을 제공합니다.
+
+5. **스마트 기기 제어**: Ballie는 집안의 다양한 스마트 기기들을 제어할 수 있어서, 커튼 조절이나 TV 채널 변경 등의 기능을 수행할 수 있습니다. 또한, 보안을 유지하고 집을 순찰하는 기능도 갖추고 있습니다. 
+
+이러한 다양한 기능을 통해 Ballie는 사용자의 일상을 더 편리하고 풍부하게 만들어주는 스마트 홈 도우미로 작용하고 있습니다.","['삼성의 가정 도우미 로봇 Ballie는 다음과 같은 기능을 갖추고 있습니다:\n개인 가정 보조 : Ballie는 집 안에서 자율적으로 이동하며 다양한 작업을 수행할 수 있습니다.\n스마트 기기 제어 : Ballie는 집에 있는 다른 스마트 기기를 연결하고 제어할 수 있습니다.\n개인화 서비스 : Ballie는 사용자의 행동과 습관을 자동으로 학습하고 개인화된 서비스를 제공합니다.\n원격 감시 : 사용자가 집을 비울 때 Ballie는 비디오로 애완동물이나 가족 구성원의 상황을 업데이트할 수 있습니다.\n프로젝션 아티스트 : Ballie는 바닥, 벽 또는 천장에 물체를 프로젝션할 수 있으며, 이는 애완동물을 위한 비디오 재생, 비디오 통화 표시, 운동 비디오 제공 등을 포함합니다.\n스마트 홈 어시스턴트 : Ballie는 조명 제어, 애완동물 음식 공급, 문자 메시지 전송, 에어컨, 세탁기 등의 기기를 제어할 수 있습니다.']",['가정 도우미||기기 제어||원격 감시||가정 어시스턴트||家庭助手||家庭助理||Home Assistant'],0.7556710510501066,True
+"{'id': 13, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/products_search.csv', 'language': 'en'}",maximum speed of Moonwalker in 2024,"In 2024, the Moonwalkers by Shift Robotics have a maximum speed of 7 miles per hour (11.2 kilometers per hour) . These AI-informed robotic shoes allow individuals to walk at a speed of a run, which is up to three times faster than normal walking pace . They are designed to offer users the ability to move quickly and efficiently, making them a unique and innovative mobility solution.
+
+The Moonwalkers are equipped with advanced technology that enables them to reach this impressive speed while maintaining user safety and comfort. These shoes are particularly useful for individuals who need to cover long distances quickly, making them suitable for various applications where speed and mobility are essential.
+
+It's worth noting that the Moonwalkers have a weight limit of 220 pounds to ensure optimal performance . This feature allows a wide range of individuals to benefit from the speed and convenience provided by these AI-informed robotic shoes.
+
+Overall, in 2024, the Moonwalkers offer a top speed of 7 miles per hour, making them a cutting-edge mobility solution for those looking to move faster and more efficiently in various settings.","['In 2024, the Moonwalkers, which are robotic shoes developed by Shift Robotics, have a top speed of up to 7 miles per hour (11.2 kilometers per hour).']",['7||11.2'],0.6749431735371353,True
+"{'id': 14, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/products_search.csv', 'language': 'ko'}",LG SIGNATURE OLED T 4K는 어떤 종류의 TV인가요?,"LG SIGNATURE OLED T 4K는 투명 타입의 TV입니다. LG의 시그니처 시리즈에 속하는 이 TV는 77인치의 4K 투명 OLED TV로, 투명 모드와 블랙 배경 모드로 전환할 수 있습니다. 투명 모드에서는 실제로 투명하게 보이며, 블랙 배경 모드에서는 일반 OLED TV처럼 작동합니다. 또한, LG의 Alpha 11 AI 프로세서를 탑재하고 있으며, LG의 Zero Connect 박스를 사용하여 거의 완전히 무선으로 구성되어 있습니다. 이 TV는 모듈식 디자인으로 제공되며, 스탠드얼론, 벽면에 붙이는 두 가지 옵션으로 제공되며, 고객은 화면 양쪽에 서 있거나 떠있는 선반을 추가하여 독특한 취향과 선호도에 맞게 맞춤화할 수 있습니다. 가격 또는 출시 날짜는 아직 공개되지 않았습니다.",['LG SIGNATURE OLED T 4K는 세계에서 최초로 출시된 무선 투명 OLED TV입니다.'],['투명||透明'],0.6508697943856985,True
+"{'id': 15, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/products_search.csv', 'language': 'ko'}",SQPV 유리,"""SQPV 유리""에 대해 알아보겠습니다.
+
+1. **SQPV란 무엇인가요?**
+SQPV는 Solar Quartz Photovoltaic의 약자로, 태양열을 이용하여 전기를 생산하는 기술을 말합니다. 이 기술을 활용한 유리는 가시광을 투과하면서 발전하며, 무색이면서도 태양빛을 전기로 변환하는 투명한 특성을 가지고 있습니다. SQPV 유리는 일반적인 창문과 유사한 투명도를 유지하면서도 차열성과 단열성이 우수하며, 건물 내부에 설치되어도 채광이나 시야를 해치지 않으면서 발전이 가능합니다.
+
+2. **주요 특징은 무엇인가요?**
+   - 표면, 뒷면, 대각선 면에서 어떤 각도에서든 태양광을 받아 발전 가능
+   - 희토류 등 고가의 재료를 사용하지 않음
+   - 북면이나 천장에서도 발전이 가능하여 다양한 장소에 활용 가능
+
+3. **활용분야는 무엇인가요?**
+   - 오피스 빌딩, 고층빌딩, 유리 하우스, 등 다양한 건물에서 사용 가능
+   - 일반 건물 창문부터 자동차, 온실, 건물 일체형 태양광 발전까지 활용도가 높음
+
+4. **최신 동향은 어떤가요?**
+최근 일본 스타트업인 inQs가 SQPV 글라스를 공개하며, 오피스 빌딩에서 유리를 통해 발전시키는 기술을 소개하고 있습니다. 또한, 지속가능성 부문에서 수상작으로 선정되어 관심을 받고 있는 제품 중 하나입니다.
+
+위 정보를 종합하면, SQPV 유리는 환경 친화적이며 효율적인 전기 생산을 위한 혁신적인 기술로, 건물 산업부터 태양광 발전소 등 다양한 분야에서 활용 가능한 유망한 솔루션이라고 볼 수 있습니다.",['SQPV 유리는 InQs 회사에서 개발한 혁신적인 투명 태양광 유리입니다. 이 기술은 태양광을 발전시키는 데 뿐만 아니라 보이지 않는 빛에서 에너지를 얻는 데에도 사용됩니다. 이는 어두운 실내 환경이나 흐린 날에도 효율적으로 작동할 수 있습니다.'],['InQs||발전||에너지||太阳能||电力'],0.7884155276303899,True
+"{'id': 16, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/products_search.csv', 'language': 'ko'}",BMind 거울이 제 불면증을 완화할 수 있을까요?,"BMind는 Baracoda사가 개발한 스마트 거울로, 스트레스 관리와 정신적 안녕을 위한 건강 동반자 역할을 합니다. 이 거울은 사용자의 기분을 파악하고 긍정적인 마음가짐을 유도하는 데 도움을 줄 수 있다고 주장됩니다. 따라서, BMind 거울은 불면증을 완화하는 데 도움이 될 수 있습니다. 거울이 사용자의 기분을 파악하고 긍정적인 삶 태도로 이끄는데 도움이 되므로, 이를 통해 스트레스 감소와 편안한 분위기 조성에 기여할 수 있습니다.
+
+BMind는 사생활을 존중하며 모든 정보를 로컬 저장하고 절대로 공유하지 않는다고 합니다. 따라서 개인정보 보호에 신경을 쓰며 안전하게 사용할 수 있습니다. 이러한 기능들을 통해 BMind는 불면증 증상 완화에 도움이 되며, 사용자의 기분을 개선하고 긍정적인 마음가짐을 유도할 수 있습니다. 
+
+불면증을 관리하는 데 도움이 되는 다른 전략도 있을 수 있습니다. 불면증은 운동, ASMR 듣기, 올바른 영양소 섭취 등을 통해 감소시킬 수 있는데, 이러한 다양한 방법을 함께 적용하는 것이 더 효과적일 수 있습니다. 그러므로, BMind 거울을 불면증 관리의 일환으로 활용하면 도움이 될 수 있지만, 다양한 방법과 전략을 종합적으로 활용하는 것이 불면증 완화에 더 효과적일 수 있습니다.","['BMind 거울은 인공 지능을 기반으로 하는 스마트 거울로, 사용자의 감정을 인식하고 스트레스를 관리하는 데 도움을 줄 수 있습니다. 빛 치료 세션, 명상 가이드, 자기 긍정적인 서비스를 제공하여 사용자의 감정을 조절하고 스트레스를 효과적으로 관리할 수 있도록 돕습니다. 이러한 기능은 불안을 완화하고 불면증을 줄이며 긍정적인 마인드를 유지하는 데 도움이 될 수 있습니다.']",['도움||줄이다'],0.703772529418879,True
+"{'id': 17, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/products_search.csv', 'language': 'ja'}",電動汽車“AFEELA”的自動駕駛功能是Level幾？,電動汽車“AFEELA”安裝了45組攝影鏡頭和感應器，以實現360度的全方位感知，並且配備了高通芯片，具備Level 3級的自動駕駛功能。這表示車輛在特定條件下能夠實現高度自動化的駕駛，但需要時仍需駕駛員介入. 因此，“AFEELA”擁有Level 3的自動駕駛功能。,['AFEELA的自動駕駛功能可以理解為：AFEELA與Qualcomm Technologies合作，搭載了世界領先的半導體，實現了在特定條件下的自動駕駛功能Level 3，以及在更廣泛的駕駛條件下的駕駛輔助功能Level 2/2+。換句話說，AFEELA具備自動駕駛功能Level 3和更廣泛的駕駛輔助功能Level 2/2+。'],"['具备||具備', 'Level 3||Level3']",0.6500479369294386,True
+"{'id': 18, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/products_search.csv', 'language': 'zh_tw'}",本田Motocompacto可以開多少公里？,"本田Motocompacto的續航里程為12英里，約合19.3公里.這款電動滑板車的設計目的是作為最後一哩／首一哩的解決方案，適合輔助汽車使用，而非完全取代.其主要功能是幫助使用者到達不遠的目的地，例如火車站，或供大學生在校園內移動.Motocompacto是一款電動滑板車，它的航程雖然可能較短，但適合短距離、慢速行駛的需求.雖然相對於其他機動車輛，如BMW CE02等的航程可能較短, 但它的輕便設計和方便攜帶的特性使其成為一款便於在城市中輔助代步的交通工具。",['本田Motocompacto是一款电动滑板车，根據資料顯示，它的續航里程約為12至20公里。'],['12||20'],0.6538681160490258,True
+"{'id': 19, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/products_search.csv', 'language': 'ko'}",갤럭시 S24 울트라에 갤럭시 AI가 포함되어 있나요?,"갤럭시 S24 울트라는 갤럭시 AI를 포함하고 있습니다. 갤럭시 AI는 삼성의 AI 및 생성적 AI(Generative AI) 기능 모음에 대한 브랜딩으로, 창의적이고 생활 및 생산성 작업에 사용자를 돕는 기능을 제공합니다. 이 기능들은 메시지 및 음성 통화 중 실시간 언어 번역, 대면 시나리오에서의 언어 번역을 위한 통역기 모드, 쓰기 스타일 제안(삼성 키보드를 통해)을 포함하며, 이들은 구글 또는 삼성의 LLM 모델에 의해 제공됩니다. 또한 이러한 기능 중 일부는 인터넷 연결이 필요하지만 대부분은 인터넷 없이 장치 내에서 작동할 수 있습니다. 
+
+이와 함께, 갤럭시 S24 울트라는 Circle to Search, Live Translate, Chat Assist와 같은 AI 기능을 포함하여 이용자들이 다양한 기능을 경험할 수 있도록합니다. 또한 갤럭시 S24 울트라는 최고의 디스플레이와 프로세서를 갖추고 있어 시각적으로 뛰어나고 강력한 스마트폰으로 평가되며, 갤럭시 S24 울트라의 AI 기능은 사용자 경험을 향상시키는 데 유용하며 호도로 보이지 않습니다. 
+
+요약하자면, 갤럭시 S24 울트라는 갤럭시 AI를 비롯한 다양한 AI 기능을 통해 사용자에게 창의적이고 생산적인 경험을 제공하며, 최신 기술과 디자인 요소를 결합하여 고급스러운 스마트폰 환경을 제공합니다.","[""네, 갤럭시 S24 울트라에는 삼성전자가 자체 개발한 인공지능 플랫폼 '갤럭시 AI’가 탑재되어 있습니다1. 이 AI는 기기 안에서 정보를 스스로 수집하고 처리하는 '온 디바이스 AI’를 적용하여 생성 인공지능에 대한 인류의 접근성을 한층 높였습니다1. 따라서 갤럭시 S24 울트라 사용자들은 AI 기능을 통해 더 향상된 사용자 경험을 누릴 수 있습니다""]",['네||Yes||包含||是||포함하다'],0.690715791980313,True
+"{'id': 20, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/products_search.csv', 'language': 'zh_cn'}",小米SU7支持华为ADS 2.0吗？,"根据搜索结果，小米SU7目前尚不支持华为ADS 2.0智能驾驶系统。相比之下，华为的智界S7已经全面配备了华为ADS 2.0系统. 尽管小米SU7在配备ADS 2.0方面还需等待至今年8月, 但小米SU7在电池包容量和续航里程上表现更出色，与智界S7相比，具有更高的官方续航里程.此外，华为线下门店数量较小米更多，同时销售和售后服务系统也更为完善. 在智能驾驶技术方面，虽然小米SU7仍在追赶，但华为的ADS 2.0已经得到广泛应用，具备更全面的城市驾驶辅助功能. 因此，尽管小米SU7在某些方面领先，但华为智界S7在智能驾驶系统和服务体验上具有一定优势。",['小米SU7车型不支持华为ADS 2.0智能驾驶系统。'],['不支持'],0.6715370238662871,True
