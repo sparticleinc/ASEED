@@ -1,51 +1,56 @@
 metadata,question,answer,ground_truths,keywords,answer_correctness,passed
-"{'id': 1, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/products_search.csv', 'language': 'ko'}",UN100D는 어떤 프로세서를 장착하고 있나요?,죄송합니다. 이 질문에 대한 정확한 답변을 찾을 수 없습니다.,"['UN100D는 Intel N100 프로세서를 탑재하고 있습니다. 이 프로세서는 4코어 4스레드를 갖추고 있으며, Intel 7nm 공정으로 제작되었으며 TDP는 6W이며 최대 터보 부스트 클럭은 3.4 GHz입니다. 저전력 프로세서를 사용하기 때문에 기본 사무 작업에 적합하지만 고급 게임에는 적합하지 않습니다.']",['N100'],0.5429244616364337,False
-"{'id': 2, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/products_search.csv', 'language': 'zh_cn'}",海狮07 EV两驱版最高车速是多少？,最高车速是一个车辆的重要性能指标。根据搜索结果，海狮07 EV两驱版的最高车速似乎没有直接的信息。很抱歉，我无法提供确切的答案。,['海狮07 EV两驱版的最高车速为225km/h'],['225'],0.5710131098752478,False
-"{'id': 3, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/products_search.csv', 'language': 'zh_tw'}",大疆發布 Avata 2 無人機的電池容量是多少mAh？,"电池容量
-大疆 Avata 2 无人机的电池容量是多少mAh？
-大疆 Avata 2 无人机的电池容量为未知。抱歉，我无法提供关于 Avata 2 无人机电池容量的信息",['大疆發布的Avata 2無人機的電池容量為3400毫安時（mAh）。'],['3400'],0.5589165100455016,False
-"{'id': 4, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/products_search.csv', 'language': 'ko'}",갤럭시 S24의 화면 해상도는 어떻게 되나요?,"Galaxy S24 Display Resolution
-The rumored display resolution for the Samsung Galaxy S24 is 2,316 x 1,080 pixels (FHD+). This would be the same resolution as the Galaxy S23 and S23+, which have displays that are 6.1 inches and 6.6 inches respectively.
-The Galaxy S24 is expected to have a 6.1 inch AMOLED display like the S23. Leaks and rumors so far suggest the S24 will have a similar screen size and resolution as the S23 for the base model. If true, this would be lower than the Quad HD",['갤럭시 S24 기본 모델의 화면 해상도는 2340 x 1080 픽셀입니다'],"['2340', '1080']",0.539380411327586,False
-"{'id': 5, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/products_search.csv', 'language': 'ko'}",ThinkPad L13 Gen3에는 몇 개의 Type-C 포트가 있나요?,ThinkPad L13 Gen3에는 Type-C 포트가 몇 개 있는지에 대한 정보는 제공되지 않았습니다. 추가적인 정보를 얻기 위해서는 Lenovo의 공식 웹사이트나 제품 설명서를 확인하는 것이 도움이 될 것입니다.,['ThinkPad L13 Gen3에는 USB 3.2 Gen 2 Type-C 포트 한 개와 USB 3.2 Gen 1 Type-C 포트 한 개가 있습니다.'],['Gen 2'],0.7754720873327019,False
-"{'id': 6, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/products_search.csv', 'language': 'ja'}",「IKU×MIRU」ご利用方法？,"使用「IKU×MIRU」的方法
-「IKU×MIRU」 是一个相对较为模糊的",['契約後、My HISモバイルにログインし、「特典一覧・お申込みはこちらをご確認ください。」のリンクをクリックして、「特典一覧」を確認します。\n「特典一覧」内には、IKU×MIRUのクーポンコードが掲載されています。このコードをコピーしておきます。\nIKU×MIRUを利用するためには、特典一覧に掲載されている登録ページでクーポンを使って月間プランを申し込みます。\n月間プランを申し込んだ後、IKU×MIRU登録のメールアドレスで見放題対象コースを予約します。\n予約が完了すると、参加方法についてのメールが送られてきます。\n注意点として、クーポンコードは特典一覧に掲載されているIKU×MIRUの登録ページでのみ使用可能です。一般のHIS WEBサイトでは使用できません。また、IKU×MIRUの見放題サービスは自動継続されるため、無料期間終了後に料金が発生します。解約を希望する場合は、お申し込み日から30日目の22:59までに解約することで料金が発生しないことにご注意ください。'],['特典一覧||クーポン||Special Benefits||Coupon '],0.5350256297994419,False
-"{'id': 7, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/products_search.csv', 'language': 'ja'}",His Mobileの440パッケージの5GBのデータはいくらですか？,申し訳ございませんが、その情報に関しては検索結果から適切な情報を見つけることができませんでした。,['HISモバイルのデータ定額440プランの5GBのデータは、月額料金で880円（税込）です。このプランでは、毎月5GBのデータ通信を利用することができます。料金は定額で一定なので、安心してご利用いただけます。'],['880'],0.5501876425838766,False
-"{'id': 7, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/products_search.csv', 'language': 'ja'}",HISモバイルのデータ定額440プラン（月額880円）に含まれる月間データ量は？,"HISモバイルのデータ定額440プラン（月額880円）に含まれる月間データ量は？
-HISモバイルのデータ定額440プラン（月額880円）に含まれる月間データ量は、3GBです。",['HISモバイルのデータ定額440プランで月額880円の場合、含まれる月間データ量は7GBです。'],['7||5'],0.5707944076345858,False
-"{'id': 9, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/products_search.csv', 'language': 'zh_tw'}",華為ADS 2.0 先進在哪裡？,"華為ADS 2.0 先進在哪裡？
-華為ADS 2.0 是華為公司的一項先進技術，它涉及到 HarmonyOS 2.0 和 HMS Core 5.0。HarmonyOS 2.0 是華為的操作系統，而HMS Core 5.0 則是華為移動服務的一",['ADS 2.0系統的先進之處主要體現在以下幾個方面：\n創新性的激光融合GOD網絡：ADS 2.0搭載了業界首創的激光融合GOD網絡，能夠精準識別異形障礙物，如側翻車輛、掉落的大紙箱、落石、倒地大樹等，提高了駕駛的安全性。\n多傳感融合：通過激光雷達、毫米波雷達、攝像頭等多傳感融合的感知，即使在沒有高精地圖的情況下，也能對道路元素進行識別和理解，提高了駕駛的準確性和可靠性。\n覆蓋廣泛的城區高階智能駕駛場景：ADS 2.0系統可以覆蓋90%城區場景，讓日常通勤更加舒心。在複雜的交通路口、人車混行的場景中，系統能夠順利通行，主動超車換道、脫困換道，大大提升了出行效率。'],['GOD&||不依賴高精地圖||沒有高精地圖||无高精地图||不需高精地圖'],0.5308752895080662,False
-"{'id': 10, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/products_search.csv', 'language': 'zh_tw'}",馬自達J90A是新能源車嗎？,"馬自達J90A是新能源車嗎？
-很抱歉，根據提供的搜索結果，我無法確定馬自達J90A是否屬於新能源車。如果您有其他問題，我很樂意幫助您解答。",['是的，馬自達J90A是一款新能源車。'],['是||Yes'],0.5183203786164511,False
-"{'id': 11, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/products_search.csv', 'language': 'en'}",Key features and specifications about rabbit r1,"Rabbit R1: Key Features and Specifications
-The Rabbit R1 is a handheld device with several unique features and specifications. Here's a breakdown of its key features and specifications based on the provided search results:
-1. AI-Powered Operation:
+"{'id': 1, 'scene': 'local_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/local_search.csv', 'language': 'zh_cn'}",本来无一物何处惹尘埃的完整诗句是什么？,"搜索结果：
 
-The Rabbit R1 is powered by its own operating system called Rabbit OS, which is fronted by an AI chatbot capable of answering questions and performing tasks .
-It features a Large Action Model (LAM) that allows it to learn tasks, replicate them, and grow smarter over time.
+本来无一物何处惹尘埃 - 百度百科
+本来无一物何处惹尘埃 - 知乎
+本来无一物何处惹尘埃 - 豆瓣读书
+本来无一物何处惹尘埃 - 网易云音乐
 
-2. Design and Display:
+根据搜索结果，我们可以看到这句诗句出现在多个网站上，包括百度百科、知","['这句诗句出自唐代禅宗六祖慧能的《菩提偈》。完整的诗句是:""菩提本无树，明镜亦非台。\n本来无一物，何处惹尘埃!""']","['菩提本无树', '明镜亦非台']",0.5400391041216259,False
+"{'id': 2, 'scene': 'local_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/local_search.csv', 'language': 'zh_cn'}",福建晋江灵水中学一初中女生遭霸凌跳楼去世是什么时候？,根据搜索结果，福建晋江灵水中学一初中女生遭霸凌跳楼去世的具体时间是2022年11月。,['2024福建晋江灵水中学一初中女生遭霸凌跳楼去世的事件发生在2024年3月24日22时。'],['March 24||2024/3/24'],0.5546013235607232,False
+"{'id': 3, 'scene': 'local_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/local_search.csv', 'language': 'zh_cn'}",那歌鱼是海鱼吗？,是的，歌鱼是海鱼。歌鱼是一种生活在海洋中的鱼类，主要分布在温暖的海域，例如热带和亚热带地区。它们通常被认为是美味的食物，并且在许多地方被作为食材使用。歌鱼的身体呈流线型，游泳,['是的，那歌鱼是海鱼。'],['是||Yes'],0.6300768063676774,True
+"{'id': 4, 'scene': 'local_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/local_search.csv', 'language': 'zh_cn'}",四面楚歌的主人公是谁？,"四面楚歌的主人公是谁？
+根据提供的搜索结果，没有找到与问题相关的信息。很抱歉，我无法回答这个问题。如果您有其他问题，我将很乐意帮助您。",['四面楚歌的主人公是西楚霸王项羽。'],['项羽'],0.5086789854076265,False
+"{'id': 5, 'scene': 'local_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/local_search.csv', 'language': 'zh_cn'}",跟领导吃饭座位安排图,根据搜索结果，我找到了一些关于跟领导吃饭座位安排图的信息。然而，这些搜索结果中没有提供具体的座位安排图。如果您需要座位安排图，我建议您联系相关的会议组织者或餐厅，以获取准确的座位安排信息。希望这可以帮到您！,['中餐宴请座次安排\n主陪(通常是领导)坐在面对大门的位置\n副主陪(通常是主陪的助手)坐在主陪的对面\n1号客人坐在主陪的右手边\n2号客人坐在主陪的左手边\n3号客人坐在副主陪的右手边\n4号客人坐在副主陪的左手边\n其他客人可以随意安排'],['右||right-hand'],0.5129165490523997,False
+"{'id': 6, 'scene': 'local_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/local_search.csv', 'language': 'zh_cn'}",风水轮流转同义词有哪些？,"风水轮流转同义词有哪些？
+风水轮流转是一个成语，意思是事物的好坏、优劣、胜败等情况会不断变化，没有永远不变的事情。以下是一些与风水轮流转意思相近的同义词：
 
-The R1 sports a modern design and is small, roughly the size of a stack of Post-It notes, making it highly portable .
+时来运转
+命运多舛
+轮回转世
+阴阳转换
+高低起伏
+成败兴废
+7
+",['风水轮流转的同义词包括“否极泰来”、“物极必反”、“柳暗花明”、“绝处逢生”、“苦尽甘来”和“绝地反击”。其他类似的词还有“三十年河东三十年河西”、“风水轮流”和“十年河东十年河西”。'],['三十年河东||咸鱼翻身||苦尽甘来||时来运转||此一时彼一时||时来运转||枯木逢春'],0.5628605135540283,True
+"{'id': 7, 'scene': 'local_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/local_search.csv', 'language': 'zh_cn'}",珠海华融时代广场多少米？,根据提供的搜索结果，我无法找到关于珠海华融时代广场距离的确切信息。很抱歉，我无法回答这个问题。如果您有其他问题，我会尽力帮助您。,['珠海华融时代广场的建筑高度为196米。'],['196'],0.501758225160119,False
+"{'id': 8, 'scene': 'local_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/local_search.csv', 'language': 'zh_cn'}",相亲时媒婆说女方长得有福气，这是什么意思？,"媒婆说女方长得有福气，这是什么意思？
+""女方长得有福气""这句话的意思是女方的相貌给人一种幸福、吉祥的感觉。这可能是媒婆在形容女方长相好，给人带来好运和幸福的印象。这种说法常用于相亲场合，表示女方的外貌给人留下了积极的",['相亲时媒婆说女方长得有福气，通常指女方看起来健康、体态丰满、体型偏胖。'],['胖||吃||丰满'],0.5575377807818398,False
+"{'id': 9, 'scene': 'local_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/local_search.csv', 'language': 'zh_cn'}",为什么工地开工要祭拜？,"为什么工地开工要祭拜？
+在中国的传统文化中，祭拜是一种重要的仪式活动，被广泛应用于各个方面，包括工地开工。工地开工祭拜是为了祈求工程的顺利进行和安全。以下是一些可能的原因：
 
-","['The Rabbit R1 is a handheld AI-powered device. Here are some key features and specifications:\n Dimensions : 78mm*78mm*13mm / 3in*3in*0.5in¹\n Weight : 115g\n Battery Life and Charging Capabilities : 500 cycles > 80%, charging current 500mA, rate capacity 1000mAh\n Connectivity : Bluetooth 5.0 / Wi-Fi with 2.4GHz + 5GHz / 4G LTE\n Processor : MediaTek MT6765 Octa-core (Helio P35) max CPU frequency 2.3GHz\n Memory : 4GB\n Storage : 128GB\n Display : 2.88in TFT touchscreen\n Camera : 8MP, 3264x2448\n Video Resolution : 24fps, 1080p\n Operating Temperatures : 0°C - 45°C or 32ºF - 113ºF']",['115||2.88'],0.6045454543183413,True
-"{'id': 12, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/products_search.csv', 'language': 'ko'}",가정 도우미 로봇 Ballie는 어떤 기능이 있나요?,"가정 도우미 로봇 Ballie의 기능
-Ballie는 다음과 같은 기능을 가지고 있습니다:
+祈求工程的顺利进行：祭拜仪式可以被视为一种信
+",['工地开工要祭拜的原因主要是为了向土地神灵、过往鬼魂以及凶神恶煞告知即将在此地兴工建宅，避免冒犯这些神灵和鬼魂，同时请求他们的协助，希望工程能够顺利开展，并驱逐可能存在的煞气和秽气。此外，烧香祭拜是一种与神明连接的桥梁，通过这种方式表达对神明的敬意和祈求保佑'],['神||鬼'],0.626518356598186,False
+"{'id': 10, 'scene': 'local_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/local_search.csv', 'language': 'zh_cn'}",巴浪鱼是哪里的方言？,"巴浪鱼是哪里的方言？
+根据搜索结果，巴浪鱼并不是方言，而是一种鱼类的名称。巴浪鱼是指一种生活在淡水中的鱼类，主要分布在亚洲地区的一些国家和地区，如中国、越南、泰国等。它在不同地区可能有不同的名称，但并不是某个地",['巴浪鱼是福建和潮汕地区的方言。'],['潮汕||福建||福州'],0.5543415613101342,False
+"{'id': 11, 'scene': 'local_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/local_search.csv', 'language': 'zh_cn'}",跟领导吃饭，转盘是顺时针转，还是逆时针转？,转盘的旋转方向通常是顺时针转动。,['跟领导吃饭时，转盘应该顺时针转。'],['顺时针||turn clockwise'],0.7908379362166951,True
+"{'id': 12, 'scene': 'local_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/local_search.csv', 'language': 'zh_cn'}",黄花大闺女黄花是指什么花？,黄花大闺女中的黄花指的是黄色的花朵。根据搜索结果，黄花大闺女中的黄花可能是指Solidago decurrens Lour.和Hemerocallis citrina Baroni这两种花。其中Solidago decurrens Lour.是一种黄色的花，而Hemerocallis citrina Baroni是一种黄色的百合花。请注意，这只是根据搜索结果的推测，具体的含义可能需要进一步的确认。,"['""黄花大闺女""中的""黄花""通常指的是菊花。古代中国认为菊花能傲霜耐寒，是高洁雅致的象征，因此用""黄花""来代表未出嫁的少女。']",['菊花'],0.5445670282005858,False
+"{'id': 13, 'scene': 'local_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/local_search.csv', 'language': 'zh_tw'}",卧薪嘗膽的主人公是誰？,"卧薪嘗膽的主人公是誰？
+根據搜索結果，我無法確定卧薪嘗膽的主人公是誰。很抱歉無法提供準確的答案。",['卧薪嘗膽的主人公是越王勾踐。'],['勾踐'],0.5280115775091798,False
+"{'id': 14, 'scene': 'local_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/local_search.csv', 'language': 'zh_cn'}",相亲时媒婆说男方会疼人，这是什么意思？,"媒婆说男方会疼人，这是什么意思？
+当媒婆说男方会疼人时，这通常意味着男方会对女方关心、体贴和照顾。这是一种表达男方对女方的爱和关怀的方式。这可能包括在日常生活中照顾女方的需求，关心她的感受，以及尽力让她感到幸福和","['当媒婆说男方""很会疼人""时，这通常意味着一个警告信号，表示该男性可能是离异人士。']",['年纪大||离过婚||离婚||离异'],0.545633428989535,False
+"{'id': 15, 'scene': 'local_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/local_search.csv', 'language': 'ja'}",宮沢賢治にはどんな著作がありますか。,"宮沢賢治の著作について
+宮沢賢治は、日本の作家であり、童話や詩などの幅広いジャンルで著作を残しました。彼の作品は、その独特な世界観や深いメッセージ性で知られています。
+以下は、宮沢賢治の代表的な著作のいくつかです:
 
-가정 보안 및 감시: Ballie는 CCTV를 통해 가정의 보안을 감시하고, 이상 징후를 감지할 수 있습니다.
-인공 지능 기능: Ballie는 인공 지능을 기반으로 하여, 사용자와의 상호작용을
-","['삼성의 가정 도우미 로봇 Ballie는 다음과 같은 기능을 갖추고 있습니다:\n개인 가정 보조 : Ballie는 집 안에서 자율적으로 이동하며 다양한 작업을 수행할 수 있습니다.\n스마트 기기 제어 : Ballie는 집에 있는 다른 스마트 기기를 연결하고 제어할 수 있습니다.\n개인화 서비스 : Ballie는 사용자의 행동과 습관을 자동으로 학습하고 개인화된 서비스를 제공합니다.\n원격 감시 : 사용자가 집을 비울 때 Ballie는 비디오로 애완동물이나 가족 구성원의 상황을 업데이트할 수 있습니다.\n프로젝션 아티스트 : Ballie는 바닥, 벽 또는 천장에 물체를 프로젝션할 수 있으며, 이는 애완동물을 위한 비디오 재생, 비디오 통화 표시, 운동 비디오 제공 등을 포함합니다.\n스마트 홈 어시스턴트 : Ballie는 조명 제어, 애완동물 음식 공급, 문자 메시지 전송, 에어컨, 세탁기 등의 기기를 제어할 수 있습니다.']",['가정 도우미||기기 제어||원격 감시||가정 어시스턴트||家庭助手||家庭助理||Home Assistant'],0.7557539177000071,True
-"{'id': 13, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/products_search.csv', 'language': 'en'}",maximum speed of Moonwalker in 2024,"Maximum Speed of Moonwalker in 2024
-The Moonwalkers, developed by Shift Robotics, are claimed to be the world's fastest shoes, capable of boosting a wearer's walking speed by up to 250%. These battery-powered sneakers are designed to allow users to walk at the speed of a run, providing a significant increase in walking speed without exerting more energy or incurring additional safety risks .
-The Moonwalkers are reported to have a top speed of 7 mph and a range of 5-7 miles. They are designed to support a maximum user weight of 220 lbs (100kg) and can run for up to an hour on a single charge, covering 6 to 9 miles in one hour depending on the user's speed . Additionally, the AI system equipped in the Moonwalkers adapts to the","['In 2024, the Moonwalkers, which are robotic shoes developed by Shift Robotics, have a top speed of up to 7 miles per hour (11.2 kilometers per hour).']",['7||11.2'],0.7261737236362362,True
-"{'id': 14, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/products_search.csv', 'language': 'ko'}",LG SIGNATURE OLED T 4K는 어떤 종류의 TV인가요?,"LG SIGNATURE OLED T 4K TV에 대해
-LG SIGNATURE OLED T 4K TV는 투명한 디스플레이와 무선 비디오 및 오디오 전송 기술을 결합하여 화면 경험을 이전에는 불가능했던 방식으로 변화시키는 기술적인 경이로움입니다. 이 TV는 77인치의 화면 크기를 유지하면서",['LG SIGNATURE OLED T 4K는 세계에서 최초로 출시된 무선 투명 OLED TV입니다.'],['투명||透明'],0.5656619608540207,True
-"{'id': 15, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/products_search.csv', 'language': 'ko'}",SQPV 유리,"About SQPV (Squirrelpox Virus)
-Squirrelpox virus (SQPV) is a virus that causes a fatal disease in red squirrels in the United Kingdom and the Republic of Ireland. The virus is often carried by grey squirrels from North America, which rarely die from the disease. However, in the UK and Ireland, the virus has caused epidemics with high mortality in Eurasian red squirrels, which are now threatened. The virus is endemic in North American grey squirrels, in which it shows little evidence for morbidity or mortality",['SQPV 유리는 InQs 회사에서 개발한 혁신적인 투명 태양광 유리입니다. 이 기술은 태양광을 발전시키는 데 뿐만 아니라 보이지 않는 빛에서 에너지를 얻는 데에도 사용됩니다. 이는 어두운 실내 환경이나 흐린 날에도 효율적으로 작동할 수 있습니다.'],['InQs||발전||에너지||太阳能||电力'],0.44485541672324974,False
-"{'id': 16, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/products_search.csv', 'language': 'ko'}",BMind 거울이 제 불면증을 완화할 수 있을까요?,"BMind 거울이 불면증을 완화할 수 있는지에 대해요? 일반적으로, BMind 거울은 수면을 도울 수 있는 특별한 기능을 가지고 있지는 않아요. 그러나 BMind 거울을 사용하면 편안한 분위기를 조성하고, 수면 전 스트레스를 줄이는 데 도움이 될 수 있어요","['BMind 거울은 인공 지능을 기반으로 하는 스마트 거울로, 사용자의 감정을 인식하고 스트레스를 관리하는 데 도움을 줄 수 있습니다. 빛 치료 세션, 명상 가이드, 자기 긍정적인 서비스를 제공하여 사용자의 감정을 조절하고 스트레스를 효과적으로 관리할 수 있도록 돕습니다. 이러한 기능은 불안을 완화하고 불면증을 줄이며 긍정적인 마인드를 유지하는 데 도움이 될 수 있습니다.']",['도움||줄이다'],0.5266885657549675,True
-"{'id': 17, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/products_search.csv', 'language': 'ja'}",電動汽車“AFEELA”的自動駕駛功能是Level幾？,"Level 3
-根据最新的消息，电动汽车“AFEELA”的自动驾驶功能是Level 3。",['AFEELA的自動駕駛功能可以理解為：AFEELA與Qualcomm Technologies合作，搭載了世界領先的半導體，實現了在特定條件下的自動駕駛功能Level 3，以及在更廣泛的駕駛條件下的駕駛輔助功能Level 2/2+。換句話說，AFEELA具備自動駕駛功能Level 3和更廣泛的駕駛輔助功能Level 2/2+。'],"['具备||具備', 'Level 3||Level3']",0.5314210380457125,True
-"{'id': 18, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/products_search.csv', 'language': 'zh_tw'}",本田Motocompacto可以開多少公里？,本田Motocompacto的行驶里程取决于多种因素，包括车辆的年份、维护情况以及使用方式。根据我找到的信息，**本田Motocompact,['本田Motocompacto是一款电动滑板车，根據資料顯示，它的續航里程約為12至20公里。'],['12||20'],0.5113781628725794,False
-"{'id': 19, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/products_search.csv', 'language': 'ko'}",갤럭시 S24 울트라에 갤럭시 AI가 포함되어 있나요?,"네, 갤럭시 S24 울트라에는 갤럭시 AI가 포함되어 있습니다. 삼성의 최신 스마트폰인 갤럭시 S24 시리즈는 갤럭시 AI를 특징으로 하고 있으며, 이는 새로운 모바일 표준을 설정하는 최신 AI 기능을 제공합니다.","[""네, 갤럭시 S24 울트라에는 삼성전자가 자체 개발한 인공지능 플랫폼 '갤럭시 AI’가 탑재되어 있습니다1. 이 AI는 기기 안에서 정보를 스스로 수집하고 처리하는 '온 디바이스 AI’를 적용하여 생성 인공지능에 대한 인류의 접근성을 한층 높였습니다1. 따라서 갤럭시 S24 울트라 사용자들은 AI 기능을 통해 더 향상된 사용자 경험을 누릴 수 있습니다""]",['네||Yes||包含||是||포함하다'],0.7094283197665036,True
-"{'id': 20, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/products_search.csv', 'language': 'zh_cn'}",小米SU7支持华为ADS 2.0吗？,"小米SU7支持华为ADS 2.0吗？
-很抱歉，我无法找到关于小米SU7支持华为ADS 2.0的信息。如果您有其他问题，我很乐意帮助您解答。",['小米SU7车型不支持华为ADS 2.0智能驾驶系统。'],['不支持'],0.5216983075370244,False
+『銀河鉄道の夜』: 宮沢賢
+",['「注文の多い料理店」（1924年）: 宮沢賢治の代表作の一つであり、多くの人々に愛されています。物語は注文の多い料理店の主人と、その店を支える猫の心温まる交流を描いています。\n「雨ニモマケズ」（1931年）: 別名「雨にも負けず」で知られる作品で、風雨に負けない強い心を持つことの大切さを描いています。この作品も宮沢賢治の人気作品の一つです。\n「銀河鉄道の夜」（未定稿）: 未完の作品であり、賢治の死後に発見されました。銀河鉄道を舞台にした幻想的な物語で、多くの読者を魅了しています。\n「風の又三郎」（1934年）: 宮沢賢治が亡くなった後に出版された作品であり、風の音を聞くことのできる又三郎という少年の物語です。'],"['雨ニモマケズ', '注文の多い料理店', '銀河鉄道の夜', '風の又三郎']",0.7121220888561547,True
+"{'id': 16, 'scene': 'local_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/local_search.csv', 'language': 'ja'}",進撃の巨人はいつ発行されましたか？,進撃の巨人は2013年に発行されました。,['「進撃の巨人」は、諫山創による日本の漫画作品で、2009年9月9日に発行が開始されました。そして、2021年4月9日に連載が完結しました。最新刊（34巻）は2021年6月9日に発売されました⁵。この作品は世界中で非常に人気があり、多くの派生作品が生まれています。'],['2009年9月'],0.5513672363116997,False
+"{'id': 17, 'scene': 'local_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/local_search.csv', 'language': 'zh_tw'}",三體中那個真正會魔法的妓女叫什麼？,根据搜索结果，我无法找到关于《三体》中真正会魔法的妓女的信息。很抱歉，我无法回答这个问题。如果您有其他问题，我会很乐意帮助您。,['在《三體》系列中，真正會魔法的妓女被稱為狄奧倫娜（Diolena）. 狄奧倫娜是一位十五世紀拜占庭帝國時期的妓女，被描述為可能是人類歷史上唯一一個真正的魔法師. 這個角色引發了故事中關於多維空間和神秘力量的討論，是《三體》系列中引人注目的角色之一。'],['狄奧倫娜||Diolena'],0.4889228828620031,False
+"{'id': 18, 'scene': 'local_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/local_search.csv', 'language': 'ja'}",奥の細道は何年生まれですか。,"🤖 Sorry, something went wrong. Please try again later, or see search results.
+Our team is looking into it. If you would like to follow up on this issue, please visit our Feedback Portal or let us know on our Discord. Please include the following Error ID in your message: 40b5bee5-fec0-4807-b422-2fba6459889b|8390fbd5-775f-4250-9224-f560063a1ccf|2024-04-24T15:47:24.959Z",['奥の細道の作者は、江戸時代の俳人である松尾芭蕉です。芭蕉は1644年に生まれました。'],['1644'],0.5663352369271605,False
+"{'id': 19, 'scene': 'local_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/local_search.csv', 'language': 'ja'}",正岡子は何年に俳句革新運動に参加しましたか。,"正岡子は何年に俳句革新運動に参加しましたか。
+私の調査結果によると、正岡子は1927年に俳句革新運動に参加しました。[[1]]
+この運動は、伝統的な俳句の形式やテーマに挑戦し、新しい表現方法やテーマ性を追求するものでした。正岡子はその中で活躍し、俳句の新たな可能性を模索しました。
+参考",['正岡子規は、1893年（明治26年）に「獺祭書屋俳話（だっさいしょおくはいわ）」を新聞『日本』に連載し、俳句革新運動を開始しました'],['1893'],0.531776415898085,False
+"{'id': 20, 'scene': 'local_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/local_search.csv', 'language': 'ja'}",松尾芭蕉の父の名前は何ですか。,松尾芭蕉の父の名前は松尾常太夫です。[[1]],['松尾芭蕉の父の名前は松尾与左衛門です'],['松尾与左衛門'],0.5631251242616099,False
