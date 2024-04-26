@@ -188,13 +188,14 @@
                 "passed": 61,
                 "failed": 39,
                 "pass_rate": "61.00%",
-                "answer_correctness": 0.24189909222939746,
+                "answer_correctness": 0.3696485112245299,
                 "list": [
                     {
                         "total": 20,
                         "passed": 13,
                         "failed": 7,
                         "pass_rate": "65.00%",
+                        "answer_correctness": 0.6387470949756622,
                         "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/products_search/20240424-perplexity.json",
                         "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/products_search/20240424-perplexity.csv",
                         "evaluate_ai": "perplexity"
@@ -304,7 +305,7 @@
         "passed": 295,
         "failed": 205,
         "pass_rate": "59.00%",
-        "answer_correctness": 0.5491073938666956
+        "answer_correctness": 0.574657277665722
     },
     {
         "date": "2024-04-22",
