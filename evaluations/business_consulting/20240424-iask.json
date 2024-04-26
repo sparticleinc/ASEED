@@ -9,7 +9,8 @@
         "total": 20,
         "passed": 8,
         "failed": 12,
-        "pass_rate": "40.00%"
+        "pass_rate": "40.00%",
+        "answer_correctness": 0.594816959110364
     },
     "created_at": "2024-04-24 16:20:41",
     "datas": [
@@ -28,6 +29,7 @@
             "keywords": [
                 "WhatsApp||knockoutjs"
             ],
+            "answer_correctness": 0.5586660450005567,
             "passed": true
         },
         {
@@ -45,6 +47,7 @@
             "keywords": [
                 "Дубае||не является||Нет||No||不是"
             ],
+            "answer_correctness": 0.6641313925328414,
             "passed": true
         },
         {
@@ -62,6 +65,7 @@
             "keywords": [
                 "2934"
             ],
+            "answer_correctness": 0.38235215213141444,
             "passed": false
         },
         {
@@ -80,6 +84,7 @@
                 "Искусственный интеллект",
                 "изображений"
             ],
+            "answer_correctness": 0.7406120773411269,
             "passed": false
         },
         {
@@ -97,6 +102,7 @@
             "keywords": [
                 "Eleven Labs||Pika"
             ],
+            "answer_correctness": 0.4555493216632444,
             "passed": false
         },
         {
@@ -114,6 +120,7 @@
             "keywords": [
                 "40"
             ],
+            "answer_correctness": 0.3801731829653187,
             "passed": false
         },
         {
@@ -131,6 +138,7 @@
             "keywords": [
                 "Zip2"
             ],
+            "answer_correctness": 0.5032273580609082,
             "passed": false
         },
         {
@@ -148,6 +156,7 @@
             "keywords": [
                 "3.3||3.4"
             ],
+            "answer_correctness": 0.5418611305448406,
             "passed": false
         },
         {
@@ -165,6 +174,7 @@
             "keywords": [
                 "150"
             ],
+            "answer_correctness": 0.4701102194579329,
             "passed": false
         },
         {
@@ -182,6 +192,7 @@
             "keywords": [
                 "60%"
             ],
+            "answer_correctness": 0.6730357413354134,
             "passed": false
         },
         {
@@ -199,6 +210,7 @@
             "keywords": [
                 "37.2||372"
             ],
+            "answer_correctness": 0.7023129566286722,
             "passed": true
         },
         {
@@ -216,6 +228,7 @@
             "keywords": [
                 "BEVs||EV||Tesla||Evs"
             ],
+            "answer_correctness": 0.852922241323847,
             "passed": true
         },
         {
@@ -233,6 +246,7 @@
             "keywords": [
                 "BYD||China||中国"
             ],
+            "answer_correctness": 0.7419113552842656,
             "passed": true
         },
         {
@@ -250,6 +264,7 @@
             "keywords": [
                 "qualityll质量"
             ],
+            "answer_correctness": 0.7128218908408674,
             "passed": false
         },
         {
@@ -268,6 +283,7 @@
                 "5",
                 "212"
             ],
+            "answer_correctness": 0.6336752837031927,
             "passed": false
         },
         {
@@ -285,6 +301,7 @@
             "keywords": [
                 "1%||5%||1.5%"
             ],
+            "answer_correctness": 0.4880796917942277,
             "passed": false
         },
         {
@@ -303,6 +320,7 @@
                 "590m²",
                 "虎门山森大厦||虎ノ門ヒルズ森タワー"
             ],
+            "answer_correctness": 0.4783754102206347,
             "passed": false
         },
         {
@@ -320,6 +338,7 @@
             "keywords": [
                 "劉曉松||IDG||香港盈科||MIH||曾李青"
             ],
+            "answer_correctness": 0.6275121889424888,
             "passed": true
         },
         {
@@ -338,6 +357,7 @@
                 "7042||7",
                 "042"
             ],
+            "answer_correctness": 0.5896330459636131,
             "passed": true
         },
         {
@@ -355,6 +375,7 @@
             "keywords": [
                 "9435"
             ],
+            "answer_correctness": 0.6993764964718749,
             "passed": true
         }
     ]
