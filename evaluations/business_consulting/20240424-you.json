@@ -9,12 +9,18 @@
         "total": 20,
         "passed": 3,
         "failed": 17,
-        "pass_rate": "15.00%"
+        "pass_rate": "15.00%",
+        "answer_correctness": 0.5813569803042006
     },
     "created_at": "2024-04-24 16:11:06",
     "datas": [
         {
-            "metadata": {},
+            "metadata": {
+                "id": 1,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/business_consulting.csv",
+                "language": "ru"
+            },
             "question": "ycloud - что это?",
             "answer": "YCLOUD - это облачная платформа, разработанная российской интернет-компанией Яндекс. YCLOUD предоставляет инфраструктуру и вычислительные ресурсы частным и корпоративным пользователям в формате \"как сервис\". Она позволяет пользователям создавать и развертывать приложения, хранить данные и выполнять другие операции в облаке.\nОсновные характер",
             "ground_truths": [
@@ -23,10 +29,16 @@
             "keywords": [
                 "WhatsApp||knockoutjs"
             ],
+            "answer_correctness": 0.5395473976007175,
             "passed": false
         },
         {
-            "metadata": {},
+            "metadata": {
+                "id": 2,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/business_consulting.csv",
+                "language": "ru"
+            },
             "question": "\"Telegram\" - это российская компания?",
             "answer": "Да, \"Telegram\" - это российская компания. Она была основана Павлом Дуровым в 2013 году и зарегистрирована как Telegram Messenger FZ-LLC (ООО \"Телеграм Мессенджер\"). Компания разработала популярное приложение Telegram, которое предоставляет возможность обмена сообщениями и другими мультимедийными файлами .",
             "ground_truths": [
@@ -35,10 +47,16 @@
             "keywords": [
                 "Дубае||не является||Нет||No||不是"
             ],
+            "answer_correctness": 0.7449352771328998,
             "passed": false
         },
         {
-            "metadata": {},
+            "metadata": {
+                "id": 3,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/business_consulting.csv",
+                "language": "zh_tw"
+            },
             "question": "紫金的銷售收入",
             "answer": "紫金的銷售收入是指紫金公司在一定時間內從銷售產品或提供服務中所獲得的金額。根據搜索結果顯示，目前沒有找到具體的數據或資訊來回答這個問題。如果您需要更詳細的信息，建議您直接向紫金公司查詢或參考他們的財",
             "ground_truths": [
@@ -47,10 +65,16 @@
             "keywords": [
                 "2934"
             ],
+            "answer_correctness": 0.5085525988528121,
             "passed": false
         },
         {
-            "metadata": {},
+            "metadata": {
+                "id": 4,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/business_consulting.csv",
+                "language": "ru"
+            },
             "question": "Что за компания Vyro AI?",
             "answer": "Vyro AI - это компания, которая создает приложения, которые используются миллионами пользователей. Они предлагают 20 приложений для создания контента, которые позволяют более чем 5 миллионам активных пользователей каждый месяц проявлять свою творческую индивидуальность. Компания использует искусственный интеллект и машин",
             "ground_truths": [
@@ -60,10 +84,16 @@
                 "Искусственный интеллект",
                 "изображений"
             ],
+            "answer_correctness": 0.6911087370155113,
             "passed": false
         },
         {
-            "metadata": {},
+            "metadata": {
+                "id": 5,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/business_consulting.csv",
+                "language": "ko"
+            },
             "question": "В какие еще компании инвестировали основатели Perplexity?",
             "answer": "Основатель Perplexity поддерживает такие компании, как Sequoia, Bessemer, Nvidia, Google, Microsoft, OpenAI, Databricks Ventures, Twitter, Shopify, GitHub, Vercel, Amazon, InVenture, ExxonMobil, Microsoft, Telegram, Apple Inc., Ikea, Meta, EnergyX, General Motors, Code Interpretator, ChatGPT, Claude-2, Nike, TOMS, и другие.",
             "ground_truths": [
@@ -72,10 +102,16 @@
             "keywords": [
                 "Eleven Labs||Pika"
             ],
+            "answer_correctness": 0.5019883721639004,
             "passed": false
         },
         {
-            "metadata": {},
+            "metadata": {
+                "id": 6,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/business_consulting.csv",
+                "language": "zh_cn"
+            },
             "question": "虎门大桥过路费多少钱？",
             "answer": "根据搜索结果，我找到了一些关于虎门大桥过路费的信息。然而，这些搜索结果中没有提供确切的答案。因此，我无法提供准确的虎门大桥过路费金额。建议您直接向相关的交通管理部门或当地的收费站咨询以获取最准确的信息。",
             "ground_truths": [
@@ -84,10 +120,16 @@
             "keywords": [
                 "40"
             ],
+            "answer_correctness": 0.5565692619983768,
             "passed": false
         },
         {
-            "metadata": {},
+            "metadata": {
+                "id": 7,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/business_consulting.csv",
+                "language": "en"
+            },
             "question": "How did Musk earn the first bucket of gold in his life?",
             "answer": "Elon Musk earned his first significant amount of money through the sale of his web software company, Zip2, to Compaq in 1999 for $307 million . This achievement allowed him to reach millionaire status at the age of 27 . Musk's entrepreneurial instincts and business ventures, such as Zip2 and X.com (which merged with a company that became PayPal), laid the foundation for his future success . It is worth noting that Musk had shown an interest in computers and design from an early age and had a profitable side hustle while studying at Queens University, where he sold entire computers and hardware parts from his dorm",
             "ground_truths": [
@@ -96,10 +138,16 @@
             "keywords": [
                 "Zip2"
             ],
+            "answer_correctness": 0.7099010960077443,
             "passed": true
         },
         {
-            "metadata": {},
+            "metadata": {
+                "id": 8,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/business_consulting.csv",
+                "language": "zh_tw"
+            },
             "question": "iask.ai 2024年3月的訪問量",
             "answer": "根据搜索结果，我无法找到iask.ai在2024年3月的访问量数据。很抱歉，我无法回答这个问题。",
             "ground_truths": [
@@ -108,10 +156,16 @@
             "keywords": [
                 "3.3||3.4"
             ],
+            "answer_correctness": 0.5395374769296514,
             "passed": false
         },
         {
-            "metadata": {},
+            "metadata": {
+                "id": 9,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/business_consulting.csv",
+                "language": "ru"
+            },
             "question": "Monica.im в 2023 году имеет сколько пользователей?",
             "answer": "В 2023 году количество пользователей Monica.im не указано в предоставленных источниках. Нет информации о точном числе пользователей на указанный год.",
             "ground_truths": [
@@ -120,10 +174,16 @@
             "keywords": [
                 "150"
             ],
+            "answer_correctness": 0.5483634533058405,
             "passed": false
         },
         {
-            "metadata": {},
+            "metadata": {
+                "id": 10,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/business_consulting.csv",
+                "language": "en"
+            },
             "question": "If Trump takes office again, how will he adjust the trade policy towards China?",
             "answer": "Trump's Trade Policy Towards China\r\nIf Trump were to take office again, it is likely that he would adjust the trade policy towards China by continuing his hardline stance and implementing stricter measures. During his previous term, Trump pursued a confrontational approach towards China, imposing tariffs on Chinese goods and engaging in a trade war . Supporters of Trump's trade policies argue that they were necessary to address unfair Chinese economic practices and protect American workers. Trump's trade agenda aimed to reduce the trade deficit and promote domestic manufacturing . He plans to expand the use of tariffs and impose penalties on China and other nations if he returns to power .\r\nIt is worth noting that President Biden has largely continued Trump's trade policy towards China, maintaining the tariffs imposed by the previous administration",
             "ground_truths": [
@@ -132,22 +192,34 @@
             "keywords": [
                 "60%"
             ],
+            "answer_correctness": 0.6954552348496416,
             "passed": false
         },
         {
-            "metadata": {},
+            "metadata": {
+                "id": 11,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/business_consulting.csv",
+                "language": "en"
+            },
             "question": "Microsoft 2021 first quarter Financial report",
             "answer": "Microsoft 2021 First Quarter Financial Report\nBased on the search results, I couldn't find a specific financial report for Microsoft's first quarter of 2021. However, I can provide you with some general information about Microsoft's financial performance during that time.\nAccording to the search results, Microsoft returned $9.5 billion to shareholders in the form of share repurchases and dividends in the first quarter of fiscal year 2021, which represented a 21% increase compared to the first quarter of fiscal year 2020 . Unfortunately, I couldn't find more detailed financial information for the specific quarter.\nIf you need more specific information or details about Microsoft's financial performance, I recommend referring to Microsoft's SEC filings, including their",
             "ground_truths": [
                 "Microsoft reported strong financial results for the first quarter of its 2021 fiscal year. The company beat analysts' expectations on both earnings and revenue.\nKey highlights:\nAdjusted earnings per share (EPS) was $1.82, compared to the expected $1.55.\nRevenue grew 12% year-over-year to $37.2 billion, exceeding the expected $35.7 billion.\nMicrosoft's Intelligent Cloud segment, which includes the Azure cloud computing platform, saw revenue grow 20% year-over-year, also beating expectations.\nAzure revenue grew 48% year-over-year, driving the strong performance of the Intelligent Cloud segment.\nOther areas like Surface devices, Xbox gaming, and Microsoft 365 consumer subscriptions also saw significant revenue growth during the quarter."
             ],
             "keywords": [
-                "37.2"
+                "37.2||372"
             ],
+            "answer_correctness": 0.5179314081557718,
             "passed": false
         },
         {
-            "metadata": {},
+            "metadata": {
+                "id": 12,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/business_consulting.csv",
+                "language": "en"
+            },
             "question": "What is Toyota's biggest risk in the future?",
             "answer": "Toyota's Biggest Risk in the Future\nToyota, as a global automotive company, faces various risks in the future. One significant risk is the impact of product recalls on its brand image and financial performance. For example, a recall of 7.4 million vehicles worldwide, including 2.5 million in the U.S., had a negative effect on Toyota's stock and raised concerns about the financial impact and potential damage to its recovering brand image .\nAnother risk Toyota faces is the need to adapt to a rapidly changing automotive landscape.",
             "ground_truths": [
@@ -156,10 +228,16 @@
             "keywords": [
                 "BEVs||EV||Tesla||Evs"
             ],
+            "answer_correctness": 0.5123381772378366,
             "passed": false
         },
         {
-            "metadata": {},
+            "metadata": {
+                "id": 13,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/business_consulting.csv",
+                "language": "en"
+            },
             "question": "What did Musk say about the future market of the auto industry worldwide?",
             "answer": "Elon Musk's View on the Future Market of the Auto Industry Worldwide\r\nElon Musk has outlined his vision for the future market of the auto industry, emphasizing the following key points:\r\nShared Electric, Self-Driving Vehicles: Musk envisions a future where individuals will share electric, self-driving vehicles. He believes that the industry is moving towards a shared electrical autonomy model, where there will be a significant presence of fully autonomous cars on the road and a software infrastructure for cars and drivers to communicate ",
             "ground_truths": [
@@ -168,35 +246,53 @@
             "keywords": [
                 "BYD||China||中国"
             ],
+            "answer_correctness": 0.5183699228651913,
             "passed": false
         },
         {
-            "metadata": {},
+            "metadata": {
+                "id": 14,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/business_consulting.csv",
+                "language": "en"
+            },
             "question": "Why is Boeing getting worse and worse?",
             "answer": "Boeing's Troubles\nBoeing has faced a series of challenges and setbacks in recent years, leading to concerns about the company's performance and reputation. Several factors have contributed to Boeing's worsening situation:\n\n\nQuality Control Issues: Boeing has been grappling with numerous quality control issues that have come to light during audits and investigations. The Federal Aviation Administration (FAA) has given Boeing 90 days to address these issues . The FAA has also recommended visual inspections of certain Boeing aircraft due to concerns about door plugs.\n\n\nSafety Incidents: Boeing has experienced several safety incidents\n\n",
             "ground_truths": [
                 "Boeing's deteriorating situation is multifaceted and can be attributed to several factors that have contributed to its ongoing challenges. One significant issue lies in Boeing's financial struggles, which have worsened in recent years. The company's heavy focus on profits, coupled with the financial strain caused by the pandemic and the grounding of the 737 Max aircraft, has led to Boeing being in its worst financial shape in over a century, with several years of deep losses recorded\nAdditionally, the dependence on the Defense division to offset losses in the Commercial sector is becoming increasingly unsustainable due to constraints in the US defense budget, leaving Boeing with limited options for recovery in that area\nFurthermore, Boeing's internal culture and safety practices have also come under scrutiny. Reports suggest a lack of a safety culture within Boeing, with claims that employees who raise concerns are ignored, marginalized, threatened, or sidelined\nSuch issues can compromise the overall quality and safety standards of Boeing's aircraft, further eroding consumer trust and damaging the company's reputation.\nOn a more operational level, concerns have been raised about specific incidents, such as the recent recommendation by the FAA to visually inspect the mid-exit door plugs on Boeing 737-900ER aircraft, highlighting potential safety issues that need to be addressed\nThese incidents, in addition to the ongoing challenges faced by the company, contribute to the perception that Boeing's situation is worsening over time."
             ],
             "keywords": [
-                "quality"
+                "qualityll质量"
             ],
+            "answer_correctness": 0.7432689178258137,
             "passed": true
         },
         {
-            "metadata": {},
+            "metadata": {
+                "id": 15,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/business_consulting.csv",
+                "language": "zh_tw"
+            },
             "question": "日本百年的藥品製造商小林製藥的紅麴成分含有保健食品引發的「死亡」事件。",
             "answer": "很抱歉，我無法提供關於小林製藥紅麴成分引發「死亡」事件的資訊。",
             "ground_truths": [
-                "食用了小林製藥製造銷售的含紅麴的保健食品的人發生了腎臟疾病，已確認有2人死亡。到目前為止，有106人住院。\n小林製藥的調查顯示，紅麴原料中可能含有\"未知成分\"，這些成分可能導致腎臟疾病。\n小林製藥的紅麴分為補充劑和食品著色劑兩種，\"未知成分\"只在部分補充劑批次中被檢測出來。\n紅麴一般被用作食品著色劑，但在作為補充劑使用時，需要注意毒素紅曲霉素的含量。\n小林製藥在這個問題上已開始自願回收相關的保健食品，厚生勞動省也在考慮採取應對措施。"
+                "食用了小林製藥製造銷售的含紅麴的保健食品的人發生了腎臟疾病，已確認有5人死亡。到目前為止，有212人住院。\n小林製藥的調查顯示，紅麴原料中可能含有\"未知成分\"，這些成分可能導致腎臟疾病。\n小林製藥的紅麴分為補充劑和食品著色劑兩種，\"未知成分\"只在部分補充劑批次中被檢測出來。\n紅麴一般被用作食品著色劑，但在作為補充劑使用時，需要注意毒素紅曲霉素的含量。\n小林製藥在這個問題上已開始自願回收相關的保健食品，厚生勞動省也在考慮採取應對措施。"
             ],
             "keywords": [
                 "5",
                 "212"
             ],
+            "answer_correctness": 0.6401823320644057,
             "passed": false
         },
         {
-            "metadata": {},
+            "metadata": {
+                "id": 16,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/business_consulting.csv",
+                "language": "ru"
+            },
             "question": "Если Евросоюз решит \"отцепиться\" от Китая, какое влияние это окажет на экономику Германии?",
             "answer": "\n\"Евросоюз и Китай: каковы последствия разрыва экономических связей\" - www.gazeta.ru\n\"Влияние отказа ЕС от Китая на экономику Германии\" - www.rbc.ru\n\"Евросоюз и Китай: последствия разрыва торговых отношений\" - www.vedomosti.ru\n\n",
             "ground_truths": [
@@ -205,10 +301,16 @@
             "keywords": [
                 "1%||5%||1.5%"
             ],
+            "answer_correctness": 0.5494651164450888,
             "passed": false
         },
         {
-            "metadata": {},
+            "metadata": {
+                "id": 17,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/business_consulting.csv",
+                "language": "ja"
+            },
             "question": "虎ノ門ヒルズフォーラム",
             "answer": "虎ノ門ヒルズフォーラム\n虎ノ門ヒルズフォーラムは、東京の虎ノ門ヒルズにある施設です。虎ノ門ヒルズは、東京と世界をつなぐビジネスの中心地として位置づけられており、グローバルプレーヤーに必",
             "ground_truths": [
@@ -218,10 +320,16 @@
                 "590m²",
                 "虎门山森大厦||虎ノ門ヒルズ森タワー"
             ],
+            "answer_correctness": 0.557252399936778,
             "passed": true
         },
         {
-            "metadata": {},
+            "metadata": {
+                "id": 18,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/business_consulting.csv",
+                "language": "zh_tw"
+            },
             "question": "腾訊的天使投資者叫什麼名字？",
             "answer": "根据搜索结果，腾讯的天使投资者名字是张丽琼女士。",
             "ground_truths": [
@@ -230,10 +338,16 @@
             "keywords": [
                 "劉曉松||IDG||香港盈科||MIH||曾李青"
             ],
+            "answer_correctness": 0.5339710647606125,
             "passed": false
         },
         {
-            "metadata": {},
+            "metadata": {
+                "id": 19,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/business_consulting.csv",
+                "language": "zh_tw"
+            },
             "question": "华为2023年营收情况？",
             "answer": "根据搜索结果，华为2023年的营收情况没有明确的信息可供参考。很抱歉，我无法提供具体的数据。如果您需要了解更多关于华为的信息，建议您访问华为官方网站或参考可靠的新闻来源。",
             "ground_truths": [
@@ -243,18 +357,25 @@
                 "7042||7",
                 "042"
             ],
+            "answer_correctness": 0.4945317527699491,
             "passed": false
         },
         {
-            "metadata": {},
+            "metadata": {
+                "id": 20,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/business_consulting.csv",
+                "language": "ja"
+            },
             "question": "光通信社の株式コードは何ですか？",
             "answer": "光通信社の株式コードは何ですか？\r\n光通信社の株式コードは、一般的には証券取引所での株式の識別子として使用されます。株式コードは、企業ごとに異なるため、特定の企業の株式コードを知るには、証券取引所の公式ウェブサイトや金融情報サイトを参照する必要があります。\r\nただし、現在の情報を提供するために、最新の株式コードを確認する必要があります。私の知識のカットオフ日は2024年",
             "ground_truths": [
-                "販売力と顧客基盤: 光通信社の強みは「販売力」であり、その裏には強力な「顧客基盤」「販売網」があります。特に、光通信社は「法人90万社、個人120万人の基盤がある。特に中小企業が多い」という強固な顧客基盤を持っています。\n業績の強さ: 光通信社の業績は絶好調で、前2017年3月期は営業利益が10％増の415億円となり、今2018年3月期も同11％増の465億円と2ケタ成長を着実に達成しそうだ。\n投資戦略: 光通信社は長期的な収益力のある会社に株価が割安な段階から戦略的に投資しているように見えます。これにより、光通信社はその投資先にも注目できそうです。"
+                "光通信社の株式コードは「9435」です"
             ],
             "keywords": [
                 "9435"
             ],
+            "answer_correctness": 0.5238696081654681,
             "passed": false
         }
     ]
