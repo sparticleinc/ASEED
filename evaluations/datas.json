@@ -59,9 +59,10 @@
             {
                 "scene": "real_time_news",
                 "total": 100,
-                "passed": 62,
-                "failed": 38,
-                "pass_rate": "62.00%",
+                "passed": 63,
+                "failed": 37,
+                "pass_rate": "63.00%",
+                "answer_correctness": 0.13035893063385312,
                 "list": [
                     {
                         "total": 20,
@@ -101,9 +102,10 @@
                     },
                     {
                         "total": 20,
-                        "passed": 12,
-                        "failed": 8,
-                        "pass_rate": "60.00%",
+                        "passed": 13,
+                        "failed": 7,
+                        "pass_rate": "65.00%",
+                        "answer_correctness": 0.6517946531692655,
                         "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/real_time_news/20240424-iask.json",
                         "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/real_time_news/20240424-iask.csv",
                         "evaluate_ai": "iask"
@@ -288,10 +290,10 @@
             }
         ],
         "total": 500,
-        "passed": 294,
-        "failed": 206,
-        "pass_rate": "58.80%",
-        "answer_correctness": 0.2784816837981384
+        "passed": 295,
+        "failed": 205,
+        "pass_rate": "59.00%",
+        "answer_correctness": 0.30455346992490906
     },
     {
         "date": "2024-04-22",
