@@ -113,10 +113,10 @@
             {
                 "scene": "local_search",
                 "total": 100,
-                "passed": 68,
-                "failed": 32,
-                "pass_rate": "68.00%",
-                "answer_correctness": 0.6565368783040182,
+                "passed": 71,
+                "failed": 29,
+                "pass_rate": "71.00%",
+                "answer_correctness": 0.6587217446402328,
                 "list": [
                     {
                         "total": 20,
@@ -150,10 +150,10 @@
                     },
                     {
                         "total": 20,
-                        "passed": 4,
-                        "failed": 16,
-                        "pass_rate": "20.00%",
-                        "answer_correctness": 0.5686014080973536,
+                        "passed": 7,
+                        "failed": 13,
+                        "pass_rate": "35.00%",
+                        "answer_correctness": 0.5795257397784267,
                         "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/local_search/20240424-you.json",
                         "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/local_search/20240424-you.csv",
                         "evaluate_ai": "you"
@@ -288,10 +288,10 @@
             }
         ],
         "total": 500,
-        "passed": 296,
-        "failed": 204,
-        "pass_rate": "59.20%",
-        "answer_correctness": 0.2806995108320499
+        "passed": 299,
+        "failed": 201,
+        "pass_rate": "59.80%",
+        "answer_correctness": 0.28113648409929287
     },
     {
         "date": "2024-04-22",
