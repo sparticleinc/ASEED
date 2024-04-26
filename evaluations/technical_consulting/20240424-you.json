@@ -9,12 +9,18 @@
         "total": 20,
         "passed": 9,
         "failed": 11,
-        "pass_rate": "45.00%"
+        "pass_rate": "45.00%",
+        "answer_correctness": 0.5720781550252837
     },
     "created_at": "2024-04-24 12:21:06",
     "datas": [
         {
-            "metadata": {},
+            "metadata": {
+                "id": 1,
+                "scene": "technical_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/technical_consulting.csv",
+                "language": "ja"
+            },
             "question": "OPENAI APIを通じて入れたデータは学習される？",
             "answer": "はい、OpenAI APIを通じて入力されたデータは学習されます。ただし、APIデータは30日間保持され、悪用や不正使用の監視のために使用されます。また、APIデータはサービスの改善（モデルのトレーニングを含む）には使用されなくなりました。\nこの情報は、OpenAI APIの公式ドキュメントから引用されています。",
             "ground_truths": [
@@ -23,10 +29,16 @@
             "keywords": [
                 "しません||30"
             ],
+            "answer_correctness": 0.6289918043401593,
             "passed": true
         },
         {
-            "metadata": {},
+            "metadata": {
+                "id": 2,
+                "scene": "technical_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/technical_consulting.csv",
+                "language": "ja"
+            },
             "question": "Azure OpenAI Service Abuse Monitoringについての記載を教えて？",
             "answer": "Azure OpenAI Service Abuse Monitoringについて\nAzure OpenAI Serviceは、コンテンツフィルタリングと乱用監視の機能を備えています。乱用監視は、サービスの使用方法が行動規範やその他の適用製品条件に違反する可能性がある場合に、繰り返し発生するコンテンツや行動のインジケータを検出し、対処します。乱用の検出には、顧客のプロンプト",
             "ground_truths": [
@@ -35,10 +47,16 @@
             "keywords": [
                 "コンテンツ分類||悪用パターンの検知||人的レビューと判断||通知と措置"
             ],
+            "answer_correctness": 0.6953287177158619,
             "passed": true
         },
         {
-            "metadata": {},
+            "metadata": {
+                "id": 3,
+                "scene": "technical_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/technical_consulting.csv",
+                "language": "ja"
+            },
             "question": "Anthoropic Claude のデータ保持期間は？",
             "answer": "Anthropic Claude のデータ保持期間は公開されていません。公式な情報源によると、Anthropic Claude 3 は大規模な言語モデルであり、GPT-4よりも優れた性能を持っているとされています。しかし、具体的なデータ保持期間についての情報は提供されていませんでした。申し訳ありませんが、詳細な情報を提供することはでき",
             "ground_truths": [
@@ -47,10 +65,16 @@
             "keywords": [
                 "90"
             ],
+            "answer_correctness": 0.5174180474368099,
             "passed": false
         },
         {
-            "metadata": {},
+            "metadata": {
+                "id": 4,
+                "scene": "technical_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/technical_consulting.csv",
+                "language": "ja"
+            },
             "question": "OpenAI APIで入力されたデータは人間に見られますか？",
             "answer": "はい、OpenAI APIで入力されたデータは一部の人間に見られる可能性があります。OpenAIは、乱用や誤用の監視のためにAPIデータを30日間保持しています。機密保持とセキュリティの義務を負う特定の第三者の契約業者や、OpenAIの認証された従業員の一部が、このデータにアクセスすることができますが、それは乱用の調査と",
             "ground_truths": [
@@ -59,10 +83,16 @@
             "keywords": [
                 "されない"
             ],
+            "answer_correctness": 0.520976510424731,
             "passed": true
         },
         {
-            "metadata": {},
+            "metadata": {
+                "id": 5,
+                "scene": "technical_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/technical_consulting.csv",
+                "language": "ja"
+            },
             "question": "Anthoropic Claude のデータポリシーは？",
             "answer": "Anthropic Claude のデータポリシーについては、具体的な情報が見つかりませんでした。データポリシーに関する詳細な情報を提供することができず、申し訳ありません。Anthropic の公式ウェブサイトや公式文書を参照することで、より詳細な情報を入手することができるかもしれません。",
             "ground_truths": [
@@ -71,10 +101,16 @@
             "keywords": [
                 "されない"
             ],
+            "answer_correctness": 0.47281211476580853,
             "passed": false
         },
         {
-            "metadata": {},
+            "metadata": {
+                "id": 6,
+                "scene": "technical_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/technical_consulting.csv",
+                "language": "ja"
+            },
             "question": "OPENAIAssistant API のストレージの上限は？",
             "answer": "OpenAIAssistant APIのストレージの上限についての情報は、提供された検索結果からは見つかりませんでした。申し訳ありませんが、具体的な上限についての情報は提供できません。他の質問がありましたら、お気軽にお聞きください。",
             "ground_truths": [
@@ -85,22 +121,34 @@
                 "512",
                 "100"
             ],
+            "answer_correctness": 0.5421227258224542,
             "passed": false
         },
         {
-            "metadata": {},
+            "metadata": {
+                "id": 7,
+                "scene": "technical_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/technical_consulting.csv",
+                "language": "zh_tw"
+            },
             "question": "Evernote如何打開快捷鍵菜單？",
             "answer": "#### Opening the Shortcut Menu in Evernote\r\n\r\nTo open the shortcut menu in Evernote, you can follow these steps:\r\n\r\n1. **On Android:**\r\n   - Tap the three horizontal lines in the bottom left corner of the app to access the navigation menu.\r\n\r\n2. **On Chromebook:**\r\n   - The Chrome Evernote 'app' on Chromebook may not offer all features available in the Android app or the web client, so the availability of the shortcut menu may vary.\r\n\r\n3. **On Other Devices:**\r\n   - Evernote syncs to all your devices, so you can access the shortcut menu across different platforms.\r\n\r\nRemember that the availability and functionality of the shortcut menu may differ based on the device and the specific version of Evernote being used.",
             "ground_truths": [
-                "要在Evernote中插入元素，請參考以下步驟：\n\n打開筆記，在想插入元素的地方放置游標。\n按下\"/\"鍵來插入元素。\n選擇要插入的元素類型。例如，可以選擇清單、表格或其他元素。\n選擇好要插入的元素後，它將顯示在筆記中。"
+                "Windows 上：按下「Ctrl」+「/」即可打開快捷鍵菜單。\nMac 上：按下「command」+「/」即可打開快捷鍵菜單。"
             ],
             "keywords": [
                 "\"/\""
             ],
+            "answer_correctness": 0.5386515554817284,
             "passed": false
         },
         {
-            "metadata": {},
+            "metadata": {
+                "id": 8,
+                "scene": "technical_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/technical_consulting.csv",
+                "language": "zh_tw"
+            },
             "question": "Windows 11中如何在壓縮文件時設置密碼",
             "answer": "在Windows 11中，您可以使用壓縮文件時設置密碼的功能。以下是在Windows 11中設置壓縮文件密碼的步驟：\n\n選擇要壓縮的文件或文件夾。\n右鍵單擊選中的文件或文件夾，然後選擇“添加到壓縮文件”。\n在壓縮文件對話框中，選擇壓縮文件的保存位置和名稱。\n在壓縮文件對話\n",
             "ground_truths": [
@@ -109,10 +157,16 @@
             "keywords": [
                 "7-Zip"
             ],
+            "answer_correctness": 0.57754808030736,
             "passed": false
         },
         {
-            "metadata": {},
+            "metadata": {
+                "id": 9,
+                "scene": "technical_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/technical_consulting.csv",
+                "language": "ru"
+            },
             "question": "Как установить файл IPA на iOS?",
             "answer": "Как установить файл IPA на iOS?\nДля установки файла IPA на устройство iOS можно использовать несколько методов. Один из способов - использование программы Cydia Impactor . Вот пошаговая инструкция:\n\nСкачайте и установите программу Cydia Impactor на компьютер.\nПодключите ваше устройство iOS к компьютеру с помощью USB-кабеля.\nОткройте программу Cydia Impactor.\nПеретащите файл IPA в окно программы Cydia Impactor.\nВведите ваш Apple ID и пароль, чтобы подтвердить установку приложения.\nДожд\n",
             "ground_truths": [
@@ -122,10 +176,16 @@
                 "iTunes",
                 "Safari"
             ],
+            "answer_correctness": 0.5602450946593682,
             "passed": true
         },
         {
-            "metadata": {},
+            "metadata": {
+                "id": 10,
+                "scene": "technical_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/technical_consulting.csv",
+                "language": "ru"
+            },
             "question": "Как использовать ChatGPT для перевода PDF-документов?",
             "answer": "Для перевода PDF-документов с использованием ChatGPT можно воспользоваться сервисом DocTranslator. Этот сервис использует технологию искусственного интеллекта, основанную на модели ChatGPT, чтобы предложить более эффективный и точный способ перевода текста.\nВот пошаговая инструкция по использованию сервиса DocTranslator для перевода PDF-документов:\n\nЗагрузите свой файл на сайт DocTranslator.\nВыбер\n",
             "ground_truths": [
@@ -135,10 +195,16 @@
                 "TXT",
                 "Преобразовать||Преобразуйте"
             ],
+            "answer_correctness": 0.5562584202753499,
             "passed": true
         },
         {
-            "metadata": {},
+            "metadata": {
+                "id": 11,
+                "scene": "technical_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/technical_consulting.csv",
+                "language": "zh_cn"
+            },
             "question": "gpt-3-5-turbo-0125 1M цена",
             "answer": "The price for the GPT-3.5 Turbo-0125 model is $0.0005 per 1,000 tokens for input. However, I couldn't find information about the total cost for 1 million tokens. It's worth noting that the GPT-4 Turbo-0125 model is roughly 20 times more expensive than the GPT-3.5 Turbo-0125 model for input and output tokens .",
             "ground_truths": [
@@ -149,10 +215,16 @@
                 "50",
                 "1"
             ],
+            "answer_correctness": 0.477733823363626,
             "passed": true
         },
         {
-            "metadata": {},
+            "metadata": {
+                "id": 12,
+                "scene": "technical_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/technical_consulting.csv",
+                "language": "zh_cn"
+            },
             "question": "我想在edge浏览器查看新闻，但不喜欢自带的资讯源，有什么推荐的新闻源吗？",
             "answer": "您可以尝试以下推荐的新闻源来在Edge浏览器上查看新闻：\n\n\nMicrosoft News - Microsoft News是微软提供的新闻聚合平台，提供全球范围内的新闻报道和资讯。您可以在Edge浏览器中访问Microsoft News网站或者在Edge的新标签页中设置Microsoft News作为您的资讯源。\n\n\nBBC News - BBC News是英国广播公司提供的全球新闻服务。他\n\n",
             "ground_truths": [
@@ -161,10 +233,16 @@
             "keywords": [
                 "Customize||自定义"
             ],
+            "answer_correctness": 0.5108205429829914,
             "passed": false
         },
         {
-            "metadata": {},
+            "metadata": {
+                "id": 13,
+                "scene": "technical_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/technical_consulting.csv",
+                "language": "zh_cn"
+            },
             "question": "hostinger选择中国，服务器可以是全球吗",
             "answer": "根据搜索结果，Hostinger是一个提供各种网络托管服务的公司，包括共享托管、虚拟专用服务器（VPS）和云计划。虽然Hostinger在全球范围内提供服务，但具体是否有在中国提供服务器并没有明确的信息。因此，我无法确定Hostinger是否在中国提供服务器。\n**注意：**以上回答是基于搜索结果的摘录，没有提供明确的证据支持。",
             "ground_truths": [
@@ -173,10 +251,16 @@
             "keywords": [
                 "可以"
             ],
+            "answer_correctness": 0.6478752060620455,
             "passed": false
         },
         {
-            "metadata": {},
+            "metadata": {
+                "id": 14,
+                "scene": "technical_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/technical_consulting.csv",
+                "language": "ru"
+            },
             "question": "Как веб-мастер личного сайта, помимо NPS и FRP, есть ли еще какие-либо инструменты для пробивки внутренней сети, которые можно развернуть на публичном сервере? Перечислите их и дайте краткое описание.",
             "answer": "Инструменты для пробивки внутренней сети на публичном сервере\nЕсли вы являетесь веб-мастером личного сайта и ищете инструменты для пробивки внутренней сети, которые можно развернуть на публичном сервере, помимо NPS и FRP, есть несколько других инструментов, которые могут быть полезными. Вот некоторые из них:\n\nNAT P2P: NAT P2P (Network Address Translation Peer-to-Peer) - это технология\n",
             "ground_truths": [
@@ -185,10 +269,16 @@
             "keywords": [
                 "Zerotier||Lanproxy||Ngrok||Goproxy"
             ],
+            "answer_correctness": 0.5436576473485257,
             "passed": false
         },
         {
-            "metadata": {},
+            "metadata": {
+                "id": 15,
+                "scene": "technical_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/technical_consulting.csv",
+                "language": "zh_tw"
+            },
             "question": "vocol-ai-逐字稿筆記神器是什麼-有什麼特點和應用場景",
             "answer": "Vocol.ai-逐字稿筆記神器是什麼？\nVocol.ai是一個逐字稿筆記神器，它使用人工智能技術來自動生成逐字稿筆記。逐字稿筆記是指將會議、演講、訪談等語音內容轉換為文字形式的筆記。Vocol.ai可以將語音內容轉換為準確的文字，提供方便的筆記記錄和查閱功能",
             "ground_truths": [
@@ -197,10 +287,16 @@
             "keywords": [
                 "多語言"
             ],
+            "answer_correctness": 0.7201393067477407,
             "passed": true
         },
         {
-            "metadata": {},
+            "metadata": {
+                "id": 16,
+                "scene": "technical_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/technical_consulting.csv",
+                "language": "ru"
+            },
             "question": "Скачайте файл ISO 7000 для меня.",
             "answer": "Скачайте файл ISO 7000 для меня\nISO 7000 - это стандарт, который определяет графические символы, используемые для представления информации на различных устройствах и изделиях. Он содержит символы, которые представляют различные функции и характеристики продуктов.\nЧтобы скачать файл ISO 7000, вам понадобится специализированный инструмент, такой как UltraISO. UltraISO -",
             "ground_truths": [
@@ -209,10 +305,16 @@
             "keywords": [
                 "приобрести||Покупка"
             ],
+            "answer_correctness": 0.496080099030598,
             "passed": false
         },
         {
-            "metadata": {},
+            "metadata": {
+                "id": 17,
+                "scene": "technical_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/technical_consulting.csv",
+                "language": "zh_tw"
+            },
             "question": "Knowledge Bases for Amazon Bedrock的自動數據同步功能是指什麼？",
             "answer": "Amazon Bedrock的自動數據同步功能是指將數據從Amazon S3中自動提取、轉換為嵌入向量(embeddings)，並將這些嵌入向量存儲在向量數據庫中的過程。這個功能可以通過Knowledge Bases for Amazon Bedrock來實現。Knowledge Bases for Amazon Bedrock是一個完全托管的服務，它可以幫助您實現從數據",
             "ground_truths": [
@@ -222,10 +324,16 @@
                 "自動",
                 "知識庫||RAG"
             ],
+            "answer_correctness": 0.6522293748688142,
             "passed": false
         },
         {
-            "metadata": {},
+            "metadata": {
+                "id": 18,
+                "scene": "technical_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/technical_consulting.csv",
+                "language": "en"
+            },
             "question": "what are the applications of lidar in aerospace industry?",
             "answer": "Applications of LiDAR in the Aerospace Industry\nLiDAR (Light Detection and Ranging) technology has various applications in the aerospace industry. Here are some key applications:\n\n\nMapping and Surveying: LiDAR is used to create accurate and detailed maps of both natural and manmade environments. It can be used to produce more precise shoreline maps, digital elevation models, and topographic maps for use in geographic information systems (GIS) .\n\n\nEmergency Response Operations: LiDAR can assist in emergency response operations by providing real-time data on the affected areas. It can help in assessing the extent of damage\n\n",
             "ground_truths": [
@@ -234,10 +342,16 @@
             "keywords": [
                 "Terrain and Obstacle Mapping||Aircraft and Satellite Detection and Tracking||Airport Operations||Autonomous Navigation||Bathymetric Mapping"
             ],
+            "answer_correctness": 0.6346855917129023,
             "passed": true
         },
         {
-            "metadata": {},
+            "metadata": {
+                "id": 19,
+                "scene": "technical_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/technical_consulting.csv",
+                "language": "ru"
+            },
             "question": "У Huawei Mate 60 есть функция 5G?",
             "answer": "Да, у Huawei Mate 60 есть функция 5G. Это подтверждается в источниках  и .",
             "ground_truths": [
@@ -247,10 +361,16 @@
                 "поддерживают",
                 "1000"
             ],
+            "answer_correctness": 0.6361278679479361,
             "passed": true
         },
         {
-            "metadata": {},
+            "metadata": {
+                "id": 20,
+                "scene": "technical_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/technical_consulting.csv",
+                "language": "ru"
+            },
             "question": "Как проверить, достаточно ли свободного места на памяти и работает ли память нормально на DAQ970A?",
             "answer": "Как проверить, достаточно ли свободного места на памяти и работает ли память нормально на DAQ970A?\nДля проверки свободного места на памяти и работы памяти на DAQ970A, вы можете воспользоваться следующими методами:\n\nПроверка свободного места на памяти:\n\nНа DAQ970A можно проверить свободное место на памяти, используя команду df -h. Эта команда позволяет узнать общий объем памяти, использованное и свободное пространство на устройстве.\nВы\n\n\n",
             "ground_truths": [
@@ -259,6 +379,7 @@
             "keywords": [
                 "MEM"
             ],
+            "answer_correctness": 0.5118605692108626,
             "passed": false
         }
     ]
