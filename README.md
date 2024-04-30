@@ -105,6 +105,7 @@ The specific information about the aforementioned four products is as follows (r
 <br>
 
 - The Answer Correctness evaluation are as follows.
+
 | Product Name | Answer correctness |
 | --- | --- |
 | Perplexity | 65.22% |
