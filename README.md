@@ -6,6 +6,17 @@ ASEED (AI Search Engine Evaluation Dataset) is a dataset rewritten based on real
 
 We plan to create a standardized and comprehensive dataset to evaluate AI search engines comprehensively and accurately. Considering the language diversity of the global user community, our evaluation report covers multiple languages including English, Japanese, Simplified Chinese, Russian, and Traditional Chinese, and has conducted preliminary testing and evaluation on the accuracy of these question-answering search engine products.
 
+## Leader Board（5/1/2024)
+
+| Product Name | Accuracy | Answer correctness |
+| --- | --- | --- |
+| Metaso | 66.00% | 62.70% |
+| Perplexity | 65.00% | 65.22% |
+| iAsk | 60.00% | 62.27% | 
+| You.com | 34.00 | 58.27% |
+
+<br>
+
 ## Dataset
 
 **Scenario Distribution**
@@ -87,7 +98,7 @@ The specific information about the aforementioned four products is as follows (r
 
 <br>
 
-**Test result**
+**Detailed test results**
 
 - Overall, the performance of the evaluated products did not meet our expectations. However, it is noteworthy that Metaso, a company primarily serving the Chinese market, performed the best overall in the evaluation, slightly surpassing Perplexity.
 <img src="./graphs/accuracy_1.png" alt="accuracy_1" style="zoom:50%;" />
@@ -102,16 +113,6 @@ The specific information about the aforementioned four products is as follows (r
 - In terms of performance by language, Perplexity leads by a significant margin in answering English questions, and its performance in Simplified Chinese is also quite impressive. Metaso stands out in its performance in both Simplified and Traditional Chinese. However, both companies did not reach a satisfactory level in other languages. iAsk demonstrated relatively balanced capabilities across different languages, but overall, it falls within the medium range. You.com, on the other hand, performed well only in answering questions in English.
 <img src="./graphs/overall_score.png" alt="overall_score" style="zoom:50%;" />
 <br>
-<br>
-
-- The Answer Correctness evaluation are as follows.
-
-| Product Name | Answer correctness |
-| --- | --- |
-| Perplexity | 65.22% |
-| You.com | 58.27% |
-| Metaso | 62.70% |
-| iAsk | 62.27% |
 
 <br>
 
