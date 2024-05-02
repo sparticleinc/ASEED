@@ -10,10 +10,10 @@ We plan to create a standardized and comprehensive dataset to evaluate AI search
 
 | Product Name | Accuracy | Answer correctness |
 | --- | --- | --- |
-| Metaso | 66.00% | 62.70% |
+| Metaso🏆 | 66.00% | 62.70% |
 | Perplexity | 65.00% | 65.22% |
 | iAsk | 60.00% | 62.27% | 
-| You.com | 34.00 | 58.27% |
+| You.com | 34.00% | 58.27% |
 
 <br>
 
