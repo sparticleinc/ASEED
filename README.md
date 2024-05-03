@@ -6,11 +6,11 @@ ASEED (AI Search Engine Evaluation Dataset) is a dataset rewritten based on real
 
 We plan to create a standardized and comprehensive dataset to evaluate AI search engines comprehensively and accurately. Considering the language diversity of the global user community, our evaluation report covers multiple languages including English, Japanese, Simplified Chinese, Russian, and Traditional Chinese, and has conducted preliminary testing and evaluation on the accuracy of these question-answering search engine products.
 
-## Leader Board（5/1/2024)
+## Leader Board（5/1/2024) 🏆
 
 | Product Name | Accuracy | Answer correctness |
 | --- | --- | --- |
-| Metaso🏆 | 66.00% | 62.70% |
+| Metaso | 66.00% | 62.70% |
 | Perplexity | 65.00% | 65.22% |
 | iAsk | 60.00% | 62.27% | 
 | You.com | 34.00% | 58.27% |
