@@ -5,9 +5,9 @@
             {
                 "scene": "complex_search",
                 "total": 120,
-                "passed": 53,
-                "failed": 67,
-                "pass_rate": "44.17%",
+                "passed": 51,
+                "failed": 69,
+                "pass_rate": "42.50%",
                 "answer_correctness": 0.6560337189223596,
                 "list": [
                     {
@@ -42,9 +42,9 @@
                     },
                     {
                         "total": 20,
-                        "passed": 9,
-                        "failed": 11,
-                        "pass_rate": "45.00%",
+                        "passed": 7,
+                        "failed": 13,
+                        "pass_rate": "35.00%",
                         "answer_correctness": 0.6517623859067921,
                         "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/complex_search/20240509-perplexity.json",
                         "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/complex_search/20240509-perplexity.csv",
@@ -74,9 +74,9 @@
             }
         ],
         "total": 120,
-        "passed": 53,
-        "failed": 67,
-        "pass_rate": "44.17%",
+        "passed": 51,
+        "failed": 69,
+        "pass_rate": "42.50%",
         "answer_correctness": 0.6560337189223596
     },
     {
