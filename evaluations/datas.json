@@ -4,11 +4,11 @@
         "list": [
             {
                 "scene": "complex_search",
-                "total": 40,
-                "passed": 15,
-                "failed": 25,
-                "pass_rate": "37.50%",
-                "answer_correctness": 0.630233903712283,
+                "total": 60,
+                "passed": 23,
+                "failed": 37,
+                "pass_rate": "38.33%",
+                "answer_correctness": 0.6263947614921695,
                 "list": [
                     {
                         "total": 20,
@@ -29,15 +29,25 @@
                         "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/complex_search/20240509-metaso.json",
                         "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/complex_search/20240509-metaso.csv",
                         "evaluate_ai": "metaso"
+                    },
+                    {
+                        "total": 20,
+                        "passed": 8,
+                        "failed": 12,
+                        "pass_rate": "40.00%",
+                        "answer_correctness": 0.6187164770519427,
+                        "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/complex_search/20240509-you.json",
+                        "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/complex_search/20240509-you.csv",
+                        "evaluate_ai": "you"
                     }
                 ]
             }
         ],
-        "total": 40,
-        "passed": 15,
-        "failed": 25,
-        "pass_rate": "37.50%",
-        "answer_correctness": 0.630233903712283
+        "total": 60,
+        "passed": 23,
+        "failed": 37,
+        "pass_rate": "38.33%",
+        "answer_correctness": 0.6263947614921695
     },
     {
         "date": "2024-04-24",
