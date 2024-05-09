@@ -1,5 +1,35 @@
 [
     {
+        "date": "2024-05-09",
+        "list": [
+            {
+                "scene": "complex_search",
+                "total": 20,
+                "passed": 9,
+                "failed": 11,
+                "pass_rate": "45.00%",
+                "answer_correctness": 0.6517623859067921,
+                "list": [
+                    {
+                        "total": 20,
+                        "passed": 9,
+                        "failed": 11,
+                        "pass_rate": "45.00%",
+                        "answer_correctness": 0.6517623859067921,
+                        "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/complex_search/20240509-perplexity.json",
+                        "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/complex_search/20240509-perplexity.csv",
+                        "evaluate_ai": "perplexity"
+                    }
+                ]
+            }
+        ],
+        "total": 20,
+        "passed": 9,
+        "failed": 11,
+        "pass_rate": "45.00%",
+        "answer_correctness": 0.6517623859067921
+    },
+    {
         "date": "2024-04-24",
         "list": [
             {
