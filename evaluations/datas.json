@@ -4,22 +4,12 @@
         "list": [
             {
                 "scene": "complex_search",
-                "total": 100,
-                "passed": 40,
-                "failed": 60,
-                "pass_rate": "40.00%",
-                "answer_correctness": 0.6347399727296212,
+                "total": 120,
+                "passed": 53,
+                "failed": 67,
+                "pass_rate": "44.17%",
+                "answer_correctness": 0.6560337189223596,
                 "list": [
-                    {
-                        "total": 20,
-                        "passed": 9,
-                        "failed": 11,
-                        "pass_rate": "45.00%",
-                        "answer_correctness": 0.6517623859067921,
-                        "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/complex_search/20240509-perplexity.json",
-                        "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/complex_search/20240509-perplexity.csv",
-                        "evaluate_ai": "perplexity"
-                    },
                     {
                         "total": 20,
                         "passed": 9,
@@ -29,6 +19,16 @@
                         "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/complex_search/20240509-glarity_search.json",
                         "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/complex_search/20240509-glarity_search.csv",
                         "evaluate_ai": "glarity_search"
+                    },
+                    {
+                        "total": 20,
+                        "passed": 8,
+                        "failed": 12,
+                        "pass_rate": "40.00%",
+                        "answer_correctness": 0.6611015032269856,
+                        "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/complex_search/20240509-iask.json",
+                        "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/complex_search/20240509-iask.csv",
+                        "evaluate_ai": "iask"
                     },
                     {
                         "total": 20,
@@ -42,6 +42,26 @@
                     },
                     {
                         "total": 20,
+                        "passed": 9,
+                        "failed": 11,
+                        "pass_rate": "45.00%",
+                        "answer_correctness": 0.6517623859067921,
+                        "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/complex_search/20240509-perplexity.json",
+                        "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/complex_search/20240509-perplexity.csv",
+                        "evaluate_ai": "perplexity"
+                    },
+                    {
+                        "total": 20,
+                        "passed": 13,
+                        "failed": 7,
+                        "pass_rate": "65.00%",
+                        "answer_correctness": 0.7625024498860518,
+                        "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/complex_search/20240509-perplexity_pro.json",
+                        "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/complex_search/20240509-perplexity_pro.csv",
+                        "evaluate_ai": "perplexity_pro"
+                    },
+                    {
+                        "total": 20,
                         "passed": 8,
                         "failed": 12,
                         "pass_rate": "40.00%",
@@ -49,25 +69,15 @@
                         "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/complex_search/20240509-you.json",
                         "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/complex_search/20240509-you.csv",
                         "evaluate_ai": "you"
-                    },
-                    {
-                        "total": 20,
-                        "passed": 8,
-                        "failed": 12,
-                        "pass_rate": "40.00%",
-                        "answer_correctness": 0.6611015032269856,
-                        "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/complex_search/20240509-iask.json",
-                        "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/complex_search/20240509-iask.csv",
-                        "evaluate_ai": "iask"
                     }
                 ]
             }
         ],
-        "total": 100,
-        "passed": 40,
-        "failed": 60,
-        "pass_rate": "40.00%",
-        "answer_correctness": 0.6347399727296212
+        "total": 120,
+        "passed": 53,
+        "failed": 67,
+        "pass_rate": "44.17%",
+        "answer_correctness": 0.6560337189223596
     },
     {
         "date": "2024-04-24",
