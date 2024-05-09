@@ -4,11 +4,11 @@
         "list": [
             {
                 "scene": "complex_search",
-                "total": 80,
-                "passed": 31,
-                "failed": 49,
-                "pass_rate": "38.75%",
-                "answer_correctness": 0.6350714469258736,
+                "total": 100,
+                "passed": 40,
+                "failed": 60,
+                "pass_rate": "40.00%",
+                "answer_correctness": 0.6347399727296212,
                 "list": [
                     {
                         "total": 20,
@@ -19,6 +19,16 @@
                         "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/complex_search/20240509-perplexity.json",
                         "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/complex_search/20240509-perplexity.csv",
                         "evaluate_ai": "perplexity"
+                    },
+                    {
+                        "total": 20,
+                        "passed": 9,
+                        "failed": 11,
+                        "pass_rate": "45.00%",
+                        "answer_correctness": 0.6334140759446114,
+                        "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/complex_search/20240509-glarity_search.json",
+                        "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/complex_search/20240509-glarity_search.csv",
+                        "evaluate_ai": "glarity_search"
                     },
                     {
                         "total": 20,
@@ -53,11 +63,11 @@
                 ]
             }
         ],
-        "total": 80,
-        "passed": 31,
-        "failed": 49,
-        "pass_rate": "38.75%",
-        "answer_correctness": 0.6350714469258736
+        "total": 100,
+        "passed": 40,
+        "failed": 60,
+        "pass_rate": "40.00%",
+        "answer_correctness": 0.6347399727296212
     },
     {
         "date": "2024-04-24",
