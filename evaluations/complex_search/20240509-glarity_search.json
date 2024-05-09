@@ -7,9 +7,9 @@
     "evaluate_type": "ragas",
     "evaluate_data": {
         "total": 20,
-        "passed": 9,
-        "failed": 11,
-        "pass_rate": "45.00%",
+        "passed": 10,
+        "failed": 10,
+        "pass_rate": "50.00%",
         "answer_correctness": 0.6334140759446114
     },
     "created_at": "2024-05-09 09:15:29",
@@ -140,7 +140,7 @@
                 "按摩"
             ],
             "answer_correctness": 0.7485604825025806,
-            "passed": false
+            "passed": true
         },
         {
             "metadata": {
@@ -213,7 +213,7 @@
                 "重要軍事基地"
             ],
             "answer_correctness": 0.5658397446826918,
-            "passed": false
+            "passed": true
         },
         {
             "metadata": {
@@ -341,7 +341,7 @@
                 "이명박"
             ],
             "answer_correctness": 0.5558291820642797,
-            "passed": true
+            "passed": false
         },
         {
             "metadata": {
