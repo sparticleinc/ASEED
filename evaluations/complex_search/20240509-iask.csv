@@ -81,7 +81,7 @@ metadata,question,answer,ground_truths,keywords,answer_correctness,passed
 
 
 
-    The sources provided valuable information on rabies prevention, pet care guidelines, and disease transmission risks associated with different types of pets.",['家里有孩子的话，养乌龟可能比茶杯犬更安全一些。乌龟不会像狗狗那样咬人或传播狂犬病。'],['乌龟'],0.49499927561882195,False
+    The sources provided valuable information on rabies prevention, pet care guidelines, and disease transmission risks associated with different types of pets.",['家里有孩子的话，养乌龟可能比茶杯犬更安全一些。乌龟不会像狗狗那样咬人或传播狂犬病。'],['乌龟'],0.49499927561882195,True
 "{'id': 6, 'scene': 'complex_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/complex_search.csv', 'language': 'zh_cn'}",周传雄有哪些代表作品，播放量最高的事哪首,"Representative Works of Zhou Chuanxiong:
     
 
@@ -137,7 +137,7 @@ metadata,question,answer,ground_truths,keywords,answer_correctness,passed
     
      有没有一首歌会让你想起我
     
-    “ (“Will Any Song Remind You of Me”).",['周传雄有哪些代表作品有：黄昏、寂寞沙洲冷、关不上的窗、冬天的秘密、我难过、青花、我的心太乱、男人海洋。周传雄代表作品中播放量最高的应该是《青花》。'],['黄昏||青花'],0.6027325880532144,True
+    “ (“Will Any Song Remind You of Me”).",['周传雄有哪些代表作品有：黄昏、寂寞沙洲冷、关不上的窗、冬天的秘密、我难过、青花、我的心太乱、男人海洋。周传雄代表作品中播放量最高的应该是《青花》。'],['黄昏||青花'],0.6027325880532144,False
 "{'id': 7, 'scene': 'complex_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/complex_search.csv', 'language': 'zh_cn'}",迷迭香精油的作用和用法,"迷迭香精油的作用和用法
     
 
@@ -300,7 +300,7 @@ metadata,question,answer,ground_truths,keywords,answer_correctness,passed
    
 
 
-    These sources were consulted to ensure accuracy and reliability in explaining the relationship between Gibbs free energy and equilibrium constants in chemistry.","['吉布斯自由能和化学平衡常数之间有以下关系:\n1. 标准吉布斯自由能变化(ΔG°)与标准平衡常数(K°)之间有以下关系:\nΔG° = -RTlnK°\n其中,R是气体常数,T是绝对温度。这个公式表明,当反应的标准吉布斯自由能变化减小时,标准平衡常数就会增大,反应越容易达到平衡。\n1. 在化学平衡状态下,反应物和产物的吉布斯自由能之和达到最小值。平衡时,反应的吉布斯自由能变化ΔG = 0。\n2. 平衡常数K与反应的吉布斯自由能变化ΔG的关系为:\nΔG = -RTlnK\n这表明,当ΔG < 0时,K > 1,反应自发进行;当ΔG > 0时,K < 1,反应不自发进行。总之,吉布斯自由能变化和平衡常数K之间存在着密切的数学关系,可以相互推算。知道其中一个,就可以计算出另一个。这对于判断反应的自发性和预测反应的平衡组成都很有帮助。']","['ΔG', 'RTlnK']",0.6839374484328493,False
+    These sources were consulted to ensure accuracy and reliability in explaining the relationship between Gibbs free energy and equilibrium constants in chemistry.","['吉布斯自由能和化学平衡常数之间有以下关系:\n1. 标准吉布斯自由能变化(ΔG°)与标准平衡常数(K°)之间有以下关系:\nΔG° = -RTlnK°\n其中,R是气体常数,T是绝对温度。这个公式表明,当反应的标准吉布斯自由能变化减小时,标准平衡常数就会增大,反应越容易达到平衡。\n1. 在化学平衡状态下,反应物和产物的吉布斯自由能之和达到最小值。平衡时,反应的吉布斯自由能变化ΔG = 0。\n2. 平衡常数K与反应的吉布斯自由能变化ΔG的关系为:\nΔG = -RTlnK\n这表明,当ΔG < 0时,K > 1,反应自发进行;当ΔG > 0时,K < 1,反应不自发进行。总之,吉布斯自由能变化和平衡常数K之间存在着密切的数学关系,可以相互推算。知道其中一个,就可以计算出另一个。这对于判断反应的自发性和预测反应的平衡组成都很有帮助。']","['ΔG', 'RTlnK']",0.6839374484328493,True
 "{'id': 9, 'scene': 'complex_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/complex_search.csv', 'language': 'zh_tw'}",劉德華比周傳雄（小剛）大幾歲？,"劉德華比周傳雄（小剛）大6歲。
     
 
@@ -454,7 +454,7 @@ metadata,question,answer,ground_truths,keywords,answer_correctness,passed
    
 
 
-    The information provided in the response was gathered from these reputable sources to ensure accuracy and reliability.",['『ストリートファイター』シリーズです。'],['ストリートファイター'],0.7536615991980823,False
+    The information provided in the response was gathered from these reputable sources to ensure accuracy and reliability.",['『ストリートファイター』シリーズです。'],['ストリートファイター'],0.7536615991980823,True
 "{'id': 17, 'scene': 'complex_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/complex_search.csv', 'language': 'ko'}",북한과 한국은 각각 어느 해에 중국과 수교를 맺습니까?,"북한
     
     은
@@ -504,7 +504,7 @@ metadata,question,answer,ground_truths,keywords,answer_correctness,passed
    
 
 
-    The sources used in answering the question were selected based on their relevance to the historical and political context provided in the initial text. These sources provided insights into the educational backgrounds and political dynamics of figures like 이명박 and 박정희, allowing for a comparison to determine their respective levels of education.",['이명박 대통령의 교육 수준이 박정희 대통령보다 높습니다.'],['이명박'],0.521269292860748,True
+    The sources used in answering the question were selected based on their relevance to the historical and political context provided in the initial text. These sources provided insights into the educational backgrounds and political dynamics of figures like 이명박 and 박정희, allowing for a comparison to determine their respective levels of education.",['이명박 대통령의 교육 수준이 박정희 대통령보다 높습니다.'],['이명박'],0.521269292860748,False
 "{'id': 19, 'scene': 'complex_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/complex_search.csv', 'language': 'ru'}",когда Россия установила дипломатические отношения с Южной Кореей и когда она выиграла Крым?,"Establishment of Diplomatic Relations between Russia and South Korea:
     
 
