@@ -7,9 +7,9 @@
     "evaluate_type": "ragas",
     "evaluate_data": {
         "total": 20,
-        "passed": 8,
-        "failed": 12,
-        "pass_rate": "40.00%",
+        "passed": 9,
+        "failed": 11,
+        "pass_rate": "45.00%",
         "answer_correctness": 0.6187164770519427
     },
     "created_at": "2024-05-09 08:32:58",
