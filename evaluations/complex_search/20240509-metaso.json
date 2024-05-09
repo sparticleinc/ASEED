@@ -30,7 +30,7 @@
                 "Hamlet"
             ],
             "answer_correctness": 0.522991712968494,
-            "passed": true
+            "passed": false
         },
         {
             "metadata": {
@@ -48,7 +48,7 @@
                 "Andrea Pirlo"
             ],
             "answer_correctness": 0.8391078635480815,
-            "passed": false
+            "passed": true
         },
         {
             "metadata": {
@@ -159,7 +159,7 @@
                 "RTlnK"
             ],
             "answer_correctness": 0.7734451704419412,
-            "passed": false
+            "passed": true
         },
         {
             "metadata": {
@@ -177,7 +177,7 @@
                 "8"
             ],
             "answer_correctness": 0.5393462909869898,
-            "passed": true
+            "passed": false
         },
         {
             "metadata": {
@@ -286,7 +286,7 @@
                 "たこさんウィンナー"
             ],
             "answer_correctness": 0.699234462292692,
-            "passed": false
+            "passed": true
         },
         {
             "metadata": {
@@ -341,7 +341,7 @@
                 "이명박"
             ],
             "answer_correctness": 0.5214588849928363,
-            "passed": true
+            "passed": false
         },
         {
             "metadata": {
