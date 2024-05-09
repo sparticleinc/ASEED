@@ -5,9 +5,9 @@
             {
                 "scene": "complex_search",
                 "total": 120,
-                "passed": 52,
-                "failed": 68,
-                "pass_rate": "43.33%",
+                "passed": 53,
+                "failed": 67,
+                "pass_rate": "44.17%",
                 "answer_correctness": 0.6560337189223596,
                 "list": [
                     {
@@ -22,9 +22,9 @@
                     },
                     {
                         "total": 20,
-                        "passed": 8,
-                        "failed": 12,
-                        "pass_rate": "40.00%",
+                        "passed": 9,
+                        "failed": 11,
+                        "pass_rate": "45.00%",
                         "answer_correctness": 0.6611015032269856,
                         "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/complex_search/20240509-iask.json",
                         "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/complex_search/20240509-iask.csv",
@@ -74,9 +74,9 @@
             }
         ],
         "total": 120,
-        "passed": 52,
-        "failed": 68,
-        "pass_rate": "43.33%",
+        "passed": 53,
+        "failed": 67,
+        "pass_rate": "44.17%",
         "answer_correctness": 0.6560337189223596
     },
     {
