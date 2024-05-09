@@ -1,0 +1,385 @@
+{
+    "evaluate_ai": {
+        "name": "Perplexity Pro",
+        "url": "https://www.perplexity.ai/"
+    },
+    "evaluate_llm": "gpt-4-0125-preview",
+    "evaluate_type": "ragas",
+    "evaluate_data": {
+        "total": 20,
+        "passed": 13,
+        "failed": 7,
+        "pass_rate": "65.00%",
+        "answer_correctness": 0.7625024498860518
+    },
+    "created_at": "2024-05-09 09:25:17",
+    "datas": [
+        {
+            "metadata": {
+                "id": 1,
+                "scene": "complex_search",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/complex_search.csv",
+                "language": "en"
+            },
+            "question": "Which movie is longer, Hamlet or Gone with the Wind",
+            "answer": "The movie \"Hamlet\" directed by Kenneth Branagh in 1996 is longer than \"Gone with the Wind.\" \"Hamlet\" has a runtime of 246 minutes[1][3][6][10], while \"Gone with the Wind\" has a runtime of 238 minutes when including the overture, intermission, entr'acte, and exit music[7].",
+            "ground_truths": [
+                "The movie that is longer is Hamlet.\nThe key details are:\nHamlet (1996) directed by Kenneth Branagh has a runtime of 242 minutes (4 hours 2 minutes) \nGone with the Wind (1939) has a runtime of 221 minutes (3 hours 41 minutes)"
+            ],
+            "keywords": [
+                "Hamlet"
+            ],
+            "answer_correctness": 0.7116373345800321,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 2,
+                "scene": "complex_search",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/complex_search.csv",
+                "language": "en"
+            },
+            "question": "Which player was awarded the most number of Man of the match titles in the FIFA world cup of 2006?",
+            "answer": "Andrea Pirlo of Italy was awarded the most number of Man of the Match titles in the 2006 FIFA World Cup, with a total of three awards",
+            "ground_truths": [
+                "the player who was awarded the most number of Man of the Match titles in the 2006 FIFA World Cup was Andrea Pirlo of the Italy national team, who won 3 such awards"
+            ],
+            "keywords": [
+                "Andrea Pirlo"
+            ],
+            "answer_correctness": 0.985287166233484,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 3,
+                "scene": "complex_search",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/complex_search.csv",
+                "language": "en"
+            },
+            "question": "Which award received in 2003 by the movie The Ring?",
+            "answer": "In 2003, the movie \"The Ring\" received several awards:\nMTV Movie Award for Best Villain awarded to Daveigh Chase\n.\nTeen Choice Award for Choice Movie - Horror/Thriller\n.\nSaturn Award for Best Horror Film\n.\nSaturn Award for Best Actress awarded to Naomi Watts\n.\nASCAP Award for Top Box Office Films awarded to Hans Zimmer\n.\nGolden Trailer Award for Most Original\n.\nGolden Trailer Award for Best Horror/Thriller\n.\nChainsaw Award for Best Wide-Release Film\n.\nChainsaw Award for Best Actress awarded to Naomi Watts\n.\nChainsaw Award for Best Score awarded to Hans Zimmer",
+            "ground_truths": [
+                "MTV Movie Award for Best Villain"
+            ],
+            "keywords": [
+                "Best Villain"
+            ],
+            "answer_correctness": 0.5857589529502051,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 4,
+                "scene": "complex_search",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/complex_search.csv",
+                "language": "en"
+            },
+            "question": "What is the date of publication of the first book of the Outland series?",
+            "answer": "The first book of the Outland series, titled \"Outland,\" was published in January 2015",
+            "ground_truths": [
+                "The first book in the Outlander series, titled \"Outlander\" (published as \"Cross Stitch\" in the UK, Australia, and New Zealand), was published on June 1, 1991."
+            ],
+            "keywords": [
+                "1991"
+            ],
+            "answer_correctness": 0.5270217917548399,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 5,
+                "scene": "complex_search",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/complex_search.csv",
+                "language": "zh_cn"
+            },
+            "question": "家里有孩子，怕狂犬病，养乌龟好，还是养茶杯犬好？",
+            "answer": "在考虑养宠物时，特别是在有孩子的家庭中，选择合适的宠物非常重要。对于担心狂犬病的家庭来说，选择养乌龟可能会是一个更安全的选择。\n\n首先，乌龟作为宠物，通常不会传播狂犬病。狂犬病主要通过被感染动物的唾液传播，而乌龟并不是狂犬病的常见宿主。此外，乌龟不需要像狗那样频繁的亲密接触，这减少了传播疾病的风险.\n\n然而，养乌龟也有其自身的挑战和注意事项。乌龟需要特定的生活环境和温度，需要定期清洁其栖息地，以及适当的食物和水。乌龟也可能携带沙门氏菌，这是一种可以通过接触乌龟或其生活环境传播给人类的细菌，尤其是儿童和免疫系统较弱的人群需要注意[3][4][5][6][7][8][9][10].\n\n另一方面，茶杯犬虽然体型小巧可爱，但作为犬类，它们仍然有携带狂犬病的风险，尤其是如果没有得到适当的疫苗接种。茶杯犬也需要较高的护理和医疗成本，因为它们可能会有多种健康问题，如心脏病和骨骼问题",
+            "ground_truths": [
+                "家里有孩子的话，养乌龟可能比茶杯犬更安全一些。乌龟不会像狗狗那样咬人或传播狂犬病。"
+            ],
+            "keywords": [
+                "乌龟"
+            ],
+            "answer_correctness": 0.77922197261367,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 6,
+                "scene": "complex_search",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/complex_search.csv",
+                "language": "zh_cn"
+            },
+            "question": "周传雄有哪些代表作品，播放量最高的事哪首",
+            "answer": "周传雄，台湾著名歌手及音乐制作人，以其深情的歌声和才华横溢的作曲能力闻名。他的代表作品包括多首广受欢迎的歌曲，其中最为人熟知的包括《黄昏》和《青花》。\n\n1. **《黄昏》**：这首歌是周传雄的标志性作品之一，以其深情的旋律和歌词感动了无数听众。《黄昏》不仅在台湾，也在中国大陆和其他华语地区广受欢迎，成为了许多人心中的经典情歌.\n\n2. **《青花》**：这首歌曲近年来因为在短视频平台抖音上的热播而再次走红，播放量达到了1.5亿次. 它的旋律和歌词同样深受听众喜爱，展示了周传雄作为“情歌教父”的独特魅力。\n\n3. **其他作品**：除了《黄昏》和《青花》，周传雄还有其他多首著名歌曲，如《记事本》、《北极雪》和《出卖》等，这些歌曲也都显示了他作为歌手和作曲人的才华.\n\n综合播放量和知名度来看，《黄昏》是周传雄播放量最高的歌曲之一，尤其是在各大音乐平台和社交媒体上的广泛传播，使得这首歌成为了周传雄的代表作.",
+            "ground_truths": [
+                "周传雄有哪些代表作品有：黄昏、寂寞沙洲冷、关不上的窗、冬天的秘密、我难过、青花、我的心太乱、男人海洋。周传雄代表作品中播放量最高的应该是《青花》。"
+            ],
+            "keywords": [
+                "黄昏||青花"
+            ],
+            "answer_correctness": 0.693854143380446,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 7,
+                "scene": "complex_search",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/complex_search.csv",
+                "language": "zh_cn"
+            },
+            "question": "迷迭香精油的作用和用法",
+            "answer": "迷迭香精油，以其多样的功效和用途而闻名，主要源自地中海地区的迷迭香植物。这种精油不仅在芳香疗法中广泛使用，还因其对健康的多方面益处而受到推崇。\n\n### 迷迭香精油的主要功效\n\n1. **提神醒脑和增强记忆力**：迷迭香精油能刺激大脑中枢神经，帮助提高注意力和记忆力[2][4][6]。\n2. **头发保养**：它能刺激头皮，促进头发生长，对抗头皮屑[1][4]。\n3. **调理呼吸系统**：迷迭香精油对于缓解呼吸系统疾病如感冒、支气管炎等症状非常有效[1][8]。\n4. **肌肉酸痛缓解**：它具有缓解肌肉疼痛和疲劳的作用，适合运动后使用[1][2]。\n5. **消毒杀菌**：迷迭香精油具有很强的抗菌和消毒能力，历史上甚至在医院中用于空气消毒[1][4]。\n\n### 使用方法和注意事项\n\n- **熏香或蒸汽吸入**：可以将几滴迷迭香精油滴入热水中，通过蒸汽吸入法来缓解呼吸系统的症状，或者用于提神醒脑[1][10]。\n- **按摩油**：迷迭香精油需用基底油稀释后才能用于皮肤，适合用于按摩以缓解肌肉疼痛和促进血液循环[2][9]。\n- **泡澡**：在浴缸中加入几滴迷迭香精油，可以帮助放松身心，缓解肌肉疼痛[2]。\n\n### 禁忌\n\n迷迭香精油虽然功效显著，但并不适合所有人使用。孕妇、高血压患者、癫痫患者以及4岁以下儿童应避免使用[1][2]。此外，由于迷迭香精油具有较强的刺激性，使用前应进行皮肤测试，避免直接接触未稀释的精油[2][3]。\n\n迷迭香精油的使用应根据个人健康状况和具体需要谨慎选择，必要时应咨询专业人士的意见。",
+            "ground_truths": [
+                "迷迭香精油的功效：消毒杀菌、增强记忆、有益于头发生长、调理呼吸系统、缓解肌肉酸痛。迷迭香精油的正确使用方法：涂抹法、按摩法、熏香法。"
+            ],
+            "keywords": [
+                "头发",
+                "呼吸",
+                "按摩"
+            ],
+            "answer_correctness": 0.7457666619542633,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 8,
+                "scene": "complex_search",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/complex_search.csv",
+                "language": "zh_cn"
+            },
+            "question": "吉布斯自由能和化学平衡常数的关系",
+            "answer": "吉布斯自由能($$G$$)和化学平衡常数($$K$$)之间的关系是通过热力学第二定律和化学势的概念来建立的。这种关系揭示了化学反应的自发性和平衡状态的性质。\n\n首先，吉布斯自由能变化($$\\Delta G$$)用于判断一个过程是否具有自发性。如果$$\\Delta G < 0$$，则过程自发进行；如果$$\\Delta G > 0$$，则过程非自发；如果$$\\Delta G = 0$$，系统处于平衡状态[1][2][5]。在化学反应中，$$\\Delta G$$不仅取决于反应物和产物的性质，还受温度和压力的影响。\n\n标准状态下的吉布斯自由能变化($$\\Delta G^\\circ$$)与化学平衡常数($$K$$)之间的关系可以通过以下公式表示：\n$$\n\\Delta G^\\circ = -RT \\ln K\n$$\n其中，$$R$$是气体常数，$$T$$是绝对温度，$$K$$是化学平衡常数[4][10][12]。这个公式表明，如果一个反应的$$\\Delta G^\\circ$$为负值，那么$$K$$将大于1，意味着在标准状态下，产物的生成受到青睐。相反，如果$$\\Delta G^\\circ$$为正值，$$K$$将小于1，表示反应物更稳定。\n\n化学势是理解吉布斯自由能与化学平衡常数关系的关键。在化学平衡或相平衡状态下，系统的自由能处于极小值，各种物质的化学势与化学计量系数乘积之和达到平衡[11]。化学势也被称作偏摩尔吉布斯自由能，它是描述系统在温度和压强固定时，添加或移除一定量物质时系统自由能变化的量度。\n\n总结来说，吉布斯自由能和化学平衡常数之间的关系是通过热力学原理建立的，这种关系不仅反映了化学反应的自发性，还揭示了反应在特定条件下达到平衡时的性质。通过$$\\Delta G^\\circ$$和$$K$$的关系，我们可以预测在标准状态下反应的方向性和平衡位置。",
+            "ground_truths": [
+                "吉布斯自由能和化学平衡常数之间有以下关系:\n1. 标准吉布斯自由能变化(ΔG°)与标准平衡常数(K°)之间有以下关系:\nΔG° = -RTlnK°\n其中,R是气体常数,T是绝对温度。这个公式表明,当反应的标准吉布斯自由能变化减小时,标准平衡常数就会增大,反应越容易达到平衡。\n1. 在化学平衡状态下,反应物和产物的吉布斯自由能之和达到最小值。平衡时,反应的吉布斯自由能变化ΔG = 0。\n2. 平衡常数K与反应的吉布斯自由能变化ΔG的关系为:\nΔG = -RTlnK\n这表明,当ΔG < 0时,K > 1,反应自发进行;当ΔG > 0时,K < 1,反应不自发进行。总之,吉布斯自由能变化和平衡常数K之间存在着密切的数学关系,可以相互推算。知道其中一个,就可以计算出另一个。这对于判断反应的自发性和预测反应的平衡组成都很有帮助。"
+            ],
+            "keywords": [
+                "ΔG",
+                "RTlnK"
+            ],
+            "answer_correctness": 0.8313947467290314,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 9,
+                "scene": "complex_search",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/complex_search.csv",
+                "language": "zh_tw"
+            },
+            "question": "劉德華比周傳雄（小剛）大幾歲？",
+            "answer": "劉德華出生於1961年9月27日[7]，而周傳雄（小剛）出生於1969年6月7日[1][3][4][6]。因此，劉德華比周傳雄大8歲。",
+            "ground_truths": [
+                "劉德華出生於1961年9月27日，而周傳雄（小剛）則出生於1969年6月7日。因此，劉德華比周傳雄大約8年。"
+            ],
+            "keywords": [
+                "8"
+            ],
+            "answer_correctness": 0.9947678424691735,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 10,
+                "scene": "complex_search",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/complex_search.csv",
+                "language": "zh_tw"
+            },
+            "question": "台灣的兩條鐵路線會加掛另一個機車頭作為補機用，一條是東部幹線宜蘭段，另一條是?",
+            "answer": "台灣的兩條鐵路線會加掛另一個機車頭作為補機用，一條是東部幹線宜蘭段，另一條是碓冰嶺區段[5].",
+            "ground_truths": [
+                "在台灣，有兩條鐵路線通常會加掛另一個機車頭作為補機用。其中一條是東部幹線宜蘭段，而另一條則是縱貫鐵路山線段。"
+            ],
+            "keywords": [
+                "縱貫鐵路山線段"
+            ],
+            "answer_correctness": 0.8423408602223235,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 11,
+                "scene": "complex_search",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/complex_search.csv",
+                "language": "zh_tw"
+            },
+            "question": "為何參觀一線天必須要經過地方軍事首長允許？",
+            "answer": "參觀一線天必須要經過地方軍事首長的允許，這是因為一線天地區被軍方規劃為進行幹部軍官教育、兵棋推演、衛戍演訓及專案研討的研習場地[2]。由於這些活動的敏感性和安全需求，非軍事人員進入這些區域前需要得到相應的許可和監督，以確保活動的安全與秩序。",
+            "ground_truths": [
+                "造成遊客參觀一線天必須經過地方軍事首長允許的原因是因為一線天目前仍屬重要軍事基地。"
+            ],
+            "keywords": [
+                "重要軍事基地"
+            ],
+            "answer_correctness": 0.7262212561541245,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 12,
+                "scene": "complex_search",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/complex_search.csv",
+                "language": "zh_tw"
+            },
+            "question": "臺灣2022年GDP總量相比2012年增加了多少美元？",
+            "answer": "要計算台灣2022年GDP總量相比2012年增加了多少美元，我們需要找到這兩個年份的GDP總量數據。根據提供的資料，我們可以找到相關的數據。\n\n首先，根據外務省的資料[8]，2022年台灣的名目GDP為7,608億美元。\n\n其次，我們需要找到2012年的GDP總量。然而，提供的資料中沒有直接提到2012年的GDP總量數字。不過，我們可以從其他資料中尋找相關的線索。例如，中央研究院在2012年對GDP成長率進行了下方修正，將其調整到1.94％[9]，但這並不直接提供我們需要的GDP總量數字。\n\n由於缺乏直接的2012年GDP總量數據，我們無法精確計算出2022年相比2012年GDP總量增加了多少美元。理想情況下，我們需要找到2012年的具體GDP總量數字，然後用2022年的GDP總量減去2012年的GDP總量，得到增加的美元數量。由於缺乏2012年的具體數據，這個問題無法直接解答。",
+            "ground_truths": [
+                "2022年台灣的GDP總量為760,460兆美元，而2012年的GDP總量為495,610兆美元。因此，從2012年到2022年，台灣的GDP總量增加了760,460−495,610=264,850兆美元。"
+            ],
+            "keywords": [
+                "264"
+            ],
+            "answer_correctness": 0.5677663420647721,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 13,
+                "scene": "complex_search",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/complex_search.csv",
+                "language": "ja"
+            },
+            "question": "麻生太郎は酒井法子より何歳年上ですか。",
+            "answer": "麻生太郎は酒井法子より2歳年上です[2]。",
+            "ground_truths": [
+                "麻生太郎は酒井法子より31歳年上です。"
+            ],
+            "keywords": [
+                "31"
+            ],
+            "answer_correctness": 0.5767699122660707,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 14,
+                "scene": "complex_search",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/complex_search.csv",
+                "language": "ja"
+            },
+            "question": "『たなばたま』童謡と『ラブ·ソー·スウィート』の発行期間はそれぞれ何年ですか？",
+            "answer": "『たなばたさま』の童謡は、昭和16年（1941年）に初掲載されました[1]。一方で、嵐のシングル『Love so sweet』は、2007年2月21日に発売されました[3]。",
+            "ground_truths": [
+                "たなばたま”は1941年(昭和16年)に発行された。\n“ラブ·ソー·スウィート”というシングルは、日本の男性アイドルグループ·AKB 48からリリースされ、リリース期間は2007年2月21日。"
+            ],
+            "keywords": [
+                "1941",
+                "2007"
+            ],
+            "answer_correctness": 0.8106104004753889,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 15,
+                "scene": "complex_search",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/complex_search.csv",
+                "language": "ja"
+            },
+            "question": "料理研究家の尚道子によって考案された、ウインナーを箸でつかみやすくするために、ある海の生き物に似せた飾り切りをしたものを何というでしょう?",
+            "answer": "料理研究家の尚道子によって考案されたウインナーの飾り切りで、箸でつかみやすくするためにある海の生き物に似せたものは「タコさんウインナー」と呼ばれています。この飾り切りは、ウインナーの一端を十字に切り込み、調理すると切り込んだ部分が開いてタコの足のように見えることからこの名前がつけられました。この方法は、特に子供向けの料理として人気があり、見た目の楽しさと食べやすさを兼ね備えています。",
+            "ground_truths": [
+                "尚道子によって考案された、ウインナーを箸でつかみやすくするために、タコに似せた飾り切りをしたものは「たこさんウィンナー」と呼ばれています。"
+            ],
+            "keywords": [
+                "たこさんウィンナー"
+            ],
+            "answer_correctness": 0.769284909229889,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 16,
+                "scene": "complex_search",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/complex_search.csv",
+                "language": "ja"
+            },
+            "question": "1987年に第1作がリリースされた、カプコンの格闘ゲームシリーズで、昇龍拳や竜巻旋風脚などの技が登場するのは何ですか？",
+            "answer": "1987年に第1作がリリースされたカプコンの格闘ゲームシリーズで、昇龍拳や竜巻旋風脚などの技が登場するのは『ストリートファイター』シリーズです[1][3][5].",
+            "ground_truths": [
+                "『ストリートファイター』シリーズです。"
+            ],
+            "keywords": [
+                "ストリートファイター"
+            ],
+            "answer_correctness": 0.923851368082667,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 17,
+                "scene": "complex_search",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/complex_search.csv",
+                "language": "ko"
+            },
+            "question": "북한과 한국은 각각 어느 해에 중국과 수교를 맺습니까?",
+            "answer": "북한은 1949년 10월 6일에 중국과 정식 외교관계를 수립했습니다[12]. 한국은 1992년 8월 24일에 중국과 수교를 맺었습니다[9].",
+            "ground_truths": [
+                "조선민주주의인민공화국(북한)과 중화인민공화국(중국)은 1949년 10월 6일 수교했으며, 북한은 중국과 수교한 첫 나라 중 하나다. \n중국과 대한민국(한국)은 1992년 8월 24일 정식으로 외교관계를 수립했다."
+            ],
+            "keywords": [
+                "1949",
+                "1992"
+            ],
+            "answer_correctness": 0.8869301599560836,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 18,
+                "scene": "complex_search",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/complex_search.csv",
+                "language": "ko"
+            },
+            "question": "이명박과 박정희는 누가 교육 정도를 좀 더 높게 받았나.",
+            "answer": "박정희와 이명박 두 인물의 교육 수준을 비교할 때, 박정희는 일본에서 군사 교육을 받았으며, 그의 학창 시절 성적이 우수했고 다양한 과목에서 높은 성적을 유지했다는 점이 기록되어 있습니다[3]. 반면, 이명박의 구체적인 교육 수준에 대한 직접적인 정보는 제공된 검색 결과에서 확인되지 않습니다.\n\n따라서, 제공된 정보를 바탕으로 판단할 때, 박정희의 교육 수준이 상세하게 기술되어 있으며, 그가 받은 교육의 질과 성적이 높았다는 점이 강조되고 있습니다. 이명박의 교육 수준에 대한 구체적인 정보가 부족한 상태에서는 박정희의 교육 수준이 상대적으로 더 높게 평가될 수 있습니다[3].",
+            "ground_truths": [
+                "이명박 대통령의 교육 수준이 박정희 대통령보다 높습니다."
+            ],
+            "keywords": [
+                "이명박"
+            ],
+            "answer_correctness": 0.5306881841517083,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 19,
+                "scene": "complex_search",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/complex_search.csv",
+                "language": "ru"
+            },
+            "question": "когда Россия установила дипломатические отношения с Южной Кореей и когда она выиграла Крым?",
+            "answer": "Россия установила дипломатические отношения с Южной Кореей 30 сентября 1990 года[1][9][10]. Что касается Крыма, то его аннексия Российской Федерацией произошла с 20/23 февраля по 26 марта 2014 года[2].",
+            "ground_truths": [
+                "Южная Корея установила дипломатические отношения с Россией в 1990 году, а Россия выиграла Крым в 2014 году."
+            ],
+            "keywords": [
+                "1990",
+                "2014"
+            ],
+            "answer_correctness": 0.9694938746208528,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 20,
+                "scene": "complex_search",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/complex_search.csv",
+                "language": "ru"
+            },
+            "question": "когда Россия приобрела Сибирь и когда продала Аляску?",
+            "answer": "Россия приобрела Сибирь в историческом процессе, который традиционно считается начатым в 1581 году походом Ермака против Сибирского ханства[3]. Процесс присоединения Сибири к России охватывает период со второй половины XVI до конца XVII века и включал в себя как прямое завоевание, так и добровольное вхождение народов[3].\n\nАляска была продана Россией Соединённым Штатам Америки 30 марта (18 марта по старому стилю) 1867 года за 7,2 миллиона долларов[2][10]. Официальная церемония передачи Аляски в собственность США состоялась 18 (6) октября 1867 года[11].",
+            "ground_truths": [
+                "Россия оккупировала Сибирское ханство в 1581 году, положив начало завоеванию Сибири. \n30 марта 1867 года Россия продала Аляску США за 7,2 миллиона долларов."
+            ],
+            "keywords": [
+                "1581",
+                "1867"
+            ],
+            "answer_correctness": 0.7913811178320114,
+            "passed": true
+        }
+    ]
+}
