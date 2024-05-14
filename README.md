@@ -6,7 +6,7 @@ ASEED (AI Search Engine Evaluation Dataset) is a dataset rewritten based on real
 
 We plan to create a standardized and comprehensive dataset to evaluate AI search engines comprehensively and accurately. Considering the language diversity of the global user community, our evaluation report covers multiple languages including English, Japanese, Simplified Chinese, Russian, and Traditional Chinese, and has conducted preliminary testing and evaluation on the accuracy of these question-answering search engine products.
 
-## Leader Board（5/1/2024) 🏆
+## Leader Board（5/12/2024) 🏆
 
 | Product Name | Accuracy | Answer correctness |
 | --- | --- | --- |
@@ -15,6 +15,9 @@ We plan to create a standardized and comprehensive dataset to evaluate AI search
 | iAsk | 60.00% | 62.27% | 
 | You.com | 34.00% | 58.27% |
 
+The latest report is: [evaluation-report-v1.1](https://blog.glarity.app/blog/ai-search-engine-multilingual-evaluation-report-complex-query-v1.1) 
+<br>
+You can check the Release to access historical reports.
 <br>
 
 ## Dataset
