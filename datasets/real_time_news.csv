@@ -1,11 +1,11 @@
-id,query,ground_truth,expect_key_words,language,description
+﻿id,query,ground_truth,expect_key_words,language,description
 1,Who's the United States Trade Representative?,The name of the United States Trade Representative is Katherine Chi Tai. She is a Taiwanese American trade lawyer and currently serves as the United States Trade Representative.,Katherine,en,
 2,百川最新的融資,有媒體報導稱，百川智能正在進行新一輪數億美元融資，將成為2024年國內AI領域最大融資之一，且公司今年以來估值已超18億美元。,18||3,zh_tw,
 3,Perplexity最近融资情况,2024年4月23日，Perplexity AI又宣布完成了新一轮融资，筹集了6270万美元，融资后估值达到了10亿美元5810。这次融资使得公司的估值较上一轮融资翻了一番,62.7||6270,zh_cn,
 4,最近台灣地震造成的傷亡人數是多少？,台灣花蓮地震死亡數字上升。10日救援人員在花蓮太魯閣區域砂卡礑步道尋獲3具遺體，花蓮7.3級地震罹難人數上升至16人。,16,zh_tw,
 5,最近の埼玉県行田市事故の死傷者数は何人ですか?,"最近の埼玉県行田市の事故での死傷者数は以下の通りです:
 死亡者数: 1人
-負傷者数: 3人",1,ja,
+負傷者数: 3人",1||3||4,ja,
 6,士林區溪山里事件的起因是什麼？,士林區溪山里事件的起因是與水質問題有關。根據報導，溪山里的居民平常使用自行成立的供水系統，主要使用山泉水作為飲用水源。然而，由於地震等自然災害可能導致山泉水受到污染，進而造成水質問題。事件中大腸桿菌群數值偏高，反映了水質有異常情況，因此許多居民出現了腹瀉和嘔吐等腸胃道疾病症狀。台北市政府為了緊急應對此情況，已提供緊急取水站以及醫療服務，並展開全面水質檢測及環境消毒等措施以解決問題。因此，士林區溪山里事件的起因主要是因為使用的山泉水受到污染所導致的水質問題。,地震,zh_tw,
 7,今年在哪個國家可以看到日食,"2024年4月8日：
 墨西哥、美國、加拿大：預計可以觀測到全食的日食。",2024&&墨西哥||美國||加拿大,zh_tw,

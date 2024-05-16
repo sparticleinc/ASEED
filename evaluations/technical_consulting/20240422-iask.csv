@@ -340,7 +340,7 @@ metadata,question,answer,ground_truths,keywords,answer_correctness,passed
     By following these steps, you can easily insert various elements like text, images, files, links, and checkboxes into your Evernote notes.
    
 
-    These sources provide official guidance from Evernote itself and insights from experienced users within the Evernote community, ensuring accurate and reliable information for using Evernote effectively.","['Evernoteに要素を挿入する方法として、以下の手順を参考にしてください:\nノートを開き、要素を挿入したい場所でカーソルを置きます。\nノート内で要素を挿入するために、""/""キーを押します。\nその後、挿入したい要素の種類を選択します。たとえば、リスト、表、またはその他の要素があります。\n選択した要素を挿入すると、それがノートに表示されます。\nこの手順に従うことで、Evernoteで要素を簡単に挿入することができます。']","['""/""']",0.5247197697908426,False
+    These sources provide official guidance from Evernote itself and insights from experienced users within the Evernote community, ensuring accurate and reliable information for using Evernote effectively.","['Evernoteに要素を挿入する方法として、以下の手順を参考にしてください:\nノートを開き、要素を挿入したい場所でカーソルを置きます。\nノート内で要素を挿入するために、""/""キーを押します。\nその後、挿入したい要素の種類を選択します。たとえば、リスト、表、またはその他の要素があります。\n選択した要素を挿入すると、それがノートに表示されます。\nこの手順に従うことで、Evernoteで要素を簡単に挿入することができます。']","['""/""||/']",0.5247197697908426,False
 "{'id': 8, 'scene': 'technical_consulting', 'source': 'https://github.com/sparticleinc/CRED/blob/main/datasets/technical_consulting.csv', 'language': 'ja'}",Windows-11でファイルを圧縮する際にパスワードを設定する方法はありますか,"Yes, you can set a password when compressing files in Windows 11.
     
 

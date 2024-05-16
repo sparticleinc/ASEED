@@ -54,7 +54,7 @@ Anthoropic Claudeのデータポリシーは、ユーザーデータの保護、
 2. **在Windows上**：
    - 請進入菜單欄的""工具"" > ""選項"" > ""快捷鍵""，這樣您就可以重新定義快捷鍵或查看系統中設置的快捷鍵。
 
-這樣，您就可以輕鬆地訪問和自定義Evernote的快捷鍵菜單了。",['Windows 上：按下「Ctrl」+「/」即可打開快捷鍵菜單。\nMac 上：按下「command」+「/」即可打開快捷鍵菜單。'],"['""/""']",0.7140900899771275,True
+這樣，您就可以輕鬆地訪問和自定義Evernote的快捷鍵菜單了。",['Windows 上：按下「Ctrl」+「/」即可打開快捷鍵菜單。\nMac 上：按下「command」+「/」即可打開快捷鍵菜單。'],"['""/""||/']",0.7140900899771275,True
 "{'id': 8, 'scene': 'technical_consulting', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/technical_consulting.csv', 'language': 'zh_tw'}",Windows 11中如何在壓縮文件時設置密碼,"在Windows 11中，您可以使用第三方文件压缩工具如WinRAR或7-Zip来在压缩文件时设置密码。以下是在Windows 11中使用这些工具设置压缩文件密码的简单步骤：
 
 ### 使用WinRAR设置压缩文件密码：

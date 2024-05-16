@@ -137,7 +137,7 @@
                 "Windows 上：按下「Ctrl」+「/」即可打開快捷鍵菜單。\nMac 上：按下「command」+「/」即可打開快捷鍵菜單。"
             ],
             "keywords": [
-                "\"/\""
+                "\"/\"||/"
             ],
             "answer_correctness": 0.7140900899771275,
             "passed": true

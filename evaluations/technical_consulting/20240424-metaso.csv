@@ -19,7 +19,7 @@ metadata,question,answer,ground_truths,keywords,answer_correctness,passed
 
 然而，考虑到快捷键通常用于快速访问特定功能或菜单，且Evernote支持全局快捷键9，可以推测可能需要使用与操作系统相关的快捷键来访问快捷键菜单。例如，在Windows系统中，这可能涉及到使用Ctrl + Shift等组合键，而在Mac系统中，则可能是Command + Shift等组合键。但是，由于缺乏直接说明如何打开快捷键菜单的证据，这一推测并不确定。
 
-总结来说，虽然无法直接回答如何打开快捷键菜单的具体快捷键，但用户可以通过修改Evernote的偏好设置中的快捷键来尝试找到或创建一个用于打开快捷键菜单的快捷方式138。如果需要更具体的快捷键信息，建议查阅最新的官方文档或联系Evernote的客户支持获取帮助。",['Windows 上：按下「Ctrl」+「/」即可打開快捷鍵菜單。\nMac 上：按下「command」+「/」即可打開快捷鍵菜單。'],"['""/""']",0.5134929302649606,False
+总结来说，虽然无法直接回答如何打开快捷键菜单的具体快捷键，但用户可以通过修改Evernote的偏好设置中的快捷键来尝试找到或创建一个用于打开快捷键菜单的快捷方式138。如果需要更具体的快捷键信息，建议查阅最新的官方文档或联系Evernote的客户支持获取帮助。",['Windows 上：按下「Ctrl」+「/」即可打開快捷鍵菜單。\nMac 上：按下「command」+「/」即可打開快捷鍵菜單。'],"['""/""||/']",0.5134929302649606,False
 "{'id': 8, 'scene': 'technical_consulting', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/technical_consulting.csv', 'language': 'zh_tw'}",Windows 11中如何在壓縮文件時設置密碼,"在Windows 11中设置压缩文件密码的方法主要有以下几种：
 
 

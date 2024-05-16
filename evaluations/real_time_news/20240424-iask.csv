@@ -70,7 +70,7 @@ metadata,question,answer,ground_truths,keywords,answer_correctness,passed
    
 
 
-    These sources were utilized to gather information regarding the recent accident in Gyoda City, Saitama Prefecture, providing details about the number of casualties and the circumstances surrounding the tragic incident.",['最近の埼玉県行田市の事故での死傷者数は以下の通りです:\n死亡者数: 1人\n負傷者数: 3人'],['1'],0.715129769697304,True
+    These sources were utilized to gather information regarding the recent accident in Gyoda City, Saitama Prefecture, providing details about the number of casualties and the circumstances surrounding the tragic incident.",['最近の埼玉県行田市の事故での死傷者数は以下の通りです:\n死亡者数: 1人\n負傷者数: 3人'],['1||3||4'],0.715129769697304,True
 "{'id': 6, 'scene': 'real_time_news', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/real_time_news.csv', 'language': 'ja'}",藤岡康太騎手の怪我はどうでしたか？,"藤岡康太騎手の怪我は、頭部と胸部を負傷していました。
     
     落馬事故が原因で意識不明の重体となり、病院で治療を受けていましたが、最終的に亡くなったことが発表されました。

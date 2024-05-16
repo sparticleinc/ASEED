@@ -393,7 +393,7 @@ metadata,question,answer,ground_truths,keywords,answer_correctness,passed
 
 
       The Basho Museum Website",['奥の細道の作者は、江戸時代の俳人である松尾芭蕉です。芭蕉は1644年に生まれました。'],['1644'],,False
-"{'id': 19, 'scene': 'local_search', 'source': 'https://github.com/sparticleinc/CRED/blob/main/datasets/local_search.csv', 'language': 'ja'}",正岡子は何年に俳句革新運動に参加しましたか。,正岡子規は1893年に俳句革新運動に参加しました。,['正岡子規は、1893年（明治26年）に「獺祭書屋俳話（だっさいしょおくはいわ）」を新聞『日本』に連載し、俳句革新運動を開始しました'],['1893'],,True
+"{'id': 19, 'scene': 'local_search', 'source': 'https://github.com/sparticleinc/CRED/blob/main/datasets/local_search.csv', 'language': 'ja'}",正岡子は何年に俳句革新運動に参加しましたか。,正岡子規は1893年に俳句革新運動に参加しました。,['正岡子規は、1893年（明治26年）に「獺祭書屋俳話（だっさいしょおくはいわ）」を新聞『日本』に連載し、俳句革新運動を開始しました'],['1892||1893'],,True
 "{'id': 20, 'scene': 'local_search', 'source': 'https://github.com/sparticleinc/CRED/blob/main/datasets/local_search.csv', 'language': 'ja'}",松尾芭蕉の父の名前は何ですか。,"松尾芭蕉の父の名前は松尾与左衛門です。
     
 

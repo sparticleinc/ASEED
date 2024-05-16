@@ -7,7 +7,7 @@ metadata,question,answer,ground_truths,keywords,answer_correctness,passed
 本来无一物何处惹尘埃 - 网易云音乐
 
 根据搜索结果，我们可以看到这句诗句出现在多个网站上，包括百度百科、知","['这句诗句出自唐代禅宗六祖慧能的《菩提偈》。完整的诗句是:""菩提本无树，明镜亦非台。\n本来无一物，何处惹尘埃!""']","['菩提本无树', '明镜亦非台']",0.5400391041216259,False
-"{'id': 2, 'scene': 'local_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/local_search.csv', 'language': 'zh_cn'}",福建晋江灵水中学一初中女生遭霸凌跳楼去世是什么时候？,根据搜索结果，福建晋江灵水中学一初中女生遭霸凌跳楼去世的具体时间是2022年11月。,['2024福建晋江灵水中学一初中女生遭霸凌跳楼去世的事件发生在2024年3月24日22时。'],['March 24||2024/3/24'],0.5546013235607232,False
+"{'id': 2, 'scene': 'local_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/local_search.csv', 'language': 'zh_cn'}",福建晋江灵水中学一初中女生遭霸凌跳楼去世是什么时候？,根据搜索结果，福建晋江灵水中学一初中女生遭霸凌跳楼去世的具体时间是2022年11月。,['2024福建晋江灵水中学一初中女生遭霸凌跳楼去世的事件发生在2024年3月24日22时。'],['March 24||2024/3/24||2024年3月24'],0.5546013235607232,False
 "{'id': 3, 'scene': 'local_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/local_search.csv', 'language': 'zh_cn'}",那歌鱼是海鱼吗？,是的，歌鱼是海鱼。歌鱼是一种生活在海洋中的鱼类，主要分布在温暖的海域，例如热带和亚热带地区。它们通常被认为是美味的食物，并且在许多地方被作为食材使用。歌鱼的身体呈流线型，游泳,['是的，那歌鱼是海鱼。'],['是||Yes'],0.6300768063676774,True
 "{'id': 4, 'scene': 'local_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/local_search.csv', 'language': 'zh_cn'}",四面楚歌的主人公是谁？,"四面楚歌的主人公是谁？
 根据提供的搜索结果，没有找到与问题相关的信息。很抱歉，我无法回答这个问题。如果您有其他问题，我将很乐意帮助您。",['四面楚歌的主人公是西楚霸王项羽。'],['项羽'],0.5086789854076265,False
@@ -52,5 +52,5 @@ Our team is looking into it. If you would like to follow up on this issue, pleas
 "{'id': 19, 'scene': 'local_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/local_search.csv', 'language': 'ja'}",正岡子は何年に俳句革新運動に参加しましたか。,"正岡子は何年に俳句革新運動に参加しましたか。
 私の調査結果によると、正岡子は1927年に俳句革新運動に参加しました。[[1]]
 この運動は、伝統的な俳句の形式やテーマに挑戦し、新しい表現方法やテーマ性を追求するものでした。正岡子はその中で活躍し、俳句の新たな可能性を模索しました。
-参考",['正岡子規は、1893年（明治26年）に「獺祭書屋俳話（だっさいしょおくはいわ）」を新聞『日本』に連載し、俳句革新運動を開始しました'],['1893'],0.531776415898085,False
+参考",['正岡子規は、1893年（明治26年）に「獺祭書屋俳話（だっさいしょおくはいわ）」を新聞『日本』に連載し、俳句革新運動を開始しました'],['1892||1893'],0.531776415898085,False
 "{'id': 20, 'scene': 'local_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/local_search.csv', 'language': 'ja'}",松尾芭蕉の父の名前は何ですか。,松尾芭蕉の父の名前は松尾常太夫です。[[1]],['松尾芭蕉の父の名前は松尾与左衛門です'],['松尾与左衛門'],0.5631251242616099,False

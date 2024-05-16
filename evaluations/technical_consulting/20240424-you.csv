@@ -20,7 +20,7 @@ To open the shortcut menu in Evernote, you can follow these steps:
 3. **On Other Devices:**
    - Evernote syncs to all your devices, so you can access the shortcut menu across different platforms.
 
-Remember that the availability and functionality of the shortcut menu may differ based on the device and the specific version of Evernote being used.",['Windows 上：按下「Ctrl」+「/」即可打開快捷鍵菜單。\nMac 上：按下「command」+「/」即可打開快捷鍵菜單。'],"['""/""']",0.5386515554817284,False
+Remember that the availability and functionality of the shortcut menu may differ based on the device and the specific version of Evernote being used.",['Windows 上：按下「Ctrl」+「/」即可打開快捷鍵菜單。\nMac 上：按下「command」+「/」即可打開快捷鍵菜單。'],"['""/""||/']",0.5386515554817284,False
 "{'id': 8, 'scene': 'technical_consulting', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/technical_consulting.csv', 'language': 'zh_tw'}",Windows 11中如何在壓縮文件時設置密碼,"在Windows 11中，您可以使用壓縮文件時設置密碼的功能。以下是在Windows 11中設置壓縮文件密碼的步驟：
 
 選擇要壓縮的文件或文件夾。

@@ -56,5 +56,5 @@ metadata,question,answer,ground_truths,keywords,answer_correctness,passed
 "{'id': 18, 'scene': 'local_search', 'source': 'https://github.com/sparticleinc/CRED/blob/main/datasets/local_search.csv', 'language': 'ja'}",奥の細道は何年生まれですか。,奥の細道は、日本の文学作品であり、松尾芭蕉によって書かれました。奥の細道は、芭蕉が元禄15年（1702年）から元禄17年（1704年）にかけて行った旅行の記録です。,['奥の細道の作者は、江戸時代の俳人である松尾芭蕉です。芭蕉は1644年に生まれました。'],['1644'],0.5705368963387408,False
 "{'id': 19, 'scene': 'local_search', 'source': 'https://github.com/sparticleinc/CRED/blob/main/datasets/local_search.csv', 'language': 'ja'}",正岡子は何年に俳句革新運動に参加しましたか。,"正岡子は何年に俳句革新運動に参加しましたか。
 私の調査によると、正岡子は俳句革新運動には参加していませんでした。俳句革新運動は、19世紀末から20世紀初頭にかけて行われた俳句の新しいスタイルやアプローチを追求する運動でしたが、正岡子はその時代よりも後の時期に活動していたため、参加していないとされています。
-もし他の質問がありましたら、お気",['正岡子規は、1893年（明治26年）に「獺祭書屋俳話（だっさいしょおくはいわ）」を新聞『日本』に連載し、俳句革新運動を開始しました'],['1893'],0.5317731660424972,False
+もし他の質問がありましたら、お気",['正岡子規は、1893年（明治26年）に「獺祭書屋俳話（だっさいしょおくはいわ）」を新聞『日本』に連載し、俳句革新運動を開始しました'],['1892||1893'],0.5317731660424972,False
 "{'id': 20, 'scene': 'local_search', 'source': 'https://github.com/sparticleinc/CRED/blob/main/datasets/local_search.csv', 'language': 'ja'}",松尾芭蕉の父の名前は何ですか。,松尾芭蕉の父の名前は松尾常三郎です。[[1]],['松尾芭蕉の父の名前は松尾与左衛門です'],['は松尾与左衛門です'],0.56393274163628,False
