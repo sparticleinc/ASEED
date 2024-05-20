@@ -70,7 +70,7 @@ metadata,question,answer,ground_truths,keywords,answer_correctness,passed
    
 
 
-    The sources used provide detailed information about the ThinkPad L13 Gen3 and its specifications, including the number of Type-C ports available on the device.",['ThinkPad L13 Gen3에는 USB 3.2 Gen 2 Type-C 포트 한 개와 USB 3.2 Gen 1 Type-C 포트 한 개가 있습니다.'],['Gen 2'],0.7268987818896615,False
+    The sources used provide detailed information about the ThinkPad L13 Gen3 and its specifications, including the number of Type-C ports available on the device.",['ThinkPad L13 Gen3에는 USB 3.2 Gen 2 Type-C 포트 한 개와 USB 3.2 Gen 1 Type-C 포트 한 개가 있습니다.'],['Gen2||Gen 2'],0.7268987818896615,False
 "{'id': 6, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/products_search.csv', 'language': 'ja'}",「IKU×MIRU」ご利用方法？,"Main Section Titles:
     
 

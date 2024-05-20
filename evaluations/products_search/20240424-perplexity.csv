@@ -35,7 +35,7 @@ Snapdragon 8 Gen 1은 Qualcomm의 최신 프리미엄 모바일 프로세서로,
 따라서 갤럭시 S24는 QHD+ 해상도의 고화질 디스플레이를 탑재하여 영화, 게임, 웹서핑 등 다양한 멀티미디어 활용에 최적화된 시청 경험을 제공할 것으로 보입니다.5",['갤럭시 S24 기본 모델의 화면 해상도는 2340 x 1080 픽셀입니다'],"['2340', '1080']",0.664085832849426,False
 "{'id': 5, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/products_search.csv', 'language': 'ko'}",ThinkPad L13 Gen3에는 몇 개의 Type-C 포트가 있나요?,"ThinkPad L13 Gen 3에는 2개의 USB Type-C 포트가 있습니다.
 제품 스펙에 따르면 ThinkPad L13 Gen 3에는 Thunderbolt 4 포트 1개와 USB 3.2 Gen 2 Type-C 포트 1개가 있습니다.34
-Thunderbolt 4는 USB4와 동일한 USB Type-C 커넥터를 사용하므로, 총 2개의 USB Type-C 포트가 있는 것입니다.",['ThinkPad L13 Gen3에는 USB 3.2 Gen 2 Type-C 포트 한 개와 USB 3.2 Gen 1 Type-C 포트 한 개가 있습니다.'],['Gen 2'],0.5777133856583977,True
+Thunderbolt 4는 USB4와 동일한 USB Type-C 커넥터를 사용하므로, 총 2개의 USB Type-C 포트가 있는 것입니다.",['ThinkPad L13 Gen3에는 USB 3.2 Gen 2 Type-C 포트 한 개와 USB 3.2 Gen 1 Type-C 포트 한 개가 있습니다.'],['Gen2||Gen 2'],0.5777133856583977,True
 "{'id': 6, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/products_search.csv', 'language': 'ja'}",「IKU×MIRU」ご利用方法？,"「IKU×MIRU」のご利用方法は以下の通りです。
 
 まず「IKU×MIRU」にお申し込みをする必要があります。3

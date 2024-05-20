@@ -44,7 +44,7 @@ metadata,question,answer,ground_truths,keywords,answer_correctness,passed
 
 
 
-    The information regarding the number of Type-C interfaces on the ThinkPad L13 Gen3 was sourced from the user manual of the device, which is an authoritative and reliable document provided by the manufacturer, Lenovo. Additionally, laptopmedia.com, a reputable tech review website, also confirmed this detail in their comprehensive review of the ThinkPad L13 Gen3. The Lenovo official website was consulted to cross-reference and verify the specifications of the laptop model.",['ThinkPad L13 Gen3有两个Type-C接口。其中，一个是USB 3.2 Gen 2 Type-C端口，另一个是USB 3.2 Gen 1 Type-C端口。'],['Gen 2'],0.6623975094569171,False
+    The information regarding the number of Type-C interfaces on the ThinkPad L13 Gen3 was sourced from the user manual of the device, which is an authoritative and reliable document provided by the manufacturer, Lenovo. Additionally, laptopmedia.com, a reputable tech review website, also confirmed this detail in their comprehensive review of the ThinkPad L13 Gen3. The Lenovo official website was consulted to cross-reference and verify the specifications of the laptop model.",['ThinkPad L13 Gen3有两个Type-C接口。其中，一个是USB 3.2 Gen 2 Type-C端口，另一个是USB 3.2 Gen 1 Type-C端口。'],['Gen2||Gen 2'],0.6623975094569171,False
 "{'id': 6, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/CRED/blob/main/datasets/products_search.csv', 'language': 'zh_cn'}",「IKU×MIRU」ご利用方法？,"IKU×MIRU
     
     is an online experience tour service offered by HIS, where users can enjoy unlimited access to various online tours. To use

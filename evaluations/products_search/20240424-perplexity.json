@@ -100,7 +100,7 @@
                 "ThinkPad L13 Gen3에는 USB 3.2 Gen 2 Type-C 포트 한 개와 USB 3.2 Gen 1 Type-C 포트 한 개가 있습니다."
             ],
             "keywords": [
-                "Gen 2"
+                "Gen2||Gen 2"
             ],
             "answer_correctness": 0.5777133856583977,
             "passed": true

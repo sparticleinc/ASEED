@@ -172,7 +172,8 @@
                 "В 2023 году у Monica.im уже более 1,5 миллионов пользователей."
             ],
             "keywords": [
-                "150"
+                "1",
+                "5||150"
             ],
             "answer_correctness": 0.5531505368634428,
             "passed": false
@@ -244,7 +245,7 @@
                 "Elon Musk warned that Chinese automakers will \"demolish\" their global competition unless other nations impose trade barriers to handicap the new wave of electric cars coming from China\nMusk described Chinese brands like BYD as \"extremely good\" and the \"most competitive\" in the world\nMusk stated that if there are no trade barriers established, Chinese automakers will \"pretty much demolish most other car companies in the world\"\nHe believes the Chinese auto industry has a high chance of achieving global domination\nThe search results also indicate that China overtook Japan as the world's biggest exporter of cars during 2023 and seems likely to repeat that success in 2024 as it starts to expand its sales activities into Europe\nThis suggests the Chinese auto industry will continue to grow its global market share in the future.\nTo counter this threat, Musk said Tesla is working on a new entry-level model that will use a new platform to slash production costs, allowing it to be sold for less than $30,000\nThis suggests Tesla is trying to make its EVs more affordable to better compete with Chinese automakers."
             ],
             "keywords": [
-                "BYD||China||中国"
+                "BYD||China||Chinese||中国"
             ],
             "answer_correctness": 0.6591114613742826,
             "passed": true

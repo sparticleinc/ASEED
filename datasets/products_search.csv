@@ -5,7 +5,7 @@ id,query,ground_truth,expect_key_words,language,description
 4,海狮07 EV两驱版最高车速是多少？,海狮07 EV两驱版的最高车速为225km/h,225,zh_cn,
 5,大疆發布 Avata 2 無人機的電池容量是多少mAh？,大疆發布的Avata 2無人機的電池容量為3400毫安時（mAh）。,3400,zh_tw,
 6,갤럭시 S24의 화면 해상도는 어떻게 되나요?,갤럭시 S24 기본 모델의 화면 해상도는 2340 x 1080 픽셀입니다,2340&&1080,ko,
-7,ThinkPad L13 Gen3에는 몇 개의 Type-C 포트가 있나요?,ThinkPad L13 Gen3에는 USB 3.2 Gen 2 Type-C 포트 한 개와 USB 3.2 Gen 1 Type-C 포트 한 개가 있습니다.,Gen 2,ko,
+7,ThinkPad L13 Gen3에는 몇 개의 Type-C 포트가 있나요?,ThinkPad L13 Gen3에는 USB 3.2 Gen 2 Type-C 포트 한 개와 USB 3.2 Gen 1 Type-C 포트 한 개가 있습니다.,Gen2||Gen 2,ko,
 8,「IKU×MIRU」ご利用方法？,"契約後、My HISモバイルにログインし、「特典一覧・お申込みはこちらをご確認ください。」のリンクをクリックして、「特典一覧」を確認します。
 「特典一覧」内には、IKU×MIRUのクーポンコードが掲載されています。このコードをコピーしておきます。
 IKU×MIRUを利用するためには、特典一覧に掲載されている登録ページでクーポンを使って月間プランを申し込みます。

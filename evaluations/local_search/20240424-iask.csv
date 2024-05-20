@@ -253,7 +253,7 @@ metadata,question,answer,ground_truths,keywords,answer_correctness,passed
 
 
 
-      明末作家冯梦龙",['卧薪嘗膽的主人公是越王勾踐。'],['勾踐'],0.9287526378111906,True
+      明末作家冯梦龙",['卧薪嘗膽的主人公是越王勾踐。'],['勾践||勾踐'],0.9287526378111906,True
 "{'id': 14, 'scene': 'local_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/local_search.csv', 'language': 'zh_cn'}",相亲时媒婆说男方会疼人，这是什么意思？,"When a matchmaker or “媒婆” in Chinese culture says that the man will be caring or “会疼人,” it typically implies that the man has experience in relationships, possibly due to being divorced, and therefore is expected to be more considerate and attentive towards his partner. However, this statement can sometimes be misleading as it may not guarantee genuine kindness or tenderness. The phrase “会疼人” should be taken with caution as it might not accurately reflect the person’s true nature or behavior in a relationship.
     
 
@@ -341,7 +341,7 @@ metadata,question,answer,ground_truths,keywords,answer_correctness,passed
 
 
 
-    これらは宮沢賢治の代表作や有名な作品群です。彼は幅広いジャンルで多くの作品を残し、日本文学に多大な影響を与えました。",['「注文の多い料理店」（1924年）: 宮沢賢治の代表作の一つであり、多くの人々に愛されています。物語は注文の多い料理店の主人と、その店を支える猫の心温まる交流を描いています。\n「雨ニモマケズ」（1931年）: 別名「雨にも負けず」で知られる作品で、風雨に負けない強い心を持つことの大切さを描いています。この作品も宮沢賢治の人気作品の一つです。\n「銀河鉄道の夜」（未定稿）: 未完の作品であり、賢治の死後に発見されました。銀河鉄道を舞台にした幻想的な物語で、多くの読者を魅了しています。\n「風の又三郎」（1934年）: 宮沢賢治が亡くなった後に出版された作品であり、風の音を聞くことのできる又三郎という少年の物語です。'],"['雨ニモマケズ', '注文の多い料理店', '銀河鉄道の夜', '風の又三郎']",0.6042104280697738,True
+    これらは宮沢賢治の代表作や有名な作品群です。彼は幅広いジャンルで多くの作品を残し、日本文学に多大な影響を与えました。",['「注文の多い料理店」（1924年）: 宮沢賢治の代表作の一つであり、多くの人々に愛されています。物語は注文の多い料理店の主人と、その店を支える猫の心温まる交流を描いています。\n「雨ニモマケズ」（1931年）: 別名「雨にも負けず」で知られる作品で、風雨に負けない強い心を持つことの大切さを描いています。この作品も宮沢賢治の人気作品の一つです。\n「銀河鉄道の夜」（未定稿）: 未完の作品であり、賢治の死後に発見されました。銀河鉄道を舞台にした幻想的な物語で、多くの読者を魅了しています。\n「風の又三郎」（1934年）: 宮沢賢治が亡くなった後に出版された作品であり、風の音を聞くことのできる又三郎という少年の物語です。'],"['銀河鉄道の夜', '風の又三郎']",0.6042104280697738,True
 "{'id': 16, 'scene': 'local_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/local_search.csv', 'language': 'ja'}",進撃の巨人はいつ発行されましたか？,進撃の巨人は2009年9月に発行されました。,['「進撃の巨人」は、諫山創による日本の漫画作品で、2009年9月9日に発行が開始されました。そして、2021年4月9日に連載が完結しました。最新刊（34巻）は2021年6月9日に発売されました⁵。この作品は世界中で非常に人気があり、多くの派生作品が生まれています。'],['2009年9月'],0.3803592095532565,True
 "{'id': 17, 'scene': 'local_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/local_search.csv', 'language': 'zh_tw'}",三體中那個真正會魔法的妓女叫什麼？,"In the book “Three-Body Problem” (《三体》), the prostitute who truly possesses magical abilities is named 狄奥伦娜 (Diāo’āolúnnà).
     
@@ -362,7 +362,7 @@ metadata,question,answer,ground_truths,keywords,answer_correctness,passed
 
      Background Knowledge on the Three-Body Problem Concept in Physics:
     
-    Understanding the concept of the three-body problem in physics helps provide context to the title and themes explored in both the novel and its adaptations.",['在《三體》系列中，真正會魔法的妓女被稱為狄奧倫娜（Diolena）. 狄奧倫娜是一位十五世紀拜占庭帝國時期的妓女，被描述為可能是人類歷史上唯一一個真正的魔法師. 這個角色引發了故事中關於多維空間和神秘力量的討論，是《三體》系列中引人注目的角色之一。'],['狄奧倫娜||Diolena'],0.6158702203525137,True
+    Understanding the concept of the three-body problem in physics helps provide context to the title and themes explored in both the novel and its adaptations.",['在《三體》系列中，真正會魔法的妓女被稱為狄奧倫娜（Diolena）. 狄奧倫娜是一位十五世紀拜占庭帝國時期的妓女，被描述為可能是人類歷史上唯一一個真正的魔法師. 這個角色引發了故事中關於多維空間和神秘力量的討論，是《三體》系列中引人注目的角色之一。'],['狄奥伦娜狄奧倫娜||Diolena'],0.6158702203525137,True
 "{'id': 18, 'scene': 'local_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/local_search.csv', 'language': 'ja'}",奥の細道は何年生まれですか。,"奥の細道
     
     は、

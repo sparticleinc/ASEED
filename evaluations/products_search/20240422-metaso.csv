@@ -8,7 +8,7 @@ metadata,question,answer,ground_truths,keywords,answer_correctness,passed
 "{'id': 4, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/CRED/blob/main/datasets/products_search.csv', 'language': 'zh_cn'}",Galaxy S24屏幕分辩率是多少？,"Galaxy S24系列的屏幕分辨率根据不同的型号有所不同。Galaxy S24采用了6.2英寸的Dynamic AMOLED屏幕，分辨率为2340x1080像素。而Galaxy S24 Plus和Galaxy S24 Ultra则配备了更高的分辨率，分别为3120x1440像素。这表明三星在S24系列中提供了不同分辨率的选项，以满足不同用户的需求。
 ",['Galaxy S24基本款的屏幕分辨率为2340 x 1080像素'],"['2340', '1080']",0.7248163700068488,True
 "{'id': 5, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/CRED/blob/main/datasets/products_search.csv', 'language': 'zh_cn'}",ThinkPad L13 Gen3有多少个Type-C接口？,"ThinkPad L13 Gen3有2个Type-C接口。
-",['ThinkPad L13 Gen3有两个Type-C接口。其中，一个是USB 3.2 Gen 2 Type-C端口，另一个是USB 3.2 Gen 1 Type-C端口。'],['Gen 2'],0.7821086602235767,False
+",['ThinkPad L13 Gen3有两个Type-C接口。其中，一个是USB 3.2 Gen 2 Type-C端口，另一个是USB 3.2 Gen 1 Type-C端口。'],['Gen2||Gen 2'],0.7821086602235767,False
 "{'id': 6, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/CRED/blob/main/datasets/products_search.csv', 'language': 'zh_cn'}",「IKU×MIRU」ご利用方法？,"「IKU×MIRU」是一种在线体验旅游服务，它允许用户通过网络与世界各地的旅游活动连接起来。使用「IKU×MIRU」的方法主要包括以下几个步骤：
 
 

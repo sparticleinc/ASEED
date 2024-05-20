@@ -8,7 +8,7 @@ metadata,question,answer,ground_truths,keywords,answer_correctness,passed
 "{'id': 4, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/products_search.csv', 'language': 'ko'}",갤럭시 S24의 화면 해상도는 어떻게 되나요?,"三星Galaxy S24系列的屏幕分辨率根据不同的型号有所不同。Galaxy S24采用了6.2英寸的Dynamic AMOLED屏幕，分辨率为2340x1080，支持120Hz自适应刷新率。而Galaxy S24+和Galaxy S24 Ultra则提供了更高的分辨率。S24+的屏幕分辨率为3120x1440，这是一个QHD+级别的分辨率。同样，Galaxy S24 Ultra也配备了分辨率为3120x1440的第二代动态AMOLED显示屏。因此，可以总结说，三星Galaxy S24系列中，标准版S24的屏幕分辨率为2340x1080，而S24+和S24 Ultra的屏幕分辨率为3120x1440。
 ",['갤럭시 S24 기본 모델의 화면 해상도는 2340 x 1080 픽셀입니다'],"['2340', '1080']",0.6347287882451601,True
 "{'id': 5, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/products_search.csv', 'language': 'ko'}",ThinkPad L13 Gen3에는 몇 개의 Type-C 포트가 있나요?,"ThinkPad L13 Gen3拥有2个USB Type-C接口。
-",['ThinkPad L13 Gen3에는 USB 3.2 Gen 2 Type-C 포트 한 개와 USB 3.2 Gen 1 Type-C 포트 한 개가 있습니다.'],['Gen 2'],0.5767502389685181,False
+",['ThinkPad L13 Gen3에는 USB 3.2 Gen 2 Type-C 포트 한 개와 USB 3.2 Gen 1 Type-C 포트 한 개가 있습니다.'],['Gen2||Gen 2'],0.5767502389685181,False
 "{'id': 6, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/products_search.csv', 'language': 'ja'}",「IKU×MIRU」ご利用方法？,"「IKU×MIRU」是一种在线体验旅游服务，允许用户通过网络连接体验世界各地的旅游活动。以下是使用「IKU×MIRU」的方法：
 1.2. 申请加入：用户可以通过填写申请表格来加入「IKU×MIRU」服务。
 

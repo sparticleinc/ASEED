@@ -439,7 +439,7 @@ metadata,question,answer,ground_truths,keywords,answer_correctness,passed
     
      「たこさんウィンナー」
     
-    と呼ばれています。",['尚道子によって考案された、ウインナーを箸でつかみやすくするために、タコに似せた飾り切りをしたものは「たこさんウィンナー」と呼ばれています。'],['たこさんウィンナー'],0.8346938606815331,True
+    と呼ばれています。",['尚道子によって考案された、ウインナーを箸でつかみやすくするために、タコに似せた飾り切りをしたものは「たこさんウィンナー」と呼ばれています。'],['タコさんウインナー||たこさんウィンナー'],0.8346938606815331,True
 "{'id': 16, 'scene': 'complex_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/complex_search.csv', 'language': 'ja'}",1987年に第1作がリリースされた、カプコンの格闘ゲームシリーズで、昇龍拳や竜巻旋風脚などの技が登場するのは何ですか？,"Street Fighter
     
     is the series where

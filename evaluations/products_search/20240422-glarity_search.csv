@@ -17,7 +17,7 @@ metadata,question,answer,ground_truths,keywords,answer_correctness,passed
   - **分辨率**：3120 x 1440像素
 
 总体而言，Galaxy S24 Ultra在分辨率上具有更高的像素密度和分辨率，让用户在使用时能够体验更加清晰和细腻的显示效果。Galaxy S24和S24 Plus的分辨率虽然相同，但由于不同的屏幕尺寸，像素密度略有差异，用户可以根据自己的喜好和需求来选择合适的机型。",['Galaxy S24基本款的屏幕分辨率为2340 x 1080像素'],"['2340', '1080']",0.668750170882841,True
-"{'id': 5, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/CRED/blob/main/datasets/products_search.csv', 'language': 'zh_cn'}",ThinkPad L13 Gen3有多少个Type-C接口？,根据搜索结果，ThinkPad L13 Gen3有两个Type-C接口。其中一个是USB 3.2 Gen 2接口，另一个是USB 3.2 Gen 1接口。这两个Type-C接口提供了连接灵活性，并支持各种功能，如高速数据传输、充电和视频输出。另外，ThinkPad L13 Gen3还配备了其他接口，例如USB Type-A接口、HDMI接口等，为用户提供多样化的连接选择。这种接口多样性使得设备更加适用于不同的工作和娱乐需求。,['ThinkPad L13 Gen3有两个Type-C接口。其中，一个是USB 3.2 Gen 2 Type-C端口，另一个是USB 3.2 Gen 1 Type-C端口。'],['Gen 2'],0.7992926865577301,True
+"{'id': 5, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/CRED/blob/main/datasets/products_search.csv', 'language': 'zh_cn'}",ThinkPad L13 Gen3有多少个Type-C接口？,根据搜索结果，ThinkPad L13 Gen3有两个Type-C接口。其中一个是USB 3.2 Gen 2接口，另一个是USB 3.2 Gen 1接口。这两个Type-C接口提供了连接灵活性，并支持各种功能，如高速数据传输、充电和视频输出。另外，ThinkPad L13 Gen3还配备了其他接口，例如USB Type-A接口、HDMI接口等，为用户提供多样化的连接选择。这种接口多样性使得设备更加适用于不同的工作和娱乐需求。,['ThinkPad L13 Gen3有两个Type-C接口。其中，一个是USB 3.2 Gen 2 Type-C端口，另一个是USB 3.2 Gen 1 Type-C端口。'],['Gen2||Gen 2'],0.7992926865577301,True
 "{'id': 6, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/CRED/blob/main/datasets/products_search.csv', 'language': 'zh_cn'}",「IKU×MIRU」ご利用方法？,"「IKU×MIRU」はHISが提供するオンライン体験ツアー見放題サービスであり、幅広いラインナップの対象コースに参加できます。ご利用方法は以下の手順に従います:
 
 1. **マイページ登録／ログイン**: 

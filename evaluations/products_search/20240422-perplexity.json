@@ -100,7 +100,7 @@
                 "ThinkPad L13 Gen3有两个Type-C接口。其中，一个是USB 3.2 Gen 2 Type-C端口，另一个是USB 3.2 Gen 1 Type-C端口。"
             ],
             "keywords": [
-                "Gen 2"
+                "Gen2||Gen 2"
             ],
             "answer_correctness": 0.7093564777207004,
             "passed": true
