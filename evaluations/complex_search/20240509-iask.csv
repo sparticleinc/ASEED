@@ -454,7 +454,7 @@ metadata,question,answer,ground_truths,keywords,answer_correctness,passed
    
 
 
-    The information provided in the response was gathered from these reputable sources to ensure accuracy and reliability.",['『ストリートファイター』シリーズです。'],['ストリートファイター'],0.7536615991980823,True
+    The information provided in the response was gathered from these reputable sources to ensure accuracy and reliability.",['『ストリートファイター』シリーズです。'],['ストリートファイター||タコさんウィンナー'],0.7536615991980823,True
 "{'id': 17, 'scene': 'complex_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/complex_search.csv', 'language': 'ko'}",북한과 한국은 각각 어느 해에 중국과 수교를 맺습니까?,"북한
     
     은
