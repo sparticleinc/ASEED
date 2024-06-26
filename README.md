@@ -52,11 +52,11 @@ You can check the Release to access historical reports.
 
 **Data Sample**
 
-id|query|ground_truth|expect_key_words|language|description
+id|query|ground_truth|assertion_type|assertion_value|language|description
 ---|---|---|---|---|---
-1|What is Toyota's biggest risk in the future?|Toyota's biggest risk in the future is the consumer adoption of battery electric vehicles (BEVs)|BEVs\|\|EV\|\|Tesla\|\|Evs|en|-|
-2|海康威視去年的業績如何|在2023年，海康威視的業績恢復增長，公司實現了營業收入893.55億元，同比增長7.44%，淨利潤為141.17億元，同比增長9.96%。|2023<br>893|zh_tw|-|
-3|最近の台湾の地震での死傷者数は何人ですか?|台灣花蓮地震死亡數字上升。10日救援人員在花蓮太魯閣區域砂卡礑步道尋獲3具遺體，花蓮7.3級地震罹難人數上升至16人。|16|ja|-|
+1|What is Toyota's biggest risk in the future?|Toyota's biggest risk in the future is the consumer adoption of battery electric vehicles (BEVs)|llm-rubric|the consumer adoption of battery electric vehicles (BEVs)|en|-|
+2|海康威視去年的業績如何|在2023年，海康威視的業績恢復增長，公司實現了營業收入893.55億元，同比增長7.44%，淨利潤為141.17億元，同比增長9.96%。|llm-rubric|在2023年，海康威視實現了營業收入893.**億元|zh_tw|-|
+3|最近台灣地震造成的傷亡人數是多少？|截至2024年4月25日下午，該次地震在全台造成18人罹難|llm-rubric|截至2024年4月25日下午，該次地震在全台造成18人罹難|ja|-|
 
 <br>
 
