@@ -1,0 +1,385 @@
+{
+    "evaluate_ai": {
+        "name": "Iask",
+        "url": "https://iask.ai"
+    },
+    "evaluate_llm": "gpt-4-0125-preview",
+    "evaluate_type": "ragas",
+    "evaluate_data": {
+        "total": 20,
+        "passed": 9,
+        "failed": 11,
+        "pass_rate": "45.00%",
+        "answer_correctness": 0.6611015032269856
+    },
+    "created_at": "2024-05-09 08:45:02",
+    "datas": [
+        {
+            "metadata": {
+                "id": 1,
+                "scene": "complex_search",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/complex_search.csv",
+                "language": "en"
+            },
+            "question": "Which movie is longer, Hamlet or Gone with the Wind",
+            "answer": "Hamlet\n    \n    is longer than\n    \n     Gone with the Wind\n    \n    . Hamlet has a runtime of\n    \n     4 hours and 2 minutes\n    \n    , while Gone with the Wind has a runtime of\n    \n     3 hours and 58 minutes\n    \n    .\n   \n\n\n    These sources were consulted to gather accurate information on the runtimes of the movies “Hamlet” and “Gone with the Wind” for comparison.",
+            "ground_truths": [
+                "The movie that is longer is Hamlet.\nThe key details are:\nHamlet (1996) directed by Kenneth Branagh has a runtime of 242 minutes (4 hours 2 minutes) \nGone with the Wind (1939) has a runtime of 221 minutes (3 hours 41 minutes)"
+            ],
+            "keywords": [
+                "Hamlet"
+            ],
+            "answer_correctness": 0.8649033450390355,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 2,
+                "scene": "complex_search",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/complex_search.csv",
+                "language": "en"
+            },
+            "question": "Which player was awarded the most number of Man of the match titles in the FIFA world cup of 2006?",
+            "answer": "The player who was awarded the most number of Man of the Match titles in the FIFA World Cup of 2006 was Zinedine Zidane.\n    \n\n\n    In the 2006 FIFA World Cup held in Germany, Zinedine Zidane, the legendary French midfielder, was awarded the most number of Man of the Match titles. Zidane played a pivotal role in leading France to the final of the tournament, where they faced Italy. Despite his infamous headbutt on Marco Materazzi in the final, Zidane’s performances throughout the tournament were exceptional and earned him multiple Man of the Match awards.\n   \n\n    Zidane’s skill, vision, and leadership on the field were instrumental in France’s success during the 2006 World Cup. His ability to control games, create scoring opportunities, and deliver under pressure made him a standout player in the tournament.\n   \n\n    Zinedine Zidane’s performances in the 2006 FIFA World Cup solidified his status as one of the greatest footballers of his generation and cemented his legacy in World Cup history.\n   \n\n    Overall, Zinedine Zidane’s outstanding displays during the 2006 FIFA World Cup earned him the most number of Man of the Match titles in that tournament.\n   \n\n\n     Top 3 Authoritative Sources:\n    \n\n\n\n\n      FIFA Official Website\n     \n\n\n\n      BBC Sport\n     \n\n\n\n      ESPN",
+            "ground_truths": [
+                "the player who was awarded the most number of Man of the Match titles in the 2006 FIFA World Cup was Andrea Pirlo of the Italy national team, who won 3 such awards"
+            ],
+            "keywords": [
+                "Andrea Pirlo"
+            ],
+            "answer_correctness": 0.5436027569155913,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 3,
+                "scene": "complex_search",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/complex_search.csv",
+                "language": "en"
+            },
+            "question": "Which award received in 2003 by the movie The Ring?",
+            "answer": "The Ring received the award for “Best Foreign Language Film” at the 2003 Saturn Awards.\n    \n\n\n    The Saturn Awards, established in 1972, are presented annually by the Academy of Science Fiction, Fantasy & Horror Films. The “Best Foreign Language Film” category recognizes a film from outside the United States that has had a significant impact on the science fiction, fantasy, or horror genres.\n   \n\n    The Ring, released in Japan in 1998 and remade into an American version in 2002, was a groundbreaking supernatural psychological horror film that gained international acclaim. Directed by Hideo Nakata and based on the novel by Koji Suzuki, The Ring tells the story of a cursed videotape that causes its viewers to die seven days after watching it. The film’s unique blend of suspense, mystery, and supernatural elements resonated with audiences worldwide and helped popularize Japanese horror (J-horror) internationally.\n   \n\n    Authoritative References Used:\n   \n\n\n     Saturn Awards - “Saturn Award Winners for Best Foreign Film.” Accessed May 9, 2024.\n     \n      https://www.saturnawards.org/category/best-foreign-film/winners/\n     \n\n\n     IMDb - “Ring (1998).” Accessed May 9, 2024.\n     \n      https://www.imdb.com/title/tt0117565/awards/?ref_=tt_awd_ql_ql_3",
+            "ground_truths": [
+                "MTV Movie Award for Best Villain"
+            ],
+            "keywords": [
+                "Best Villain"
+            ],
+            "answer_correctness": 0.4613122823030502,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 4,
+                "scene": "complex_search",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/complex_search.csv",
+                "language": "en"
+            },
+            "question": "What is the date of publication of the first book of the Outland series?",
+            "answer": "The first book of the Outlander series, originally titled “Cross Stitch” in the UK, was published in 1991.",
+            "ground_truths": [
+                "The first book in the Outlander series, titled \"Outlander\" (published as \"Cross Stitch\" in the UK, Australia, and New Zealand), was published on June 1, 1991."
+            ],
+            "keywords": [
+                "1991"
+            ],
+            "answer_correctness": 0.7857194929221389,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 5,
+                "scene": "complex_search",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/complex_search.csv",
+                "language": "zh_cn"
+            },
+            "question": "家里有孩子，怕狂犬病，养乌龟好，还是养茶杯犬好？",
+            "answer": "It is generally safer to keep a turtle as a pet when considering the risk of rabies transmission, as turtles do not carry the rabies virus. However, if you are specifically concerned about rabies and want a more traditional pet experience, then a teacup dog may be a better choice. Teacup dogs can be vaccinated against rabies and other diseases, reducing the risk of transmission. Ultimately, the decision between keeping a turtle or a teacup dog should consider factors such as personal preference, lifestyle, space availability, and ability to care for the pet properly.\n    \n\n\n\n    The sources provided valuable information on rabies prevention, pet care guidelines, and disease transmission risks associated with different types of pets.",
+            "ground_truths": [
+                "家里有孩子的话，养乌龟可能比茶杯犬更安全一些。乌龟不会像狗狗那样咬人或传播狂犬病。"
+            ],
+            "keywords": [
+                "乌龟"
+            ],
+            "answer_correctness": 0.49499927561882195,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 6,
+                "scene": "complex_search",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/complex_search.csv",
+                "language": "zh_cn"
+            },
+            "question": "周传雄有哪些代表作品，播放量最高的事哪首",
+            "answer": "Representative Works of Zhou Chuanxiong:\n    \n\n\n\n\n      “有没有一首歌会让你想起我” (Will Any Song Remind You of Me)\n     \n\n\n\n      “出卖” (Betrayal)\n     \n\n\n\n      “记事本” (Notebook)\n     \n\n\n\n      “黄昏” (Dusk)\n     \n\n\n\n      “寂寞沙洲冷” (Lonely Sandbar Cold)\n     \n\n\n\n      “花香” (Scent of Flowers)\n     \n\n\n\n      “幸福的瞬间” (Moment of Happiness)\n     \n\n\n\n      “北极雪” (Arctic Snow)\n     \n\n\n\n\n     Most Popular Song by Play Count:\n    \n\n\n    The most popular song by play count for Zhou Chuanxiong is typically considered to be “\n    \n     有没有一首歌会让你想起我\n    \n    “ (“Will Any Song Remind You of Me”).",
+            "ground_truths": [
+                "周传雄有哪些代表作品有：黄昏、寂寞沙洲冷、关不上的窗、冬天的秘密、我难过、青花、我的心太乱、男人海洋。周传雄代表作品中播放量最高的应该是《青花》。"
+            ],
+            "keywords": [
+                "黄昏||青花"
+            ],
+            "answer_correctness": 0.6027325880532144,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 7,
+                "scene": "complex_search",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/complex_search.csv",
+                "language": "zh_cn"
+            },
+            "question": "迷迭香精油的作用和用法",
+            "answer": "迷迭香精油的作用和用法\n    \n\n\n\n     迷迭香精油的作用：\n    \n\n\n\n\n\n       消毒杀菌：\n      \n      迷迭香精油具有强大的消毒和杀菌能力，可用于清洁和消毒空气或表面。\n     \n\n\n\n\n       增强记忆：\n      \n      迷迭香精油被认为可以帮助提高注意力和记忆力，适合需要集中注意力的情况下使用。\n     \n\n\n\n\n       有益于头发生长：\n      \n      迷迭香精油对头发生长有益，可以促进头发健康生长并改善头皮状况。\n     \n\n\n\n\n       调理呼吸系统：\n      \n      迷迭香精油可以用于缓解呼吸系统问题，如感冒、鼻窦炎等，通过蒸汽吸入或熏香方式使用。\n     \n\n\n\n\n       缓解肌肉酸痛：\n      \n      迷迭香精油具有镇痛和抗炎特性，可用于缓解肌肉酸痛和关节不适。\n     \n\n\n\n\n     迷迭香精油的使用方法：\n    \n\n\n\n\n\n       养护头发：\n      \n      将2滴迷迭香精油+5ml苹果醋加水稀释后浸泡头发，可改善头发质量和头皮健康。\n     \n\n\n\n\n       消除疲劳、对抗忧郁、提高意志力：\n      \n      可将带有迷迭香精油的棉团或纸张放置在衣物旁边，以振奋心情和提高意志力。\n     \n\n\n\n\n       激励补身：\n      \n      在温水中加入几滴迷迭香精油泡浴，可恢复全身活力并激励身心。\n     \n\n\n\n\n       调整呼吸系统：\n      \n      通过按摩胸口、前额、鼻部等部位或蒸汽吸入方式使用迷迭香精油来帮助呼吸系统调节。\n     \n\n\n\n\n       缓解肌肉酸痛：\n      \n      将迷迭香精油与其他按摩油混合后按摩患处可舒缓肌肉不适。\n     \n\n\n\n\n    These sources were consulted to provide accurate and reliable information on the uses and benefits of rosemary essential oil, ensuring the credibility and validity of the details provided in the response.",
+            "ground_truths": [
+                "迷迭香精油的功效：消毒杀菌、增强记忆、有益于头发生长、调理呼吸系统、缓解肌肉酸痛。迷迭香精油的正确使用方法：涂抹法、按摩法、熏香法。"
+            ],
+            "keywords": [
+                "头发",
+                "呼吸",
+                "按摩"
+            ],
+            "answer_correctness": 0.7440465587653943,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 8,
+                "scene": "complex_search",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/complex_search.csv",
+                "language": "zh_cn"
+            },
+            "question": "吉布斯自由能和化学平衡常数的关系",
+            "answer": "Relationship between Gibbs Free Energy and Equilibrium Constant:\n    \n\n\n    The relationship between Gibbs free energy (ΔG) and the equilibrium constant (K) is fundamental in understanding the spontaneity and direction of chemical reactions. The Gibbs free energy change (∆G) for a reaction at constant temperature and pressure is related to the equilibrium constant (K) through the equation:\n   \n\n\n     ΔG = ΔG° + RT ln K\n    \n\n\n    Where:\n   \n\n\n     ΔG is the Gibbs free energy change for the reaction.\n    \n\n     ΔG° is the standard Gibbs free energy change at standard conditions.\n    \n\n     R is the ideal gas constant.\n    \n\n     T is the temperature in Kelvin.\n    \n\n     K is the equilibrium constant for the reaction.\n    \n\n\n    The relationship indicates that when ΔG is negative, the forward reaction is spontaneous, and as ΔG approaches zero, the system reaches equilibrium. If ΔG is positive, the reverse reaction becomes spontaneous. The equilibrium constant K relates to how far a reaction proceeds towards products or reactants at equilibrium.\n   \n\n    In summary:\n   \n\n\n\n      ΔG < 0:\n     \n     Forward reaction is spontaneous.\n    \n\n\n      ΔG = 0:\n     \n     System is at equilibrium.\n    \n\n\n      ΔG > 0:\n     \n     Reverse reaction is spontaneous.\n    \n\n\n    Therefore, by understanding the sign of ΔG in relation to K, one can predict whether a reaction will favor products or reactants at equilibrium based on changes in Gibbs free energy.\n   \n\n\n    These sources were consulted to ensure accuracy and reliability in explaining the relationship between Gibbs free energy and equilibrium constants in chemistry.",
+            "ground_truths": [
+                "吉布斯自由能和化学平衡常数之间有以下关系:\n1. 标准吉布斯自由能变化(ΔG°)与标准平衡常数(K°)之间有以下关系:\nΔG° = -RTlnK°\n其中,R是气体常数,T是绝对温度。这个公式表明,当反应的标准吉布斯自由能变化减小时,标准平衡常数就会增大,反应越容易达到平衡。\n1. 在化学平衡状态下,反应物和产物的吉布斯自由能之和达到最小值。平衡时,反应的吉布斯自由能变化ΔG = 0。\n2. 平衡常数K与反应的吉布斯自由能变化ΔG的关系为:\nΔG = -RTlnK\n这表明,当ΔG < 0时,K > 1,反应自发进行;当ΔG > 0时,K < 1,反应不自发进行。总之,吉布斯自由能变化和平衡常数K之间存在着密切的数学关系,可以相互推算。知道其中一个,就可以计算出另一个。这对于判断反应的自发性和预测反应的平衡组成都很有帮助。"
+            ],
+            "keywords": [
+                "ΔG",
+                "RTlnK"
+            ],
+            "answer_correctness": 0.6839374484328493,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 9,
+                "scene": "complex_search",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/complex_search.csv",
+                "language": "zh_tw"
+            },
+            "question": "劉德華比周傳雄（小剛）大幾歲？",
+            "answer": "劉德華比周傳雄（小剛）大6歲。\n    \n\n\n    The sources provided detailed information about the careers and backgrounds of both Andy Lau (劉德華) and the individual known as Xiao Gang (周傳雄), including their ages and accomplishments in the entertainment industry.",
+            "ground_truths": [
+                "劉德華出生於1961年9月27日，而周傳雄（小剛）則出生於1969年6月7日。因此，劉德華比周傳雄大約8年。"
+            ],
+            "keywords": [
+                "8"
+            ],
+            "answer_correctness": 0.5415798140216916,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 10,
+                "scene": "complex_search",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/complex_search.csv",
+                "language": "zh_tw"
+            },
+            "question": "台灣的兩條鐵路線會加掛另一個機車頭作為補機用，一條是東部幹線宜蘭段，另一條是?",
+            "answer": "The other railway line in Taiwan that will add an additional locomotive as a backup is the 縱貫鐵路山線段 (Central Mountain Range Line Section).\n    \n\n\n    Top 3 Authoritative Sources Used in Answering this Question:\n   \n\n\n\n      Wikipedia\n     \n\n\n\n      Taiwan Railways Administration Official Website\n     \n\n\n\n      Railway Gazette International",
+            "ground_truths": [
+                "在台灣，有兩條鐵路線通常會加掛另一個機車頭作為補機用。其中一條是東部幹線宜蘭段，而另一條則是縱貫鐵路山線段。"
+            ],
+            "keywords": [
+                "縱貫鐵路山線段"
+            ],
+            "answer_correctness": 0.9352831222181749,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 11,
+                "scene": "complex_search",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/complex_search.csv",
+                "language": "zh_tw"
+            },
+            "question": "為何參觀一線天必須要經過地方軍事首長允許？",
+            "answer": "Reasons for Requiring Permission from Local Military Leaders to Visit Yixian Heaven’s Gate:\n    \n\n\n    Visiting the Yixian Heaven’s Gate in the Dagu River Jin Kou Grand Canyon requires permission from local military leaders due to historical and security reasons. During the period of the Red Army’s Long March, this area served as a strategic location with military significance. The region was part of the wartime rear area in Sichuan, which played a crucial role in providing supplies and support for the war efforts against Japanese aggression. As a result, numerous military bases were established in the vicinity, including within the Dagu River Jin Kou Grand Canyon itself, forming a defensive line during the resistance against Japanese invasion.\n   \n\n    Despite the transition to peacetime, these military remnants are still considered sensitive areas due to their historical importance and potential security implications. The presence of former military installations and structures within the canyon underscores its strategic value during wartime. Therefore, access to certain parts of the Dagu River Jin Kou Grand Canyon is restricted to outsiders, including foreign visitors, as a measure to safeguard national security interests and preserve historical heritage.\n   \n\n    The prohibition on entry without permission from local military authorities serves to maintain confidentiality regarding any remaining classified information or artifacts related to past military activities in the area. By controlling access to these sites, authorities can ensure that sensitive materials are protected and that visitors do not inadvertently disturb or compromise any historical relics or structures present within the canyon.\n   \n\n    In summary, obtaining approval from local military leaders before visiting specific sections of the Dagu River Jin Kou Grand Canyon such as Yixian Heaven’s Gate is essential due to its historical significance as a former military site and its continued relevance for national security considerations.\n   \n\n    These sources were consulted to gather information on Chinese history, cultural heritage protection policies, and national security considerations related to restricted access areas like the Dagu River Jin Kou Grand Canyon.",
+            "ground_truths": [
+                "造成遊客參觀一線天必須經過地方軍事首長允許的原因是因為一線天目前仍屬重要軍事基地。"
+            ],
+            "keywords": [
+                "重要軍事基地"
+            ],
+            "answer_correctness": 0.49307703525620916,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 12,
+                "scene": "complex_search",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/complex_search.csv",
+                "language": "zh_tw"
+            },
+            "question": "臺灣2022年GDP總量相比2012年增加了多少美元？",
+            "answer": "The increase in Taiwan’s GDP total from 2012 to 2022 in USD is approximately\n    \n    $\n    \n     5.9 billion.\n    \n\n\n    To calculate the increase in Taiwan’s GDP total from 2012 to 2022 in USD, we need to find the difference between the GDP totals of these two years.\n   \n\n\n\n\n       Calculate Taiwan’s GDP Total in 2012:\n      \n\n\n\n       Given that Taiwan’s GDP was approximately $466.7 billion in 2012.\n      \n\n\n\n\n\n       Calculate Taiwan’s GDP Total in 2022:\n      \n\n\n\n       Given that Taiwan’s GDP was approximately $472.6 billion in 2022.\n      \n\n\n\n\n\n       Find the Increase:\n      \n\n\n\n       Subtract the GDP total of 2012 from the GDP total of 2022: $472.6 billion - $466.7 billion = $5.9 billion.\n      \n\n\n\n\n    Therefore, the increase in Taiwan’s GDP total from 2012 to 2022 is approximately $5.9 billion.\n   \n\n    By consulting these authoritative sources, accurate and reliable information regarding Taiwan’s GDP growth and economic performance can be obtained.",
+            "ground_truths": [
+                "2022年台灣的GDP總量為760,460兆美元，而2012年的GDP總量為495,610兆美元。因此，從2012年到2022年，台灣的GDP總量增加了760,460−495,610=264,850兆美元。"
+            ],
+            "keywords": [
+                "264"
+            ],
+            "answer_correctness": 0.5410897855379909,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 13,
+                "scene": "complex_search",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/complex_search.csv",
+                "language": "ja"
+            },
+            "question": "麻生太郎は酒井法子より何歳年上ですか。",
+            "answer": "麻生太郎は酒井法子より\n    \n\n\n      2歳\n     \n\n\n     年上です。\n    \n\n\n\n    The information was gathered from these sources to provide accurate and reliable details regarding the ages of Aso Taro and Sakai Noriko.",
+            "ground_truths": [
+                "麻生太郎は酒井法子より31歳年上です。"
+            ],
+            "keywords": [
+                "31"
+            ],
+            "answer_correctness": 0.5354024031622239,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 14,
+                "scene": "complex_search",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/complex_search.csv",
+                "language": "ja"
+            },
+            "question": "『たなばたま』童謡と『ラブ·ソー·スウィート』の発行期間はそれぞれ何年ですか？",
+            "answer": "『たなばたま』童謡\n    \n    の発行期間は、\n    \n     1960年から現在まで\n    \n    です。\n   \n\n\n     『ラブ·ソー·スウィート』\n    \n    の発行期間は、\n    \n     特定の作品やコンテンツが指定されていないため、一般的には不明\n    \n    です。\n   \n\n\n    The sources provided detailed historical information on the publication periods of the mentioned songs and helped establish the accurate timelines for each.",
+            "ground_truths": [
+                "たなばたま”は1941年(昭和16年)に発行された。\n“ラブ·ソー·スウィート”というシングルは、日本の男性アイドルグループ·AKB 48からリリースされ、リリース期間は2007年2月21日。"
+            ],
+            "keywords": [
+                "1941",
+                "2007"
+            ],
+            "answer_correctness": 0.5288743507310063,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 15,
+                "scene": "complex_search",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/complex_search.csv",
+                "language": "ja"
+            },
+            "question": "料理研究家の尚道子によって考案された、ウインナーを箸でつかみやすくするために、ある海の生き物に似せた飾り切りをしたものを何というでしょう?",
+            "answer": "たこさんウィンナー\n    \n\n\n    尚道子によって考案された、ウインナーを箸でつかみやすくするために、ある海の生き物に似せた飾り切りをしたものは\n    \n     「たこさんウィンナー」\n    \n    と呼ばれています。",
+            "ground_truths": [
+                "尚道子によって考案された、ウインナーを箸でつかみやすくするために、タコに似せた飾り切りをしたものは「たこさんウィンナー」と呼ばれています。"
+            ],
+            "keywords": [
+                "タコさんウインナー||たこさんウィンナー"
+            ],
+            "answer_correctness": 0.8346938606815331,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 16,
+                "scene": "complex_search",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/complex_search.csv",
+                "language": "ja"
+            },
+            "question": "1987年に第1作がリリースされた、カプコンの格闘ゲームシリーズで、昇龍拳や竜巻旋風脚などの技が登場するのは何ですか？",
+            "answer": "Street Fighter\n    \n    is the series where\n    \n     Shoryuken (Rising Dragon Fist)\n    \n    and\n    \n     Tatsumaki Senpukyaku (Hurricane Kick)\n    \n    are featured.\n   \n\n\n    The information provided in the response was gathered from these reputable sources to ensure accuracy and reliability.",
+            "ground_truths": [
+                "『ストリートファイター』シリーズです。"
+            ],
+            "keywords": [
+                "ストリートファイター||タコさんウィンナー"
+            ],
+            "answer_correctness": 0.7536615991980823,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 17,
+                "scene": "complex_search",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/complex_search.csv",
+                "language": "ko"
+            },
+            "question": "북한과 한국은 각각 어느 해에 중국과 수교를 맺습니까?",
+            "answer": "북한\n    \n    은\n    \n     1992년 9월\n    \n    에\n    \n     중국\n    \n    과\n    \n     수교\n    \n    를 맺었습니다.\n    \n     대한민국(한국)\n    \n    은\n    \n     1992년 8월 24일\n    \n    에\n    \n     중국\n    \n    과\n    \n     수교\n    \n    를 맺었습니다.\n   \n\n\n    The sources provided detailed historical information on the establishment of diplomatic relations between North Korea, South Korea, and China, including the specific dates of diplomatic recognition and the establishment of formal relations.",
+            "ground_truths": [
+                "조선민주주의인민공화국(북한)과 중화인민공화국(중국)은 1949년 10월 6일 수교했으며, 북한은 중국과 수교한 첫 나라 중 하나다. \n중국과 대한민국(한국)은 1992년 8월 24일 정식으로 외교관계를 수립했다."
+            ],
+            "keywords": [
+                "1949",
+                "1992"
+            ],
+            "answer_correctness": 0.7473936802696506,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 18,
+                "scene": "complex_search",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/complex_search.csv",
+                "language": "ko"
+            },
+            "question": "이명박과 박정희는 누가 교육 정도를 좀 더 높게 받았나.",
+            "answer": "이명박\n    \n    와\n    \n     박정희\n    \n    의 교육 정도를 비교하면,\n    \n     박정희\n    \n    가 교육을 좀 더 많이 받았습니다.\n   \n\n\n    The sources used in answering the question were selected based on their relevance to the historical and political context provided in the initial text. These sources provided insights into the educational backgrounds and political dynamics of figures like 이명박 and 박정희, allowing for a comparison to determine their respective levels of education.",
+            "ground_truths": [
+                "이명박 대통령의 교육 수준이 박정희 대통령보다 높습니다."
+            ],
+            "keywords": [
+                "이명박"
+            ],
+            "answer_correctness": 0.521269292860748,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 19,
+                "scene": "complex_search",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/complex_search.csv",
+                "language": "ru"
+            },
+            "question": "когда Россия установила дипломатические отношения с Южной Кореей и когда она выиграла Крым?",
+            "answer": "Establishment of Diplomatic Relations between Russia and South Korea:\n    \n\n\n    Russia established diplomatic relations with South Korea on September 30, 1990.\n   \n\n\n     Annexation of Crimea by Russia:\n    \n\n\n    Russia annexed Crimea on March 18, 2014.",
+            "ground_truths": [
+                "Южная Корея установила дипломатические отношения с Россией в 1990 году, а Россия выиграла Крым в 2014 году."
+            ],
+            "keywords": [
+                "1990",
+                "2014"
+            ],
+            "answer_correctness": 0.9281431320393281,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 20,
+                "scene": "complex_search",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/complex_search.csv",
+                "language": "ru"
+            },
+            "question": "когда Россия приобрела Сибирь и когда продала Аляску?",
+            "answer": "Russia acquired Siberia in the 16th and 17th centuries through a series of conquests and treaties with local rulers. Alaska was sold by Russia to the United States in 1867.\n    \n\n\n\n     Top 3 Authoritative Sources:\n    \n\n\n\n\n      Николай Николаевич Муравьёв-Амурский\n     \n\n\n\n      Эдуард Андреевич Стекля\n     \n\n\n\n      Уильям Генри Сьюард",
+            "ground_truths": [
+                "Россия оккупировала Сибирское ханство в 1581 году, положив начало завоеванию Сибири. \n30 марта 1867 года Россия продала Аляску США за 7,2 миллиона долларов."
+            ],
+            "keywords": [
+                "1581",
+                "1867"
+            ],
+            "answer_correctness": 0.6803082405129757,
+            "passed": false
+        }
+    ]
+}

@@ -1,0 +1,376 @@
+{
+    "evaluate_ai": {
+        "name": "Iask",
+        "url": "https://iask.ai"
+    },
+    "evaluate_llm": "gpt-4-1106-preview",
+    "evaluate_type": "ragas",
+    "evaluate_data": {
+        "total": 20,
+        "passed": 8,
+        "failed": 12,
+        "pass_rate": "40.00%",
+        "answer_correctness": 0.6348946402130445
+    },
+    "created_at": "2024-04-19 11:19:48",
+    "datas": [
+        {
+            "metadata": {
+                "id": 1,
+                "scene": "local_search",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/local_search.csv",
+                "language": "zh_cn"
+            },
+            "question": "本来无一物何处惹尘埃的完整诗句是什么？",
+            "answer": "The full verse of “菩提本无树” (Phú tí běn wú shù) by the Chinese monk Huíneng (惠能) from the Tang Dynasty is as follows:\n   \n\n    菩提本无树，明镜亦非台，本来无一物，何处惹尘埃。\n   \n\n    This poem is the fourth line of a four-line verse that originated from Huíneng’s response to his disciple Shenxiu’s (神秀) verse. Shenxiu’s verse was:\n   \n\n    身是菩提树，心如明镜台，时时勤拂拭，勿使惹尘埃。\n   \n\n    Huíneng’s response, “菩提本无树,” is a profound statement about the emptiness and purity of both mind and reality. This verse emphasizes that enlightenment or Buddha nature is not something that can be attained through external means, such as seeking it in objects or rituals. Instead, it is an inherent quality of one’s own mind. By recognizing this truth, one can achieve inner peace and liberation from suffering.",
+            "ground_truths": [
+                "这句诗句出自唐代禅宗六祖慧能的《菩提偈》。完整的诗句是:\"菩提本无树，明镜亦非台。\n本来无一物，何处惹尘埃!\""
+            ],
+            "keywords": [
+                "菩提本无树",
+                "明镜亦非台"
+            ],
+            "answer_correctness": 0.6596510326162401,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 2,
+                "scene": "local_search",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/local_search.csv",
+                "language": "zh_cn"
+            },
+            "question": "福建晋江灵水中学一初中女生遭霸凌跳楼去世是什么时候？",
+            "answer": "The incident where a female middle school student from Fujian Jinjiang Lingshui Middle School was bullied and jumped off a building occurred on March 24, 2024.\n    \n\n\n\n    These sources provided detailed and reliable information regarding the tragic event at Fujian Jinjiang Lingshui Middle School.",
+            "ground_truths": [
+                "2024福建晋江灵水中学一初中女生遭霸凌跳楼去世的事件发生在2024年3月24日22时。"
+            ],
+            "keywords": [
+                "3月24日"
+            ],
+            "answer_correctness": 0.7434964164064954,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 3,
+                "scene": "local_search",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/local_search.csv",
+                "language": "zh_cn"
+            },
+            "question": "那歌鱼是海鱼吗？",
+            "answer": "那哥鱼是海鱼吗？\n    \n\n\n    No, “那哥鱼” (Nage Fish) is not a specific type of fish found in the sea. It is a regional term used in the Chaozhou (潮州) area of China to refer to a variety of common local fish species. These fish are often used in traditional Chaozhou cuisine, particularly in dishes like handmade fish balls and other seafood delicacies.\n   \n\n    In the Chaozhou region, “那哥鱼” is known for its versatility in cooking and its popularity among locals. The term encompasses different types of fish commonly found in the local waters, and it is not a distinct species of fish that can be classified as a specific sea fish.\n   \n\n    The use of the term “那哥鱼” reflects the cultural and culinary practices of the Chaozhou people, who have developed unique ways of preparing and enjoying various types of seafood available in their coastal region.\n   \n\n\n    These sources collectively offer valuable information on the cultural context, culinary practices, and regional significance of “那哥鱼” within the Chaozhou community, helping to clarify its identity as a local term for various types of fish rather than a specific sea fish species.",
+            "ground_truths": [
+                "是的，那歌鱼是海鱼。"
+            ],
+            "keywords": [
+                "是"
+            ],
+            "answer_correctness": 0.4870366391206641,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 4,
+                "scene": "local_search",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/local_search.csv",
+                "language": "zh_cn"
+            },
+            "question": "四面楚歌的主人公是谁？",
+            "answer": "四面楚歌的主人公是项羽\n    \n\n\n\n     四面楚歌的主人公：项羽\n    \n    四面楚歌是指陷入四面受敌，处于孤立无援的窘迫境地。这个成语故事的主人公是项羽，出自《史记·项羽本纪》。在楚汉战争中，当项王（项羽）在垓下被汉军包围时，他听到四面传来楚国人的歌声，让他大惊失色，以为楚地已经尽归汉军之手。这种心理上的孤立无援状态被形象地比喻为四面楚歌。\n   \n\n\n     故事背景和情节\n    \n    在楚汉战争中，诸侯纷纷叛楚归附汉王刘邦。张良等谋士建议刘邦与诸侯会合击败楚国。当时，项王（项羽）屯兵垓下，兵少粮尽，被汉军重重包围。夜间，汉军高唱楚歌以瓦解楚军士气。项王听到这些歌声后感到惊讶和绝望，最终率领少数骑兵拼死突围，并最终自刎于乌江之畔。\n   \n\n\n     启示\n    \n    这故事反映了在困境中如何应对压力和挑战，以及如何处理孤立无援的处境。",
+            "ground_truths": [
+                "四面楚歌的主人公是西楚霸王项羽。"
+            ],
+            "keywords": [
+                "项羽"
+            ],
+            "answer_correctness": 0.9509310615172981,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 5,
+                "scene": "local_search",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/local_search.csv",
+                "language": "zh_cn"
+            },
+            "question": "跟领导吃饭座位安排图",
+            "answer": "When arranging seating for dining with leaders, the following guidelines can be followed based on traditional etiquette:\n    \n\n\n\n\n\n       For Chinese-style dining:\n      \n\n\n\n       The host usually sits facing the door.\n      \n\n       The main guest sits opposite the host.\n      \n\n       The first guest sits to the right of the host.\n      \n\n       The second guest sits to the left of the host.\n      \n\n       The third guest sits to the right of the main guest.\n      \n\n       The fourth guest sits to the left of the main guest.\n      \n\n\n\n\n\n       For Western-style dining:\n      \n\n\n\n       Seating arrangements may vary based on table shape and size.\n      \n\n\n\n\n\n       For seating in vehicles:\n      \n\n\n\n       Different protocols apply depending on whether there is a designated driver or if the host is driving.\n      \n\n       In vehicles with drivers, specific seating arrangements are recommended for different vehicle types and numbers of passengers.\n      \n\n\n\n\n    By adhering to these seating arrangements, individuals can show respect and adherence to traditional etiquette when dining with leaders.\n   \n\n\n    These sources collectively provided comprehensive information on how to appropriately arrange seating when dining with leaders, drawing from established etiquette norms and practical advice for professional settings.",
+            "ground_truths": [
+                "中餐宴请座次安排\n主陪(通常是领导)坐在面对大门的位置\n副主陪(通常是主陪的助手)坐在主陪的对面\n1号客人坐在主陪的右手边\n2号客人坐在主陪的左手边\n3号客人坐在副主陪的右手边\n4号客人坐在副主陪的左手边\n其他客人可以随意安排"
+            ],
+            "keywords": [
+                "右"
+            ],
+            "answer_correctness": 0.7693784908190647,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 6,
+                "scene": "local_search",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/local_search.csv",
+                "language": "zh_cn"
+            },
+            "question": "风水轮流转同义词有哪些？",
+            "answer": "风水轮流转的同义词有：\n    \n\n\n\n\n      否极泰来\n     \n\n\n\n      物极必反\n     \n\n\n\n      柳暗花明\n     \n\n\n\n      绝处逢生\n     \n\n\n\n      苦尽甘来\n     \n\n\n\n      绝地反击\n     \n\n\n\n    这些成语都形容逆境之后好转或转机出现的情况，与“风水轮流转”的意思相近。\n   \n\n\n     其他类似意思的成语包括：\n    \n\n\n\n\n      弹指之间\n     \n\n\n\n      一日三秋\n     \n\n\n\n      尺璧寸阴\n     \n\n\n\n    这些成语也表达了稍纵即逝的意思。\n   \n\n\n\n     Sources Description:\n    \n\n\n\n\n\n       百度知道\n      \n      : 百度知道是一个权威的问答平台，提供用户各种问题的解答和信息查询服务。\n     \n\n\n\n\n       唔哩生活\n      \n      : 提供了关于风水轮流转相关问题的解答和讨论，是一个参考来源。\n     \n\n\n\n\n       yaojunhaoqiu\n      \n      : 该来源提供了关于风水和成语相关内容的讨论和解释，为回答问题提供了一定参考价值。",
+            "ground_truths": [
+                "风水轮流转的同义词包括“否极泰来”、“物极必反”、“柳暗花明”、“绝处逢生”、“苦尽甘来”和“绝地反击”。其他类似的词还有“三十年河东三十年河西”、“风水轮流”和“十年河东十年河西”。"
+            ],
+            "keywords": [
+                "三十年河东||咸鱼翻身||苦尽甘来||时来运转||此一时彼一时||时来运转||枯木逢春"
+            ],
+            "answer_correctness": 0.83780171427788,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 7,
+                "scene": "local_search",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/local_search.csv",
+                "language": "zh_cn"
+            },
+            "question": "珠海华融时代广场多少米？",
+            "answer": "Question: What is the remainder when 39501 is divided by 17? Answer: 13",
+            "ground_truths": [
+                "珠海华融时代广场的建筑高度为196米。"
+            ],
+            "keywords": [
+                "196"
+            ],
+            "answer_correctness": 0.4116438728753363,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 8,
+                "scene": "local_search",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/local_search.csv",
+                "language": "zh_cn"
+            },
+            "question": "相亲时媒婆说女方长得有福气，这是什么意思？",
+            "answer": "In the context of a matchmaking scenario, when a matchmaker or “媒婆” describes a woman as having “福气“ (fúqì), it typically means that the woman is considered lucky or blessed. This expression is often used to imply that the person has a good fortune or auspicious aura around them. In the context of matchmaking, describing a woman as having “福气“ could suggest that she is seen as someone who brings luck or positivity into her life and potentially into the lives of those around her. It might also imply that she is perceived as being fortunate in various aspects of life, which could be seen as a positive trait in Chinese culture.\n   \n\n    By drawing from these authoritative sources, we can gain a deeper understanding of the cultural nuances and implications associated with describing someone as having “福气“ during matchmaking scenarios.",
+            "ground_truths": [
+                "相亲时媒婆说女方长得有福气，通常指女方看起来健康、体态丰满、体型偏胖。"
+            ],
+            "keywords": [
+                "胖||吃||丰满"
+            ],
+            "answer_correctness": 0.5096578669988011,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 9,
+                "scene": "local_search",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/local_search.csv",
+                "language": "zh_cn"
+            },
+            "question": "为什么工地开工要祭拜？",
+            "answer": "工地开工祭拜的意义\n    \n\n\n    在工地开工时进行祭拜仪式是一种传统习俗，具有深刻的文化内涵和信仰意义。以下是工地开工祭拜的主要意义：\n   \n\n\n     1. 尊重土地神灵和祖先\n    \n\n\n\n     工地开工需要动土，因此进行动土仪式是为了向掌管这块土地上的神灵、鬼神、煞神表示尊重和敬畏。\n    \n\n\n\n     2. 祈求平安顺利\n    \n\n\n\n     通过祭拜仪式，人们向神明祈求施工过程平安顺利，避免意外和灾难发生，以保障工程顺利进行。\n    \n\n\n\n     3. 传承文化传统\n    \n\n\n\n     进行开工祭拜也是对传统文化的传承和弘扬，体现了对历史文化的尊重和珍视。\n    \n\n\n\n     4. 增加员工凝聚力\n    \n\n\n\n     参与开工仪式的员工可以增强团队凝聚力和归属感，共同参与祭拜活动也有助于建立团队合作精神。\n    \n\n\n\n     5. 祈福求保佑\n    \n\n\n\n     通过祭拜活动，人们可以向神明表达诚挚的祈福之心，希望得到保佑和庇护，确保施工过程顺利无阻。\n    \n\n\n\n     6. 传统信仰观念\n    \n\n\n\n     工地开工祭拜活动反映了中国传统信仰观念中对土地、自然、宇宙等元素的崇敬和信仰。\n    \n\n\n    综上所述，工地开工进行祭拜仪式不仅是一种文化传统的延续，更是一种表达敬畏与虔诚、寻求平安与吉祥的信仰行为。\n   \n\n\n    These sources were utilized to gather information on the cultural significance and traditional practices related to conducting ritual ceremonies at construction sites in Chinese culture, specifically focusing on the importance of performing rituals during the commencement of construction activities.",
+            "ground_truths": [
+                "工地开工要祭拜的原因主要是为了向土地神灵、过往鬼魂以及凶神恶煞告知即将在此地兴工建宅，避免冒犯这些神灵和鬼魂，同时请求他们的协助，希望工程能够顺利开展，并驱逐可能存在的煞气和秽气。此外，烧香祭拜是一种与神明连接的桥梁，通过这种方式表达对神明的敬意和祈求保佑"
+            ],
+            "keywords": [
+                "神||鬼"
+            ],
+            "answer_correctness": 0.7734172846470122,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 10,
+                "scene": "local_search",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/local_search.csv",
+                "language": "zh_cn"
+            },
+            "question": "巴浪鱼是哪里的方言？",
+            "answer": "巴浪鱼是福建方言。\n    \n\n\n\n     Explanation:\n    \n\n\n    巴浪鱼是一种近海暖水性中上层鱼类，广泛分布于中国南海、东海和黄海等地区。在福建地区，人们称之为巴浪鱼，同时也有其他地区称呼它为棍子鱼、滚子鱼、黄占、池鱼等不同的名字。\n   \n\n\n     Top 3 Authoritative Sources Used in Answering this Question:\n    \n\n\n\n\n\n       中国知网 (CNKI):\n      \n      CNKI is a comprehensive academic database in China that provides access to a vast collection of academic resources, including research papers, journals, and dissertations. It is widely recognized for its authoritative and reliable information on various subjects.\n     \n\n\n\n\n       中国科学技术信息研究所 (ISTIC):\n      \n      ISTIC is a key institution in China that focuses on scientific and technological information research. It offers valuable insights and data on a wide range of scientific topics, including marine biology and fisheries.\n     \n\n\n\n\n       中国水产科学研究院 (CAFS):\n      \n      CAFS is a leading research institute in China dedicated to fisheries science and aquaculture research. Their studies and publications provide authoritative information on fish species, marine ecosystems, and sustainable fishing practices.",
+            "ground_truths": [
+                "巴浪鱼是福建和潮汕地区的方言。"
+            ],
+            "keywords": [
+                "潮汕||福建||福州"
+            ],
+            "answer_correctness": 0.8199142870773561,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 11,
+                "scene": "local_search",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/local_search.csv",
+                "language": "zh_cn"
+            },
+            "question": "跟领导吃饭，转盘是顺时针转，还是逆时针转？",
+            "answer": "In the context of dining with leaders or superiors,\n    \n     the lazy Susan or turntable should be rotated clockwise\n    \n    . This practice is in line with traditional Chinese dining etiquette, where the clockwise direction is considered respectful and harmonious. By turning the table clockwise, it allows for a smooth and orderly flow of serving dishes and ensures that each guest has an equal opportunity to access the different dishes presented.\n   \n\n    The rationale behind this etiquette stems from the cultural significance attached to the concept of respect and hierarchy in Chinese dining customs. By following the tradition of rotating the turntable clockwise, guests demonstrate their adherence to established norms of courtesy and deference towards their superiors or honored guests.\n   \n\n    It is important to note that adhering to these dining etiquettes not only showcases one’s understanding of cultural norms but also reflects positively on one’s manners and respect for hierarchy within a social or professional setting.\n   \n\n\n    The sources provided valuable insights into traditional Chinese dining customs, including proper table manners and etiquette when dining with leaders or superiors. The information gleaned from these sources helped in formulating a comprehensive response regarding the appropriate direction for rotating the turntable during business meals.",
+            "ground_truths": [
+                "跟领导吃饭时，转盘应该顺时针转。"
+            ],
+            "keywords": [
+                "顺时针"
+            ],
+            "answer_correctness": 0.6069923491114924,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 12,
+                "scene": "local_search",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/local_search.csv",
+                "language": "zh_cn"
+            },
+            "question": "黄花大闺女黄花是指什么花？",
+            "answer": "Q: Let y(l) = 10\n    \n     l**2 - 25\n    \n    l + 13. Let i(h) = -4\n    \n     h**2 + 10\n    \n    h - 6. Let c be (-8)/(-28) + (-15)/(-7). What is c\n    \n     y(o) + 7\n    \n    i(o)? A: -2\n    \n     o*\n    \n    2 + o - 3",
+            "ground_truths": [
+                "\"黄花大闺女\"中的\"黄花\"通常指的是菊花。古代中国认为菊花能傲霜耐寒，是高洁雅致的象征，因此用\"黄花\"来代表未出嫁的少女。"
+            ],
+            "keywords": [
+                "菊花"
+            ],
+            "answer_correctness": 0.3926755745554798,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 13,
+                "scene": "local_search",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/local_search.csv",
+                "language": "zh_cn"
+            },
+            "question": "卧薪尝胆的主人公是谁？",
+            "answer": "Question: Let l be (-4)/12 + 38/6. Solve -l = -5*q + 4 for q. Answer: 3",
+            "ground_truths": [
+                "卧薪尝胆的主人公是越王勾践。"
+            ],
+            "keywords": [
+                "勾践"
+            ],
+            "answer_correctness": 0.37424984000174377,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 14,
+                "scene": "local_search",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/local_search.csv",
+                "language": "zh_cn"
+            },
+            "question": "相亲时媒婆说男方会疼人，这是什么意思？",
+            "answer": "Q: Let m be 4/(-12) - 19/(-3). Suppose -5\n    \n     v = 3\n    \n    q + 18, -m = q + v + 3. What is the common denominator of (q/(-8))/(1/7) and -25/6? A: 12",
+            "ground_truths": [
+                "当媒婆说男方\"很会疼人\"时，这通常意味着一个警告信号，表示该男性可能是离异人士。"
+            ],
+            "keywords": [
+                "年纪大||离过婚||离婚||离异"
+            ],
+            "answer_correctness": 0.3901381170665604,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 15,
+                "scene": "local_search",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/local_search.csv",
+                "language": "ja"
+            },
+            "question": "宮沢賢治にはどんな著作がありますか。",
+            "answer": "宮沢賢治の著作\n    \n\n\n    宮沢賢治は詩人や童話作家として数々の作品を残しています。彼の代表作や有名な著作には以下のようなものがあります：\n   \n\n\n\n\n       『銀河鉄道の夜』\n      \n      - 宮沢賢治の代表作であり、孤独な少年ジョバンニと親友カムパネルラが銀河鉄道を旅する物語です。幻想的で美しい描写が特徴であり、賢治の死生観も反映されています。\n     \n\n\n\n\n       『注文の多い料理店』\n      \n      - 滑稽でありながら不気味さも感じさせる童話で、若い青年紳士2人が奇妙な料理店に迷い込む物語です。意外性と独特な雰囲気が印象的です。\n     \n\n\n\n\n       『セロ弾きのゴーシュ』\n      \n      - チェロを弾く主人公ゴーシュと動物たちとの掛け合いを描いた童話。音楽と共に成長する姿が描かれており、賢治自身の音楽経験も反映されています。\n     \n\n\n\n\n       『風の又三郎』\n      \n      - 東北の小学校に突然現れる風変わりな転校生・高田三郎を中心にした物語。不思議な体験や少年時代の感動を描き、賢治らしいノスタルジックな雰囲気が漂います。\n     \n\n\n\n\n       『よだかの星』\n      \n      - 醜い容姿を持つよだかが他者から差別される物語。教訓的な要素が強く、弱者や不条理をテーマにした作品です。\n     \n\n\n\n\n       『グスコーブドリの伝記』\n      \n      - SF色が強く、イーハトーブ（理想郷）を舞台にした冒険譚。結核に挑む青年グスコーブドリの生き様が描かれています。\n     \n\n\n\n    これらは宮沢賢治の代表作や有名な作品であり、彼の創造力や哲学的側面を反映しています。\n   \n\n\n    These sources were consulted to ensure accuracy and reliability in presenting information about Kenji Miyazawa’s literary works.",
+            "ground_truths": [
+                "「注文の多い料理店」（1924年）: 宮沢賢治の代表作の一つであり、多くの人々に愛されています。物語は注文の多い料理店の主人と、その店を支える猫の心温まる交流を描いています。\n「雨ニモマケズ」（1931年）: 別名「雨にも負けず」で知られる作品で、風雨に負けない強い心を持つことの大切さを描いています。この作品も宮沢賢治の人気作品の一つです。\n「銀河鉄道の夜」（未定稿）: 未完の作品であり、賢治の死後に発見されました。銀河鉄道を舞台にした幻想的な物語で、多くの読者を魅了しています。\n「風の又三郎」（1934年）: 宮沢賢治が亡くなった後に出版された作品であり、風の音を聞くことのできる又三郎という少年の物語です。"
+            ],
+            "keywords": [
+                "銀河鉄道の夜",
+                "風の又三郎"
+            ],
+            "answer_correctness": 0.649268928583556,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 16,
+                "scene": "local_search",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/local_search.csv",
+                "language": "ja"
+            },
+            "question": "進撃の巨人はいつ発行されましたか？",
+            "answer": "進撃の巨人は2009年9月に発行されました。",
+            "ground_truths": [
+                "「進撃の巨人」は、諫山創による日本の漫画作品で、2009年9月9日に発行が開始されました。そして、2021年4月9日に連載が完結しました。最新刊（34巻）は2021年6月9日に発売されました⁵。この作品は世界中で非常に人気があり、多くの派生作品が生まれています。"
+            ],
+            "keywords": [],
+            "answer_correctness": 0.6744680835317717,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 17,
+                "scene": "local_search",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/local_search.csv",
+                "language": "ja"
+            },
+            "question": "エヴァンゲリオンヒロインにはどんな能力がありますか？",
+            "answer": "Q: What is the common denominator of -57/14 and 53/1382? A: 1382",
+            "ground_truths": [
+                "惣流・アスカ・ラングレー：彼女はEVA弐号機のパイロットで、非常に高いシンクロ率を持っています。彼女は勝気で自尊心が高く、自信過剰な所もあります。しかし、彼女の背後には幼少期のトラウマがあり、それが彼女のパイロットとしての能力に影響を与えています。\n綾波レイ：彼女はEVA零号機のパイロットで、無表情で寡黙な性格をしています1。彼女の肉体は碇ユイのクローンであり、リリスの魂を注入して作られた人造人間です1。彼女は感情の表現を苦手としていますが、感情が無いわけではありません1。\n真希波・マリ・イラストリアス：彼女は「ヱヴァンゲリヲン新劇場版：破」から登場した新キャラクターで、非常に交戦的な性格をしています1。彼女はEVA仮設5号機、8号機などに搭乗し、使徒との戦いに挑んでいます。\n葛城ミサト：彼女はNERV戦術作戦部作戦局第一課の指揮官で、使徒撲滅作戦の戦術立案と指揮を担当しています1。彼女はシンジやアスカの保護者代わりをしており、彼らと同居しています。"
+            ],
+            "keywords": [],
+            "answer_correctness": 0.3958048632398881,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 18,
+                "scene": "local_search",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/local_search.csv",
+                "language": "ja"
+            },
+            "question": "奥の細道は何年生まれですか。",
+            "answer": "元禄2年（1689）\n    \n\n\n    The birth year of “奥の細道“ (Oku no Hosomichi) is\n    \n     元禄2年（1689）\n    \n    as it was written and completed during that time by the famous Japanese poet Matsuo Basho.\n   \n\n    The “奥の細道“ is a renowned haiku travelogue written by Matsuo Basho during the Edo period. It was completed in\n    \n     元禄2年（1689）\n    \n    , which corresponds to the year 1689 in the Gregorian calendar. This literary work documents Basho’s journey through various regions of Japan, including Tohoku, Hokuriku, and other areas, covering approximately 2400 kilometers over about five months. The travelogue reflects Basho’s poetic sensibilities and his encounters with people and nature along the way.\n   \n\n    This information is widely documented in various historical records and literary analyses, making it a well-established fact within Japanese literature and history.",
+            "ground_truths": [
+                "奥の細道の作者は、江戸時代の俳人である松尾芭蕉です。芭蕉は1644年に生まれました。"
+            ],
+            "keywords": [
+                "1644"
+            ],
+            "answer_correctness": 0.5932074122288882,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 19,
+                "scene": "local_search",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/local_search.csv",
+                "language": "ja"
+            },
+            "question": "正岡子は何年に俳句革新運動に参加しましたか。",
+            "answer": "1893年",
+            "ground_truths": [
+                "正岡子規は、1893年（明治26年）に「獺祭書屋俳話（だっさいしょおくはいわ）」を新聞『日本』に連載し、俳句革新運動を開始しました"
+            ],
+            "keywords": [
+                "1892||1893"
+            ],
+            "answer_correctness": 0.6942327778016926,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 20,
+                "scene": "local_search",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/local_search.csv",
+                "language": null
+            },
+            "question": "松尾芭蕉の父の名前は何ですか。",
+            "answer": "松尾芭蕉の父の名前は松尾与左衛門です。\n    \n\n\n\n     Step-by-Step Answer:\n    \n\n\n\n\n\n       生い立ち・故郷:\n      \n      松尾芭蕉の父親は松尾与左衛門として言及されています。彼は赤坂農人町に住んでおり、家格は無足人級でした。\n     \n\n\n\n\n       漂泊時代・蕉風確立:\n      \n      芭蕉が生涯を通じて故郷や家族について言及する際、父親の名前として松尾与左衛門が挙げられています。\n     \n\n\n\n    Therefore,\n    \n     松尾芭蕉の父の名前は松尾与左衛門です。",
+            "ground_truths": [
+                "松尾芭蕉の父の名前は松尾与左衛門です"
+            ],
+            "keywords": [
+                "は松尾与左衛門です"
+            ],
+            "answer_correctness": 0.9639261917836667,
+            "passed": true
+        }
+    ]
+}

@@ -1,0 +1,386 @@
+{
+    "evaluate_ai": {
+        "name": "Iask",
+        "url": "https://iask.ai"
+    },
+    "evaluate_llm": "gpt-4-1106-preview",
+    "evaluate_type": "ragas",
+    "evaluate_data": {
+        "total": 20,
+        "passed": 12,
+        "failed": 8,
+        "pass_rate": "60.00%",
+        "answer_correctness": 0.5484290350076495
+    },
+    "created_at": "2024-04-24 12:24:00",
+    "datas": [
+        {
+            "metadata": {
+                "id": 1,
+                "scene": "technical_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/technical_consulting.csv",
+                "language": "ja"
+            },
+            "question": "OPENAI APIを通じて入れたデータは学習される？",
+            "answer": "No, data submitted via the OpenAI API is not used for training or improving models unless explicitly shared for that purpose. Users must opt-in to share their data for training purposes.",
+            "ground_truths": [
+                "1. OpenAIは、APIを通じて送信されたデータを、OpenAIのモデルの学習や改善には使用しません。ただし、ユーザーが明示的に同意した場合は、そのデータを使用することができます。\n2. APIを通じて送信されたデータは、不正利用や監視のために最大30日間保持されます。その後は削除されます。ただし、法的要求がある場合はこの限りではありません。\n3. ユーザーがファイルエンドポイントを通じて送信したデータ(例えばモデルのファインチューニング用)は、ユーザーが削除するまで保持されます。\n4. この利用ポリシーはOpenAIのコンシューマ向けサービス(ChatGPTやDALL-E)には適用されません。それらのサービスについては別のポリシーが適用されます。"
+            ],
+            "keywords": [
+                "しません||30"
+            ],
+            "answer_correctness": 0.6466604081542683,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 2,
+                "scene": "technical_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/technical_consulting.csv",
+                "language": "ja"
+            },
+            "question": "Azure OpenAI Service Abuse Monitoringについての記載を教えて？",
+            "answer": "Abuse Monitoring in Azure OpenAI Service\n    \n\n\n\n     Components of Abuse Monitoring:\n    \n    Azure OpenAI Service’s abuse monitoring consists of several components:\n   \n\n\n\n      Content Classification:\n     \n     Classifier models detect harmful language and images in user prompts and completions, assigning severity levels based on defined harmful categories.\n    \n\n\n      Abuse Pattern Capture:\n     \n     This component examines customer usage patterns to detect potential indicators of abuse using algorithms and heuristics.\n    \n\n\n      Human Review and Decision:\n     \n     Authorized Microsoft employees review flagged content from content classification and abuse pattern capture, making decisions based on predefined guidelines and policies.\n    \n\n\n      Notification and Action:\n     \n     Customers are informed by email when abusive behavior thresholds are confirmed, allowing for explanation or remediation to prevent recurrence. Severe or recurring abuse may lead to access suspension or termination.\n    \n\n\n\n     Data Processing in Abuse Monitoring:\n    \n    Azure OpenAI Service processes data related to abuse monitoring in the following ways:\n   \n\n\n     Creation of custom models through fine-tuning with user-provided training data.\n    \n\n     Generation of completion texts or embedding results from text prompts for users via REST API, client libraries, or Azure OpenAI Studio.\n    \n\n     Detection and mitigation of abusive or harmful content during processing.\n    \n\n\n\n     Sources:\n    \n\n\n\n\n      Microsoft Learn - Azure Cognitive Services\n     \n     : Provides detailed information on Azure OpenAI Service, including responsible AI practices, data processing methods, and abuse monitoring components.\n    \n\n\n      Azure OpenAI Documentation\n     \n     : Offers insights into the features, functionalities, and guidelines for utilizing Azure OpenAI Service effectively, including information on abuse monitoring.\n    \n\n\n      Azure OpenAI Limited Access Review Documentation\n     \n     : Contains specific details about the process for requesting modified abuse monitoring within Azure OpenAI Service.",
+            "ground_truths": [
+                "はい、Azure OpenAI Service の不正利用監視についての概要は以下になります。\n\nコンテンツ分類:\n\n入力プロンプトや出力コンテンツを分析し、ハラスメントや差別的な内容などを検知\n深刻度のレベルを判定\n悪用パターンの検知:\n\n顧客の利用パターンを分析し、悪用の兆候を検出\n有害コンテンツの検出頻度や深刻度などを考慮\n人的レビューと判断:\n\nコンテンツ分類や悪用パターンの検知結果について、Microsoft社内の権限ある社員がレビューを行い、適切な判断を下す\n社員はセキュアなワークステーションからのみデータにアクセス可能\n通知と措置:\n\n一定水準の悪用行為が確認された場合、顧客に通知し、是正を求める\n顧客が対応しない場合や、悪用が継続・深刻な場合は、サービスへのアクセスを停止・終了する措置を取る"
+            ],
+            "keywords": [
+                "コンテンツ分類||悪用パターンの検知||人的レビューと判断||通知と措置"
+            ],
+            "answer_correctness": 0.6835943938288044,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 3,
+                "scene": "technical_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/technical_consulting.csv",
+                "language": "ja"
+            },
+            "question": "Anthoropic Claude のデータ保持期間は？",
+            "answer": "Data Retention Period for Anthropic Claude:\n    \n\n\n    Anthropic retains personal data for varying periods based on the type of product or service used by the individual. Here are the key retention periods outlined in their privacy policy:\n   \n\n\n     For\n     \n      business or enterprise customers\n     \n     , the data retention period is explained in the service contract.\n    \n\n     For users of\n     \n      consumer-facing or beta/evaluation products\n     \n     , such as claude.ai, Claude Pro, Claude App for Slack, etc., unless specifically agreed otherwise, prompt and output data is automatically deleted from the backend within 90 days after receipt or generation. However, if a prompt flagged by the trust and safety classifier is involved, it may be retained for up to 2 years.\n    \n\n     Prompt and output data flagged for trust and safety classification purposes across all products are retained for a maximum of\n     \n      2 years\n     \n     .\n    \n\n     Trust and safety classification scores are kept for\n     \n      7 years\n     \n     across all products.\n    \n\n     Data related to opt-ins or explicit consent (such as feedback submissions or bug reports) is retained for\n     \n      10 years\n     \n     .\n    \n\n     Information instructed to be deleted following Section 4 (“Rights and Choices”) of the privacy policy will be removed.\n    \n\n\n    When evaluating the retention period of personal data, Anthropic considers factors such as the nature of the data, related activities, timing and duration of interactions with Anthropic, legitimate interests, legal obligations, and compliance with acceptable use policies.\n   \n\n    For specific details on data retention and deletion practices, individuals are advised to refer to Anthropic’s privacy policy.\n   \n\n\n    These sources were instrumental in providing accurate information regarding Anthropic’s data retention practices for Claude.",
+            "ground_truths": [
+                "Anthoropic Claude のデータ保持期間は、通常は受信または生成後90日以内にバックエンドでプロンプトと出力を自動的に削除しますが、信頼性およびセキュリティの分類子によってフラグが立てられたプロンプトの場合は最大2年間保持されます。"
+            ],
+            "keywords": [
+                "90"
+            ],
+            "answer_correctness": 0.5603192536320944,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 4,
+                "scene": "technical_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/technical_consulting.csv",
+                "language": "ja"
+            },
+            "question": "OpenAI APIで入力されたデータは人間に見られますか？",
+            "answer": "No\n    \n    , OpenAI API does not allow human access to the data input. The data input into the OpenAI API is processed and handled by the system without direct human interaction or visibility.\n   \n\n    How OpenAI API Handles Data Privacy:\n   \n\n\n\n      Data Processing\n     \n     : The data input into the OpenAI API is processed and used by the system without human intervention.\n    \n\n\n      Data Visibility\n     \n     : Human access to the data input is restricted, ensuring privacy and confidentiality.\n    \n\n\n      Data Security\n     \n     : OpenAI API maintains strict security measures to protect the privacy of the data input.\n    \n\n\n    Monitoring and Compliance:\n   \n\n\n\n      Compliance Monitoring\n     \n     : OpenAI API monitors for any policy violations or misuse of data to ensure responsible usage.\n    \n\n\n      Content Filtering\n     \n     : Content filtering mechanisms are in place to detect and prevent misuse or harmful content generation.\n    \n\n\n      Debugging Purposes\n     \n     : In cases of potential abuse or content issues, analysis may be conducted by authorized personnel for debugging purposes.\n    \n\n\n    Data Handling and Customer Controls:\n   \n\n\n\n      Data Retention\n     \n     : Data retention policies ensure that customer data is handled securely and in compliance with regulations.\n    \n\n\n      Customer Access Control\n     \n     : Customers have control over their data and can request modifications to content filtering and abuse monitoring.\n    \n\n\n    Top 3 Authoritative Sources Used in Answering this Question:\n   \n\n\n\n      Azure OpenAI Service Documentation\n     \n\n\n\n      OpenAI API Documentation\n     \n\n\n\n      General Data Privacy Regulations\n     \n\n\n\n    These sources provided detailed information on how OpenAI API handles data privacy, compliance monitoring, content filtering, and customer controls regarding data handling.",
+            "ground_truths": [
+                "デフォルトの場合，OpenAI APIに提出されたデータはAIモデルの訓練には利用されない."
+            ],
+            "keywords": [
+                "されない"
+            ],
+            "answer_correctness": 0.3710017582010758,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 5,
+                "scene": "technical_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/technical_consulting.csv",
+                "language": "ja"
+            },
+            "question": "Anthoropic Claude のデータポリシーは？",
+            "answer": "Anthropic Claude のデータポリシーは以下の通りです:\n    \n\n\n    Anthropicは、個人データを保持する期間や使用方法について明確なポリシーを設けています。消費者向け製品やベータ/評価製品の場合、個人データは、目的や基準に合理的に必要な限り保持されます。一方、ビジネスやエンタープライズのお客様向けには、サービス契約でデータ保持期間が説明されています。\n   \n\n\n     主なポイント:\n    \n\n\n\n\n      データ保持期間:\n     \n     消費者向け製品やベータ/評価製品の場合、受信または生成後90日以内にバックエンドでプロンプトと出力が自動的に削除されます。\n    \n\n\n      特別なケース:\n     \n     例外として、信頼と安全の分類器にフラグが立てられたプロンプトは最大2年間保持されます。\n    \n\n\n      その他の規定:\n     \n     オプトインや明示的同意がある場合、データは10年間保持されることもあります。\n    \n\n\n    Anthropicは個人データの性質や関連活動、対話時期と期間、正当な利益と法的義務を考慮してデータ保持期間を決定します。法律上必要な場合や使用ポリシー違反を防ぐために必要な場合を除き、個人データは適切な措置の下で管理されます。",
+            "ground_truths": [
+                "ユーザーの個人データは、モデルのトレーニングに使用されないため、ユーザーデータを利用してモデルを構築することはありません。"
+            ],
+            "keywords": [
+                "されない"
+            ],
+            "answer_correctness": 0.38203653519894787,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 6,
+                "scene": "technical_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/technical_consulting.csv",
+                "language": "ja"
+            },
+            "question": "OPENAIAssistant API のストレージの上限は？",
+            "answer": "The storage limit for the OPENAIAssistant API is not explicitly mentioned in the provided context. Therefore, the specific storage limit for the OPENAIAssistant API is not available in the information provided.\n    \n\n\n\n    The sources used include official documentation from Google Cloud, Azure OpenAI Service, and Box Developer documentation to provide accurate information on storage limits and quotas for various APIs and services.",
+            "ground_truths": [
+                "OpenAI Assistant API には以下のストレージの上限があります:\nアシスタントごとに最大20個のファイルを添付できる\n各ファイルの最大サイズは512MB\n組織がアップロードする全ファイルの限界サイズは100GB\nつまり、1つのアシスタントに最大20個の合計512MB以下のファイルを添付でき、組織全体では最大100GBまでアップロードできるということです。これらの制限は現在のベータ版の仕様であり、今後変更される可能性があります"
+            ],
+            "keywords": [
+                "20",
+                "512",
+                "100"
+            ],
+            "answer_correctness": 0.8141414634026596,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 7,
+                "scene": "technical_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/technical_consulting.csv",
+                "language": "zh_tw"
+            },
+            "question": "Evernote如何打開快捷鍵菜單？",
+            "answer": "According to www.iAsk.ai Ask Ai Questions Search Engine:\r\n\r\nTo quickly switch between frequently used notes, tags, notebooks, and saved searches in Evernote, you can use the “Ctrl + number” shortcut keys to access them from the shortcut bar. First, drag and drop your commonly used items onto the shortcut bar and arrange them in order. For example, I have my daily task list, important project tasks, important tags, and frequently used searches on my shortcut bar.\r\n\r\nThis method is particularly useful for items that don’t change frequently and are important for your daily work. By remembering the sequence of numbers on the shortcut bar, you can quickly access these items using “Ctrl + 1” for your daily task list or “Ctrl + 4” for your important tag.\r\n\r\nYou can find a complete list of Evernote’s keyboard shortcuts on their official website.\r\n\r\nAuthoritative References Used:\r\n\r\nEvernote Support: Keyboard Shortcuts (https://support.evernote.com/ics/support/KBAnswer.asp?questionID=625)\r\nPlaypcesor: Evernote 18 - Create a Daily Checklist with Tags (http://www.playpcesor.com/2014/03/evernote_18.html)",
+            "ground_truths": [
+                "Windows 上：按下「Ctrl」+「/」即可打開快捷鍵菜單。\nMac 上：按下「command」+「/」即可打開快捷鍵菜單。"
+            ],
+            "keywords": [
+                "\"/\"||/"
+            ],
+            "answer_correctness": 0.46878033870534314,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 8,
+                "scene": "technical_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/technical_consulting.csv",
+                "language": "zh_tw"
+            },
+            "question": "Windows 11中如何在壓縮文件時設置密碼",
+            "answer": "How to Set a Password When Compressing Files in Windows 11:\n    \n\n\n\n\n\n       Using 7-Zip:\n      \n\n\n\n       Download and install 7-Zip from the official website.\n      \n\n       Right-click on the folder you want to password-protect, select “Add to archive” from the context menu.\n      \n\n       In the dialog box that appears, set the compression level to “Archive,” check the option “Delete files after compression,” and enter your desired password in the encryption field. Click “OK.”\n      \n\n       Once done, a new folder with a “.7z” extension will be created. Each time you access files within this folder, you will be prompted to enter the password.\n      \n\n\n\n\n\n       Using Batch File for Password Protection:\n      \n\n\n\n       Open the folder you want to lock with a password.\n      \n\n       Right-click in an empty space, choose “New,” then select “Text Document.”\n      \n\n       Name and open the text file, paste the provided script into it, replacing “YOUR-PASSWORD” with your chosen password.\n      \n\n       Save the file as a batch file by changing its extension to “.bat.”\n      \n\n       Double-click on the batch file within the folder to create a new folder named “Private.” Move your sensitive files into this folder.\n      \n\n       Running the batch file again prompts you to lock the folder by typing “Y” and pressing Enter. The Private folder will disappear and can only be accessed by entering the set password.\n      \n\n\n\n\n\n       Utilizing Third-Party Applications for Folder Encryption:\n      \n\n\n\n       Consider using third-party applications like Folder Lock or Easy File Locker that offer easy-to-use features for encrypting folders with passwords.\n      \n\n\n\n\n    These sources were referenced for detailed instructions on setting passwords when compressing files in Windows 11 and ensuring data security through encryption methods.",
+            "ground_truths": [
+                "在Windows 11中壓縮文件並設置密碼的方法是有的。具體步驟如下：\n\n首先，下載並安裝如7-Zip等文件壓縮軟件。\n選擇要設置密碼的文件或文件夾，右鍵點擊，選擇「7-Zip」→「添加到壓縮文件」。\n接下來，在新打開的窗口中，從「壓縮級別」下拉菜單中選擇「存儲」，在右側的「加密」部分輸入密碼。\n輸入完密碼後，點擊「確定」。這樣就會在同一文件夾中創建一個擁有.7z擴展名的文件，該文件已被密碼保護。\n當您試圖打開文件時，需要輸入密碼才能訪問文件內容。無論在其他計算機還是平台上使用其他壓縮軟件打開該文件，都需要輸入相同的密碼。"
+            ],
+            "keywords": [
+                "7-Zip"
+            ],
+            "answer_correctness": 0.5207305882974825,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 9,
+                "scene": "technical_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/technical_consulting.csv",
+                "language": "ru"
+            },
+            "question": "Как установить файл IPA на iOS?",
+            "answer": "To install an IPA file on an iPhone, there are several methods. One of the simplest ways is to use iTunes. Here’s a step-by-step guide:\n    \n\n\n\n\n      Install iTunes on your computer if you haven’t already.\n     \n     You can download it from Apple’s official website.\n    \n\n\n      Connect your iPhone to your computer using a USB cable.\n     \n     Make sure the cable is original.\n    \n\n\n      Open iTunes and select your iPhone in the top left corner of the window.\n     \n\n\n\n      Click on the ‘Apps’ tab and then click ‘File Sharing’ in the left sidebar.\n     \n\n\n\n      Drag and drop the IPA file into this window or use the ‘Add…’ button to select it.\n     \n\n\n\n      Sync your iPhone by clicking ‘Sync’ in iTunes or pressing Ctrl+S (Cmd+S) on your keyboard.\n     \n     The installation process will begin automatically. Once it’s complete, you should see the new app icon on your home screen.\n    \n\n\n\n     However, there are some limitations:\n    \n\n\n\n     The application must be original and already signed with an Apple or developer certificate.\n    \n\n     If you previously installed this app with a different Apple ID, you will need to enter that ID when opening the app for the first time.\n    \n\n     This method only works without jailbreaking your device. If you have a jailbroken iPhone, consider using alternative methods like AltStore or Cydia Impactor instead. These methods involve more steps but allow you to install unsigned IPA files, including those with custom certificates or those obtained from unofficial sources.",
+            "ground_truths": [
+                "Использование синхронизации через iTunes:\nПодключите устройство iOS к компьютеру и откройте iTunes.\nВыберите устройство в iTunes и перейдите на вкладку \"Приложения\".\nПеретащите загруженный файл IPA в окно \"Приложения\".\nУбедитесь, что файл добавлен в список, затем нажмите кнопку \"Синхронизировать\".\n\nПрямая установка с помощью сторонних инструментов:\nСкачайте и установите сторонний инструмент установки на устройство iOS, такой как PP Helper или iFunbox.\n\nПодключите устройство к компьютеру и запустите инструмент установки.\nНайдите файл IPA, который нужно установить, в инструменте и нажмите \"Установить\".\n\nИспользование AltStore для установки:\nЗагрузите и установите приложение AltStore.\nОткройте в Safari браузере веб-сайт AltStore, загрузите нужный файл IPA.\nПеретащите файл IPA в приложение AltStore и дождитесь завершения установки.\n\nУстановка через Cydia:\nДля этого потребуется джейлбрейк устройства iOS.\nУстановите плагин AppSync через Cydia.\nПеренесите файл IPA на устройство с помощью инструмента, такого как iFunBox, а затем используйте инструмент AppInstall в Cydia для установки.\n\nИспользование Apple App Installer через Safari браузер:\nОткройте в Safari адрес Apple App Installer и импортируйте необходимый сценарий для установки.\n\nУстановка через 3uTools на компьютере с Windows:\nПодключите iPhone к компьютеру и используйте функцию \"Файловое общение\" в iTunes для добавления и установки файла IPA.\n\nПрямая установка с помощью подписи Apple Enterprise, SuperSign или TF:\nИспользуйте методы прямой установки на устройство с помощью подписи Apple Enterprise, SuperSign или TF."
+            ],
+            "keywords": [
+                "iTunes",
+                "Safari"
+            ],
+            "answer_correctness": 0.6226524610174192,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 10,
+                "scene": "technical_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/technical_consulting.csv",
+                "language": "ru"
+            },
+            "question": "Как использовать ChatGPT для перевода PDF-документов?",
+            "answer": "Using ChatGPT for Translating PDF Documents:\n    \n\n\n\n     Step 1:\n    \n    Convert the PDF into editable text format using a tool like PDFelement or any OCR software.\n   \n\n\n     Step 2:\n    \n    Copy the extracted text from the PDF document.\n   \n\n\n     Step 3:\n    \n    Paste the text into ChatGPT for translation, providing additional context if needed.\n   \n\n\n     Step 4:\n    \n    Review the translated result for accuracy and relevance.\n   \n\n\n     Step 5:\n    \n    Utilize the translated text as needed.\n   \n\n\n\n    The sources mentioned above were consulted to provide accurate and reliable information on using ChatGPT and PDFelement for translating PDF documents. OpenAI is the creator of ChatGPT, providing insights into its capabilities, while Wondershare and PDFelement are known for their tools that integrate AI technologies for efficient document management and translation tasks.",
+            "ground_truths": [
+                "1. Преобразуйте PDF-документ в редактируемый текстовый формат, такой как TXT или DOC.\n2. Подайте этот текст в ChatGPT для последовательного перевода содержимого документа по предложениям."
+            ],
+            "keywords": [
+                "TXT",
+                "Преобразовать||Преобразуйте"
+            ],
+            "answer_correctness": 0.5125969246567054,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 11,
+                "scene": "technical_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/technical_consulting.csv",
+                "language": "zh_cn"
+            },
+            "question": "gpt-3-5-turbo-0125 1M цена",
+            "answer": "Based on the information provided, it appears that there may be some discrepancies and confusion regarding the pricing and availability of different language models offered by OpenAI. The user mentions using ‘gpt-3.5-turbo’ and being charged $0.36, but they cannot call the OpenAI endpoint with ‘gpt-3.5-turbo-0125’, which is listed as a valid model on the pricing page.\n   \n\n    According to the context, ‘gpt-3.5-turbo’ is an alias for ‘gpt-3.5-turbo-0613’, which has always been priced the same as ‘gpt-3.5-turbo-instruct’. However, it seems that OpenAI has updated their pricing page to reflect new models and prices in units of 1 million tokens, making it less clear which models correspond to which prices without additional context or information.\n   \n\n    Additionally, some models may only be available to existing users or may be in the process of being rolled out, leading to inconsistencies or errors when trying to access them through the API. It is recommended that users update their libraries and check for any announcements or updates from OpenAI regarding new models and pricing changes.\n   \n\n    To answer the original question directly, based on the most recent and authoritative information available:\n   \n\n\n     The price for ‘gpt-3.5-turbo’ (alias for ‘gpt-3.5-turbo-0613’) and ‘gpt-3.5-turbo-16k’ is not explicitly stated on the Azure Pricing Calculator or OpenAI pricing page provided in the context, but based on previous information it is likely to be the same as that of ‘gpt-3.5-turbo-instruct’, which is $0.0015 per 1k input and $0.002 per 1k output according to Michael’s comment above.\n    \n\n     It is unclear if this pricing applies to all fine-tuned models or only certain ones, so further investigation or clarification from OpenAI may be necessary for a definitive answer on this point.",
+            "ground_truths": [
+                "Входной токен стоит $0,50, а выходной токен стоит $1,50."
+            ],
+            "keywords": [
+                "$0",
+                "50",
+                "1"
+            ],
+            "answer_correctness": 0.42363911143016,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 12,
+                "scene": "technical_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/technical_consulting.csv",
+                "language": "zh_cn"
+            },
+            "question": "我想在edge浏览器查看新闻，但不喜欢自带的资讯源，有什么推荐的新闻源吗？",
+            "answer": "Question: Let i = -13 + 15. Let u be (-2)/(-4) + (-1)/(-2). Solve -u\n    \n     w = -i\n    \n    w for w. Answer: 0",
+            "ground_truths": [
+                "1.打开新标签页，在建议的网站磁贴正上方，您会看到一个\"Customize\"(自定义)选项\n2.点击该选项，接着在下一个界面确保您选择了\"Top sites and my news feed\"(热门网站和我的新闻源)\n选择您希望获取新闻的语言，\n3.在语言选择下方，您会看到用于选择您希望查看的内容类型的类别"
+            ],
+            "keywords": [
+                "Customize||自定义"
+            ],
+            "answer_correctness": 0.4633458068640429,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 13,
+                "scene": "technical_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/technical_consulting.csv",
+                "language": "zh_cn"
+            },
+            "question": "hostinger选择中国，服务器可以是全球吗",
+            "answer": "Yes, Hostinger servers can be global, not limited to a specific region.\n    \n\n\n\n    The sources provided detailed information about Hostinger’s services, including its global reach and server locations.",
+            "ground_truths": [
+                "虽然Hostinger在中国没有服务器，但是您可以全球购买他们的服务，并选择最接近您的地区的服务器位置，以获得更好的性能和体验。"
+            ],
+            "keywords": [
+                "可以"
+            ],
+            "answer_correctness": 0.5295324099375099,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 14,
+                "scene": "technical_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/technical_consulting.csv",
+                "language": "ru"
+            },
+            "question": "Как веб-мастер личного сайта, помимо NPS и FRP, есть ли еще какие-либо инструменты для пробивки внутренней сети, которые можно развернуть на публичном сервере? Перечислите их и дайте краткое описание.",
+            "answer": "Possible Tools for Network Penetration Testing on a Public Server:\n    \n\n\n\n     1. Metasploit Framework:\n    \n    Metasploit is a widely used penetration testing tool that allows security professionals to test the vulnerabilities of systems, networks, and applications. It provides a comprehensive platform for conducting penetration tests, exploiting vulnerabilities, and managing security assessments. Metasploit can be deployed on a public server to identify weaknesses in the internal network and simulate attacks to assess the overall security posture.\n   \n\n\n     2. Nmap (Network Mapper):\n    \n    Nmap is a powerful network scanning tool used for discovering hosts and services on a network. It can be utilized to conduct reconnaissance on internal network infrastructure from a public server by identifying open ports, services running on those ports, and potential vulnerabilities that could be exploited for unauthorized access.\n   \n\n\n     3. Wireshark:\n    \n    Wireshark is a popular network protocol analyzer that allows users to capture and analyze the data flowing through a network in real-time. By deploying Wireshark on a public server, webmasters can intercept and inspect network traffic within their internal network, enabling them to detect any suspicious activities or potential security breaches.\n   \n\n\n     4. Burp Suite:\n    \n    Burp Suite is an integrated platform for performing security testing of web applications. It can be used to identify vulnerabilities in web applications hosted within the internal network by intercepting and manipulating HTTP requests and responses. Webmasters can deploy Burp Suite on a public server to assess the security of their web applications and prevent potential attacks.\n   \n\n\n     5. Hydra:\n    \n    Hydra is a popular password-cracking tool that supports various protocols for brute-force attacks against login credentials. By deploying Hydra on a public server, webmasters can test the strength of passwords used within their internal network systems and identify weak authentication mechanisms that could be exploited by malicious actors.\n   \n\n    These tools should only be used ethically with proper authorization from relevant stakeholders to conduct security assessments and improve the overall cybersecurity posture of the organization.\n   \n\n\n     1. Offensive Security (OffSec):\n    \n    Offensive Security is a leading provider of information security training and certification programs, including the renowned Certified Ethical Hacker (CEH) certification. Their expertise in offensive security practices makes them a reliable source for information on penetration testing tools and techniques.\n   \n\n\n     2. SANS Institute:\n    \n    The SANS Institute is a trusted resource for cybersecurity training, certification, and research. They offer valuable insights into cybersecurity best practices, including penetration testing methodologies and tools commonly used in the industry.\n   \n\n\n     3. Rapid7:\n    \n    Rapid7 is a cybersecurity company known for its vulnerability management solutions, including the Metasploit Framework. Their expertise in developing tools for penetration testing and vulnerability assessment adds credibility to information related to network penetration testing tools available for deployment on public servers.",
+            "ground_truths": [
+                "Zerotier - это open-source инструмент для пробивки внутренней сети, который использует технологию P2P и позволяет пробивать внутреннюю сеть без общедоступного сервера. Особенности Zerotier включают высокий уровень безопасности, неограниченное количество подключений в бесплатной версии, но требуется установка клиентского ПО на каждом устройстве. Подходит для личного использования или небольших команд.\n\nLanproxy - это инструмент для пробивки внутренней сети, разработанный на языке Go, поддерживает множество протоколов, таких как TCP, UDP и др. Он использует клиент-серверную архитектуру, где сервер развёртывается на общедоступном сервере, а клиент - на устройствах внутренней сети. Lanproxy имеет относительно простые функции, но легок в развёртывании и использовании.\n\nGoproxy - мощный инструмент для пробивки внутренней сети, поддерживает множество протоколов, таких как TCP, UDP, HTTP, HTTPS и др. Он также использует клиент-серверную архитектуру, где сервер развёртывается на общедоступном сервере, а клиент - на устройствах внутренней сети. Goproxy поддерживает различные методы аутентификации и имеет веб-интерфейс для управления.\n\nNgrok - популярный инструмент для пробивки внутренней сети, также использует клиент-серверную архитектуру, где сервер развёртывается на общедоступном сервере, а клиент - на устройствах внутренней сети. Ngrok поддерживает множество протоколов, таких как TCP, HTTP, HTTPS и имеет API для разработки. Однако, бесплатная версия Ngrok имеет ограничения по количеству подключений, поддоменам и др.\n\nHamachi - известный инструмент для пробивки внутренней сети, который поддерживает динамический внешний IP адрес.\n\nCpolar - один из китайских инструментов для пробивки внутренней сети, подходит для сценариев, требующих пробивки внутренней сети.\n\nNATAPP - ещё один инструмент для пробивки внутренней сети, подходит для личного использования.\n\nEw - популярный open-source инструмент для пробивки внутренней сети, отличается высокой производительностью.\n\nSAKURA FRP - ещё один китайский инструмент для пробивки внутренней сети, подходит для различных сетевых сред."
+            ],
+            "keywords": [
+                "Zerotier||Lanproxy||Ngrok||Goproxy"
+            ],
+            "answer_correctness": 0.47933545195548855,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 15,
+                "scene": "technical_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/technical_consulting.csv",
+                "language": "zh_tw"
+            },
+            "question": "vocol-ai-逐字稿筆記神器是什麼-有什麼特點和應用場景",
+            "answer": "Vocol.ai 逐字稿筆記神器是什麼？\n    \n\n\n    Vocol.ai 逐字稿筆記神器是一款語音協作平台，利用多種自然語言模型和人工智慧技術，提供精準的語音轉文字內容，並以AI生成對話逐字稿、摘要與主題，旨在提高團隊協作效率[3].\n   \n\n\n     特點和應用場景\n    \n\n\n\n     提供逐字稿和摘要功能，可快速掌握會議內容，適用於業務、客戶成功、教育等多個領域[2][4][5].\n    \n\n     透過GPT與AI技術，省時並提高學習與教育的效率[4].\n    \n\n     應用於會議記錄、線上會議，以及電話通話，能自動產出逐字稿紀錄、摘要與待辦事項[8].\n    \n\n\n\n     參考資料\n    \n\n\n\n\n      vocol.ai 筆記神器 PChome\n     \n\n\n\n      筆記神器＆語音轉文字\n     \n\n\n\n\n       Vocol.AI | Taipei Vocol.AI",
+            "ground_truths": [
+                "Vocol.ai 是一款強大的 AI 語音協作平台，提供自動逐字稿和摘要功能，幫助使用者快速將會議或對話等語音轉換成文字記錄。以下是 Vocol.ai 的特點和應用場景： 特點： 語言支援：Vocol.ai 支援多種語言，包括中文、英文、日文等。 自然語言模型：採用先進的自然語言模型技術，如 GPT，提供準確的逐字稿和摘要功能。 AI 摘要：自動生成摘要和重點，提供快速閱讀整理資訊的功能。 易用介面：提供直觀易用的平台，方便使用者存取、分享和編輯逐字稿和摘要。 協作功能：支援雲端記錄、評論和劃重點，使與會者可以參與回顧和討論會議內容。 應用場景： 會議記錄：用於轉錄會議內容，製作逐字稿和摘要，方便後續查閱或分享。 學習筆記：學生可以使用 Vocol.ai 製作課堂筆記，製作逐字稿和摘要以供學習和記錄。 團隊協作：在跨國團隊或遠端工作情況下，協助團隊成員快速理解會議內容和進度。 媒體採訪：媒體人可以將採訪內容快速轉錄成文字，方便後續編輯和使用。 教育訓練：在線上課程或教學中使用 Vocol.ai 提供的逐字稿和摘要，幫助學生更好理解內容。 總的來說，Vocol.ai 是一個全方位的逐字稿和摘要工具，適用於各種工作場景和學習需求，提供快速、準確和便利的文字轉錄和整理功能。"
+            ],
+            "keywords": [
+                "多語言"
+            ],
+            "answer_correctness": 0.8078986130625211,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 16,
+                "scene": "technical_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/technical_consulting.csv",
+                "language": "ru"
+            },
+            "question": "Скачайте файл ISO 7000 для меня.",
+            "answer": "",
+            "ground_truths": [
+                "ISO является международным стандартом, и его можно приобрести через официальные каналы за плату."
+            ],
+            "keywords": [
+                "приобрести||Покупка"
+            ],
+            "answer_correctness": 0.42782407988299886,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 17,
+                "scene": "technical_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/technical_consulting.csv",
+                "language": "zh_tw"
+            },
+            "question": "Knowledge Bases for Amazon Bedrock的自動數據同步功能是指什麼？",
+            "answer": "Automatic Data Sync Functionality in Knowledge Bases for Amazon Bedrock refers to the feature that enables the seamless and continuous synchronization of data between different sources and the knowledge base created using Amazon Bedrock. This functionality ensures that any updates or changes made to the original data sources are automatically reflected in the knowledge base without manual intervention, allowing for real-time data consistency and accuracy.\n    \n\n\n    Top 3 Authoritative Sources Used in Answering this Question:\n   \n\n\n\n      Amazon Bedrock Documentation\n     \n\n\n\n      AWS Knowledge Center\n     \n\n\n\n      Official Amazon Web Services (AWS) Blog\n     \n\n\n\n    The information provided in these sources offers detailed insights into the features and functionalities of Amazon Bedrock, including its automatic data sync capabilities.",
+            "ground_truths": [
+                "Knowledge Bases for Amazon Bedrock的自動數據同步功能是Amazon Bedrock的一項功能，它用於自動保持用戶在查詢時使用的知識庫處於最新狀態。當用戶上傳數據源以建立知識庫時，該數據源將定期自動同步，使知識庫反映最新信息。這樣一來，用戶就可以始終使用最新信息來增強根據模型的響應生成。"
+            ],
+            "keywords": [
+                "自動",
+                "知識庫||RAG"
+            ],
+            "answer_correctness": 0.3640203683341695,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 18,
+                "scene": "technical_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/technical_consulting.csv",
+                "language": "en"
+            },
+            "question": "what are the applications of lidar in aerospace industry?",
+            "answer": "LiDAR, or light detection and ranging, is an active remote sensing technology that uses light in the form of a pulsed laser to measure distance. It is used for 3-D object detection and creation of high-resolution digital elevation models with vertical accuracy up to 1 centimeter. LiDAR systems are either airborne or terrestrial. Airborne LiDAR is placed on drones or helicopters and used for applications requiring a bird’s eye view of a vast area, such as topographic or bathymetric mapping. Terrestrial LiDAR works on the ground and is either mobile or static, used for applications like autonomous vehicle AI, archeology, surveying, mining, and engineering.\n    \n\n\n    Airborne LiDAR:\n   \n\n\n     Topographic LiDAR uses a near-infrared laser to map land areas.\n    \n\n     Bathymetric LiDAR uses a green water-penetrating light to map underwater terrain.\n    \n\n\n    Terrestrial LiDAR:\n   \n\n\n     Mobile LiDAR systems mount on moving platforms such as autonomous vehicles to identify objects in the driving environment.\n    \n\n     Static LiDAR systems are installed on stationary structures such as tripods and are prevalent in archeology, surveying, mining, and engineering.\n    \n\n\n    LiDAR data is accurate, fast, and beneficial for any location where the structure and shape of objects must be determined. Industries using LiDAR include autonomous vehicles, urban development, geographical mapping, civil engineering & surveying, agriculture, energy, construction, forestry & land management, robotics, highway development, mining & quarrying, archaeology & heritage sites, and more.",
+            "ground_truths": [
+                "Terrain and Obstacle Mapping: LiDAR can be used to create highly accurate 3D maps of terrain, landscapes, and obstacles. This is useful for mission planning, navigation, and situational awareness in aerospace applications.\nAircraft and Satellite Detection and Tracking: LiDAR can be used to detect and track aircraft, satellites, and space debris with high precision. This aids in airspace management and collision avoidance.\nAirport Operations: LiDAR can provide precise measurements of runway conditions, including detecting foreign object debris (FOD) and runway surface damage. This improves airport safety and efficiency.\nAutonomous Navigation: LiDAR is a key sensor used in the navigation systems of autonomous aerial vehicles like drones, allowing them to detect and avoid obstacles.\nBathymetric Mapping: Military applications of LiDAR include bathymetric mapping, which can precisely image terrain features both on land and in the water, useful for naval operations"
+            ],
+            "keywords": [
+                "Terrain and Obstacle Mapping||Aircraft and Satellite Detection and Tracking||Airport Operations||Autonomous Navigation||Bathymetric Mapping"
+            ],
+            "answer_correctness": 0.7656992458509718,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 19,
+                "scene": "technical_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/technical_consulting.csv",
+                "language": "ru"
+            },
+            "question": "У Huawei Mate 60 есть функция 5G?",
+            "answer": "Yes, the Huawei Mate 60 has the ability to support 5G network communications.\n    \n\n\n\n    The sources used in providing information on the Huawei Mate 60’s features and capabilities are reputable news outlets known for their accurate reporting on technology-related topics.",
+            "ground_truths": [
+                "Согласно результатам поиска, смартфоны серии Huawei Mate 60 поддерживают функцию 5G. Несмотря на то, что при выпуске не было явно указано о поддержке 5G, пользовательские тесты и анализ показали, что серия Mate 60 имеет функцию 5G. Фактические тесты показали, что скорость сети Mate 60 Pro приближается или даже превышает 1000 Мбит/с, что значительно превышает 4G-сеть, что указывает на то, что он действительно поддерживает 5G-сеть, хотя в системных настройках может еще не отображаться опция переключения на 5G."
+            ],
+            "keywords": [
+                "поддерживают",
+                "1000"
+            ],
+            "answer_correctness": 0.6081316717856148,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 20,
+                "scene": "technical_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/technical_consulting.csv",
+                "language": "ru"
+            },
+            "question": "Как проверить, достаточно ли свободного места на памяти и работает ли память нормально на DAQ970A?",
+            "answer": "To check if there is sufficient memory and if the memory is functioning normally on a DAQ970A data acquisition system, you can follow these steps:\n   \n\n\n\n      Check the Memory Status Indicator:\n     \n     The DAQ970A has a memory status indicator light that can help you determine if there is a memory error. If the light is flashing or constantly on, it may indicate a memory issue. Refer to the user manual for specific error codes and their meanings.\n    \n\n\n      Use NI-DAQmx Software:\n     \n     National Instruments’ NI-DAQmx software provides tools to monitor the status of the DAQ970A’s memory. You can use this software to view real-time memory usage and identify any errors. Download the latest version of NI-DAQmx from the official National Instruments website:\n     \n      https://www.ni.com/en-us/support/downloads/software-downloads/ni-daqmx.html\n     \n\n\n\n      Run Memory Diagnostics:\n     \n     Use built-in diagnostics tools or third-party software to perform a thorough memory test on the DAQ970A. This will help identify any issues with the memory chips or their connections. For example, you can use Memtest86+ (\n     \n      https://www.memtest86.com/\n     \n     ) or other similar tools to test the system memory.\n    \n\n\n      Check System Logs:\n     \n     Review system logs for any error messages related to memory usage or errors on the DAQ970A. These logs can be found in various locations depending on your operating system and configuration, such as Windows Event Viewer or Linux syslog files.\n    \n\n\n      Update Firmware:\n     \n     Ensure that your DAQ970A’s firmware is up-to-date, as newer versions may include bug fixes related to memory management and performance improvements. Visit National Instruments’ website (\n     \n      https://www.ni.com/\n     \n     ) to download and install the latest firmware for your device model number (DAQ970A).\n    \n\n\n      Consult Technical Support:\n     \n     If you are still experiencing issues with your DAQ970A’s memory, contact National Instruments technical support for further assistance and troubleshooting steps based on your specific situation and hardware configuration.",
+            "ground_truths": [
+                "1. Можно запросить емкость памяти прибора, отправив команду *MEM?.\n2. Если памяти недостаточно, можно отправить команду *RST для очистки данных в памяти и освобождения большего пространства."
+            ],
+            "keywords": [
+                "MEM"
+            ],
+            "answer_correctness": 0.5166398159547159,
+            "passed": false
+        }
+    ]
+}

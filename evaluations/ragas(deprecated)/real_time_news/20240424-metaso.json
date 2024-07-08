@@ -1,0 +1,381 @@
+{
+    "evaluate_ai": {
+        "name": "Metaso",
+        "url": "https://metaso.cn"
+    },
+    "evaluate_llm": "gpt-4-1106-preview",
+    "evaluate_type": "ragas",
+    "evaluate_data": {
+        "total": 20,
+        "passed": 12,
+        "failed": 8,
+        "pass_rate": "60.00%",
+        "answer_correctness": 0.59424958423605
+    },
+    "created_at": "2024-04-24 11:48:28",
+    "datas": [
+        {
+            "metadata": {
+                "id": 1,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/real_time_news.csv",
+                "language": "en"
+            },
+            "question": "Who's the United States Trade Representative?",
+            "answer": "美国贸易代表（USTR）是Katherine Tai。这一信息可以从多个证据中得到确认。例如，在2024年2月17日发表的标题为“Conversation with Katherine Tai, US Trade Representative, on International Trade and US Trade Policy”的文章中明确提到Katherine Tai担任美国贸易代表。此外，其他资料虽然没有直接提及Katherine Tai的名字，但都涉及到美国贸易代表办公室（USTR）在拜登总统任期内的活动和政策发布，这进一步支持了Katherine Tai作为现任美国贸易代表的事实。\n",
+            "ground_truths": [
+                "The name of the United States Trade Representative is Katherine Chi Tai. She is a Taiwanese American trade lawyer and currently serves as the United States Trade Representative."
+            ],
+            "keywords": [
+                "Katherine"
+            ],
+            "answer_correctness": 0.6671358267477014,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 2,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/real_time_news.csv",
+                "language": "zh_tw"
+            },
+            "question": "百川最新的融資",
+            "answer": "百川智能最新的融资情况是进行了一轮数亿美元的新融资，这一轮融资将成为国内2024年最大的AI领域融资之一。根据投资界的消息，百川智能的估值在今年已经超过了18亿美元（约合人民币130亿）。然而，需要注意的是，尽管有报道称融资已经完成，但也有知情人士透露，目前的融资尚未最终完成，具体的估值可能会有所出入。\n此外，百川智能在2023年10月完成了A1轮战略融资，融资金额为3亿美元，投资方包括阿里巴巴、腾讯、小米等科技巨头及多家顶级投资机构。这轮融资加上之前的天使轮5000万美元，使得百川智能的累计融资金额达到了3.5亿美元。在完成这轮融资后，百川智能的估值已经超过10亿美元，成功跻身科技独角兽行列。\n综上所述，百川智能最新的融资动态显示了其在AI领域的强劲发展势头和市场认可度。尽管具体的融资金额和估值存在一定的不确定性，但可以确认的是，百川智能已经完成了重要的融资活动，并且其估值和市场地位均有显著提升。\n",
+            "ground_truths": [
+                "有媒體報導稱，百川智能正在進行新一輪數億美元融資，將成為2024年國內AI領域最大融資之一，且公司今年以來估值已超18億美元。"
+            ],
+            "keywords": [
+                "18||3"
+            ],
+            "answer_correctness": 0.7033194338283528,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 3,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/real_time_news.csv",
+                "language": "zh_cn"
+            },
+            "question": "Perplexity最近融资情况",
+            "answer": "Perplexity AI最近的融资情况如下：\n\n\nPerplexity AI在2024年1月4日宣布完成了B轮融资，筹集了7360万美元，这次融资发生在早期阶段风险投资中。融资前的估值为446.4百万美元。\n\n\n同样在2024年1月，有报道称Perplexity AI完成了7360万美元的B轮融资，公司估值达到了5.2亿美元，累计融资额超过了1亿美元。\n\n\n在2024年4月24日，有报道指出Perplexity AI正在进行至少2.5亿美元的新一轮融资，估值可能达到25亿至30亿美元。同一天，还有报道称该公司筹集了约6300万美元，估值超过10亿美元。另一篇报道提到，Perplexity AI获得了6270万美元融资，估值翻倍至10亿美元。\n\n\n此外，还有报道提到Perplexity AI在新一轮融资中筹集了6300万美元，估值升至逾10亿美元。\n\n\nPerplexity AI最近的融资活动非常活跃，从B轮融资的7360万美元到后续的至少2.5亿美元的新一轮融资，公司的估值也从5.2亿美元增长到可能的25亿至30亿美元。这些融资活动显示了市场对Perplexity AI的高度认可和对其未来发展潜力的期待。\n",
+            "ground_truths": [
+                "2024年4月23日，Perplexity AI又宣布完成了新一轮融资，筹集了6270万美元，融资后估值达到了10亿美元5810。这次融资使得公司的估值较上一轮融资翻了一番"
+            ],
+            "keywords": [
+                "62.7||6270"
+            ],
+            "answer_correctness": 0.5758221248043387,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 4,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/real_time_news.csv",
+                "language": "zh_tw"
+            },
+            "question": "最近台灣地震造成的傷亡人數是多少？",
+            "answer": "本次请求涉及的领域暂不支持",
+            "ground_truths": [
+                "台灣花蓮地震死亡數字上升。10日救援人員在花蓮太魯閣區域砂卡礑步道尋獲3具遺體，花蓮7.3級地震罹難人數上升至16人。"
+            ],
+            "keywords": [
+                "16"
+            ],
+            "answer_correctness": 0.4249109410793913,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 5,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/real_time_news.csv",
+                "language": "ja"
+            },
+            "question": "最近の埼玉県行田市事故の死傷者数は何人ですか?",
+            "answer": "しかし、この質問に対する直接的な回答として、最新の事故で1人死亡、3人けがをしたことが正确です。\n",
+            "ground_truths": [
+                "最近の埼玉県行田市の事故での死傷者数は以下の通りです:\n死亡者数: 1人\n負傷者数: 3人"
+            ],
+            "keywords": [
+                "1||3||4"
+            ],
+            "answer_correctness": 0.7055195431529362,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 6,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/real_time_news.csv",
+                "language": "ja"
+            },
+            "question": "藤岡康太騎手の怪我はどうでしたか？",
+            "answer": "藤岡康太騎手の怪我は相当深刻でした。4月6日に阪神競馬场で行われたレースで落馬し、头部と胸部を負傷しました。この落馬の後、藤岡康太騎手は意识不明な状態に陥っていました。具体的な怪我の详细については、提供された証拠からは详细的には知道了りませんが、この情况来看，则是非常严重的伤害，特别是考虑到他长时间处于意识不明的状态。\n",
+            "ground_truths": [
+                "藤岡康太騎手は、2024年4月6日に行われた阪神競馬場の第7レースで落馬し、頭部と胸部を負傷しました.この落馬の後、藤岡騎手は病院に搬送され、意識を取り戻すことなく、後に怪我のため亡くなりました.この悲報は日本中央競馬会(JRA)からも発表されました"
+            ],
+            "keywords": [
+                "亡"
+            ],
+            "answer_correctness": 0.696738312965938,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 7,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/real_time_news.csv",
+                "language": "zh_tw"
+            },
+            "question": "士林區溪山里事件的起因是什麼？",
+            "answer": "士林區溪山里事件的起因是水源污染。台北市士林区溪山里发生了至少上百人上吐下泻、发烧等身体不适的情况。此外，还有报道称近山区多位住民出现腹泻及呕吐等症状，经诊断为急性肠胃炎。这些症状与水中大肠杆菌的存在有关，因此可以推断水源污染是导致这一事件的主要原因。\n",
+            "ground_truths": [
+                "士林區溪山里事件的起因是與水質問題有關。根據報導，溪山里的居民平常使用自行成立的供水系統，主要使用山泉水作為飲用水源。然而，由於地震等自然災害可能導致山泉水受到污染，進而造成水質問題。事件中大腸桿菌群數值偏高，反映了水質有異常情況，因此許多居民出現了腹瀉和嘔吐等腸胃道疾病症狀。台北市政府為了緊急應對此情況，已提供緊急取水站以及醫療服務，並展開全面水質檢測及環境消毒等措施以解決問題。因此，士林區溪山里事件的起因主要是因為使用的山泉水受到污染所導致的水質問題。"
+            ],
+            "keywords": [
+                "地震"
+            ],
+            "answer_correctness": 0.6202290539330876,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 8,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/real_time_news.csv",
+                "language": "ja"
+            },
+            "question": "3月のCPI",
+            "answer": "2024年3月份，全国居民消费价格指数（CPI）同比上涨0.1%。这一数据得到了多个来源的一致确认，包括光明网、国家统计局的官方发布、新华网、人民日报、中国政府网、中国金融新闻网等多个权威媒体和官方机构的报道。此外，环比方面，3月份CPI下降了1.0%，这表明与上个月相比，物价水平有所下降。\n具体到价格变动的细节，食品价格在3月份同比下降了2.7%，而非食品价格上涨了0.7%。消费品价格下降了0.4%，服务价格上涨了0.8%。这些数据反映了不同类别商品和服务价格变动的具体情况。\n值得注意的是，尽管3月份CPI同比上涨，但涨幅比上月回落了0.6个百分点，显示出物价上涨的速度有所放缓。这种变化可能与节后消费需求季节性回落、市场供应总体充足等因素有关。\n此外，从更广泛的时间范围来看，2024年第一季度（1至3月），全国居民消费价格指数与上年同期持平，这意味着在这三个月内，物价水平没有显著上升或下降。\n2024年3月份中国全国居民消费价格指数（CPI）同比上涨0.1%，环比下降1.0%，显示出物价水平相对稳定，且涨幅有所回落。食品价格下降，非食品价格上涨，消费品和服务价格也表现出相应的变动趋势。\n",
+            "ground_truths": [
+                "2024年3月の日本のCPIは2.8%"
+            ],
+            "keywords": [
+                "2.80%"
+            ],
+            "answer_correctness": 0.5054680032532262,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 9,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/real_time_news.csv",
+                "language": "zh_tw"
+            },
+            "question": "今年在哪個國家可以看到日食",
+            "answer": "今年（2024年）可以看到日食的国家包括墨西哥、美国和加拿大。2024年4月8日的日全食将从墨西哥西海岸开始，向东北方向横贯美国和加拿大东部。具体来说，墨西哥的锡那罗亚、杜兰戈、吉娃娃、科阿维拉等地将是观测日全食的中心地带。随后，美国的德克萨斯、俄克拉荷马等15个州也将依次观测到日全食。此外，加拿大的极东南部也将位于全食带内。因此，可以确认墨西哥、美国和加拿大是今年可以看到日食的国家。\n",
+            "ground_truths": [
+                "2024年4月8日：\n墨西哥、美國、加拿大：預計可以觀測到全食的日食。"
+            ],
+            "keywords": [
+                "2024",
+                "墨西哥||美國||加拿大"
+            ],
+            "answer_correctness": 0.787162602823134,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 10,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/real_time_news.csv",
+                "language": "zh_tw"
+            },
+            "question": "海康威視去年的業績如何",
+            "answer": "海康威视在2023年的业绩表现如下：公司实现营业总收入893.40亿元，同比增长7.42%；归属于上市公司股东的净利润为141.08亿元，同比增长9.89%。这一增长表明公司在市场竞争中保持了稳定的发展态势。此外，海康威视的主业产品及服务、主业建造工程在2023财年营收小计707.87亿，占营收比重的79.23%；机器人、智能家居、热成像、汽车电子、存储以及其他创新业务共计营收185.53亿元，占总营收比重的20.77%。这显示了公司在传统安防领域的强劲表现以及在新兴业务领域如机器人、智能家居等的增长潜力。\n海康威视在2023年的业绩表现良好，不仅在传统安防领域保持了稳定的增长，同时在新兴业务领域也展现出了良好的发展势头。\n",
+            "ground_truths": [
+                "在2023年，海康威視的業績恢復增長，公司實現了營業收入893.55億元，同比增長7.44%，淨利潤為141.17億元，同比增長9.96%。"
+            ],
+            "keywords": [
+                "2023",
+                "893"
+            ],
+            "answer_correctness": 0.7045065656567416,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 11,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/real_time_news.csv",
+                "language": "en"
+            },
+            "question": "How many Israelis died in the attack launched by Iran?",
+            "answer": "未找到有关的结果，请检查你的拼写或尝试使用其他关键字。",
+            "ground_truths": [
+                "According to the reports, there were no reported fatalities from the Iranian attack on Israel"
+            ],
+            "keywords": [
+                "no casualties"
+            ],
+            "answer_correctness": 0.49060682720824883,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 12,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/real_time_news.csv",
+                "language": "en"
+            },
+            "question": "Whom did Putin say carried out the Moscow attack?",
+            "answer": "因此，可以得出结论，普京认为是激进伊斯兰主义者执行了莫斯科的袭击，同时暗示乌克兰可能与此事有关联。\n",
+            "ground_truths": [
+                "Vladimir Putin stated that \"radical Islamists\" were behind the deadly attack on the Crocus City concert hall in Moscow"
+            ],
+            "keywords": [
+                "radical Islamists||激进伊斯兰主义"
+            ],
+            "answer_correctness": 0.6976965576209755,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 13,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/real_time_news.csv",
+                "language": "en"
+            },
+            "question": "What precisely caused the ship to collide with the Baltimore bridge?",
+            "answer": "巴尔的摩弗朗西斯·斯科特·基桥（Francis Scott Key Bridge）的坍塌是由于一艘名为“达利”（Dali）的货船撞击所致。这艘船在撞击桥梁时，据报道遇到了“电力问题”。此外，有证据表明这艘船之前曾涉及事故。这些历史上的事故可能影响了船只的操作或维护状况，从而间接导致了这次撞击。\n",
+            "ground_truths": [
+                "When the container ship MV Dali, 300 metres long and massing around 100,000 tonnes, lost power and slammed into one of the support piers of the Francis Scott Key Bridge in Baltimore, the bridge collapsed in moments."
+            ],
+            "keywords": [
+                "lost power||电力||power loss||losing power"
+            ],
+            "answer_correctness": 0.5223578649770869,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 14,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/real_time_news.csv",
+                "language": "en"
+            },
+            "question": "Which island recently experienced a volcanic eruption in Indonesia?",
+            "answer": "最近在印度尼西亚发生火山喷发的岛屿是苏拉威西岛北部的鲁昂火山。根据证据，鲁昂火山在2024年4月18日经历了至少五次大规模喷发。此外，鲁昂火山位于鲁昂岛（属于北苏拉威西省的桑吉海群岛）上，其火山活动在4月16日至17日有所增加。因此，可以确认最近在印度尼西亚经历火山喷发的岛屿是鲁昂岛。\n",
+            "ground_truths": [
+                "The name of the volcano is Mount Ruang on the northern side of Sulawesi Island."
+            ],
+            "keywords": [
+                "Sulawesi island||Mount Ruang"
+            ],
+            "answer_correctness": 0.7547318019496994,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 15,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/real_time_news.csv",
+                "language": "en"
+            },
+            "question": "In April 2024, based on the scheme passed by the US House of Representatives, how much money will the United States provide in aid to Ukraine?",
+            "answer": "根据美国众议院通过的方案，美国将在2024年4月向乌克兰提供950亿美元的援助。这一信息可以从多个证据中得到确认。因此，基于美国众议院通过的方案，美国将在2024年4月向乌克兰提供950亿美元的援助。",
+            "ground_truths": [
+                "In April 2024, the US House of Representatives passed a significant aid package for various countries, including Ukraine. The aid package approved by the US House of Representatives amounted to over $61 billion specifically designated to assist Ukraine in its defense against the ongoing Russian invasion."
+            ],
+            "keywords": [
+                "60||600||610||61"
+            ],
+            "answer_correctness": 0.5277486317574003,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 16,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/real_time_news.csv",
+                "language": "en"
+            },
+            "question": "Why Google fires 28 employees over protests inside work offices?",
+            "answer": "未找到有关的结果，请检查你的拼写或尝试使用其他关键字。",
+            "ground_truths": [
+                "Google fired 28 workers Wednesday in Sunnyvale and New York, calling their protests inside work offices “completely unacceptable behavior” that prevented some employees from accessing their facilities.\n\nThe tech giant said protests on Tuesday over the company’s contracts with Israel disrupted several locations. The Chronicle reported that at Google’s Sunnyvale offices, police arrested five workers who held a sit-in Tuesday to protest their employer’s cloud contract with the Israeli government."
+            ],
+            "keywords": [
+                "contracts",
+                "Israel||Israeli"
+            ],
+            "answer_correctness": 0.4257238523490551,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 17,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/real_time_news.csv",
+                "language": "en"
+            },
+            "question": "How many soldiers were wounded in the attack launched by Hezbollah on northern Israel recently？",
+            "answer": "本次请求涉及的领域暂不支持",
+            "ground_truths": [
+                "n the recent attack launched by Hezbollah on northern Israel, a total of 14 soldiers were wounded. Among those injured, six of them were reported to be seriously wounded. The attack involved a combination of missiles and drones targeting a military base in northern Israel, specifically the Bedouin border town of Arab al-Aramshe. This assault by Hezbollah was a significant event in the ongoing conflict between the group and Israel."
+            ],
+            "keywords": [
+                "14"
+            ],
+            "answer_correctness": 0.40048627261288844,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 18,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/real_time_news.csv",
+                "language": "en"
+            },
+            "question": "What weapons were used to attack Israel from Iran?",
+            "answer": "伊朗对以色列发动的攻击使用了多种武器。这些信息表明，伊朗在对以色列的攻击中使用了包括无人机、巡航导弹和弹道导弹在内的多种武器系统，显示了其在军事行动中的多样化策略。\n",
+            "ground_truths": [
+                "Iran fired 170 drones, more than 30 cruise missiles and more than 120 ballistic missiles. Of those, several ballistic missiles reached Israeli territory, causing minor damage to an air base."
+            ],
+            "keywords": [
+                "drones||missiles||无人机||巡航导弹||弹道导弹"
+            ],
+            "answer_correctness": 0.5023529253653453,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 19,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/real_time_news.csv",
+                "language": "en"
+            },
+            "question": "Why is GTA 6 publisher laying off 600 employees",
+            "answer": "GTA 6的发行商Take-Two Interactive决定裁员约600名员工，这一决策是其更广泛的成本削减策略的一部分。裁员的原因包括取消几个正在开发的游戏项目，以节省成本。\n具体来说，Take-Two计划通过裁员和取消游戏项目来节省大约1.65亿美元每年的成本。这表明公司正在采取措施优化其运营效率，即使在面临巨额利润的情况下也寻求进一步的成本节约。此外，裁员还涉及到减少办公空间，尽管Rockstar Games要求员工本月返回办公室工作，以防止未来的信息泄露。\n这次裁员反映了游戏行业内部的一些挑战，如项目延期、高开发成本以及市场竞争加剧等因素，这些都可能导致公司需要重新评估其资源分配和成本结构。尽管Take-Two是一家公开交易的美国公司，市值达到248.3亿美元，并且在2023财年实现了5.35亿美元的净收入，增长率为52.6%，但公司似乎仍在寻求通过裁员等措施来提高财务稳健性和市场竞争力。\n",
+            "ground_truths": [
+                "The decision to lay off approximately 600 employees at Take-Two Interactive, the parent company of Rockstar Games, is part of a broader cost-cutting strategy. The company is rationalizing its pipeline, eliminating several projects in development, and streamlining its organizational structure. This downsizing process is expected to be largely complete by the end of the year 2024. Additionally, Take-Two had already signaled its intention for a significant cost reduction plan following mixed financial results for the quarter ending in December 2023. Despite these challenges, Take-Two has continued to invest in its portfolio, including the acquisition of Gearbox and the development of the highly anticipated 'GTA 6'."
+            ],
+            "keywords": [
+                "cost-cutting||节省成本||cost reduction"
+            ],
+            "answer_correctness": 0.6515197616652241,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 20,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/real_time_news.csv",
+                "language": "en"
+            },
+            "question": "The world’s best airports for 2024, according to Skytrax",
+            "answer": "根据Skytrax的评选，2024年世界最佳机场是卡塔尔的多哈哈马德国际机场（Hamad International Airport）。这一结果在多个来源中得到了确认。例如，2024年4月18日的报道指出，哈马德国际机场超越了连续12次获得该奖项的新加坡樟宜机场，成为世界第一。此外，哈马德国际机场还在2024年的Skytrax世界机场奖中获得了“世界最佳机场购物”和“中东最佳机场”两项荣誉。\n哈马德国际机场的这一成就是在德国法兰克福举行的2024年客运终端博览会上宣布的。Skytrax的世界机场奖被认为是机场行业的质量认可，并且是一个全球机场卓越的基准。\n因此，可以明确地说，根据Skytrax的评选，2024年世界最佳机场是卡塔尔的哈马德国际机场。\n",
+            "ground_truths": [
+                "According to the Skytrax rankings for 2024, Doha's Hamad International Airport has been named the best airport in the world."
+            ],
+            "keywords": [
+                "Doha||Hamad||哈马德"
+            ],
+            "answer_correctness": 0.5209547809702296,
+            "passed": true
+        }
+    ]
+}

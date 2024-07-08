@@ -1,0 +1,184 @@
+metadata,question,answer,ground_truths,keywords,answer_correctness,passed
+"{'id': 1, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/CRED/blob/main/datasets/products_search.csv', 'language': 'zh_cn'}",UN100D搭载什么处理器？,"UN100D搭载的是Intel N100处理器。12345
+Intel N100是一款全能效核配置的处理器,采用Intel 7工艺制造,拥有4核4线程,最高睿频3.4 GHz,TDP为6W。123",['UN100D搭载的是英特尔 N100 处理器\n. 该处理器拥有4核4线程，采用Intel 7工艺制造，TDP为6W，最高睿频为3.4 GHz\n. 由于采用低功耗处理器，适合基本办公任务，但不适合高端游戏。'],['N100'],0.9118965346508697,True
+"{'id': 2, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/CRED/blob/main/datasets/products_search.csv', 'language': 'zh_cn'}",海狮07 EV两驱版最高车速是多少？,根据搜索结果1245，比亚迪海狮07 EV两驱版的最高车速为225km/h。,['海狮07 EV两驱版的最高车速为225km/h'],['225'],0.836899358008288,True
+"{'id': 3, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/CRED/blob/main/datasets/products_search.csv', 'language': 'zh_cn'}",大疆发布 Avata 2 无人机的电池容量是多少mAh？,根据搜索结果2，大疆 DJI Avata 2 穿越无人机的电池容量为 3400 毫安时2。,['大疆发布的Avata 2无人机的电池容量为3400毫安时（mAh）'],['3400'],0.9724127257830325,True
+"{'id': 4, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/CRED/blob/main/datasets/products_search.csv', 'language': 'zh_cn'}",Galaxy S24屏幕分辩率是多少？,"根据搜索结果:
+Galaxy S24+ 的屏幕分辨率为 3120 x 1440 像素13。这是三星新旗舰机型中分辨率最高的,每英寸达到516个像素3。
+Galaxy S24 Ultra 的屏幕分辨率也为 3120 x 1440 像素45。
+而基本款 Galaxy S24 的屏幕分辨率为 2340 x 1080 像素3。
+所以可以总结,Galaxy S24系列中,S24+和S24 Ultra的屏幕分辨率最高,达到3120 x 1440像素,而基本款S24的分辨率相对较低。1345",['Galaxy S24基本款的屏幕分辨率为2340 x 1080像素'],"['2340', '1080']",0.6742042131646702,True
+"{'id': 5, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/CRED/blob/main/datasets/products_search.csv', 'language': 'zh_cn'}",ThinkPad L13 Gen3有多少个Type-C接口？,"根据搜索结果,ThinkPad L13 Gen 3 有2个USB Type-C接口:
+
+
+它有1个USB Type-C 3.2 Gen 2接口,支持Power Delivery和DisplayPort功能。3
+
+
+它还有1个Thunderbolt 4接口。4
+
+
+因此,ThinkPad L13 Gen 3 共有2个USB Type-C接口。34",['ThinkPad L13 Gen3有两个Type-C接口。其中，一个是USB 3.2 Gen 2 Type-C端口，另一个是USB 3.2 Gen 1 Type-C端口。'],['Gen2||Gen 2'],0.7093564777207004,True
+"{'id': 6, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/CRED/blob/main/datasets/products_search.csv', 'language': 'zh_cn'}",「IKU×MIRU」ご利用方法？,"「IKU×MIRU」のご利用方法は以下の通りです。123
+
+
+IKU×MIRUの登録ページでクーポンを使ってお申し込みする。マイページの登録が必要です。同行者様もお申し込みいただけます。
+
+
+マイページにログインして、対象のオンライン体験ツアーコースをご予約する。
+
+
+ご予約完了後、参加方法の詳細がメールで送られてきます。
+
+
+14日間の無料体験期間中は費用がかかりませんが、無料体験終了後は選択したプランの料金が発生します。
+
+
+月間プラン(3,000円/月)、3ヶ月プラン(8,000円)、年間プラン(30,000円)の3つのプランから選択できます。
+
+
+対象コースは予告なく変更されるため、最新の情報はHISのウェブサイトで確認する必要があります。12
+
+",['契約後、My HISモバイルにログインし、「特典一覧・お申込みはこちらをご確認ください。」のリンクをクリックして、「特典一覧」を確認します。\n「特典一覧」内には、IKU×MIRUのクーポンコードが掲載されています。このコードをコピーしておきます。\nIKU×MIRUを利用するためには、特典一覧に掲載されている登録ページでクーポンを使って月間プランを申し込みます。\n月間プランを申し込んだ後、IKU×MIRU登録のメールアドレスで見放題対象コースを予約します。\n予約が完了すると、参加方法についてのメールが送られてきます。\n注意点として、クーポンコードは特典一覧に掲載されているIKU×MIRUの登録ページでのみ使用可能です。一般のHIS WEBサイトでは使用できません。また、IKU×MIRUの見放題サービスは自動継続されるため、無料期間終了後に料金が発生します。解約を希望する場合は、お申し込み日から30日目の22:59までに解約することで料金が発生しないことにご注意ください。'],"['特典一覧', 'クーポン']",0.7119279227681482,False
+"{'id': 7, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/CRED/blob/main/datasets/products_search.csv', 'language': 'zh_cn'}",His Mobileの440パッケージの5GBのデータはいくらですか？,"HISモバイルの440パッケージの5GBプランの月額料金は792円です。12
+この情報は以下の検索結果から得られました:
+1 nuroモバイルの料金プランについて解説！他の格安SIMと比較して ...
+""VMプラン5GB Giga＋825円990円990円""
+2 月1GB使える最安のおすすめ格安SIMは？｜料金や速度から比較した ...
+""HISモバイルは低容量プランの価格帯が非常に安く、「あまり多くのデータ容量は必要ない」という方におすすめの格安SIMです。 1GBの場合は550円ですが、100MB未満の場合は...""
+つまり、HISモバイルの5GBプランの月額料金は792円となっています。",['HISモバイルのデータ定額440プランの5GBのデータは、月額料金で880円（税込）です。このプランでは、毎月5GBのデータ通信を利用することができます。料金は定額で一定なので、安心してご利用いただけます。'],['880'],0.5654993369056993,False
+"{'id': 8, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/CRED/blob/main/datasets/products_search.csv', 'language': 'zh_cn'}",HISモバイルのデータ定額440プラン（月額880円）に含まれる月間データ量は？,"HISモバイルのデータ定額440プランには月間3GBのデータ通信量が含まれています。1
+HISモバイルのプランには、音声通話機能付きのSIMカードで月間10GB（2,200円）や50GB（4,400円）のプランがあるほか、データ通信専用のSIMカードで月間50GBのプランがあります。その中で、データ定額440プランは月額880円で3GBのデータ通信量が含まれるプランです。1",['HISモバイルのデータ定額440プランで月額880円の場合、含まれる月間データ量は7GBです。'],['7||5'],0.5737497227034397,False
+"{'id': 9, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/CRED/blob/main/datasets/products_search.csv', 'language': 'zh_cn'}",华为ADS 2.0 先进在哪里？,"根据搜索结果,华为ADS 2.0先进的几个方面如下:
+
+
+硬件过硬，拥有强大的感知能力123。ADS 2.0配备1个顶置激光雷达、3个毫米波雷达、11颗高清摄像头和12个超声波雷达,能全天候感知各种复杂路况。3
+
+
+算法先进,可以识别各种异形障碍物3。ADS 2.0采用了业界首创的GOD网络(General Objective Detection通用障碍物检测),可以识别白名单外的各种障碍物,比现有技术更出色。3
+
+
+不依赖高精地图也能实现高阶智能驾驶13。ADS 2.0结合道路拓扑推理网络和华为先进算法,能在无高精地图的情况下实现高速和城区的高阶智能驾驶功能,为更多城市用户带来接近L3的驾驶体验。13
+
+
+总的来说,华为ADS 2.0在硬件感知、算法识别和地图无依赖等方面都有突出的创新和优势,为智能驾驶技术的发展做出了重要贡献。1234",['ADS 2.0系统的先进之处主要体现在以下几个方面：\n创新性的激光融合GOD网络：ADS 2.0搭载了业界首创的激光融合GOD网络，能够精准识别异形障碍物，如侧翻车辆、掉落的大纸箱、落石、倒地大树等，提高了驾驶的安全性。\n多传感融合：通过激光雷达、毫米波雷达、摄像头等多传感融合的感知，即使在没有高精地图的情况下，也能对道路元素进行识别和理解，提高了驾驶的准确性和可靠性。\n覆盖广泛的城区高阶智能驾驶场景：ADS 2.0系统可以覆盖90%城区场景，让日常通勤更加舒心。在复杂的交通路口、人车混行的场景中，系统能够顺利通行，主动超车换道、脱困换道，大大提升了出行效率。'],"['GOD', '不依赖高精地图||没有高精地图']",0.7341991455567266,True
+"{'id': 10, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/CRED/blob/main/datasets/products_search.csv', 'language': 'zh_cn'}",马自达J90A是新能源车吗？,"是的，马自达J90A是一款新能源车型。根据搜索结果:
+
+马自达J90A是基于长安EPA混动平台打造的新能源轿车，能兼容纯电和增程两种动力模式。3
+这款J90A是马自达启用纯电平台迈入电动化时代的首款新车。12
+马自达还计划在未来五年内陆续推出3-4款电动化产品，包括J90A和J90A-REEV等。3
+
+因此可以确认,马自达J90A是一款全新的新能源车型,标志着马自达正式进入电动化时代。123",['是的，马自达J90A是一款新能源车'],['是'],0.6976223297777348,True
+"{'id': 11, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/CRED/blob/main/datasets/products_search.csv', 'language': 'en'}",Key features and specifications about rabbit r1,"Based on the search results, here are the key features and specifications of the Rabbit R1:
+The Rabbit R1 is a compact and lightweight AI-powered device developed by the Santa Monica-based startup Rabbit Inc. It is designed to revolutionize how we interact with digital technology by providing an app-free online experience. Key features and specifications include:
+
+Price: $199, with the first 100,000 buyers receiving one year of Perplexity Pro for free
+Dimensions: 78mm x 78mm x 13mm, weight of 115g
+Display: 2.88-inch TFT touchscreen
+Processor: MediaTek MT6765 Octa-core (Helio P35) with max CPU frequency of 2.3GHz
+Memory: 4GB RAM, 128GB storage
+Connectivity: Bluetooth 5.0, Wi-Fi 2.4GHz + 5GHz, 4G LTE
+Sensors: Magnetometer, GPS, accelerometer, gyroscope
+Camera: 8MP, 1080p video at 24fps
+Battery: 1000mAh, over 500 cycles at 80% capacity
+Operating system: Rabbit OS, built on a Large Action Model (LAM) for understanding user intentions and performing actions
+
+The key innovation of the Rabbit R1 is its Rabbit OS, which is designed to operate user interfaces and perform actions on behalf of the user without the need for multiple apps. It aims to provide a more seamless and efficient digital experience compared to traditional smart assistants.1234","['The Rabbit R1 is a handheld AI-powered device²⁵. Here are some key features and specifications:\n Dimensions : 78mm*78mm*13mm / 3in*3in*0.5in¹\n Weight : 115g\n Battery Life and Charging Capabilities : 500 cycles > 80%, charging current 500mA, rate capacity 1000mAh\n Connectivity : Bluetooth 5.0 / Wi-Fi with 2.4GHz + 5GHz / 4G LTE\n Processor : MediaTek MT6765 Octa-core (Helio P35) max CPU frequency 2.3GHz\n Memory : 4GB\n Storage : 128GB\n Display : 2.88in TFT touchscreen\n Camera : 8MP, 3264x2448\n Video Resolution : 24fps, 1080p\n Operating Temperatures : 0°C - 45°C or 32ºF - 113ºF']","['115', '2.88']",0.8256707797375213,True
+"{'id': 12, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/CRED/blob/main/datasets/products_search.csv', 'language': 'zh_cn'}",家庭伴侣机器人Ballie 有什么功能？,"根据搜索结果,三星的家庭伴侣机器人Ballie具有以下主要功能:
+
+
+投影功能 - Ballie 可以在墙壁或其他表面上投影视频、图像和信息。它可以用作视频通话屏幕、健身助手投影锻炼视频、在烹饪时投影食谱等。13
+
+
+智能家居控制 - Ballie 可以控制家中的空调、灯光、洗衣机等设备,为日常生活增添便利和自动化。3
+
+
+移动跟随 - Ballie 能够在家中自由移动,跟随用户左右,确保随时为用户提供帮助。13
+
+
+宠物照顾 - 在用户不在家时,Ballie 可以喂养宠物并检查它们的情况。1
+
+
+娱乐功能 - Ballie 可以在天花板上投影宇宙场景等创意内容,提供沉浸式的娱乐体验。3
+
+
+总的来说,Ballie 是一款多功能的家庭伴侣机器人,通过投影、智能家居控制和移动跟随等功能,旨在无缝融入用户的日常生活,成为一个有价值的家庭助手。13",['三星的家庭伴侣机器人Ballie具有以下功能：\n 个人家庭助手 ：Ballie能够自主在家中移动，完成各种任务。\n 智能设备控制 ：Ballie能连接和控制家里的其他智能设备 。\n 个性化服务 ：Ballie会自主学习用户的行为和习惯，提供个性化的服务 。\n 远程监控 ：当用户不在家时，Ballie可以通过视频更新用户的宠物或亲人的情况 。\n 投影艺术家 ：Ballie能够在地板、墙壁或天花板上投影物体，包括为宠物播放视频、显示视频通话，甚至提供锻炼视频。\n 智能家居助手 ：Ballie可以控制灯光、分发宠物食物，到发送短信，还能控制空调、洗衣机等设备。'],['家庭助手||设备控制|| 远程监控||家居助手'],0.7888379804554304,True
+"{'id': 13, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/CRED/blob/main/datasets/products_search.csv', 'language': 'en'}",maximum speed of Moonwalker in 2024,"According to the search results, the Moonwalkers X, the latest model of the Moonwalker robotic shoes released in 2024, can reach speeds up to 7 miles per hour (11 km/h). Specifically, the search results state:
+""The robotic shoes can reach speeds up to 7 miles per hour –– about 2.5 times walking speed –– with no additional effort and with speed controlled entirely by the user's pace.""5
+So the maximum speed of the Moonwalker robotic shoes in 2024 is 7 miles per hour (11 km/h).","['In 2024, the Moonwalkers, which are robotic shoes developed by Shift Robotics, have a top speed of up to 7 miles per hour (11.2 kilometers per hour).']",['7||11.2'],0.8424966369145432,True
+"{'id': 14, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/CRED/blob/main/datasets/products_search.csv', 'language': 'zh_cn'}",LG SIGNATURE OLED T 4K 是一款什么样的电视？,"LG SIGNATURE OLED T 4K 是一款非常创新的透明OLED电视产品:1245
+
+
+它是全球首款无线透明OLED电视,屏幕尺寸为77英寸,具有4K分辨率。1245
+
+
+这款电视有两种屏幕模式 - 透明模式和黑色模式。在透明模式下,电视画面可以与窗外景色或墙上艺术品融为一体,营造出一种身临其境的观感。而在黑色模式下,则可以提供更高的画质表现。4
+
+
+OLED T采用了LG的无线传输技术,除了电源线之外,不需要任何其他线缆连接。声音和图像都可以通过LG的Zero Connect Box无线传输到屏幕上。14
+
+
+这款电视可以采用独立式、靠墙式或壁挂式三种安装方式,并且可以进一步定制加装立式或浮动架子。14
+
+
+OLED T搭载了LG全新的Alpha 11 AI处理器,性能是上一代的4倍,图形性能提高了70%,处理速度提高了30%。1
+
+
+总的来说,LG SIGNATURE OLED T 4K 是一款非常创新和前卫的透明OLED电视产品,在设计、性能和使用体验上都有很大突破。1245",['LG SIGNATURE OLED T 4K 是一款世界上首款无线透明 OLED 电视。'],['透明'],0.6542653770757341,True
+"{'id': 15, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/CRED/blob/main/datasets/products_search.csv', 'language': 'zh_cn'}",SQPV玻璃,"SQPV玻璃是一种创新的透明太阳能发电玻璃技术，具有以下特点:
+
+
+由两片导电玻璃夹层纳米材料制成，可以吸收紫外光和红外线并转换为电能1234。
+
+
+即使在光线较暗的室内环境或阴天时也能从不可见光中获取能量发电1234。
+
+
+玻璃的正反两面均可收集光能并产生电力，性能优于其他现有解决方案34。
+
+
+所用材料不含稀土金属，容易大量生产和回收24。
+
+
+除了发电功能，SQPV玻璃还具有隔热性能，可以帮助节约建筑物的能源消耗12。
+
+
+这项技术已获得多个领域的CES创新奖,包括智能家居、可持续发展、生态设计和智能能源34。
+
+
+总之,SQPV玻璃是一种创新的透明太阳能发电技术,在发电效率、环保性和节能性等方面都有出色表现,未来在建筑和能源领域有广阔应用前景。",['SQPV玻璃是由InQs公司开发的一种创新的透明太阳能玻璃。这种技术不仅可以利用阳光发电，还可以从不可见光中获取能量，即使在昏暗的室内环境或阴天也能高效运作。'],['InQs||发电'],0.7013830444842726,True
+"{'id': 16, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/CRED/blob/main/datasets/products_search.csv', 'language': 'zh_cn'}",BMind镜子能缓解我的失眠吗？,"根据搜索结果,BMind镜子可能有助于缓解失眠:
+BMind镜子是一种利用光学原理的智能镜子,声称可以通过调节光线和颜色来改善睡眠质量。一些研究表明,特定的光波长和光强度可以影响人体的生理节奏,从而帮助调节睡眠-醒觉周期。
+此外,BMind镜子还集成了音乐和白噪音功能,可以营造放松的睡眠环境,帮助用户更快入睡并获得更好的睡眠质量。
+总的来说,BMind镜子可能是一种有助于缓解失眠的辅助工具。但是,对于严重的睡眠障碍,建议您还是应该咨询专业的医疗人员,以获得更全面的诊断和治疗方案。",['BMind镜子是一款以人工智能为基础的智能镜子，它可以识别用户的情绪并帮助管理压力。它可以提供光疗课程，冥想引导，和自我肯定的服务，目的是帮助你调整情绪，有效管理压力。这些功能可能有助于缓解焦虑，减少失眠，帮助人们保持积极的心态。'],[],0.5657716647835566,False
+"{'id': 17, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/CRED/blob/main/datasets/products_search.csv', 'language': 'ja'}",電気自動車“AFEELA”の自動運転機能はLevel何ですか？,"検索結果から、AFEELA (アフィーラ) の自動運転機能は以下のように要約できます:
+
+AFEELA は特定条件下での自動運転機能レベル3を目指している23。
+また、より広い運転条件下での運転支援機能レベル2/2+を開発中とされている4。
+
+つまり、AFEELA は特定の条件下では自動運転レベル3を実現することを目標としているが、一般的な走行では運転支援レベル2/2+の機能を提供する計画であると言えます234。",['検索結果から、AFEELA の自動運転機能は以下のように理解できます:\nAFEELA は、Qualcomm Technologies と提携し、世界最先端の半導体を搭載することで、特定条件下での自動運転機能レベル3や、より広い運転条件下での運転支援機能レベル2/2+を実現しています。\nつまり、AFEELA は自動運転機能レベル3と、より広範囲な運転支援機能レベル2/2+を備えていることが分かります'],['はLevel 3です'],0.8455567458568944,False
+"{'id': 18, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/CRED/blob/main/datasets/products_search.csv', 'language': 'zh_cn'}",本田 Motocompacto可以开多少公里？,"根据搜索结果,本田 Motocompacto 的续航里程为12英里(约19公里)125。具体来说:
+
+Motocompacto 配备 25W 的电动机,由 6.8Ah 电池供电,仅需 3.5 小时即可充满电125。
+最高时速可达 15 英里/小时(约 24 公里/小时),续航里程为 12 英里(约 19 公里)125。
+
+因此,本田 Motocompacto 的续航里程约为 19 公里。125",['本田Motocompacto是一款电动车，根据资料显示，它的续航里程约为12至20公里'],['12||20'],0.6594747554745526,True
+"{'id': 19, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/CRED/blob/main/datasets/products_search.csv', 'language': 'zh_cn'}",推荐一款裸眼3D屏幕的笔电本电脑,"根据搜索结果,可以推荐以下几款裸眼3D笔记本电脑:
+
+
+华硕ProArt Studiobook 16 3D OLED (H7604)和Vivobook Pro 16 3D OLED (K6604)。这两款笔记本电脑将于2023年第二季度推出,搭载华硕的空间视觉3D技术,实现裸眼3D显示。4
+
+
+京东方正在开发32英寸的光场裸眼3D显示器,并将在CES 2024上展示。3 这款显示器可能也会应用于笔记本电脑。
+
+
+宏碁的SpatialLabs裸眼3D解决方案,可以在不需要佩戴任何设备的情况下提供3D视觉体验。这项技术可能会应用于宏碁的笔记本电脑。2
+
+
+综上所述,如果您正在寻找一款裸眼3D笔记本电脑,可以关注华硕、京东方和宏碁即将推出的相关产品。这些产品都采用了先进的裸眼3D显示技术,可以为您带来沉浸式的3D视觉体验。1234",['宏碁 Predator Helios 3D 15 SE SpatialLabs特别版：\n特点：此款笔记本搭载裸眼3D屏幕，支持眼部跟踪和3D+ SpatialLabs TrueGame技术，适合专业3D内容创作用户。\n配置：搭载英特尔酷睿i9处理器、高速DDR5内存、RTX 4080显卡等，并配备了三星自家的瞳孔追踪技术。\n其他特点：拥有全尺寸RGB背光键盘、先进的散热系统和多种接口等，适用于不同需求场景。\n上市时间和价格：该款笔记本于6月上市，售价约3499欧元，为专业用户提供了一体化的3D体验。\n\n华硕 VivoBook Pro 16X 3D OLED 笔记本：\n特点：VivoBook Pro 16X配备了3D OLED显示器，支持裸眼3D显示，适合内容创作人士。\n配置：搭载英特尔第13代酷睿HX处理器、最新DDR5内存和2TB PCIe 4.0 SSD，搭载RTX 40系列显卡。\n屏幕：15.6英寸OLED屏幕，支持120Hz刷新率和裸眼3D显示。\n价格和上市时间：具体售价和上市时间待公布，是一个备受期待的具有优秀性能的裸眼3D笔记本'],['Predator Helios 3D 15 SE SpatialLabs||VivoBook Pro 16X 3D OLED'],0.5614141287177578,False
+"{'id': 20, 'scene': 'products_search', 'source': 'https://github.com/sparticleinc/CRED/blob/main/datasets/products_search.csv', 'language': 'zh_cn'}",小米SU7支持华为ADS 2.0吗？,"根据搜索结果,小米SU7并不支持华为ADS 2.0智能驾驶系统。相反,搜索结果显示:
+
+2024款阿维塔12全系标配华为ADS 2.0高阶智能辅助系统2。
+问界M7的智驾版车型支持华为ADS 2.0系统,可实现城市NOA和高速NOA功能3。
+华为智界S7也是搭载了华为ADS 2.0高阶驾驶辅助系统4。
+
+而小米SU7并未提及支持华为ADS 2.0系统。因此可以得出结论,小米SU7不支持华为ADS 2.0智能驾驶系统。1234",['小米SU7车型不支持华为ADS 2.0智能驾驶系统。'],['不支持'],0.721807283308032,True

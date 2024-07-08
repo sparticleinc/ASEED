@@ -1,0 +1,383 @@
+{
+    "evaluate_ai": {
+        "name": "Glarity Search",
+        "url": "https://search.glarity.ai"
+    },
+    "evaluate_llm": "gpt-4-1106-preview",
+    "evaluate_type": "ragas",
+    "evaluate_data": {
+        "total": 20,
+        "passed": 10,
+        "failed": 10,
+        "pass_rate": "50.00%",
+        "answer_correctness": 0.6324069653265152
+    },
+    "created_at": "2024-04-24 10:48:17",
+    "datas": [
+        {
+            "metadata": {
+                "id": 1,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/business_consulting.csv",
+                "language": "ru"
+            },
+            "question": "ycloud - что это?",
+            "answer": "**YCloud** - это ведущий поставщик услуг по работе с бизнесом в WhatsApp, который помогает компаниям расширить свои возможности, используя WhatsApp в качестве платформы для маркетинга, продаж и обслуживания клиентов. YCloud предлагает разнообразные продукты и услуги, позволяющие использовать высокий уровень вовлеченности пользователей в WhatsApp для создания персонализированных маркетинговых кампаний, продаж и поддержки клиентов. Основанная в Сингапуре, компания YCloud охватывает более 100 стран и территорий, предоставляя многоязычные услуги и поддержку как для малых, так и для крупных предприятий.\n\n**YCloud** предлагает ряд продуктов и инструментов для эффективного использования WhatsApp в бизнесе. Среди них:\n- **API WhatsApp**: позволяет разработчикам легко интегрировать WhatsApp Business в системы, используя популярные языки программирования.\n- **Кампании**: позволяют привлекать клиентов через интерактивные мессенджеры и загружать контакты для создания персонализированных маркетинговых сообщений.\n- **Боты**: помогают взаимодействовать с клиентами через чатботов на WhatsApp.\n- **Инбокс**: предоставляет инструмент для общения с целевой аудиторией и предоставления качественного сервиса.\n- **Инструменты роста**: помогают быстро наращивать список контактов через WhatsApp.\n\nТаким образом, **YCloud** представляет собой инновационную платформу, помогающую бизнесам использовать популярное приложение для мессенджеров WhatsApp в различных аспектах своей деятельности, от маркетинга и продаж до обслуживания клиентов, что способствует росту и эффективности бизнеса.",
+            "ground_truths": [
+                "YCloud - это набор открытых компонентов пользовательского интерфейса, разработанный компанией Yonyou FED на основе knockoutjs, который в основном предназначен для предприятий и веб-приложений на ПК. YCloud также является ведущим поставщиком услуг WhatsApp Business, который стремится помогать предприятиям развивать свой бизнес через WhatsApp - одно из самых популярных в мире приложений для общения."
+            ],
+            "keywords": [
+                "WhatsApp||knockoutjs"
+            ],
+            "answer_correctness": 0.5122204221947567,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 2,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/business_consulting.csv",
+                "language": "ru"
+            },
+            "question": "\"Telegram\" - это российская компания?",
+            "answer": "\"Telegram\" - это интересный случай, который вызывает некоторые затруднения в определении своего принадлежания к определенной стране. Несмотря на то, что основатель мессенджера Telegram, Павел Дуров, ранее заявлял, что у компании нет офисов, серверов и юридических лиц в России, и было отмечено, что Telegram не является российским проектом, есть некоторые связи с Россией.\n\nНапример, в поисковых результатах говорится, что в 2013 году юридические лица Telegram FZ LLC и Telegram Messenger Inc. были зарегистрированы в Лондоне, Великобритания, но также было зарегистрировано третье юридическое лицо Telegram Messenger LLP в Великобритании. Кроме того, российская компания \"ВТБ-капитал\" вложила средства в облигации Telegram, упоминание о создании мессенджера Telegram в 2013 году братьями Николаем и Павлом Дуровыми .\n\nТаким образом, хотя Telegram был создан российскими братьями и существуют связи с Россией, основная штаб-квартира и регистрация компании Telegram находятся в других странах, таких как Великобритания и Дубай. Это создает некоторые сложности в определении принадлежности Telegram к определенной стране.",
+            "ground_truths": [
+                "Telegram был основан братьями Николаем и Павлом Дуровыми в 2013 году. Они являются основателями крупнейшей российской социальной сети VKontakte. Однако компания Telegram не расположена на территории России. В настоящее время команда разработчиков Telegram находится в Дубае, Объединенные Арабские Эмираты. Издателем мобильного приложения Telegram является Telegram FZ-LLC, зарегистрированная организация в Объединенных Арабских Эмиратах. Таким образом, хотя основатели являются россиянами, Telegram не является российской компанией."
+            ],
+            "keywords": [
+                "Дубае||не является||Нет||No||不是"
+            ],
+            "answer_correctness": 0.7201671352945472,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 3,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/business_consulting.csv",
+                "language": "zh_tw"
+            },
+            "question": "紫金的銷售收入",
+            "answer": "根据最新的信息，紫金矿业在不同时间段的销售收入有所变化。在2023年，紫金矿业的销售收入为2934.03亿元，同比增长8.54%。而在过去的一季度，塞尔维亚紫金铜业实现的销售收入达到2.22亿美元，同比增长87.39%。这些数字显示了紫金矿业在不同领域和不同时间段内的销售表现。\n\n紫金矿业的销售收入主要来自其业务的多个方面，例如黄金、铜等矿产。具体地，在2023年，黄金业务销售收入占了营业收入的42.09%，而铜业务的销售收入占了营业总收入的19.30%。这表明了紫金矿业在黄金和铜业务上的销售额较为显著。\n\n此外，紫金矿业在努力推进绿色矿山建设的同时，也积极参与清洁能源项目的开发，如光伏、风电和水电等项目。通过利用矿山周边资源，公司在2021年推动了清洁电力发电项目，达到的二氧化碳减排量达11.63万吨。这展示了紫金矿业在可持续发展方面的努力。",
+            "ground_truths": [
+                "紫金礦業2023年的營業收入約為2934.03億元，同比增長8.54%。"
+            ],
+            "keywords": [
+                "2934"
+            ],
+            "answer_correctness": 0.5775395255549186,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 4,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/business_consulting.csv",
+                "language": "ru"
+            },
+            "question": "Что за компания Vyro AI?",
+            "answer": "**Vyro AI** - это компания, которая занимается разработкой инновационных инструментов для создания контента на основе искусственного интеллекта и машинного обучения. Они представляют собой платформу, которая помогает пользователям выражать свою креативность через создание контента с помощью AI. Компания Vyro AI ориентирована на развитие инструментов для фото-редактирования и создания контента, с целью улучшить процесс создания и сделать его более доступным и простым. \r\n\r\n**Особенности:**\r\n- **Создание контента:** Vyro AI использует технологии искусственного интеллекта для улучшения процесса создания и оптимизации маркетинговых кампаний.\r\n- **Инструменты AI для редактирования контента:** Платформа предлагает инструменты AI для создания и улучшения маркетингового контента.\r\n- **Данные и аналитика:** Vyro AI предлагает данные-driven insights для повышения эффективности маркетинговых стратегий.\r\n\r\nКомпания Vyro AI активно развивает инструменты для создания контента и фото-редактирования, сосредотачиваясь на технологиях искусственного интеллекта. Имея значительную пользовательскую базу, преимущественно в регионах Азии, таких как Пакистан, Индия, Бангладеш и Китай, Vyro AI планирует расширить свое присутствие на другие рынки и сосредоточиться на предоставлении высококачественных функций для редактирования фотографий. \r\n\r\nТакже стоит отметить, что компания Vyro AI активно усовершенствует свои продукты и стремится развивать передовые технологии обработки изображений и мобильные приложения для фото-редактирования.",
+            "ground_truths": [
+                "Vyro AI - это компания, специализирующаяся на разработке инструментов для творчества на основе искусственного интеллекта и машинного обучения. Согласно информации на их официальном сайте:\n\nVyro разработала более 15 продуктов с общим количеством загрузок более 150 миллионов раз и ежедневной активностью более 800 тысяч пользователей.\nОсновные продукты компании включают AI генератор изображений Imagine, редактор фотографий на основе искусственного интеллекта PhotoShot и т. д.\nКоманда Vyro специализируется на применении передовых технологий генерации AI и стремится предоставлять пользователям инновационные инструменты для творчества.\nКомпания была основана в Пакистане и является многообразной и инновационной технологической компанией на местном рынке.\n\nТаким образом, Vyro AI - это технологическая компания, специализирующаяся на разработке творческих инструментов на основе генеративного искусственного интеллекта, с сильной технической базой и линейкой продуктов в области контентного творчества."
+            ],
+            "keywords": [
+                "Искусственный интеллект",
+                "изображений"
+            ],
+            "answer_correctness": 0.6765908220681345,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 5,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/business_consulting.csv",
+                "language": "ko"
+            },
+            "question": "В какие еще компании инвестировали основатели Perplexity?",
+            "answer": "Основатели Perplexity AI инвестировали в несколько других компаний. Согласно предоставленным данным, ключевые основатели Perplexity включают в себя CEO Аравинда Сриниваса, бывшего аспиранта в Университете Беркли, который внес свой вклад в революционные исследования в области искусственного интеллекта в таких организациях, как DeepMind, Google и OpenAI; CTO Дениса Яратса, бывшего аспиранта в Нью-Йоркском университете, сотрудника исследовательского отдела Meta AI и руководителя команды Quora по рейтингу и машинному обучению; Главного стратега Джонни Хо, ранее работавшего на Quora и в Tower Research Capital, а также бывшего Чемпиона Мира по  Информатике 2012 года и призером по ACM-ICPC (олимпиадам и студенческим соревнованиям по компьютерным наукам); и Президента Энди Конвина.\r\n\r\nОднако, в предоставленных данных нет информации о том, что основатели Perplexity инвестировали в другие компании. Из имеющихся сведений следует, что основатели Perplexity сами были объектами инвестиций, а не инвесторами в другие компании.",
+            "ground_truths": [
+                "Аравинд Сринивас инвестировал в компании Eleven Labs и Pika. Он полюбил эти компании за то, что они делают, и его личная мотивация для инвестиций не связана с финансовой отдачей, а скорее с его увлечением тем, что они делают."
+            ],
+            "keywords": [
+                "Eleven Labs||Pika"
+            ],
+            "answer_correctness": 0.5171771163134097,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 6,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/business_consulting.csv",
+                "language": "zh_cn"
+            },
+            "question": "虎门大桥过路费多少钱？",
+            "answer": "虎门大桥的过路费根据不同车型而有所不同。根据相关报道，普通车辆在虎门大桥通行时需要支付的过路费在区间为10元至180元。此收费分段制度适用于从摩托车到21吨以上货车等各种车型，覆盖了不同类型的车辆。另外，关于南沙大桥（虎门二桥）的收费标准，标准车型客车走完虎门二桥全程需要支付42元。\n\n总体来说，虎门大桥的过路费随着车型的不同而区间变化，普通车型的费用大致在10元至180元之间，相较于虎门二桥的42元。",
+            "ground_truths": [
+                "虎门大桥的过路费为每车次收费40元"
+            ],
+            "keywords": [
+                "40"
+            ],
+            "answer_correctness": 0.6126006316708623,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 7,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/business_consulting.csv",
+                "language": "en"
+            },
+            "question": "How did Musk earn the first bucket of gold in his life?",
+            "answer": "Elon Musk earned his first significant amount of money through the sale of his company PayPal to eBay. After co-founding Zip2 and X.com, which later transformed into PayPal, Musk made hundreds of millions of dollars from the sale to eBay. This successful transaction provided him with the financial resources to pursue his ventures in electric cars and space technology, leading to the establishment of Tesla and SpaceX, which have since made a profound impact on the business world. \n\nMusk's journey highlights the importance of leveraging his entrepreneurial skills and innovative ideas to create successful businesses that have reshaped industries. His ability to recognize emerging markets and combine software engineering with business acumen played a crucial role in his early career success, setting the foundation for his later achievements with Tesla and SpaceX.",
+            "ground_truths": [
+                "Elon Musk earned his first significant fortune from the sale of his web software company, Zip2. Musk and his brother Kimbal founded Zip2 in 1995. The company, which provided an online city guide platform, was quite successful and was purchased by Compaq in 1999 for more than $300 million. From this sale, Musk received around $22 million for his 7% share"
+            ],
+            "keywords": [
+                "Zip2"
+            ],
+            "answer_correctness": 0.5262645459234805,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 8,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/business_consulting.csv",
+                "language": "zh_tw"
+            },
+            "question": "iask.ai 2024年3月的訪問量",
+            "answer": "根據2024年3月的數據，iask.ai 網站在該月總共接收了約5.46百萬次訪問。此外，iask.ai 在3月份的平均訪問時間為20分53秒，每個訪問的頁數為1.45頁，跳出率為73.1%。相較於前一個月，iask.ai 的訪問量增加了約12.57%。這些數據顯示了該網站在訪問量和用戶參與度方面的表現情況。\n\n總結來說，根據2024年3月的數據，iask.ai 在該月獲得了約5.46百萬次訪問，平均訪問時間為20分53秒，每個訪問的頁數為1.45頁，跳出率為73.1%，並且相較於前一個月，訪問量有了約12.57%的增長。",
+            "ground_truths": [
+                "iAsk.Ai的2024年3月訪問量為3.3百萬。"
+            ],
+            "keywords": [
+                "3.3||3.4"
+            ],
+            "answer_correctness": 0.5543725234051776,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 9,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/business_consulting.csv",
+                "language": "ru"
+            },
+            "question": "Monica.im в 2023 году имеет сколько пользователей?",
+            "answer": "Из предоставленных данных не ясно, сколько пользователей имеет Monica.im в 2023 году, поскольку упоминания о Monica в текстах не связаны с конкретным числом пользователей сервиса Monica.im. В частности, в одном из текстов говорится о Monica Albertini, но не уточняется, что это связано с числом пользователей на платформе Monica.im. \n\nТаким образом, для получения точной информации о количестве пользователей Monica.im в 2023 году рекомендуется обратиться к официальным источникам сервиса или провести дополнительный поиск для получения актуальной информации о количестве пользователей Monica.im в указанный период времени.",
+            "ground_truths": [
+                "В 2023 году у Monica.im уже более 1,5 миллионов пользователей."
+            ],
+            "keywords": [
+                "1",
+                "5||150"
+            ],
+            "answer_correctness": 0.5531505368634428,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 10,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/business_consulting.csv",
+                "language": "en"
+            },
+            "question": "If Trump takes office again, how will he adjust the trade policy towards China?",
+            "answer": "If Trump were to take office again, his trade policy towards China is likely to remain aggressive and potentially escalate further. During his previous term, Trump initiated a trade war with China, imposing significant tariffs on Chinese products. If re-elected, Trump is expected to maintain this tough stance on China, potentially increasing tariffs even more, with suggestions of tariffs exceeding 60% on Chinese goods. This approach could strain relations between the two global powers and have far-reaching impacts on international trade dynamics.\r\n\r\nFurthermore, there are indications that Trump would also focus on other aspects of trade policy with China. For example, he might renew pressure on South Korea and continue to take a hardline approach towards Chinese leadership, as he has made it clear that he does not have a favorable view of the Chinese leadership. This could lead to further confrontations and tensions between the U.S. and China on multiple fronts, including economic and geopolitical issues.\r\n\r\nIn summary, if Trump were to be re-elected, it is anticipated that he would persist in his aggressive trade policies towards China, potentially escalating tariff levels and maintaining a tough stance on key economic and strategic aspects of the U.S.-China relationship.",
+            "ground_truths": [
+                "If Trump takes office again, his stance on China is expected to remain tough and potentially escalate. During his previous term, Trump initiated a trade war with China by imposing significant tariffs on Chinese imports. He has indicated that if reelected, he plans to intensify this trade war by imposing tariffs as high as 60% or more on Chinese imports\nThis move is part of his strategy to address what he perceives as unfair trade practices by China and to protect American industries and jobs from what he views as Chinese economic threats\nFurthermore, Trump's combative approach towards China extends beyond trade policies. He has expressed intentions to phase out Chinese imports of essential goods over a four-year period, including electronics, steel, and pharmaceuticals. Additionally, Trump aims to ban Chinese companies from owning critical U.S. infrastructure in sectors such as energy, technology, and agriculture, highlighting national security concerns underpinning his China policy\nOverall, Trump's stance towards China is expected to prioritize protecting American economic interests and maintaining a competitive edge in key industries. If reelected, he is likely to continue employing tariffs and trade restrictions to address what he sees as imbalances in the economic relationship between the U.S. and China."
+            ],
+            "keywords": [
+                "60%"
+            ],
+            "answer_correctness": 0.7457347957081463,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 11,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/business_consulting.csv",
+                "language": "en"
+            },
+            "question": "Microsoft 2021 first quarter Financial report",
+            "answer": "The first quarter financial report for Microsoft in 2021 showed impressive growth and performance. Microsoft reported revenue of $45.3 billion, marking a significant 22% increase compared to the previous fiscal year. Operating income also saw a substantial rise of 27%, reaching $20.2 billion. Net income was reported at $20.5 billion GAAP and $17.2 billion non-GAAP, representing a remarkable increase of 48% and 24% respectively. Diluted earnings per share were $2.71 GAAP and $2.27 non-GAAP, showing increases of 49% and 25% respectively. These results highlight the company's strong financial performance during the first quarter of 2021.\n\nThe growth in revenue, operating income, and net income emphasizes the success of Microsoft's various business segments, including the Microsoft Cloud, Microsoft Security, Dynamics 365, Microsoft 365 for business, and other key offerings. This growth showcases the increasing demand for Microsoft's services and products across both consumer and enterprise markets. The substantial increases in key financial metrics indicate a robust and thriving business ecosystem for Microsoft during this period.\n\nAdditionally, the report underscores Microsoft's commitment to driving innovation and digital transformation across its modern tech stack. The company's strategic focus on enhancing productivity, affordability, and technological advancements plays a significant role in its financial success. Microsoft's continuous efforts to evolve its products and services to meet the changing needs of customers have evidently paid off, as reflected in the strong financial results for the first quarter of 2021.\n\nIn conclusion, the first quarter financial report for Microsoft in 2021 demonstrates impressive growth in revenue, operating income, net income, and earnings per share. The report highlights the company's robust performance across various business segments and its dedication to innovation and digital transformation. Microsoft's strong financial results underscore its position as a leading player in the technology industry and reflect its ability to adapt to evolving market conditions and customer demands effectively.",
+            "ground_truths": [
+                "Microsoft reported strong financial results for the first quarter of its 2021 fiscal year. The company beat analysts' expectations on both earnings and revenue.\nKey highlights:\nAdjusted earnings per share (EPS) was $1.82, compared to the expected $1.55.\nRevenue grew 12% year-over-year to $37.2 billion, exceeding the expected $35.7 billion.\nMicrosoft's Intelligent Cloud segment, which includes the Azure cloud computing platform, saw revenue grow 20% year-over-year, also beating expectations.\nAzure revenue grew 48% year-over-year, driving the strong performance of the Intelligent Cloud segment.\nOther areas like Surface devices, Xbox gaming, and Microsoft 365 consumer subscriptions also saw significant revenue growth during the quarter."
+            ],
+            "keywords": [
+                "37.2||372"
+            ],
+            "answer_correctness": 0.5718202118390658,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 12,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/business_consulting.csv",
+                "language": "en"
+            },
+            "question": "What is Toyota's biggest risk in the future?",
+            "answer": "In assessing Toyota's biggest risk in the future, there are a few key aspects to consider based on the provided information:\n\n1. **Lag in Pure Battery Electric Vehicles (EVs):**\n   Toyota's main risk moving forward lies in its lag behind competitors in the development and production of pure battery electric vehicles (EVs). While the company heavily relies on hybrids and has seen success with this technology, the shift towards EVs as the future of the auto industry poses a significant challenge for Toyota. As the automotive industry evolves and consumer preferences shift towards electric vehicles, Toyota's delay in this segment could potentially impact its market share and competitiveness.\n\n2. **Competitive Landscape and Industry Volatility:**\n   The worldwide automotive industry is highly volatile, with fierce competition among global automakers. Despite Toyota retaining its position as the world's largest automaker, competition from rivals like Volkswagen remains a constant factor. The overall market dynamics, technological advancements, and changing consumer preferences create a challenging environment for Toyota to navigate successfully.\n\n3. **Consumer Preferences and Technological Advancements:**\n   Consumer preferences are evolving towards electric vehicles due to concerns about environmental impact and technological advancements in the automotive sector. As more consumers opt for EVs and innovative technologies, Toyota's focus on hybrids and potential slower adoption of pure battery EVs could pose a risk in meeting changing market demands and staying competitive in the long run.\n\nIn conclusion, Toyota's biggest risk in the future stems from its lag in the pure battery electric vehicle segment, potential challenges in a highly competitive and volatile industry landscape, and the need to align with evolving consumer preferences and technological advancements. To mitigate these risks, Toyota may need to accelerate its efforts in EV development, enhance its competitive strategies, and stay attuned to market trends for sustained success in the dynamic automotive market.",
+            "ground_truths": [
+                "Toyota's biggest risk in the future is the consumer adoption of battery electric vehicles (BEVs)"
+            ],
+            "keywords": [
+                "BEVs||EV||Tesla||Evs"
+            ],
+            "answer_correctness": 0.6662270492225475,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 13,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/business_consulting.csv",
+                "language": "en"
+            },
+            "question": "What did Musk say about the future market of the auto industry worldwide?",
+            "answer": "Elon Musk has made several significant statements regarding the future market of the auto industry worldwide. Musk emphasized the pivotal role of software in shaping the future of cars, highlighting its importance by stating \"Software is the key to the future of the auto industry.\" This underscores the significant influence that technology and software innovations will have on the evolution of the automotive sector. \r\n\r\nFurthermore, Musk has been vocal about the potential for global automakers to expand and disrupt traditional industry players. He expressed a vision for automakers to go global and \"demolish the old legends\" in the industry, illustrating his belief in the transformative possibilities within the automotive market.\r\n\r\nIn the context of market dynamics and competition, Musk also touched upon the aspect of pricing and market positioning. He mentioned a scenario where equal quality cars were available across all worldwide car companies, emphasizing the impact of China's pricing strategy on the global automotive landscape. \r\n\r\nOverall, Musk's perspectives on the future market of the auto industry worldwide revolve around the crucial role of software, the potential for global expansion and disruption, as well as the influence of pricing strategies on market dynamics and competition. These insights shed light on the direction in which the automotive industry is heading under the influence of technological advancements and market forces.",
+            "ground_truths": [
+                "Elon Musk warned that Chinese automakers will \"demolish\" their global competition unless other nations impose trade barriers to handicap the new wave of electric cars coming from China\nMusk described Chinese brands like BYD as \"extremely good\" and the \"most competitive\" in the world\nMusk stated that if there are no trade barriers established, Chinese automakers will \"pretty much demolish most other car companies in the world\"\nHe believes the Chinese auto industry has a high chance of achieving global domination\nThe search results also indicate that China overtook Japan as the world's biggest exporter of cars during 2023 and seems likely to repeat that success in 2024 as it starts to expand its sales activities into Europe\nThis suggests the Chinese auto industry will continue to grow its global market share in the future.\nTo counter this threat, Musk said Tesla is working on a new entry-level model that will use a new platform to slash production costs, allowing it to be sold for less than $30,000\nThis suggests Tesla is trying to make its EVs more affordable to better compete with Chinese automakers."
+            ],
+            "keywords": [
+                "BYD||China||Chinese||中国"
+            ],
+            "answer_correctness": 0.6591114613742826,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 14,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/business_consulting.csv",
+                "language": "en"
+            },
+            "question": "Why is Boeing getting worse and worse?",
+            "answer": "Boeing has been facing a series of challenges that have contributed to its declining situation. Several key factors have been pointed out in the sources that shed light on why Boeing is perceived as deteriorating:\n\n1. **Leadership and Management Issues**: Criticisms have been leveled against Boeing's leadership and management practices. Lack of new leadership and poor management decisions, which may have started as far back as the merger with McDonnell Douglas, have been identified as systemic problems that have led to a bottom-line driven approach rather than a focus on quality and safety.\n\n2. **Safety Concerns and Crises**: Boeing has faced significant safety concerns, such as the crashes involving its 737 MAX aircraft. The fallout from these incidents, including the grounding of the fleet for 20 months and subsequent operational disruptions, have severely impacted Boeing's reputation and financial standing.\n\n3. **Quality Control Issues**: Reports have surfaced regarding whistleblowers' complaints about flawed manufacturing processes at Boeing. Allegations of critical flaws being ignored have raised serious questions about the company's commitment to quality assurance and safety standards.\n\n4. **Public Perception and Incidents**: Public perception plays a role in how Boeing is perceived. Recent incidents such as the sudden mid-flight plunge of a 787 Dreamliner and ongoing issues with the 737-900ER have further tarnished Boeing's image in the eyes of the public and industry observers.\n\nWhile it's crucial to acknowledge that Boeing's situation is complex and influenced by various internal and external factors, the combination of leadership challenges, safety crises, quality control issues, and incidents impacting public perception has contributed to the perception that Boeing is facing a period of decline. Addressing these issues will be crucial for Boeing to regain trust, stability, and its competitive edge in the aerospace industry.",
+            "ground_truths": [
+                "Boeing's deteriorating situation is multifaceted and can be attributed to several factors that have contributed to its ongoing challenges. One significant issue lies in Boeing's financial struggles, which have worsened in recent years. The company's heavy focus on profits, coupled with the financial strain caused by the pandemic and the grounding of the 737 Max aircraft, has led to Boeing being in its worst financial shape in over a century, with several years of deep losses recorded\nAdditionally, the dependence on the Defense division to offset losses in the Commercial sector is becoming increasingly unsustainable due to constraints in the US defense budget, leaving Boeing with limited options for recovery in that area\nFurthermore, Boeing's internal culture and safety practices have also come under scrutiny. Reports suggest a lack of a safety culture within Boeing, with claims that employees who raise concerns are ignored, marginalized, threatened, or sidelined\nSuch issues can compromise the overall quality and safety standards of Boeing's aircraft, further eroding consumer trust and damaging the company's reputation.\nOn a more operational level, concerns have been raised about specific incidents, such as the recent recommendation by the FAA to visually inspect the mid-exit door plugs on Boeing 737-900ER aircraft, highlighting potential safety issues that need to be addressed\nThese incidents, in addition to the ongoing challenges faced by the company, contribute to the perception that Boeing's situation is worsening over time."
+            ],
+            "keywords": [
+                "quality||质量"
+            ],
+            "answer_correctness": 0.7205507483841705,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 15,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/business_consulting.csv",
+                "language": "zh_tw"
+            },
+            "question": "日本百年的藥品製造商小林製藥的紅麴成分含有保健食品引發的「死亡」事件。",
+            "answer": "日本百年歷史的藥品製造商小林製藥因其紅麴成分保健食品引發了一起嚴重的事件，數名民眾食用後出現嚴重腎臟疾病，甚至導致「死亡」。這事件持續發展，截至目前，已有數名消費者因服用小林製藥的含有紅麴成分的保健食品而死亡。事件的嚴重性引起了社會廣泛關注，也衝擊了小林製藥這一具有百年歷史的知名公司。 \r\n\r\n小林製藥已經展開回收行動，回收了含有問題紅麴成分的所有產品。雖然公司已經採取了措施，但這事件仍然在持續調查中，公司尚未確定事件的原因是來自產品成分還是生產過程中的汙染。這使得事件的輪廓更加模糊，也引發了更多對於保健食品安全的關注。 \r\n\r\n這起事件也引起了廠商與監管機構的高度警覺，促使政府加強了監管措施，並提醒民眾注意選擇保健食品時的謹慎。事件也突顯了對於食品安全和監管的重要性，不僅需要公司加強品控，還需要政府更加積極地監督和管理這一領域，以保護民眾的健康和安全。 \r\n\r\n在這樣的背景下，小林製藥將面臨來自公眾和監管機構的持續壓力，必須積極應對這次事件帶來的負面影響，並加強透明度、品質控制和風險管理，以重建消費者對其產品的信任。同时，消費者也需要更加謹慎地選擇保健食品，並關注產品的來源和品質，以確保自身的健康和安全。",
+            "ground_truths": [
+                "食用了小林製藥製造銷售的含紅麴的保健食品的人發生了腎臟疾病，已確認有5人死亡。到目前為止，有212人住院。\n小林製藥的調查顯示，紅麴原料中可能含有\"未知成分\"，這些成分可能導致腎臟疾病。\n小林製藥的紅麴分為補充劑和食品著色劑兩種，\"未知成分\"只在部分補充劑批次中被檢測出來。\n紅麴一般被用作食品著色劑，但在作為補充劑使用時，需要注意毒素紅曲霉素的含量。\n小林製藥在這個問題上已開始自願回收相關的保健食品，厚生勞動省也在考慮採取應對措施。"
+            ],
+            "keywords": [
+                "5",
+                "212"
+            ],
+            "answer_correctness": 0.6943487660363787,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 16,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/business_consulting.csv",
+                "language": "ru"
+            },
+            "question": "Если Евросоюз решит \"отцепиться\" от Китая, какое влияние это окажет на экономику Германии?",
+            "answer": "Ответ на ваш вопрос о влиянии \"отцепления\" Евросоюза от Китая на экономику Германии может зависеть от различных факторов и сценариев. В контексте современных экономических отношений и геополитических динамик, отношения между Евросоюзом, Китаем и Германией играют важную роль.\n\nПо одной из возможных интерпретаций вашего вопроса, если Евросоюз решит сократить свои экономические связи с Китаем или даже полностью \"отцепиться\" от них, это может повлиять на экономику Германии в следующих аспектах:\n1. **Торговля и инвестиции:** Германия является крупным экспортером и импортером товаров, включая торговлю с Китаем. Сокращение торговых связей между Евросоюзом и Китаем может повлиять на германскую экономику через снижение объема торговли и инвестиций между этими странами.\n2. **Экономический рост:** Уменьшение экономических связей с Китаем может повлиять на экономический рост Германии, особенно если китайский рынок является значимым для германских компаний.\n3. **Влияние на отдельные секторы:** Некоторые отрасли немецкой экономики, например автомобильная промышленность или электротехническая промышленность, могут быть особенно чувствительны к изменениям в экономических отношениях с Китаем.\n\nС другой стороны, следует также учитывать, что глубина и характер этих изменений будут определяться конкретными шагами, которые могут принять страны Евросоюза в отношении своих экономических связей с Китаем. Решения политического и экономического порядка могут смягчить или усилить эти влияния на экономику Германии.",
+            "ground_truths": [
+                "Исследования показывают, что если Евросоюз откажется от связей с Китаем, экономический вывод Германии сократится на 1%. В краткосрочной перспективе экономический вывод Германии снизится примерно на 5%. Среднесрочно и долгосрочно процентное сокращение экономического процветания Германии составит около 1,5% в год."
+            ],
+            "keywords": [
+                "1%||5%||1.5%"
+            ],
+            "answer_correctness": 0.5420276807430696,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 17,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/business_consulting.csv",
+                "language": "ja"
+            },
+            "question": "虎ノ門ヒルズフォーラム",
+            "answer": "**虎ノ門ヒルズフォーラム**は、東京都港区に位置する虎ノ門ヒルズ森タワー内の4階と5階にある大型のカンファレンスセンターです。この施設は、2022年12月21日に更新された情報によると、各種イベントに対応するために3つのホールと4つのミーティングルームで構成されています。メインホールやガラスカーテンウォールで開放的な空間のホールAなど、多様なイベントの開催に適しています。\n\n虎ノ門ヒルズフォーラムは、地下駐車場があり、周辺のアクセスも便利です。最寄りの駅は東京メトロ銀座線の虎ノ門駅や日比谷線の神谷町駅から徒歩でアクセス可能です。また、新橋駅からも徒歩圏内でアクセスできます。エリアの賑わいや都心部の便益を考慮しつつ、イベント開催に最適な設備やサービスを提供しています。\n\n施設の特徴として、ホールBでは最大460名、メインホールでは最大720名、ホールAでは最大792名の定員を誇っており、多様な規模のイベントに対応できます。利用時間は午前9時から夜9時までとなっており、交通機関からのアクセスもアクセス案内が詳細に案内されています。\n\n虎ノ門ヒルズフォーラムは、日本や世界からのイベントやカンファレンスをサポートし、最新の設備・設備を提供することで、エリアの活性化や国際交流の場を提供しています。",
+            "ground_truths": [
+                "虎ノ門ヒルズフォーラムは、虎ノ門ヒルズ森タワー内に位置するイベント施設で、2014年5月に竣工しました。このフォーラムは、3つのホールと4つのミーティングルームから構成されており、590m²のメインホールと合計6つの会議室が利用可能です。メインホールは最大720名を収容し、各ホールは異なる形式のイベントに対応できます。装備されている設備には、360インチスクリーンや電動バトンなどがあり、多種多様なイベントに対応しています。\n\n主な情報:\n\n名称: 虎ノ門ヒルズフォーラム\n所在地: 東京都港区虎ノ門1-23-1\n最寄り駅: 東京メトロ銀座線「虎ノ門駅」、東京メトロ日比谷線「神谷町駅」\n収容人数: メインホール最大720名、ホールA最大792名、ホールB最大460名\n利用時間: 9:00～21:00"
+            ],
+            "keywords": [
+                "590m²",
+                "虎门山森大厦||虎ノ門ヒルズ森タワー"
+            ],
+            "answer_correctness": 0.7294550858790818,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 18,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/business_consulting.csv",
+                "language": "zh_tw"
+            },
+            "question": "腾訊的天使投資者叫什麼名字？",
+            "answer": "腾讯的天使投资者中有一位名叫许晓萍（Xu XiaoPing）。此外，腾讯在其投资中将“价值创造”置于核心位置，其主要目标是为用户创造价值。腾讯认为投资是其核心战略之一，始终将用户利益放在首位，投资公司放在第二位。",
+            "ground_truths": [
+                "腾讯的天使投资商包括刘晓松、IDGVC（後更名為IDG資本）、香港盈科數碼和南非的MIH。此外，曾李青也是腾讯的天使投资人之一，他在離開腾讯後成立了德迅投资。"
+            ],
+            "keywords": [
+                "劉曉松||IDG||香港盈科||MIH||曾李青"
+            ],
+            "answer_correctness": 0.5464947770135407,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 19,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/business_consulting.csv",
+                "language": "zh_tw"
+            },
+            "question": "华为2023年营收情况？",
+            "answer": "根据搜索结果，华为在2023年取得了令人瞩目的业绩。在该年度，华为的全球销售收入达到了7042亿元人民币，净利润为870亿元人民币. 这意味着华为在2023年实现了近9.63%的年同比增长率，净利润同比增长144.5%. 华为的研发投入也持续强劲，达到1647亿元人民币，占销售收入的23.4%. 这显示了华为对于技术创新的持续投入和重视，为未来的发展奠定了坚实基础。\n\n华为2023年的业绩报告透露出几个重要信息。首先，华为在多个业务板块取得了良好的增长，包括ICT基础设施、终端业务、云计算、数字能源以及智能汽车解决方案等领域. 这些业务的表现带动了整体营收的增长，显示出华为在不同领域的强劲实力。第二，华为的净利润大幅增长，主要得益于规模的扩张、产品结构的优化以及出售部分业务所带来的收益. 尽管面临复杂的外部环境挑战，华为依然保持着稳健的发展态势。\n\n总体而言，华为在2023年取得的营收和净利润都呈现出积极的增长趋势，显示了公司在全球市场的竞争力和韧性。同时，持续的研发投入和多元化业务布局为华为未来的发展奠定了坚实基础，使其能够继续在科技行业中发挥重要作用。",
+            "ground_truths": [
+                "華為2023年的主要財務數據如下:\n全年實現營業收入7042億元人民幣,同比增長9.63%。\n實現淨利潤870億元人民幣,同比大增144.38%。\nICT基礎設施業務實現銷售收入3620億元,同比增長2.3%。\n終端業務實現銷售收入2515億元,同比增長17.3%。\n雲計算業務實現銷售收入553億元,同比增長21.9%。\n數字能源業務實現銷售收入526億元,同比增長3.5%。\n智能汽車解決方案業務實現銷售收入47億元,同比增長128.1%"
+            ],
+            "keywords": [
+                "7042||7",
+                "042"
+            ],
+            "answer_correctness": 0.75561355408863,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 20,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/business_consulting.csv",
+                "language": "ja"
+            },
+            "question": "光通信社の株式コードは何ですか？",
+            "answer": "光通信社の株式コードは9435です。株式コードは、企業を証券取引所で一意に識別するための番号であり、株式市場で取引される企業の株式を特定するのに使用されます。光通信社は東京証券取引所のプライム市場で取引されており、その株式コードは9435となっています。",
+            "ground_truths": [
+                "光通信社の株式コードは「9435」です"
+            ],
+            "keywords": [
+                "9435"
+            ],
+            "answer_correctness": 0.7666719169526652,
+            "passed": true
+        }
+    ]
+}

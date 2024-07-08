@@ -1,0 +1,376 @@
+{
+    "evaluate_ai": {
+        "name": "Perplexity",
+        "url": "https://perplexity.ai"
+    },
+    "evaluate_llm": "gpt-4-1106-preview",
+    "evaluate_type": "ragas",
+    "evaluate_data": {
+        "total": 20,
+        "passed": 10,
+        "failed": 10,
+        "pass_rate": "50.00%",
+        "answer_correctness": 0.6601872013267639
+    },
+    "created_at": "2024-04-19 11:20:28",
+    "datas": [
+        {
+            "metadata": {
+                "id": 1,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/business_consulting.csv",
+                "language": "zh_cn"
+            },
+            "question": "ycloud是什么？",
+            "answer": "根据搜索结果,ycloud是以下几点:\n\n\nycloud是一家提供全球云通信的CPaaS服务公司1。它主要提供全球短信、邮件、语音验证码和WhatsApp等商业消息服务,并基于这些基础通信能力开发了Verify验证服务、Campaign多渠道消息营销服务、Contact CDP服务、Inbox WhatsApp客服坐席服务等1。\n\n\nycloud是Meta在大中华地区的首批WhatsApp Business Solution Provider(BSP),能帮助出海企业接入WhatsApp Business Platform,为企业提供个性化且舒适的全球客户沟通体验5。\n\n\nycloud还提供了一款名为\"YCloud Inbox\"的即时聊天工具,可以让企业的客服和销售团队通过同一个WhatsApp Business账号在多个设备上同时登录与客户进行对话,提高客户服务效率4。\n\n\n此外,ycloud还开发了一套基于knockoutjs的开源UI组件库\"ycloud\",主要服务于PC端的企业级Web应用3。\n\n\n综上所述,ycloud是一家提供全球云通信服务和相关解决方案的CPaaS公司,其主要业务包括WhatsApp商业消息服务、客户服务工具以及企业级UI组件库等。145",
+            "ground_truths": [
+                "YCloud是友云采FED自研的一套基于knockoutjs的开源UI组件库，主要服务于PC端的企业级Web应用. YCloud同时也是一家领先的WhatsApp业务服务提供商，致力于帮助企业通过WhatsApp这一全球最流行的社交应用来发展业务."
+            ],
+            "keywords": [
+                "WhatsApp",
+                "knockoutjs"
+            ],
+            "answer_correctness": 0.744167338663102,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 2,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/business_consulting.csv",
+                "language": "zh_cn"
+            },
+            "question": "百度",
+            "answer": "百度是一家主要经营搜索引擎服务的中国互联网公司，于2000年1月1日由李彦宏和徐勇两人在北京中关村创立。2\n百度是中国最大的搜索引擎公司，拥有超过千亿的中文网页数据库，可以快速找到相关的搜索结果。3 百度的搜索引擎技术以及语音识别技术在中国市场上都处于领先地位。4\n除了搜索引擎服务，百度还提供导航、社交、游戏娱乐、软件工具等多元化的互联网服务。2 百度曾经与阿里巴巴和腾讯并称为中国互联网三大巨头。2\n百度在日本和埃及等海外市场也有一定的业务布局,但在日本市场上未能取得成功,于2015年停止了在日本的搜索业务。2\n总的来说,百度是中国最大的搜索引擎公司,在中国互联网行业中占据重要地位,并且不断拓展业务范围,成为一家综合性的互联网公司。1234",
+            "ground_truths": [
+                "百度是一家中国跨国科技公司，总部位于北京海淀区，成立于2000年。它是全球最大的中文搜索引擎之一，致力于提供互联网相关服务、产品和人工智能技术。"
+            ],
+            "keywords": [
+                "baidu.com"
+            ],
+            "answer_correctness": 0.6934622661138823,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 3,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/business_consulting.csv",
+                "language": "zh_cn"
+            },
+            "question": "紫金的销售收入",
+            "answer": "根据搜索结果,可以得出以下关于紫金矿业销售收入的信息:\n\n\n2022年,紫金矿业实现营收2703.29亿元,同比增长20.09%。1\n\n\n2023年第一季度,紫金矿业实现营收749.45亿元,同比增长15.7%,环比增长13.3%。1\n\n\n报告期内,紫金矿业铜业务销售收入占总营收的25.21%,毛利占集团毛利的47.19%。3\n\n\n报告期内,紫金矿业黄金业务销售收入占总营收的42.09%,毛利占集团毛利的25.35%。3\n\n\n其他业务收入包括冶炼银31.08亿元、铜管8.83亿元、铜板带14.67亿元、铅精矿5.40亿元、钼精矿23.89亿元等。2\n\n\n综上所述,紫金矿业2022年和2023年一季度的销售收入保持良好增长态势,其中铜和黄金业务是公司主要收入来源,占比较高。同时公司还有其他金属产品的销售收入。",
+            "ground_truths": [
+                "紫金矿业2023年的营业收入约为2934.03亿元,同比增长8.54%。"
+            ],
+            "keywords": [
+                "2934"
+            ],
+            "answer_correctness": 0.5546674925407101,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 4,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/business_consulting.csv",
+                "language": "zh_cn"
+            },
+            "question": "Vyro AI是什么公司",
+            "answer": "Vyro AI 是一家创意照片编辑工具公司。根据搜索结果3中的介绍:\nVyrokey是一款创意照片编辑工具，提供了丰富的功能和特色，被全球数百万用户使用。我们的产品受到用户的好评和推崇，致力于为用户提供更快、更好、更高效的照片编辑体验。Vyrokey的产品定价合理，定位于个人和专业用户。\n因此,Vyro AI 是一家专注于提供创意照片编辑工具的公司,为个人和专业用户提供快速、增强和高效的照片编辑体验。3",
+            "ground_truths": [
+                "Vyro AI 是一家专注于开发基于人工智能和机器学习的内容创作工具的公司。根据其官网信息:\nVyro 已经开发了 15 多款产品，拥有超过 1.5 亿次下载量和 80 万日活用户。\n该公司的主要产品包括 AI 图像生成器 Imagine、AI 照片编辑器 PhotoShot 等。\nVyro 的团队擅长应用前沿的生成式 AI 技术，并致力于为用户提供创新的内容创作工具。\n该公司成立于巴基斯坦，是当地一家具有多元化和创新实力的科技公司。\n总之, Vyro AI 是一家专注于开发基于生成式 AI 的创意工具的科技公司，在内容创作领域有较强的技术实力和产品线。"
+            ],
+            "keywords": [
+                "人工智能",
+                "图片"
+            ],
+            "answer_correctness": 0.6238912199079746,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 5,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/business_consulting.csv",
+                "language": "zh_cn"
+            },
+            "question": "列出以下公司“OpenAI, perplexity, anthropic, mistral”的“创始人，成立时间，产品，投资人”，用表格展示",
+            "answer": "根据提供的搜索结果,以下是这些公司的相关信息:\n公司创始人成立时间产品投资人OpenAISam Altman2015年GPT 系列语言模型包括亚马逊创始人贝索斯、英伟达、微软在内的投资者Perplexity AIAravind Srinivas2018年3月Perplexity 搜索助手未提及AnthropicDario Amodei未提及未提及未提及Mistral未提及未提及未提及大量风险资本和企业资金",
+            "ground_truths": [
+                "公司名称\n创始人\n成立时间\n产品\n投资人\nOpenAI\nSam Altman\n2015年\nGPT语言模型\n包括Elon Musk、Peter Thiel等在内的投资者\nPerplexity AI\nAravind Srinivas\n2018年\n基于OpenAI模型的问答助手\nIVP、NVIDIA、Jeff Bezos、NEA、Elad Gil、Nat Friedman等\nAnthropic\nDario Amodei\n2021年\n生成式AI模型\n包括主权财富基金在内的投资者\nMistral\n未提及\n未提及\n未提及\n未提及"
+            ],
+            "keywords": [
+                "Sam Altman",
+                "Aravind",
+                "Srinivas"
+            ],
+            "answer_correctness": 0.6576459300877113,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 6,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/business_consulting.csv",
+                "language": "zh_cn"
+            },
+            "question": "如何在Kraken交易所进行出金操作",
+            "answer": "根据搜索结果,以下是如何在Kraken交易所进行出金操作的步骤:\n\n\n在Kraken上添加出金银行账户信息124:\n\n登录Kraken账户,进入\"Funding\"页面\n选择\"Add new withdrawal account\"\n填写您的银行账户信息,包括银行名称、SWIFT码、账户名称等\n完成银行账户添加后,即可进行出金操作\n\n\n\n选择出金方式15:\n\nKraken支持多种出金方式,包括英镑(FPS)、瑞士法郎(SIC)、美元(ACH)等\n根据您的需求选择合适的出金方式,不同方式的手续费和到账时间会有所不同\n\n\n\n进行出金操作124:\n\n在Kraken的\"Funding\"页面选择您添加的银行账户\n输入出金金额并确认\n等待出金到账,通常需要20分钟左右1\n\n\n\n需要注意的是,Kraken出金会收取一定的手续费,具体费用取决于您选择的出金方式4。同时,您的银行也可能会收取电汇费用。建议提前了解清楚相关费用。14\n总的来说,Kraken提供了多种便捷的出金方式,只要完成银行账户添加,就可以轻松地将资金从Kraken账户提现到您的银行账户。125",
+            "ground_truths": [
+                "在Kraken交易所进行出金操作的步骤如下：\n首先，需要登录您的Kraken账户。这可以通过访问Kraken官方网站并使用您的账户名和密码完成。\n登录后，选择“提现”选项。这一步骤是进入提现页面的前提条件。\n在提现页面，您需要选择提现币种和提现方式。Kraken提供了快速提现和标准提现两种方式。快速提现通常指的是即时转账，如Instant SEPA即时转账，这种方式可以提高转账速度，几分钟到十几分钟就能到账。而标准提现则可能需要更长的时间。\n对于希望通过N26/Vivid Money及Wise进行人民币提现的用户，需要注意的是，N26支持Clear Junction(SEPA)，而Vivid Money暂不支持Fidor（SPEA）转账。因此，如果选择Vivid Money作为提现方式，应避免选择Fidor（SPEA）。\n输入提现金额，并确认提现信息无误后，点击“确认提款”。6. 最后，根据您的提现方式，完成相关的验证或填写必要信息，以确保提现操作顺利进行。"
+            ],
+            "keywords": [],
+            "answer_correctness": 0.7818016399673344,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 7,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/business_consulting.csv",
+                "language": "en"
+            },
+            "question": "How did Musk earn the first bucket of gold in his life?",
+            "answer": "According to the search results, Elon Musk earned his first significant amount of money by selling the source code for a video game he created at the age of 12 called Blastar. The game was a space-themed game where the objective was to destroy an alien ship filled with weapons of mass destruction. Musk had taught himself programming starting at age 9, and he received $500 when the source code for the BASIC-based game was published in a South African magazine called PC and Office. This was the first product Musk ever sold, which he described as a \"trivial game... but better than Flappy Bird\".1",
+            "ground_truths": [
+                "Elon Musk earned his first significant fortune from the sale of his web software company, Zip2. Musk and his brother Kimbal founded Zip2 in 1995. The company, which provided an online city guide platform, was quite successful and was purchased by Compaq in 1999 for more than $300 million. From this sale, Musk received around $22 million for his 7% share"
+            ],
+            "keywords": [
+                "Zip2"
+            ],
+            "answer_correctness": 0.5286324572925946,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 8,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/business_consulting.csv",
+                "language": "en"
+            },
+            "question": "Why did Musk quit OpenAI?",
+            "answer": "According to the search results, Elon Musk quit OpenAI in 2018 for a few key reasons:\n\n\nConflict of interest with Tesla: Musk cited a potential conflict of interest between his work at OpenAI and his responsibilities at Tesla as the reason for his departure from the OpenAI board.12\n\n\nDisagreement with OpenAI's direction: Musk \"didn't agree with some of what the OpenAI team wanted to do\" and felt the company was not adhering to its original open-source, non-profit mission.25\n\n\nFailed takeover attempt: Musk reportedly tried to take over OpenAI in 2018 by offering to lead the company himself, but this was rejected by co-founder Sam Altman and other founders, leading Musk to step down from the board.234\n\n\nIn summary, Musk left OpenAI due to a perceived conflict with Tesla, disagreements over the company's direction, and a failed attempt to take control of the organization.12345",
+            "ground_truths": [
+                "Elon Musk decided to leave OpenAI in 2018 due to conflicts of interest and disagreements over the organization's direction. Musk, being the CEO of Tesla and SpaceX, felt that his involvement with OpenAI could lead to perceptions of excessive influence over AI development, potentially raising concerns about monopolization and bias. Additionally, Musk disagreed with OpenAI's focus on developing a commercial product, diverging from his vision for the organization\nMoreover, Musk had attempted to take control of OpenAI in 2018, but his proposal was rejected by Sam Altman and other founders, prompting Musk to walk away from the organization. His departure was primarily driven by a conflict of interest with his role at Tesla and his concerns about the direction and priorities of OpenAI\nAdditionally, Musk believed that OpenAI was not aligning with his intended purpose for the organization and was vocal about it, mentioning that its current form was not what he intended"
+            ],
+            "keywords": [],
+            "answer_correctness": 0.8163956161431197,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 9,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/business_consulting.csv",
+                "language": "en"
+            },
+            "question": "Has China ever received an EUV lithography machine?",
+            "answer": "Based on the search results provided, China has not yet received an EUV (extreme ultraviolet) lithography machine. The key points are:\n\n\nChina is exploring the use of a new EUV light source to develop its own domestic lithography facility, but it is still facing significant technical challenges1.\n\n\nChina has not been able to obtain EUV lithography machines from ASML, the world's leading supplier, due to export controls imposed by the U.S., Japan, and the Netherlands34.\n\n\nWhile China has made progress in developing its own 28nm lithography machines, it is still heavily reliant on foreign-made equipment and has not yet achieved self-sufficiency in semiconductor manufacturing3.\n\n\nExperts estimate it will take China at least 10 years to catch up to ASML's EUV technology, as replicating EUV lithography is extremely complex and China currently lags behind significantly45.\n\n\nSo in summary, China has not yet received or developed its own EUV lithography machine, and faces significant technical and geopolitical hurdles in achieving this goal in the near future1345.",
+            "ground_truths": [
+                "Based on the search results provided, it does not appear that China has ever received an EUV lithography machine from ASML:\nASML's CEO Peter Wennink stated that ASML has not sold any EUV lithography systems to China, as the Dutch government has not granted ASML the license to export these machines to China.\nThe search results indicate that the US government has pressured the Dutch government to block ASML from fulfilling orders for EUV machines to China, such as an order reportedly from SMIC in 2018."
+            ],
+            "keywords": [],
+            "answer_correctness": 0.6780053369384191,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 10,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/business_consulting.csv",
+                "language": "en"
+            },
+            "question": "What will Trump do to China if he takes office again?",
+            "answer": "If Donald Trump is re-elected as U.S. president, he will likely take a hardline approach towards China and significantly increase economic pressure:\nTrump will likely impose much higher tariffs on Chinese goods, potentially raising duties to over 60%1. He would likely use legal provisions like Section 301 of the Trade Act of 1974 and Section 232 of the Trade Expansion Act to justify these tariffs on the grounds of unfair trade practices and national security1.\nThis would create a major trade war and upheaval in economic ties between the U.S. and China. Analysts estimate it could significantly reduce China's share of U.S. imports2. This would be a severe blow to the Chinese economy, which is already facing challenges like falling consumer demand and high youth unemployment2.\nHowever, China may not be as worried about Trump's return as one might expect. They recognize that any policy shifts would have less impact this time, as they have already prepared for the possibility of high tariffs by diversifying exports and increasing domestic manufacturing5.\nAdditionally, China believes that even under a Biden administration, U.S. strategic competition with China would continue, so they see Trump as a more manageable challenge compared to Biden's consistent pressure across a range of issues like human rights and Taiwan4. China may even be able to benefit by forging closer ties with U.S. allies that become estranged under Trump's \"America First\" approach5.\nOverall, while a Trump presidency would undoubtedly mean heightened economic tensions, China seems relatively confident in its ability to withstand the pressure and may even see some geopolitical opportunities amidst the chaos of a Trump second term45.",
+            "ground_truths": [
+                "If Trump takes office again, his stance on China is expected to remain tough and potentially escalate. During his previous term, Trump initiated a trade war with China by imposing significant tariffs on Chinese imports. He has indicated that if reelected, he plans to intensify this trade war by imposing tariffs as high as 60% or more on Chinese imports\nThis move is part of his strategy to address what he perceives as unfair trade practices by China and to protect American industries and jobs from what he views as Chinese economic threats\nFurthermore, Trump's combative approach towards China extends beyond trade policies. He has expressed intentions to phase out Chinese imports of essential goods over a four-year period, including electronics, steel, and pharmaceuticals. Additionally, Trump aims to ban Chinese companies from owning critical U.S. infrastructure in sectors such as energy, technology, and agriculture, highlighting national security concerns underpinning his China policy\nOverall, Trump's stance towards China is expected to prioritize protecting American economic interests and maintaining a competitive edge in key industries. If reelected, he is likely to continue employing tariffs and trade restrictions to address what he sees as imbalances in the economic relationship between the U.S. and China."
+            ],
+            "keywords": [
+                "60%"
+            ],
+            "answer_correctness": 0.6848228401673288,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 11,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/business_consulting.csv",
+                "language": "en"
+            },
+            "question": "Microsoft 2021 first quarter Financial report",
+            "answer": "According to the search results, Microsoft reported strong financial results for the first quarter of fiscal year 2021:\n\nMicrosoft's revenue was $37.2 billion, up 12% year-over-year.12\nNet income was $13.9 billion, an increase of 30% compared to the same quarter last year.12\nMicrosoft returned $9.5 billion to shareholders through share repurchases and dividends, an increase of 21% year-over-year.1\nCloud services revenue, including Azure, Office 365 Commercial, and Microsoft 365 Consumer subscriptions, saw significant growth during the quarter.2\nSurface revenue increased by 37% and Xbox content and services revenue grew by 30% compared to the same period last year.2\nHowever, Windows OEM revenue declined by 5% due to lower commercial demand, though Windows OEM non-Pro revenue grew by 31% driven by consumer PC demand.2\nMicrosoft expects \"supply constrained hardware revenue growth of approximately 40 percent\" in the next quarter due to strong demand for the new Xbox Series X and S consoles.2\n\nOverall, Microsoft delivered a strong financial performance in the first quarter of fiscal year 2021, driven by growth in its cloud, gaming, and Surface businesses, despite some softness in the Windows OEM segment.124",
+            "ground_truths": [
+                "Microsoft reported strong financial results for the first quarter of its 2021 fiscal year. The company beat analysts' expectations on both earnings and revenue.\nKey highlights:\nAdjusted earnings per share (EPS) was $1.82, compared to the expected $1.55.\nRevenue grew 12% year-over-year to $37.2 billion, exceeding the expected $35.7 billion.\nMicrosoft's Intelligent Cloud segment, which includes the Azure cloud computing platform, saw revenue grow 20% year-over-year, also beating expectations.\nAzure revenue grew 48% year-over-year, driving the strong performance of the Intelligent Cloud segment.\nOther areas like Surface devices, Xbox gaming, and Microsoft 365 consumer subscriptions also saw significant revenue growth during the quarter."
+            ],
+            "keywords": [
+                "48%",
+                "37.2"
+            ],
+            "answer_correctness": 0.7666463488137778,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 12,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/business_consulting.csv",
+                "language": "en"
+            },
+            "question": "What is Toyota's biggest risk in the future?",
+            "answer": "Based on the search results, Toyota's biggest risk in the future appears to be the threat of aggressive competition from other automakers:\nToyota faces increased global competition from ridesharing apps and traditional competitors like Nissan, Ford, Volkswagen, BMW, Mitsubishi, Hyundai, and many new entrants.1 With increased competition comes slower growth in profitability and market share.1\nThe threat of new entrants, especially large firms from China, is a significant threat to Toyota. These Chinese companies can compete on price and value, posing a risk to Toyota's market position.2\nToyota also faces the threat of rapid technological innovation among its competitors, which increases their competitive advantages.2 The race to deliver electric and autonomous vehicles is pushing all automakers, including Toyota, to invest heavily in new technologies, which can undermine stability and even lead to bankruptcy if over-invested.1\nIn summary, Toyota's biggest risk in the future appears to be the aggressive and rapidly innovating competition it faces from both established automakers and new entrants, especially those from China, which could erode Toyota's profitability and market share if not properly addressed.12",
+            "ground_truths": [
+                "Toyota's biggest risk in the future is the consumer adoption of battery electric vehicles (BEVs)"
+            ],
+            "keywords": [
+                "BEVs"
+            ],
+            "answer_correctness": 0.5231932163639035,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 13,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/business_consulting.csv",
+                "language": "en"
+            },
+            "question": "What will the world auto industry look like in the future, Musk said?",
+            "answer": "According to the search results, Elon Musk believes the future of the auto industry will be heavily shaped by software and Chinese automakers. Specifically:\n\n\nMusk stated that \"software will most shape the future of the automobile industry,\" especially when it comes to autonomous driving software.1\n\n\nMusk said he believes \"Chinese automobile companies are the most competitive in the world, especially because some are very good at software.\"1 He suggested the top 10 automakers of the future might be mostly Chinese companies, with Tesla still leading.2\n\n\nMusk praised the manufacturing prowess and work ethic of Chinese automakers, noting companies like BYD are highly competitive.2 He said \"the Chinese car companies are extremely competitive\" and \"China is super good at manufacturing.\"2\n\n\nMusk acknowledged that several Chinese EV startups like Nio and Xpeng have put a lot of focus on software, though Tesla has also faced challenges with software and data security in China.1\n\n\nOverall, Musk sees Chinese automakers as the biggest competitive threat to Tesla and other global automakers, especially when it comes to software and manufacturing capabilities.12\n\n",
+            "ground_truths": [
+                "Elon Musk warned that Chinese automakers will \"demolish\" their global competition unless other nations impose trade barriers to handicap the new wave of electric cars coming from China\nMusk described Chinese brands like BYD as \"extremely good\" and the \"most competitive\" in the world\nMusk stated that if there are no trade barriers established, Chinese automakers will \"pretty much demolish most other car companies in the world\"\nHe believes the Chinese auto industry has a high chance of achieving global domination\nThe search results also indicate that China overtook Japan as the world's biggest exporter of cars during 2023 and seems likely to repeat that success in 2024 as it starts to expand its sales activities into Europe\nThis suggests the Chinese auto industry will continue to grow its global market share in the future.\nTo counter this threat, Musk said Tesla is working on a new entry-level model that will use a new platform to slash production costs, allowing it to be sold for less than $30,000\nThis suggests Tesla is trying to make its EVs more affordable to better compete with Chinese automakers."
+            ],
+            "keywords": [
+                "BYD||China"
+            ],
+            "answer_correctness": 0.6484819185288939,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 14,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/business_consulting.csv",
+                "language": "en"
+            },
+            "question": "Why is Boeing getting worse and worse?",
+            "answer": "Based on the search results, there are a few key reasons why Boeing has been struggling in recent years:\n\n\nFinancial troubles: Boeing's financial situation is worse than it appears, as its commercial aviation division has been struggling while its defense division is not growing enough to make up the difference.1 The company is facing losses in several of its major programs like the 777X and 787 Dreamliner.2\n\n\nLeadership and culture issues: Boeing has moved away from its traditional engineering-focused culture, with fewer engineers in top leadership roles. This shift towards a more financially-driven management approach has been detrimental to the company's product quality and safety.12\n\n\nSeries of product issues and incidents: Boeing has faced a string of problems with its aircraft, including the 737 MAX grounding, a door plug blowing off a 737 MAX 9, and most recently a 787 Dreamliner plunging mid-flight and injuring 50 people.34 These incidents have damaged Boeing's reputation and eroded customer confidence.\n\n\nRegulatory scrutiny and investigations: The FAA has expressed frustration with Boeing's responses to safety issues, and the Justice Department has opened a criminal investigation into the 737 MAX door plug incident.34 This increased regulatory pressure adds further challenges for the company.\n\n\nIn summary, Boeing's downfall appears to be a combination of financial pressures, leadership missteps, product quality issues, and heightened regulatory oversight - all of which have contributed to the company's struggles in recent years.1234",
+            "ground_truths": [
+                "Boeing's deteriorating situation is multifaceted and can be attributed to several factors that have contributed to its ongoing challenges. One significant issue lies in Boeing's financial struggles, which have worsened in recent years. The company's heavy focus on profits, coupled with the financial strain caused by the pandemic and the grounding of the 737 Max aircraft, has led to Boeing being in its worst financial shape in over a century, with several years of deep losses recorded\nAdditionally, the dependence on the Defense division to offset losses in the Commercial sector is becoming increasingly unsustainable due to constraints in the US defense budget, leaving Boeing with limited options for recovery in that area\nFurthermore, Boeing's internal culture and safety practices have also come under scrutiny. Reports suggest a lack of a safety culture within Boeing, with claims that employees who raise concerns are ignored, marginalized, threatened, or sidelined\nSuch issues can compromise the overall quality and safety standards of Boeing's aircraft, further eroding consumer trust and damaging the company's reputation.\nOn a more operational level, concerns have been raised about specific incidents, such as the recent recommendation by the FAA to visually inspect the mid-exit door plugs on Boeing 737-900ER aircraft, highlighting potential safety issues that need to be addressed\nThese incidents, in addition to the ongoing challenges faced by the company, contribute to the perception that Boeing's situation is worsening over time."
+            ],
+            "keywords": [
+                "quality"
+            ],
+            "answer_correctness": 0.74108543816116,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 15,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/business_consulting.csv",
+                "language": "ja"
+            },
+            "question": "日本百年の医薬品メーカー、小林製薬の赤かび成分含有健康食品が「死亡」事件を引き起こしました。",
+            "answer": "小林製薬の「紅麹」含有健康食品の問題について、以下のようにまとめることができます。1234\n\n\n小林製薬が製造・販売していた「紅麹」を含む健康食品を摂取した人が、腎臓の病気などを発症し、2人の死亡事例が確認されている。\n\n\n厚生労働省の調査により、小林製薬が1月に被害を把握していながら消費者庁に報告していなかったことが明らかになった。これを受けて消費者庁は、機能性表示食品の安全性について疑念を抱いている。\n\n\n小林製薬の調査では、紅麹原料に\"未知の成分\"が含まれていた可能性が指摘されている。この\"未知の成分\"が腎疾患の原因となった可能性が考えられている。\n\n\n全国で紅麹原料を使った商品の自主回収が相次いでおり、影響が広がっている。専門家は、一部のロットにのみ問題があった可能性を指摘している。\n\n\nつまり、小林製薬の製造した一部の紅麹原料に何らかの問題があり、それを含む健康食品の摂取が原因で死亡事例を含む健康被害が発生したと考えられます。1234",
+            "ground_truths": [
+                "小林製薬が製造販売していた紅麹含有の健康食品を摂取した人が腎臓の病気を発症し、2人の死亡例が確認されている。これまでに106人が入院している。\n小林製薬の調査では、紅麹原料に\"未知の成分\"が含まれていた可能性が指摘されている。この成分が腎疾患の原因となった可能性がある。\n小林製薬の紅麹は、サプリメント用と食品着色用の2種類があり、\"未知の成分\"はサプリメント用の一部のロットにのみ検出された。\n紅麹は一般的に食品着色料として使われてきたが、サプリメントとして使用する際はカビ毒のシトリニンの含有量に注意が必要とされている。\n小林製薬は、この問題を受けて関連する健康食品の自主回収を進めており、厚生労働省も対応を検討している。"
+            ],
+            "keywords": [
+                "2",
+                "106"
+            ],
+            "answer_correctness": 0.7410802334113791,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 16,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/business_consulting.csv",
+                "language": "zh_cn"
+            },
+            "question": "如果欧盟选择与中国\"脱钩\",这将对德国经济产出造成多大影响？",
+            "answer": "根据报告,如果欧盟选择与中国\"脱钩\"，这将对德国经济产出造成重大损失123:\n\n\n报告分析称,一旦欧盟选择与中国\"脱钩\",即使欧盟建立起新的供应体系,从长远来看德国的经济产出也会减少1%123。\n\n\n如果按照2021年德国国内生产总值(GDP)来计算,德国将每年损失360亿欧元123。\n\n\n报告指出,德国经济在宏观经济方面的依赖性较小,但德中贸易关系的突然中断会导致重要原材料、药品和最终产品的短缺,其后果是德国的经济繁荣将遭受重大损失123。\n\n\n总之,报告预测,如果欧盟选择与中国\"脱钩\",这将给德国经济带来巨大冲击,每年损失约360亿欧元,经济产出将减少1%,德国的经济繁荣将受到严重损害。",
+            "ground_truths": [
+                "研究显示，一旦欧盟与中国\"脱钩\"，德国的经济产出将减少1%。\n短期内,德国经济产出将下降约5%\n从中长期来看,德国经济繁荣的永久性损失将为每年约1.5%"
+            ],
+            "keywords": [
+                "1%||5%||1.5%"
+            ],
+            "answer_correctness": 0.6443111369369353,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 17,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/business_consulting.csv",
+                "language": "ja"
+            },
+            "question": "虎ノ門ヒルズフォーラム",
+            "answer": "虎ノ門ヒルズフォーラムは、東京都港区虎ノ門にある会議・イベントスペースです。主な特徴は以下の通りです:\n\n東京メトロ日比谷線「虎ノ門ヒルズ駅」や銀座線「虎ノ門駅」から直結しており、アクセスが良好145。\n会議室やホールなど、様々な規模の貸し会場を有している2。\nホテルライクなサービスと機能的な設備を備えており、商品発表やカンファレンスなどのイベントに利用されている2。\n年間を通して、宇宙ビジネスカンファレンス「SPACETIDE」などの大規模イベントが開催されている2。\n\nつまり、虎ノ門ヒルズフォーラムは、東京の中心部に位置し、交通アクセスに優れ、様々な用途で利用可能な会議・イベントスペースと言えます1245。",
+            "ground_truths": [
+                "虎ノ門ヒルズフォーラムは、虎ノ門ヒルズ森タワー内に位置するイベント施設で、2014年5月に竣工しました。このフォーラムは、3つのホールと4つのミーティングルームから構成されており、590m²のメインホールと合計6つの会議室が利用可能です。メインホールは最大720名を収容し、各ホールは異なる形式のイベントに対応できます。装備されている設備には、360インチスクリーンや電動バトンなどがあり、多種多様なイベントに対応しています。\n\n主な情報:\n\n名称: 虎ノ門ヒルズフォーラム\n所在地: 東京都港区虎ノ門1-23-1\n最寄り駅: 東京メトロ銀座線「虎ノ門駅」、東京メトロ日比谷線「神谷町駅」\n収容人数: メインホール最大720名、ホールA最大792名、ホールB最大460名\n利用時間: 9:00～21:00"
+            ],
+            "keywords": [
+                "590m²"
+            ],
+            "answer_correctness": 0.6218590679163872,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 18,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/business_consulting.csv",
+                "language": "zh_cn"
+            },
+            "question": "拼多多市值为什么这么高？",
+            "answer": "拼多多市值高涨的主要原因如下123:\n\n\n拼多多的高层制定了准确、稳定的战略,并能快速执行。拼多多的高层善于\"看到本质\",制定出清晰的战略目标。同时,拼多多的团队执行力极强,一旦战略确定,团队能在短时间内快速调整并全力贯彻执行。这种高效的决策和执行力是拼多多成功的关键。1\n\n\n拼多多深耕供应链,提高了商品的性价比。拼多多通过直接对接生产源头、推动农产品标准化等方式,大幅降低了成本,从而为用户提供更优惠的价格。这种高质量的供给是拼多多价格优势的根本所在。23\n\n\n拼多多的\"拼团\"模式能有效聚集大量订单,为用户提供更低的价格。这种需求聚集能力远超传统电商平台,让拼多多能够持续为用户提供高性价比的商品。23\n\n\n拼多多始终坚持\"用户为先\"的理念,不断提升用户体验。从\"先用后付\"到\"极速退款\",再到近期加强未成年人保护等,拼多多一直在从用户需求出发,不断优化服务,这也是其获得用户青睐的重要原因。3\n\n\n总的来说,拼多多凭借高效的决策执行力、优质的供给体系、创新的商业模式以及以用户为中心的服务理念,在激烈的电商竞争中脱颖而出,实现了快速增长,从而推动了其市值的大幅提升。123",
+            "ground_truths": [
+                "在2023年，拼多多的市值之所以如此高，主要是因为公司在第三季度的财报表现出色，引发了投资者的高度关注和股价上涨。拼多多发布的2023年三季度财报显示，其收入达到688.4亿元，同比增长93.9%，净利润155.4亿元，净利润率达到22.6%。\n由于财报数据表现亮眼，拼多多的美股股价在发布当天涨幅超过18%，市值一度超越阿里巴巴。\n除了财报数据外，拼多多的市值也受到其业务模式和发展战略的革新所推动。拼多多采取了多多跨境和高质量发展等策略，通过全面托管模式帮助中国商家拓展海外市场，加速多个国家和地区的增长，这也间接地推动了公司市值的提升。\n拼多多的发展战略和业务模式使其能够快速扩大用户群体和市场份额，从而获得了投资者的青睐，进而反映在公司市值的快速增长上。"
+            ],
+            "keywords": [],
+            "answer_correctness": 0.5521152800904586,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 19,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/business_consulting.csv",
+                "language": "zh_cn"
+            },
+            "question": "华为2023年赢收情况？",
+            "answer": "根据搜索结果,华为2023年的营收情况如下:\n\n华为2023年实现营业收入7042亿元人民币,同比增长9.63%1234。\n2023年净利润为870亿元人民币,同比增长144.38%234。\nICT基础设施业务保持稳健,终端业务表现符合预期,云计算和数字能源业务实现良好增长,智能汽车解决方案业务开始进入规模交付阶段23。\n华为重视研发投入,2023年研发投入达到1647亿元,占全年收入的23.4%,十年累计投入的研发费用超过11100亿元23。\n\n总的来说,华为2023年整体经营情况符合预期,营收和净利润均实现了较大幅度的增长1234。",
+            "ground_truths": [
+                "华为2023年的主要财务数据如下:\n全年实现营业收入7042亿元人民币,同比增长9.63%。\n实现净利润870亿元人民币,同比大增144.38%。\nICT基础设施业务实现销售收入3620亿元,同比增长2.3%。\n终端业务实现销售收入2515亿元,同比增长17.3%。\n云计算业务实现销售收入553亿元,同比增长21.9%。\n数字能源业务实现销售收入526亿元,同比增长3.5%。\n智能汽车解决方案业务实现销售收入47亿元,同比增长128.1%"
+            ],
+            "keywords": [
+                "7042"
+            ],
+            "answer_correctness": 0.6825571944860319,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 20,
+                "scene": "business_consulting",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/business_consulting.csv",
+                "language": "ja"
+            },
+            "question": "光通信社の強みを三つ教えてください。",
+            "answer": "申し訳ありませんが、提供された検索結果には光通信社の強みについての情報が含まれていません。この質問に対する答えを見つけることはできませんでした。検索結果には、主に就活生のエントリーシートの書き方や海運業界の情報が含まれています。光通信社の強みについては、別の情報源を確認する必要があります。",
+            "ground_truths": [
+                "販売力と顧客基盤: 光通信社の強みは「販売力」であり、その裏には強力な「顧客基盤」「販売網」があります。特に、光通信社は「法人90万社、個人120万人の基盤がある。特に中小企業が多い」という強固な顧客基盤を持っています。\n業績の強さ: 光通信社の業績は絶好調で、前2017年3月期は営業利益が10％増の415億円となり、今2018年3月期も同11％増の465億円と2ケタ成長を着実に達成しそうだ。\n投資戦略: 光通信社は長期的な収益力のある会社に株価が割安な段階から戦略的に投資しているように見えます。これにより、光通信社はその投資先にも注目できそうです。"
+            ],
+            "keywords": [
+                "90"
+            ],
+            "answer_correctness": 0.518922054004172,
+            "passed": false
+        }
+    ]
+}

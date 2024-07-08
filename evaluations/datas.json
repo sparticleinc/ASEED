@@ -16,8 +16,8 @@
                         "failed": 10,
                         "pass_rate": "50.00%",
                         "answer_correctness": 0.6334140759446114,
-                        "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/complex_search/20240509-glarity_search.json",
-                        "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/complex_search/20240509-glarity_search.csv",
+                        "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/ragas(deprecated)/complex_search/20240509-glarity_search.json",
+                        "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/ragas(deprecated)/complex_search/20240509-glarity_search.csv",
                         "evaluate_ai": "glarity_search"
                     },
                     {
@@ -26,8 +26,8 @@
                         "failed": 11,
                         "pass_rate": "45.00%",
                         "answer_correctness": 0.6611015032269856,
-                        "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/complex_search/20240509-iask.json",
-                        "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/complex_search/20240509-iask.csv",
+                        "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/ragas(deprecated)/complex_search/20240509-iask.json",
+                        "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/ragas(deprecated)/complex_search/20240509-iask.csv",
                         "evaluate_ai": "iask"
                     },
                     {
@@ -36,8 +36,8 @@
                         "failed": 14,
                         "pass_rate": "30.00%",
                         "answer_correctness": 0.6087054215177738,
-                        "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/complex_search/20240509-metaso.json",
-                        "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/complex_search/20240509-metaso.csv",
+                        "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/ragas(deprecated)/complex_search/20240509-metaso.json",
+                        "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/ragas(deprecated)/complex_search/20240509-metaso.csv",
                         "evaluate_ai": "metaso"
                     },
                     {
@@ -46,8 +46,8 @@
                         "failed": 13,
                         "pass_rate": "35.00%",
                         "answer_correctness": 0.6517623859067921,
-                        "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/complex_search/20240509-perplexity.json",
-                        "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/complex_search/20240509-perplexity.csv",
+                        "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/ragas(deprecated)/complex_search/20240509-perplexity.json",
+                        "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/ragas(deprecated)/complex_search/20240509-perplexity.csv",
                         "evaluate_ai": "perplexity"
                     },
                     {
@@ -56,8 +56,8 @@
                         "failed": 7,
                         "pass_rate": "65.00%",
                         "answer_correctness": 0.7625024498860518,
-                        "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/complex_search/20240509-perplexity_pro.json",
-                        "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/complex_search/20240509-perplexity_pro.csv",
+                        "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/ragas(deprecated)/complex_search/20240509-perplexity_pro.json",
+                        "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/ragas(deprecated)/complex_search/20240509-perplexity_pro.csv",
                         "evaluate_ai": "perplexity_pro"
                     },
                     {
@@ -66,8 +66,8 @@
                         "failed": 11,
                         "pass_rate": "45.00%",
                         "answer_correctness": 0.6187164770519427,
-                        "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/complex_search/20240509-you.json",
-                        "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/complex_search/20240509-you.csv",
+                        "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/ragas(deprecated)/complex_search/20240509-you.json",
+                        "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/ragas(deprecated)/complex_search/20240509-you.csv",
                         "evaluate_ai": "you"
                     }
                 ]
@@ -96,8 +96,8 @@
                         "failed": 9,
                         "pass_rate": "55.00%",
                         "answer_correctness": 0.6209152336028069,
-                        "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/technical_consulting/20240424-perplexity.json",
-                        "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/technical_consulting/20240424-perplexity.csv",
+                        "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/ragas(deprecated)/technical_consulting/20240424-perplexity.json",
+                        "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/ragas(deprecated)/technical_consulting/20240424-perplexity.csv",
                         "evaluate_ai": "perplexity"
                     },
                     {
@@ -106,8 +106,8 @@
                         "failed": 2,
                         "pass_rate": "90.00%",
                         "answer_correctness": 0.6256690125145647,
-                        "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/technical_consulting/20240424-glarity_search.json",
-                        "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/technical_consulting/20240424-glarity_search.csv",
+                        "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/ragas(deprecated)/technical_consulting/20240424-glarity_search.json",
+                        "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/ragas(deprecated)/technical_consulting/20240424-glarity_search.csv",
                         "evaluate_ai": "glarity_search"
                     },
                     {
@@ -116,8 +116,8 @@
                         "failed": 8,
                         "pass_rate": "60.00%",
                         "answer_correctness": 0.5702520517166612,
-                        "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/technical_consulting/20240424-metaso.json",
-                        "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/technical_consulting/20240424-metaso.csv",
+                        "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/ragas(deprecated)/technical_consulting/20240424-metaso.json",
+                        "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/ragas(deprecated)/technical_consulting/20240424-metaso.csv",
                         "evaluate_ai": "metaso"
                     },
                     {
@@ -126,8 +126,8 @@
                         "failed": 11,
                         "pass_rate": "45.00%",
                         "answer_correctness": 0.5720781550252837,
-                        "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/technical_consulting/20240424-you.json",
-                        "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/technical_consulting/20240424-you.csv",
+                        "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/ragas(deprecated)/technical_consulting/20240424-you.json",
+                        "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/ragas(deprecated)/technical_consulting/20240424-you.csv",
                         "evaluate_ai": "you"
                     },
                     {
@@ -136,8 +136,8 @@
                         "failed": 8,
                         "pass_rate": "60.00%",
                         "answer_correctness": 0.5484290350076495,
-                        "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/technical_consulting/20240424-iask.json",
-                        "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/technical_consulting/20240424-iask.csv",
+                        "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/ragas(deprecated)/technical_consulting/20240424-iask.json",
+                        "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/ragas(deprecated)/technical_consulting/20240424-iask.csv",
                         "evaluate_ai": "iask"
                     }
                 ]
@@ -156,8 +156,8 @@
                         "failed": 7,
                         "pass_rate": "65.00%",
                         "answer_correctness": 0.6901848042713008,
-                        "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/real_time_news/20240424-perplexity.json",
-                        "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/real_time_news/20240424-perplexity.csv",
+                        "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/ragas(deprecated)/real_time_news/20240424-perplexity.json",
+                        "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/ragas(deprecated)/real_time_news/20240424-perplexity.csv",
                         "evaluate_ai": "perplexity"
                     },
                     {
@@ -166,8 +166,8 @@
                         "failed": 6,
                         "pass_rate": "70.00%",
                         "answer_correctness": 0.7006900887018823,
-                        "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/real_time_news/20240424-glarity_search.json",
-                        "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/real_time_news/20240424-glarity_search.csv",
+                        "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/ragas(deprecated)/real_time_news/20240424-glarity_search.json",
+                        "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/ragas(deprecated)/real_time_news/20240424-glarity_search.csv",
                         "evaluate_ai": "glarity_search"
                     },
                     {
@@ -176,8 +176,8 @@
                         "failed": 8,
                         "pass_rate": "60.00%",
                         "answer_correctness": 0.59424958423605,
-                        "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/real_time_news/20240424-metaso.json",
-                        "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/real_time_news/20240424-metaso.csv",
+                        "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/ragas(deprecated)/real_time_news/20240424-metaso.json",
+                        "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/ragas(deprecated)/real_time_news/20240424-metaso.csv",
                         "evaluate_ai": "metaso"
                     },
                     {
@@ -186,8 +186,8 @@
                         "failed": 9,
                         "pass_rate": "55.00%",
                         "answer_correctness": 0.611854393690039,
-                        "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/real_time_news/20240424-you.json",
-                        "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/real_time_news/20240424-you.csv",
+                        "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/ragas(deprecated)/real_time_news/20240424-you.json",
+                        "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/ragas(deprecated)/real_time_news/20240424-you.csv",
                         "evaluate_ai": "you"
                     },
                     {
@@ -196,8 +196,8 @@
                         "failed": 7,
                         "pass_rate": "65.00%",
                         "answer_correctness": 0.6517946531692655,
-                        "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/real_time_news/20240424-iask.json",
-                        "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/real_time_news/20240424-iask.csv",
+                        "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/ragas(deprecated)/real_time_news/20240424-iask.json",
+                        "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/ragas(deprecated)/real_time_news/20240424-iask.csv",
                         "evaluate_ai": "iask"
                     }
                 ]
@@ -216,8 +216,8 @@
                         "failed": 4,
                         "pass_rate": "80.00%",
                         "answer_correctness": 0.6440540437865924,
-                        "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/local_search/20240424-perplexity.json",
-                        "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/local_search/20240424-perplexity.csv",
+                        "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/ragas(deprecated)/local_search/20240424-perplexity.json",
+                        "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/ragas(deprecated)/local_search/20240424-perplexity.csv",
                         "evaluate_ai": "perplexity"
                     },
                     {
@@ -226,8 +226,8 @@
                         "failed": 5,
                         "pass_rate": "75.00%",
                         "answer_correctness": 0.6835431698443349,
-                        "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/local_search/20240424-glarity_search.json",
-                        "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/local_search/20240424-glarity_search.csv",
+                        "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/ragas(deprecated)/local_search/20240424-glarity_search.json",
+                        "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/ragas(deprecated)/local_search/20240424-glarity_search.csv",
                         "evaluate_ai": "glarity_search"
                     },
                     {
@@ -236,8 +236,8 @@
                         "failed": 3,
                         "pass_rate": "85.00%",
                         "answer_correctness": 0.6982371198291959,
-                        "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/local_search/20240424-metaso.json",
-                        "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/local_search/20240424-metaso.csv",
+                        "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/ragas(deprecated)/local_search/20240424-metaso.json",
+                        "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/ragas(deprecated)/local_search/20240424-metaso.csv",
                         "evaluate_ai": "metaso"
                     },
                     {
@@ -246,8 +246,8 @@
                         "failed": 16,
                         "pass_rate": "20.00%",
                         "answer_correctness": 0.5686014080973536,
-                        "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/local_search/20240424-you.json",
-                        "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/local_search/20240424-you.csv",
+                        "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/ragas(deprecated)/local_search/20240424-you.json",
+                        "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/ragas(deprecated)/local_search/20240424-you.csv",
                         "evaluate_ai": "you"
                     },
                     {
@@ -256,8 +256,8 @@
                         "failed": 4,
                         "pass_rate": "80.00%",
                         "answer_correctness": 0.6882486499626141,
-                        "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/local_search/20240424-iask.json",
-                        "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/local_search/20240424-iask.csv",
+                        "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/ragas(deprecated)/local_search/20240424-iask.json",
+                        "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/ragas(deprecated)/local_search/20240424-iask.csv",
                         "evaluate_ai": "iask"
                     }
                 ]
@@ -276,8 +276,8 @@
                         "failed": 7,
                         "pass_rate": "65.00%",
                         "answer_correctness": 0.6387470949756622,
-                        "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/products_search/20240424-perplexity.json",
-                        "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/products_search/20240424-perplexity.csv",
+                        "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/ragas(deprecated)/products_search/20240424-perplexity.json",
+                        "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/ragas(deprecated)/products_search/20240424-perplexity.csv",
                         "evaluate_ai": "perplexity"
                     },
                     {
@@ -286,8 +286,8 @@
                         "failed": 4,
                         "pass_rate": "80.00%",
                         "answer_correctness": 0.6773145192268443,
-                        "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/products_search/20240424-glarity_search.json",
-                        "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/products_search/20240424-glarity_search.csv",
+                        "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/ragas(deprecated)/products_search/20240424-glarity_search.json",
+                        "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/ragas(deprecated)/products_search/20240424-glarity_search.csv",
                         "evaluate_ai": "glarity_search"
                     },
                     {
@@ -296,8 +296,8 @@
                         "failed": 6,
                         "pass_rate": "70.00%",
                         "answer_correctness": 0.643402711728756,
-                        "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/products_search/20240424-metaso.json",
-                        "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/products_search/20240424-metaso.csv",
+                        "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/ragas(deprecated)/products_search/20240424-metaso.json",
+                        "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/ragas(deprecated)/products_search/20240424-metaso.csv",
                         "evaluate_ai": "metaso"
                     },
                     {
@@ -306,8 +306,8 @@
                         "failed": 13,
                         "pass_rate": "35.00%",
                         "answer_correctness": 0.5795257397784267,
-                        "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/products_search/20240424-you.json",
-                        "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/products_search/20240424-you.csv",
+                        "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/ragas(deprecated)/products_search/20240424-you.json",
+                        "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/ragas(deprecated)/products_search/20240424-you.csv",
                         "evaluate_ai": "you"
                     },
                     {
@@ -316,8 +316,8 @@
                         "failed": 9,
                         "pass_rate": "55.00%",
                         "answer_correctness": 0.6299697213685607,
-                        "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/products_search/20240424-iask.json",
-                        "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/products_search/20240424-iask.csv",
+                        "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/ragas(deprecated)/products_search/20240424-iask.json",
+                        "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/ragas(deprecated)/products_search/20240424-iask.csv",
                         "evaluate_ai": "iask"
                     }
                 ]
@@ -336,8 +336,8 @@
                         "failed": 8,
                         "pass_rate": "60.00%",
                         "answer_correctness": 0.667290301706683,
-                        "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/business_consulting/20240424-perplexity.json",
-                        "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/business_consulting/20240424-perplexity.csv",
+                        "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/ragas(deprecated)/business_consulting/20240424-perplexity.json",
+                        "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/ragas(deprecated)/business_consulting/20240424-perplexity.csv",
                         "evaluate_ai": "perplexity"
                     },
                     {
@@ -346,8 +346,8 @@
                         "failed": 10,
                         "pass_rate": "50.00%",
                         "answer_correctness": 0.6324069653265152,
-                        "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/business_consulting/20240424-glarity_search.json",
-                        "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/business_consulting/20240424-glarity_search.csv",
+                        "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/ragas(deprecated)/business_consulting/20240424-glarity_search.json",
+                        "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/ragas(deprecated)/business_consulting/20240424-glarity_search.csv",
                         "evaluate_ai": "glarity_search"
                     },
                     {
@@ -356,8 +356,8 @@
                         "failed": 9,
                         "pass_rate": "55.00%",
                         "answer_correctness": 0.6289624514648339,
-                        "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/business_consulting/20240424-metaso.json",
-                        "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/business_consulting/20240424-metaso.csv",
+                        "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/ragas(deprecated)/business_consulting/20240424-metaso.json",
+                        "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/ragas(deprecated)/business_consulting/20240424-metaso.csv",
                         "evaluate_ai": "metaso"
                     },
                     {
@@ -366,8 +366,8 @@
                         "failed": 17,
                         "pass_rate": "15.00%",
                         "answer_correctness": 0.5813569803042006,
-                        "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/business_consulting/20240424-you.json",
-                        "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/business_consulting/20240424-you.csv",
+                        "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/ragas(deprecated)/business_consulting/20240424-you.json",
+                        "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/ragas(deprecated)/business_consulting/20240424-you.csv",
                         "evaluate_ai": "you"
                     },
                     {
@@ -376,8 +376,8 @@
                         "failed": 12,
                         "pass_rate": "40.00%",
                         "answer_correctness": 0.594816959110364,
-                        "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/business_consulting/20240424-iask.json",
-                        "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/business_consulting/20240424-iask.csv",
+                        "source": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/ragas(deprecated)/business_consulting/20240424-iask.json",
+                        "source_csv": "https://github.com/sparticleinc/ASEED/blob/main/evaluations/ragas(deprecated)/business_consulting/20240424-iask.csv",
                         "evaluate_ai": "iask"
                     }
                 ]

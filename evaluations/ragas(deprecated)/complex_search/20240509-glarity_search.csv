@@ -1,0 +1,111 @@
+metadata,question,answer,ground_truths,keywords,answer_correctness,passed
+"{'id': 1, 'scene': 'complex_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/complex_search.csv', 'language': 'en'}","Which movie is longer, Hamlet or Gone with the Wind","When comparing the movies ""Hamlet"" and ""Gone with the Wind"" in terms of length, the answer varies depending on the version and specific runtime of each movie. ""Gone with the Wind"" is known for its epic length, with a runtime of 3 hours and 58 minutes according to one source. On the other hand, different versions of ""Hamlet"" exist, but typically the runtime can be around 4 hours or longer for certain adaptations. 
+
+To provide a more precise answer, the specific version of ""Hamlet"" being referred to would need to be known. However, in general, based on the information available, ""Hamlet"" may be slightly longer than ""Gone with the Wind,"" making it a considerable cinematic experience due to its complex narrative and character depth.",['The movie that is longer is Hamlet.\nThe key details are:\nHamlet (1996) directed by Kenneth Branagh has a runtime of 242 minutes (4 hours 2 minutes) \nGone with the Wind (1939) has a runtime of 221 minutes (3 hours 41 minutes)'],['Hamlet'],0.5660478271234833,True
+"{'id': 2, 'scene': 'complex_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/complex_search.csv', 'language': 'en'}",Which player was awarded the most number of Man of the match titles in the FIFA world cup of 2006?,"In the FIFA World Cup of 2006, the player who was awarded the most number of Man of the Match titles was Zinedine Zidane. Zidane, a renowned French footballer, had an exceptional performance during the 2006 World Cup. He was recognized for his outstanding contributions in several matches, earning him the Man of the Match title multiple times throughout the tournament.
+
+Zinedine Zidane's impressive performances in the 2006 FIFA World Cup contributed significantly to his team's success and ultimately led to him being awarded the most Man of the Match titles during the tournament. His skill, leadership, and impact on the field made him a standout player in the competition, capturing the attention of football fans and critics alike.
+
+Zinedine Zidane's remarkable achievements in the 2006 World Cup, including being awarded the most Man of the Match titles, solidified his reputation as one of the greatest footballers of his time. His talent and influence on the game were evident through his performances in the tournament, earning him this prestigious recognition.","['the player who was awarded the most number of Man of the Match titles in the 2006 FIFA World Cup was Andrea Pirlo of the Italy national team, who won 3 such awards']",['Andrea Pirlo'],0.5393028384796006,False
+"{'id': 3, 'scene': 'complex_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/complex_search.csv', 'language': 'en'}",Which award received in 2003 by the movie The Ring?,"In 2003, the movie ""The Ring"" received the Hollywood Breakthrough Award at the Hollywood Film Awards. The film was recognized with this accolade in 2002, indicating its impact and success within the industry during that time.
+
+""The Ring"" was well-received in 2003, becoming not only a commercially successful film but also obtaining critical acclaim and awards. This particular award, the Hollywood Breakthrough Award, sheds light on the recognition the movie garnered for its breakthrough performance, direction, or production aspect that significantly contributed to its success during that period.",['MTV Movie Award for Best Villain'],['Best Villain'],0.4614663980896121,False
+"{'id': 4, 'scene': 'complex_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/complex_search.csv', 'language': 'en'}",What is the date of publication of the first book of the Outland series?,"The first book in the Outlander series, written by Diana Gabaldon, was published on 1991. The novel ""Outlander"" marked the beginning of this historical fantasy series that has gained significant popularity since its release. Diana Gabaldon started working on this volume in the late 1980s, and it eventually came out in 1991. As of now, nine out of the planned ten volumes have been published, with the latest release being ""Go Tell the Bees That I Am Gone"" in November 2021. The Outlander series has captivated readers with its mix of historical fiction and fantasy elements, enriched by intricate storytelling.","['The first book in the Outlander series, titled ""Outlander"" (published as ""Cross Stitch"" in the UK, Australia, and New Zealand), was published on June 1, 1991.']",['1991'],0.8450503287970237,True
+"{'id': 5, 'scene': 'complex_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/complex_search.csv', 'language': 'zh_cn'}",家里有孩子，怕狂犬病，养乌龟好，还是养茶杯犬好？,"考虑家里有孩子且担心狂犬病的情况下，选择养乌龟还是养茶杯犬需要认真考虑它们的特点以及家庭的情况。以下是对这两种选择的分析：
+
+### 养乌龟：
+养乌龟对于有孩子的家庭可能是一个相对安全的选择，尤其是担心狂犬病传播的家庭。乌龟通常不具有攻击性，也不会传播狂犬病。此外，乌龟相对容易照顾，不需要过多的精力和时间，适合家里有小孩的情况。
+
+### 养茶杯犬：
+养茶杯犬则是一种需要更多关注和照顾的宠物选择。茶杯犬通常需要更多的运动和社交，也需要更多的训练和注意力。家里有孩子的情况下，可能需要更多的管理和监督来确保孩子和犬的安全。此外，茶杯犬可能存在咬人的风险，尤其是当孩子和狗交互时。
+
+综合考虑，如果家里有孩子且担心狂犬病传播，养乌龟可能是一个更加安全和容易管理的选择。然而，无论选择乌龟还是茶杯犬，都需要家长的耐心和责任心来确保宠物和孩子的健康与安全。
+
+在养宠物前，也建议家长们咨询兽医或宠物专家，以获得更多关于宠物选择和照顾的建议，以确保最佳的家庭环境。",['家里有孩子的话，养乌龟可能比茶杯犬更安全一些。乌龟不会像狗狗那样咬人或传播狂犬病。'],['乌龟'],0.7546619215261487,True
+"{'id': 6, 'scene': 'complex_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/complex_search.csv', 'language': 'zh_cn'}",周传雄有哪些代表作品，播放量最高的事哪首,"周传雄的代表作品包括许多经典歌曲，其中一些备受欢迎的代表作品有：
+
+1. 《红豆》
+2. 《黑色幽默》
+3. 《天黑》
+4. 《遥远的她》
+5. 《爱情转移》
+
+在这些代表作品中，根据播放量最高的标准，最受欢迎的一首歌是《红豆》。这首歌曲深受听众喜爱，常常被人们传唱和演绎，是周传雄的代表性作品之一。",['周传雄有哪些代表作品有：黄昏、寂寞沙洲冷、关不上的窗、冬天的秘密、我难过、青花、我的心太乱、男人海洋。周传雄代表作品中播放量最高的应该是《青花》。'],['黄昏||青花'],0.5447664228237961,False
+"{'id': 7, 'scene': 'complex_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/complex_search.csv', 'language': 'zh_cn'}",迷迭香精油的作用和用法,"迷迭香精油是一种多功能的精油，从提升记忆力到促进头发生长，都有着广泛的用途。以下是迷迭香精油的主要作用和用法：
+
+### 作用：
+1. **消毒杀菌：** 迷迭香精油具有强大的消毒特性，可用于清洁和杀菌，有助于预防感染。历史上人们就用迷迭香燃烧来驱除邪恶，同时也在医院中使用迷迭香精油来消毒空气和表面.
+
+2. **增强记忆：** 迷迭香精油能刺激中枢神经系统，提升记忆力和专注力。研究表明，迷迭香精油可以促进思维清晰、增强学习效果.
+
+3. **促进头发生长：** 迷迭香精油可以刺激头皮，促进血液循环，从而有助于增强头发生长和减少脱发。添加到洗发水或按摩头皮可改善头发健康.
+
+4. **舒缓肌肉酸痛：** 适合用于缓解肌肉疼痛和疲劳。混合迷迭香精油和其他精油按摩肌肉可带来放松和舒缓效果，特别适合运动后使用.
+
+### 用法：
+1. **香薰：** 将几滴迷迭香精油加入芳香炉或者使用蒸汽吸入法，有助于提升心情、清晰思维，以及减轻疲劳。可以在办公室或学习空间中使用.
+
+2. **按摩：** 将迷迭香精油与基础油搭配按摩，可舒缓肌肉疼痛，促进血液循环。特别适用于舒缓肌肉酸痛和放松身心.
+
+3. **头发护理：** 每次洗发时加入1-2滴迷迭香精油，可以改善头皮健康、减少头屑和促进头发生长。也可按摩头皮来提升头发质量.
+
+4. **清洁用途：** 可以将迷迭香精油加入清洁用品中，如洗发水或清洁剂，来提升其杀菌和清洁效果，保持家居清洁卫生.
+
+综合来看，迷迭香精油不仅具有消毒和清洁作用，还能提升认知功能、促进健康头发生长以及缓解肌肉疼痛。因此，使用迷迭香精油可以在多个方面带来身心健康的益处。",['迷迭香精油的功效：消毒杀菌、增强记忆、有益于头发生长、调理呼吸系统、缓解肌肉酸痛。迷迭香精油的正确使用方法：涂抹法、按摩法、熏香法。'],"['头发', '呼吸', '按摩']",0.7485604825025806,True
+"{'id': 8, 'scene': 'complex_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/complex_search.csv', 'language': 'zh_cn'}",吉布斯自由能和化学平衡常数的关系,"吉布斯自由能（Gibbs free energy）在化学热力学中是一个重要的概念，用来判断化学过程的方向。吉布斯自由能可以通过方程ΔG=ΔH－TΔS来表示，其中ΔG代表吉布斯自由能的变化量，ΔH为焓变，T为温度，ΔS为熵变。在等温等压的封闭系统中，当ΔG=0时，反应达到平衡，而当ΔG小于0时，反应朝着生成物方向进行。因此，吉布斯自由能的变化可作为恒温、恒压过程自发性和平衡性的判断标准。
+
+化学平衡常数（equilibrium constants）与吉布斯自由能之间存在密切关系。对于任何反应，其平衡常数与在标准条件下的吉布斯自由能变化相关。具体而言，ΔG°和平衡常数K之间有以下关系式：ΔG°=−RTlnK。这个关系式表明了吉布斯自由能变化和平衡常数之间的连接，特别是在非平衡系统下，ΔG和反应商数Q可以指示反应进行的方向。
+
+综合而言，吉布斯自由能是用来判断化学反应方向和判定平衡状态的重要量，而化学平衡常数则是与吉布斯自由能密切相关，通过吉布斯自由能变化量和平衡常数之间的关系，我们能够更好地理解化学反应的平衡特性和自发性。","['吉布斯自由能和化学平衡常数之间有以下关系:\n1. 标准吉布斯自由能变化(ΔG°)与标准平衡常数(K°)之间有以下关系:\nΔG° = -RTlnK°\n其中,R是气体常数,T是绝对温度。这个公式表明,当反应的标准吉布斯自由能变化减小时,标准平衡常数就会增大,反应越容易达到平衡。\n1. 在化学平衡状态下,反应物和产物的吉布斯自由能之和达到最小值。平衡时,反应的吉布斯自由能变化ΔG = 0。\n2. 平衡常数K与反应的吉布斯自由能变化ΔG的关系为:\nΔG = -RTlnK\n这表明,当ΔG < 0时,K > 1,反应自发进行;当ΔG > 0时,K < 1,反应不自发进行。总之,吉布斯自由能变化和平衡常数K之间存在着密切的数学关系,可以相互推算。知道其中一个,就可以计算出另一个。这对于判断反应的自发性和预测反应的平衡组成都很有帮助。']","['ΔG', 'RTlnK']",0.7633726076192515,True
+"{'id': 9, 'scene': 'complex_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/complex_search.csv', 'language': 'zh_tw'}",劉德華比周傳雄（小剛）大幾歲？,根据搜索结果，劉德華比周傳雄（小剛）大了大约四到十年。周傳雄以小剛的名字在二十岁时出道，而劉德華在他成名时已经是一个资深的艺人。劉德華被称为香港乐坛的天王之一，与周傳雄同辈出道的还有张学友等著名歌手. 因此，可以得出劉德華比周傳雄大了大约四到十年的结论。,['劉德華出生於1961年9月27日，而周傳雄（小剛）則出生於1969年6月7日。因此，劉德華比周傳雄大約8年。'],['8'],0.5564183062871042,False
+"{'id': 10, 'scene': 'complex_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/complex_search.csv', 'language': 'zh_tw'}",台灣的兩條鐵路線會加掛另一個機車頭作為補機用，一條是東部幹線宜蘭段，另一條是?,"在台灣，除了東部幹線宜蘭段之外，另一條鐵路線會加掛另一個機車頭作為補機用是縱貫鐵路山線段。縱貫鐵路山線段由於坡度較高，貨運列車通常會在此段加掛另一個機車頭作為補機，以確保列車在坡度陡峭的路段能夠順利行駛。這種補機的做法確保了列車運行的安全和有效性。
+
+補機的概念是為了應對較困難的路段或特殊情況，確保列車能夠穩定運行。在台灣的東部幹線宜蘭段和縱貫鐵路山線段，補機策略的應用使得鐵路運輸更加可靠，特別是面對複雜地形和需求較大的運輸情況時。",['在台灣，有兩條鐵路線通常會加掛另一個機車頭作為補機用。其中一條是東部幹線宜蘭段，而另一條則是縱貫鐵路山線段。'],['縱貫鐵路山線段'],0.8046491805280004,True
+"{'id': 11, 'scene': 'complex_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/complex_search.csv', 'language': 'zh_tw'}",為何參觀一線天必須要經過地方軍事首長允許？,"進入一線天觀光景點必須經過地方軍事首長允許的原因可能有多種解釋。根據資料顯示，這可能涉及到景點位於敏感地區或邊境，存在軍事安全上的考量。軍事首長對進入該區域的訪客擁有管理權，以確保景點及周邊地區的安全。他們需要對進入的人員進行審查和控制，以確保沒有危險情況發生。
+
+此外，一線天可能被視為重要的軍事戰略地點，可能存在軍事設施或活動，因此需要軍事首長的允許才能進入。這是保障區域安全和機密性的措施，也符合軍事對特定區域的管理和控制。
+
+總的來說，需要地方軍事首長允許才能參觀一線天可能是為了保護區域安全、維護軍事秩序以及防止未經授權的訪客進入可能對當地造成風險的地區。這些措施旨在確保景點及周邊地區的安全與秩序。",['造成遊客參觀一線天必須經過地方軍事首長允許的原因是因為一線天目前仍屬重要軍事基地。'],['重要軍事基地'],0.5658397446826918,True
+"{'id': 12, 'scene': 'complex_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/complex_search.csv', 'language': 'zh_tw'}",臺灣2022年GDP總量相比2012年增加了多少美元？,"根据提供的资料，台湾地区生产总值（GDP）在2022年达到了7626.74亿美元。与2012年相比，2012年的GDP为1.2万亿元，折合为约910.62亿美元。因此，台湾的2022年GDP总量相比2012年增加了大约6716.12亿美元（7626.74亿美元 - 910.62亿美元）。
+
+这表明台湾在这段时间里取得了显著的经济增长，体现了经济的高质量发展和持续进步。","['2022年台灣的GDP總量為760,460兆美元，而2012年的GDP總量為495,610兆美元。因此，從2012年到2022年，台灣的GDP總量增加了760,460−495,610=264,850兆美元。']",['264'],0.557129163336871,False
+"{'id': 13, 'scene': 'complex_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/complex_search.csv', 'language': 'ja'}",麻生太郎は酒井法子より何歳年上ですか。,根据搜索结果，麻生太郎比酒井法子大11岁。这表明麻生太郎比酒井法子年长11岁。,['麻生太郎は酒井法子より31歳年上です。'],['31'],0.5397495820643717,False
+"{'id': 14, 'scene': 'complex_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/complex_search.csv', 'language': 'ja'}",『たなばたま』童謡と『ラブ·ソー·スウィート』の発行期間はそれぞれ何年ですか？,"『たなばたま』童謡と『ラブ・ソー・スウィート』という楽曲の発行期間については、それぞれ以下の情報をもとに考察できます。
+
+- 『たなばたま』童謡に関する情報は検索結果には含まれていませんでした。童謡には著作権の保護期間があることが一般的であり、一般的には著作権保護期間が終了してから著作権フリーとなります。したがって、公開された年から現在の年を引くことで、大まかな発行期間を知ることができます。特定の情報が提供されない場合は、正確な情報を提供することは難しいです。
+
+- 『ラブ・ソー・スウィート』という楽曲についても特定の情報が検索結果から得られませんでした。曲の発行年や著作権情報がない場合、正確な発行期間を特定することは難しいです。著作権の有効期間や保護期間によって、特定の楽曲の発行期間が異なります。
+
+したがって、『たなばたま』童謡および『ラブ・ソー・スウィート』の発行期間については、より具体的な情報がない限り、正確な年数を特定することは難しい状況です。",['たなばたま”は1941年(昭和16年)に発行された。\n“ラブ·ソー·スウィート”というシングルは、日本の男性アイドルグループ·AKB 48からリリースされ、リリース期間は2007年2月21日。'],"['1941', '2007']",0.5265656688625671,False
+"{'id': 15, 'scene': 'complex_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/complex_search.csv', 'language': 'ja'}",料理研究家の尚道子によって考案された、ウインナーを箸でつかみやすくするために、ある海の生き物に似せた飾り切りをしたものを何というでしょう?,"料理研究家の尚道子によって考案された、ウインナーを箸でつかみやすくするために海の生き物に似せた飾り切りをしたものは、「なみだばし」です。この斬新なアイデアは、箸でウインナーを取りやすくするために考案されました。尚道子氏が考案したこの飾り切りの名前は、箸の先から汁をしたたらせる効果を持つユニークなデザインとして知られています。
+
+この「なみだばし」は、箸づかいで箸の先から汁をしたたらせることを意味し、箸でウインナーをつかむ際に便利なデザインとなっています。尚道子氏の斬新な発想が生み出したこの飾り切りは、料理文化に新しい要素を加えると同時に、食卓での楽しさや利便性を向上させる一環として評価されています。
+
+尚道子氏が考案した「なみだばし」は、料理の世界において革新的なアイデアとして注目されています。この飾り切りは、食卓での食事体験を豊かにし、箸を使う際の操作性や楽しさを向上させる一助となっています。",['尚道子によって考案された、ウインナーを箸でつかみやすくするために、タコに似せた飾り切りをしたものは「たこさんウィンナー」と呼ばれています。'],['タコさんウインナー||たこさんウィンナー'],0.5529969600706651,False
+"{'id': 16, 'scene': 'complex_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/complex_search.csv', 'language': 'ja'}",1987年に第1作がリリースされた、カプコンの格闘ゲームシリーズで、昇龍拳や竜巻旋風脚などの技が登場するのは何ですか？,"1987年に第1作がリリースされた、カプコンの格闘ゲームシリーズで、昇龍拳や竜巻旋風脚などの技が登場するのは、「ストリートファイター」シリーズです。このシリーズは1987年にカプコンからリリースされた第1作目を含む作品群で、後に「ストリートファイターII」や「ストリートファイター Alpha」シリーズなどが続きました。初代「ストリートファイター」は、格闘ゲームの歴史において重要な位置を占める作品であり、昇龍拳や竜巻旋風脚などの必殺技が初めて登場しました。
+
+このシリーズは、多くのキャラクターと彼らの独特な技を特徴としています。ストリートファイターシリーズには、リュウやケン、春麗、ザンギエフ、バイソンなどの多くのキャラクターが登場し、それぞれが独自の必殺技を持っています。昇龍拳や竜巻旋風脚は、このシリーズで非常に有名な技であり、プレイヤーたちにとって親しまれてきた要素です。 
+
+「ストリートファイター」シリーズは、格闘ゲームのジャンルに多大な影響を与え、長い歴史と多彩なキャラクター、必殺技によって世界中のファンから支持されています。昇龍拳や竜巻旋風脚などの独特な技は、このシリーズを象徴する要素の一つとして、ゲームプレイに深みと戦略性を加えています。",['『ストリートファイター』シリーズです。'],['ストリートファイター||タコさんウィンナー'],0.6148615012861449,True
+"{'id': 17, 'scene': 'complex_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/complex_search.csv', 'language': 'ko'}",북한과 한국은 각각 어느 해에 중국과 수교를 맺습니까?,"북한과 한국은 중국과 수교를 맺은 시기에 대해 각각 다른 시기에 수교를 맺었습니다. 
+
+북한은 중국과 수교를 맺은 시기는 정확히 밝혀지지 않았지만, 중국과 북한은 서로의 동맹 관계를 강화하기 위해 계속적으로 협력해왔습니다. 중국은 북한의 최대 무역 파트너이자 군사적 동맹국으로도 알려져 있습니다. 이들 간의 관계는 북한의 군사적 발전과 국제 정세에 영향을 미치는 중요한 측면 중 하나입니다. 
+
+한편, 한국은 중국과 수교를 맺은 시기는 1992년으로 알려져 있습니다. 이를 통해 한국과 중국은 외교적 관계를 맺고 협력을 증진해왔으며, 이후 양국 간의 경제적 교류 등이 활발하게 이루어지고 있습니다. 중국과 한국은 지역 안정과 경제 발전을 위해 협력하고 있으며, 서로의 중요한 이웃 국가로서 현재까지 관계를 유지하고 있습니다. 
+
+따라서, 북한과 중국, 그리고 한국과 중국은 각각 다른 시기에 수교를 맺었으며, 양국 간의 외교적 동향은 각각의 정치적 및 경제적 상황에 따라 다양하게 변화하고 있습니다.","['조선민주주의인민공화국(북한)과 중화인민공화국(중국)은 1949년 10월 6일 수교했으며, 북한은 중국과 수교한 첫 나라 중 하나다. \n중국과 대한민국(한국)은 1992년 8월 24일 정식으로 외교관계를 수립했다.']","['1949', '1992']",0.5988313567443169,False
+"{'id': 18, 'scene': 'complex_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/complex_search.csv', 'language': 'ko'}",이명박과 박정희는 누가 교육 정도를 좀 더 높게 받았나.,"이명박과 박정희는 한국의 교육 정책에 영향을 미친 대통령으로서 잘 알려져 있습니다. 두 대통령의 교육 수준을 비교해보겠습니다.
+
+이명박은 한국 대통령으로 2008년부터 2013년까지 임기를 맡았습니다. 그는 한양대학교를 졸업하고 2011년에는 파리 디드로 대학으로부터 명예 학위를 받았습니다. 이렇게 보면 이명박은 학사 학위와 명예 학위를 보유하고 있습니다.
+
+한편 박정희 대통령은 1961년부터 1979년까지 대한민국 대통령으로 임명되었습니다. 박정희 대통령은 미국 웨스트포인트 군사학교를 졸업하였으며, 이 과정에서 고득점을 얻었습니다. 그리고 이후 일본 군사 학교에서 군사 교육을 받았습니다.
+
+이에 따라 박정희 대통령은 교육 수준면에서는 군사 및 학업적 배경을 고려할 때 좀 더 높은 교육을 받았다고 볼 수 있습니다. 한편 이명박 대통령은 한양대를 졸업하고 명예 학위를 받았지만, 교육적 배경에서 박정희 대통령보다는 상대적으로 조금 더 낮은 수준으로 평가될 수 있습니다.",['이명박 대통령의 교육 수준이 박정희 대통령보다 높습니다.'],['이명박'],0.5558291820642797,False
+"{'id': 19, 'scene': 'complex_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/complex_search.csv', 'language': 'ru'}",когда Россия установила дипломатические отношения с Южной Кореей и когда она выиграла Крым?,"Россия установила дипломатические отношения с Южной Кореей в сентябре 1990 года. В 2014 году Россия присоединила Крым, что оказало серьезное испытание для российско-южнокорейских отношений. В результате аннексии Крыма отношения между Россией и Южной Кореей стали напряженными, и остаются таковыми до сих пор. 
+
+Южная Корея стремилась разнообразить партнеров по торговле и стимулировать Северную Корею на диалог с помощью установления дипломатических отношений с Россией в 1990 году. В последующие годы отношения между двумя странами сдерживали влияние событий, таких как аннексия Крыма, что повлияло на решения южнокорейского руководства в отношении сотрудничества с Россией.
+
+Таким образом, Россия установила дипломатические отношения с Южной Кореей в 1990 году, а события вокруг аннексии Крыма в 2014 году существенно повлияли на характер этих отношений.","['Южная Корея установила дипломатические отношения с Россией в 1990 году, а Россия выиграла Крым в 2014 году.']","['1990', '2014']",0.8027130808298701,True
+"{'id': 20, 'scene': 'complex_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/complex_search.csv', 'language': 'ru'}",когда Россия приобрела Сибирь и когда продала Аляску?,"Россия начала приобретение Сибири в конце XVI века и завершила этот процесс к XVII веку. Важно отметить, что существует множество версий истории приобретения Сибири, но одним из наиболее известных событий является завоевание Сибири казаками под командованием Ермака Тимофеевича в 1581 году и последующее включение этих территорий в состав Российского государства.
+
+Что касается продажи Аляски, то этот исторический момент произошел в 1867 году. Американское государство приобрело Аляску от Российской империи через так называемую ""Аляску-сделку"". Соответствующий договор был утвержден Сенатом США, и 18 октября 1867 года Аляска официально перешла под юрисдикцию Соединенных Штатов. Сделка произошла за 7,2 миллиона долларов того времени, что эквивалентно примерно 129 миллионам долларов в 2023 году. Таким образом, Россия продала Аляску, общей площадью 1 518 800 км², за сравнительно небольшую сумму денег.","['Россия оккупировала Сибирское ханство в 1581 году, положив начало завоеванию Сибири. \n30 марта 1867 года Россия продала Аляску США за 7,2 миллиона долларов.']","['1581', '1867']",0.7694689651738508,True

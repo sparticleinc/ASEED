@@ -1,0 +1,381 @@
+{
+    "evaluate_ai": {
+        "name": "Iask",
+        "url": "https://iask.ai"
+    },
+    "evaluate_llm": "gpt-4-1106-preview",
+    "evaluate_type": "ragas",
+    "evaluate_data": {
+        "total": 20,
+        "passed": 13,
+        "failed": 7,
+        "pass_rate": "65.00%",
+        "answer_correctness": 0.6517946531692655
+    },
+    "created_at": "2024-04-24 13:26:15",
+    "datas": [
+        {
+            "metadata": {
+                "id": 1,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/real_time_news.csv",
+                "language": "en"
+            },
+            "question": "Who's the United States Trade Representative?",
+            "answer": "The United States Trade Representative is Katherine Tai.\n    \n\n\n    Top 3 Authoritative Sources Used:\n   \n\n\n\n      USTR.gov\n     \n\n\n\n      Wikipedia\n     \n\n\n\n      Office of the United States Trade Representative (USTR) Website\n     \n\n\n\n    These sources were used to provide accurate and up-to-date information on the current United States Trade Representative, Katherine Tai. The USTR website and the Office of the USTR provide official information about the organization and its leadership, while Wikipedia offers additional background information on past trade representatives for context.",
+            "ground_truths": [
+                "The name of the United States Trade Representative is Katherine Chi Tai. She is a Taiwanese American trade lawyer and currently serves as the United States Trade Representative."
+            ],
+            "keywords": [
+                "Katherine"
+            ],
+            "answer_correctness": 0.7614332368986465,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 2,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/real_time_news.csv",
+                "language": "zh_tw"
+            },
+            "question": "百川最新的融資",
+            "answer": "百川最新的融资：\n    \n\n\n    根据报道，百川智能正在进行新一轮数亿美元融资。尽管有投资人透露其今年以来估值已超过18亿美元（约合人民币130亿元），但百川智能方面对此回应称公司并未对外披露过最新融资信息，报道中涉及的金额也不准确。\n   \n\n\n    These sources provided detailed and up-to-date information on the latest developments regarding 百川智能’s financing activities, including the reports on the current round of funding and the responses from the company regarding the accuracy of the disclosed valuation and funding details.",
+            "ground_truths": [
+                "有媒體報導稱，百川智能正在進行新一輪數億美元融資，將成為2024年國內AI領域最大融資之一，且公司今年以來估值已超18億美元。"
+            ],
+            "keywords": [
+                "18||3"
+            ],
+            "answer_correctness": 0.7311705506023043,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 3,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/real_time_news.csv",
+                "language": "zh_cn"
+            },
+            "question": "Perplexity最近融资情况",
+            "answer": "Perplexity AI recently raised approximately $63 million in a new funding round, bringing its valuation to over $1 billion. The investment was led by Daniel Gross, with participation from investors like Stanley Druckenmiller, Garry Tan, Dylan Field, Jeff Bezos, and Nvidia among others. Perplexity offers an AI-powered conversational search engine that provides concise and accurate answers to user queries. The company has been gaining traction in the market due to its focus on accuracy and quality of search results.",
+            "ground_truths": [
+                "2024年4月23日，Perplexity AI又宣布完成了新一轮融资，筹集了6270万美元，融资后估值达到了10亿美元5810。这次融资使得公司的估值较上一轮融资翻了一番"
+            ],
+            "keywords": [
+                "62.7||6270"
+            ],
+            "answer_correctness": 0.6184439236142368,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 4,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/real_time_news.csv",
+                "language": "zh_tw"
+            },
+            "question": "最近台灣地震造成的傷亡人數是多少？",
+            "answer": "The recent Taiwan earthquake resulted in at least 7 deaths and 736 injuries.\n    \n\n\n    Top 3 Authoritative Sources Used in Answering this Question:\n   \n\n\n\n      Central News Agency (CNA)\n     \n\n\n\n      United States Geological Survey (USGS)\n     \n\n\n\n      Taiwan Central Weather Bureau\n     \n\n\n\n    The sources provided up-to-date and reliable information on the recent earthquake in Taiwan, including details on casualties and seismic activity.",
+            "ground_truths": [
+                "台灣花蓮地震死亡數字上升。10日救援人員在花蓮太魯閣區域砂卡礑步道尋獲3具遺體，花蓮7.3級地震罹難人數上升至16人。"
+            ],
+            "keywords": [
+                "16"
+            ],
+            "answer_correctness": 0.495153995547667,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 5,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/real_time_news.csv",
+                "language": "ja"
+            },
+            "question": "最近の埼玉県行田市事故の死傷者数は何人ですか?",
+            "answer": "The recent accident in Saitama Prefecture, specifically in the city of Gyoda, resulted in 4 people being killed or injured.\n    \n\n\n    The accident involved a 76-year-old female driver whose car veered out of its lane and collided with a total of 4 vehicles, including cars and trucks. The incident occurred on a single-lane city road in Gyoda. The woman’s vehicle crossed into oncoming traffic, leading to collisions with two oncoming cars, another car, and a large truck. As a result of the accident, a 47-year-old woman who was driving one of the oncoming cars tragically lost her life. Additionally, her 8-year-old daughter who was with her, the 52-year-old male driver of the truck, and the elderly female driver who caused the initial collision sustained varying degrees of injuries.\n   \n\n    The Gyoda Police Station is currently investigating the exact cause of the accident while monitoring the recovery of the injured parties.\n   \n\n\n    These sources were utilized to gather information regarding the recent accident in Gyoda City, Saitama Prefecture, providing details about the number of casualties and the circumstances surrounding the tragic incident.",
+            "ground_truths": [
+                "最近の埼玉県行田市の事故での死傷者数は以下の通りです:\n死亡者数: 1人\n負傷者数: 3人"
+            ],
+            "keywords": [
+                "1||3||4"
+            ],
+            "answer_correctness": 0.715129769697304,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 6,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/real_time_news.csv",
+                "language": "ja"
+            },
+            "question": "藤岡康太騎手の怪我はどうでしたか？",
+            "answer": "藤岡康太騎手の怪我は、頭部と胸部を負傷していました。\n    \n    落馬事故が原因で意識不明の重体となり、病院で治療を受けていましたが、最終的に亡くなったことが発表されました。\n   \n\n    The information provided in the response was gathered from various news outlets reporting on the incident, including official statements from the Japan Racing Association (JRA) and specific details mentioned in articles from TOKYO-SPORTS.",
+            "ground_truths": [
+                "藤岡康太騎手は、2024年4月6日に行われた阪神競馬場の第7レースで落馬し、頭部と胸部を負傷しました.この落馬の後、藤岡騎手は病院に搬送され、意識を取り戻すことなく、後に怪我のため亡くなりました.この悲報は日本中央競馬会(JRA)からも発表されました"
+            ],
+            "keywords": [
+                "亡"
+            ],
+            "answer_correctness": 0.6781239643271606,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 7,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/real_time_news.csv",
+                "language": "zh_tw"
+            },
+            "question": "士林區溪山里事件的起因是什麼？",
+            "answer": "The main cause of the incident in Xishan Village, Shilin District, Taipei City was the contamination of the water source used by the residents. The water source in the area was mountain spring water, which had high levels of coliform bacteria. This contamination led to a large-scale outbreak of gastrointestinal symptoms among the residents, including vomiting and diarrhea. The presence of coliform bacteria in the water was significantly above drinking water standards, indicating a potential health risk associated with consuming this water. The exact pathogen responsible for the outbreak is still under investigation pending further analysis of both the water source and samples from affected individuals.\n    \n\n\n\n\n\n     Sources Used:\n    \n\n\n\n\n\n       Central News Agency (CNA):\n      \n      The CNA provided detailed coverage of the events in Xishan Village, Shilin District, Taipei City, including information on the outbreak of gastrointestinal illness among residents and the initial investigations into the contaminated water source.\n     \n\n\n\n\n       Taipei City Health Bureau:\n      \n      Information from the Taipei City Health Bureau was crucial in understanding the response to the health crisis in Xishan Village. They conducted investigations, provided updates on affected individuals, and offered guidance on healthcare measures to address the situation.\n     \n\n\n\n\n       Taipei Water Department:\n      \n      Insights from the Taipei Water Department were essential in uncovering details about the water quality issues in Xishan Village. They conducted tests on the water sources and shared data on coliform bacteria levels, contributing to understanding the potential causes of the outbreak.\n     \n\n\n\n    These sources collectively provided comprehensive and reliable information on the incident, its impact on residents, and ongoing efforts to identify and address the root cause of the health crisis in Xishan Village.",
+            "ground_truths": [
+                "士林區溪山里事件的起因是與水質問題有關。根據報導，溪山里的居民平常使用自行成立的供水系統，主要使用山泉水作為飲用水源。然而，由於地震等自然災害可能導致山泉水受到污染，進而造成水質問題。事件中大腸桿菌群數值偏高，反映了水質有異常情況，因此許多居民出現了腹瀉和嘔吐等腸胃道疾病症狀。台北市政府為了緊急應對此情況，已提供緊急取水站以及醫療服務，並展開全面水質檢測及環境消毒等措施以解決問題。因此，士林區溪山里事件的起因主要是因為使用的山泉水受到污染所導致的水質問題。"
+            ],
+            "keywords": [
+                "地震"
+            ],
+            "answer_correctness": 0.6940480490813214,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 8,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/real_time_news.csv",
+                "language": "ja"
+            },
+            "question": "3月のCPI",
+            "answer": "March CPI Data:\n    \n    The March Consumer Price Index (CPI) in the U.S. showed a year-over-year increase of\n    \n     3.5%\n    \n    , surpassing market expectations and exceeding the previous month’s figure of 3.2%. The Core CPI, which excludes volatile food and energy prices, also saw an increase, with a year-over-year rise of\n    \n     3.8%\n    \n    .\n   \n\n\n     Key Points:\n    \n\n\n\n     The Core CPI has shown three consecutive months of above-forecast increases, indicating a potential slowdown in the previously observed inflation deceleration trend.\n    \n\n     Components such as food, energy, and services contributed to the overall inflationary pressures.\n    \n\n     The Federal Reserve’s focus on the “Super Core” index, excluding housing costs from core services prices, has shown an acceleration in inflation rates.\n    \n\n     Market reactions post-CPI release included a decrease in stock markets due to rising interest rates and a stronger U.S. dollar against the yen.\n    \n\n\n\n     Implications and Analysis:\n    \n    The higher-than-expected CPI figures have led to a shift in market sentiment regarding early rate cuts by the Federal Reserve. The Fed’s cautious approach towards rate cuts is supported by the persistent inflationary pressures indicated by recent data.\n   \n\n    While Fed Chair Powell had previously downplayed short-term inflation spikes as noise, the consistent above-forecast CPI results may prompt a reassessment of the overall inflation outlook.\n   \n\n    The upcoming Producer Price Index (PPI) release will provide further insights into price trends and potential impacts on future policy decisions by the Federal Reserve.\n   \n\n\n    These sources provided detailed coverage and analysis of the March CPI data in the U.S., offering insights into market reactions, expert opinions, and implications for monetary policy decisions.",
+            "ground_truths": [
+                "2024年3月の日本のCPIは2.8%"
+            ],
+            "keywords": [
+                "2.80%"
+            ],
+            "answer_correctness": 0.492842330534722,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 9,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/real_time_news.csv",
+                "language": "zh_tw"
+            },
+            "question": "今年在哪個國家可以看到日食",
+            "answer": "This year, the total solar eclipse can be seen in the United States, Mexico, and Canada.\n    \n\n\n\n    The sources provided detailed and accurate information about the total solar eclipse events happening in different regions.",
+            "ground_truths": [
+                "2024年4月8日：\n墨西哥、美國、加拿大：預計可以觀測到全食的日食。"
+            ],
+            "keywords": [
+                "2024",
+                "墨西哥||美國||加拿大"
+            ],
+            "answer_correctness": 0.6134399384560986,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 10,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/real_time_news.csv",
+                "language": "zh_tw"
+            },
+            "question": "海康威視去年的業績如何",
+            "answer": "海康威视去年的业绩表现如下：\n    \n\n\n\n     公司实现营收893.40亿，同比增长7.42%。\n    \n\n     归属上市股东净利润141.08亿，同比增长9.89%。\n    \n\n     净利润方面，公司实现净利润17.60亿元，同比增长13.27%。",
+            "ground_truths": [
+                "在2023年，海康威視的業績恢復增長，公司實現了營業收入893.55億元，同比增長7.44%，淨利潤為141.17億元，同比增長9.96%。"
+            ],
+            "keywords": [
+                "2023",
+                "893"
+            ],
+            "answer_correctness": 0.6420162427677881,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 11,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/real_time_news.csv",
+                "language": "en"
+            },
+            "question": "How many Israelis died in the attack launched by Iran?",
+            "answer": "Nine Israelis died in the attack launched by Iran.\n    \n\n\n\n    The sources used in this response are reputable news agencies and official military statements that provide accurate and up-to-date information on the events related to the conflict between Iran and Israel.",
+            "ground_truths": [
+                "According to the reports, there were no reported fatalities from the Iranian attack on Israel"
+            ],
+            "keywords": [
+                "no casualties"
+            ],
+            "answer_correctness": 0.6265388568488799,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 12,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/real_time_news.csv",
+                "language": "en"
+            },
+            "question": "Whom did Putin say carried out the Moscow attack?",
+            "answer": "Putin’s Statement on the Moscow Attack:\n    \n\n\n\n     Putin said that the gunmen who carried out the Moscow attack were “radical Islamists.”",
+            "ground_truths": [
+                "Vladimir Putin stated that \"radical Islamists\" were behind the deadly attack on the Crocus City concert hall in Moscow"
+            ],
+            "keywords": [
+                "radical Islamists||激进伊斯兰主义"
+            ],
+            "answer_correctness": 0.8694421334111143,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 13,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/real_time_news.csv",
+                "language": "en"
+            },
+            "question": "What precisely caused the ship to collide with the Baltimore bridge?",
+            "answer": "The exact cause of the ship, the Dali, colliding with the Baltimore’s Francis Scott Key Bridge on early Tuesday is still under investigation. However, it is known that the operators issued a mayday call moments before the crash stating that the vessel had lost power. Despite this, the 985-foot-long ship struck one of the bridge’s supports at 8 knots (roughly 9 mph), causing it to snap and fall into the water within seconds. The impact killed six construction workers who were filling potholes on the bridge at the time. The U.S. Coast Guard reported that the ship underwent routine engine maintenance in the port before it lost power. An inspection last June in Chile identified a problem with its “propulsion and auxiliary machinery,” but a standard examination in New York in September did not reveal any deficiencies. The massive weight and force of the ship caused significant damage to the bridge pier, which could not absorb the energy brought by such a large vessel. Federal and state investigators are treating the incident as an accident.",
+            "ground_truths": [
+                "When the container ship MV Dali, 300 metres long and massing around 100,000 tonnes, lost power and slammed into one of the support piers of the Francis Scott Key Bridge in Baltimore, the bridge collapsed in moments."
+            ],
+            "keywords": [
+                "lost power||电力||power loss||losing power"
+            ],
+            "answer_correctness": 0.7328734732954951,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 14,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/real_time_news.csv",
+                "language": "en"
+            },
+            "question": "Which island recently experienced a volcanic eruption in Indonesia?",
+            "answer": "Mount Ruang on Tagulandang Island\n    \n    recently experienced a volcanic eruption in Indonesia.\n   \n\n    The volcanic eruption occurred on Mount Ruang, which is located on Tagulandang Island, one of the Sangihe Islands off the northern coast of Sulawesi, Indonesia. The eruption began with at least five explosive events since Tuesday, leading to lava flows and ash plumes reaching high into the sky. The Volcanological Survey of Indonesia reported the series of eruptions and raised concerns about a potential tsunami due to fears of a partial collapse of the volcano into the sea.\n   \n\n    Indonesian authorities quickly responded by evacuating thousands of residents from the area surrounding Mount Ruang to ensure their safety. The Center for Volcanology and Geological Disaster Mitigation raised the alert status to the highest level due to increased visual activity and seismicity observed at the volcano.\n   \n\n    Mount Ruang is classified as a stratovolcano, known for its steep sides and explosive eruptions caused by gas build-up in viscous magma. The recent eruptions were triggered by seismic activity in the region, leading to significant ash emissions and lava flows. Despite the dramatic nature of the eruptions, no casualties have been reported so far.\n   \n\n    Indonesia, situated along the Pacific Ring of Fire, is prone to volcanic activity and earthquakes due to its location atop multiple tectonic plates. With over 120 active volcanoes in the country, monitoring and responding to volcanic events are crucial for ensuring public safety.\n   \n\n    In summary, Mount Ruang on Tagulandang Island recently experienced a volcanic eruption in Indonesia, prompting evacuations and raising concerns about a potential tsunami due to fears of a partial collapse into the sea.",
+            "ground_truths": [
+                "The name of the volcano is Mount Ruang on the northern side of Sulawesi Island."
+            ],
+            "keywords": [
+                "Sulawesi island||Mount Ruang"
+            ],
+            "answer_correctness": 0.5329913605852672,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 15,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/real_time_news.csv",
+                "language": "en"
+            },
+            "question": "In April 2024, based on the scheme passed by the US House of Representatives, how much money will the United States provide in aid to Ukraine?",
+            "answer": "The United States will provide $500 million in aid to Ukraine based on the scheme passed by the US House of Representatives in April 2024.",
+            "ground_truths": [
+                "In April 2024, the US House of Representatives passed a significant aid package for various countries, including Ukraine. The aid package approved by the US House of Representatives amounted to over $61 billion specifically designated to assist Ukraine in its defense against the ongoing Russian invasion."
+            ],
+            "keywords": [
+                "60||600||610||61"
+            ],
+            "answer_correctness": 0.551035133723843,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 16,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/real_time_news.csv",
+                "language": "en"
+            },
+            "question": "Why Google fires 28 employees over protests inside work offices?",
+            "answer": "Google fired 28 employees on April 18, 2024, following sit-in protests at the company’s offices in New York and Sunnyvale, California. The employees were protesting Google’s involvement in Project Nimbus, a $1.2 billion Israeli government cloud contract. Some of the protesters occupied the office of Google Cloud CEO Thomas Kurian until they were forcibly removed by law enforcement. In a memo to all employees, Chris Rackow, Google’s head of global security, stated that the behavior was unacceptable and violated multiple company policies. He warned that more action would be taken if needed. The “No Tech for Apartheid” group behind the protests called Google’s firings a “flagrant act of retaliation.” The group had been organizing against Project Nimbus for three years and demanded that Google pull out of the contract due to concerns about the technology being weaponized against Palestinians in Gaza. The fired employees were among those who directly participated in the disruptive activity inside Google buildings. The company took this matter extremely seriously and continued to apply its longstanding policies to take action against disruptive behavior up to and including termination.",
+            "ground_truths": [
+                "Google fired 28 workers Wednesday in Sunnyvale and New York, calling their protests inside work offices “completely unacceptable behavior” that prevented some employees from accessing their facilities.\n\nThe tech giant said protests on Tuesday over the company’s contracts with Israel disrupted several locations. The Chronicle reported that at Google’s Sunnyvale offices, police arrested five workers who held a sit-in Tuesday to protest their employer’s cloud contract with the Israeli government."
+            ],
+            "keywords": [
+                "contracts",
+                "Israel||Israeli"
+            ],
+            "answer_correctness": 0.7839197936666285,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 17,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/real_time_news.csv",
+                "language": "en"
+            },
+            "question": "How many soldiers were wounded in the attack launched by Hezbollah on northern Israel recently？",
+            "answer": "According to a report by the Israeli military, during the attack launched by Hezbollah on northern Israel on August 2, 2021, at least\n    \n     13 soldiers\n    \n    were wounded (BBC News, 2021). This information was confirmed by the Israeli Defense Forces (IDF) spokesperson, who added that no fatalities were reported among the soldiers (Reuters, 2021).\n   \n\n    Sources:\n   \n\n\n     BBC News. (2021, August 3). Israel-Lebanon tensions: At least 13 soldiers wounded in Hezbollah attack. Retrieved August 4, 2021, from\n     \n      https://www.bbc.com/news/world-middle-east-58167957\n     \n\n\n     Reuters. (2021, August 3). Israel says at least 13 soldiers wounded in Hezbollah attack near Lebanon border. Retrieved August 4, 2021, from\n     \n      https://www.reuters.com/world/middle-east/israel-says-at-least-13-soldiers-wounded-in-hezbollah-attack-near-lebanon-border-2021-08-03/\n     \n\n\n\n\n     BBC News\n    \n\n     Reuters",
+            "ground_truths": [
+                "n the recent attack launched by Hezbollah on northern Israel, a total of 14 soldiers were wounded. Among those injured, six of them were reported to be seriously wounded. The attack involved a combination of missiles and drones targeting a military base in northern Israel, specifically the Bedouin border town of Arab al-Aramshe. This assault by Hezbollah was a significant event in the ongoing conflict between the group and Israel."
+            ],
+            "keywords": [
+                "14"
+            ],
+            "answer_correctness": 0.5551280110229427,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 18,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/real_time_news.csv",
+                "language": "en"
+            },
+            "question": "What weapons were used to attack Israel from Iran?",
+            "answer": "Weapons Used in the Attack on Israel from Iran:\n    \n\n\n\n     Iran utilized a variety of weapons in its attack on Israel, including:\n    \n\n\n\n\n\n       Drones:\n      \n      Iran launched 170 drones at Israel, primarily using domestically built Shahed 131 and 136 drones. These drones were part of the assault aimed at saturating Israeli and U.S. air defenses.\n     \n\n\n\n\n       Ballistic Missiles:\n      \n      Iran fired Kheibar Shekan and Emad ballistic missiles during the attack. The Kheibar Shekan missiles, unveiled in 2022, are considered among Iran’s most modern ballistic missiles. The Emad missiles have a payload capacity of 1,600 pounds.\n     \n\n\n\n\n       Cruise Missiles:\n      \n      The cruise missiles used in the attack were identified as Paveh missiles by Iran. These missiles were designed to target locations from various directions by taking diverse paths.\n     \n\n\n\n\n     Impact of the Attack:\n    \n\n\n\n\n\n       Interception Rate:\n      \n      The Israel Defense Forces reported that virtually all incoming threats were intercepted before reaching Israeli territory, resulting in minimal damage.\n     \n\n\n\n\n       Casualties:\n      \n      Despite the interception success, a 7-year-old girl from a Bedouin village in Israel’s Negev desert was severely injured by shrapnel during the attack and remained in critical condition.\n     \n\n\n\n\n       Successful Hits:\n      \n      Out of 120 ballistic missiles launched by Iran, only five managed to evade Israeli and U.S. air defenses and hit Israeli territory. Four of these struck the Nevatim Air Base where Israeli F-35s are stationed.\n     \n\n\n\n\n     Response and Aftermath:\n    \n\n\n\n\n\n       Foreign Minister’s Response:\n      \n      Iran’s Foreign Minister Hossein Amirabdollahian downplayed the attack as a warning and stated that it was not intended to cause significant damage to civilians but rather had a military purpose.\n     \n\n\n\n\n       Retaliation:\n      \n      Following the Iranian attack on Israel, tensions escalated with Israel conducting a retaliatory strike on an Iranian military airfield near Isfahan. This strike did not result in significant damage or casualties.\n     \n\n\n\n    In summary, Iran employed drones, ballistic missiles, and cruise missiles in its unprecedented attack on Israel. While most of these weapons were intercepted before reaching their targets, some managed to hit Israeli territory, resulting in limited damage.",
+            "ground_truths": [
+                "Iran fired 170 drones, more than 30 cruise missiles and more than 120 ballistic missiles. Of those, several ballistic missiles reached Israeli territory, causing minor damage to an air base."
+            ],
+            "keywords": [
+                "drones||missiles||无人机||巡航导弹||弹道导弹"
+            ],
+            "answer_correctness": 0.524838539007786,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 19,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/real_time_news.csv",
+                "language": "en"
+            },
+            "question": "Why is GTA 6 publisher laying off 600 employees",
+            "answer": "Reasons for Layoffs:\n    \n    The GTA 6 publisher, Take-Two Interactive, is laying off approximately 600 employees as part of a broader cost-cutting strategy aimed at enhancing the company’s margin profile while still investing for growth. This decision is also tied to the cancellation of several projects under development, as indicated in the public filing with the US Securities and Exchange Commission. The layoffs are expected to save Take-Two about $165 million annually.\n   \n\n\n     Cost Reduction Program:\n    \n    Take-Two Interactive is implementing these layoffs and project cancellations to rationalize its pipeline, streamline its organizational structure, and reduce future hiring needs. The company aims to optimize expenses beyond headcount reduction, such as marketing and third-party expenses, to improve efficiency in operations.\n   \n\n\n     Impact on GTA 6:\n    \n    While the layoffs at Take-Two Interactive may raise concerns about the impact on the highly anticipated GTA 6 game, it is important to note that these workforce reductions do not necessarily mean that GTA 6 has been canceled. GTA 6 remains a significant revenue-generating project for the company and is still scheduled for release in 2025.\n   \n\n\n    These sources collectively contributed to understanding why Take-Two Interactive, as the publisher of GTA 6, decided to lay off employees despite previous statements indicating no immediate plans for such actions.",
+            "ground_truths": [
+                "The decision to lay off approximately 600 employees at Take-Two Interactive, the parent company of Rockstar Games, is part of a broader cost-cutting strategy. The company is rationalizing its pipeline, eliminating several projects in development, and streamlining its organizational structure. This downsizing process is expected to be largely complete by the end of the year 2024. Additionally, Take-Two had already signaled its intention for a significant cost reduction plan following mixed financial results for the quarter ending in December 2023. Despite these challenges, Take-Two has continued to invest in its portfolio, including the acquisition of Gearbox and the development of the highly anticipated 'GTA 6'."
+            ],
+            "keywords": [
+                "cost-cutting||节省成本||cost reduction"
+            ],
+            "answer_correctness": 0.8427150897265612,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 20,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/real_time_news.csv",
+                "language": "en"
+            },
+            "question": "The world’s best airports for 2024, according to Skytrax",
+            "answer": "The world’s best airports for 2024, according to Skytrax\n    \n\n\n\n     1. Doha Hamad Airport\n    \n\n     2. Singapore Changi Airport\n    \n\n     3. Seoul Incheon Airport\n    \n\n\n\n     Tokyo Haneda Airport\n    \n\n     Tokyo Narita Airport\n    \n\n     Paris Charles de Gaulle Airport\n    \n\n     Dubai Airport\n    \n\n     Munich Airport\n    \n\n     Zurich Airport\n    \n\n     Istanbul Airport\n    \n\n     Hong Kong Airport\n    \n\n     Rome Fiumicino Airport\n    \n\n     Vienna Airport\n    \n\n     Helsinki-Vantaa\n    \n\n     Madrid-Barajas\n    \n\n     Centrair Nagoya Airport\n    \n\n     Vancouver Airport\n    \n\n     Kansai Airport\n    \n\n     Melbourne Airport\n    \n\n     Copenhagen Airport\n    \n\n\n\n\n    The ranking of the world’s best airports for 2024, as per the Skytrax World Airport Awards, is as follows:\n   \n\n\n\n      Doha Hamad Airport\n     \n     : Named the World’s Best Airport for 2024, with accolades for Best Shopping and Best Middle East airport.\n    \n\n\n      Singapore Changi Airport\n     \n     : Ranked second globally and awarded Best in Asia and Best Immigration Service.\n    \n\n\n      Seoul Incheon Airport\n     \n     : Secured third place overall and recognized as the World’s Most Family Friendly Airport.\n    \n\n\n    Tokyo Haneda and Tokyo Narita airports claimed the fourth and fifth positions respectively, with Haneda being lauded as the Cleanest airport and Narita winning awards for customer service.\n   \n\n    Other notable recognitions included Rome Fiumicino for Best Security Processing, Istanbul for Best Dining Experience, Helsinki-Vantaa as Best in Northern Europe, and Budapest as Best in Eastern Europe.\n   \n\n    These rankings are based on passenger surveys conducted by Skytrax from August 2023 to March 2024, reflecting feedback on various aspects of airport experiences such as security, food options, cleanliness, staff service, and accessibility.\n   \n\n    Overall, these awards highlight the commitment of airports worldwide to providing exceptional services and experiences to travelers.",
+            "ground_truths": [
+                "According to the Skytrax rankings for 2024, Doha's Hamad International Airport has been named the best airport in the world."
+            ],
+            "keywords": [
+                "Doha||Hamad||哈马德"
+            ],
+            "answer_correctness": 0.5746086705695442,
+            "passed": true
+        }
+    ]
+}

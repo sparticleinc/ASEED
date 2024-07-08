@@ -1,0 +1,366 @@
+{
+    "evaluate_ai": {
+        "name": "Glarity Search",
+        "url": "https://search.glarity.ai"
+    },
+    "evaluate_llm": "gpt-4-1106-preview",
+    "evaluate_type": "ragas",
+    "evaluate_data": {
+        "total": 20,
+        "passed": 16,
+        "failed": 4,
+        "pass_rate": "80.00%",
+        "answer_correctness": 0.6956239510846973
+    },
+    "created_at": "2024-04-18 12:02:44",
+    "datas": [
+        {
+            "metadata": {
+                "id": 1,
+                "scene": "products_search",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/products_search.csv",
+                "language": "zh_cn"
+            },
+            "question": "UN100D搭载什么处理器？",
+            "answer": "铭凡UN100D迷你主机搭载的处理器是英特尔N100处理器。这处理器是一款低功耗处理器，拥有4个核心和4个线程，基于Intel的7纳米工艺制造。N100处理器的基本频率为1.8 GHz，最高睿频可达3.4 GHz，内置的显卡是Intel UHD Graphics，EU数量为24。这款处理器在UN100D中提供了基本的计算性能，适合日常办公任务和基本的计算需求。\n\n总体来说，在UN100D这样的迷你主机中，英特尔N100处理器作为一款低功耗处理器，提供了基本的性能和功能，适合那些对计算性能要求不是很高，但需要一个价格实惠且空间节省的迷你台式机的用户。",
+            "ground_truths": [
+                "UN100D搭载的是英特尔 N100 处理器\n. 该处理器拥有4核4线程，采用Intel 7工艺制造，TDP为6W，最高睿频为3.4 GHz\n. 由于采用低功耗处理器，适合基本办公任务，但不适合高端游戏。"
+            ],
+            "keywords": [
+                "N100"
+            ],
+            "answer_correctness": 0.881827449129404,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 2,
+                "scene": "products_search",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/products_search.csv",
+                "language": "zh_cn"
+            },
+            "question": "海狮07 EV两驱版最高车速是多少？",
+            "answer": "比亚迪海狮07 EV两驱版的最高车速取决于动力配置。根据相关信息，海狮07 EV两驱版的最高车速为225公里/小时. 除此之外，四驱版的双电机综合功率为390kW，而两驱版的电机最大功率分别为170kW或230kW，配备71.8kW·h或80.6kW·h的电池组，续航里程分别为550km和610km. 海狮07 EV还采用了CTB电池车身一体化技术以及比亚迪最新一代智驾技术，整体性能表现出色。\n\n综上所述，海狮07 EV作为一款全新中型SUV，不仅在外观设计上具有时尚动感，而且在动力性能和续航里程方面也表现优异。对于追求性能和续航能力的消费者来说，海狮07 EV可能是一个令人期待的选择。",
+            "ground_truths": [
+                "海狮07 EV两驱版的最高车速为225km/h"
+            ],
+            "keywords": [
+                "225"
+            ],
+            "answer_correctness": 0.6126904243907898,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 3,
+                "scene": "products_search",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/products_search.csv",
+                "language": "zh_cn"
+            },
+            "question": "大疆发布 Avata 2 无人机的电池容量是多少mAh？",
+            "answer": "大疆发布的Avata 2无人机的电池容量有一些不同的信息。根据搜索结果，Avata 2无人机的电池容量在不同的资料中有所不同。其中一些资料显示电池容量为2420mAh, 而其他资料提及的电池容量则为2150mAh. 此外，还有一份资料提到了电池容量为2600mAh。这些数据中的差异可能是由于不同的型号或套装配置而导致的。\n\n总的来说，Avata 2无人机的电池容量在2150mAh到2600mAh之间，具体的值可能会根据购买的具体配置而有所不同。",
+            "ground_truths": [
+                "大疆发布的Avata 2无人机的电池容量为3400毫安时（mAh）"
+            ],
+            "keywords": [
+                "3400"
+            ],
+            "answer_correctness": 0.5612059602407427,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 4,
+                "scene": "products_search",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/products_search.csv",
+                "language": "zh_cn"
+            },
+            "question": "Galaxy S24屏幕分辩率是多少？",
+            "answer": "三星Galaxy S24系列包括三款机型：Galaxy S24基础版、Galaxy S24 Plus和Galaxy S24 Ultra。其中，Galaxy S24基础版的显示屏分辨率是2340 x 1080，与前代相同。Galaxy S24 Plus的屏幕分辨率升至3120 x 1440，相较于S23 Plus有明显提升。最高端的Galaxy S24 Ultra显示屏的像素数略高于前代Galaxy S23 Ultra，达到3120 x 1440像素。因此，Galaxy S24 Ultra具有更高的分辨率，提供更清晰细腻的显示效果。",
+            "ground_truths": [
+                "Galaxy S24基本款的屏幕分辨率为2340 x 1080像素"
+            ],
+            "keywords": [
+                "2340",
+                "1080"
+            ],
+            "answer_correctness": 0.6587089053099787,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 5,
+                "scene": "products_search",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/products_search.csv",
+                "language": "zh_cn"
+            },
+            "question": "ThinkPad L13 Gen3有多少个Type-C接口？",
+            "answer": "ThinkPad L13 Gen3共有多个Type-C接口。根据搜索结果，ThinkPad L13 Gen3配备了2个USB Type-C接口，这些接口支持Thunderbolt 4和全功能雷电4. 此外，另一个搜索结果中提到了ThinkPad L13 Gen3还有1个USB Type-C（USB 3.2 Gen 2）接口。因此，总共有至少3个Type-C接口，这些接口在连接外部设备和数据传输方面提供了更多的选择。",
+            "ground_truths": [
+                "ThinkPad L13 Gen3有两个Type-C接口。其中，一个是USB 3.2 Gen 2 Type-C端口，另一个是USB 3.2 Gen 1 Type-C端口。"
+            ],
+            "keywords": [
+                "Gen2||Gen 2"
+            ],
+            "answer_correctness": 0.6938548487047433,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 6,
+                "scene": "products_search",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/products_search.csv",
+                "language": "zh_cn"
+            },
+            "question": "ThinkPadX1 Nano 服务器的配置有哪些？",
+            "answer": "ThinkPad X1 Nano是一款笔记本电脑，而不是服务器。如果您在寻找ThinkPad X1 Nano笔记本电脑的配置信息，根据搜索结果可以看到一些有关不同型号和代数的信息。例如，包括第一代、第二代和第三代的ThinkPad X1 Nano配置信息。\n\n第一代ThinkPad X1 Nano的配置包括：\n- 英特尔酷睿i7-1360P处理器，四个性能核心、八个效率核心和16个线程\n- 16GB内存\n- 512GB NVMe SSD固态硬盘等\n- 屏幕选项中有防指纹触控版本\n\n第二代ThinkPad X1 Nano的配置中包含：\n- 可选的IR相机以支持Windows Hello\n- 人体存在检测等安全功能\n- 标准端口包括2个Thunderbolt™ 4 / USB4® 40Gbps接口和1个耳机/麦克风组合插孔\n\n第三代ThinkPad X1 Nano的配置信息中列出了：\n- 屏幕为13.3英寸，具有2160×1350分辨率、60 Hz刷新率和哑光涂层\n- 处理器规格等详细信息\n\n综上所述，ThinkPad X1 Nano系列的配置包括处理器、内存、存储、屏幕选项以及一些特殊功能，如安全功能和端口。如有更多具体的配置需求，您可以参考生产厂商提供的官方配置信息以获取更详细的信息。",
+            "ground_truths": [
+                "处理器：提供了多种处理器选项，包括i5-1340P和i7-1360P1，以及之前的型号如Intel 酷睿i5 1130G72、Intel Core i5 1140G7、Intel Core i7 1160G7、Intel Core i7 1180G73。特别是，有提及到一款搭载Intel Core i7-1360P处理器的版本，这是一个具有12核心，最高可达5.0GHz的处理器。\n内存：支持高达16GB LPDDR5 5200MHz的内存，也有提及到使用LPDDR4x内存的情况。\n硬盘：配置了512GB SSD硬盘1，同时也有提到支持高达1TB PCIe SSD存储空间6。\n显卡：配备了锐炬xe核显，以及Iris Xe集成显卡。\n屏幕：拥有13英寸，2160*1350分辨率，16:10比例，100%sRGB高色域的屏幕1，也有提及到2000×1200分辨率的屏幕。\n电池：电池容量为49.5Wh1，但也有提及到最高续航可达17.3小时的48Wh电池。"
+            ],
+            "keywords": [],
+            "answer_correctness": 0.6666396223596686,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 7,
+                "scene": "products_search",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/products_search.csv",
+                "language": "zh_cn"
+            },
+            "question": "GNV-AUC101 5V-2AUSB有什么应用场景？",
+            "answer": "根据搜索结果，公牛（bull）GNV-AUC101 5V-2AUSB充电器适用于多种场景。这款充电器是一款快速充电USB充电器，可以为手机、平板等设备提供充电。具体应用场景包括但不限于：\n\n1. 家庭使用：可用于在家中为各种类型的手机、安卓和苹果设备、平板电脑等充电。\n2. 商务场合：在办公室、商业中心等地方使用，为员工和客户提供便利的充电设备。\n3. 旅行和户外活动：便携式设计使其适合携带旅行，旅行时随时为设备充电。\n4. 公共场所：例如酒店、机场、火车站等公共场所的充电区域，提供给需要充电的人使用。\n\n这款充电器的广泛应用范围使其成为日常生活中不可或缺的电子配件，满足了人们对便捷、高效充电的需求。",
+            "ground_truths": [
+                "公牛（BULL）GNV-AUC101 5V-2AUSB充电器是一种USB充电器，提供5V电压和2A电流输出。这种充电器适用于多种情况和设备，如手机、平板电脑、蓝牙耳机、手表等。下面是一些具体的应用场景：\n手机充电：公牛GNV-AUC101 5V-2AUSB充电器适用于各种手机品牌和型号，包括苹果、华为、小米等。通过连接USB数据线，可用于快速、安全地为手机充电。\n平板电脑充电：这款充电器也适用于平板电脑，如iPad、Android平板等。提供稳定的5V电压和2A电流输出，可以高效充电平板设备。\n其他移动设备充电：除了手机和平板外，公牛GNV-AUC101 5V-2AUSB充电器还可以用于充电蓝牙耳机、智能手表、手环等各种便携式设备。\n办公场所和家庭使用：这种充电器适合在办公室、家里或旅行时使用，为各种移动设备提供快速充电。它的通用性使其成为许多用户常备的充电设备之一。"
+            ],
+            "keywords": [],
+            "answer_correctness": 0.7745095254264187,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 8,
+                "scene": "products_search",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/products_search.csv",
+                "language": "zh_cn"
+            },
+            "question": "Features of Collabwriting for Teams.",
+            "answer": "Collabwriting offers several features that make it an ideal tool for teams looking to streamline their collaboration and research processes. Here are some key features of Collabwriting for teams:\n\n1. **Real-time Collaboration**: Collabwriting enables teams to work together in real-time on various types of content, such as web pages and PDFs. This feature allows team members to collaborate seamlessly, regardless of their physical locations, and contribute to the research process simultaneously.\n\n2. **Highlight and Comment**: One standout feature of Collabwriting is the ability to highlight sections of text and leave comments on them. This feature fosters collaboration by providing a way for team members to share insights, suggestions, and feedback on specific parts of the content. It enhances team communication and contextual understanding.\n\n3. **Shareable and Searchable System**: Collabwriting allows users to create a shareable and searchable system for all their online sources. By gathering and organizing content in one place, team members can easily access, review, and collaborate on the collected information. This feature enhances overall efficiency and organization within the team.\n\n4. **Drag-and-Drop Functionality**: The browser extension of Collabwriting is compatible with various apps like Google Docs, Notion, Gmail, and Outlook. This compatibility enables smooth integration with existing workflows, making it convenient for teams to use Collabwriting alongside their preferred tools.\n\n5. **User Access Roles**: Collabwriting offers different access roles for collaborators at different levels, such as Topic, Cluster, and Workspace. By assigning specific access permissions, team leaders can control who can view, comment, or edit the shared content, ensuring data security and collaboration efficiency.\n\nIn summary, Collabwriting provides a comprehensive platform for teams to collaborate, share insights, and streamline their research efforts. Its real-time collaboration, highlighting and commenting features, shareable system, app compatibility, and access control roles make it a valuable tool for enhancing team productivity and efficiency.",
+            "ground_truths": [
+                "Collabwriting offers a range of features designed to enhance team collaboration and knowledge sharing. Here are some key features for teams:\nShared Boards: Create collaborative boards where team members can contribute, share insights, and discuss ideas in real-time. This fosters a sense of teamwork and allows for seamless collaboration on projects.\nHighlighting and Insights: Team members can highlight important information from various sources such as books, articles, and websites, and add their own insights. This helps in capturing key points and sharing valuable knowledge within the team.\nAI Copilot and Suggestions: The AI Copilot feature assists in market research, competitor analysis, and content research by providing a comprehensive overview of information found online. AI Suggestions offer relevant insights and references to aid decision-making.\nPDF Collaboration: Simplify collaboration on legal documents, contracts, and other PDFs by creating a centralized board where team members can leave highlights, comments, and references. This streamlines the review process and ensures everyone is on the same page.\nVersion Control: Keep track of document versions, edits, and comments to avoid confusion and maintain a clear audit trail of changes. This feature is especially useful for teams working on projects that require frequent revisions and updates.\nIntegration with Third-Party Tools: Seamlessly integrate Collabwriting with other tools and platforms used by your team for a more streamlined workflow. This ensures that all relevant information is easily accessible and can be shared across different systems.\nSearch and Filter: Quickly search for specific information within boards, snippets, or documents using keywords or filters. This saves time and allows team members to locate relevant content efficiently.\nPermissions and Access Control: Control who can view, edit, or comment on boards and snippets to maintain data security and privacy within the team. Set permissions based on roles and responsibilities to ensure that sensitive information is protected.\nReal-Time Collaboration: Enable real-time collaboration on boards, allowing team members to work together simultaneously, make edits, and provide feedback instantly. This promotes active participation and enhances productivity within the team.\nCustomizable Workflows: Tailor Collabwriting to fit your team's specific workflow and requirements. Customize boards, templates, and settings to align with your team's processes and preferences for a more personalized collaboration experience."
+            ],
+            "keywords": [],
+            "answer_correctness": 0.680773328756699,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 9,
+                "scene": "products_search",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/products_search.csv",
+                "language": "zh_cn"
+            },
+            "question": "华为ADS 2.0 先进在哪里？",
+            "answer": "华为ADS 2.0 在多个方面展现出先进性。首先，它通过深度学习、感知、决策和控制等多种先进技术，实现了在自动驾驶领域的突破。ADS 2.0 能够检测异形障碍物，实现白名单障碍物检测，并具备全向防碰撞系统等一系列主动安全功能，大大提升了驾驶安全性。\n\n此外，华为ADS 2.0 还在地图准确性改进方面有重大进展。通过采用新的道路网络拓扑，它能够在无高精地图的情况下进行道路元素的识别，包括红绿灯等，使得无图状态下的无人驾驶成为可能。\n\n另外，华为ADS 2.0 在感知能力上也有出色表现。它采用了先进的算法，能够实现对周围环境的高效识别，包括使用BEV感知能力以及创新的GOD网络等功能，从而提升了自动驾驶系统的智能化程度。\n\n总的来说，华为ADS 2.0 之所以被视为先进，是因为它整合了先进的人工智能技术和车载系统，具备高精度的地图数据和先进的主动安全功能，为自动驾驶技术的发展带来了一系列重要进步。",
+            "ground_truths": [
+                "ADS 2.0系统的先进之处主要体现在以下几个方面：\n创新性的激光融合GOD网络：ADS 2.0搭载了业界首创的激光融合GOD网络，能够精准识别异形障碍物，如侧翻车辆、掉落的大纸箱、落石、倒地大树等，提高了驾驶的安全性。\n多传感融合：通过激光雷达、毫米波雷达、摄像头等多传感融合的感知，即使在没有高精地图的情况下，也能对道路元素进行识别和理解，提高了驾驶的准确性和可靠性。\n覆盖广泛的城区高阶智能驾驶场景：ADS 2.0系统可以覆盖90%城区场景，让日常通勤更加舒心。在复杂的交通路口、人车混行的场景中，系统能够顺利通行，主动超车换道、脱困换道，大大提升了出行效率。"
+            ],
+            "keywords": [],
+            "answer_correctness": 0.6676029848536272,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 10,
+                "scene": "products_search",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/products_search.csv",
+                "language": "zh_cn"
+            },
+            "question": "马自达J90A是新能源车吗？",
+            "answer": "根据搜索结果，马自达J90A是一款新能源车型。这款车将基于长安EPA混动平台打造，具备纯电和增程两种动力模式。预计J90A的续航里程在纯电模式下将达到500公里以上，展示出马自达开始向新能源领域迈进的重要一步. 除了纯电模式之外，J90A还将采用增程式动力，使其更具灵活性和适用性. 实车谍照显示J90A的外观延续了马自达的设计理念，包括特征性的魂动大嘴格栅和流畅犀利的轿车造型. \n\n研究显示，长安马自达将在2024年推出J90A和J90A-REEV两款新车型，是长安马自达发力新能源领域的举措之一. 这突显了马自达在寻求突破传统燃油车型销量瓶颈的努力，以适应不断演变的汽车市场和需求。因此，马自达J90A可被明确归类为一款新能源车，符合当今汽车行业向环保可持续发展方向发展的趋势。",
+            "ground_truths": [
+                "是的，马自达J90A是一款新能源车"
+            ],
+            "keywords": [
+                "是"
+            ],
+            "answer_correctness": 0.6167171209727307,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 11,
+                "scene": "products_search",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/products_search.csv",
+                "language": "en"
+            },
+            "question": "Key features and specifications about rabbit r1",
+            "answer": "The Rabbit R1 is a revolutionary AI gadget that stands out for its unique features and specifications. Here are the key features and specifications of the Rabbit R1 based on the information from the search results:\n\n### Key Features:\n1. **Large Action Model (LAM):** The Rabbit R1 operates on Rabbit OS, which is built on a Large Action Model. This model enables the device to understand complex user intentions and perform actions on behalf of the user.\n2. **App-Free Experience:** The R1 is designed to provide an app-free online experience, allowing users to navigate their digital world efficiently without the need for traditional apps.\n3. **Personalized Operating System:** Rabbit OS is a personalized operating system that can understand user intentions and execute tasks accordingly.\n4. **Affordable Consumer Hardware:** The R1 is a custom-built consumer AI device that hosts Rabbit OS, making it accessible to a wide range of consumers.\n5. **Fast and Accurate:** The Rabbit R1 is known for being fast and highly efficient in understanding user commands accurately.\n\n### Specifications:\n- **Price:** The Rabbit R1 is competitively priced at $199.\n- **Design:** It features a 2.88-inch touchscreen and a 360-degree rotating camera.\n- **Processor:** Powered by a 2.3GHz MediaTek Helio processor.\n- **Memory:** Equipped with 4GB of memory.\n- **Storage:** Offers 128GB of storage.\n- **Connectivity:** Supports both 4G LTE and Wi-Fi.\n- **Battery Life:** Promises \"all-day\" battery life on a single charge.\n- **Charging:** Features USB-C fast charging capabilities.\n- **Interface:** It uses Rabbit OS, a personalized operating system with AI capabilities.\n\nIn summary, the Rabbit R1 is a compact AI assistant that combines advanced technology with a user-friendly interface. Its standout features include a Large Action Model for understanding user intentions, personalized operating system, affordable pricing, and fast, accurate performance. The gadget's specifications include a sleek design, powerful processor, ample memory and storage, connectivity options, and long-lasting battery life, making it a versatile and efficient AI companion for users looking to simplify their digital interactions.",
+            "ground_truths": [
+                "The Rabbit R1 is a handheld AI-powered device²⁵. Here are some key features and specifications:\n Dimensions : 78mm*78mm*13mm / 3in*3in*0.5in¹\n Weight : 115g\n Battery Life and Charging Capabilities : 500 cycles > 80%, charging current 500mA, rate capacity 1000mAh\n Connectivity : Bluetooth 5.0 / Wi-Fi with 2.4GHz + 5GHz / 4G LTE\n Processor : MediaTek MT6765 Octa-core (Helio P35) max CPU frequency 2.3GHz\n Memory : 4GB\n Storage : 128GB\n Display : 2.88in TFT touchscreen\n Camera : 8MP, 3264x2448\n Video Resolution : 24fps, 1080p\n Operating Temperatures : 0°C - 45°C or 32ºF - 113ºF"
+            ],
+            "keywords": [
+                "115",
+                "2.88"
+            ],
+            "answer_correctness": 0.7871722211870348,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 12,
+                "scene": "products_search",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/products_search.csv",
+                "language": "zh_cn"
+            },
+            "question": "家庭伴侣机器人Ballie 有什么功能？",
+            "answer": "家庭伴侣机器人Ballie由三星推出，具有多项智能功能，可以成为家中的个人助手。根据相关报道，以下是Ballie的一些主要功能：\n\n1. **自主移动和智能导航：** Ballie可以自主在家中移动，完成各种任务，并通过智能导航系统智能地避开障碍物。\n\n2. **智能家居管理：** Ballie可以连接和管理家中的各种智能设备，如家电，以便协助用户控制环境、执行任务等。\n\n3. **个性化服务：** 通过学习用户的行为和习惯，Ballie可以提供更智能、更个性化的服务，不断改善用户体验。\n\n4. **安全功能：** Ballie能够为用户提供安全感，例如用户离家时，可以发送宠物或家人的视频更新，让用户放心离开家。\n\n5. **交互功能：** Ballie可以与用户互动，发送视频更新、文本信息，设置家中氛围，甚至在墙壁上播放锻炼视频。\n\n总体来说，Ballie是一个多功能的家庭伴侣机器人，可以帮助用户管理家庭生活、提供个性化服务，并增加家庭生活的便利性和趣味性。",
+            "ground_truths": [
+                "三星的家庭伴侣机器人Ballie具有以下功能：\n 个人家庭助手 ：Ballie能够自主在家中移动，完成各种任务。\n 智能设备控制 ：Ballie能连接和控制家里的其他智能设备 。\n 个性化服务 ：Ballie会自主学习用户的行为和习惯，提供个性化的服务 。\n 远程监控 ：当用户不在家时，Ballie可以通过视频更新用户的宠物或亲人的情况 。\n 投影艺术家 ：Ballie能够在地板、墙壁或天花板上投影物体，包括为宠物播放视频、显示视频通话，甚至提供锻炼视频。\n 智能家居助手 ：Ballie可以控制灯光、分发宠物食物，到发送短信，还能控制空调、洗衣机等设备。"
+            ],
+            "keywords": [],
+            "answer_correctness": 0.8113482286935086,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 13,
+                "scene": "products_search",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/products_search.csv",
+                "language": "en"
+            },
+            "question": "maximum speed of Moonwalker in 2024",
+            "answer": "The Moonwalker shoes by Shift Robotics in 2024 have a top speed of up to 7 miles per hour or 11.2 kilometers per hour. These robotic shoes allow individuals to walk at a pace that is up to three times faster than normal, offering a significant increase in speed for users. The Moonwalkers are designed to enable individuals to move swiftly and efficiently while wearing them, providing an innovative way to enhance mobility and travel capabilities. \n\nThe Moonwalker X, introduced by Shift Robotics in 2024, is a lighter, quicker, and smarter version of the robotic shoes. These shoes are designed to be significantly faster and more technologically advanced, showcasing the company's ongoing commitment to innovation and improvement in their products. \n\nIn a nutshell, the maximum speed of the Moonwalker shoes in 2024 is 7 miles per hour, offering users an exciting and efficient way to move around at a pace three times faster than normal walking speed.",
+            "ground_truths": [
+                "In 2024, the Moonwalkers, which are robotic shoes developed by Shift Robotics, have a top speed of up to 7 miles per hour (11.2 kilometers per hour)."
+            ],
+            "keywords": [
+                "7||11.2"
+            ],
+            "answer_correctness": 0.7532500343242048,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 14,
+                "scene": "products_search",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/products_search.csv",
+                "language": "zh_cn"
+            },
+            "question": "LG SIGNATURE OLED T 4K 是一款什么样的电视？",
+            "answer": "LG Signature OLED T 4K 是一款创新的无线透明 OLED 电视，是全球首款采用此技术的产品。这款电视采用了透明 4K OLED 屏幕和 LG 的无线音频和视频传输技术，为用户提供了前所未有的观影体验。具体特点如下：\n\n1. **屏幕技术**：LG Signature OLED T 采用透明 OLED 屏幕技术，77 英寸的屏幕与创新性的透明显示屏相结合，让画面仿佛漂浮在空中，让用户体验身临其境的观影感受.\n\n2. **分辨率**：这款电视支持 4K 分辨率，为用户带来高清晰度的画面，细腻的色彩和清晰的画质.\n\n3. **技术性能**：配备了 LG 的 Alpha 11 人工智能处理器和 LG webOS 智能电视操作系统，性能提升了四倍。处理器通过细致的像素分析和色彩校正，精准还原创作者的意图，提供更加优质的画面和音效.\n\n4. **无线传输**：无需通过 HDMI 电缆传输内容至电视，而是通过专门的无线传输盒子，使布线需求减少，提供更干净的观看环境.\n\n5. **透明特性**：透明 OLED 屏幕可以让画面与周围环境融为一体，关闭时几乎看不见屏幕，让电视能够与环境无缝协调，可放在房间中央，靠墙或壁挂.\n\n总体来说，LG Signature OLED T 4K 是一款融合创新科技和高画质表现的电视，为用户带来前所未有的观影体验，让电视不再是简单的显示装置，而是与生活空间融为一体的艺术品。",
+            "ground_truths": [
+                "LG SIGNATURE OLED T 4K 是一款世界上首款无线透明 OLED 电视。"
+            ],
+            "keywords": [
+                "透明"
+            ],
+            "answer_correctness": 0.6258910286721038,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 15,
+                "scene": "products_search",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/products_search.csv",
+                "language": "zh_cn"
+            },
+            "question": "SQPV玻璃",
+            "answer": "The term \"SQPV\" followed by \"玻璃\" could have a few possible interpretations based on the given search results.\n\n1. **SQPV Glass**: The term \"SQPV\" might be referring to a specific type or brand of glass. However, there is limited information available in the provided search results that directly relate to \"SQPV glass.\" In such cases, it would be beneficial to conduct a more specific search using this term to gather more details about what \"SQPV glass\" entails.\n\n2. **Query Not Contain \"玻璃\"**: Another interpretation could be related to a query language where \"玻璃\" is a term to be excluded from results. The search results include examples of how to write queries to exclude or not contain specific elements in the data. For instance, the syntax mentioned is to use \"not\" followed by \"contains\" when querying data to omit certain values. An example provided in the search results is: `\"Select A, B, C, D, E, F, G, H, I where not G contains 'yes'\"`. This syntax signifies filtering data where column G does not contain the specified value.\n\nTo accurately understand the context of \"SQPV 玻璃,\" further details or a more targeted search may be needed to provide a more definitive interpretation or explanation.",
+            "ground_truths": [
+                "SQPV玻璃是由InQs公司开发的一种创新的透明太阳能玻璃。这种技术不仅可以利用阳光发电，还可以从不可见光中获取能量，即使在昏暗的室内环境或阴天也能高效运作。"
+            ],
+            "keywords": [
+                "InQs||发电"
+            ],
+            "answer_correctness": 0.4969933788971087,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 16,
+                "scene": "products_search",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/products_search.csv",
+                "language": "zh_cn"
+            },
+            "question": "BMind镜子能缓解我的失眠吗？",
+            "answer": "BMind镜子是世界上第一款用于心理健康的智能镜子，据称能够管理压力、缓解焦虑和减少失眠，通过识别用户的情绪并提供个性化建议来帮助缓解这些问题. 这款智能镜子内置了CareOS操作系统，结合生成式AI和神经生理学技术，根据用户的情绪自动调整灯光、声音和显示，以作出响应，并提供个性化建议，如光疗和冥想. 通过提供正念练习等方式，BMind可能有助于改善您的睡眠和心理状态，尽管具体效果可能因个人情况而异。\n\nBMind的目标是成为一个健康伴侣，根据用户的精神状态提供个性化的建议和体验，以帮助缓解失眠等问题. 通过其AI驱动的虚拟正念教练和灯光声音体验，BMind努力提供一种沉浸式的方式来帮助您保持积极心态，并采取积极健康的方式来应对挑战。然而，具体如何缓解失眠问题可能因个人状况和需求而有所不同。\n\n总的说来，BMind镜子可能对缓解失眠问题有所帮助，但它的效果可能因人而异。在使用之前，最好了解该产品的功能和特性，以及如何最好地结合您个人的健康需求和睡眠习惯。如果您正在寻找针对失眠问题的解决方案，BMind可能是一个值得考虑的选项之一。",
+            "ground_truths": [
+                "BMind镜子是一款以人工智能为基础的智能镜子，它可以识别用户的情绪并帮助管理压力。它可以提供光疗课程，冥想引导，和自我肯定的服务，目的是帮助你调整情绪，有效管理压力。这些功能可能有助于缓解焦虑，减少失眠，帮助人们保持积极的心态。"
+            ],
+            "keywords": [],
+            "answer_correctness": 0.6724208067342703,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 17,
+                "scene": "products_search",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/products_search.csv",
+                "language": "ja"
+            },
+            "question": "電気自動車“AFEELA”の自動運転機能はLevel何ですか？",
+            "answer": "ソニーホンダモビリティの電気自動車\"AFEELA\"の自動運転機能は、複数の情報源から得られた情報に基づいて説明できます。例えば、AFEELAは特定の状況下でレベル3の自動運転機能を提供し、他の状況ではレベル2の運転支援を行うとされています。具体的には、特定の都市運転などの状況ではレベル3の自動運転が可能であるとされ、他の状況では運転者の注意が必要なレベル2の運転支援機能を有しています。\n\nこの情報から、AFEELAの自動運転機能はLevel 3とLevel 2の両方を組み合わせたものと言えます。Level 3では、特定の条件下での高度な自動運転が可能であり、Level 2では運転支援機能が提供されるため、運転者による注意が必要となる場面もあることがわかります。これにより、AFEELAは自動運転技術の進化において先進的な位置付けをしていると言えます。",
+            "ground_truths": [
+                "検索結果から、AFEELA の自動運転機能は以下のように理解できます:\nAFEELA は、Qualcomm Technologies と提携し、世界最先端の半導体を搭載することで、特定条件下での自動運転機能レベル3や、より広い運転条件下での運転支援機能レベル2/2+を実現しています。\nつまり、AFEELA は自動運転機能レベル3と、より広範囲な運転支援機能レベル2/2+を備えていることが分かります"
+            ],
+            "keywords": [],
+            "answer_correctness": 0.8191445273434741,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 18,
+                "scene": "products_search",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/products_search.csv",
+                "language": "zh_cn"
+            },
+            "question": "本田 Motocompacto可以开多少公里？",
+            "answer": "本田Motocompacto的续航里程取决于不同版本的描述。根据查询结果，有一项结果显示它的续航里程约为12英里（约合19公里）。另外，还有另一项显示续航里程为20公里。这两个数值可能有些出入，但都表明Motocompacto是一款适合进行短途移动、最后一段里程的电动车，适合于城市通勤或短途出行。Motocompacto的设计理念旨在提供便捷的移动解决方案，而不是用于长途旅行。",
+            "ground_truths": [
+                "本田Motocompacto是一款电动车，根据资料显示，它的续航里程约为12至20公里"
+            ],
+            "keywords": [
+                "12||20"
+            ],
+            "answer_correctness": 0.7422873291518185,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 19,
+                "scene": "products_search",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/products_search.csv",
+                "language": "zh_cn"
+            },
+            "question": "推荐一款裸眼3D屏幕的笔电本电脑",
+            "answer": "根据搜索结果，有几家公司发布了支持裸眼3D功能的笔记本电脑，其中包括华硕和宏碁。这些笔记本电脑旨在为专业用户和内容创作者提供出色的视觉体验和创意工具。以下是一些推荐的裸眼3D屏幕笔记本电脑：\n\n1. **华硕 ProArt StudioBook 16 和 VivoBook Pro 16X**：\n   - **特点**：这两款笔记本采用了支持裸眼3D的OLED屏幕以及眼球追踪技术，确保画面始终在用户焦点上。屏幕分辨率为3.2K，刷新率为120Hz。华硕在CES 2023大展上正式发布这两款笔记本，配备高规格处理器、内存和图形。\n   - **性能**：ProArt StudioBook 16可选配英特尔酷睿i9-13980HK CPU、最高64GB可升级内存和NVIDIA RTX 40系列图形。VivoBook Pro 16X也使用了英特尔酷睿i9-13980HK CPU和英伟达RTX 40系列图形。\n   - **其他特点**：支持眼球追踪技术和裸眼3D功能，配备触觉触控板和专业级GPU。\n\n2. **宏碁 ConceptD 7 SpatialLabs特别版笔记本电脑**：\n   - **特点**：宏碁的新款ConceptD 7 SpatialLabs特别版笔记本电脑是专为CAD和3D模型领域的创作者设计，提供裸眼3D屏幕体验。配备了英特尔处理器、GeForce RTX 3080显卡、最高64GB内存和2TB SSD。\n   - **性能**：4K分辨率屏幕，拥有特殊摄像头用于眼球追踪和3D效果实现。\n   - **功能**：支持将2D图像或视频通过AI转换为3D的工具，提供各种插件和工具下载。\n\n这些裸眼3D屏幕笔记本电脑均具有高性能、专业级功能和创意工具的特点，适合专业用户和内容创作者需求。选择适合自己需求和预算的品牌和型号是关键。",
+            "ground_truths": [
+                "宏碁 Predator Helios 3D 15 SE SpatialLabs特别版：\n特点：此款笔记本搭载裸眼3D屏幕，支持眼部跟踪和3D+ SpatialLabs TrueGame技术，适合专业3D内容创作用户。\n配置：搭载英特尔酷睿i9处理器、高速DDR5内存、RTX 4080显卡等，并配备了三星自家的瞳孔追踪技术。\n其他特点：拥有全尺寸RGB背光键盘、先进的散热系统和多种接口等，适用于不同需求场景。\n上市时间和价格：该款笔记本于6月上市，售价约3499欧元，为专业用户提供了一体化的3D体验。\n\n华硕 VivoBook Pro 16X 3D OLED 笔记本：\n特点：VivoBook Pro 16X配备了3D OLED显示器，支持裸眼3D显示，适合内容创作人士。\n配置：搭载英特尔第13代酷睿HX处理器、最新DDR5内存和2TB PCIe 4.0 SSD，搭载RTX 40系列显卡。\n屏幕：15.6英寸OLED屏幕，支持120Hz刷新率和裸眼3D显示。\n价格和上市时间：具体售价和上市时间待公布，是一个备受期待的具有优秀性能的裸眼3D笔记本"
+            ],
+            "keywords": [
+                "Predator Helios 3D 15 SE SpatialLabs||VivoBook Pro 16X 3D OLED"
+            ],
+            "answer_correctness": 0.7386581305541436,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 20,
+                "scene": "products_search",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/products_search.csv",
+                "language": "zh_cn"
+            },
+            "question": "小米SU7支持华为ADS 2.0吗？",
+            "answer": "根据搜索结果，小米SU7并不支持华为ADS 2.0，因为华为ADS 2.0是华为专门开发的高级智能驾驶系统，而小米SU7采用了不同的智能驾驶技术。华为ADS 2.0提供一系列先进的驾驶辅助功能和智能驾驶能力，但小米SU7目前并未配备这一系统。特别是在车辆智能驾驶特性方面，华为ADS 2.0在实现高级自动驾驶功能方面处于领先地位，但小米SU7车型目前并不具备这种智能驾驶系统的支持。\n\n总的来说，虽然小米SU7是一款纯电动汽车，但它并没有集成华为ADS 2.0智能驾驶系统，因此在这方面与华为汽车产品存在明显差异。随着汽车智能化技术的不断发展，各车企可能会选择不同的智能驾驶解决方案，这也导致了小米SU7并不支持华为ADS 2.0这一结论。",
+            "ground_truths": [
+                "小米SU7车型不支持华为ADS 2.0智能驾驶系统。"
+            ],
+            "keywords": [
+                "不支持"
+            ],
+            "answer_correctness": 0.6507831659914766,
+            "passed": true
+        }
+    ]
+}

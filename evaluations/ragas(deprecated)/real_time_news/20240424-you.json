@@ -1,0 +1,381 @@
+{
+    "evaluate_ai": {
+        "name": "You",
+        "url": "https://you.com"
+    },
+    "evaluate_llm": "gpt-4-1106-preview",
+    "evaluate_type": "ragas",
+    "evaluate_data": {
+        "total": 20,
+        "passed": 11,
+        "failed": 9,
+        "pass_rate": "55.00%",
+        "answer_correctness": 0.611854393690039
+    },
+    "created_at": "2024-04-24 13:03:30",
+    "datas": [
+        {
+            "metadata": {
+                "id": 1,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/real_time_news.csv",
+                "language": "en"
+            },
+            "question": "Who's the United States Trade Representative?",
+            "answer": "The United States Trade Representative is Katherine Tai. She was nominated by President Biden and currently holds the position of U.S. Trade Representative  .",
+            "ground_truths": [
+                "The name of the United States Trade Representative is Katherine Chi Tai. She is a Taiwanese American trade lawyer and currently serves as the United States Trade Representative."
+            ],
+            "keywords": [
+                "Katherine"
+            ],
+            "answer_correctness": 0.6357623296939355,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 2,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/real_time_news.csv",
+                "language": "zh_tw"
+            },
+            "question": "百川最新的融資",
+            "answer": "百川最新的融资\n根据最新的搜索结果，我无法找到关于百川最新融资的具体信息。如果您对百川的融资情况有任何特定的问题，请提供更多细节，我将尽力为您提供帮助。",
+            "ground_truths": [
+                "有媒體報導稱，百川智能正在進行新一輪數億美元融資，將成為2024年國內AI領域最大融資之一，且公司今年以來估值已超18億美元。"
+            ],
+            "keywords": [
+                "18||3"
+            ],
+            "answer_correctness": 0.5288769847315539,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 3,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/real_time_news.csv",
+                "language": "zh_cn"
+            },
+            "question": "Perplexity最近融资情况",
+            "answer": "Perplexity AI is an AI-powered research and conversational search engine that provides answers to queries using natural language predictive text. It was launched in 2022 and generates answers by leveraging sources from the web and citing links within the text response . However, I couldn't find any recent information about Perplexity AI's financing status in the search results provided.\nIf you have any other questions or need further assistance, feel free to ask!",
+            "ground_truths": [
+                "2024年4月23日，Perplexity AI又宣布完成了新一轮融资，筹集了6270万美元，融资后估值达到了10亿美元5810。这次融资使得公司的估值较上一轮融资翻了一番"
+            ],
+            "keywords": [
+                "62.7||6270"
+            ],
+            "answer_correctness": 0.5183295021999269,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 4,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/real_time_news.csv",
+                "language": "zh_tw"
+            },
+            "question": "最近台灣地震造成的傷亡人數是多少？",
+            "answer": "很抱歉，我無法提供最新的台灣地震傷亡人數。請您查看當地新聞或政府官方網站以獲取最新資訊。",
+            "ground_truths": [
+                "台灣花蓮地震死亡數字上升。10日救援人員在花蓮太魯閣區域砂卡礑步道尋獲3具遺體，花蓮7.3級地震罹難人數上升至16人。"
+            ],
+            "keywords": [
+                "16"
+            ],
+            "answer_correctness": 0.5106551789278262,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 5,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/real_time_news.csv",
+                "language": "ja"
+            },
+            "question": "最近の埼玉県行田市事故の死傷者数は何人ですか?",
+            "answer": "最近の埼玉県行田市の事故の死傷者数に関する情報は、提供された検索結果からは見つかりませんでした。申し訳ありませんが、詳細な情報を提供することができません。お手数ですが、別の情報",
+            "ground_truths": [
+                "最近の埼玉県行田市の事故での死傷者数は以下の通りです:\n死亡者数: 1人\n負傷者数: 3人"
+            ],
+            "keywords": [
+                "1||3||4"
+            ],
+            "answer_correctness": 0.47909670518166975,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 6,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/real_time_news.csv",
+                "language": "ja"
+            },
+            "question": "藤岡康太騎手の怪我はどうでしたか？",
+            "answer": "藤岡康太騎手の怪我に関する情報は見つかりませんでした。申し訳ありませんが、詳細な情報を提供することができません。",
+            "ground_truths": [
+                "藤岡康太騎手は、2024年4月6日に行われた阪神競馬場の第7レースで落馬し、頭部と胸部を負傷しました.この落馬の後、藤岡騎手は病院に搬送され、意識を取り戻すことなく、後に怪我のため亡くなりました.この悲報は日本中央競馬会(JRA)からも発表されました"
+            ],
+            "keywords": [
+                "亡"
+            ],
+            "answer_correctness": 0.47315043841109905,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 7,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/real_time_news.csv",
+                "language": "zh_tw"
+            },
+            "question": "士林區溪山里事件的起因是什麼？",
+            "answer": "事件起因\n士林區溪山里事件的起因是因為當地居民反對在溪山里興建一棟高樓大廈的計畫。這個計畫引起了居民的不滿和抗議，並導致了一系列的爭議和衝突。\n居民反對\n居民反對這個計畫的主要原因是擔心高樓大廈的",
+            "ground_truths": [
+                "士林區溪山里事件的起因是與水質問題有關。根據報導，溪山里的居民平常使用自行成立的供水系統，主要使用山泉水作為飲用水源。然而，由於地震等自然災害可能導致山泉水受到污染，進而造成水質問題。事件中大腸桿菌群數值偏高，反映了水質有異常情況，因此許多居民出現了腹瀉和嘔吐等腸胃道疾病症狀。台北市政府為了緊急應對此情況，已提供緊急取水站以及醫療服務，並展開全面水質檢測及環境消毒等措施以解決問題。因此，士林區溪山里事件的起因主要是因為使用的山泉水受到污染所導致的水質問題。"
+            ],
+            "keywords": [
+                "地震"
+            ],
+            "answer_correctness": 0.4989075854914025,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 8,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/real_time_news.csv",
+                "language": "ja"
+            },
+            "question": "3月のCPI",
+            "answer": "🤖 Sorry, something went wrong. Please try again later, or see search results.\nOur team is looking into it. If you would like to follow up on this issue, please visit our Feedback Portal or let us know on our Discord. Please include the following Error ID in your message: 74cd948b-28bb-455a-8a19-fb20c0006c3e|8f42c79e-90ec-4827-9f84-72fb333552ac|2024-04-24T13:12:44.985Z",
+            "ground_truths": [
+                "2024年3月の日本のCPIは2.8%"
+            ],
+            "keywords": [
+                "2.80%"
+            ],
+            "answer_correctness": 0.5308279731852836,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 9,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/real_time_news.csv",
+                "language": "zh_tw"
+            },
+            "question": "今年在哪個國家可以看到日食",
+            "answer": "今年可以在2023年4月20日看到日食。",
+            "ground_truths": [
+                "2024年4月8日：\n墨西哥、美國、加拿大：預計可以觀測到全食的日食。"
+            ],
+            "keywords": [
+                "2024",
+                "墨西哥||美國||加拿大"
+            ],
+            "answer_correctness": 0.5355519977074973,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 10,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/real_time_news.csv",
+                "language": "zh_tw"
+            },
+            "question": "海康威視去年的業績如何",
+            "answer": "根据搜索结果，海康威视去年的业绩表现良好。根据公司公布的财报数据，海康威视在2023年实现了稳定的增长。其营业收入和净利润都有显著的增长。具体的数据可以在海康威视的财报中找到。",
+            "ground_truths": [
+                "在2023年，海康威視的業績恢復增長，公司實現了營業收入893.55億元，同比增長7.44%，淨利潤為141.17億元，同比增長9.96%。"
+            ],
+            "keywords": [
+                "2023",
+                "893"
+            ],
+            "answer_correctness": 0.6213976195036133,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 11,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/real_time_news.csv",
+                "language": "en"
+            },
+            "question": "How many Israelis died in the attack launched by Iran?",
+            "answer": "Based on the search results, it appears that there were no reported Israeli fatalities in the attack launched by Iran. The Israel Defense Forces (IDF) stated that the assault was almost entirely thwarted by air defense systems and with the help of the U.S. and Israel's other allies. While there were some injuries from the Iranian-launched missiles, including at a military base in southern Israel, there were no mentions of casualties in the official statements released by the IDF spokesperson .\nIn",
+            "ground_truths": [
+                "According to the reports, there were no reported fatalities from the Iranian attack on Israel"
+            ],
+            "keywords": [
+                "no casualties"
+            ],
+            "answer_correctness": 0.521438918173382,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 12,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/real_time_news.csv",
+                "language": "en"
+            },
+            "question": "Whom did Putin say carried out the Moscow attack?",
+            "answer": "According to Vladimir Putin, the terrorist attack on the Crocus City concert hall in Moscow was carried out by radical Islamists  . However, he also suggested a possible link to Ukraine and stated that the Kremlin was investigating who ordered the attack   . Ukrainian officials have repeatedly denied any involvement in the attack . It is important to note that American officials have said there is no evidence of Ukrainian involvement .",
+            "ground_truths": [
+                "Vladimir Putin stated that \"radical Islamists\" were behind the deadly attack on the Crocus City concert hall in Moscow"
+            ],
+            "keywords": [
+                "radical Islamists||激进伊斯兰主义"
+            ],
+            "answer_correctness": 0.645097028647452,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 13,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/real_time_news.csv",
+                "language": "en"
+            },
+            "question": "What precisely caused the ship to collide with the Baltimore bridge?",
+            "answer": "The ship, named Dali, collided with the Baltimore bridge due to a power loss that caused it to veer off course and strike a support pylon of the Francis Scott Key Bridge . The collision occurred at approximately 1:30 a.m. on March 26, 2024 . The bridge partially collapsed into the Patapsco River as a result of the impact . The bridge was up to code with no known structural issues, and there was no evidence of foul play . All 22 crew members on board the ship, including the two pilots, have been accounted for and there were no reports of injuries .\nPlease note that this information is based on the search results provided and may not include any",
+            "ground_truths": [
+                "When the container ship MV Dali, 300 metres long and massing around 100,000 tonnes, lost power and slammed into one of the support piers of the Francis Scott Key Bridge in Baltimore, the bridge collapsed in moments."
+            ],
+            "keywords": [
+                "lost power||电力||power loss||losing power"
+            ],
+            "answer_correctness": 0.8226234636538383,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 14,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/real_time_news.csv",
+                "language": "en"
+            },
+            "question": "Which island recently experienced a volcanic eruption in Indonesia?",
+            "answer": "The island that recently experienced a volcanic eruption in Indonesia is Tagulandang Island. Mount Ruang, located on Tagulandang Island, erupted multiple times in a span of 24 hours, spewing fiery orange lava, a towering ash column, and volcanic lightning. This eruption prompted the evacuation of thousands of residents and raised concerns about the potential for a tsunami  .",
+            "ground_truths": [
+                "The name of the volcano is Mount Ruang on the northern side of Sulawesi Island."
+            ],
+            "keywords": [
+                "Sulawesi island||Mount Ruang"
+            ],
+            "answer_correctness": 0.766897367839138,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 15,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/real_time_news.csv",
+                "language": "en"
+            },
+            "question": "In April 2024, based on the scheme passed by the US House of Representatives, how much money will the United States provide in aid to Ukraine?",
+            "answer": "#### Aid to Ukraine Passed by the US House of Representatives\r\n\r\nIn April 2024, the US House of Representatives approved more than **$61 billion worth of military assistance to help Ukraine** in its defense against Russia, as well as billions for other allies including Israel and Taiwan. This aid package was part of a larger $95 billion legislative package providing security assistance to Ukraine, Israel, and Taiwan. The aid package also includes desperately needed humanitarian aid to Gaza, Sudan, Haiti, and other locations impacted by conflicts and natural disasters around the world.\r\n\r\nThe aid package for Ukraine, Israel, and other US allies passed with broad bipartisan support and could be signed into law as early as next week after it passes through the Senate and lands on President Joe Biden's desk for his signature. The aid to Ukraine was a significant part of this legislative package, with an overwhelming vote in the House of Representatives.\r\n\r\nOverall, the US House of Representatives approved more than **$61 billion in military assistance to help Ukraine** in its defense against Russia, as part of a larger $95 billion legislative package providing security assistance to Ukraine, Israel, and Taiwan.",
+            "ground_truths": [
+                "In April 2024, the US House of Representatives passed a significant aid package for various countries, including Ukraine. The aid package approved by the US House of Representatives amounted to over $61 billion specifically designated to assist Ukraine in its defense against the ongoing Russian invasion."
+            ],
+            "keywords": [
+                "60||600||610||61"
+            ],
+            "answer_correctness": 0.780852429126327,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 16,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/real_time_news.csv",
+                "language": "en"
+            },
+            "question": "Why Google fires 28 employees over protests inside work offices?",
+            "answer": "Google fired 28 employees over protests inside work offices. The protests were led by the \"No Tech For Apartheid\" organization, which focused on Project Nimbus, a joint $1.2 billion contract between Google and Amazon to provide cloud computing services to the Israeli government and military .\nThe employees were involved in a 10-hour sit-in at Google offices in New York and Sunnyvale, California, where they occupied office spaces, defaced property, and physically impeded the work of other employees   .\nGoogle's vice president of global security, Chris Rackow, stated in an internal memo that the behavior of the protesting employees was unacceptable, extremely disruptive, and made co",
+            "ground_truths": [
+                "Google fired 28 workers Wednesday in Sunnyvale and New York, calling their protests inside work offices “completely unacceptable behavior” that prevented some employees from accessing their facilities.\n\nThe tech giant said protests on Tuesday over the company’s contracts with Israel disrupted several locations. The Chronicle reported that at Google’s Sunnyvale offices, police arrested five workers who held a sit-in Tuesday to protest their employer’s cloud contract with the Israeli government."
+            ],
+            "keywords": [
+                "contracts",
+                "Israel||Israeli"
+            ],
+            "answer_correctness": 0.6993849955728365,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 17,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/real_time_news.csv",
+                "language": "en"
+            },
+            "question": "How many soldiers were wounded in the attack launched by Hezbollah on northern Israel recently？",
+            "answer": "According to the search results, the recent attack launched by Hezbollah on northern Israel resulted in the injury of several Israeli soldiers. The exact number of soldiers wounded varies across the sources, but it is mentioned that four soldiers were wounded in the attack . Another source states that seven IDF soldiers were lightly injured as a result of the mortar shell launches in the area of Manara in northern Israel . Additionally, the Israeli military reported that 14 soldiers were wounded in the attack, with six of them in serious condition . It is important to note that the number of wounded soldiers may vary depending on the source and the specific incident",
+            "ground_truths": [
+                "n the recent attack launched by Hezbollah on northern Israel, a total of 14 soldiers were wounded. Among those injured, six of them were reported to be seriously wounded. The attack involved a combination of missiles and drones targeting a military base in northern Israel, specifically the Bedouin border town of Arab al-Aramshe. This assault by Hezbollah was a significant event in the ongoing conflict between the group and Israel."
+            ],
+            "keywords": [
+                "14"
+            ],
+            "answer_correctness": 0.5584613218898951,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 18,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/real_time_news.csv",
+                "language": "en"
+            },
+            "question": "What weapons were used to attack Israel from Iran?",
+            "answer": "Based on the search results, the weapons used to attack Israel from Iran included ballistic missiles and drones. Iran has previously used ballistic missiles in attacks on U.S. military bases in Iraq, as well as in strikes on Pakistan, Syria, and Iraq. The attack on Israel involved the use of over 300 drones and missiles, including Shahed 131 and 136 drones   .\nIt is important to note that while Iran launched a significant number of weapons, the majority of them were intercepted by Israel's air defenses, with the help of U.S. forces. Israel reported that 99",
+            "ground_truths": [
+                "Iran fired 170 drones, more than 30 cruise missiles and more than 120 ballistic missiles. Of those, several ballistic missiles reached Israeli territory, causing minor damage to an air base."
+            ],
+            "keywords": [
+                "drones||missiles||无人机||巡航导弹||弹道导弹"
+            ],
+            "answer_correctness": 0.7068638819456954,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 19,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/real_time_news.csv",
+                "language": "en"
+            },
+            "question": "Why is GTA 6 publisher laying off 600 employees",
+            "answer": "Why is GTA 6 publisher laying off 600 employees?\nTake-Two Interactive, the publisher of the Grand Theft Auto (GTA) series, is laying off approximately 600 employees, which accounts for about 5% of its workforce. The layoffs are part of a cost reduction program aimed at enhancing the company's margin profile while still investing for growth   .\nThe breakdown of the charges associated with the layoffs includes approximately $120 to $140 million attributed to the cancellation of games, $25 to $35 million earmarked for employee severance and related costs, and $15 to $25 million associated with reductions in office space   [[",
+            "ground_truths": [
+                "The decision to lay off approximately 600 employees at Take-Two Interactive, the parent company of Rockstar Games, is part of a broader cost-cutting strategy. The company is rationalizing its pipeline, eliminating several projects in development, and streamlining its organizational structure. This downsizing process is expected to be largely complete by the end of the year 2024. Additionally, Take-Two had already signaled its intention for a significant cost reduction plan following mixed financial results for the quarter ending in December 2023. Despite these challenges, Take-Two has continued to invest in its portfolio, including the acquisition of Gearbox and the development of the highly anticipated 'GTA 6'."
+            ],
+            "keywords": [
+                "cost-cutting||节省成本||cost reduction"
+            ],
+            "answer_correctness": 0.6873695479009067,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 20,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/ASEED/blob/main/datasets/real_time_news.csv",
+                "language": "en"
+            },
+            "question": "The world’s best airports for 2024, according to Skytrax",
+            "answer": "The World's Best Airports for 2024, According to Skytrax\nAccording to the Skytrax World Airport Awards for 2024, the following airports have been recognized as the best in the world:\n\n\nHamad International Airport, Doha, Qatar: Hamad International Airport in Doha, Qatar has been named the world's best airport for 2024. It is known for its ultra-modern design, easy-to-navigate terminals, and high-end shopping .\n\n\n**Singapore Changi\n\n",
+            "ground_truths": [
+                "According to the Skytrax rankings for 2024, Doha's Hamad International Airport has been named the best airport in the world."
+            ],
+            "keywords": [
+                "Doha||Hamad||哈马德"
+            ],
+            "answer_correctness": 0.7155426040175012,
+            "passed": true
+        }
+    ]
+}

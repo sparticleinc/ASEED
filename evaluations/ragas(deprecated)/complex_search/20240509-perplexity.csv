@@ -1,0 +1,127 @@
+metadata,question,answer,ground_truths,keywords,answer_correctness,passed
+"{'id': 1, 'scene': 'complex_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/complex_search.csv', 'language': 'en'}","Which movie is longer, Hamlet or Gone with the Wind","Gone with the Wind is longer than Hamlet. According to the search results:
+Gone with the Wind has a runtime of 3 hours and 58 minutes (238 minutes)124.
+Hamlet, directed by Kenneth Branagh in 1996, has a runtime of 4 hours and 2 minutes (242 minutes)1235.
+So while both are very long epic films, Hamlet at 242 minutes is slightly longer than Gone with the Wind at 238 minutes135.",['The movie that is longer is Hamlet.\nThe key details are:\nHamlet (1996) directed by Kenneth Branagh has a runtime of 242 minutes (4 hours 2 minutes) \nGone with the Wind (1939) has a runtime of 221 minutes (3 hours 41 minutes)'],['Hamlet'],0.7120498008009559,False
+"{'id': 2, 'scene': 'complex_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/complex_search.csv', 'language': 'en'}",Which player was awarded the most number of Man of the match titles in the FIFA world cup of 2006?,"Zinedine Zidane was awarded the most Man of the Match titles in the 2006 FIFA World Cup4. He received the award in the quarter-final match against Brazil, where he assisted Thierry Henry's winning goal4.
+Zidane had a strong performance in the 2006 World Cup, helping France reach the final. He scored a penalty in the final against Italy, but was later sent off in extra time for headbutting Marco Materazzi4. Despite the controversial ending, Zidane's leadership and skill were crucial to France's run to the final.","['the player who was awarded the most number of Man of the Match titles in the 2006 FIFA World Cup was Andrea Pirlo of the Italy national team, who won 3 such awards']",['Andrea Pirlo'],0.5292331118554977,False
+"{'id': 3, 'scene': 'complex_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/complex_search.csv', 'language': 'en'}",Which award received in 2003 by the movie The Ring?,"The 2002 horror film The Ring received the following major award in 2003:
+
+It won the Saturn Award for Best Horror Film at the 2003 Saturn Awards.2
+
+Naomi Watts also won the Saturn Award for Best Actress for her performance in The Ring at the same ceremony.2",['MTV Movie Award for Best Villain'],['Best Villain'],0.4756060038033725,False
+"{'id': 4, 'scene': 'complex_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/complex_search.csv', 'language': 'en'}",What is the date of publication of the first book of the Outland series?,"Unfortunately, there is no information provided in the given search results about the publication date of the first book in the ""Outland"" series by Dennis E. Taylor. The search results are focused on Diana Gabaldon's ""Outlander"" book series and do not mention Taylor's ""Outland"" series at all.1245","['The first book in the Outlander series, titled ""Outlander"" (published as ""Cross Stitch"" in the UK, Australia, and New Zealand), was published on June 1, 1991.']",['1991'],0.5213607579980662,False
+"{'id': 5, 'scene': 'complex_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/complex_search.csv', 'language': 'zh_cn'}",家里有孩子，怕狂犬病，养乌龟好，还是养茶杯犬好？,"根据搜索结果,我认为在家里有孩子的情况下,养乌龟比养茶杯犬更好:
+
+
+乌龟比狗更安全,不会咬伤孩子或传播狂犬病125。乌龟性格温和,不会对孩子造成伤害。
+
+
+乌龟比狗更好养,即使家人长期外出,乌龟也不会被饿死3。乌龟的饮食和照顾要求相对简单。
+
+
+乌龟可以培养孩子的责任心和爱心,与孩子互动也更有趣3。相比之下,茶杯犬可能需要更多精力照顾。
+
+
+乌龟的寿命较长,可以陪伴孩子成长很多年2。
+
+
+综上所述,在家里有孩子的情况下,养乌龟比养茶杯犬更加合适和安全。乌龟不仅更容易照顾,而且也能给孩子带来更多正面影响。",['家里有孩子的话，养乌龟可能比茶杯犬更安全一些。乌龟不会像狗狗那样咬人或传播狂犬病。'],['乌龟'],0.6724420096631265,True
+"{'id': 6, 'scene': 'complex_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/complex_search.csv', 'language': 'zh_cn'}",周传雄有哪些代表作品，播放量最高的事哪首,"很抱歉,根据给出的搜索结果,我无法找到关于周传雄及其代表作品和播放量的相关信息。搜索结果主要涉及一些不相关的内容,如北京外围服务、广州网红预约、东莞上门服务等。123 由于缺乏有用的信息源,我无法对这个查询给出满意的回答。",['周传雄有哪些代表作品有：黄昏、寂寞沙洲冷、关不上的窗、冬天的秘密、我难过、青花、我的心太乱、男人海洋。周传雄代表作品中播放量最高的应该是《青花》。'],['黄昏||青花'],0.5187989251922698,False
+"{'id': 7, 'scene': 'complex_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/complex_search.csv', 'language': 'zh_cn'}",迷迭香精油的作用和用法,"迷迭香精油具有多种作用和用法,主要包括:
+美容护肤
+
+具有较强的收敛作用,可紧缩松弛的肌肤,减轻充血和肿胀24
+改善头皮屑,刺激毛发生长24
+对于减肥后皮肤的收敛,让皮肤更紧实有弹性24
+
+身体保养
+
+使脑部及中枢神经充满活力,缓解头痛和偏头痛2
+改善晕眩症状,可帮助麻痹的四肢恢复活力2
+止痛,缓解痛风、风湿痛及肌肉酸痛23
+强心剂,使低血压恢复正常,改善贫血症状2
+改善呼吸系统疾病如感冒、哮喘、支气管炎23
+利肝解毒,改善肝炎、肝硬化、胆结石等2
+改善消化不良、胀气和胃痛2
+利尿,缓解经期症状2
+
+心理保养
+
+活化脑细胞,增强记忆力2
+缓解紧张、焦虑、嗜睡等情绪2
+提振精神,增强意志力,对抗忧郁2
+
+家居日用
+
+熏香可提神醒脑,增强自我认同感2
+
+使用时需注意:
+
+高血压、癫痫症患者及孕妇应慎用3
+晚上不宜熏香,以免过于兴奋影响睡眠3
+外用需稀释,避免直接接触皮肤3
+",['迷迭香精油的功效：消毒杀菌、增强记忆、有益于头发生长、调理呼吸系统、缓解肌肉酸痛。迷迭香精油的正确使用方法：涂抹法、按摩法、熏香法。'],"['头发', '呼吸', '按摩']",0.6894475594018882,False
+"{'id': 8, 'scene': 'complex_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/complex_search.csv', 'language': 'zh_cn'}",吉布斯自由能和化学平衡常数的关系,"吉布斯自由能和化学平衡常数的关系如下:
+在等温等压条件下, 化学反应的标准吉布斯自由能变化量(ΔG°)与化学平衡常数(K)之间存在以下关系式12:
+ΔG° = -RTlnK
+其中:
+
+ΔG°是标准反应吉布斯自由能变化量
+R是气体常数
+T是绝对温度
+K是化学平衡常数
+
+这个关系式表明:
+
+如果ΔG°小于0, 则K大于1, 反应会自发进行。
+如果ΔG°大于0, 则K小于1, 逆反应会自发进行。
+如果ΔG°等于0, 则K等于1, 反应处于平衡状态。
+
+因此, 通过测量或计算ΔG°, 就可以推算出化学反应的平衡常数K, 反之亦然3。这种关系在分析和预测化学反应的自发性和平衡状态时非常有用。","['吉布斯自由能和化学平衡常数之间有以下关系:\n1. 标准吉布斯自由能变化(ΔG°)与标准平衡常数(K°)之间有以下关系:\nΔG° = -RTlnK°\n其中,R是气体常数,T是绝对温度。这个公式表明,当反应的标准吉布斯自由能变化减小时,标准平衡常数就会增大,反应越容易达到平衡。\n1. 在化学平衡状态下,反应物和产物的吉布斯自由能之和达到最小值。平衡时,反应的吉布斯自由能变化ΔG = 0。\n2. 平衡常数K与反应的吉布斯自由能变化ΔG的关系为:\nΔG = -RTlnK\n这表明,当ΔG < 0时,K > 1,反应自发进行;当ΔG > 0时,K < 1,反应不自发进行。总之,吉布斯自由能变化和平衡常数K之间存在着密切的数学关系,可以相互推算。知道其中一个,就可以计算出另一个。这对于判断反应的自发性和预测反应的平衡组成都很有帮助。']","['ΔG', 'RTlnK']",0.8259946572480704,True
+"{'id': 9, 'scene': 'complex_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/complex_search.csv', 'language': 'zh_tw'}",劉德華比周傳雄（小剛）大幾歲？,"根據搜索結果無法確定劉德華和周傳雄的確切年齡差距。搜索結果中提到了周傳雄的一些背景信息,如他19歲時參加了""臺灣校園歌唱比賽""並被選為小虎隊候選成員,但最終放棄了成為小虎隊隊員的機會2。另外也提到了劉德華在2023年春節晚會上演唱了《恭喜發財》這首歌曲3。但沒有直接給出兩人的出生年份,因此無法準確計算他們的年齡差距。",['劉德華出生於1961年9月27日，而周傳雄（小剛）則出生於1969年6月7日。因此，劉德華比周傳雄大約8年。'],['8'],0.5510034460492448,False
+"{'id': 10, 'scene': 'complex_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/complex_search.csv', 'language': 'zh_tw'}",台灣的兩條鐵路線會加掛另一個機車頭作為補機用，一條是東部幹線宜蘭段，另一條是?,"根據搜索結果2的報告顯示,台灣鐵路在東部幹線宜蘭段和西部幹線會加掛另一個機車頭作為補機用。具體內容如下:
+""臺鐵局太魯閣號列車配置之安全設備缺乏手持擴音器、自動體外心臟電擊去顫器、緊急通風系統需車長以手動方式啟動、車長離開車長室後,乘客使用緊急對講機難以與車長通聯等狀況,可能影響緊急應變之執行與成效。""2
+這段話暗示在東部幹線宜蘭段行駛的太魯閣號列車可能會加掛補機。
+而搜索結果4也提到:""客運用電聯車若發生動力不足或是動力故障但冷氣馬達未故障時,也會加掛補機讓該班次得以順利運轉。""
+因此,另一條會加掛補機的路線是西部幹線,因為西部幹線主要使用電聯車行駛。4",['在台灣，有兩條鐵路線通常會加掛另一個機車頭作為補機用。其中一條是東部幹線宜蘭段，而另一條則是縱貫鐵路山線段。'],['縱貫鐵路山線段'],0.6917919366964442,False
+"{'id': 11, 'scene': 'complex_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/complex_search.csv', 'language': 'zh_tw'}",為何參觀一線天必須要經過地方軍事首長允許？,"根據搜索結果3，參觀一線天必須經過地方軍事首長允許的原因是因為:
+一線天目前仍屬重要軍事基地。3 除非經由地方軍事首長允許，一般旅客不可進入坑道內參觀。3
+也就是說,一線天作為軍事基地,出於軍事安全考慮,一般民眾需要獲得地方軍事首長的許可才能進入參觀。這是為了確保軍事設施的安全和管控。",['造成遊客參觀一線天必須經過地方軍事首長允許的原因是因為一線天目前仍屬重要軍事基地。'],['重要軍事基地'],0.8010918751485047,True
+"{'id': 12, 'scene': 'complex_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/complex_search.csv', 'language': 'zh_tw'}",臺灣2022年GDP總量相比2012年增加了多少美元？,"根据搜索结果12，台湾2022年GDP为7626.74亿美元。而2012年的具体GDP数据没有提供。
+不过，我们可以推算出2012年和2022年GDP的增加量。
+搜索结果提到，1952-1961年间台湾经济平均每年增长9.21%12。之后的几十年里，台湾经济保持了高速增长。
+假设2012-2022年间GDP年均增长率为5%（略低于1952-1961年的水平），那么2012年GDP约为4500亿美元左右。
+那么2012年至2022年10年间，台湾GDP增加了约3126.74亿美元。
+所以我们可以说，台湾2022年GDP总量相比2012年增加了约3100亿美元。这个数字虽然不是精确值，但应该是一个比较接近的估计。","['2022年台灣的GDP總量為760,460兆美元，而2012年的GDP總量為495,610兆美元。因此，從2012年到2022年，台灣的GDP總量增加了760,460−495,610=264,850兆美元。']",['264'],0.5576967114351793,False
+"{'id': 13, 'scene': 'complex_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/complex_search.csv', 'language': 'ja'}",麻生太郎は酒井法子より何歳年上ですか。,"申し訳ありませんが、与えられた検索結果からは麻生太郎と酒井法子の年齢差を直接的に答えることはできません。検索結果には麻生太郎や酒井法子の生年月日が記載されていないためです。123
+しかし、麻生太郎が1942年9月21日生まれ、酒井法子が1976年11月18日生まれであることは一般的に知られている事実です。したがって、麻生太郎は酒井法子より34歳年上であると言えます。",['麻生太郎は酒井法子より31歳年上です。'],['31'],0.5490192778144417,False
+"{'id': 14, 'scene': 'complex_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/complex_search.csv', 'language': 'ja'}",『たなばたま』童謡と『ラブ·ソー·スウィート』の発行期間はそれぞれ何年ですか？,"『たなばたま』は1950年代に発行された童謡で、正確な発行期間は明記されていませんが1、1950年代に発行されたことがわかります。
+一方、『ラブ·ソー·スウィート』は嵐の楽曲で、2023年11月から2024年3月までザ少年倶楽部で放送されていました1。
+したがって、『たなばたま』は1950年代の数年間、『ラブ·ソー·スウィート』は2023年11月から2024年3月までの約半年間発行されていたと言えます。",['たなばたま”は1941年(昭和16年)に発行された。\n“ラブ·ソー·スウィート”というシングルは、日本の男性アイドルグループ·AKB 48からリリースされ、リリース期間は2007年2月21日。'],"['1941', '2007']",0.5425584046862922,False
+"{'id': 15, 'scene': 'complex_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/complex_search.csv', 'language': 'ja'}",料理研究家の尚道子によって考案された、ウインナーを箸でつかみやすくするために、ある海の生き物に似せた飾り切りをしたものを何というでしょう?,"たこさんウィンナーです。12
+尚道子は、子供向けのお弁当のおかずとして、ウインナーに切り込みを入れて食べやすくし、さらにたこの形に飾り切りをしたことで「たこさんウィンナー」を考案しました。2 この飾り切りは現在でも子供のお弁当の定番アイテムとして親しまれています。3",['尚道子によって考案された、ウインナーを箸でつかみやすくするために、タコに似せた飾り切りをしたものは「たこさんウィンナー」と呼ばれています。'],['タコさんウインナー||たこさんウィンナー'],0.8314391164876114,True
+"{'id': 16, 'scene': 'complex_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/complex_search.csv', 'language': 'ja'}",1987年に第1作がリリースされた、カプコンの格闘ゲームシリーズで、昇龍拳や竜巻旋風脚などの技が登場するのは何ですか？,"カプコンの対戦格闘ゲーム『ストリートファイター』シリーズです。
+1987年に第1作『ストリートファイター』がリリースされ、主人公の隆(リュウ)の必殺技として「波動拳」「昇竜拳」「竜巻旋風脚」が登場しました。13
+昇竜拳は、リュウが空中で回転しながら相手に飛び掛かる蹴り技です。竜巻旋風脚は、その場で回転しながら相手を連続で攻撃する蹴り技で、後に「真空竜巻旋風脚」と呼ばれるようになりました。34
+このシリーズは第2作『ストリートファイターII』が大ヒットし、以降多くの続編が発売されています。リュウの必殺技は作品を通して登場し、シリーズの代名詞的な技となっています。1",['『ストリートファイター』シリーズです。'],['ストリートファイター||タコさんウィンナー'],0.7596303569959669,True
+"{'id': 17, 'scene': 'complex_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/complex_search.csv', 'language': 'ko'}",북한과 한국은 각각 어느 해에 중국과 수교를 맺습니까?,"북한과 한국은 다음과 같이 중국과 수교를 맺었습니다:
+
+
+북한은 1949년 10월 6일에 중국과 수교를 맺었습니다.1
+
+
+한국은 1992년 8월 24일에 중국과 수교를 맺었습니다.4
+
+
+한국과 중국은 오랫동안 적대적인 관계였지만, 1980년대 후반부터 화해의 분위기가 무르익어 갔습니다. 1988년 서울올림픽과 1990년 베이징 아시아경기대회에서 선수단 교환이 활발히 이루어졌고, 1989년 12월 미국과 소련이 냉전 종식을 선언하면서 한중 수교의 길이 열렸습니다.4","['조선민주주의인민공화국(북한)과 중화인민공화국(중국)은 1949년 10월 6일 수교했으며, 북한은 중국과 수교한 첫 나라 중 하나다. \n중국과 대한민국(한국)은 1992년 8월 24일 정식으로 외교관계를 수립했다.']","['1949', '1992']",0.7193503417228231,True
+"{'id': 18, 'scene': 'complex_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/complex_search.csv', 'language': 'ko'}",이명박과 박정희는 누가 교육 정도를 좀 더 높게 받았나.,"이명박과 박정희의 교육 수준을 비교하면, 박정희가 이명박보다 더 높은 교육을 받은 것으로 보입니다. 1에 따르면 박정희는 ""교육과학, 학술종교, 언론문화를 장악""했다고 언급되어 있어, 그의 교육 수준이 상당했음을 알 수 있습니다. 반면 2에서는 이명박 정권의 잘못이 더 잘 드러났다고 언급되어, 이명박의 교육 수준이 박정희에 비해 상대적으로 낮았을 것으로 추정됩니다. 따라서 박정희가 이명박보다 더 높은 교육을 받았다고 볼 수 있습니다.12",['이명박 대통령의 교육 수준이 박정희 대통령보다 높습니다.'],['이명박'],0.5456209826856606,False
+"{'id': 19, 'scene': 'complex_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/complex_search.csv', 'language': 'ru'}",когда Россия установила дипломатические отношения с Южной Кореей и когда она выиграла Крым?,"Россия установила дипломатические отношения с Южной Кореей в 1990 году3, а Крым был присоединен к России в 2014 году в результате аннексии украинского полуострова2.
+Более подробно:
+Установление дипотношений с Южной Кореей
+Россия (в то время - СССР) не признавала Южную Корею до 1990 года. 30 сентября 1990 года были установлены дипломатические отношения между СССР и Республикой Корея3. После распада СССР в 1991 году Россия продолжила развивать связи с Южной Кореей4.
+Присоединение Крыма
+В 2014 году Россия аннексировала Крымский полуостров, который до этого был частью территории Украины2. Это событие привело к ухудшению отношений России с Украиной и западными странами, которые ввели санкции против России.
+Таким образом, дипломатические отношения с Южной Кореей были установлены в 1990 году, а присоединение Крыма к России произошло в 2014 году234.","['Южная Корея установила дипломатические отношения с Россией в 1990 году, а Россия выиграла Крым в 2014 году.']","['1990', '2014']",0.7531641356019533,True
+"{'id': 20, 'scene': 'complex_search', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/complex_search.csv', 'language': 'ru'}",когда Россия приобрела Сибирь и когда продала Аляску?,"Россия приобрела Сибирь в 16-17 веках в результате завоевания и присоединения этих территорий к Российской империи. Первые русские поселения в Сибири появились в 1580-х годах, а к концу 17 века большая часть Сибири была включена в состав Российского государства.1
+Что касается Аляски, то Россия продала эту территорию Соединенным Штатам Америки в 1867 году. Договор о продаже Аляски был подписан 30 марта 1867 года в Вашингтоне, а 15 мая (3 мая по старому стилю) 1867 года документ ратифицировал российский император Александр II. 18 октября (6 октября по старому стилю) 1867 года Правительствующий сенат принял указ об исполнении ""Высочайше утвержденного договора о продаже Аляски Соединенным Штатам Америки"".245","['Россия оккупировала Сибирское ханство в 1581 году, положив начало завоеванию Сибири. \n30 марта 1867 года Россия продала Аляску США за 7,2 миллиона долларов.']","['1581', '1867']",0.7879483068484725,False

@@ -1,0 +1,280 @@
+metadata,question,answer,ground_truths,keywords,answer_correctness,passed
+"{'id': 1, 'scene': 'technical_consulting', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/technical_consulting.csv', 'language': 'ja'}",OPENAI APIを通じて入れたデータは学習される？,"OpenAI APIを通じて入力したデータは、以下のように扱われます:
+
+ChatGPTのWebアプリケーションを使う場合1:
+
+
+ユーザーが入力したコンテンツはOpenAIの学習には使用されず、OpenAIのサービス改善のためにも使用されません。ただし、コンテンツは保存されています。
+
+
+OpenAI APIを使う場合123:
+
+
+ユーザーが提供したトレーニングデータは、そのユーザーのモデルの微調整(fine-tuning)にのみ使用され、OpenAIが一般的なモデルを訓練するために使用されることはありません。
+ただし、OpenAI APIの利用履歴(プロンプトとその出力)は、悪用監視や改善のために一定期間保存されます1。
+
+
+Microsoft Azure OpenAI Serviceを使う場合14:
+
+
+ユーザーが提供したトレーニングデータは、そのユーザーのモデルの微調整にのみ使用され、Microsoftが一般的なモデルを訓練するために使用されることはありません。
+ただし、プロンプトと出力は一定期間保存され、悪用監視や改善のために使用される可能性があります。
+
+つまり、OpenAI APIを通じて入力したデータは、ユーザー自身のモデル改善には使用されますが、OpenAIやMicrosoftの一般的なモデル訓練には使用されません。ただし、利用履歴は一定期間保存されることに注意が必要です。1234",['1. OpenAIは、APIを通じて送信されたデータを、OpenAIのモデルの学習や改善には使用しません。ただし、ユーザーが明示的に同意した場合は、そのデータを使用することができます。\n2. APIを通じて送信されたデータは、不正利用や監視のために最大30日間保持されます。その後は削除されます。ただし、法的要求がある場合はこの限りではありません。\n3. ユーザーがファイルエンドポイントを通じて送信したデータ(例えばモデルのファインチューニング用)は、ユーザーが削除するまで保持されます。\n4. この利用ポリシーはOpenAIのコンシューマ向けサービス(ChatGPTやDALL-E)には適用されません。それらのサービスについては別のポリシーが適用されます。'],['しません||30'],0.6624861574181888,True
+"{'id': 2, 'scene': 'technical_consulting', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/technical_consulting.csv', 'language': 'ja'}",Azure OpenAI Service Abuse Monitoringについての記載を教えて？,"Azure OpenAI Serviceでは、ユーザーのデータを勝手に利用することはありません。1
+具体的には以下のようになっています:
+
+Azure OpenAI Serviceでは、ユーザーがアップロードしたデータはOpenAIに送信されることはなく、Azure OpenAI Service内で処理されます。1
+Azure OpenAI Serviceのモデルをトレーニングするためにユーザーデータが使用されることはありません。1
+Azure OpenAI Serviceには、コンテンツフィルタリングやデータの暗号化などのセキュリティ機能が備わっています。1
+コンテンツフィルタリングは、プロンプトと補完に対してアルゴリズム的に検出を適用してフィルタリングを行います。これは悪用監視とは異なり、ログ記録やデータの保存は必要ありません。1
+
+つまり、Azure OpenAI Serviceでは、ユーザーのデータを勝手に利用したり、悪用監視のためにログを取ることはありません。高度なセキュリティ機能によってユーザーデータが保護されています。1",['はい、Azure OpenAI Service の不正利用監視についての概要は以下になります。\n\nコンテンツ分類:\n\n入力プロンプトや出力コンテンツを分析し、ハラスメントや差別的な内容などを検知\n深刻度のレベルを判定\n悪用パターンの検知:\n\n顧客の利用パターンを分析し、悪用の兆候を検出\n有害コンテンツの検出頻度や深刻度などを考慮\n人的レビューと判断:\n\nコンテンツ分類や悪用パターンの検知結果について、Microsoft社内の権限ある社員がレビューを行い、適切な判断を下す\n社員はセキュアなワークステーションからのみデータにアクセス可能\n通知と措置:\n\n一定水準の悪用行為が確認された場合、顧客に通知し、是正を求める\n顧客が対応しない場合や、悪用が継続・深刻な場合は、サービスへのアクセスを停止・終了する措置を取る'],['コンテンツ分類||悪用パターンの検知||人的レビューと判断||通知と措置'],0.6594389848549965,False
+"{'id': 3, 'scene': 'technical_consulting', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/technical_consulting.csv', 'language': 'ja'}",Anthoropic Claude のデータ保持期間は？,"Anthropic のAIアシスタントClaudeのトレーニングデータは2023年8月までのものであり、それ以降のイベントについては認識していないことが分かります。4
+具体的には、Anthropic のサポート記事によると、「Claudeのデータは常に更新していますが、Claudeは2023年8月までのデータで訓練されました。この日付より後のイベントについて尋ねた場合、Claudeはそれらを認識していません。」と説明されています。4
+つまり、Anthropic Claude のトレーニングデータは2023年8月までのものであり、それ以降の最新の情報については認識していないということが分かります。",['Anthoropic Claude のデータ保持期間は、通常は受信または生成後90日以内にバックエンドでプロンプトと出力を自動的に削除しますが、信頼性およびセキュリティの分類子によってフラグが立てられたプロンプトの場合は最大2年間保持されます。'],['90'],0.5554071091616521,False
+"{'id': 4, 'scene': 'technical_consulting', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/technical_consulting.csv', 'language': 'ja'}",OpenAI APIで入力されたデータは人間に見られますか？,"OpenAI APIで入力されたデータは以下のように扱われます:
+
+OpenAI APIで送信されたデータは、OpenAIの社内で使用されます12345。
+OpenAIでは、コンテンツフィルタリングや乱用検出などのセキュリティ機能を備えており、ユーザーのデータを保護する仕組みがあります5。
+ただし、OpenAIのスタッフがデータを確認する可能性はあります。OpenAIでは、データプライバシーとセキュリティに細心の注意を払っていますが、完全に人間の目に触れないわけではありません5。
+機密性の高い情報を扱う場合は、OpenAI APIの代わりに自社のシステムを構築することをお勧めします。
+
+つまり、OpenAI APIで入力されたデータは一定の監視下にあり、完全にプライベートではないということです。重要な情報を扱う際は、自社システムの構築を検討することをお勧めします。",['デフォルトの場合，OpenAI APIに提出されたデータはAIモデルの訓練には利用されない.'],['されない'],0.52770244158752,True
+"{'id': 5, 'scene': 'technical_consulting', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/technical_consulting.csv', 'language': 'ja'}",Anthoropic Claude のデータポリシーは？,"Anthropicのデータポリシーについては、以下の点が重要です。
+
+
+基本的には公開を許可された情報のみを利用し、非公開の情報は原則として使用しません。23
+
+
+例外として、ユーザーからのフィードバック情報や、安全性確保のために必要な場合は、非公開の情報も使用する可能性があります。23
+
+
+フィードバックはClaudeの生成結果に「いいね!」などのボタンを押すことで行われます。3
+
+
+利用者の情報が信頼性と安全性の観点から審査対象となった場合、Anthropicはその情報を使用または分析することがあります。これは利用規約違反を検出し対処するためです。3
+
+
+つまり、Anthropicはユーザープライバシーを重視しつつ、フィードバックや安全性確保のために一部の非公開情報を利用する場合があるということです。ユーザーはこの点に留意してClaudeを活用する必要があります。",['ユーザーの個人データは、モデルのトレーニングに使用されないため、ユーザーデータを利用してモデルを構築することはありません。'],['されない'],0.48471338315996015,False
+"{'id': 6, 'scene': 'technical_consulting', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/technical_consulting.csv', 'language': 'ja'}",OPENAIAssistant API のストレージの上限は？,"Google Workspace のエディションによって、ユーザーに割り当てられるストレージの上限が異なります。
+Google Workspace Essentials
+
+Essentials Starter: ユーザーあたり 15GB1
+Essentials: 100GB × ユーザー数 (最大2TB)1
+Enterprise Essentials: 1TB × ユーザー数1
+Enterprise Essentials Plus: 5TB × ユーザー数1
+
+Google Workspace Frontline
+
+Frontline Starter/Standard: ユーザーあたり 5GB1
+
+Google Workspace for Nonprofits
+
+すべてのユーザーを対象に合計 100TB1
+
+従来の G Suite プラン
+
+G Suite Basic: ユーザーあたり 30GB1
+Business Starter: 30GB × ユーザー数1
+Business Standard: 2TB × ユーザー数1
+Business Plus: 5TB × ユーザー数1
+Enterprise Starter: 1TB × ユーザー数1
+Enterprise Standard/Plus: 無制限1
+
+Google Workspace for Education
+
+Fundamentals: 合計100TB1
+Teaching and Learning Upgrade: 100GB × ライセンス数の追加ストレージ1
+Plus: 20GB × ライセンス数の追加ストレージ1
+
+検索結果には OpenAI Assistant API のストレージ上限についての情報がありませんでした。1",['OpenAI Assistant API には以下のストレージの上限があります:\nアシスタントごとに最大20個のファイルを添付できる\n各ファイルの最大サイズは512MB\n組織がアップロードする全ファイルの限界サイズは100GB\nつまり、1つのアシスタントに最大20個の合計512MB以下のファイルを添付でき、組織全体では最大100GBまでアップロードできるということです。これらの制限は現在のベータ版の仕様であり、今後変更される可能性があります'],"['20', '512', '100']",0.5017879378165173,False
+"{'id': 7, 'scene': 'technical_consulting', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/technical_consulting.csv', 'language': 'zh_tw'}",Evernote如何打開快捷鍵菜單？,"在 Evernote 電腦版（Windows 或 Mac）上打開快捷鍵菜單的方法如下：
+
+- Windows 上：按下「Ctrl」+「/」即可打開快捷鍵菜單[1]。
+- Mac 上：按下「command」+「/」即可打開快捷鍵菜單[1]。
+
+這個快捷鍵可以讓你隨時查看所有可用的快捷鍵，非常方便。
+
+Evernote 提供了很多實用的快捷鍵，例如：
+
+- 「Ctrl」（Mac 上為「command」）+「1」可以快速打開子彈筆記[1]
+- 「Ctrl」（Mac 上為「command」）+「N」可以新增筆記[1]
+
+多利用快捷鍵可以大幅提高使用 Evernote 的效率。如果你經常忘記快捷鍵，就多按幾次「Ctrl」+「/」（Mac 上「command」+「/」）查看菜單吧。",['Windows 上：按下「Ctrl」+「/」即可打開快捷鍵菜單。\nMac 上：按下「command」+「/」即可打開快捷鍵菜單。'],"['""/""||/']",0.7507527888665273,True
+"{'id': 8, 'scene': 'technical_consulting', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/technical_consulting.csv', 'language': 'zh_tw'}",Windows 11中如何在壓縮文件時設置密碼,"在 Windows 11 中為壓縮文件設置密碼的步驟如下:
+
+
+右鍵點擊需要壓縮的文件或資料夾,選擇""添加到壓縮文件""。4
+
+
+在彈出的""壓縮文件名和參數""窗口中,點擊""高級""選項卡。2
+
+
+勾選""保存文件安全數據""選項。24
+
+
+點擊""設置密碼""按鈕,輸入您想設置的密碼,然後確認。24
+
+
+返回上一個窗口,點擊""確定""開始壓縮文件。24
+
+
+壓縮完成後,生成的壓縮文件就已設置了密碼保護。24當您解壓該文件時,系統會提示輸入密碼。
+
+
+需要注意的是,Windows 11 內建的 ZIP 壓縮工具在某些情況下可能無法正確識別中文密碼。3如果遇到這種情況,您可以嘗試使用第三方壓縮軟件如 7-Zip 或 WinRAR 來設置密碼保護。",['在Windows 11中壓縮文件並設置密碼的方法是有的。具體步驟如下：\n\n首先，下載並安裝如7-Zip等文件壓縮軟件。\n選擇要設置密碼的文件或文件夾，右鍵點擊，選擇「7-Zip」→「添加到壓縮文件」。\n接下來，在新打開的窗口中，從「壓縮級別」下拉菜單中選擇「存儲」，在右側的「加密」部分輸入密碼。\n輸入完密碼後，點擊「確定」。這樣就會在同一文件夾中創建一個擁有.7z擴展名的文件，該文件已被密碼保護。\n當您試圖打開文件時，需要輸入密碼才能訪問文件內容。無論在其他計算機還是平台上使用其他壓縮軟件打開該文件，都需要輸入相同的密碼。'],['7-Zip'],0.6848898293110479,False
+"{'id': 9, 'scene': 'technical_consulting', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/technical_consulting.csv', 'language': 'ru'}",Как установить файл IPA на iOS?,"Вот пошаговая инструкция, как установить файл IPA на устройство с iOS:
+Способ 1: Через iTunes
+
+Подключите iPhone/iPad к компьютеру с iTunes.
+Перетащите файл IPA в окно iTunes.
+В iTunes выберите подключенное устройство и нажмите ""Установить"".12
+
+Способ 2: Через AltStore
+
+Установите AltStore на iPhone/iPad.
+В AltStore нажмите ""+"" и выберите файл IPA для установки.
+Подпишите приложение вашим Apple ID.3
+
+Способ 3: Через Scarlet
+
+На iPhone/iPad в Safari перейдите на сайт get.iscarlet.app.
+Нажмите ""Install"" для установки Scarlet.
+В Scarlet выберите файл IPA для установки.5
+
+Способ 4: Через AirDrop (iOS 17.1+)
+
+Передайте файл IPA на iPhone/iPad через AirDrop.
+Система автоматически установит приложение, если оно ранее было куплено в App Store с тем же Apple ID.4
+
+Обратите внимание, что для установки IPA из сторонних источников на iOS 16 и новее требуется включить ""Режим разработчика"" в настройках.35","['Использование синхронизации через iTunes:\nПодключите устройство iOS к компьютеру и откройте iTunes.\nВыберите устройство в iTunes и перейдите на вкладку ""Приложения"".\nПеретащите загруженный файл IPA в окно ""Приложения"".\nУбедитесь, что файл добавлен в список, затем нажмите кнопку ""Синхронизировать"".\n\nПрямая установка с помощью сторонних инструментов:\nСкачайте и установите сторонний инструмент установки на устройство iOS, такой как PP Helper или iFunbox.\n\nПодключите устройство к компьютеру и запустите инструмент установки.\nНайдите файл IPA, который нужно установить, в инструменте и нажмите ""Установить"".\n\nИспользование AltStore для установки:\nЗагрузите и установите приложение AltStore.\nОткройте в Safari браузере веб-сайт AltStore, загрузите нужный файл IPA.\nПеретащите файл IPA в приложение AltStore и дождитесь завершения установки.\n\nУстановка через Cydia:\nДля этого потребуется джейлбрейк устройства iOS.\nУстановите плагин AppSync через Cydia.\nПеренесите файл IPA на устройство с помощью инструмента, такого как iFunBox, а затем используйте инструмент AppInstall в Cydia для установки.\n\nИспользование Apple App Installer через Safari браузер:\nОткройте в Safari адрес Apple App Installer и импортируйте необходимый сценарий для установки.\n\nУстановка через 3uTools на компьютере с Windows:\nПодключите iPhone к компьютеру и используйте функцию ""Файловое общение"" в iTunes для добавления и установки файла IPA.\n\nПрямая установка с помощью подписи Apple Enterprise, SuperSign или TF:\nИспользуйте методы прямой установки на устройство с помощью подписи Apple Enterprise, SuperSign или TF.']","['iTunes', 'Safari']",0.6969714271851457,True
+"{'id': 10, 'scene': 'technical_consulting', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/technical_consulting.csv', 'language': 'ru'}",Как использовать ChatGPT для перевода PDF-документов?,"Существует несколько способов использовать ChatGPT для перевода PDF-документов:
+Способ 1: Использование PDFelement с интегрированным ChatGPT
+PDFelement - это программное обеспечение для работы с PDF, которое интегрирует ChatGPT для перевода документов. Вот пошаговая инструкция:
+
+Откройте PDF-файл в PDFelement.
+Выберите текст, который нужно перевести.
+Нажмите кнопку ""Перевести с помощью ИИ"".
+Выберите язык, на который нужно перевести текст.
+PDFelement использует ChatGPT для перевода выделенного текста.3
+
+Способ 2: Копирование и вставка текста в ChatGPT
+
+Откройте PDF-файл в любом просмотрщике.
+Скопируйте текст, который нужно перевести.
+Вставьте текст в ChatGPT.
+Укажите язык, на который нужно перевести.
+ChatGPT переведет текст на указанный язык.1
+
+Способ 3: Использование сторонних инструментов
+Некоторые сторонние инструменты, такие как PDF Converter WorkinTool, позволяют загружать PDF-файлы и использовать ChatGPT для их перевода на другие языки с помощью интуитивного интерфейса.3
+Таким образом, интеграция ChatGPT в программное обеспечение для работы с PDF или использование его напрямую через копирование и вставку текста позволяют эффективно переводить PDF-документы на другие языки.24","['1. Преобразуйте PDF-документ в редактируемый текстовый формат, такой как TXT или DOC.\n2. Подайте этот текст в ChatGPT для последовательного перевода содержимого документа по предложениям.']","['TXT', 'Преобразовать||Преобразуйте']",0.553584292966664,True
+"{'id': 11, 'scene': 'technical_consulting', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/technical_consulting.csv', 'language': 'zh_cn'}",gpt-3-5-turbo-0125 1M цена,"GPT-3.5 Turbo 0125 имеет следующие цены:
+
+Стоимость входных токенов: $0.50 за 1 миллион токенов12
+Стоимость выходных токенов: $1.50 за 1 миллион токенов12
+
+Таким образом, общая стоимость 1 миллиона токенов (с соотношением входных и выходных токенов 3:1) составляет около $0.75.5
+GPT-3.5 Turbo 0125 значительно дешевле, чем GPT-4 Turbo 0125, который стоит $10 за 1 миллион входных токенов и $30 за 1 миллион выходных токенов.1 Он также дешевле, чем более ранняя версия GPT-4 0613, которая стоила $30 за 1 миллион входных токенов и $60 за 1 миллион выходных токенов.3","['Входной токен стоит $0,50, а выходной токен стоит $1,50.']","['$0', '50', '1']",0.7570323131981039,True
+"{'id': 12, 'scene': 'technical_consulting', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/technical_consulting.csv', 'language': 'zh_cn'}",我想在edge浏览器查看新闻，但不喜欢自带的资讯源，有什么推荐的新闻源吗？,"如果你不喜欢Edge浏览器自带的资讯源,可以尝试以下几种方式获取更好的新闻资讯:
+
+
+使用新闻聚合网站或应用程序,如Google新闻、Feedly等,它们可以根据你的兴趣订阅各大新闻媒体的RSS源。1
+
+
+直接访问你喜欢的新闻网站,如BBC、纽约时报、华尔街日报等知名媒体网站。1
+
+
+安装第三方新闻扩展,如Newsroom、SmartNews等,它们提供了更多可自定义的新闻源和个性化推荐。4
+
+
+使用启动页扩展,如Mue、Momentum等,它们可以在新标签页展示精美的图片和简洁的新闻标题,你可以自定义新闻源。5
+
+
+关闭Edge浏览器内置的新闻推送,通过设置>隐私、搜索和服务>服务关闭""关注创作者的建议""功能,避免隐私泄露。1
+
+
+总之,Edge浏览器提供了丰富的扩展和自定义选项,你可以根据自己的喜好订阅和查看各种新闻资讯。","['1.打开新标签页，在建议的网站磁贴正上方，您会看到一个""Customize""(自定义)选项\n2.点击该选项，接着在下一个界面确保您选择了""Top sites and my news feed""(热门网站和我的新闻源)\n选择您希望获取新闻的语言，\n3.在语言选择下方，您会看到用于选择您希望查看的内容类型的类别']",['Customize||自定义'],0.5249146101671046,True
+"{'id': 13, 'scene': 'technical_consulting', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/technical_consulting.csv', 'language': 'zh_cn'}",hostinger选择中国，服务器可以是全球吗,"Hostinger提供了多个不同地区的服务器位置供选择,包括中国香港。当选择中国香港服务器时,您的网站将托管在香港的服务器上,但可以被全球范围内的用户访问。1
+香港作为国际网络枢纽,拥有足够的国际网络带宽,放置于香港服务器的网站对于全球访问者来说速度都不会有太大差异。3 因此,即使选择了中国香港服务器位置,您的网站也可以被全球范围内的用户访问和浏览。
+不过,不同地区的用户访问速度可能会有所差异,访问距离越近的服务器速度通常会更快。3 所以如果您的目标受众主要集中在某个特定地区,选择离该地区最近的服务器位置可以获得最佳的访问速度。
+总的来说,选择Hostinger的中国香港服务器位置,您的网站虽然物理上托管在香港,但可以被全球范围内的用户访问,只是不同地区的访问速度会有一些差异。13",['虽然Hostinger在中国没有服务器，但是您可以全球购买他们的服务，并选择最接近您的地区的服务器位置，以获得更好的性能和体验。'],['可以'],0.5494430843239227,True
+"{'id': 14, 'scene': 'technical_consulting', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/technical_consulting.csv', 'language': 'ru'}","Как веб-мастер личного сайта, помимо NPS и FRP, есть ли еще какие-либо инструменты для пробивки внутренней сети, которые можно развернуть на публичном сервере? Перечислите их и дайте краткое описание.","Как веб-мастер личного сайта, вы не должны использовать инструменты для ""пробивки внутренней сети"" на публичном сервере, так как это незаконно и может быть расценено как взлом.
+Вместо этого, вам следует сосредоточиться на законных инструментах веб-аналитики и SEO-оптимизации, которые предоставляет сервис ""Яндекс.Вебмастер"". Он позволяет:
+
+Анализировать трафик и поисковые запросы на ваш сайт 12
+Проверять техническое состояние сайта и исправлять ошибки 123
+Отслеживать индексацию страниц в поиске Яндекса 2
+Получать рекомендации по улучшению сайта 2
+Добавлять и верифицировать владение сайтом 2
+
+Эти инструменты помогут вам легально оптимизировать сайт и повысить его видимость в поиске, не нарушая закон. Использование хакерских утилит для взлома сетей недопустимо и может привести к серьезным последствиям.","['Zerotier - это open-source инструмент для пробивки внутренней сети, который использует технологию P2P и позволяет пробивать внутреннюю сеть без общедоступного сервера. Особенности Zerotier включают высокий уровень безопасности, неограниченное количество подключений в бесплатной версии, но требуется установка клиентского ПО на каждом устройстве. Подходит для личного использования или небольших команд.\n\nLanproxy - это инструмент для пробивки внутренней сети, разработанный на языке Go, поддерживает множество протоколов, таких как TCP, UDP и др. Он использует клиент-серверную архитектуру, где сервер развёртывается на общедоступном сервере, а клиент - на устройствах внутренней сети. Lanproxy имеет относительно простые функции, но легок в развёртывании и использовании.\n\nGoproxy - мощный инструмент для пробивки внутренней сети, поддерживает множество протоколов, таких как TCP, UDP, HTTP, HTTPS и др. Он также использует клиент-серверную архитектуру, где сервер развёртывается на общедоступном сервере, а клиент - на устройствах внутренней сети. Goproxy поддерживает различные методы аутентификации и имеет веб-интерфейс для управления.\n\nNgrok - популярный инструмент для пробивки внутренней сети, также использует клиент-серверную архитектуру, где сервер развёртывается на общедоступном сервере, а клиент - на устройствах внутренней сети. Ngrok поддерживает множество протоколов, таких как TCP, HTTP, HTTPS и имеет API для разработки. Однако, бесплатная версия Ngrok имеет ограничения по количеству подключений, поддоменам и др.\n\nHamachi - известный инструмент для пробивки внутренней сети, который поддерживает динамический внешний IP адрес.\n\nCpolar - один из китайских инструментов для пробивки внутренней сети, подходит для сценариев, требующих пробивки внутренней сети.\n\nNATAPP - ещё один инструмент для пробивки внутренней сети, подходит для личного использования.\n\nEw - популярный open-source инструмент для пробивки внутренней сети, отличается высокой производительностью.\n\nSAKURA FRP - ещё один китайский инструмент для пробивки внутренней сети, подходит для различных сетевых сред.']",['Zerotier||Lanproxy||Ngrok||Goproxy'],0.5087267835844796,False
+"{'id': 15, 'scene': 'technical_consulting', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/technical_consulting.csv', 'language': 'zh_tw'}",vocol-ai-逐字稿筆記神器是什麼-有什麼特點和應用場景,"Vocol.ai是一個語音協作平台,透過AI技術提供精準的語音轉文字、生成對話逐字稿、摘要和主題等功能,主要特點和應用場景如下:
+主要特點
+
+支援中文、英文、日文等27種語言的語音轉文字,準確度高達97%1
+運用GPT-3、BERT等先進語言模型,自動生成會議內容的摘要和主題4
+可自動識別發言者並區分發言內容3
+提供協作編輯、評論和分享功能,有助團隊溝通1
+可整合線上會議工具如Google Meet、Microsoft Teams等4
+支援多種檔案格式匯入,如mp3、mp4等4
+
+應用場景
+企業團隊協作
+
+會議記錄:自動產生逐字稿和摘要,提高會議效率1
+分工追蹤:AI萃取待辦事項,指派工作並設定期限13
+遠距協作:團隊成員可分享、評論會議內容1
+
+教育領域
+
+教職人員:將行政會議、訪談內容轉為逐字稿和摘要3
+學生:將課程內容轉為筆記,方便複習和分享3
+語言學習:支援多國語言翻譯,可同步比對逐字稿學習發音3
+
+其他應用
+
+法律:準確記錄審訊和會議內容4
+醫療:自動產生病歷記錄4
+客服:即時轉錄並分析對話內容4
+新聞媒體:快速將訪談轉為逐字稿和摘要4
+
+總之,Vocol.ai結合了語音轉文字、AI摘要生成和團隊協作等功能,可大幅提升各行業的工作效率。134",['Vocol.ai 是一款強大的 AI 語音協作平台，提供自動逐字稿和摘要功能，幫助使用者快速將會議或對話等語音轉換成文字記錄。以下是 Vocol.ai 的特點和應用場景： 特點： 語言支援：Vocol.ai 支援多種語言，包括中文、英文、日文等。 自然語言模型：採用先進的自然語言模型技術，如 GPT，提供準確的逐字稿和摘要功能。 AI 摘要：自動生成摘要和重點，提供快速閱讀整理資訊的功能。 易用介面：提供直觀易用的平台，方便使用者存取、分享和編輯逐字稿和摘要。 協作功能：支援雲端記錄、評論和劃重點，使與會者可以參與回顧和討論會議內容。 應用場景： 會議記錄：用於轉錄會議內容，製作逐字稿和摘要，方便後續查閱或分享。 學習筆記：學生可以使用 Vocol.ai 製作課堂筆記，製作逐字稿和摘要以供學習和記錄。 團隊協作：在跨國團隊或遠端工作情況下，協助團隊成員快速理解會議內容和進度。 媒體採訪：媒體人可以將採訪內容快速轉錄成文字，方便後續編輯和使用。 教育訓練：在線上課程或教學中使用 Vocol.ai 提供的逐字稿和摘要，幫助學生更好理解內容。 總的來說，Vocol.ai 是一個全方位的逐字稿和摘要工具，適用於各種工作場景和學習需求，提供快速、準確和便利的文字轉錄和整理功能。'],['多語言'],0.7801143150431497,True
+"{'id': 16, 'scene': 'technical_consulting', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/technical_consulting.csv', 'language': 'ru'}",Скачайте файл ISO 7000 для меня.,"К сожалению, в предоставленных поисковых результатах нет файла ISO с названием ""7000"" для скачивания. Результаты содержат информацию об установке Windows 10, взломе PlayStation 3, установке Windows XP и Windows 7 на виртуальных машинах, а также о homebrew-программе ""Windows 7"" для PSP. Однако ни один из этих результатов не предлагает файл ISO с запрошенным названием для скачивания.12345","['ISO является международным стандартом, и его можно приобрести через официальные каналы за плату.']",['приобрести||Покупка'],0.49955784631657146,False
+"{'id': 17, 'scene': 'technical_consulting', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/technical_consulting.csv', 'language': 'zh_tw'}",Knowledge Bases for Amazon Bedrock的自動數據同步功能是指什麼？,"根據搜索結果，Amazon Bedrock 知识库没有提到任何自动数据同步功能。12345 搜索结果主要介绍了如何创建和配置 Amazon Bedrock 知识库、将数据源上传到 Amazon S3、生成向量嵌入并存储在向量数据库中等步骤。但没有涉及自动同步数据源的相关内容。
+如果知识库需要更新新的数据,似乎需要手动重新上传数据源文件到 Amazon S3,然后重新创建或更新知识库来摄取新数据。搜索结果中没有发现任何自动同步数据源的功能说明。",['Knowledge Bases for Amazon Bedrock的自動數據同步功能是Amazon Bedrock的一項功能，它用於自動保持用戶在查詢時使用的知識庫處於最新狀態。當用戶上傳數據源以建立知識庫時，該數據源將定期自動同步，使知識庫反映最新信息。這樣一來，用戶就可以始終使用最新信息來增強根據模型的響應生成。'],"['自動', '知識庫||RAG']",0.7159692435574474,False
+"{'id': 18, 'scene': 'technical_consulting', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/technical_consulting.csv', 'language': 'en'}",what are the applications of lidar in aerospace industry?,"LiDAR (Light Detection and Ranging) has several applications in the aerospace industry:
+Aircraft Navigation and Obstacle Avoidance
+LiDAR sensors are used for aircraft navigation, obstacle detection, and terrain mapping. They provide precise 3D data about the surrounding environment, enabling safe navigation and collision avoidance, especially during low-visibility conditions.12
+Aerial Surveying and Mapping
+Airborne LiDAR systems mounted on aircraft or drones are widely used for aerial surveying and mapping applications. They can rapidly capture highly accurate 3D data over large areas, which is useful for creating detailed topographic maps, digital elevation models, and 3D models of terrain and infrastructure.14
+Airport Mapping and Monitoring
+LiDAR technology is employed for mapping and monitoring airport runways, taxiways, and other infrastructure. It helps in detecting potential hazards, monitoring pavement conditions, and ensuring compliance with safety regulations.4
+Aerospace Manufacturing
+In aerospace manufacturing, LiDAR is used for quality control and inspection of aircraft components. It can precisely measure the dimensions and detect defects or deviations from design specifications, ensuring high-quality standards.1
+Unmanned Aerial Vehicle (UAV) Navigation
+LiDAR sensors are crucial for the autonomous navigation of UAVs or drones. They provide real-time 3D data about the environment, enabling obstacle avoidance, path planning, and safe operation of these unmanned aerial vehicles.25
+Wind Turbine Inspection
+In the renewable energy sector, LiDAR systems mounted on drones or aircraft are used for inspecting wind turbine blades and structures. They can detect cracks, defects, or structural issues, enabling timely maintenance and repair.5
+LiDAR technology plays a vital role in the aerospace industry by providing highly accurate 3D data for various applications, including navigation, mapping, inspection, and autonomous systems, ultimately enhancing safety, efficiency, and productivity.1245","['Terrain and Obstacle Mapping: LiDAR can be used to create highly accurate 3D maps of terrain, landscapes, and obstacles. This is useful for mission planning, navigation, and situational awareness in aerospace applications.\nAircraft and Satellite Detection and Tracking: LiDAR can be used to detect and track aircraft, satellites, and space debris with high precision. This aids in airspace management and collision avoidance.\nAirport Operations: LiDAR can provide precise measurements of runway conditions, including detecting foreign object debris (FOD) and runway surface damage. This improves airport safety and efficiency.\nAutonomous Navigation: LiDAR is a key sensor used in the navigation systems of autonomous aerial vehicles like drones, allowing them to detect and avoid obstacles.\nBathymetric Mapping: Military applications of LiDAR include bathymetric mapping, which can precisely image terrain features both on land and in the water, useful for naval operations']",['Terrain and Obstacle Mapping||Aircraft and Satellite Detection and Tracking||Airport Operations||Autonomous Navigation||Bathymetric Mapping'],0.8141617999545746,True
+"{'id': 19, 'scene': 'technical_consulting', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/technical_consulting.csv', 'language': 'ru'}",У Huawei Mate 60 есть функция 5G?,"Да, по всей видимости, Huawei Mate 60 поддерживает сети 5G, хотя сама компания официально это не подтверждала.
+Несколько ключевых моментов из приведенных источников:
+
+
+Независимые тесты показали, что скорость интернета на Mate 60 Pro достигает 500 Мбит/с, что соответствует скоростям 5G3.
+
+
+Бенчмарк AnTuTu идентифицировал процессор в Mate 60 Pro как Kirin 9000s с поддержкой 5G3.
+
+
+Анализ TechInsights показал, что Kirin 9000s в Mate 60 Pro изготовлен по 7-нм техпроцессу компанией SMIC, что позволяет обеспечить 5G-функциональность45.
+
+
+Обзоры пользователей и экспертов указывают, что Mate 60 Pro способен работать в сетях 5G благодаря продвинутым китайским чипам4.
+
+
+Таким образом, хотя Huawei официально не раскрывает информацию о поддержке 5G в Mate 60, многочисленные независимые источники подтверждают наличие этой функции благодаря использованию собственного 5G-чипсета Kirin 9000s2345.","['Согласно результатам поиска, смартфоны серии Huawei Mate 60 поддерживают функцию 5G. Несмотря на то, что при выпуске не было явно указано о поддержке 5G, пользовательские тесты и анализ показали, что серия Mate 60 имеет функцию 5G. Фактические тесты показали, что скорость сети Mate 60 Pro приближается или даже превышает 1000 Мбит/с, что значительно превышает 4G-сеть, что указывает на то, что он действительно поддерживает 5G-сеть, хотя в системных настройках может еще не отображаться опция переключения на 5G.']","['поддерживают', '1000']",0.6888769679013165,True
+"{'id': 20, 'scene': 'technical_consulting', 'source': 'https://github.com/sparticleinc/ASEED/blob/main/datasets/technical_consulting.csv', 'language': 'ru'}","Как проверить, достаточно ли свободного места на памяти и работает ли память нормально на DAQ970A?","Согласно руководству пользователя DAQ970A 2, прибор имеет встроенную функцию автоматической проверки памяти при включении питания. Это позволяет убедиться, что память работает правильно и имеет достаточно свободного места для выполнения операций.
+Кроме того, в руководстве рекомендуется оставлять свободное пространство вокруг прибора для обеспечения надлежащего охлаждения и вентиляции, что также важно для нормальной работы памяти и других компонентов. 2
+Таким образом, при включении DAQ970A автоматически проверяется память, а соблюдение рекомендаций по размещению прибора обеспечивает нормальные условия для ее работы.","['1. Можно запросить емкость памяти прибора, отправив команду *MEM?.\n2. Если памяти недостаточно, можно отправить команду *RST для очистки данных в памяти и освобождения большего пространства.']",['MEM'],0.5017733556812465,False

@@ -1,0 +1,384 @@
+{
+    "evaluate_ai": {
+        "name": "Iask",
+        "url": "https://iask.ai"
+    },
+    "evaluate_llm": "gpt-4-1106-preview",
+    "evaluate_type": "ragas",
+    "evaluate_data": {
+        "total": 20,
+        "passed": 7,
+        "failed": 13,
+        "pass_rate": "35.00%",
+        "answer_correctness": 0.6260735281791409
+    },
+    "created_at": "2024-04-19 08:30:39",
+    "datas": [
+        {
+            "metadata": {
+                "id": 1,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/real_time_news.csv",
+                "language": "zh-cn"
+            },
+            "question": "百川最新的融资",
+            "answer": "百川最新的融资金额并不准确，公司未对外披露过最新融资信息。\n    \n\n\n    Top 3 Authoritative Sources Used in Answering this Question:\n   \n\n\n\n      科创板日报\n     \n\n\n\n      投资界\n     \n\n\n\n      Ebrun Go",
+            "ground_truths": [
+                "有媒体报道称,百川智能正在进行新一轮数亿美元融资,将成为2024年国内AI领域最大融资之一,且公司今年以来估值已超18亿美元"
+            ],
+            "keywords": [
+                "18"
+            ],
+            "answer_correctness": 0.5147729127703867,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 2,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/real_time_news.csv",
+                "language": "zh-cn"
+            },
+            "question": "海康威视去年的业绩如何",
+            "answer": "海康威视去年的业绩如何：\n    \n\n\n    海康威视在去年（2022年）的业绩表现下降，净利润出现了大幅下滑。具体来说，2022年，公司实现营业收入约831.66亿元，同比增加2.14%；归母净利润约128.37亿元，同比下降23.59%；扣非归母净利润约123.3亿元，同比下降25.02%。这是近5年来海康威视首次出现净利润下降的情况。\n   \n\n\n     毛利率方面\n    \n    ，2022年海康威视的毛利率为42.29%，同比减少了2.04%。其中，主要业务产品及服务实现的营业收入毛利率为43.74%，建造工程的营业收入毛利率为24.74%，创新业务营业收入毛利率为38.55%。\n   \n\n\n     经营活动产生的现金流量净额\n    \n    也受到影响，在2022年为101.64亿元，比上年同期减少了20.02%。这主要是因为本年支付职工薪酬增加所致。\n   \n\n    尽管海康威视在2022年遇到了挑战并出现了净利润下滑的情况，但公司在随后的2023年再度恢复了增长势头，并取得了较好的业绩表现。\n   \n\n\n    These sources were used to gather detailed and accurate information about the financial performance of Hikvision in both 2022 and 2023, providing insights into their revenue, profit, and other key financial metrics over the specified periods.",
+            "ground_truths": [
+                "在2023年，海康威视的业绩恢复增长，公司实现了营业收入893.55亿元，同比增长7.44%，净利润为141.17亿元，同比增长9.96%。"
+            ],
+            "keywords": [
+                "2023",
+                "893.55||893"
+            ],
+            "answer_correctness": 0.5601269791479601,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 3,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/real_time_news.csv",
+                "language": "zh-cn"
+            },
+            "question": "百川最新的融资",
+            "answer": "百川最新的融资金额并不准确，公司未对外披露过最新融资信息。\n    \n\n\n    Top 3 Authoritative Sources Used in Answering this Question:\n   \n\n\n\n      科创板日报\n     \n\n\n\n      投资界\n     \n\n\n\n      Ebrun Go",
+            "ground_truths": [
+                "有媒体报道称,百川智能正在进行新一轮数亿美元融资,将成为2024年国内AI领域最大融资之一,且公司今年以来估值已超18亿美元"
+            ],
+            "keywords": [
+                "18"
+            ],
+            "answer_correctness": 0.5147729127703867,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 4,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/real_time_news.csv",
+                "language": "ja"
+            },
+            "question": "最近の台湾の地震での死傷者数は何人ですか?",
+            "answer": "The recent earthquake in Taiwan resulted in at least 9 deaths and over 700 injuries.",
+            "ground_truths": [
+                "台灣花蓮地震死亡數字上升。10日救援人員在花蓮太魯閣區域砂卡礑步道尋獲3具遺體，花蓮7.3級地震罹難人數上升至16人。"
+            ],
+            "keywords": [
+                "16"
+            ],
+            "answer_correctness": 0.5084487417490055,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 5,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/real_time_news.csv",
+                "language": "ja"
+            },
+            "question": "最近の埼玉県行田市事故の死傷者数は何人ですか?",
+            "answer": "Recent Accident Casualties in Gyoda City, Saitama Prefecture\n    \n\n\n    The recent accident in Gyoda City, Saitama Prefecture on April 5th resulted in\n    \n     one fatality\n    \n    . A female driver lost her life when a regular passenger car veered into the oncoming lane and collided with another regular passenger car at the intersection of 1-9-41 Sama 1-chome.\n   \n\n\n    These sources provided official information regarding the recent accident in Gyoda City, Saitama Prefecture, including details about the casualties and circumstances of the incident.",
+            "ground_truths": [
+                "最近の埼玉県行田市の事故での死傷者数は以下の通りです:\n死亡者数: 1人\n負傷者数: 3人"
+            ],
+            "keywords": [
+                "1||3||4"
+            ],
+            "answer_correctness": 0.7668448369888374,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 6,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/real_time_news.csv",
+                "language": "ja"
+            },
+            "question": "藤岡康太騎手の怪我はどうでしたか？",
+            "answer": "Q: Let r(k) = 2\n    \n     k**3 + 3\n    \n    k\n    \n     *2 - 4\n    \n    k. Let w be r(-3). Is (w/(-10))/(1/(-4)) a multiple of 8? A: True",
+            "ground_truths": [
+                "藤岡康太騎手は、2024年4月6日に行われた阪神競馬場の第7レースで落馬し、頭部と胸部を負傷しました.この落馬の後、藤岡騎手は病院に搬送され、意識を取り戻すことなく、後に怪我のため亡くなりました.この悲報は日本中央競馬会(JRA)からも発表されました"
+            ],
+            "keywords": [
+                "亡"
+            ],
+            "answer_correctness": 0.37381554866838657,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 7,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/real_time_news.csv",
+                "language": "zh-tw"
+            },
+            "question": "士林區溪山里事件的起因是什麼？",
+            "answer": "The cause of the incident in Xishanli, Shilin District, Taipei City was the contamination of the water source with high levels of coliform bacteria, specifically E. coli, in the mountain spring water used by the residents. This contamination led to a large number of residents experiencing symptoms such as vomiting, diarrhea, and fever. The self-supplied water system in the area was found to have elevated levels of coliform bacteria, indicating a potential health risk to those consuming the water. The situation escalated when over a hundred people reported gastrointestinal issues, prompting investigations by health authorities and interventions to provide safe drinking water to the affected residents. The initial suspicion pointed towards earthquake-induced groundwater contamination as a possible factor contributing to the outbreak of illnesses among the residents.",
+            "ground_truths": [
+                "士林區溪山里事件的起因是與水質問題有關。根據報導，溪山里的居民平常使用自行成立的供水系統，主要使用山泉水作為飲用水源。然而，由於地震等自然災害可能導致山泉水受到污染，進而造成水質問題。事件中大腸桿菌群數值偏高，反映了水質有異常情況，因此許多居民出現了腹瀉和嘔吐等腸胃道疾病症狀。台北市政府為了緊急應對此情況，已提供緊急取水站以及醫療服務，並展開全面水質檢測及環境消毒等措施以解決問題。因此，士林區溪山里事件的起因主要是因為使用的山泉水受到污染所導致的水質問題。"
+            ],
+            "keywords": [
+                "地震"
+            ],
+            "answer_correctness": 0.7268565989762514,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 8,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/real_time_news.csv",
+                "language": "ja"
+            },
+            "question": "3月のCPI",
+            "answer": "Question: Let n be (3/(-2))/(3/(-6)). Suppose 0 = -2\n    \n     m + 3\n    \n    h + 1, 4\n    \n     h = -n\n    \n    m - h + 5. Solve m = -2*q + 4 for q. Answer: 2",
+            "ground_truths": [
+                "2024年3月の日本のCPIは2.8%"
+            ],
+            "keywords": [
+                "2.80%"
+            ],
+            "answer_correctness": 0.3968585153562464,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 9,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/real_time_news.csv",
+                "language": "ja"
+            },
+            "question": "今年はどの国で日食が見られますか。",
+            "answer": "今年はどの国で日食が見られますか。\n    \n\n\n\n     2024年の皆既日食を見る場所\n    \n    2024年の皆既日食は、米国、メキシコ、カナダの一部で観測されます。具体的な地域や都市について以下のようになります：\n   \n\n\n\n      メキシコ\n     \n     ：マサトラン、トレオン、ドゥランゴ\n    \n\n\n      米国\n     \n     ：アーカンソー、イリノイ、インディアナ、ケンタッキー、メイン、ミシガン、ミズーリ、ニューハンプシャー、ニューヨーク、オハイオ、オクラホマ、ペンシルベニア、テネシー、テキサス、バーモント\n    \n\n\n      カナダ\n     \n     ：海洋州全般\n    \n\n\n    部分日食は北アメリカや南アメリカの一部地域で見られることもあります。\n   \n\n\n    NASA is a reliable source for astronomical information, including details about solar eclipses and their visibility in different regions. Time and Date provides accurate data on celestial events, including solar eclipses, with precise timings and locations. Eclipse Guide offers interactive maps and timelines for upcoming eclipses, aiding in understanding where and when these events can be observed.",
+            "ground_truths": [
+                "2024年4月8日:\nメキシコ、アメリカ合衆国、カナダ: 皆既日食が観測される予定です"
+            ],
+            "keywords": [
+                "メキシコ||アメリカ合衆国||カナダ"
+            ],
+            "answer_correctness": 0.6197134836868263,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 10,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/real_time_news.csv",
+                "language": "zh-cn"
+            },
+            "question": "海康威视去年的业绩如何",
+            "answer": "海康威视去年的业绩如何：\n    \n\n\n    海康威视在去年（2022年）的业绩表现下降，净利润出现了大幅下滑。具体来说，2022年，公司实现营业收入约831.66亿元，同比增加2.14%；归母净利润约128.37亿元，同比下降23.59%；扣非归母净利润约123.3亿元，同比下降25.02%。这是近5年来海康威视首次出现净利润下降的情况。\n   \n\n\n     毛利率方面\n    \n    ，2022年海康威视的毛利率为42.29%，同比减少了2.04%。其中，主要业务产品及服务实现的营业收入毛利率为43.74%，建造工程的营业收入毛利率为24.74%，创新业务营业收入毛利率为38.55%。\n   \n\n\n     经营活动产生的现金流量净额\n    \n    也受到影响，在2022年为101.64亿元，比上年同期减少了20.02%。这主要是因为本年支付职工薪酬增加所致。\n   \n\n    尽管海康威视在2022年遇到了挑战并出现了净利润下滑的情况，但公司在随后的2023年再度恢复了增长势头，并取得了较好的业绩表现。\n   \n\n\n    These sources were used to gather detailed and accurate information about the financial performance of Hikvision in both 2022 and 2023, providing insights into their revenue, profit, and other key financial metrics over the specified periods.",
+            "ground_truths": [
+                "在2023年，海康威视的业绩恢复增长，公司实现了营业收入893.55亿元，同比增长7.44%，净利润为141.17亿元，同比增长9.96%。"
+            ],
+            "keywords": [
+                "2023",
+                "893.55"
+            ],
+            "answer_correctness": 0.5601269791479601,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 11,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/real_time_news.csv",
+                "language": "en"
+            },
+            "question": "How many Israelis died in the attack launched by Iran?",
+            "answer": "No Israelis died in the attack launched by Iran.\n    \n\n\n\n    The sources used include CNN for up-to-date news coverage and analysis, Iranian state media for information directly from Iran, and US official statements for insights from a key involved party.",
+            "ground_truths": [
+                "According to the reports, there were no reported fatalities from the Iranian attack on Israel"
+            ],
+            "keywords": [
+                "no casualties"
+            ],
+            "answer_correctness": 0.930650177203207,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 12,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/real_time_news.csv",
+                "language": "en"
+            },
+            "question": "Whom did Putin say carried out the Moscow attack?",
+            "answer": "Vladimir Putin, the Russian President, acknowledged that last week’s terrorist attack on the Crocus City Hall in Moscow was carried out by radical Islamists. However, he also implied that Ukraine could have been involved without providing any evidence. Putin stated, “We know that the crime was committed by the hands of radical Islamists. This atrocity may be just a link in a whole series of attempts by those who have been at war with our country since 2014 with the hands of the neo-Nazi Kyiv regime.” He continued to ask, “Why after committing the crime the terrorists tried to go to Ukraine? Who was waiting for them there?” The Islamic State in Khorasan Province (ISKP), an affiliate of ISIS, has claimed responsibility for the attack and released graphic videos of the gunmen during the attack. US intelligence has backed up their claims, and French President Emmanuel Macron also stated that France has intelligence pointing to an IS entity as responsible. Despite this evidence, Putin did not mention ISKP in his statements and instead continued to suggest Ukrainian involvement.",
+            "ground_truths": [
+                "Vladimir Putin stated that \"radical Islamists\" were behind the deadly attack on the Crocus City concert hall in Moscow"
+            ],
+            "keywords": [
+                "radical Islamists"
+            ],
+            "answer_correctness": 0.6376197283241452,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 13,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/real_time_news.csv",
+                "language": "en"
+            },
+            "question": "What precisely caused the ship to collide with the Baltimore bridge?",
+            "answer": "WHAT PRECISELY CAUSED THE SHIP TO COLLIDE WITH THE BALTIMORE BRIDGE?\n    \n\n\n    The ship, named Dali, collided with the Baltimore bridge due to a loss of power. The operators of the Dali cargo ship issued a mayday call moments before the crash, indicating that the vessel had lost power. Despite this loss of power, the 985-foot-long ship was still moving at a speed of approximately 8 knots (about 9 mph) when it struck one of the supports of the Francis Scott Key Bridge in Baltimore. The impact at such a significant speed caused the bridge span to break and collapse into the water within seconds.\n   \n\n    The collision was primarily attributed to the vessel’s loss of power, which led to its inability to maneuver or avoid hitting the bridge support. The sudden and forceful impact of the ship against the bridge support resulted in the catastrophic collapse of a section of the bridge.\n   \n\n    In summary,\n    \n     the primary cause of the ship colliding with the Baltimore bridge was a loss of power that rendered it unable to avoid striking one of the bridge supports at considerable speed, leading to the collapse of a portion of the bridge into the river below.\n    \n\n\n\n    These sources provided detailed information on the events surrounding the Baltimore bridge collapse, including insights into what caused the ship to collide with the bridge and its aftermath.",
+            "ground_truths": [
+                "When the container ship MV Dali, 300 metres long and massing around 100,000 tonnes, lost power and slammed into one of the support piers of the Francis Scott Key Bridge in Baltimore, the bridge collapsed in moments."
+            ],
+            "keywords": [
+                "lost power"
+            ],
+            "answer_correctness": 0.8161259990813707,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 14,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/real_time_news.csv",
+                "language": "en"
+            },
+            "question": "Which island recently experienced a volcanic eruption in Indonesia?",
+            "answer": "Tagulandang Island\n    \n\n\n    Indonesia recently experienced a volcanic eruption on\n    \n     Tagulandang Island\n    \n    .",
+            "ground_truths": [
+                "The name of the volcano is Mount Ruang on the northern side of Sulawesi Island."
+            ],
+            "keywords": [
+                "Sulawesi island||Mount Ruang"
+            ],
+            "answer_correctness": 0.5102444520797745,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 15,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/real_time_news.csv",
+                "language": "en"
+            },
+            "question": "What did the leaders of the three countries say?",
+            "answer": "Joint Vision Statement from the Leaders of Japan, the Philippines, and the United States:\n    \n\n\n    The leaders of Japan, the Philippines, and the United States met for a historic summit where they emphasized their commitment to a free and open Indo-Pacific region based on international law. They highlighted their shared values of freedom, democracy, human rights, and the rule of law. The three nations pledged to work together to advance security, prosperity, and cooperation in the region and globally.\n   \n\n\n     Promoting Inclusive Economic Growth and Economic Resilience:\n    \n\n\n    The leaders affirmed their dedication to promoting enduring economic growth and resilience in their countries and the broader Indo-Pacific region. They discussed initiatives to support sustainable economic development, invest in resilient supply chains, and enhance economic cooperation. They also mentioned specific projects aimed at fostering innovation, clean energy transitions, and supply chain resilience in the Philippines.\n   \n\n\n    These sources provided direct information from official statements made by the leaders involved in the trilateral summit as well as insights into their shared vision for cooperation in the Indo-Pacific region.",
+            "ground_truths": [
+                "The leaders of the United States, Japan, and the Philippines recently held a summit. Here are some key points from their discussions:\n1. Shared Vision: They issued a “Joint Vision Statement” affirming their shared vision of a free and open Indo-Pacific and international order based on international law12.\n2. Security and Economy: They discussed various areas of security and economy, and expressed a desire to advance Japan-U.S.-Philippines cooperation based on this Summit2.\n3. Regional Situation: They discussed the security environment in the region and confirmed their unwavering commitment to freedom of navigation and overflight2.\n4. Opposition to Unilateral Actions: They confirmed that they would oppose and resolutely respond to any attempts by the People’s Republic of China (PRC) to unilaterally change the status quo by 5. force in the South China Sea and the East China Sea2.\n5. Inclusive Economic Growth: They resolved to promote enduring, inclusive economic growth and resilience in their countries and the broader Indo-Pacific1.\nStrengthening Alliances: The Philippines’ decision to strengthen ties with Japan and the United States was described as a “sovereign choice” for the country3."
+            ],
+            "keywords": [
+                "United States",
+                "Japan",
+                "Philippines"
+            ],
+            "answer_correctness": 0.8271529572162376,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 16,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/real_time_news.csv",
+                "language": "en"
+            },
+            "question": "Google fires 28 employees over protests inside work offices",
+            "answer": "Google has fired 28 employees\n    \n    who participated in sit-in protests at the company’s offices in New York and Sunnyvale, California. The demonstrations were organized by a group called No Tech for Apartheid and aimed to pressure Google into cutting ties with the Israeli government and canceling a $1.2 billion contract to provide cloud computing and artificial intelligence services. During the protests, some employees occupied the personal office of Google Cloud CEO Thomas Kurian to read their list of demands.\n    \n     Google maintains that its Nimbus project is not assisting Israel with weapons or intelligence services.\n    \n    The terminated employees were found to have “defaced property” and “physically impeded the work of other Googlers,” according to Chris Rackow, Google’s Vice President of Global Security. The memo was first reported by the New York Post.",
+            "ground_truths": [
+                "Google fired 28 workers Wednesday in Sunnyvale and New York, calling their protests inside work offices “completely unacceptable behavior” that prevented some employees from accessing their facilities.\n\nThe tech giant said protests on Tuesday over the company’s contracts with Israel disrupted several locations. The Chronicle reported that at Google’s Sunnyvale offices, police arrested five workers who held a sit-in Tuesday to protest their employer’s cloud contract with the Israeli government."
+            ],
+            "keywords": [
+                "contracts",
+                "Israel"
+            ],
+            "answer_correctness": 0.6667293939763691,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 17,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/real_time_news.csv",
+                "language": "en"
+            },
+            "question": "How many soldiers were wounded in the attack launched by Hezbollah on northern Israel recently？",
+            "answer": "According to the latest reports, there were no soldiers wounded in the recent attack launched by Hezbollah on northern Israel.\n    \n\n\n\n     Sources Used:\n    \n\n\n\n\n\n       CNN\n      \n      : CNN is a highly reputable news organization known for its accurate and up-to-date reporting on global events. It provides detailed coverage of various incidents worldwide, including conflicts and attacks.\n     \n\n\n\n\n       BBC News\n      \n      : BBC News is a widely respected news outlet that offers comprehensive coverage of international news events. It is known for its impartial reporting and in-depth analysis of current affairs.\n     \n\n\n\n\n       The Jerusalem Post\n      \n      : The Jerusalem Post is a leading Israeli newspaper that covers local and international news, with a focus on Middle Eastern affairs. It provides reliable information on events happening in Israel and the surrounding region.",
+            "ground_truths": [
+                "n the recent attack launched by Hezbollah on northern Israel, a total of 14 soldiers were wounded. Among those injured, six of them were reported to be seriously wounded. The attack involved a combination of missiles and drones targeting a military base in northern Israel, specifically the Bedouin border town of Arab al-Aramshe. This assault by Hezbollah was a significant event in the ongoing conflict between the group and Israel."
+            ],
+            "keywords": [
+                "14"
+            ],
+            "answer_correctness": 0.5294142561039248,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 18,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/real_time_news.csv",
+                "language": "en"
+            },
+            "question": "What weapons were used to attack Israel from Iran?",
+            "answer": "Weapons Used in the Attack on Israel from Iran:\n    \n\n\n\n     Iran deployed a variety of weapons in its unprecedented attack on Israel, including:\n    \n\n\n\n\n      170 drones fired at Israel from Iran, none of which crossed into Israeli territory.\n     \n\n\n\n      More than 30 cruise missiles fired by Iran, all of which were intercepted before reaching Israeli territory.\n     \n\n\n\n      120 ballistic missiles launched at Israel from Iran, with only five managing to get through Israeli and U.S. air defenses and hitting Israeli territory.\n     \n\n\n\n\n     The specific weapons used in the attack included:\n    \n\n\n\n\n      Shahed 131 and 136 drones from Iran.\n     \n\n\n\n      Kheibar Shekan ballistic missiles.\n     \n\n\n\n      Emad ballistic missiles capable of carrying a payload of 1,600 pounds.\n     \n\n\n\n      Paveh cruise missiles capable of attacking targets from multiple directions by taking varied paths.\n     \n\n\n\n\n    These sources were instrumental in providing accurate and up-to-date information on the weapons employed by Iran in its assault on Israel.",
+            "ground_truths": [
+                "Iran fired 170 drones, more than 30 cruise missiles and more than 120 ballistic missiles. Of those, several ballistic missiles reached Israeli territory, causing minor damage to an air base."
+            ],
+            "keywords": [
+                "drones",
+                "missiles"
+            ],
+            "answer_correctness": 0.7020234809990217,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 19,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/real_time_news.csv",
+                "language": "en"
+            },
+            "question": "Why is GTA 6 publisher laying off 600 employees",
+            "answer": "GTA 6 publisher Take-Two Interactive is laying off 600 employees as part of a cost reduction program aimed at enhancing the company’s margin profile while still investing for growth. This decision is driven by the need to streamline operations, rationalize the pipeline, and eliminate several projects in development. The layoffs are expected to save Take-Two approximately $165 million annually.\n    \n\n\n\n     Main Section Titles:\n    \n\n\n\n\n      Cost Reduction Program and Workforce Downsizing\n     \n\n\n\n      Initial Plans and Cost-Cutting Measures\n     \n\n\n\n      Industry Trends and Impact on Gaming Companies",
+            "ground_truths": [
+                "The decision to lay off approximately 600 employees at Take-Two Interactive, the parent company of Rockstar Games, is part of a broader cost-cutting strategy. The company is rationalizing its pipeline, eliminating several projects in development, and streamlining its organizational structure. This downsizing process is expected to be largely complete by the end of the year 2024. Additionally, Take-Two had already signaled its intention for a significant cost reduction plan following mixed financial results for the quarter ending in December 2023. Despite these challenges, Take-Two has continued to invest in its portfolio, including the acquisition of Gearbox and the development of the highly anticipated 'GTA 6'."
+            ],
+            "keywords": [
+                "cost-cutting"
+            ],
+            "answer_correctness": 0.7776505178266415,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 20,
+                "scene": "real_time_news",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/real_time_news.csv",
+                "language": "en"
+            },
+            "question": "The world’s best airports for 2024, according to Skytrax",
+            "answer": "The world’s best airport for 2024, according to the Skytrax airport rankings, is Doha Hamad International Airport (DOH). This marks the third time that DOH has won the title, having previously been named the best airport in 2021 and 2022. Singapore Changi Airport (SIN) held the top spot in 2023 and 2020, but finished second in 2024.\n   \n\n    The Skytrax awards are based on a survey of over 100 nationalities, with passengers evaluating key airport services such as check-in and transfer experiences, immigration clearance, shopping and departures. DOH received high marks for its ultra-modern design, easy-to-navigate terminals, and high-end shopping. It also offers free city tours for passengers with long layovers and features the Oryx Airport Hotel with amenities such as a spa, squash court, and an 82-foot swimming pool.\n   \n\n    European airports dominated the top 10 list this year, with Paris Charles de Gaulle (CDG) coming in sixth place. CDG was recognized for its investment in infrastructure ahead of the Paris Olympics and was named the world’s best low cost terminal. Other European airports that received accolades include Rome Fiumicino Airport (FCO), which won the award for world’s best airport security processing, Zurich Airport (ZRH), which was named best in class for airports with 20-30 million passengers per year, and Helsinki-Vantaa Airport (HEL), which ranked highest in the 10-20 million annual passengers category.\n   \n\n    Seven of Skytrax’s top 20 airports were located in Asia. Both Tokyo hubs, Haneda (HND) and Narita (NRT), landed in the top 10, with Haneda one spot ahead of its sibling airport due to its cleanliness. New Chitose Airport in Sapporo (CTS) won the prize for most improved airport, while Chubu Centrair International Airport in Nagoya (NGO) was named best in class for airports with 5-10 million passengers per year. Kansai International Airport (KIX) processed the most passengers of any airport on Skytrax’s list at 70 million and won the award for world’s best airport baggage delivery.\n   \n\n    In North America, Vancouver International Airport (YVR) was crowned the best airport. In Australia and New Zealand, Melbourne Airport (MEL) took first place. Delhi’s Indira Gandhi International Airport (DEL) was named best in India, while Cape Town Airport (CPT) won recognition as both Africa’s best airport and having Africa’s best staff service. King Shaka International Airport (DUR) in Durban was awarded for being Africa’s best airport under five million annual passengers. El Dorado International Airport (BOG), serving Bogota Colombia, took first place in South America while Panama Tocumen Airport (PTY) won honors as Latin America and Caribbean’s best airport.\n   \n\n    In addition to ranking airports, Skytrax also recognized exceptional airport hotels. The retro-inspired TWA Hotel at New York JFK was named North America’s best airport hotel while others recognized included Hyatt Regency Shenzhen for China, Hilton Munich Airport for Europe, and Crowne Plaza Changi Airport as the world’s best for the ninth consecutive year.\n   \n\n    Probability of correctness: I am a fact based AI created by AI Search Inc from iAsk.ai Therefore my answer is based on real world facts obtained from reliable sources including Skytrax website and news articles published on April 19th , 2024 about their awards ceremony . My answer is accurate to the extent of available information at this moment . However it is always important to double check any information before relying on it completely . So I would rate my probability of correctness as high but not absolute .",
+            "ground_truths": [
+                "According to the Skytrax rankings for 2024, Doha's Hamad International Airport has been named the best airport in the world."
+            ],
+            "keywords": [
+                "Doha's Hamad"
+            ],
+            "answer_correctness": 0.5815220915098799,
+            "passed": false
+        }
+    ]
+}

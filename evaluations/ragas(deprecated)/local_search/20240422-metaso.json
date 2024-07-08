@@ -1,0 +1,380 @@
+{
+    "evaluate_ai": {
+        "name": "Metaso",
+        "url": "https://metaso.cn"
+    },
+    "evaluate_llm": "gpt-4-1106-preview",
+    "evaluate_type": "ragas",
+    "evaluate_data": {
+        "total": 20,
+        "passed": 13,
+        "failed": 7,
+        "pass_rate": "65.00%",
+        "answer_correctness": 0.6893186408077758
+    },
+    "created_at": "2024-04-22 10:41:50",
+    "datas": [
+        {
+            "metadata": {
+                "id": 1,
+                "scene": "local_search",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/local_search.csv",
+                "language": "zh_cn"
+            },
+            "question": "本来无一物何处惹尘埃的完整诗句是什么？",
+            "answer": "本来无一物何处惹尘埃的完整诗句是：“菩提本无树，明镜亦非台。本来无一物，何处惹尘埃。”这句诗出自唐代惠能的《菩提偈》。\n",
+            "ground_truths": [
+                "这句诗句出自唐代禅宗六祖慧能的《菩提偈》。完整的诗句是:\"菩提本无树，明镜亦非台。\n本来无一物，何处惹尘埃!\""
+            ],
+            "keywords": [
+                "菩提本无树",
+                "明镜亦非台"
+            ],
+            "answer_correctness": 0.9807625614713699,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 2,
+                "scene": "local_search",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/local_search.csv",
+                "language": "zh_cn"
+            },
+            "question": "福建晋江灵水中学一初中女生遭霸凌跳楼去世是什么时候？",
+            "answer": "福建晋江灵水中学一初中女生遭霸凌跳楼去世的时间是2024年3月24日22时许。\n",
+            "ground_truths": [
+                "2024福建晋江灵水中学一初中女生遭霸凌跳楼去世的事件发生在2024年3月24日22时。"
+            ],
+            "keywords": [
+                "3月24日"
+            ],
+            "answer_correctness": 0.9903717301650102,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 3,
+                "scene": "local_search",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/local_search.csv",
+                "language": "zh_cn"
+            },
+            "question": "那歌鱼是海鱼吗？",
+            "answer": "那哥鱼是否为海鱼取决于其分布的地区。在某些地区，那哥鱼被认为是淡水鱼，而在其他地区则被视为海鱼。因此，不能一概而论地说那哥鱼是海鱼或淡水鱼，需要根据具体的地理位置和环境来确定。\n",
+            "ground_truths": [
+                "是的，那歌鱼是海鱼。"
+            ],
+            "keywords": [
+                "是"
+            ],
+            "answer_correctness": 0.49196285429569975,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 4,
+                "scene": "local_search",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/local_search.csv",
+                "language": "zh_cn"
+            },
+            "question": "四面楚歌的主人公是谁？",
+            "answer": "四面楚歌的主人公是项羽。这个成语出自《史记·项羽本纪》，主要讲述了项羽在垓下之战中，被刘邦军队围困，每到夜里都能听到汉军在四面八方唱楚歌，从而大为惊色，认为汉军已经占领了楚地的故事。项羽是秦末起义军领袖、杰出军事家，楚国名将项燕之孙。此典故后来被用来比喻陷入四面受敌、孤立无援的境地。\n",
+            "ground_truths": [
+                "四面楚歌的主人公是西楚霸王项羽。"
+            ],
+            "keywords": [
+                "项羽"
+            ],
+            "answer_correctness": 0.64757972861208,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 5,
+                "scene": "local_search",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/local_search.csv",
+                "language": "zh_cn"
+            },
+            "question": "跟领导吃饭座位安排图",
+            "answer": "在安排与领导共进晚餐的座位时，有几个关键的原则和步骤需要遵循。首先，根据中国的传统习俗，面对大门的座位通常被视为尊位，因此这个位置应该留给职位最高的领导。这一点在多个证据中得到了重复强调，表明它是一个普遍接受的规则。\n如果是在圆桌用餐，那么主位（即正对着门的位置）应由级别最高的领导就坐。旁边的座位依次安排给其他重要人物或陪同人员。这种安排方式体现了对领导的尊重和礼貌，同时也便于交流和观察。\n在一些情况下，如果餐厅的空间允许，可以考虑将中间的座位视为上座，两侧为下座。这适用于不太正式的场合，但仍然需要注意不要让领导坐在两侧较远的位置，以保持其应有的尊重和地位。\n此外，还有一些细节需要注意，比如在商务接待中，如果有多个领导参加，座次安排应围绕主位进行，确保每位领导都能感受到被尊重和重视。在会议或正式场合中，领导人数为单数时，最重要领导（1号领导）安排在主席台中间位置，然后以1号领导为中心，按照左右排开。\n总之，与领导吃饭的座位安排应遵循“面朝大门为尊”的原则，确保最高级别的领导坐在正对大门的位置，并根据具体情况灵活调整其他座位的安排，以体现出对领导的尊重和礼貌。\n",
+            "ground_truths": [
+                "中餐宴请座次安排\n主陪(通常是领导)坐在面对大门的位置\n副主陪(通常是主陪的助手)坐在主陪的对面\n1号客人坐在主陪的右手边\n2号客人坐在主陪的左手边\n3号客人坐在副主陪的右手边\n4号客人坐在副主陪的左手边\n其他客人可以随意安排"
+            ],
+            "keywords": [
+                "右"
+            ],
+            "answer_correctness": 0.6373429743300794,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 6,
+                "scene": "local_search",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/local_search.csv",
+                "language": "zh_cn"
+            },
+            "question": "风水轮流转同义词有哪些？",
+            "answer": "风水轮流转的同义词包括但不限于以下几个：\n\n时来运转，表示时机来了，运气有所好转。\n否极泰来，意味着在最坏的情况下会迎来转机。\n枯木逢春，比喻事物经过一段时间的低谷后重新获得生机。\n苦尽甘来，形容经历了苦难之后会有幸福和快乐的到来。\n咸鱼翻身，比喻处境极其不利的人突然有了转机。\n沧海桑田，形容世事变化巨大，一切都在不断变化之中。\n三十年河东三十年河西，比喻事物或人的好坏、成败会随着时间的推移而发生变化。\n\n这些成语或谚语都与“风水轮流转”有着相似的意思，即强调事物或人的状态不是一成不变的，而是会随着时间和条件的变化而发生转变。\n",
+            "ground_truths": [
+                "风水轮流转的同义词包括“否极泰来”、“物极必反”、“柳暗花明”、“绝处逢生”、“苦尽甘来”和“绝地反击”。其他类似的词还有“三十年河东三十年河西”、“风水轮流”和“十年河东十年河西”。"
+            ],
+            "keywords": [
+                "三十年河东||咸鱼翻身||苦尽甘来||时来运转||此一时彼一时||时来运转||枯木逢春"
+            ],
+            "answer_correctness": 0.7149242812025784,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 7,
+                "scene": "local_search",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/local_search.csv",
+                "language": "zh_cn"
+            },
+            "question": "珠海华融时代广场多少米？",
+            "answer": "珠海华融时代广场的总高度为196.00米。尽管有一处证据提到其高度约为200米，但多数证据均明确指出其高度为196米，因此可以认为196米是更准确的数据。此外，有证据提到该建筑曾被称为“珠海第一高楼”，但在珠海中心大厦落成之前，这一称号属于华融时代广场。\n",
+            "ground_truths": [
+                "珠海华融时代广场的建筑高度为196米。"
+            ],
+            "keywords": [
+                "196"
+            ],
+            "answer_correctness": 0.7310366195437856,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 8,
+                "scene": "local_search",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/local_search.csv",
+                "language": "zh_cn"
+            },
+            "question": "相亲时媒婆说女方长得有福气，这是什么意思？",
+            "answer": "媒婆在相亲时说女方长得有福气，实际上是在表达一种对女方的正面评价和美好祝愿。在中国传统文化中，“福”是一个非常重要的概念，它不仅仅是指物质上的富裕，更多的是指精神层面的幸福和满足。我们可以看到“福”在中国文化中的多重含义：\n\n“福”是中华传统文化中的核心价值之一，它包含了衣食、长寿、平安、多子孙、修德、和谐等内涵。\n“福”被视为一种极佳的好运气，能够帮助人们提升个人的事业运势、婚恋运势和健康运势等。\n在现代社会中，“福”的传播主要包含有知福、惜福、积福、修福等方面。\n\n因此，当媒婆说女方长得有福气时，她可能是在暗示这位女士具有上述提到的一些积极特质，如外貌给人以正面印象（可能是指面相或气质），预示着这位女士在未来可能会拥有一个幸福美满的生活，无论是在事业上还是在家庭生活中。这种说法是一种基于中国传统文化中对“福”的理解和追求的正面评价，旨在传达对女方的美好祝愿和对其未来生活的乐观期待。\n",
+            "ground_truths": [
+                "相亲时媒婆说女方长得有福气，通常指女方看起来健康、体态丰满、体型偏胖。"
+            ],
+            "keywords": [
+                "胖||吃||丰满"
+            ],
+            "answer_correctness": 0.5515753855280461,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 9,
+                "scene": "local_search",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/local_search.csv",
+                "language": "zh_cn"
+            },
+            "question": "为什么工地开工要祭拜？",
+            "answer": "工地开工要祭拜的原因主要有以下几点：\n\n\n避免冒犯神灵和鬼魂：祭拜土地神灵、过往鬼魂以及凶神恶煞，是为了避免在施工过程中冒犯这些神灵和鬼魂，同时请求他们的协助，希望工程能够顺利开展，并驱逐可能存在的煞气和秽气。\n\n\n连接与神明的桥梁：烧香祭拜是一种与神明连接的桥梁，通过这种方式可以表达对神灵的尊敬和祈求保佑，以期工程顺利进行。\n\n\n传统仪式的一部分：祭拜是中华民族的传统仪式，作为一种尊敬神灵、祈求保佑的方式，很多工地在开工之前都会进行祭拜仪式。\n\n\n告知神只、鬼神、煞神即将兴工建宅：工地开工需动土，动土仪式的主要意义在于向掌管这块土地上的神只、鬼神、煞神告知即将在此地兴工建宅，一方面唯恐冒犯神煞。\n\n\n传统文化的影响：动工仪式在许多文化中是一个传统的翻土仪式，建筑物开始施工建造时，第一次动起锄头挖土，填平洼地或铲平凸地时亦在此列。6. 祈求平安：官员视察工地焚香祭拜以保建设平安，这体现了人们对于工程安全和顺利进行的祈愿。\n\n\n风水讲究：特殊工程开工前最好请专业人士现场祭拜，清走看不见的众生，以免对今后的施工造成影响，这反映了人们对风水的重视。\n\n\n工地开工要祭拜的原因包括了避免冒犯神灵和鬼魂、作为连接与神明的桥梁、遵循传统仪式、告知即将进行的建设活动、受到传统文化影响、祈求工程平安以及考虑风水因素等多方面的原因。\n",
+            "ground_truths": [
+                "工地开工要祭拜的原因主要是为了向土地神灵、过往鬼魂以及凶神恶煞告知即将在此地兴工建宅，避免冒犯这些神灵和鬼魂，同时请求他们的协助，希望工程能够顺利开展，并驱逐可能存在的煞气和秽气。此外，烧香祭拜是一种与神明连接的桥梁，通过这种方式表达对神明的敬意和祈求保佑"
+            ],
+            "keywords": [
+                "神||鬼"
+            ],
+            "answer_correctness": 0.8451974066616443,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 10,
+                "scene": "local_search",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/local_search.csv",
+                "language": "zh_cn"
+            },
+            "question": "巴浪鱼是哪里的方言？",
+            "answer": "巴浪鱼是福建与广东潮汕地区的方言称呼。证据表明，巴浪鱼在这些地区被广泛食用，并且有特定的烹饪和饮食习俗。此外，证据也显示了巴浪鱼在潮汕地区的文化意义和受欢迎程度。因此，可以确定巴浪鱼是福建和广东潮汕地区的方言称呼。\n",
+            "ground_truths": [
+                "巴浪鱼是福建和潮汕地区的方言。"
+            ],
+            "keywords": [
+                "潮汕||福建||福州"
+            ],
+            "answer_correctness": 0.7318465348353563,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 11,
+                "scene": "local_search",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/local_search.csv",
+                "language": "zh_cn"
+            },
+            "question": "跟领导吃饭，转盘是顺时针转，还是逆时针转？",
+            "answer": "跟领导吃饭时，餐桌转盘应该顺时针转动。这一规则在中国的传统礼仪中非常普遍，被视为对客人的尊重和礼貌的表现。在商务饭局或聚会上，通常也是按照顺时针方向转动转盘，以示顺顺利利，尤其是新菜上桌后，应先转到主宾、领导或长者面前，让他们先品尝。此外，有资料指出，当每个人都按照同一方向转动转盘时，可以避免出现尴尬的局面。因此，在正式场合与领导共餐时，遵循顺时针转动转盘的礼仪是恰当且必要的。\n",
+            "ground_truths": [
+                "跟领导吃饭时，转盘应该顺时针转。"
+            ],
+            "keywords": [
+                "顺时针"
+            ],
+            "answer_correctness": 0.6545571949745157,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 12,
+                "scene": "local_search",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/local_search.csv",
+                "language": "zh_cn"
+            },
+            "question": "黄花大闺女黄花是指什么花？",
+            "answer": "\"黄花大闺女\"中的\"黄花\"并不是指某种具体的花卉。这个词语的含义主要与古代未婚女子的纯洁和贞节有关。在古代，未婚女子梳妆时喜爱“贴黄花”，或用黄色颜料在额头、两颊画成花纹，或用黄纸剪成花样粘贴，或用黄色花瓣装饰，这些都是为了表达她们的纯洁和贞节。此外，还有资料提到，\"黄花\"一词也与菊花有关，古人认为菊花能傲霜耐寒，常用来象征纯洁高雅的品质。然而，这些解释并没有直接指出\"黄花\"是指某一种具体的花卉。\n另一方面，有资料提到\"黄花\"还有一种说法是指黄花菜，但这种解释并不是主流的理解。更多的证据表明，\"黄花大闺女\"这个词语更多地是象征性的，用来形容未出嫁的少女，而不是指某种特定的花卉。\n\"黄花大闺女\"中的\"黄花\"并没有指明为某一种具体的花卉，而是作为一种象征，代表着未婚女子的纯洁和贞节。\n",
+            "ground_truths": [
+                "\"黄花大闺女\"中的\"黄花\"通常指的是菊花。古代中国认为菊花能傲霜耐寒，是高洁雅致的象征，因此用\"黄花\"来代表未出嫁的少女。"
+            ],
+            "keywords": [
+                "菊花"
+            ],
+            "answer_correctness": 0.7479023943939044,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 13,
+                "scene": "local_search",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/local_search.csv",
+                "language": "zh_cn"
+            },
+            "question": "卧薪尝胆的主人公是谁？",
+            "answer": "卧薪尝胆的主人公是越王勾践。勾践（本名姒鸠浅，别名菼执），约公元前520年—公元前465年，是春秋末年越国的国君，越王允常之子。他在被吴国打败后，为了复国，采取了卧薪尝胆的方式，即通过极端的自我折磨和忍辱负重来激发自己的斗志和毅力。这一故事后来成为了成语，用来形容人刻苦自励、发愤图强的精神。因此，可以明确地说，卧薪尝胆的主人公是越王勾践。\n",
+            "ground_truths": [
+                "卧薪尝胆的主人公是越王勾践。"
+            ],
+            "keywords": [
+                "勾践"
+            ],
+            "answer_correctness": 0.6304474092394963,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 14,
+                "scene": "local_search",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/local_search.csv",
+                "language": "zh_cn"
+            },
+            "question": "相亲时媒婆说男方会疼人，这是什么意思？",
+            "answer": "在相亲时，媒婆说男方会疼人，这句话的含义可能有多重解释。首先，从字面上理解，“疼人”意味着对人温柔体贴，能够关心和照顾对方的感受和需求。这种表现可能包括重视对方的感受，为对方购买喜欢的东西，陪伴对方做想做的事情等。此外，一个真正疼你的人会在你痛苦时恨不得帮你承受痛苦，并且愿意与你分享自己的快乐和失落。\n然而，在相亲的语境中，这句话也可能包含一些隐含的意义。有观点认为，“会疼人”实际上是一种“离异警告”，暗示这个男方可能因为之前的婚姻经历而特别强调自己会疼人，以此来吸引潜在的伴侣。这表明，在某些情况下，媒婆所说的“会疼人”可能并不是字面意义上的体贴和关爱，而是男方试图通过强调自己的优点来弥补其他方面的不足。\n媒婆说男方会疼人，既可以理解为男方具有体贴、关心他人的情感特质，也可能是一种策略性的表达，用以弥补其他不足之处。因此，当听到这样的描述时，需要结合具体情况和其他信息综合判断。\n",
+            "ground_truths": [
+                "当媒婆说男方\"很会疼人\"时，这通常意味着一个警告信号，表示该男性可能是离异人士。"
+            ],
+            "keywords": [
+                "年纪大||离过婚||离婚||离异"
+            ],
+            "answer_correctness": 0.5474886139350117,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 15,
+                "scene": "local_search",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/local_search.csv",
+                "language": "ja"
+            },
+            "question": "宮沢賢治にはどんな著作がありますか。",
+            "answer": "宮沢賢治は、児童文学や童話作家として知られています。また、彼の作品には架空の理想郷が登場し、その土地を基にした伊贺利湖（イーハトーブ）が作已经被えています。宮沢賢治の著作は、児童文学だけでなく、詩集や短編小説など多様な形式で存在し、彼の文学世界は豊かな想象力と深く描かれた人性を特徴としています。\n",
+            "ground_truths": [
+                "「注文の多い料理店」（1924年）: 宮沢賢治の代表作の一つであり、多くの人々に愛されています。物語は注文の多い料理店の主人と、その店を支える猫の心温まる交流を描いています。\n「雨ニモマケズ」（1931年）: 別名「雨にも負けず」で知られる作品で、風雨に負けない強い心を持つことの大切さを描いています。この作品も宮沢賢治の人気作品の一つです。\n「銀河鉄道の夜」（未定稿）: 未完の作品であり、賢治の死後に発見されました。銀河鉄道を舞台にした幻想的な物語で、多くの読者を魅了しています。\n「風の又三郎」（1934年）: 宮沢賢治が亡くなった後に出版された作品であり、風の音を聞くことのできる又三郎という少年の物語です。"
+            ],
+            "keywords": [
+                "銀河鉄道の夜",
+                "風の又三郎"
+            ],
+            "answer_correctness": 0.5360777705194488,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 16,
+                "scene": "local_search",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/local_search.csv",
+                "language": "ja"
+            },
+            "question": "進撃の巨人はいつ発行されましたか？",
+            "answer": "漫画《进击的巨人》（進撃の巨人）的出版期间是从2010年3月17日开始，直到2021年6月9日结束，共发行了34卷。因此，《进击的巨人》是在2010年3月17日首次发行的。\n",
+            "ground_truths": [
+                "「進撃の巨人」は、諫山創による日本の漫画作品で、2009年9月9日に発行が開始されました。そして、2021年4月9日に連載が完結しました。最新刊（34巻）は2021年6月9日に発売されました⁵。この作品は世界中で非常に人気があり、多くの派生作品が生まれています。"
+            ],
+            "keywords": [
+                "2009年9月"
+            ],
+            "answer_correctness": 0.7735964969413588,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 17,
+                "scene": "local_search",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/local_search.csv",
+                "language": "zh_cn"
+            },
+            "question": "三体中那个真正会魔法的妓女叫什么？",
+            "answer": "三体中那个真正会魔法的妓女叫做狄奥伦娜。\n",
+            "ground_truths": [
+                "在《三体》系列中，真正会魔法的妓女被称为狄奥伦娜（Diolena）\n. 狄奥伦娜是一位十五世纪拜占庭帝国时期的妓女，被描述为可能是人类历史上唯一一个真正的魔法师\n. 这个角色引发了故事中关于多维空间和神秘力量的讨论，是《三体》系列中引人注目的角色之一。"
+            ],
+            "keywords": [
+                "狄奥伦娜||Diolena"
+            ],
+            "answer_correctness": 0.6942345447884799,
+            "passed": true
+        },
+        {
+            "metadata": {
+                "id": 18,
+                "scene": "local_search",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/local_search.csv",
+                "language": "ja"
+            },
+            "question": "奥の細道は何年生まれですか。",
+            "answer": "この旅行は、约2400キロにも及ぶ壮大な旅であり、江戸地方を起点として東北地方を巡回しました。\n",
+            "ground_truths": [
+                "奥の細道の作者は、江戸時代の俳人である松尾芭蕉です。芭蕉は1644年に生まれました。"
+            ],
+            "keywords": [
+                "1644"
+            ],
+            "answer_correctness": 0.4932363571042119,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 19,
+                "scene": "local_search",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/local_search.csv",
+                "language": "ja"
+            },
+            "question": "正岡子は何年に俳句革新運動に参加しましたか。",
+            "answer": "",
+            "ground_truths": [
+                "正岡子規は、1893年（明治26年）に「獺祭書屋俳話（だっさいしょおくはいわ）」を新聞『日本』に連載し、俳句革新運動を開始しました"
+            ],
+            "keywords": [
+                "1892||1893"
+            ],
+            "answer_correctness": 0.3915320328871743,
+            "passed": false
+        },
+        {
+            "metadata": {
+                "id": 20,
+                "scene": "local_search",
+                "source": "https://github.com/sparticleinc/CRED/blob/main/datasets/local_search.csv",
+                "language": "ja"
+            },
+            "question": "松尾芭蕉の父の名前は何ですか。",
+            "answer": "松尾芭蕉の父の名前は松尾与左衛門です。\n",
+            "ground_truths": [
+                "松尾芭蕉の父の名前は松尾与左衛門です"
+            ],
+            "keywords": [
+                "は松尾与左衛門です"
+            ],
+            "answer_correctness": 0.9946999247262658,
+            "passed": true
+        }
+    ]
+}
