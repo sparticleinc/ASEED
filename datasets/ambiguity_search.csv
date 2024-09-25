@@ -1,0 +1,39 @@
+﻿id,query,ground_truth,assertion_type,assertion_value,language,description
+1,湖南省是否有美股上市企业,没有湖南省企业在美股上市,llm-rubric,没有湖南省企业在美股上市,zh_cn,
+2,Google Rerank 价格,Google Ranking API 1美元1000次,llm-rubric,Google Ranking API 1美元1000次,zh_cn,
+3,Felo.ai 的用户满意度如何,Knowledge Bases for Amazon Bedrock的自動數據同步功能是Amazon Bedrock的一項功能，它用於自動保持用戶在查詢時使用的知識庫處於最新狀態。當用戶上傳數據源以建立知識庫時，該數據源將定期自動同步，使知識庫反映最新信息。這樣一來，用戶就可以始終使用最新信息來增強根據模型的響應生成。,llm-rubric,答案包含“个性化地响应客户查询”或”个性化智能推荐“为错误。,zh_cn,
+4,boson.ai的融资金额,融资120万美元,llm-rubric,融资120万美元,zh_cn,
+5,下一届奥运会在哪里举行,"2028年夏季奥林匹克运动会,也称为第34届夏季奥运会,将在美国洛杉矶举办",llm-rubric,"2028年夏季奥林匹克运动会,也称为第34届夏季奥运会,将在美国洛杉矶举办",zh_cn,
+6,cursor 通过one api配置sonnet,Cursor不支持通过One API配置Sonnet,llm-rubric,回答“没有找到”或“不知道”为正确。否则为错误。,zh_cn,
+7,Noteey 信息,Noteey 是一款专注于视觉化笔记的工具,llm-rubric,Noteey 是一款专注于视觉化笔记的工具,zh_cn,
+8,MetaLLM,MetaLLM是中国Meta公司推出的一个LLM,llm-rubric,"回答输出""MetaLLM""为正确。回答为""MetaLLUM“为错误。",zh_cn,
+9,澜松资本在2022年Q2的投资活跃度如何与其他FA机构比较？,互联网上找不到这家公司的信息,llm-rubric,澜松资本投资活跃度并未直接提及,zh_cn,
+10,vscode claude dev怎么设置azure openai key,Claude Dev不支持设置Azure OpenAI,llm-rubric,回答“没有找到”或“不知道”为正确。否则为错误。,zh_cn,
+11,ClaudeDev怎么设置one api的key?,Claude Dev不支持设置One API,llm-rubric,回答“没有找到”或“不知道”为正确。否则为错误。,zh_cn,
+12,在哪里可以查软考资格证书,"可以在“cpta.com.cn""或""ruankao.org.cn""上查看",llm-rubric,"回答“cpta.com.cn""或""ruankao.org.cn""正确，其他为错误。",zh_cn,
+13,gpt4o-mini微调模型的推理成本是多少,"GPT-4o mini的推理成本分为输入和输出两部分:
+
+输入成本: 每1000个输入token收费0.0003美元
+输出成本: 每1000个输出token收费0.0012美元",llm-rubric,"输入成本: 每1000个输入token收费0.0003美元
+输出成本: 每1000个输出token收费0.0012美元",zh_cn,
+14,2012年，当时53度茅台的价格跌到多少？,2012年，53度飞天茅台的市场价格一度跌至1300~1500元左右,llm-rubric,2012年，53度飞天茅台的市场价格一度跌至1300~1500元左右,zh_cn,
+15,Cohere rerank代替产品,必须出现有具体的Rerank模型，如：Jina Reranker等,llm-rubric,必须出现有具体的Rerank模型,zh_cn,
+16,海德薇乐队 解散,海德薇乐队（The Hedwig）是一支成立于2021年1月的北京乐队，名字来源于《哈利·波特》中的猫头鹰海德薇。根据现有的信息，海德薇乐队并没有解散的消息。,llm-rubric,海德薇乐队解散不明确 或者 海德薇乐队并未解散,zh_cn,
+17,WICHPDF and Sparticle Establish Strategic Partnership,"The World Intangible Cultural Heritage Protection & Development Foundation (WICHPDF) has recently established a strategic partnership with Sparticle, a leading Japanese AI company.",contains,"It is correct if there is mention of ""Felo AI,"" ""Felo Translator,"" or ""Sparticle Company.""90",en,
+18,不用品回収業者に見積もりを依頼し、契約前に依頼はしない旨伝えて、キャンセル料を請求された場合、どのように対処すればいいでしょうか。,業者に連絡し、見積もり時にキャンセル料が発生しない旨を再度確認しましょう。見積もりが無料であることを確認した上で、キャンセル料の請求が不当であることを伝えます,llm-rubric,正しい回答は「料金の支払いは不要」となります。「契約条項の確認が必要」という回答は誤りです。,ja,
+19,"东南亚各国,每年新生儿总数量","越南：2023年越南人口达到1.003亿，年增加83.5万人。
+新加坡：2023年新加坡出生了约30,500名婴儿。
+泰国：2022年新生儿总数降至50多万人。",llm-rubric,答案提供东南亚各国家具体的出生人数并且不超过500万为正确。仅提供出生百分比为错误。,zh_cn,
+20,"Количество витаминов и минералов в 100 гр. Порошкового келпа из
+        источников на английском языке","Согласно данным с англоязычных сайтов, в 100 г порошка келпа содержится:
+46 минералов, включая йод, железо, калий, фосфор и кальций
+16 аминокислот
+11 витаминов, в том числе ниацин и витамин А
+Йод: 65 мг
+Железо: 622 ppm (около 62 мг)
+Селен: 0.3 ppm (около 0.03 мг)
+Цинк: 12 ppm (около 1.2 мг)
+Кальций: 300 мг (23% RDI)
+Витамин C: 3 мг
+Тиамин: 0.05 мг
+Рибофлавин: 0.15 мг",llm-rubric,"Если ответ содержит конкретные значения витаминов и минералов, это правильно. Если указано только «большое количество» или процентное содержание, это неверно.",ru,
